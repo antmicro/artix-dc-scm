@@ -1468,7 +1468,7 @@ VCC1V8
 Wire Wire Line
 	7750 3600 7600 3600
 Text GLabel 7600 3600 0    50   Input ~ 0
-XADC1V8
+VCC1V8
 Text GLabel 4650 3800 1    50   Input ~ 0
 XADC1V8
 $Comp
@@ -1517,8 +1517,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 4400 4650 4500
 Connection ~ 4650 4400
-Text GLabel 7600 3500 0    50   Input ~ 0
-XADCGND
 Wire Wire Line
 	7750 3500 7600 3500
 Text GLabel 4650 4500 3    50   Input ~ 0
@@ -1764,12 +1762,12 @@ Connection ~ 7600 3900
 Wire Wire Line
 	7600 3900 7600 3800
 Text GLabel 7400 3800 0    50   Input ~ 0
-VCCBRAM
+VCC1V0
 Wire Wire Line
 	7600 3800 7400 3800
 Connection ~ 7600 3800
 Text GLabel 9900 2600 1    50   Input ~ 0
-VCCINT
+VCC1V0
 $Comp
 L antmicroCapacitorsmisc:C_100u_1210 C?
 U 1 1 61DCDEB6
@@ -1916,7 +1914,7 @@ Connection ~ 5500 4500
 Text Notes 5700 4250 0    118  ~ 0
 BRAM decoupling
 Text GLabel 5500 4300 1    50   Input ~ 0
-VCCINT
+VCC1V0
 $Comp
 L antmicroCapacitorspol:C_330u_KEMET_D C?
 U 1 1 6223039A
@@ -2634,9 +2632,9 @@ Wire Wire Line
 	11500 4100 11500 3900
 Connection ~ 11500 4100
 Text GLabel 12050 2600 1    50   Input ~ 0
-VCCINT
+VCC1V0
 Text GLabel 11500 3900 1    50   Input ~ 0
-VCCINT
+VCC1V0
 $Comp
 L antmicroCapacitorspol:C_680u_KEMET_D C?
 U 1 1 62D6AEFB
@@ -2709,213 +2707,11 @@ Wire Wire Line
 Wire Wire Line
 	11000 2800 11000 2600
 Text GLabel 11000 2600 1    50   Input ~ 0
-VCCINT
+VCC1V0
 Text Notes 10550 2800 3    50   ~ 0
 populate on \n
 Text Notes 11700 2150 0    118  ~ 0
 VCCINT decoupling
-Text GLabel 15350 9100 3    50   Input ~ 0
-XADCGND
-Text GLabel 15350 8800 1    50   Input ~ 0
-XADCVREF
-Text GLabel 12300 9150 3    50   Input ~ 0
-XADCGND
-Text GLabel 12300 8850 1    50   Input ~ 0
-AVCC3V3
-$Comp
-L antmicroCapacitors0402:C_100n_0402 C?
-U 1 1 645D96CD
-P 12300 9000
-F 0 "C?" H 12415 9045 60  0000 L CNN
-F 1 "C_100n_0402" H 12300 8850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 12500 9200 60  0001 L CNN
-F 3 "" H 12300 9000 50  0001 C CNN
-F 4 "Walsin" H 12500 9400 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 12500 9300 60  0001 L CNN "MPN"
-F 6 "100n" H 12415 8947 50  0000 L CNN "Val"
-	1    12300 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroCapacitors0402:C_10u_0402 C?
-U 1 1 645D82F3
-P 15350 8950
-F 0 "C?" H 15465 8995 60  0000 L CNN
-F 1 "C_10u_0402" H 15350 8800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 15550 9150 60  0001 L CNN
-F 3 "" H 15350 8950 50  0001 C CNN
-F 4 "MURATA" H 15550 9350 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 15550 9250 60  0001 L CNN "MPN"
-F 6 "10u" H 15465 8897 50  0000 L CNN "Val"
-	1    15350 8950
-	1    0    0    -1  
-$EndComp
-Text GLabel 14450 8975 2    50   Input ~ 0
-XADCVREF
-Wire Wire Line
-	14175 8975 14450 8975
-Wire Wire Line
-	13275 9125 13200 9125
-Text GLabel 13200 9125 0    50   Input ~ 0
-XADCGND
-Wire Wire Line
-	12825 8900 12825 8975
-Text GLabel 12825 8900 1    50   Input ~ 0
-AVCC3V3
-Wire Wire Line
-	13275 8975 12825 8975
-$Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:REF3012AIDBZT U?
-U 1 1 643B2A61
-P 13975 8975
-F 0 "U?" H 13725 9190 50  0000 C CNN
-F 1 "REF3012AIDBZT" H 13725 9099 50  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-3" H 14125 9275 50  0001 L BNN
-F 3 "" H 14125 9375 50  0001 L BNN
-	1    13975 8975
-	1    0    0    -1  
-$EndComp
-Text GLabel 14425 7650 2    50   Input ~ 0
-AVCC3V3
-Text GLabel 12800 7550 1    50   Input ~ 0
-VCC3V3
-$Comp
-L power:GND #PWR?
-U 1 1 642F2B49
-P 13025 8150
-F 0 "#PWR?" H 13025 7900 50  0001 C CNN
-F 1 "GND" H 13030 7977 50  0000 C CNN
-F 2 "" H 13025 8150 50  0001 C CNN
-F 3 "" H 13025 8150 50  0001 C CNN
-	1    13025 8150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13025 7950 13025 8150
-Wire Wire Line
-	12800 7650 12800 7550
-Wire Wire Line
-	14100 7650 14425 7650
-Connection ~ 14100 7650
-$Comp
-L antmicroCapacitors0402:C_470n_0402 C?
-U 1 1 64284146
-P 14100 7800
-F 0 "C?" H 14215 7845 60  0000 L CNN
-F 1 "C_470n_0402" H 14100 7650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14300 8000 60  0001 L CNN
-F 3 "" H 14100 7800 50  0001 C CNN
-F 4 "TDK" H 14300 8200 60  0001 L CNN "Manufacturer"
-F 5 "C1005X5R1E474M050BB" H 14300 8100 60  0001 L CNN "MPN"
-F 6 "470n" H 14215 7747 50  0000 L CNN "Val"
-	1    14100 7800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13775 7650 14100 7650
-Connection ~ 13775 7650
-Wire Wire Line
-	14100 7950 13775 7950
-Connection ~ 13775 7950
-$Comp
-L antmicroCapacitors0402:C_1u_0402 C?
-U 1 1 64282C33
-P 13775 7800
-F 0 "C?" H 13660 7755 60  0000 R CNN
-F 1 "C_1u_0402" H 13775 7650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 13975 8000 60  0001 L CNN
-F 3 "" H 13775 7800 50  0001 C CNN
-F 4 "TDK" H 13975 8200 60  0001 L CNN "Manufacturer"
-F 5 "C1005X6S1A105K050BC" H 13975 8100 60  0001 L CNN "MPN"
-F 6 "1u" H 13660 7853 50  0000 R CNN "Val"
-	1    13775 7800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13500 7650 13775 7650
-Wire Wire Line
-	13400 7650 13500 7650
-Connection ~ 13500 7650
-Wire Wire Line
-	13775 7950 13500 7950
-Wire Wire Line
-	13500 7950 13025 7950
-Connection ~ 13500 7950
-$Comp
-L antmicroCapacitors0402:C_10u_0402 C?
-U 1 1 6427ABFA
-P 13500 7800
-F 0 "C?" H 13385 7755 60  0000 R CNN
-F 1 "C_10u_0402" H 13500 7650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 13700 8000 60  0001 L CNN
-F 3 "" H 13500 7800 50  0001 C CNN
-F 4 "MURATA" H 13700 8200 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 13700 8100 60  0001 L CNN "MPN"
-F 6 "10u" H 13385 7853 50  0000 R CNN "Val"
-	1    13500 7800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13025 7650 12800 7650
-Wire Wire Line
-	13100 7650 13025 7650
-Connection ~ 13025 7650
-Connection ~ 13025 7950
-$Comp
-L antmicroCapacitors0402:C_10u_0402 C?
-U 1 1 642799BF
-P 13025 7800
-F 0 "C?" H 12910 7755 60  0000 R CNN
-F 1 "C_10u_0402" H 13025 7650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 13225 8000 60  0001 L CNN
-F 3 "" H 13025 7800 50  0001 C CNN
-F 4 "MURATA" H 13225 8200 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 13225 8100 60  0001 L CNN "MPN"
-F 6 "10u" H 12910 7853 50  0000 R CNN "Val"
-	1    13025 7800
-	-1   0    0    1   
-$EndComp
-$Comp
-L antmicroFixedInductors:10uH L?
-U 1 1 64278577
-P 13250 7650
-F 0 "L?" H 13250 7864 60  0000 C CNN
-F 1 "10uH" H 13250 7758 60  0000 C CNN
-F 2 "antmicro-footprints:0805-res" H 13300 7500 60  0001 C CNN
-F 3 "" H 13305 7680 60  0001 C CNN
-F 4 "TDK" H 13250 7550 50  0001 C CNN "Manufacturer"
-F 5 "MLZ2012N100LT000" H 13200 7600 50  0001 C CNN "MPN"
-	1    13250 7650
-	1    0    0    -1  
-$EndComp
-Text GLabel 13200 9500 0    50   Input ~ 0
-XADCGND
-$Comp
-L power:GND #PWR?
-U 1 1 64669A59
-P 13875 9500
-F 0 "#PWR?" H 13875 9250 50  0001 C CNN
-F 1 "GND" V 13880 9372 50  0000 R CNN
-F 2 "" H 13875 9500 50  0001 C CNN
-F 3 "" H 13875 9500 50  0001 C CNN
-	1    13875 9500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroFerriteBeadsandChips:BLM18PG121SN1D FB?
-U 1 1 6466A4B3
-P 13500 9500
-F 0 "FB?" H 13500 9787 60  0000 C CNN
-F 1 "BLM18PG121SN1D" H 13500 9681 60  0000 C CNN
-F 2 "antmicro-footprints:0603-res" H 13700 9700 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 13700 9800 60  0001 L CNN
-F 4 "BLM18PG121SN1D" H 13700 10000 60  0001 L CNN "MPN"
-F 5 "Murata Electronics North America" H 13700 10600 60  0001 L CNN "Manufacturer"
-	1    13500 9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13200 9500 13300 9500
-Wire Wire Line
-	13700 9500 13875 9500
+Text Notes 5375 2375 0    118  ~ 0
+VCCAUX decoupling
 $EndSCHEMATC
