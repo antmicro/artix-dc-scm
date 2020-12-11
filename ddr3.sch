@@ -1,0 +1,1592 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 6 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L eco_memory:AS4C256M16D3 U13
+U 1 1 61631204
+P 5050 4075
+F 0 "U13" H 5050 5812 60  0000 C CNN
+F 1 "AS4C256M16D3" H 5050 5706 60  0000 C CNN
+F 2 "Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm" H 5050 4075 60  0001 C CNN
+F 3 "" H 5050 4075 60  0001 C CNN
+	1    5050 4075
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 2625 0    50   Input ~ 0
+DDR3_A0
+Text GLabel 3650 2725 0    50   Input ~ 0
+DDR3_A1
+Text GLabel 3650 2825 0    50   Input ~ 0
+DDR3_A2
+Text GLabel 3650 2925 0    50   Input ~ 0
+DDR3_A3
+Text GLabel 3650 3025 0    50   Input ~ 0
+DDR3_A4
+Text GLabel 3650 3125 0    50   Input ~ 0
+DDR3_A5
+Text GLabel 3650 3225 0    50   Input ~ 0
+DDR3_A6
+Text GLabel 3650 3325 0    50   Input ~ 0
+DDR3_A7
+Text GLabel 3650 3425 0    50   Input ~ 0
+DDR3_A8
+Text GLabel 3650 3525 0    50   Input ~ 0
+DDR3_A9
+Text GLabel 3650 3625 0    50   Input ~ 0
+DDR3_A10
+Text GLabel 3650 3725 0    50   Input ~ 0
+DDR3_A11
+Text GLabel 3650 3825 0    50   Input ~ 0
+DDR3_A12
+Text GLabel 3650 3925 0    50   Input ~ 0
+DDR3_A13
+Text GLabel 3650 4025 0    50   Input ~ 0
+DDR3_A14
+Text GLabel 3650 4225 0    50   Input ~ 0
+DDR3_BA0
+Text GLabel 3650 4325 0    50   Input ~ 0
+DDR3_BA1
+Text GLabel 3650 4425 0    50   Input ~ 0
+DDR3_BA2
+Text GLabel 3650 4625 0    50   Input ~ 0
+DDR3_CLK+
+Text GLabel 3650 4725 0    50   Input ~ 0
+DDR3_CLK-
+Text GLabel 3650 4825 0    50   Input ~ 0
+DDR3_CKE
+Text GLabel 3650 5025 0    50   Input ~ 0
+DDR3_RESET
+Text GLabel 3650 5125 0    50   Input ~ 0
+DDR3_CS
+Text GLabel 3650 5225 0    50   Input ~ 0
+DDR3_CAS
+Text GLabel 3650 5325 0    50   Input ~ 0
+DDR3_RAS
+Text GLabel 3650 5425 0    50   Input ~ 0
+DDR3_WE
+Text GLabel 3650 5525 0    50   Input ~ 0
+DDR3_ODT
+Wire Wire Line
+	3650 2625 4050 2625
+Wire Wire Line
+	3650 2725 4050 2725
+Wire Wire Line
+	3650 2825 4050 2825
+Wire Wire Line
+	3650 2925 4050 2925
+Wire Wire Line
+	3650 3025 4050 3025
+Wire Wire Line
+	3650 3125 4050 3125
+Wire Wire Line
+	3650 3225 4050 3225
+Wire Wire Line
+	3650 3325 4050 3325
+Wire Wire Line
+	3650 3425 4050 3425
+Wire Wire Line
+	3650 3525 4050 3525
+Wire Wire Line
+	3650 3625 4050 3625
+Wire Wire Line
+	3650 3725 4050 3725
+Wire Wire Line
+	3650 3825 4050 3825
+Wire Wire Line
+	3650 3925 4050 3925
+Wire Wire Line
+	3650 4025 4050 4025
+Wire Wire Line
+	3650 4225 4050 4225
+Wire Wire Line
+	3650 4325 4050 4325
+Wire Wire Line
+	3650 4425 4050 4425
+Wire Wire Line
+	3650 4625 4050 4625
+Wire Wire Line
+	3650 4725 4050 4725
+Wire Wire Line
+	3650 4825 4050 4825
+Wire Wire Line
+	3650 5025 4050 5025
+Wire Wire Line
+	3650 5125 4050 5125
+Wire Wire Line
+	3650 5225 4050 5225
+Wire Wire Line
+	3650 5325 4050 5325
+Wire Wire Line
+	3650 5425 4050 5425
+Wire Wire Line
+	3650 5525 4050 5525
+Wire Wire Line
+	6050 2625 6450 2625
+Text GLabel 6450 2625 2    50   BiDi ~ 0
+DDR3_DQ0
+Text GLabel 6450 2725 2    50   BiDi ~ 0
+DDR3_DQ1
+Text GLabel 6450 2825 2    50   BiDi ~ 0
+DDR3_DQ2
+Text GLabel 6450 2925 2    50   BiDi ~ 0
+DDR3_DQ3
+Text GLabel 6450 3025 2    50   BiDi ~ 0
+DDR3_DQ4
+Text GLabel 6450 3125 2    50   BiDi ~ 0
+DDR3_DQ5
+Text GLabel 6450 3225 2    50   BiDi ~ 0
+DDR3_DQ6
+Text GLabel 6450 3325 2    50   BiDi ~ 0
+DDR3_DQ7
+Text GLabel 6450 3425 2    50   BiDi ~ 0
+DDR3_DQ8
+Text GLabel 6450 3525 2    50   BiDi ~ 0
+DDR3_DQ9
+Text GLabel 6450 3625 2    50   BiDi ~ 0
+DDR3_DQ10
+Text GLabel 6450 3725 2    50   BiDi ~ 0
+DDR3_DQ11
+Text GLabel 6450 3825 2    50   BiDi ~ 0
+DDR3_DQ12
+Text GLabel 6450 3925 2    50   BiDi ~ 0
+DDR3_DQ13
+Text GLabel 6450 4025 2    50   BiDi ~ 0
+DDR3_DQ14
+Text GLabel 6450 4125 2    50   BiDi ~ 0
+DDR3_DQ15
+Wire Wire Line
+	6450 2725 6050 2725
+Wire Wire Line
+	6450 2825 6050 2825
+Wire Wire Line
+	6450 2925 6050 2925
+Wire Wire Line
+	6450 3025 6050 3025
+Wire Wire Line
+	6450 3125 6050 3125
+Wire Wire Line
+	6450 3225 6050 3225
+Wire Wire Line
+	6450 3325 6050 3325
+Wire Wire Line
+	6450 3425 6050 3425
+Wire Wire Line
+	6450 3525 6050 3525
+Wire Wire Line
+	6450 3625 6050 3625
+Wire Wire Line
+	6450 3725 6050 3725
+Wire Wire Line
+	6450 3825 6050 3825
+Wire Wire Line
+	6450 3925 6050 3925
+Wire Wire Line
+	6450 4025 6050 4025
+Wire Wire Line
+	6450 4125 6050 4125
+Text GLabel 6450 4325 2    50   BiDi ~ 0
+DDR3_DM0
+Text GLabel 6450 4425 2    50   BiDi ~ 0
+DDR3_DM1
+Wire Wire Line
+	6450 4325 6050 4325
+Wire Wire Line
+	6050 4425 6450 4425
+Text GLabel 6450 4625 2    50   BiDi ~ 0
+DDR3_DQS0+
+Text GLabel 6450 4725 2    50   BiDi ~ 0
+DDR3_DQS0-
+Text GLabel 6450 4825 2    50   BiDi ~ 0
+DDR3_DQS1+
+Text GLabel 6450 4925 2    50   BiDi ~ 0
+DDR3_DQS1-
+Wire Wire Line
+	6450 4625 6050 4625
+Wire Wire Line
+	6450 4725 6050 4725
+Wire Wire Line
+	6450 4825 6050 4825
+Wire Wire Line
+	6450 4925 6050 4925
+$Comp
+L Regulator_Linear:TPS51200DRC U12
+U 1 1 617895D5
+P 7925 9200
+F 0 "U12" H 8175 8800 50  0000 L CNN
+F 1 "TPS51200DRC" H 7625 9650 50  0000 C CNN
+F 2 "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm" H 7925 10050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps51200.pdf" H 7925 10050 50  0001 C CNN
+	1    7925 9200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 7475 6775 7475
+Connection ~ 6775 7475
+Wire Wire Line
+	6775 7475 7075 7475
+Wire Wire Line
+	7075 7975 6775 7975
+Connection ~ 6775 7975
+Wire Wire Line
+	6775 7975 6475 7975
+$Comp
+L power:GND #PWR066
+U 1 1 617E94FA
+P 5675 8125
+F 0 "#PWR066" H 5675 7875 50  0001 C CNN
+F 1 "GND" H 5680 7952 50  0000 C CNN
+F 2 "" H 5675 8125 50  0001 C CNN
+F 3 "" H 5675 8125 50  0001 C CNN
+	1    5675 8125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 9100 7425 9100
+$Comp
+L power:GND #PWR069
+U 1 1 618D515B
+P 5900 9525
+F 0 "#PWR069" H 5900 9275 50  0001 C CNN
+F 1 "GND" H 5905 9352 50  0000 C CNN
+F 2 "" H 5900 9525 50  0001 C CNN
+F 3 "" H 5900 9525 50  0001 C CNN
+	1    5900 9525
+	1    0    0    -1  
+$EndComp
+Text GLabel 6975 9400 0    50   Output ~ 0
+DDR3_Vref
+Wire Wire Line
+	6975 9400 7025 9400
+$Comp
+L power:GND #PWR072
+U 1 1 6192C6FB
+P 7925 9850
+F 0 "#PWR072" H 7925 9600 50  0001 C CNN
+F 1 "GND" H 7930 9677 50  0000 C CNN
+F 2 "" H 7925 9850 50  0001 C CNN
+F 3 "" H 7925 9850 50  0001 C CNN
+	1    7925 9850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 9850 7925 9700
+Text GLabel 8575 9400 2    50   Input ~ 0
+DDR3_Vtt_EN
+Wire Wire Line
+	8575 9400 8425 9400
+Connection ~ 7325 9400
+Wire Wire Line
+	7325 9400 7425 9400
+Text Label 8925 9200 2    50   ~ 0
+DDR3_VTT
+Wire Wire Line
+	8925 9200 8425 9200
+$Comp
+L power:GND #PWR074
+U 1 1 61999CDB
+P 9325 9525
+F 0 "#PWR074" H 9325 9275 50  0001 C CNN
+F 1 "GND" H 9330 9352 50  0000 C CNN
+F 2 "" H 9325 9525 50  0001 C CNN
+F 3 "" H 9325 9525 50  0001 C CNN
+	1    9325 9525
+	1    0    0    -1  
+$EndComp
+$Comp
+L eco_memory:AS4C256M16D3 U13
+U 2 1 61D3FB1D
+P 12975 4050
+F 0 "U13" H 12975 5687 60  0000 C CNN
+F 1 "AS4C256M16D3" H 12975 5581 60  0000 C CNN
+F 2 "Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm" H 12975 4050 60  0001 C CNN
+F 3 "" H 12975 4050 60  0001 C CNN
+	2    12975 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11975 4500 11775 4500
+Wire Wire Line
+	11775 4500 11775 4400
+Wire Wire Line
+	11975 2700 11775 2700
+Connection ~ 11775 2700
+Wire Wire Line
+	11975 2800 11775 2800
+Wire Wire Line
+	11975 2900 11775 2900
+Wire Wire Line
+	11975 3000 11775 3000
+Wire Wire Line
+	11975 3100 11775 3100
+Wire Wire Line
+	11975 3200 11775 3200
+Wire Wire Line
+	11975 3300 11775 3300
+Wire Wire Line
+	11975 3400 11775 3400
+Wire Wire Line
+	11975 3500 11775 3500
+Wire Wire Line
+	11975 3700 11775 3700
+Wire Wire Line
+	11975 3800 11775 3800
+Wire Wire Line
+	11975 3900 11775 3900
+Wire Wire Line
+	11975 4000 11775 4000
+Wire Wire Line
+	11975 4100 11775 4100
+Wire Wire Line
+	11975 4200 11775 4200
+Wire Wire Line
+	11975 4300 11775 4300
+Wire Wire Line
+	11975 4400 11775 4400
+Connection ~ 11775 2800
+Wire Wire Line
+	11775 2800 11775 2700
+Connection ~ 11775 2900
+Connection ~ 11775 3000
+Connection ~ 11775 3100
+Connection ~ 11775 3200
+Connection ~ 11775 3300
+Connection ~ 11775 3400
+Connection ~ 11775 3500
+Connection ~ 11775 3700
+Connection ~ 11775 3800
+Connection ~ 11775 3900
+Connection ~ 11775 4000
+Connection ~ 11775 4100
+Connection ~ 11775 4200
+Connection ~ 11775 4300
+Connection ~ 11775 4400
+Wire Wire Line
+	11775 2900 11775 2800
+Wire Wire Line
+	11775 3000 11775 2900
+Wire Wire Line
+	11775 3100 11775 3000
+Wire Wire Line
+	11775 3200 11775 3100
+Wire Wire Line
+	11775 3300 11775 3200
+Wire Wire Line
+	11775 3400 11775 3300
+Wire Wire Line
+	11775 3500 11775 3400
+Wire Wire Line
+	11775 3700 11775 3500
+Wire Wire Line
+	11775 3800 11775 3700
+Wire Wire Line
+	11775 3900 11775 3800
+Wire Wire Line
+	11775 4000 11775 3900
+Wire Wire Line
+	11775 4100 11775 4000
+Wire Wire Line
+	11775 4200 11775 4100
+Wire Wire Line
+	11775 4300 11775 4200
+Wire Wire Line
+	11775 4400 11775 4300
+Wire Wire Line
+	9475 2800 9825 2800
+Connection ~ 9825 2800
+Wire Wire Line
+	9475 3200 9825 3200
+Connection ~ 9825 3200
+$Comp
+L power:GND #PWR076
+U 1 1 61D3FBA2
+P 9475 3300
+F 0 "#PWR076" H 9475 3050 50  0001 C CNN
+F 1 "GND" H 9480 3127 50  0000 C CNN
+F 2 "" H 9475 3300 50  0001 C CNN
+F 3 "" H 9475 3300 50  0001 C CNN
+	1    9475 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9475 3200 9475 3300
+Connection ~ 9475 3200
+$Comp
+L power:GND #PWR078
+U 1 1 61D3FBEE
+P 9825 4200
+F 0 "#PWR078" H 9825 3950 50  0001 C CNN
+F 1 "GND" H 9830 4027 50  0000 C CNN
+F 2 "" H 9825 4200 50  0001 C CNN
+F 3 "" H 9825 4200 50  0001 C CNN
+	1    9825 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 4200 9825 4100
+Wire Wire Line
+	11675 5000 11975 5000
+Wire Wire Line
+	11325 4800 11875 4800
+Wire Wire Line
+	11325 4800 10975 4800
+Connection ~ 11325 4800
+Wire Wire Line
+	11975 4700 11875 4700
+Wire Wire Line
+	11875 4700 11875 4800
+Connection ~ 11875 4800
+Wire Wire Line
+	11875 4800 11975 4800
+Wire Wire Line
+	11675 5400 11325 5400
+Connection ~ 11325 5400
+Wire Wire Line
+	11325 5400 10975 5400
+$Comp
+L power:GND #PWR080
+U 1 1 61D3FC25
+P 11325 5500
+F 0 "#PWR080" H 11325 5250 50  0001 C CNN
+F 1 "GND" H 11330 5327 50  0000 C CNN
+F 2 "" H 11325 5500 50  0001 C CNN
+F 3 "" H 11325 5500 50  0001 C CNN
+	1    11325 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11325 5500 11325 5400
+NoConn ~ 13975 3100
+NoConn ~ 13975 3000
+NoConn ~ 13975 2900
+NoConn ~ 13975 2800
+NoConn ~ 13975 2700
+Text GLabel 10825 4800 0    50   Input ~ 0
+DDR3_Vref
+Wire Wire Line
+	10825 4800 10975 4800
+Connection ~ 10975 4800
+$Comp
+L power:GND #PWR084
+U 1 1 61E153B0
+P 14175 5600
+F 0 "#PWR084" H 14175 5350 50  0001 C CNN
+F 1 "GND" H 14180 5427 50  0000 C CNN
+F 2 "" H 14175 5600 50  0001 C CNN
+F 3 "" H 14175 5600 50  0001 C CNN
+	1    14175 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14175 5600 14175 5400
+Wire Wire Line
+	14175 3300 13975 3300
+Wire Wire Line
+	13975 3400 14175 3400
+Connection ~ 14175 3400
+Wire Wire Line
+	14175 3400 14175 3300
+Wire Wire Line
+	13975 3500 14175 3500
+Wire Wire Line
+	13975 3600 14175 3600
+Wire Wire Line
+	13975 3700 14175 3700
+Wire Wire Line
+	13975 3800 14175 3800
+Wire Wire Line
+	13975 3900 14175 3900
+Wire Wire Line
+	13975 4000 14175 4000
+Wire Wire Line
+	13975 4100 14175 4100
+Wire Wire Line
+	13975 4200 14175 4200
+Wire Wire Line
+	13975 4300 14175 4300
+Wire Wire Line
+	13975 4400 14175 4400
+Wire Wire Line
+	13975 4600 14175 4600
+Wire Wire Line
+	13975 4700 14175 4700
+Wire Wire Line
+	13975 4800 14175 4800
+Wire Wire Line
+	13975 4900 14175 4900
+Wire Wire Line
+	13975 5000 14175 5000
+Wire Wire Line
+	13975 5100 14175 5100
+Wire Wire Line
+	13975 5200 14175 5200
+Wire Wire Line
+	13975 5300 14175 5300
+Wire Wire Line
+	13975 5400 14175 5400
+Connection ~ 14175 3500
+Wire Wire Line
+	14175 3500 14175 3400
+Connection ~ 14175 3600
+Connection ~ 14175 3700
+Connection ~ 14175 3800
+Connection ~ 14175 3900
+Connection ~ 14175 4000
+Connection ~ 14175 4100
+Connection ~ 14175 4200
+Connection ~ 14175 4300
+Connection ~ 14175 4400
+Connection ~ 14175 4600
+Connection ~ 14175 4700
+Connection ~ 14175 4800
+Connection ~ 14175 4900
+Connection ~ 14175 5000
+Connection ~ 14175 5100
+Connection ~ 14175 5200
+Connection ~ 14175 5300
+Connection ~ 14175 5400
+Wire Wire Line
+	14175 3600 14175 3500
+Wire Wire Line
+	14175 3700 14175 3600
+Wire Wire Line
+	14175 3800 14175 3700
+Wire Wire Line
+	14175 3900 14175 3800
+Wire Wire Line
+	14175 4000 14175 3900
+Wire Wire Line
+	14175 4100 14175 4000
+Wire Wire Line
+	14175 4200 14175 4100
+Wire Wire Line
+	14175 4300 14175 4200
+Wire Wire Line
+	14175 4400 14175 4300
+Wire Wire Line
+	14175 4600 14175 4400
+Wire Wire Line
+	14175 4700 14175 4600
+Wire Wire Line
+	14175 4800 14175 4700
+Wire Wire Line
+	14175 4900 14175 4800
+Wire Wire Line
+	14175 5000 14175 4900
+Wire Wire Line
+	14175 5100 14175 5000
+Wire Wire Line
+	14175 5200 14175 5100
+Wire Wire Line
+	14175 5300 14175 5200
+Wire Wire Line
+	14175 5400 14175 5300
+Text GLabel 12325 7900 0    50   Input ~ 0
+DDR3_CLK+
+Text GLabel 12325 8600 0    50   Input ~ 0
+DDR3_CLK-
+$Comp
+L Device:R_Small R51
+U 1 1 61E52269
+P 12475 8050
+F 0 "R51" H 12534 8096 50  0000 L CNN
+F 1 "51" H 12534 8005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12475 8050 50  0001 C CNN
+F 3 "~" H 12475 8050 50  0001 C CNN
+	1    12475 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R52
+U 1 1 61E8AA6B
+P 12475 8450
+F 0 "R52" H 12534 8496 50  0000 L CNN
+F 1 "51" H 12534 8405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12475 8450 50  0001 C CNN
+F 3 "~" H 12475 8450 50  0001 C CNN
+	1    12475 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12475 8550 12475 8600
+Wire Wire Line
+	12475 8600 12325 8600
+Wire Wire Line
+	12475 8350 12475 8250
+Wire Wire Line
+	12475 7950 12475 7900
+Wire Wire Line
+	12475 7900 12325 7900
+Connection ~ 12475 8250
+Wire Wire Line
+	12475 8250 12475 8150
+$Comp
+L power:GND #PWR067
+U 1 1 61F71898
+P 13175 8250
+F 0 "#PWR067" H 13175 8000 50  0001 C CNN
+F 1 "GND" V 13180 8122 50  0000 R CNN
+F 2 "" H 13175 8250 50  0001 C CNN
+F 3 "" H 13175 8250 50  0001 C CNN
+	1    13175 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_4u7_0402 C?
+U 1 1 5FF7656D
+P 9475 3000
+F 0 "C?" H 9500 3100 60  0000 L CNN
+F 1 "C_4u7_0402" H 9475 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9675 3200 60  0001 L CNN
+F 3 "" H 9475 3000 50  0001 C CNN
+F 4 "MURATA" H 9675 3400 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 9675 3300 60  0001 L CNN "MPN"
+F 6 "4u7" H 9500 2900 50  0000 L CNN "Val"
+	1    9475 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9475 2800 9475 2850
+Wire Wire Line
+	9475 3150 9475 3200
+Wire Wire Line
+	9825 2800 9825 2850
+Wire Wire Line
+	10125 2800 10125 2850
+Wire Wire Line
+	10425 2800 10425 2850
+Wire Wire Line
+	9825 2800 10125 2800
+Connection ~ 10125 2800
+Wire Wire Line
+	9825 3200 10125 3200
+Connection ~ 10125 3200
+Connection ~ 10425 2800
+Connection ~ 10425 3200
+Wire Wire Line
+	10125 2800 10425 2800
+Wire Wire Line
+	10125 3200 10425 3200
+Wire Wire Line
+	10725 2800 10725 2850
+Wire Wire Line
+	11025 2800 11025 2850
+Wire Wire Line
+	11325 2800 11325 2850
+Wire Wire Line
+	10425 2800 10725 2800
+Connection ~ 10725 2800
+Wire Wire Line
+	10425 3200 10725 3200
+Connection ~ 10725 3200
+Wire Wire Line
+	10725 2800 11025 2800
+Connection ~ 11025 2800
+Wire Wire Line
+	10725 3200 11025 3200
+Connection ~ 11025 3200
+Wire Wire Line
+	11025 2800 11325 2800
+Wire Wire Line
+	11325 2800 11775 2800
+Connection ~ 11325 2800
+Wire Wire Line
+	11025 3200 11325 3200
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 602089A9
+P 9825 3000
+F 0 "C?" H 9850 3100 60  0000 L CNN
+F 1 "C_470n_0402" H 9825 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10025 3200 60  0001 L CNN
+F 3 "" H 9825 3000 50  0001 C CNN
+F 4 "TDK" H 10025 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 10025 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 9850 2900 50  0000 L CNN "Val"
+	1    9825 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 3150 9825 3200
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 60249CE3
+P 10125 3000
+F 0 "C?" H 10150 3100 60  0000 L CNN
+F 1 "C_470n_0402" H 10125 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10325 3200 60  0001 L CNN
+F 3 "" H 10125 3000 50  0001 C CNN
+F 4 "TDK" H 10325 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 10325 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 10150 2900 50  0000 L CNN "Val"
+	1    10125 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 3150 10125 3200
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6024B512
+P 10425 3000
+F 0 "C?" H 10450 3100 60  0000 L CNN
+F 1 "C_470n_0402" H 10425 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10625 3200 60  0001 L CNN
+F 3 "" H 10425 3000 50  0001 C CNN
+F 4 "TDK" H 10625 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 10625 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 10450 2900 50  0000 L CNN "Val"
+	1    10425 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6024B51B
+P 10725 3000
+F 0 "C?" H 10750 3100 60  0000 L CNN
+F 1 "C_470n_0402" H 10725 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10925 3200 60  0001 L CNN
+F 3 "" H 10725 3000 50  0001 C CNN
+F 4 "TDK" H 10925 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 10925 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 10750 2900 50  0000 L CNN "Val"
+	1    10725 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10425 3150 10425 3200
+Wire Wire Line
+	10725 3150 10725 3200
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 602CE8EA
+P 11025 3000
+F 0 "C?" H 11050 3100 60  0000 L CNN
+F 1 "C_470n_0402" H 11025 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 11225 3200 60  0001 L CNN
+F 3 "" H 11025 3000 50  0001 C CNN
+F 4 "TDK" H 11225 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 11225 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 11050 2900 50  0000 L CNN "Val"
+	1    11025 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 602CE8F3
+P 11325 3000
+F 0 "C?" H 11350 3100 60  0000 L CNN
+F 1 "C_470n_0402" H 11325 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 11525 3200 60  0001 L CNN
+F 3 "" H 11325 3000 50  0001 C CNN
+F 4 "TDK" H 11525 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 11525 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 11350 2900 50  0000 L CNN "Val"
+	1    11325 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11025 3150 11025 3200
+Wire Wire Line
+	11325 3150 11325 3200
+Wire Wire Line
+	9825 3700 9825 3750
+Wire Wire Line
+	10125 3700 10125 3750
+Wire Wire Line
+	10425 3700 10425 3750
+Wire Wire Line
+	10725 3700 10725 3750
+Wire Wire Line
+	11025 3700 11025 3750
+Wire Wire Line
+	11325 3700 11325 3750
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6039C7B4
+P 9825 3900
+F 0 "C?" H 9850 4000 60  0000 L CNN
+F 1 "C_470n_0402" H 9825 3750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10025 4100 60  0001 L CNN
+F 3 "" H 9825 3900 50  0001 C CNN
+F 4 "TDK" H 10025 4300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 10025 4200 60  0001 L CNN "MPN"
+F 6 "470n" H 9850 3800 50  0000 L CNN "Val"
+	1    9825 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 4050 9825 4100
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6039C7BE
+P 10125 3900
+F 0 "C?" H 10150 4000 60  0000 L CNN
+F 1 "C_470n_0402" H 10125 3750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10325 4100 60  0001 L CNN
+F 3 "" H 10125 3900 50  0001 C CNN
+F 4 "TDK" H 10325 4300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 10325 4200 60  0001 L CNN "MPN"
+F 6 "470n" H 10150 3800 50  0000 L CNN "Val"
+	1    10125 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 4050 10125 4100
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6039C7C8
+P 10425 3900
+F 0 "C?" H 10450 4000 60  0000 L CNN
+F 1 "C_470n_0402" H 10425 3750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10625 4100 60  0001 L CNN
+F 3 "" H 10425 3900 50  0001 C CNN
+F 4 "TDK" H 10625 4300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 10625 4200 60  0001 L CNN "MPN"
+F 6 "470n" H 10450 3800 50  0000 L CNN "Val"
+	1    10425 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6039C7D1
+P 10725 3900
+F 0 "C?" H 10750 4000 60  0000 L CNN
+F 1 "C_470n_0402" H 10725 3750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10925 4100 60  0001 L CNN
+F 3 "" H 10725 3900 50  0001 C CNN
+F 4 "TDK" H 10925 4300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 10925 4200 60  0001 L CNN "MPN"
+F 6 "470n" H 10750 3800 50  0000 L CNN "Val"
+	1    10725 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10425 4050 10425 4100
+Wire Wire Line
+	10725 4050 10725 4100
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6039C7DC
+P 11025 3900
+F 0 "C?" H 11050 4000 60  0000 L CNN
+F 1 "C_470n_0402" H 11025 3750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 11225 4100 60  0001 L CNN
+F 3 "" H 11025 3900 50  0001 C CNN
+F 4 "TDK" H 11225 4300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 11225 4200 60  0001 L CNN "MPN"
+F 6 "470n" H 11050 3800 50  0000 L CNN "Val"
+	1    11025 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_470n_0402 C?
+U 1 1 6039C7E5
+P 11325 3900
+F 0 "C?" H 11350 4000 60  0000 L CNN
+F 1 "C_470n_0402" H 11325 3750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 11525 4100 60  0001 L CNN
+F 3 "" H 11325 3900 50  0001 C CNN
+F 4 "TDK" H 11525 4300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 11525 4200 60  0001 L CNN "MPN"
+F 6 "470n" H 11350 3800 50  0000 L CNN "Val"
+	1    11325 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11025 4050 11025 4100
+Wire Wire Line
+	11325 4050 11325 4100
+Wire Wire Line
+	9825 4100 10125 4100
+Wire Wire Line
+	9825 3700 10125 3700
+Connection ~ 9825 4100
+Connection ~ 10125 3700
+Wire Wire Line
+	10125 3700 10425 3700
+Connection ~ 10125 4100
+Wire Wire Line
+	10125 4100 10425 4100
+Connection ~ 10425 3700
+Wire Wire Line
+	10425 3700 10725 3700
+Connection ~ 10425 4100
+Wire Wire Line
+	10425 4100 10725 4100
+Connection ~ 10725 3700
+Wire Wire Line
+	10725 3700 11025 3700
+Connection ~ 10725 4100
+Wire Wire Line
+	10725 4100 11025 4100
+Connection ~ 11025 3700
+Wire Wire Line
+	11025 3700 11325 3700
+Connection ~ 11025 4100
+Wire Wire Line
+	11025 4100 11325 4100
+Connection ~ 11325 3700
+Wire Wire Line
+	11325 3700 11775 3700
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6053AE48
+P 10975 5100
+AR Path="/6053AE48" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/6053AE48" Ref="C?"  Part="1" 
+F 0 "C?" H 11000 5200 60  0000 L CNN
+F 1 "C_100n_0402" H 10975 4950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 11175 5300 60  0001 L CNN
+F 3 "" H 10975 5100 50  0001 C CNN
+F 4 "Walsin" H 11175 5500 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 11175 5400 60  0001 L CNN "MPN"
+F 6 "100n" H 11000 5000 50  0000 L CNN "Val"
+	1    10975 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11325 4800 11325 4950
+Wire Wire Line
+	10975 4800 10975 4950
+Wire Wire Line
+	10975 5250 10975 5400
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 605C067B
+P 11325 5100
+AR Path="/605C067B" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/605C067B" Ref="C?"  Part="1" 
+F 0 "C?" H 11350 5200 60  0000 L CNN
+F 1 "C_100n_0402" H 11325 4950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 11525 5300 60  0001 L CNN
+F 3 "" H 11325 5100 50  0001 C CNN
+F 4 "Walsin" H 11525 5500 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 11525 5400 60  0001 L CNN "MPN"
+F 6 "100n" H 11350 5000 50  0000 L CNN "Val"
+	1    11325 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11325 5250 11325 5400
+$Comp
+L antmicroResistors0402:R_240R_0402 R?
+U 1 1 605C2ED7
+P 11675 5200
+F 0 "R?" V 11630 5270 60  0000 L CNN
+F 1 "R_240R_0402" H 11675 5050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 11875 5400 60  0001 L CNN
+F 3 "" H 11675 5200 50  0001 C CNN
+F 4 "PANASONIC" H 11875 5600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ241X" H 11875 5500 60  0001 L CNN "MPN"
+F 6 "240R" V 11728 5270 50  0000 L CNN "Val"
+	1    11675 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11675 5000 11675 5050
+Wire Wire Line
+	11675 5350 11675 5400
+Text GLabel 11700 2375 0    50   Input ~ 0
+VCC1V35
+Wire Wire Line
+	11700 2375 11775 2375
+Wire Wire Line
+	11775 2375 11775 2700
+Text GLabel 1750 9100 0    50   UnSpc ~ 0
+DDR3_A0
+Text GLabel 1750 8500 0    50   UnSpc ~ 0
+DDR3_A1
+Text GLabel 1750 7300 0    50   UnSpc ~ 0
+DDR3_A2
+Text GLabel 1750 9900 0    50   UnSpc ~ 0
+DDR3_A3
+Text GLabel 1750 8400 0    50   UnSpc ~ 0
+DDR3_A4
+Text GLabel 1750 9800 0    50   UnSpc ~ 0
+DDR3_A5
+Text GLabel 1750 7400 0    50   UnSpc ~ 0
+DDR3_A6
+Text GLabel 1750 7200 0    50   UnSpc ~ 0
+DDR3_A7
+Text GLabel 1750 7500 0    50   UnSpc ~ 0
+DDR3_A8
+Text GLabel 1750 7100 0    50   UnSpc ~ 0
+DDR3_A9
+Text GLabel 1750 8800 0    50   UnSpc ~ 0
+DDR3_A10
+Text GLabel 1750 7700 0    50   UnSpc ~ 0
+DDR3_A11
+Text GLabel 1750 8600 0    50   UnSpc ~ 0
+DDR3_A12
+Text GLabel 1750 7000 0    50   UnSpc ~ 0
+DDR3_A13
+Text GLabel 1750 7600 0    50   UnSpc ~ 0
+DDR3_A14
+Wire Wire Line
+	1750 9100 1950 9100
+Wire Wire Line
+	1950 8500 1750 8500
+Wire Wire Line
+	1950 7300 1750 7300
+Wire Wire Line
+	1950 9900 1750 9900
+Wire Wire Line
+	1750 8400 1950 8400
+Wire Wire Line
+	1750 9800 1950 9800
+Wire Wire Line
+	1750 7400 1950 7400
+Wire Wire Line
+	1750 7200 1950 7200
+Wire Wire Line
+	1750 7500 1950 7500
+Wire Wire Line
+	1750 7100 1950 7100
+Wire Wire Line
+	1750 8800 1950 8800
+Wire Wire Line
+	1750 7700 1950 7700
+Wire Wire Line
+	1750 8600 1950 8600
+Wire Wire Line
+	1750 7000 1950 7000
+Wire Wire Line
+	1750 7600 1950 7600
+Text GLabel 1750 10000 0    50   UnSpc ~ 0
+DDR3_BA0
+Text GLabel 1750 8700 0    50   UnSpc ~ 0
+DDR3_BA1
+Text GLabel 1750 9000 0    50   UnSpc ~ 0
+DDR3_BA2
+Wire Wire Line
+	1750 10000 1950 10000
+Wire Wire Line
+	1950 8700 1750 8700
+Wire Wire Line
+	1750 9000 1950 9000
+Text GLabel 1750 10200 0    50   UnSpc ~ 0
+DDR3_RAS
+Text GLabel 1750 10500 0    50   UnSpc ~ 0
+DDR3_CAS
+Wire Wire Line
+	1750 10500 1950 10500
+Wire Wire Line
+	1950 10200 1750 10200
+Text GLabel 1750 8900 0    50   UnSpc ~ 0
+DDR3_WE
+Text GLabel 1750 10100 0    50   UnSpc ~ 0
+DDR3_CS
+Wire Wire Line
+	1950 8900 1750 8900
+Wire Wire Line
+	1750 10100 1950 10100
+Text GLabel 1750 10400 0    50   UnSpc ~ 0
+DDR3_CKE
+Text GLabel 1750 10300 0    50   UnSpc ~ 0
+DDR3_ODT
+Wire Wire Line
+	1750 10300 1950 10300
+Wire Wire Line
+	1950 10400 1750 10400
+Wire Wire Line
+	2300 7000 2450 7000
+Wire Wire Line
+	2450 7000 2450 7100
+Wire Wire Line
+	2450 10100 2300 10100
+Wire Wire Line
+	2300 10000 2450 10000
+Connection ~ 2450 10000
+Wire Wire Line
+	2450 10000 2450 10100
+Wire Wire Line
+	2300 9900 2450 9900
+Connection ~ 2450 9900
+Wire Wire Line
+	2450 9900 2450 10000
+Wire Wire Line
+	2450 9800 2300 9800
+Connection ~ 2450 9800
+Wire Wire Line
+	2450 9800 2450 9900
+Wire Wire Line
+	2300 9100 2450 9100
+Wire Wire Line
+	2450 9000 2300 9000
+Wire Wire Line
+	2300 8900 2450 8900
+Wire Wire Line
+	2300 8800 2450 8800
+Connection ~ 2450 9100
+Wire Wire Line
+	2300 8700 2450 8700
+Connection ~ 2450 8700
+Wire Wire Line
+	2450 8700 2450 8800
+Wire Wire Line
+	2450 8600 2300 8600
+Connection ~ 2450 8600
+Wire Wire Line
+	2450 8600 2450 8700
+Wire Wire Line
+	2300 8500 2450 8500
+Connection ~ 2450 8500
+Wire Wire Line
+	2450 8500 2450 8600
+Wire Wire Line
+	2450 8400 2300 8400
+Connection ~ 2450 8400
+Wire Wire Line
+	2450 8400 2450 8500
+Wire Wire Line
+	2300 7700 2450 7700
+Wire Wire Line
+	2450 7600 2300 7600
+Wire Wire Line
+	2300 7500 2450 7500
+Wire Wire Line
+	2450 7400 2300 7400
+Connection ~ 2450 7700
+Wire Wire Line
+	2300 7300 2450 7300
+Connection ~ 2450 7300
+Wire Wire Line
+	2450 7300 2450 7400
+Wire Wire Line
+	2300 7200 2450 7200
+Connection ~ 2450 7200
+Wire Wire Line
+	2450 7200 2450 7300
+Wire Wire Line
+	2300 7100 2450 7100
+Connection ~ 2450 7100
+Wire Wire Line
+	2450 7100 2450 7200
+Wire Wire Line
+	2450 7000 2450 6650
+Connection ~ 2450 7000
+Wire Wire Line
+	2300 10200 2450 10200
+Wire Wire Line
+	2300 10300 2450 10300
+Wire Wire Line
+	2450 10400 2300 10400
+Wire Wire Line
+	2300 10500 2450 10500
+Connection ~ 2450 10100
+Wire Wire Line
+	2450 6650 3175 6650
+Wire Wire Line
+	6475 7475 5750 7475
+Wire Wire Line
+	12475 8250 12800 8250
+Wire Wire Line
+	13100 8250 13125 8250
+Text Notes 11900 7600 0    50   ~ 0
+TODO:Replace 51R resistors 
+$Comp
+L antmicroResistorNetworksArrays:8x51R_0602_array R?
+U 1 1 60810227
+P 2150 7400
+F 0 "R?" H 2125 8047 60  0000 C CNN
+F 1 "8x51R_0602_array" H 2125 7941 60  0000 C CNN
+F 2 "antmicro-footprints:R_Array_Convex_8x0602" H 1950 8050 60  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 1950 8150 60  0001 L CNN
+F 4 "EXB2HV510JV" H 1950 8350 60  0001 L CNN "MPN"
+F 5 "Panasonic" H 1950 8250 60  0001 L CNN "Manufacturer"
+	1    2150 7400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 7400
+Wire Wire Line
+	2450 7400 2450 7500
+Connection ~ 2450 7500
+Wire Wire Line
+	2450 7500 2450 7600
+Connection ~ 2450 7600
+Wire Wire Line
+	2450 7600 2450 7700
+Wire Wire Line
+	2450 7700 2450 8400
+Connection ~ 2450 10200
+Wire Wire Line
+	2450 10200 2450 10100
+Connection ~ 2450 10300
+Wire Wire Line
+	2450 10300 2450 10200
+Connection ~ 2450 10400
+Wire Wire Line
+	2450 10400 2450 10300
+Connection ~ 2450 10500
+Wire Wire Line
+	2450 10400 2450 10500
+Wire Wire Line
+	2450 10500 2450 10750
+Connection ~ 2450 8800
+Wire Wire Line
+	2450 8800 2450 8900
+Connection ~ 2450 8900
+Wire Wire Line
+	2450 8900 2450 9000
+Connection ~ 2450 9000
+Wire Wire Line
+	2450 9000 2450 9100
+Wire Wire Line
+	2450 9100 2450 9800
+$Comp
+L antmicroResistorNetworksArrays:8x51R_0602_array R?
+U 1 1 60901289
+P 2150 8800
+F 0 "R?" H 2125 9447 60  0000 C CNN
+F 1 "8x51R_0602_array" H 2125 9341 60  0000 C CNN
+F 2 "antmicro-footprints:R_Array_Convex_8x0602" H 1950 9450 60  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 1950 9550 60  0001 L CNN
+F 4 "EXB2HV510JV" H 1950 9750 60  0001 L CNN "MPN"
+F 5 "Panasonic" H 1950 9650 60  0001 L CNN "Manufacturer"
+	1    2150 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorNetworksArrays:8x51R_0602_array R?
+U 1 1 60901E0D
+P 2150 10200
+F 0 "R?" H 2125 10847 60  0000 C CNN
+F 1 "8x51R_0602_array" H 2125 10741 60  0000 C CNN
+F 2 "antmicro-footprints:R_Array_Convex_8x0602" H 1950 10850 60  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 1950 10950 60  0001 L CNN
+F 4 "EXB2HV510JV" H 1950 11150 60  0001 L CNN "MPN"
+F 5 "Panasonic" H 1950 11050 60  0001 L CNN "Manufacturer"
+	1    2150 10200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 7475 0    50   Input ~ 0
+VCC1V35
+Text Label 3175 6650 2    50   ~ 0
+DDR3_VTT
+Connection ~ 6475 7475
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 609F6659
+P 6475 7750
+F 0 "C?" H 6500 7850 60  0000 L CNN
+F 1 "C_10u_0402" H 6475 7600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6675 7950 60  0001 L CNN
+F 3 "" H 6475 7750 50  0001 C CNN
+F 4 "MURATA" H 6675 8150 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 6675 8050 60  0001 L CNN "MPN"
+F 6 "10u" H 6500 7650 50  0000 L CNN "Val"
+	1    6475 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 609FEB6C
+P 6200 9300
+F 0 "R?" H 6250 9225 60  0000 L CNN
+F 1 "R_10k_0402" H 6200 9150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6400 9500 60  0001 L CNN
+F 3 "" H 6200 9300 50  0001 C CNN
+F 4 "VISHAY" H 6400 9700 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 6400 9600 60  0001 L CNN "MPN"
+F 6 "10k" H 5950 9350 50  0000 L CNN "Val"
+	1    6200 9300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6475 7475 6475 7600
+Wire Wire Line
+	6775 7475 6775 7600
+Wire Wire Line
+	7075 7475 7075 7600
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 60AA5580
+P 6775 7750
+F 0 "C?" H 6800 7850 60  0000 L CNN
+F 1 "C_10u_0402" H 6775 7600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6975 7950 60  0001 L CNN
+F 3 "" H 6775 7750 50  0001 C CNN
+F 4 "MURATA" H 6975 8150 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 6975 8050 60  0001 L CNN "MPN"
+F 6 "10u" H 6800 7650 50  0000 L CNN "Val"
+	1    6775 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 60AA58C9
+P 7075 7750
+F 0 "C?" H 7100 7850 60  0000 L CNN
+F 1 "C_10u_0402" H 7075 7600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7275 7950 60  0001 L CNN
+F 3 "" H 7075 7750 50  0001 C CNN
+F 4 "MURATA" H 7275 8150 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 7275 8050 60  0001 L CNN "MPN"
+F 6 "10u" H 7100 7650 50  0000 L CNN "Val"
+	1    7075 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6775 7900 6775 7975
+Wire Wire Line
+	6475 7900 6475 7975
+Wire Wire Line
+	7075 7900 7075 7975
+Wire Wire Line
+	8175 7475 8475 7475
+Connection ~ 8475 7475
+Wire Wire Line
+	8475 7975 8175 7975
+$Comp
+L power:GND #PWR068
+U 1 1 61880049
+P 8975 8125
+F 0 "#PWR068" H 8975 7875 50  0001 C CNN
+F 1 "GND" H 8980 7952 50  0000 C CNN
+F 2 "" H 8975 8125 50  0001 C CNN
+F 3 "" H 8975 8125 50  0001 C CNN
+	1    8975 8125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8175 7475 8175 7600
+Wire Wire Line
+	8475 7475 8475 7600
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 60AEFC4F
+P 8175 7750
+AR Path="/60AEFC4F" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/60AEFC4F" Ref="C?"  Part="1" 
+F 0 "C?" H 8200 7850 60  0000 L CNN
+F 1 "C_100n_0402" H 8175 7600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8375 7950 60  0001 L CNN
+F 3 "" H 8175 7750 50  0001 C CNN
+F 4 "Walsin" H 8375 8150 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 8375 8050 60  0001 L CNN "MPN"
+F 6 "100n" H 8200 7650 50  0000 L CNN "Val"
+	1    8175 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8175 7900 8175 7975
+Wire Wire Line
+	8475 7900 8475 7975
+Text GLabel 8950 7475 2    50   Input ~ 0
+VCC1V35
+Wire Wire Line
+	8475 7975 8975 7975
+Wire Wire Line
+	8975 7975 8975 8125
+Connection ~ 8475 7975
+Wire Wire Line
+	8475 7475 8950 7475
+Text GLabel 6400 8450 0    50   Input ~ 0
+VCC1V35
+Wire Wire Line
+	6475 8450 6400 8450
+Text GLabel 9400 8650 2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	9325 8650 9400 8650
+Wire Wire Line
+	9325 8650 9325 9000
+Text GLabel 6950 8450 0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	7000 8450 6950 8450
+Wire Wire Line
+	6475 7975 5675 7975
+Wire Wire Line
+	5675 7975 5675 8125
+Connection ~ 6475 7975
+Text Label 6175 7475 2    50   ~ 0
+VO
+Text Label 8675 7475 0    50   ~ 0
+VLDOIN
+Wire Wire Line
+	6475 9300 7425 9300
+Connection ~ 6475 9300
+Wire Wire Line
+	7025 9850 7175 9850
+Connection ~ 7025 9400
+Wire Wire Line
+	7025 9400 7325 9400
+$Comp
+L power:GND #PWR?
+U 1 1 6132157D
+P 7175 10000
+F 0 "#PWR?" H 7175 9750 50  0001 C CNN
+F 1 "GND" H 7180 9827 50  0000 C CNN
+F 2 "" H 7175 10000 50  0001 C CNN
+F 3 "" H 7175 10000 50  0001 C CNN
+	1    7175 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7175 10000 7175 9850
+Connection ~ 7175 9850
+Wire Wire Line
+	7175 9850 7325 9850
+Wire Wire Line
+	7025 9400 7025 9475
+Wire Wire Line
+	7325 9400 7325 9475
+Wire Wire Line
+	7325 9775 7325 9850
+Wire Wire Line
+	7025 9775 7025 9850
+Wire Wire Line
+	6475 9300 6350 9300
+Wire Wire Line
+	6475 8450 6475 8700
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 614307C1
+P 6475 8850
+F 0 "R?" V 6430 8920 60  0000 L CNN
+F 1 "R_10k_0402" H 6475 8700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6675 9050 60  0001 L CNN
+F 3 "" H 6475 8850 50  0001 C CNN
+F 4 "VISHAY" H 6675 9250 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 6675 9150 60  0001 L CNN "MPN"
+F 6 "10k" V 6528 8920 50  0000 L CNN "Val"
+	1    6475 8850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6475 9000 6475 9300
+Wire Wire Line
+	7925 7475 8175 7475
+Connection ~ 8175 7475
+Connection ~ 7075 7475
+Wire Wire Line
+	7075 7475 7425 7475
+Wire Wire Line
+	6050 9300 5900 9300
+Wire Wire Line
+	5900 9300 5900 9525
+Wire Wire Line
+	7000 8450 7000 8675
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 617AC3E8
+P 7000 8825
+F 0 "R?" V 6955 8895 60  0000 L CNN
+F 1 "R_10k_0402" H 7000 8675 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7200 9025 60  0001 L CNN
+F 3 "" H 7000 8825 50  0001 C CNN
+F 4 "VISHAY" H 7200 9225 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 7200 9125 60  0001 L CNN "MPN"
+F 6 "10k" V 7053 8895 50  0000 L CNN "Val"
+	1    7000 8825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 8975 7000 9100
+Wire Wire Line
+	7425 7475 7425 9000
+Connection ~ 9325 9000
+Wire Wire Line
+	8425 9000 9325 9000
+Wire Wire Line
+	7925 7475 7925 8700
+Text Notes 7225 7200 0    50   ~ 0
+Source:Trellis board
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 619622A2
+P 9325 9250
+F 0 "C?" H 9350 9350 60  0000 L CNN
+F 1 "C_10u_0402" H 9325 9100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9525 9450 60  0001 L CNN
+F 3 "" H 9325 9250 50  0001 C CNN
+F 4 "MURATA" H 9525 9650 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 9525 9550 60  0001 L CNN "MPN"
+F 6 "10u" H 9350 9150 50  0000 L CNN "Val"
+	1    9325 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9325 9000 9325 9100
+Wire Wire Line
+	9325 9400 9325 9525
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 628665BB
+P 8475 7750
+AR Path="/628665BB" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/628665BB" Ref="C?"  Part="1" 
+F 0 "C?" H 8500 7850 60  0000 L CNN
+F 1 "C_100n_0402" H 8475 7600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8675 7950 60  0001 L CNN
+F 3 "" H 8475 7750 50  0001 C CNN
+F 4 "Walsin" H 8675 8150 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 8675 8050 60  0001 L CNN "MPN"
+F 6 "100n" H 8500 7650 50  0000 L CNN "Val"
+	1    8475 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62867A2A
+P 7025 9625
+AR Path="/62867A2A" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/62867A2A" Ref="C?"  Part="1" 
+F 0 "C?" H 7050 9725 60  0000 L CNN
+F 1 "C_100n_0402" H 7025 9475 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7225 9825 60  0001 L CNN
+F 3 "" H 7025 9625 50  0001 C CNN
+F 4 "Walsin" H 7225 10025 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7225 9925 60  0001 L CNN "MPN"
+F 6 "100n" H 7050 9525 50  0000 L CNN "Val"
+	1    7025 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62867ED9
+P 7325 9625
+AR Path="/62867ED9" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/62867ED9" Ref="C?"  Part="1" 
+F 0 "C?" H 7350 9725 60  0000 L CNN
+F 1 "C_100n_0402" H 7325 9475 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7525 9825 60  0001 L CNN
+F 3 "" H 7325 9625 50  0001 C CNN
+F 4 "Walsin" H 7525 10025 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7525 9925 60  0001 L CNN "MPN"
+F 6 "100n" H 7350 9525 50  0000 L CNN "Val"
+	1    7325 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6286E330
+P 12950 8250
+AR Path="/6286E330" Ref="C?"  Part="1" 
+AR Path="/5FD8EBC2/6286E330" Ref="C?"  Part="1" 
+F 0 "C?" V 12850 8100 60  0000 L CNN
+F 1 "C_100n_0402" H 12950 8100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 13150 8450 60  0001 L CNN
+F 3 "" H 12950 8250 50  0001 C CNN
+F 4 "Walsin" H 13150 8650 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 13150 8550 60  0001 L CNN "MPN"
+F 6 "100n" V 13050 8300 50  0000 L CNN "Val"
+	1    12950 8250
+	0    1    1    0   
+$EndComp
+Connection ~ 13125 8250
+Wire Wire Line
+	13125 8250 13175 8250
+$EndSCHEMATC

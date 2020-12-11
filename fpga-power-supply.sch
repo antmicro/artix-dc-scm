@@ -1,0 +1,2717 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7850 1450 0    118  ~ 0
+FPGA power supply
+$Comp
+L antmicroMicrocontrollers:XC7A100T-FGG484 U?
+U 7 1 61645B78
+P 8750 5800
+F 0 "U?" H 8750 8967 50  0000 C CNN
+F 1 "XC7A100T-FGG484" H 8750 8876 50  0000 C CNN
+F 2 "antmicro-footprints:Xilinx_FGG484" H 8450 5800 50  0001 C CNN
+F 3 "" H 8450 5800 50  0000 C CNN
+	7    8750 5800
+	1    0    0    -1  
+$EndComp
+Text Notes 1500 2100 0    118  ~ 0
+Banks decoupling
+$Comp
+L antmicroCapacitorsmisc:C_47u_1210 C?
+U 1 1 6165885A
+P 1150 3100
+F 0 "C?" H 1265 3145 60  0000 L CNN
+F 1 "C_47u_1210" H 1150 2950 60  0001 C CNN
+F 2 "antmicro-footprints:1210-cap" H 1350 3300 60  0001 L CNN
+F 3 "" H 1150 3100 50  0001 C CNN
+F 4 "KEMET" H 1350 3500 60  0001 L CNN "Manufacturer"
+F 5 "C1210C476K8RACTU" H 1350 3400 60  0001 L CNN "MPN"
+F 6 "47u" H 1265 3047 50  0000 L CNN "Val"
+	1    1150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 6165949A
+P 1500 3100
+F 0 "C?" H 1615 3145 60  0000 L CNN
+F 1 "C_4u7_0805" H 1500 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 1700 3300 60  0001 L CNN
+F 3 "" H 1500 3100 50  0001 C CNN
+F 4 "WALSIN" H 1700 3500 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 1700 3400 60  0001 L CNN "MPN"
+F 6 "4u7" H 1615 3047 50  0000 L CNN "Val"
+	1    1500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 616597A9
+P 1850 3100
+F 0 "C?" H 1965 3145 60  0000 L CNN
+F 1 "C_4u7_0805" H 1850 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 2050 3300 60  0001 L CNN
+F 3 "" H 1850 3100 50  0001 C CNN
+F 4 "WALSIN" H 2050 3500 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 2050 3400 60  0001 L CNN "MPN"
+F 6 "4u7" H 1965 3047 50  0000 L CNN "Val"
+	1    1850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6165A748
+P 2200 3100
+F 0 "C?" H 2315 3145 60  0000 L CNN
+F 1 "C_470n_0603" H 2200 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2400 3300 60  0001 L CNN
+F 3 "" H 2200 3100 50  0001 C CNN
+F 4 "TDK" H 2400 3500 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2400 3400 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 3047 50  0000 L CNN "Val"
+	1    2200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6165AB6D
+P 2550 3100
+F 0 "C?" H 2665 3145 60  0000 L CNN
+F 1 "C_470n_0603" H 2550 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2750 3300 60  0001 L CNN
+F 3 "" H 2550 3100 50  0001 C CNN
+F 4 "TDK" H 2750 3500 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2750 3400 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 3047 50  0000 L CNN "Val"
+	1    2550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6165AE32
+P 2900 3100
+F 0 "C?" H 3015 3145 60  0000 L CNN
+F 1 "C_470n_0603" H 2900 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3100 3300 60  0001 L CNN
+F 3 "" H 2900 3100 50  0001 C CNN
+F 4 "TDK" H 3100 3500 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3100 3400 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 3047 50  0000 L CNN "Val"
+	1    2900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6165CA6B
+P 3250 3100
+F 0 "C?" H 3365 3145 60  0000 L CNN
+F 1 "C_470n_0603" H 3250 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3450 3300 60  0001 L CNN
+F 3 "" H 3250 3100 50  0001 C CNN
+F 4 "TDK" H 3450 3500 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3450 3400 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 3047 50  0000 L CNN "Val"
+	1    3250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2950 1150 2850
+Wire Wire Line
+	1150 2850 1500 2850
+Wire Wire Line
+	3250 2850 3250 2950
+Wire Wire Line
+	2900 2950 2900 2850
+Connection ~ 2900 2850
+Wire Wire Line
+	2900 2850 3250 2850
+Wire Wire Line
+	2550 2950 2550 2850
+Connection ~ 2550 2850
+Wire Wire Line
+	2550 2850 2900 2850
+Wire Wire Line
+	2200 2950 2200 2850
+Connection ~ 2200 2850
+Wire Wire Line
+	2200 2850 2550 2850
+Wire Wire Line
+	1850 2950 1850 2850
+Connection ~ 1850 2850
+Wire Wire Line
+	1850 2850 2200 2850
+Wire Wire Line
+	1500 2950 1500 2850
+Connection ~ 1500 2850
+Wire Wire Line
+	1500 2850 1850 2850
+Wire Wire Line
+	1150 3250 1150 3350
+Wire Wire Line
+	1150 3350 1500 3350
+Wire Wire Line
+	3250 3350 3250 3250
+Wire Wire Line
+	1500 3250 1500 3350
+Connection ~ 1500 3350
+Wire Wire Line
+	1500 3350 1850 3350
+Wire Wire Line
+	1850 3250 1850 3350
+Connection ~ 1850 3350
+Wire Wire Line
+	1850 3350 2200 3350
+Wire Wire Line
+	2200 3250 2200 3350
+Connection ~ 2200 3350
+Wire Wire Line
+	2200 3350 2550 3350
+Wire Wire Line
+	2550 3250 2550 3350
+Connection ~ 2550 3350
+Wire Wire Line
+	2550 3350 2900 3350
+Wire Wire Line
+	2900 3250 2900 3350
+Connection ~ 2900 3350
+Wire Wire Line
+	2900 3350 3250 3350
+Wire Wire Line
+	3250 3350 3250 3500
+Connection ~ 3250 3350
+$Comp
+L power:GND #PWR?
+U 1 1 6166233A
+P 3250 3500
+F 0 "#PWR?" H 3250 3250 50  0001 C CNN
+F 1 "GND" H 3255 3327 50  0000 C CNN
+F 2 "" H 3250 3500 50  0001 C CNN
+F 3 "" H 3250 3500 50  0001 C CNN
+	1    3250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2850 1150 2700
+Connection ~ 1150 2850
+Text GLabel 1150 2700 1    50   Input ~ 0
+VCCB13
+$Comp
+L antmicroCapacitorsmisc:C_47u_1210 C?
+U 1 1 61665CDB
+P 1150 4250
+F 0 "C?" H 1265 4295 60  0000 L CNN
+F 1 "C_47u_1210" H 1150 4100 60  0001 C CNN
+F 2 "antmicro-footprints:1210-cap" H 1350 4450 60  0001 L CNN
+F 3 "" H 1150 4250 50  0001 C CNN
+F 4 "KEMET" H 1350 4650 60  0001 L CNN "Manufacturer"
+F 5 "C1210C476K8RACTU" H 1350 4550 60  0001 L CNN "MPN"
+F 6 "47u" H 1265 4197 50  0000 L CNN "Val"
+	1    1150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 61665CE4
+P 1500 4250
+F 0 "C?" H 1615 4295 60  0000 L CNN
+F 1 "C_4u7_0805" H 1500 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 1700 4450 60  0001 L CNN
+F 3 "" H 1500 4250 50  0001 C CNN
+F 4 "WALSIN" H 1700 4650 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 1700 4550 60  0001 L CNN "MPN"
+F 6 "4u7" H 1615 4197 50  0000 L CNN "Val"
+	1    1500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 61665CED
+P 1850 4250
+F 0 "C?" H 1965 4295 60  0000 L CNN
+F 1 "C_4u7_0805" H 1850 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 2050 4450 60  0001 L CNN
+F 3 "" H 1850 4250 50  0001 C CNN
+F 4 "WALSIN" H 2050 4650 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 2050 4550 60  0001 L CNN "MPN"
+F 6 "4u7" H 1965 4197 50  0000 L CNN "Val"
+	1    1850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 61665CF6
+P 2200 4250
+F 0 "C?" H 2315 4295 60  0000 L CNN
+F 1 "C_470n_0603" H 2200 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2400 4450 60  0001 L CNN
+F 3 "" H 2200 4250 50  0001 C CNN
+F 4 "TDK" H 2400 4650 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2400 4550 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 4197 50  0000 L CNN "Val"
+	1    2200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 61665CFF
+P 2550 4250
+F 0 "C?" H 2665 4295 60  0000 L CNN
+F 1 "C_470n_0603" H 2550 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2750 4450 60  0001 L CNN
+F 3 "" H 2550 4250 50  0001 C CNN
+F 4 "TDK" H 2750 4650 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2750 4550 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 4197 50  0000 L CNN "Val"
+	1    2550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 61665D08
+P 2900 4250
+F 0 "C?" H 3015 4295 60  0000 L CNN
+F 1 "C_470n_0603" H 2900 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3100 4450 60  0001 L CNN
+F 3 "" H 2900 4250 50  0001 C CNN
+F 4 "TDK" H 3100 4650 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3100 4550 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 4197 50  0000 L CNN "Val"
+	1    2900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 61665D11
+P 3250 4250
+F 0 "C?" H 3365 4295 60  0000 L CNN
+F 1 "C_470n_0603" H 3250 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3450 4450 60  0001 L CNN
+F 3 "" H 3250 4250 50  0001 C CNN
+F 4 "TDK" H 3450 4650 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3450 4550 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 4197 50  0000 L CNN "Val"
+	1    3250 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4100 1150 4000
+Wire Wire Line
+	1150 4000 1500 4000
+Wire Wire Line
+	3250 4000 3250 4100
+Wire Wire Line
+	2900 4100 2900 4000
+Connection ~ 2900 4000
+Wire Wire Line
+	2900 4000 3250 4000
+Wire Wire Line
+	2550 4100 2550 4000
+Connection ~ 2550 4000
+Wire Wire Line
+	2550 4000 2900 4000
+Wire Wire Line
+	2200 4100 2200 4000
+Connection ~ 2200 4000
+Wire Wire Line
+	2200 4000 2550 4000
+Wire Wire Line
+	1850 4100 1850 4000
+Connection ~ 1850 4000
+Wire Wire Line
+	1850 4000 2200 4000
+Wire Wire Line
+	1500 4100 1500 4000
+Connection ~ 1500 4000
+Wire Wire Line
+	1500 4000 1850 4000
+Wire Wire Line
+	1150 4400 1150 4500
+Wire Wire Line
+	1150 4500 1500 4500
+Wire Wire Line
+	3250 4500 3250 4400
+Wire Wire Line
+	1500 4400 1500 4500
+Connection ~ 1500 4500
+Wire Wire Line
+	1500 4500 1850 4500
+Wire Wire Line
+	1850 4400 1850 4500
+Connection ~ 1850 4500
+Wire Wire Line
+	1850 4500 2200 4500
+Wire Wire Line
+	2200 4400 2200 4500
+Connection ~ 2200 4500
+Wire Wire Line
+	2200 4500 2550 4500
+Wire Wire Line
+	2550 4400 2550 4500
+Connection ~ 2550 4500
+Wire Wire Line
+	2550 4500 2900 4500
+Wire Wire Line
+	2900 4400 2900 4500
+Connection ~ 2900 4500
+Wire Wire Line
+	2900 4500 3250 4500
+Wire Wire Line
+	3250 4500 3250 4650
+Connection ~ 3250 4500
+$Comp
+L power:GND #PWR?
+U 1 1 61665D3D
+P 3250 4650
+F 0 "#PWR?" H 3250 4400 50  0001 C CNN
+F 1 "GND" H 3255 4477 50  0000 C CNN
+F 2 "" H 3250 4650 50  0001 C CNN
+F 3 "" H 3250 4650 50  0001 C CNN
+	1    3250 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4000 1150 3850
+Connection ~ 1150 4000
+Text GLabel 1150 3850 1    50   Input ~ 0
+VCCB14
+$Comp
+L antmicroCapacitorsmisc:C_47u_1210 C?
+U 1 1 6166A0AB
+P 1150 5350
+F 0 "C?" H 1265 5395 60  0000 L CNN
+F 1 "C_47u_1210" H 1150 5200 60  0001 C CNN
+F 2 "antmicro-footprints:1210-cap" H 1350 5550 60  0001 L CNN
+F 3 "" H 1150 5350 50  0001 C CNN
+F 4 "KEMET" H 1350 5750 60  0001 L CNN "Manufacturer"
+F 5 "C1210C476K8RACTU" H 1350 5650 60  0001 L CNN "MPN"
+F 6 "47u" H 1265 5297 50  0000 L CNN "Val"
+	1    1150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 6166A0B4
+P 1500 5350
+F 0 "C?" H 1615 5395 60  0000 L CNN
+F 1 "C_4u7_0805" H 1500 5200 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 1700 5550 60  0001 L CNN
+F 3 "" H 1500 5350 50  0001 C CNN
+F 4 "WALSIN" H 1700 5750 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 1700 5650 60  0001 L CNN "MPN"
+F 6 "4u7" H 1615 5297 50  0000 L CNN "Val"
+	1    1500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 6166A0BD
+P 1850 5350
+F 0 "C?" H 1965 5395 60  0000 L CNN
+F 1 "C_4u7_0805" H 1850 5200 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 2050 5550 60  0001 L CNN
+F 3 "" H 1850 5350 50  0001 C CNN
+F 4 "WALSIN" H 2050 5750 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 2050 5650 60  0001 L CNN "MPN"
+F 6 "4u7" H 1965 5297 50  0000 L CNN "Val"
+	1    1850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6166A0C6
+P 2200 5350
+F 0 "C?" H 2315 5395 60  0000 L CNN
+F 1 "C_470n_0603" H 2200 5200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2400 5550 60  0001 L CNN
+F 3 "" H 2200 5350 50  0001 C CNN
+F 4 "TDK" H 2400 5750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2400 5650 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 5297 50  0000 L CNN "Val"
+	1    2200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6166A0CF
+P 2550 5350
+F 0 "C?" H 2665 5395 60  0000 L CNN
+F 1 "C_470n_0603" H 2550 5200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2750 5550 60  0001 L CNN
+F 3 "" H 2550 5350 50  0001 C CNN
+F 4 "TDK" H 2750 5750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2750 5650 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 5297 50  0000 L CNN "Val"
+	1    2550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6166A0D8
+P 2900 5350
+F 0 "C?" H 3015 5395 60  0000 L CNN
+F 1 "C_470n_0603" H 2900 5200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3100 5550 60  0001 L CNN
+F 3 "" H 2900 5350 50  0001 C CNN
+F 4 "TDK" H 3100 5750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3100 5650 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 5297 50  0000 L CNN "Val"
+	1    2900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6166A0E1
+P 3250 5350
+F 0 "C?" H 3365 5395 60  0000 L CNN
+F 1 "C_470n_0603" H 3250 5200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3450 5550 60  0001 L CNN
+F 3 "" H 3250 5350 50  0001 C CNN
+F 4 "TDK" H 3450 5750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3450 5650 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 5297 50  0000 L CNN "Val"
+	1    3250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5200 1150 5100
+Wire Wire Line
+	1150 5100 1500 5100
+Wire Wire Line
+	3250 5100 3250 5200
+Wire Wire Line
+	2900 5200 2900 5100
+Connection ~ 2900 5100
+Wire Wire Line
+	2900 5100 3250 5100
+Wire Wire Line
+	2550 5200 2550 5100
+Connection ~ 2550 5100
+Wire Wire Line
+	2550 5100 2900 5100
+Wire Wire Line
+	2200 5200 2200 5100
+Connection ~ 2200 5100
+Wire Wire Line
+	2200 5100 2550 5100
+Wire Wire Line
+	1850 5200 1850 5100
+Connection ~ 1850 5100
+Wire Wire Line
+	1850 5100 2200 5100
+Wire Wire Line
+	1500 5200 1500 5100
+Connection ~ 1500 5100
+Wire Wire Line
+	1500 5100 1850 5100
+Wire Wire Line
+	1150 5500 1150 5600
+Wire Wire Line
+	1150 5600 1500 5600
+Wire Wire Line
+	3250 5600 3250 5500
+Wire Wire Line
+	1500 5500 1500 5600
+Connection ~ 1500 5600
+Wire Wire Line
+	1500 5600 1850 5600
+Wire Wire Line
+	1850 5500 1850 5600
+Connection ~ 1850 5600
+Wire Wire Line
+	1850 5600 2200 5600
+Wire Wire Line
+	2200 5500 2200 5600
+Connection ~ 2200 5600
+Wire Wire Line
+	2200 5600 2550 5600
+Wire Wire Line
+	2550 5500 2550 5600
+Connection ~ 2550 5600
+Wire Wire Line
+	2550 5600 2900 5600
+Wire Wire Line
+	2900 5500 2900 5600
+Connection ~ 2900 5600
+Wire Wire Line
+	2900 5600 3250 5600
+Wire Wire Line
+	3250 5600 3250 5750
+Connection ~ 3250 5600
+$Comp
+L power:GND #PWR?
+U 1 1 6166A10D
+P 3250 5750
+F 0 "#PWR?" H 3250 5500 50  0001 C CNN
+F 1 "GND" H 3255 5577 50  0000 C CNN
+F 2 "" H 3250 5750 50  0001 C CNN
+F 3 "" H 3250 5750 50  0001 C CNN
+	1    3250 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5100 1150 4950
+Connection ~ 1150 5100
+Text GLabel 1150 4950 1    50   Input ~ 0
+VCCB15
+$Comp
+L antmicroCapacitorsmisc:C_47u_1210 C?
+U 1 1 6166E665
+P 1150 6450
+F 0 "C?" H 1265 6495 60  0000 L CNN
+F 1 "C_47u_1210" H 1150 6300 60  0001 C CNN
+F 2 "antmicro-footprints:1210-cap" H 1350 6650 60  0001 L CNN
+F 3 "" H 1150 6450 50  0001 C CNN
+F 4 "KEMET" H 1350 6850 60  0001 L CNN "Manufacturer"
+F 5 "C1210C476K8RACTU" H 1350 6750 60  0001 L CNN "MPN"
+F 6 "47u" H 1265 6397 50  0000 L CNN "Val"
+	1    1150 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 6166E66E
+P 1500 6450
+F 0 "C?" H 1615 6495 60  0000 L CNN
+F 1 "C_4u7_0805" H 1500 6300 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 1700 6650 60  0001 L CNN
+F 3 "" H 1500 6450 50  0001 C CNN
+F 4 "WALSIN" H 1700 6850 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 1700 6750 60  0001 L CNN "MPN"
+F 6 "4u7" H 1615 6397 50  0000 L CNN "Val"
+	1    1500 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 6166E677
+P 1850 6450
+F 0 "C?" H 1965 6495 60  0000 L CNN
+F 1 "C_4u7_0805" H 1850 6300 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 2050 6650 60  0001 L CNN
+F 3 "" H 1850 6450 50  0001 C CNN
+F 4 "WALSIN" H 2050 6850 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 2050 6750 60  0001 L CNN "MPN"
+F 6 "4u7" H 1965 6397 50  0000 L CNN "Val"
+	1    1850 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6166E680
+P 2200 6450
+F 0 "C?" H 2315 6495 60  0000 L CNN
+F 1 "C_470n_0603" H 2200 6300 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2400 6650 60  0001 L CNN
+F 3 "" H 2200 6450 50  0001 C CNN
+F 4 "TDK" H 2400 6850 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2400 6750 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 6397 50  0000 L CNN "Val"
+	1    2200 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6166E689
+P 2550 6450
+F 0 "C?" H 2665 6495 60  0000 L CNN
+F 1 "C_470n_0603" H 2550 6300 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2750 6650 60  0001 L CNN
+F 3 "" H 2550 6450 50  0001 C CNN
+F 4 "TDK" H 2750 6850 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2750 6750 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 6397 50  0000 L CNN "Val"
+	1    2550 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6166E692
+P 2900 6450
+F 0 "C?" H 3015 6495 60  0000 L CNN
+F 1 "C_470n_0603" H 2900 6300 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3100 6650 60  0001 L CNN
+F 3 "" H 2900 6450 50  0001 C CNN
+F 4 "TDK" H 3100 6850 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3100 6750 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 6397 50  0000 L CNN "Val"
+	1    2900 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6166E69B
+P 3250 6450
+F 0 "C?" H 3365 6495 60  0000 L CNN
+F 1 "C_470n_0603" H 3250 6300 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3450 6650 60  0001 L CNN
+F 3 "" H 3250 6450 50  0001 C CNN
+F 4 "TDK" H 3450 6850 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3450 6750 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 6397 50  0000 L CNN "Val"
+	1    3250 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 6300 1150 6200
+Wire Wire Line
+	1150 6200 1500 6200
+Wire Wire Line
+	3250 6200 3250 6300
+Wire Wire Line
+	2900 6300 2900 6200
+Connection ~ 2900 6200
+Wire Wire Line
+	2900 6200 3250 6200
+Wire Wire Line
+	2550 6300 2550 6200
+Connection ~ 2550 6200
+Wire Wire Line
+	2550 6200 2900 6200
+Wire Wire Line
+	2200 6300 2200 6200
+Connection ~ 2200 6200
+Wire Wire Line
+	2200 6200 2550 6200
+Wire Wire Line
+	1850 6300 1850 6200
+Connection ~ 1850 6200
+Wire Wire Line
+	1850 6200 2200 6200
+Wire Wire Line
+	1500 6300 1500 6200
+Connection ~ 1500 6200
+Wire Wire Line
+	1500 6200 1850 6200
+Wire Wire Line
+	1150 6600 1150 6700
+Wire Wire Line
+	1150 6700 1500 6700
+Wire Wire Line
+	3250 6700 3250 6600
+Wire Wire Line
+	1500 6600 1500 6700
+Connection ~ 1500 6700
+Wire Wire Line
+	1500 6700 1850 6700
+Wire Wire Line
+	1850 6600 1850 6700
+Connection ~ 1850 6700
+Wire Wire Line
+	1850 6700 2200 6700
+Wire Wire Line
+	2200 6600 2200 6700
+Connection ~ 2200 6700
+Wire Wire Line
+	2200 6700 2550 6700
+Wire Wire Line
+	2550 6600 2550 6700
+Connection ~ 2550 6700
+Wire Wire Line
+	2550 6700 2900 6700
+Wire Wire Line
+	2900 6600 2900 6700
+Connection ~ 2900 6700
+Wire Wire Line
+	2900 6700 3250 6700
+Wire Wire Line
+	3250 6700 3250 6850
+Connection ~ 3250 6700
+$Comp
+L power:GND #PWR?
+U 1 1 6166E6C7
+P 3250 6850
+F 0 "#PWR?" H 3250 6600 50  0001 C CNN
+F 1 "GND" H 3255 6677 50  0000 C CNN
+F 2 "" H 3250 6850 50  0001 C CNN
+F 3 "" H 3250 6850 50  0001 C CNN
+	1    3250 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 6200 1150 6050
+Connection ~ 1150 6200
+Text GLabel 1150 6050 1    50   Input ~ 0
+VCCB16
+$Comp
+L antmicroCapacitorsmisc:C_47u_1210 C?
+U 1 1 616744C2
+P 1150 7550
+F 0 "C?" H 1265 7595 60  0000 L CNN
+F 1 "C_47u_1210" H 1150 7400 60  0001 C CNN
+F 2 "antmicro-footprints:1210-cap" H 1350 7750 60  0001 L CNN
+F 3 "" H 1150 7550 50  0001 C CNN
+F 4 "KEMET" H 1350 7950 60  0001 L CNN "Manufacturer"
+F 5 "C1210C476K8RACTU" H 1350 7850 60  0001 L CNN "MPN"
+F 6 "47u" H 1265 7497 50  0000 L CNN "Val"
+	1    1150 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 616744CB
+P 1500 7550
+F 0 "C?" H 1615 7595 60  0000 L CNN
+F 1 "C_4u7_0805" H 1500 7400 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 1700 7750 60  0001 L CNN
+F 3 "" H 1500 7550 50  0001 C CNN
+F 4 "WALSIN" H 1700 7950 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 1700 7850 60  0001 L CNN "MPN"
+F 6 "4u7" H 1615 7497 50  0000 L CNN "Val"
+	1    1500 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 616744D4
+P 1850 7550
+F 0 "C?" H 1965 7595 60  0000 L CNN
+F 1 "C_4u7_0805" H 1850 7400 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 2050 7750 60  0001 L CNN
+F 3 "" H 1850 7550 50  0001 C CNN
+F 4 "WALSIN" H 2050 7950 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 2050 7850 60  0001 L CNN "MPN"
+F 6 "4u7" H 1965 7497 50  0000 L CNN "Val"
+	1    1850 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 616744DD
+P 2200 7550
+F 0 "C?" H 2315 7595 60  0000 L CNN
+F 1 "C_470n_0603" H 2200 7400 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2400 7750 60  0001 L CNN
+F 3 "" H 2200 7550 50  0001 C CNN
+F 4 "TDK" H 2400 7950 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2400 7850 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 7497 50  0000 L CNN "Val"
+	1    2200 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 616744E6
+P 2550 7550
+F 0 "C?" H 2665 7595 60  0000 L CNN
+F 1 "C_470n_0603" H 2550 7400 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2750 7750 60  0001 L CNN
+F 3 "" H 2550 7550 50  0001 C CNN
+F 4 "TDK" H 2750 7950 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2750 7850 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 7497 50  0000 L CNN "Val"
+	1    2550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 616744EF
+P 2900 7550
+F 0 "C?" H 3015 7595 60  0000 L CNN
+F 1 "C_470n_0603" H 2900 7400 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3100 7750 60  0001 L CNN
+F 3 "" H 2900 7550 50  0001 C CNN
+F 4 "TDK" H 3100 7950 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3100 7850 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 7497 50  0000 L CNN "Val"
+	1    2900 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 616744F8
+P 3250 7550
+F 0 "C?" H 3365 7595 60  0000 L CNN
+F 1 "C_470n_0603" H 3250 7400 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3450 7750 60  0001 L CNN
+F 3 "" H 3250 7550 50  0001 C CNN
+F 4 "TDK" H 3450 7950 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3450 7850 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 7497 50  0000 L CNN "Val"
+	1    3250 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 7400 1150 7300
+Wire Wire Line
+	1150 7300 1500 7300
+Wire Wire Line
+	3250 7300 3250 7400
+Wire Wire Line
+	2900 7400 2900 7300
+Connection ~ 2900 7300
+Wire Wire Line
+	2900 7300 3250 7300
+Wire Wire Line
+	2550 7400 2550 7300
+Connection ~ 2550 7300
+Wire Wire Line
+	2550 7300 2900 7300
+Wire Wire Line
+	2200 7400 2200 7300
+Connection ~ 2200 7300
+Wire Wire Line
+	2200 7300 2550 7300
+Wire Wire Line
+	1850 7400 1850 7300
+Connection ~ 1850 7300
+Wire Wire Line
+	1850 7300 2200 7300
+Wire Wire Line
+	1500 7400 1500 7300
+Connection ~ 1500 7300
+Wire Wire Line
+	1500 7300 1850 7300
+Wire Wire Line
+	1150 7700 1150 7800
+Wire Wire Line
+	1150 7800 1500 7800
+Wire Wire Line
+	3250 7800 3250 7700
+Wire Wire Line
+	1500 7700 1500 7800
+Connection ~ 1500 7800
+Wire Wire Line
+	1500 7800 1850 7800
+Wire Wire Line
+	1850 7700 1850 7800
+Connection ~ 1850 7800
+Wire Wire Line
+	1850 7800 2200 7800
+Wire Wire Line
+	2200 7700 2200 7800
+Connection ~ 2200 7800
+Wire Wire Line
+	2200 7800 2550 7800
+Wire Wire Line
+	2550 7700 2550 7800
+Connection ~ 2550 7800
+Wire Wire Line
+	2550 7800 2900 7800
+Wire Wire Line
+	2900 7700 2900 7800
+Connection ~ 2900 7800
+Wire Wire Line
+	2900 7800 3250 7800
+Wire Wire Line
+	3250 7800 3250 7950
+Connection ~ 3250 7800
+$Comp
+L power:GND #PWR?
+U 1 1 61674524
+P 3250 7950
+F 0 "#PWR?" H 3250 7700 50  0001 C CNN
+F 1 "GND" H 3255 7777 50  0000 C CNN
+F 2 "" H 3250 7950 50  0001 C CNN
+F 3 "" H 3250 7950 50  0001 C CNN
+	1    3250 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 7300 1150 7150
+Connection ~ 1150 7300
+Text GLabel 1150 7150 1    50   Input ~ 0
+VCCB34
+$Comp
+L antmicroCapacitorsmisc:C_47u_1210 C?
+U 1 1 6167C9BF
+P 1150 8650
+F 0 "C?" H 1265 8695 60  0000 L CNN
+F 1 "C_47u_1210" H 1150 8500 60  0001 C CNN
+F 2 "antmicro-footprints:1210-cap" H 1350 8850 60  0001 L CNN
+F 3 "" H 1150 8650 50  0001 C CNN
+F 4 "KEMET" H 1350 9050 60  0001 L CNN "Manufacturer"
+F 5 "C1210C476K8RACTU" H 1350 8950 60  0001 L CNN "MPN"
+F 6 "47u" H 1265 8597 50  0000 L CNN "Val"
+	1    1150 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 6167C9C8
+P 1500 8650
+F 0 "C?" H 1615 8695 60  0000 L CNN
+F 1 "C_4u7_0805" H 1500 8500 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 1700 8850 60  0001 L CNN
+F 3 "" H 1500 8650 50  0001 C CNN
+F 4 "WALSIN" H 1700 9050 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 1700 8950 60  0001 L CNN "MPN"
+F 6 "4u7" H 1615 8597 50  0000 L CNN "Val"
+	1    1500 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 6167C9D1
+P 1850 8650
+F 0 "C?" H 1965 8695 60  0000 L CNN
+F 1 "C_4u7_0805" H 1850 8500 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 2050 8850 60  0001 L CNN
+F 3 "" H 1850 8650 50  0001 C CNN
+F 4 "WALSIN" H 2050 9050 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 2050 8950 60  0001 L CNN "MPN"
+F 6 "4u7" H 1965 8597 50  0000 L CNN "Val"
+	1    1850 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6167C9DA
+P 2200 8650
+F 0 "C?" H 2315 8695 60  0000 L CNN
+F 1 "C_470n_0603" H 2200 8500 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2400 8850 60  0001 L CNN
+F 3 "" H 2200 8650 50  0001 C CNN
+F 4 "TDK" H 2400 9050 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2400 8950 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 8597 50  0000 L CNN "Val"
+	1    2200 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6167C9E3
+P 2550 8650
+F 0 "C?" H 2665 8695 60  0000 L CNN
+F 1 "C_470n_0603" H 2550 8500 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 2750 8850 60  0001 L CNN
+F 3 "" H 2550 8650 50  0001 C CNN
+F 4 "TDK" H 2750 9050 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 2750 8950 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 8597 50  0000 L CNN "Val"
+	1    2550 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6167C9EC
+P 2900 8650
+F 0 "C?" H 3015 8695 60  0000 L CNN
+F 1 "C_470n_0603" H 2900 8500 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3100 8850 60  0001 L CNN
+F 3 "" H 2900 8650 50  0001 C CNN
+F 4 "TDK" H 3100 9050 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3100 8950 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 8597 50  0000 L CNN "Val"
+	1    2900 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 6167C9F5
+P 3250 8650
+F 0 "C?" H 3365 8695 60  0000 L CNN
+F 1 "C_470n_0603" H 3250 8500 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 3450 8850 60  0001 L CNN
+F 3 "" H 3250 8650 50  0001 C CNN
+F 4 "TDK" H 3450 9050 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 3450 8950 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 8597 50  0000 L CNN "Val"
+	1    3250 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 8500 1150 8400
+Wire Wire Line
+	1150 8400 1500 8400
+Wire Wire Line
+	3250 8400 3250 8500
+Wire Wire Line
+	2900 8500 2900 8400
+Connection ~ 2900 8400
+Wire Wire Line
+	2900 8400 3250 8400
+Wire Wire Line
+	2550 8500 2550 8400
+Connection ~ 2550 8400
+Wire Wire Line
+	2550 8400 2900 8400
+Wire Wire Line
+	2200 8500 2200 8400
+Connection ~ 2200 8400
+Wire Wire Line
+	2200 8400 2550 8400
+Wire Wire Line
+	1850 8500 1850 8400
+Connection ~ 1850 8400
+Wire Wire Line
+	1850 8400 2200 8400
+Wire Wire Line
+	1500 8500 1500 8400
+Connection ~ 1500 8400
+Wire Wire Line
+	1500 8400 1850 8400
+Wire Wire Line
+	1150 8800 1150 8900
+Wire Wire Line
+	1150 8900 1500 8900
+Wire Wire Line
+	3250 8900 3250 8800
+Wire Wire Line
+	1500 8800 1500 8900
+Connection ~ 1500 8900
+Wire Wire Line
+	1500 8900 1850 8900
+Wire Wire Line
+	1850 8800 1850 8900
+Connection ~ 1850 8900
+Wire Wire Line
+	1850 8900 2200 8900
+Wire Wire Line
+	2200 8800 2200 8900
+Connection ~ 2200 8900
+Wire Wire Line
+	2200 8900 2550 8900
+Wire Wire Line
+	2550 8800 2550 8900
+Connection ~ 2550 8900
+Wire Wire Line
+	2550 8900 2900 8900
+Wire Wire Line
+	2900 8800 2900 8900
+Connection ~ 2900 8900
+Wire Wire Line
+	2900 8900 3250 8900
+Wire Wire Line
+	3250 8900 3250 9050
+Connection ~ 3250 8900
+Wire Wire Line
+	1150 8400 1150 8250
+Connection ~ 1150 8400
+Text GLabel 1150 8250 1    50   Input ~ 0
+VCCB35
+Wire Wire Line
+	7750 3300 7600 3300
+Wire Wire Line
+	7600 3200 7750 3200
+Connection ~ 7600 3200
+Wire Wire Line
+	7600 3200 7600 3300
+Wire Wire Line
+	7750 3100 7600 3100
+Connection ~ 7600 3100
+Wire Wire Line
+	7600 3100 7600 3200
+Wire Wire Line
+	7600 2600 7600 2900
+Wire Wire Line
+	7750 3000 7600 3000
+Connection ~ 7600 3000
+Wire Wire Line
+	7600 3000 7600 3100
+Wire Wire Line
+	7750 2900 7600 2900
+Connection ~ 7600 2900
+Wire Wire Line
+	7600 2900 7600 3000
+Wire Wire Line
+	7750 4400 7750 4500
+Connection ~ 7750 4500
+Wire Wire Line
+	7750 4500 7750 4600
+Connection ~ 7750 4600
+Wire Wire Line
+	7750 4600 7750 4700
+Connection ~ 7750 4700
+Wire Wire Line
+	7750 4700 7750 4800
+Connection ~ 7750 4800
+Wire Wire Line
+	7750 4800 7750 4900
+Connection ~ 7750 4900
+Wire Wire Line
+	7750 4900 7750 5000
+Connection ~ 7750 5000
+Wire Wire Line
+	7750 5000 7750 5100
+Connection ~ 7750 5100
+Wire Wire Line
+	7750 5100 7750 5200
+Connection ~ 7750 5200
+Wire Wire Line
+	7750 5200 7750 5300
+Connection ~ 7750 5300
+Wire Wire Line
+	7750 5300 7750 5400
+Connection ~ 7750 5400
+Wire Wire Line
+	7750 5400 7750 5500
+Connection ~ 7750 5500
+Wire Wire Line
+	7750 5500 7750 5600
+Connection ~ 7750 5600
+Wire Wire Line
+	7750 5600 7750 5700
+Connection ~ 7750 5700
+Wire Wire Line
+	7750 5700 7750 5800
+Connection ~ 7750 5800
+Wire Wire Line
+	7750 5800 7750 5900
+Connection ~ 7750 5900
+Wire Wire Line
+	7750 5900 7750 6000
+Connection ~ 7750 6000
+Wire Wire Line
+	7750 6000 7750 6100
+Connection ~ 7750 6100
+Wire Wire Line
+	7750 6100 7750 6200
+Connection ~ 7750 6200
+Wire Wire Line
+	7750 6200 7750 6300
+Connection ~ 7750 6300
+Wire Wire Line
+	7750 6300 7750 6400
+Connection ~ 7750 6400
+Wire Wire Line
+	7750 6400 7750 6500
+Connection ~ 7750 6500
+Wire Wire Line
+	7750 6500 7750 6600
+Connection ~ 7750 6600
+Wire Wire Line
+	7750 6600 7750 6700
+Connection ~ 7750 6700
+Wire Wire Line
+	7750 6700 7750 6800
+Connection ~ 7750 6800
+Wire Wire Line
+	7750 6800 7750 6900
+Connection ~ 7750 6900
+Wire Wire Line
+	7750 6900 7750 7000
+Connection ~ 7750 7000
+Wire Wire Line
+	7750 7000 7750 7100
+Connection ~ 7750 7100
+Wire Wire Line
+	7750 7100 7750 7200
+Connection ~ 7750 7200
+Wire Wire Line
+	7750 7200 7750 7300
+Connection ~ 7750 7300
+Wire Wire Line
+	7750 7300 7750 7400
+Connection ~ 7750 7400
+Wire Wire Line
+	7750 7400 7750 7500
+Connection ~ 7750 7500
+Wire Wire Line
+	7750 7500 7750 7600
+Connection ~ 7750 7600
+Wire Wire Line
+	7750 7600 7750 7700
+Connection ~ 7750 7700
+Wire Wire Line
+	7750 7700 7750 7800
+Connection ~ 7750 7800
+Wire Wire Line
+	7750 7800 7750 7900
+Connection ~ 7750 7900
+Wire Wire Line
+	7750 7900 7750 8000
+Connection ~ 7750 8000
+Wire Wire Line
+	7750 8000 7750 8100
+Connection ~ 7750 8100
+Wire Wire Line
+	7750 8100 7750 8200
+Connection ~ 7750 8200
+Wire Wire Line
+	7750 8200 7750 8300
+Connection ~ 7750 8300
+Wire Wire Line
+	7750 8300 7750 8400
+Connection ~ 7750 8400
+Wire Wire Line
+	7750 8400 7750 8500
+Connection ~ 7750 8500
+Wire Wire Line
+	7750 8500 7750 8600
+Connection ~ 7750 8600
+Wire Wire Line
+	7750 8600 7750 8700
+Connection ~ 7750 8700
+Wire Wire Line
+	7750 8700 7750 9000
+$Comp
+L power:GND #PWR?
+U 1 1 6167CA21
+P 3250 9050
+F 0 "#PWR?" H 3250 8800 50  0001 C CNN
+F 1 "GND" H 3255 8877 50  0000 C CNN
+F 2 "" H 3250 9050 50  0001 C CNN
+F 3 "" H 3250 9050 50  0001 C CNN
+	1    3250 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6175DADD
+P 7750 9000
+F 0 "#PWR?" H 7750 8750 50  0001 C CNN
+F 1 "GND" H 7755 8827 50  0000 C CNN
+F 2 "" H 7750 9000 50  0001 C CNN
+F 3 "" H 7750 9000 50  0001 C CNN
+	1    7750 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4500 9750 4600
+Connection ~ 9750 4600
+Wire Wire Line
+	9750 4600 9750 4700
+Connection ~ 9750 4700
+Wire Wire Line
+	9750 4700 9750 4800
+Connection ~ 9750 4800
+Wire Wire Line
+	9750 4800 9750 4900
+Connection ~ 9750 4900
+Wire Wire Line
+	9750 4900 9750 5000
+Connection ~ 9750 5000
+Wire Wire Line
+	9750 5000 9750 5100
+Connection ~ 9750 5100
+Wire Wire Line
+	9750 5100 9750 5200
+Connection ~ 9750 5200
+Wire Wire Line
+	9750 5200 9750 5300
+Connection ~ 9750 5300
+Wire Wire Line
+	9750 5300 9750 5400
+Connection ~ 9750 5400
+Wire Wire Line
+	9750 5400 9750 5500
+Connection ~ 9750 5500
+Wire Wire Line
+	9750 5500 9750 5600
+Connection ~ 9750 5600
+Wire Wire Line
+	9750 5600 9750 5700
+Connection ~ 9750 5700
+Wire Wire Line
+	9750 5700 9750 5800
+Connection ~ 9750 5800
+Wire Wire Line
+	9750 5800 9750 5900
+Connection ~ 9750 5900
+Wire Wire Line
+	9750 5900 9750 6000
+Connection ~ 9750 6000
+Wire Wire Line
+	9750 6000 9750 6100
+Connection ~ 9750 6100
+Wire Wire Line
+	9750 6100 9750 6200
+Connection ~ 9750 6200
+Wire Wire Line
+	9750 6200 9750 6300
+Connection ~ 9750 6300
+Wire Wire Line
+	9750 6300 9750 6400
+Connection ~ 9750 6400
+Wire Wire Line
+	9750 6400 9750 6500
+Connection ~ 9750 6500
+Wire Wire Line
+	9750 6500 9750 6600
+Connection ~ 9750 6600
+Wire Wire Line
+	9750 6600 9750 6700
+Connection ~ 9750 6700
+Wire Wire Line
+	9750 6700 9750 6800
+Connection ~ 9750 6800
+Wire Wire Line
+	9750 6800 9750 6900
+Connection ~ 9750 6900
+Wire Wire Line
+	9750 6900 9750 7000
+Connection ~ 9750 7000
+Wire Wire Line
+	9750 7000 9750 7100
+Connection ~ 9750 7100
+Wire Wire Line
+	9750 7100 9750 7200
+Connection ~ 9750 7200
+Wire Wire Line
+	9750 7200 9750 7300
+Connection ~ 9750 7300
+Wire Wire Line
+	9750 7300 9750 7400
+Connection ~ 9750 7400
+Wire Wire Line
+	9750 7400 9750 7500
+Connection ~ 9750 7500
+Wire Wire Line
+	9750 7500 9750 7600
+Connection ~ 9750 7600
+Wire Wire Line
+	9750 7600 9750 7700
+Connection ~ 9750 7700
+Wire Wire Line
+	9750 7700 9750 7800
+Connection ~ 9750 7800
+Wire Wire Line
+	9750 7800 9750 7900
+Connection ~ 9750 7900
+Wire Wire Line
+	9750 7900 9750 8000
+Connection ~ 9750 8000
+Wire Wire Line
+	9750 8000 9750 8100
+Connection ~ 9750 8100
+Wire Wire Line
+	9750 8100 9750 8200
+Connection ~ 9750 8200
+Wire Wire Line
+	9750 8200 9750 8300
+Connection ~ 9750 8300
+Wire Wire Line
+	9750 8300 9750 8400
+Connection ~ 9750 8400
+Wire Wire Line
+	9750 8400 9750 8500
+Connection ~ 9750 8500
+Wire Wire Line
+	9750 8500 9750 8600
+Connection ~ 9750 8600
+Wire Wire Line
+	9750 8600 9750 8700
+Connection ~ 9750 8700
+Wire Wire Line
+	9750 8700 9750 9000
+$Comp
+L power:GND #PWR?
+U 1 1 61771DD8
+P 9750 9000
+F 0 "#PWR?" H 9750 8750 50  0001 C CNN
+F 1 "GND" H 9755 8827 50  0000 C CNN
+F 2 "" H 9750 9000 50  0001 C CNN
+F 3 "" H 9750 9000 50  0001 C CNN
+	1    9750 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4200 9900 4200
+Wire Wire Line
+	9900 2900 9750 2900
+Wire Wire Line
+	9900 2600 9900 2900
+Connection ~ 9900 2900
+Wire Wire Line
+	9900 2900 9900 3000
+Wire Wire Line
+	9750 3000 9900 3000
+Connection ~ 9900 3000
+Wire Wire Line
+	9900 3000 9900 3100
+Wire Wire Line
+	9750 3100 9900 3100
+Connection ~ 9900 3100
+Wire Wire Line
+	9900 3100 9900 3200
+Wire Wire Line
+	9750 3200 9900 3200
+Connection ~ 9900 3200
+Wire Wire Line
+	9900 3200 9900 3300
+Wire Wire Line
+	9750 3300 9900 3300
+Connection ~ 9900 3300
+Wire Wire Line
+	9900 3300 9900 3900
+Wire Wire Line
+	9900 3400 9750 3400
+Wire Wire Line
+	9750 3500 9900 3500
+Wire Wire Line
+	9750 3600 9900 3600
+Wire Wire Line
+	9750 3700 9900 3700
+Wire Wire Line
+	9750 3800 9900 3800
+Wire Wire Line
+	9750 3900 9900 3900
+Connection ~ 9900 3900
+Wire Wire Line
+	9900 3900 9900 4000
+Wire Wire Line
+	9750 4000 9900 4000
+Connection ~ 9900 4000
+Wire Wire Line
+	9900 4000 9900 4100
+Wire Wire Line
+	9750 4100 9900 4100
+Connection ~ 9900 4100
+Wire Wire Line
+	9900 4100 9900 4200
+Wire Wire Line
+	7750 3700 7600 3700
+Text GLabel 7600 3700 0    50   Input ~ 0
+VCC1V8
+Wire Wire Line
+	7750 3600 7600 3600
+Text GLabel 7600 3600 0    50   Input ~ 0
+XADC1V8
+Text GLabel 4650 3800 1    50   Input ~ 0
+XADC1V8
+$Comp
+L antmicroCapacitors0402:C_10n_0402 C?
+U 1 1 6188C046
+P 4650 4150
+F 0 "C?" H 4765 4195 60  0000 L CNN
+F 1 "C_10n_0402" H 4650 4000 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4850 4350 60  0001 L CNN
+F 3 "" H 4650 4150 50  0001 C CNN
+F 4 "AVX" H 4850 4550 60  0001 L CNN "Manufacturer"
+F 5 "04025G103ZAT2A" H 4850 4450 60  0001 L CNN "MPN"
+F 6 "10n" H 4765 4097 50  0000 L CNN "Val"
+	1    4650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 6188CD94
+P 5000 4150
+F 0 "C?" H 5115 4195 60  0000 L CNN
+F 1 "C_100n_0402" H 5000 4000 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5200 4350 60  0001 L CNN
+F 3 "" H 5000 4150 50  0001 C CNN
+F 4 "Walsin" H 5200 4550 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 5200 4450 60  0001 L CNN "MPN"
+F 6 "100n" H 5115 4097 50  0000 L CNN "Val"
+	1    5000 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4000 5000 3900
+Wire Wire Line
+	5000 3900 4650 3900
+Wire Wire Line
+	4650 3900 4650 3800
+Wire Wire Line
+	4650 4000 4650 3900
+Connection ~ 4650 3900
+Wire Wire Line
+	5000 4300 5000 4400
+Wire Wire Line
+	5000 4400 4650 4400
+Wire Wire Line
+	4650 4400 4650 4300
+Wire Wire Line
+	4650 4400 4650 4500
+Connection ~ 4650 4400
+Text GLabel 7600 3500 0    50   Input ~ 0
+XADCGND
+Wire Wire Line
+	7750 3500 7600 3500
+Text GLabel 4650 4500 3    50   Input ~ 0
+XADCGND
+Text GLabel 7600 2600 1    50   Input ~ 0
+VCC1V8
+$Comp
+L antmicroCapacitorsmisc:C_47u_1210 C?
+U 1 1 61996973
+P 4650 3000
+F 0 "C?" H 4765 3045 60  0000 L CNN
+F 1 "C_47u_1210" H 4650 2850 60  0001 C CNN
+F 2 "antmicro-footprints:1210-cap" H 4850 3200 60  0001 L CNN
+F 3 "" H 4650 3000 50  0001 C CNN
+F 4 "KEMET" H 4850 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1210C476K8RACTU" H 4850 3300 60  0001 L CNN "MPN"
+F 6 "47u" H 4765 2947 50  0000 L CNN "Val"
+	1    4650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 61997890
+P 4950 3000
+F 0 "C?" H 5065 3045 60  0000 L CNN
+F 1 "C_4u7_0805" H 4950 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 5150 3200 60  0001 L CNN
+F 3 "" H 4950 3000 50  0001 C CNN
+F 4 "WALSIN" H 5150 3400 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 5150 3300 60  0001 L CNN "MPN"
+F 6 "4u7" H 5065 2947 50  0000 L CNN "Val"
+	1    4950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 619B5F78
+P 5250 3000
+F 0 "C?" H 5365 3045 60  0000 L CNN
+F 1 "C_4u7_0805" H 5250 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 5450 3200 60  0001 L CNN
+F 3 "" H 5250 3000 50  0001 C CNN
+F 4 "WALSIN" H 5450 3400 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 5450 3300 60  0001 L CNN "MPN"
+F 6 "4u7" H 5365 2947 50  0000 L CNN "Val"
+	1    5250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 619B6781
+P 5550 3000
+F 0 "C?" H 5665 3045 60  0000 L CNN
+F 1 "C_4u7_0805" H 5550 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 5750 3200 60  0001 L CNN
+F 3 "" H 5550 3000 50  0001 C CNN
+F 4 "WALSIN" H 5750 3400 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 5750 3300 60  0001 L CNN "MPN"
+F 6 "4u7" H 5665 2947 50  0000 L CNN "Val"
+	1    5550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 619CB642
+P 5850 3000
+F 0 "C?" H 5965 3045 60  0000 L CNN
+F 1 "C_470n_0603" H 5850 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 6050 3200 60  0001 L CNN
+F 3 "" H 5850 3000 50  0001 C CNN
+F 4 "TDK" H 6050 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 6050 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 5965 2947 50  0000 L CNN "Val"
+	1    5850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 619E9753
+P 6150 3000
+F 0 "C?" H 6265 3045 60  0000 L CNN
+F 1 "C_470n_0603" H 6150 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 6350 3200 60  0001 L CNN
+F 3 "" H 6150 3000 50  0001 C CNN
+F 4 "TDK" H 6350 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 6350 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 6265 2947 50  0000 L CNN "Val"
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 619E9AA8
+P 6450 3000
+F 0 "C?" H 6565 3045 60  0000 L CNN
+F 1 "C_470n_0603" H 6450 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 6650 3200 60  0001 L CNN
+F 3 "" H 6450 3000 50  0001 C CNN
+F 4 "TDK" H 6650 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 6650 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 6565 2947 50  0000 L CNN "Val"
+	1    6450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 619E9E9D
+P 6750 3000
+F 0 "C?" H 6865 3045 60  0000 L CNN
+F 1 "C_470n_0603" H 6750 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 6950 3200 60  0001 L CNN
+F 3 "" H 6750 3000 50  0001 C CNN
+F 4 "TDK" H 6950 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 6950 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 6865 2947 50  0000 L CNN "Val"
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 619EA1DA
+P 7050 3000
+F 0 "C?" H 7165 3045 60  0000 L CNN
+F 1 "C_470n_0603" H 7050 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 7250 3200 60  0001 L CNN
+F 3 "" H 7050 3000 50  0001 C CNN
+F 4 "TDK" H 7250 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 7250 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 7165 2947 50  0000 L CNN "Val"
+	1    7050 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2850 7050 2750
+Wire Wire Line
+	7050 2750 6750 2750
+Wire Wire Line
+	4650 2750 4650 2850
+Wire Wire Line
+	4950 2850 4950 2750
+Connection ~ 4950 2750
+Wire Wire Line
+	4950 2750 4650 2750
+Wire Wire Line
+	5250 2850 5250 2750
+Connection ~ 5250 2750
+Wire Wire Line
+	5250 2750 4950 2750
+Wire Wire Line
+	5550 2850 5550 2750
+Connection ~ 5550 2750
+Wire Wire Line
+	5550 2750 5250 2750
+Wire Wire Line
+	5850 2850 5850 2750
+Connection ~ 5850 2750
+Wire Wire Line
+	5850 2750 5550 2750
+Wire Wire Line
+	6150 2850 6150 2750
+Connection ~ 6150 2750
+Wire Wire Line
+	6150 2750 5850 2750
+Wire Wire Line
+	6450 2850 6450 2750
+Connection ~ 6450 2750
+Wire Wire Line
+	6450 2750 6150 2750
+Wire Wire Line
+	6750 2850 6750 2750
+Connection ~ 6750 2750
+Wire Wire Line
+	6750 2750 6450 2750
+Wire Wire Line
+	4650 3150 4650 3250
+Wire Wire Line
+	4650 3250 4950 3250
+Wire Wire Line
+	7050 3250 7050 3150
+Wire Wire Line
+	4950 3150 4950 3250
+Connection ~ 4950 3250
+Wire Wire Line
+	4950 3250 5250 3250
+Wire Wire Line
+	5250 3150 5250 3250
+Connection ~ 5250 3250
+Wire Wire Line
+	5250 3250 5550 3250
+Wire Wire Line
+	5550 3150 5550 3250
+Connection ~ 5550 3250
+Wire Wire Line
+	5550 3250 5850 3250
+Wire Wire Line
+	5850 3150 5850 3250
+Connection ~ 5850 3250
+Wire Wire Line
+	5850 3250 6150 3250
+Wire Wire Line
+	6150 3150 6150 3250
+Connection ~ 6150 3250
+Wire Wire Line
+	6150 3250 6450 3250
+Wire Wire Line
+	6450 3150 6450 3250
+Connection ~ 6450 3250
+Wire Wire Line
+	6450 3250 6750 3250
+Wire Wire Line
+	6750 3150 6750 3250
+Connection ~ 6750 3250
+Wire Wire Line
+	6750 3250 7050 3250
+$Comp
+L power:GND #PWR?
+U 1 1 61BBB7F0
+P 7050 3400
+F 0 "#PWR?" H 7050 3150 50  0001 C CNN
+F 1 "GND" H 7055 3227 50  0000 C CNN
+F 2 "" H 7050 3400 50  0001 C CNN
+F 3 "" H 7050 3400 50  0001 C CNN
+	1    7050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3400 7050 3250
+Connection ~ 7050 3250
+Text GLabel 4650 2600 1    50   Input ~ 0
+VCC1V8
+Wire Wire Line
+	4650 2600 4650 2750
+Connection ~ 4650 2750
+Wire Wire Line
+	7750 4000 7600 4000
+Wire Wire Line
+	7600 4000 7600 3900
+Wire Wire Line
+	7600 3800 7750 3800
+Wire Wire Line
+	7750 3900 7600 3900
+Connection ~ 7600 3900
+Wire Wire Line
+	7600 3900 7600 3800
+Text GLabel 7400 3800 0    50   Input ~ 0
+VCCBRAM
+Wire Wire Line
+	7600 3800 7400 3800
+Connection ~ 7600 3800
+Text GLabel 9900 2600 1    50   Input ~ 0
+VCCINT
+$Comp
+L antmicroCapacitorsmisc:C_100u_1210 C?
+U 1 1 61DCDEB6
+P 6450 4800
+F 0 "C?" H 6565 4845 60  0000 L CNN
+F 1 "C_100u_1210" H 6450 4650 60  0001 C CNN
+F 2 "antmicro-footprints:1210-cap" H 6650 5000 60  0001 L CNN
+F 3 "" H 6450 4800 50  0001 C CNN
+F 4 "SAMSUNG" H 6650 5200 60  0001 L CNN "Manufacturer"
+F 5 "CL32A107MQVNNNE" H 6650 5100 60  0001 L CNN "MPN"
+F 6 "100u" H 6565 4747 50  0000 L CNN "Val"
+	1    6450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_47u_1210 C?
+U 1 1 61DD8FE9
+P 6900 4800
+F 0 "C?" H 7015 4845 60  0000 L CNN
+F 1 "C_47u_1210" H 6900 4650 60  0001 C CNN
+F 2 "antmicro-footprints:1210-cap" H 7100 5000 60  0001 L CNN
+F 3 "" H 6900 4800 50  0001 C CNN
+F 4 "KEMET" H 7100 5200 60  0001 L CNN "Manufacturer"
+F 5 "C1210C476K8RACTU" H 7100 5100 60  0001 L CNN "MPN"
+F 6 "47u" H 7015 4747 50  0000 L CNN "Val"
+	1    6900 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 6400 5200 1    50   ~ 0
+non 35T
+Text Notes 6850 5000 1    50   ~ 0
+35T
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 61E5F52A
+P 5500 4800
+F 0 "C?" H 5615 4845 60  0000 L CNN
+F 1 "C_470n_0603" H 5500 4650 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 5700 5000 60  0001 L CNN
+F 3 "" H 5500 4800 50  0001 C CNN
+F 4 "TDK" H 5700 5200 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 5700 5100 60  0001 L CNN "MPN"
+F 6 "470n" H 5615 4747 50  0000 L CNN "Val"
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 61E5F83F
+P 5800 4800
+F 0 "C?" H 5915 4845 60  0000 L CNN
+F 1 "C_470n_0603" H 5800 4650 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 6000 5000 60  0001 L CNN
+F 3 "" H 5800 4800 50  0001 C CNN
+F 4 "TDK" H 6000 5200 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 6000 5100 60  0001 L CNN "MPN"
+F 6 "470n" H 5915 4747 50  0000 L CNN "Val"
+	1    5800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 61E5FB98
+P 6100 4800
+F 0 "C?" H 6215 4845 60  0000 L CNN
+F 1 "C_470n_0603" H 6100 4650 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 6300 5000 60  0001 L CNN
+F 3 "" H 6100 4800 50  0001 C CNN
+F 4 "TDK" H 6300 5200 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 6300 5100 60  0001 L CNN "MPN"
+F 6 "470n" H 6215 4747 50  0000 L CNN "Val"
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5350 5400 6250 5400
+Wire Notes Line
+	5350 4600 6250 4600
+Wire Notes Line
+	5650 5300 6250 5300
+Wire Notes Line
+	5950 5200 6250 5200
+Text Notes 5300 4700 3    50   ~ 0
+populate on \n
+Text Notes 5550 5400 2    50   ~ 0
+200T
+Text Notes 5850 5300 2    50   ~ 0
+100T\n
+Text Notes 6250 5200 2    50   ~ 0
+35T,50T\n
+Wire Wire Line
+	5500 4650 5500 4500
+Wire Wire Line
+	5500 4500 5800 4500
+Wire Wire Line
+	6900 4500 6900 4650
+Wire Wire Line
+	5800 4650 5800 4500
+Connection ~ 5800 4500
+Wire Wire Line
+	5800 4500 6100 4500
+Wire Wire Line
+	6100 4650 6100 4500
+Connection ~ 6100 4500
+Wire Wire Line
+	6100 4500 6450 4500
+Wire Wire Line
+	6450 4650 6450 4500
+Connection ~ 6450 4500
+Wire Wire Line
+	6450 4500 6900 4500
+Wire Wire Line
+	5500 4950 5500 5050
+Wire Wire Line
+	5500 5050 5800 5050
+Wire Wire Line
+	6900 5050 6900 4950
+Wire Wire Line
+	6450 4950 6450 5050
+Connection ~ 6450 5050
+Wire Wire Line
+	6450 5050 6900 5050
+Wire Wire Line
+	6100 4950 6100 5050
+Connection ~ 6100 5050
+Wire Wire Line
+	6100 5050 6450 5050
+Wire Wire Line
+	5800 4950 5800 5050
+Connection ~ 5800 5050
+Wire Wire Line
+	5800 5050 6100 5050
+Wire Notes Line
+	5950 4600 5950 5200
+Wire Notes Line
+	5650 4600 5650 5300
+Wire Notes Line
+	5350 4600 5350 5400
+Wire Notes Line
+	6250 4600 6250 5400
+Wire Wire Line
+	5500 4500 5500 4300
+Connection ~ 5500 4500
+Text Notes 5700 4250 0    118  ~ 0
+BRAM decoupling
+Text GLabel 5500 4300 1    50   Input ~ 0
+VCCINT
+$Comp
+L antmicroCapacitorspol:C_330u_KEMET_D C?
+U 1 1 6223039A
+P 11000 3000
+F 0 "C?" H 11118 2995 60  0000 L CNN
+F 1 "C_330u_KEMET_D" H 11000 2850 60  0001 C CNN
+F 2 "antmicro-footprints:KEMET_D" H 11200 3200 60  0001 L CNN
+F 3 "" H 11000 3000 50  0001 C CNN
+F 4 "KEMET" H 11200 3400 60  0001 L CNN "Manufacturer"
+F 5 "T520D337M006ATE045" H 11200 3300 60  0001 L CNN "MPN"
+F 6 "330u" H 11118 2897 50  0000 L CNN "Val"
+	1    11000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 62233E54
+P 12050 3050
+F 0 "C?" H 12165 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 12050 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 12250 3250 60  0001 L CNN
+F 3 "" H 12050 3050 50  0001 C CNN
+F 4 "WALSIN" H 12250 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 12250 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 12165 2997 50  0000 L CNN "Val"
+	1    12050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 6223664D
+P 12350 3050
+F 0 "C?" H 12465 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 12350 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 12550 3250 60  0001 L CNN
+F 3 "" H 12350 3050 50  0001 C CNN
+F 4 "WALSIN" H 12550 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 12550 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 12465 2997 50  0000 L CNN "Val"
+	1    12350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 62236D2E
+P 12650 3050
+F 0 "C?" H 12765 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 12650 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 12850 3250 60  0001 L CNN
+F 3 "" H 12650 3050 50  0001 C CNN
+F 4 "WALSIN" H 12850 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 12850 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 12765 2997 50  0000 L CNN "Val"
+	1    12650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 622386FE
+P 12950 3050
+F 0 "C?" H 13065 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 12950 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 13150 3250 60  0001 L CNN
+F 3 "" H 12950 3050 50  0001 C CNN
+F 4 "WALSIN" H 13150 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 13150 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 13065 2997 50  0000 L CNN "Val"
+	1    12950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 62238C2D
+P 13250 3050
+F 0 "C?" H 13365 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 13250 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 13450 3250 60  0001 L CNN
+F 3 "" H 13250 3050 50  0001 C CNN
+F 4 "WALSIN" H 13450 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 13450 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 13365 2997 50  0000 L CNN "Val"
+	1    13250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 62238F4A
+P 13550 3050
+F 0 "C?" H 13665 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 13550 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 13750 3250 60  0001 L CNN
+F 3 "" H 13550 3050 50  0001 C CNN
+F 4 "WALSIN" H 13750 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 13750 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 13665 2997 50  0000 L CNN "Val"
+	1    13550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 62260260
+P 13850 3050
+F 0 "C?" H 13965 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 13850 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 14050 3250 60  0001 L CNN
+F 3 "" H 13850 3050 50  0001 C CNN
+F 4 "WALSIN" H 14050 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 14050 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 13965 2997 50  0000 L CNN "Val"
+	1    13850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 62260269
+P 14150 3050
+F 0 "C?" H 14265 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 14150 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 14350 3250 60  0001 L CNN
+F 3 "" H 14150 3050 50  0001 C CNN
+F 4 "WALSIN" H 14350 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 14350 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 14265 2997 50  0000 L CNN "Val"
+	1    14150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 62260272
+P 14450 3050
+F 0 "C?" H 14565 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 14450 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 14650 3250 60  0001 L CNN
+F 3 "" H 14450 3050 50  0001 C CNN
+F 4 "WALSIN" H 14650 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 14650 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 14565 2997 50  0000 L CNN "Val"
+	1    14450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 6226027B
+P 14750 3050
+F 0 "C?" H 14865 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 14750 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 14950 3250 60  0001 L CNN
+F 3 "" H 14750 3050 50  0001 C CNN
+F 4 "WALSIN" H 14950 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 14950 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 14865 2997 50  0000 L CNN "Val"
+	1    14750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 62260284
+P 15050 3050
+F 0 "C?" H 15165 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 15050 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 15250 3250 60  0001 L CNN
+F 3 "" H 15050 3050 50  0001 C CNN
+F 4 "WALSIN" H 15250 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 15250 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 15165 2997 50  0000 L CNN "Val"
+	1    15050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_4u7_0805 C?
+U 1 1 6226028D
+P 15350 3050
+F 0 "C?" H 15465 3095 60  0000 L CNN
+F 1 "C_4u7_0805" H 15350 2900 60  0001 C CNN
+F 2 "antmicro-footprints:0805-cap" H 15550 3250 60  0001 L CNN
+F 3 "" H 15350 3050 50  0001 C CNN
+F 4 "WALSIN" H 15550 3450 60  0001 L CNN "Manufacturer"
+F 5 "0805X475K250CT" H 15550 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 15465 2997 50  0000 L CNN "Val"
+	1    15350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622A21D7
+P 12100 4350
+F 0 "C?" H 12215 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 12100 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 12300 4550 60  0001 L CNN
+F 3 "" H 12100 4350 50  0001 C CNN
+F 4 "TDK" H 12300 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 12300 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 12215 4297 50  0000 L CNN "Val"
+	1    12100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622A2AFE
+P 12400 4350
+F 0 "C?" H 12515 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 12400 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 12600 4550 60  0001 L CNN
+F 3 "" H 12400 4350 50  0001 C CNN
+F 4 "TDK" H 12600 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 12600 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 12515 4297 50  0000 L CNN "Val"
+	1    12400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622A2DF9
+P 12700 4350
+F 0 "C?" H 12815 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 12700 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 12900 4550 60  0001 L CNN
+F 3 "" H 12700 4350 50  0001 C CNN
+F 4 "TDK" H 12900 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 12900 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 12815 4297 50  0000 L CNN "Val"
+	1    12700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622A3F6B
+P 13000 4350
+F 0 "C?" H 13115 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 13000 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 13200 4550 60  0001 L CNN
+F 3 "" H 13000 4350 50  0001 C CNN
+F 4 "TDK" H 13200 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 13200 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 13115 4297 50  0000 L CNN "Val"
+	1    13000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622A7E95
+P 13300 4350
+F 0 "C?" H 13415 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 13300 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 13500 4550 60  0001 L CNN
+F 3 "" H 13300 4350 50  0001 C CNN
+F 4 "TDK" H 13500 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 13500 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 13415 4297 50  0000 L CNN "Val"
+	1    13300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622A7E9E
+P 13600 4350
+F 0 "C?" H 13715 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 13600 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 13800 4550 60  0001 L CNN
+F 3 "" H 13600 4350 50  0001 C CNN
+F 4 "TDK" H 13800 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 13800 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 13715 4297 50  0000 L CNN "Val"
+	1    13600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622A7EA7
+P 13900 4350
+F 0 "C?" H 14015 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 13900 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 14100 4550 60  0001 L CNN
+F 3 "" H 13900 4350 50  0001 C CNN
+F 4 "TDK" H 14100 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 14100 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 14015 4297 50  0000 L CNN "Val"
+	1    13900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622A7EB0
+P 14200 4350
+F 0 "C?" H 14315 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 14200 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 14400 4550 60  0001 L CNN
+F 3 "" H 14200 4350 50  0001 C CNN
+F 4 "TDK" H 14400 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 14400 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 14315 4297 50  0000 L CNN "Val"
+	1    14200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622C928A
+P 14450 4350
+F 0 "C?" H 14565 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 14450 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 14650 4550 60  0001 L CNN
+F 3 "" H 14450 4350 50  0001 C CNN
+F 4 "TDK" H 14650 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 14650 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 14565 4297 50  0000 L CNN "Val"
+	1    14450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622C9293
+P 14750 4350
+F 0 "C?" H 14865 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 14750 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 14950 4550 60  0001 L CNN
+F 3 "" H 14750 4350 50  0001 C CNN
+F 4 "TDK" H 14950 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 14950 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 14865 4297 50  0000 L CNN "Val"
+	1    14750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622C929C
+P 15050 4350
+F 0 "C?" H 15165 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 15050 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 15250 4550 60  0001 L CNN
+F 3 "" H 15050 4350 50  0001 C CNN
+F 4 "TDK" H 15250 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 15250 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 15165 4297 50  0000 L CNN "Val"
+	1    15050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622C92A5
+P 15350 4350
+F 0 "C?" H 15465 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 15350 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 15550 4550 60  0001 L CNN
+F 3 "" H 15350 4350 50  0001 C CNN
+F 4 "TDK" H 15550 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 15550 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 15465 4297 50  0000 L CNN "Val"
+	1    15350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622EEC4B
+P 11800 4350
+F 0 "C?" H 11915 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 11800 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 12000 4550 60  0001 L CNN
+F 3 "" H 11800 4350 50  0001 C CNN
+F 4 "TDK" H 12000 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 12000 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 11915 4297 50  0000 L CNN "Val"
+	1    11800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_470n_0603 C?
+U 1 1 622EF0DE
+P 11500 4350
+F 0 "C?" H 11615 4395 60  0000 L CNN
+F 1 "C_470n_0603" H 11500 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 11700 4550 60  0001 L CNN
+F 3 "" H 11500 4350 50  0001 C CNN
+F 4 "TDK" H 11700 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1H474K080AB" H 11700 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 11615 4297 50  0000 L CNN "Val"
+	1    11500 4350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	11900 2750 15550 2750
+Wire Notes Line
+	15550 2750 15550 3600
+Wire Notes Line
+	15550 3600 11900 3600
+Wire Notes Line
+	11900 3600 11900 2750
+Wire Notes Line
+	13700 3500 13700 2750
+Wire Notes Line
+	12800 3400 12800 2750
+Wire Notes Line
+	11900 3300 12500 3300
+Wire Notes Line
+	12500 3300 12500 2750
+Text Notes 11850 2750 3    50   ~ 0
+populate on \n
+Text Notes 15550 3400 3    50   ~ 0
+200T
+Text Notes 13700 3300 3    50   ~ 0
+100T\n
+Text Notes 12800 3250 3    50   ~ 0
+50T
+Text Notes 12500 3150 3    50   ~ 0
+35T\n
+Wire Notes Line
+	11300 4900 11300 4050
+Text Notes 11250 4050 3    50   ~ 0
+populate on \n
+Wire Notes Line
+	12250 4600 12250 4050
+Wire Notes Line
+	11300 4600 12250 4600
+Wire Notes Line
+	12850 4700 12850 4050
+Wire Notes Line
+	11300 4700 12850 4700
+Wire Notes Line
+	12800 3400 11900 3400
+Wire Notes Line
+	13700 3500 11900 3500
+Wire Notes Line
+	13750 4800 13750 4050
+Wire Notes Line
+	11300 4800 13750 4800
+Wire Notes Line
+	15500 4050 15500 4900
+Wire Notes Line
+	11300 4050 15500 4050
+Wire Notes Line
+	11300 4900 15500 4900
+Text Notes 15500 4700 3    50   ~ 0
+200T
+Text Notes 13750 4600 3    50   ~ 0
+100T\n
+Text Notes 12850 4550 3    50   ~ 0
+50T
+Text Notes 12250 4450 3    50   ~ 0
+35T\n
+Wire Wire Line
+	12050 3200 12050 3700
+Wire Wire Line
+	12050 3700 12350 3700
+Wire Wire Line
+	15350 3700 15350 3200
+Wire Wire Line
+	12350 3200 12350 3700
+Connection ~ 12350 3700
+Wire Wire Line
+	12350 3700 12650 3700
+Wire Wire Line
+	12650 3200 12650 3700
+Connection ~ 12650 3700
+Wire Wire Line
+	12650 3700 12950 3700
+Wire Wire Line
+	12950 3200 12950 3700
+Connection ~ 12950 3700
+Wire Wire Line
+	12950 3700 13250 3700
+Wire Wire Line
+	13250 3200 13250 3700
+Connection ~ 13250 3700
+Wire Wire Line
+	13250 3700 13550 3700
+Wire Wire Line
+	13550 3200 13550 3700
+Wire Wire Line
+	13850 3200 13850 3700
+Wire Wire Line
+	14150 3200 14150 3700
+Wire Wire Line
+	14450 3200 14450 3700
+Wire Wire Line
+	14750 3200 14750 3700
+Wire Wire Line
+	15050 3200 15050 3700
+Wire Wire Line
+	11500 4500 11500 5000
+Wire Wire Line
+	11800 4500 11800 5000
+Wire Wire Line
+	12100 4500 12100 5000
+Wire Wire Line
+	12400 4500 12400 5000
+Wire Wire Line
+	12700 4500 12700 5000
+Wire Wire Line
+	13000 4500 13000 5000
+Wire Wire Line
+	13300 4500 13300 5000
+Wire Wire Line
+	13600 4500 13600 5000
+Wire Wire Line
+	13900 4500 13900 5000
+Wire Wire Line
+	14200 4500 14200 5000
+Wire Wire Line
+	14450 4500 14450 5000
+Wire Wire Line
+	14750 4500 14750 5000
+Wire Wire Line
+	15050 4500 15050 5000
+Wire Wire Line
+	15350 4500 15350 5000
+Wire Wire Line
+	11500 5000 11800 5000
+Wire Wire Line
+	15350 5000 15350 5200
+Connection ~ 15350 5000
+Connection ~ 11800 5000
+Wire Wire Line
+	11800 5000 12100 5000
+Connection ~ 12100 5000
+Wire Wire Line
+	12100 5000 12400 5000
+Connection ~ 12400 5000
+Wire Wire Line
+	12400 5000 12700 5000
+Connection ~ 12700 5000
+Wire Wire Line
+	12700 5000 13000 5000
+Connection ~ 13000 5000
+Wire Wire Line
+	13000 5000 13300 5000
+Connection ~ 13300 5000
+Wire Wire Line
+	13300 5000 13600 5000
+Connection ~ 13600 5000
+Wire Wire Line
+	13600 5000 13900 5000
+Connection ~ 13900 5000
+Wire Wire Line
+	13900 5000 14200 5000
+Connection ~ 14200 5000
+Wire Wire Line
+	14200 5000 14450 5000
+Connection ~ 14450 5000
+Wire Wire Line
+	14450 5000 14750 5000
+Connection ~ 14750 5000
+Wire Wire Line
+	14750 5000 15050 5000
+Connection ~ 15050 5000
+Wire Wire Line
+	15050 5000 15350 5000
+$Comp
+L power:GND #PWR?
+U 1 1 627B33DD
+P 15350 5200
+F 0 "#PWR?" H 15350 4950 50  0001 C CNN
+F 1 "GND" H 15355 5027 50  0000 C CNN
+F 2 "" H 15350 5200 50  0001 C CNN
+F 3 "" H 15350 5200 50  0001 C CNN
+	1    15350 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 13550 3700
+Wire Wire Line
+	13550 3700 13850 3700
+Connection ~ 13850 3700
+Wire Wire Line
+	13850 3700 14150 3700
+Connection ~ 14150 3700
+Wire Wire Line
+	14150 3700 14450 3700
+Connection ~ 14450 3700
+Wire Wire Line
+	14450 3700 14750 3700
+Connection ~ 14750 3700
+Wire Wire Line
+	14750 3700 15050 3700
+Connection ~ 15050 3700
+Wire Wire Line
+	15050 3700 15350 3700
+$Comp
+L power:GND #PWR?
+U 1 1 62810E19
+P 15350 3850
+F 0 "#PWR?" H 15350 3600 50  0001 C CNN
+F 1 "GND" H 15355 3677 50  0000 C CNN
+F 2 "" H 15350 3850 50  0001 C CNN
+F 3 "" H 15350 3850 50  0001 C CNN
+	1    15350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 3700 15350 3850
+Connection ~ 15350 3700
+Wire Wire Line
+	15350 4200 15350 4100
+Wire Wire Line
+	15350 4100 15050 4100
+Wire Wire Line
+	11500 4100 11500 4200
+Wire Wire Line
+	11800 4200 11800 4100
+Connection ~ 11800 4100
+Wire Wire Line
+	11800 4100 11500 4100
+Wire Wire Line
+	12100 4200 12100 4100
+Connection ~ 12100 4100
+Wire Wire Line
+	12100 4100 11800 4100
+Wire Wire Line
+	12400 4200 12400 4100
+Connection ~ 12400 4100
+Wire Wire Line
+	12400 4100 12100 4100
+Wire Wire Line
+	12700 4200 12700 4100
+Connection ~ 12700 4100
+Wire Wire Line
+	12700 4100 12400 4100
+Wire Wire Line
+	13000 4100 13000 4200
+Connection ~ 13000 4100
+Wire Wire Line
+	13000 4100 12700 4100
+Wire Wire Line
+	13300 4200 13300 4100
+Connection ~ 13300 4100
+Wire Wire Line
+	13300 4100 13000 4100
+Wire Wire Line
+	13600 4100 13600 4200
+Connection ~ 13600 4100
+Wire Wire Line
+	13600 4100 13300 4100
+Wire Wire Line
+	13900 4200 13900 4100
+Connection ~ 13900 4100
+Wire Wire Line
+	13900 4100 13600 4100
+Wire Wire Line
+	14200 4200 14200 4100
+Connection ~ 14200 4100
+Wire Wire Line
+	14200 4100 13900 4100
+Wire Wire Line
+	14450 4200 14450 4100
+Connection ~ 14450 4100
+Wire Wire Line
+	14450 4100 14200 4100
+Wire Wire Line
+	14750 4200 14750 4100
+Connection ~ 14750 4100
+Wire Wire Line
+	14750 4100 14450 4100
+Wire Wire Line
+	15050 4100 15050 4200
+Connection ~ 15050 4100
+Wire Wire Line
+	15050 4100 14750 4100
+Wire Wire Line
+	15350 2800 15050 2800
+Wire Wire Line
+	12050 2800 12050 2900
+Wire Wire Line
+	15350 2800 15350 2900
+Wire Wire Line
+	12350 2900 12350 2800
+Connection ~ 12350 2800
+Wire Wire Line
+	12350 2800 12050 2800
+Wire Wire Line
+	12650 2900 12650 2800
+Connection ~ 12650 2800
+Wire Wire Line
+	12650 2800 12350 2800
+Wire Wire Line
+	12950 2900 12950 2800
+Connection ~ 12950 2800
+Wire Wire Line
+	12950 2800 12650 2800
+Wire Wire Line
+	13250 2900 13250 2800
+Connection ~ 13250 2800
+Wire Wire Line
+	13250 2800 12950 2800
+Wire Wire Line
+	13550 2900 13550 2800
+Connection ~ 13550 2800
+Wire Wire Line
+	13550 2800 13250 2800
+Wire Wire Line
+	13850 2800 13850 2900
+Connection ~ 13850 2800
+Wire Wire Line
+	13850 2800 13550 2800
+Wire Wire Line
+	14150 2900 14150 2800
+Connection ~ 14150 2800
+Wire Wire Line
+	14150 2800 13850 2800
+Wire Wire Line
+	14450 2900 14450 2800
+Connection ~ 14450 2800
+Wire Wire Line
+	14450 2800 14150 2800
+Wire Wire Line
+	14750 2900 14750 2800
+Connection ~ 14750 2800
+Wire Wire Line
+	14750 2800 14450 2800
+Wire Wire Line
+	15050 2800 15050 2900
+Connection ~ 15050 2800
+Wire Wire Line
+	15050 2800 14750 2800
+Wire Wire Line
+	12050 2800 12050 2600
+Connection ~ 12050 2800
+Wire Wire Line
+	11500 4100 11500 3900
+Connection ~ 11500 4100
+Text GLabel 12050 2600 1    50   Input ~ 0
+VCCINT
+Text GLabel 11500 3900 1    50   Input ~ 0
+VCCINT
+$Comp
+L antmicroCapacitorspol:C_680u_KEMET_D C?
+U 1 1 62D6AEFB
+P 10650 3000
+F 0 "C?" H 10768 2995 60  0000 L CNN
+F 1 "C_680u_KEMET_D" H 10650 2850 60  0001 C CNN
+F 2 "antmicro-footprints:KEMET_D" H 10850 3200 60  0001 L CNN
+F 3 "" H 10650 3000 50  0001 C CNN
+F 4 "KEMET" H 10850 3400 60  0001 L CNN "Manufacturer"
+F 5 "T520D687M004ATE012" H 10850 3300 60  0001 L CNN "MPN"
+F 6 "680u" H 10768 2897 50  0000 L CNN "Val"
+	1    10650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitorsmisc:C_100u_1210 C?
+U 1 1 62D726DD
+P 11350 3050
+F 0 "C?" H 11465 3095 60  0000 L CNN
+F 1 "C_100u_1210" H 11350 2900 60  0001 C CNN
+F 2 "antmicro-footprints:1210-cap" H 11550 3250 60  0001 L CNN
+F 3 "" H 11350 3050 50  0001 C CNN
+F 4 "SAMSUNG" H 11550 3450 60  0001 L CNN "Manufacturer"
+F 5 "CL32A107MQVNNNE" H 11550 3350 60  0001 L CNN "MPN"
+F 6 "100u" H 11465 2997 50  0000 L CNN "Val"
+	1    11350 3050
+	1    0    0    -1  
+$EndComp
+Text Notes 11450 3250 1    50   ~ 0
+35T
+Text Notes 11100 3500 1    50   ~ 0
+50T, 100T
+Text Notes 10750 3300 1    50   ~ 0
+200T
+$Comp
+L power:GND #PWR?
+U 1 1 62E6DC2F
+P 11000 3550
+F 0 "#PWR?" H 11000 3300 50  0001 C CNN
+F 1 "GND" H 11005 3377 50  0000 C CNN
+F 2 "" H 11000 3550 50  0001 C CNN
+F 3 "" H 11000 3550 50  0001 C CNN
+	1    11000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 3200 10650 3500
+Wire Wire Line
+	10650 3500 11000 3500
+Wire Wire Line
+	11350 3500 11350 3200
+Wire Wire Line
+	11000 3200 11000 3500
+Connection ~ 11000 3500
+Wire Wire Line
+	11000 3500 11350 3500
+Wire Wire Line
+	11000 3500 11000 3550
+Wire Wire Line
+	10650 2900 10650 2800
+Wire Wire Line
+	10650 2800 11000 2800
+Wire Wire Line
+	11350 2800 11350 2900
+Wire Wire Line
+	11000 2900 11000 2800
+Connection ~ 11000 2800
+Wire Wire Line
+	11000 2800 11350 2800
+Wire Wire Line
+	11000 2800 11000 2600
+Text GLabel 11000 2600 1    50   Input ~ 0
+VCCINT
+Text Notes 10550 2800 3    50   ~ 0
+populate on \n
+Text Notes 11700 2150 0    118  ~ 0
+VCCINT decoupling
+$EndSCHEMATC
