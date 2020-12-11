@@ -13,15 +13,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2850 3025 2    50   Input ~ 0
+Text GLabel 2950 3150 2    50   Input ~ 0
 JTAG_TDO
-Text GLabel 2850 2925 2    50   Input ~ 0
+Text GLabel 2950 3050 2    50   Input ~ 0
 JTAG_TCK
-Text GLabel 2850 3125 2    50   Input ~ 0
+Text GLabel 2950 3250 2    50   Input ~ 0
 JTAG_TDI
-Text GLabel 2850 2825 2    50   Input ~ 0
+Text GLabel 2950 2950 2    50   Input ~ 0
 JTAG_TMS
-Text Notes 2400 2125 0    118  ~ 24
+Text Notes 2000 1950 0    118  ~ 24
 JTAG
 Text GLabel 4925 2575 0    50   Input ~ 0
 I2C[0]_SDA
@@ -146,50 +146,6 @@ Wire Wire Line
 	8900 2975 8900 3100
 Text Notes 5800 2075 0    118  ~ 24
 Debug UART, I2C, I3C
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:2X05 J?
-U 1 1 61510600
-P 2550 2825
-F 0 "J?" H 2550 3114 60  0000 C CNN
-F 1 "2X05" H 2550 3008 60  0000 C CNN
-F 2 "antmicro-footprints:SHF-105-01-X-D-SM" H 3050 2175 60  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/shf-1370134.pdf" H 2550 2825 60  0001 C CNN
-F 4 "SHF-105-01-L-D-SM" H 2350 2075 50  0001 C CNN "MPN"
-F 5 "Samtec" H 2350 1975 50  0001 C CNN "Manufacturer"
-	1    2550 2825
-	1    0    0    -1  
-$EndComp
-Text GLabel 2025 2725 1    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	2250 2825 2025 2825
-Wire Wire Line
-	2025 2825 2025 2725
-Wire Wire Line
-	2250 2925 2025 2925
-Wire Wire Line
-	2025 2925 2025 3125
-Wire Wire Line
-	2250 3125 2025 3125
-Connection ~ 2025 3125
-Wire Wire Line
-	2025 3125 2025 3225
-Wire Wire Line
-	2250 3225 2025 3225
-Connection ~ 2025 3225
-Wire Wire Line
-	2025 3225 2025 3450
-$Comp
-L power:GND #PWR?
-U 1 1 61514DD7
-P 2025 3450
-F 0 "#PWR?" H 2025 3200 50  0001 C CNN
-F 1 "GND" H 2030 3277 50  0000 C CNN
-F 2 "" H 2025 3450 50  0001 C CNN
-F 3 "" H 2025 3450 50  0001 C CNN
-	1    2025 3450
-	1    0    0    -1  
-$EndComp
 Text GLabel 7075 3375 2    50   Input ~ 0
 UART1_SCM_TX
 Text GLabel 7075 3475 2    50   Input ~ 0
@@ -652,4 +608,133 @@ Wire Wire Line
 	8950 7550 8950 7675
 Text Notes 5550 5325 0    118  ~ 24
 I3C voltage level translation
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:0878311420 J?
+U 1 1 64AA2CA7
+P 1700 3150
+F 0 "J?" H 1700 3675 50  0000 C CNN
+F 1 "0878311420" H 1700 3584 50  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_2x7_P2mm_Drill1mm" H 1900 3350 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" H 1900 3450 60  0001 L CNN
+F 4 "0878311420" H 1900 3650 60  0001 L CNN "MPN"
+F 5 "Molex" H 1900 4250 60  0001 L CNN "Manufacturer"
+	1    1700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2850 1350 2850
+Wire Wire Line
+	1350 2850 1350 2950
+Wire Wire Line
+	1500 2950 1350 2950
+Connection ~ 1350 2950
+Wire Wire Line
+	1350 2950 1350 3050
+Wire Wire Line
+	1500 3050 1350 3050
+Connection ~ 1350 3050
+Wire Wire Line
+	1350 3050 1350 3150
+Wire Wire Line
+	1500 3150 1350 3150
+Connection ~ 1350 3150
+Wire Wire Line
+	1350 3150 1350 3250
+Wire Wire Line
+	1500 3250 1350 3250
+Connection ~ 1350 3250
+Wire Wire Line
+	1350 3250 1350 3350
+Wire Wire Line
+	1350 3350 1500 3350
+Connection ~ 1350 3350
+Wire Wire Line
+	1350 3350 1350 3450
+Wire Wire Line
+	1500 3450 1350 3450
+Connection ~ 1350 3450
+Wire Wire Line
+	1350 3450 1350 3675
+$Comp
+L power:GND #PWR?
+U 1 1 64AB4A8D
+P 1350 3675
+F 0 "#PWR?" H 1350 3425 50  0001 C CNN
+F 1 "GND" H 1355 3502 50  0000 C CNN
+F 2 "" H 1350 3675 50  0001 C CNN
+F 3 "" H 1350 3675 50  0001 C CNN
+	1    1350 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTVSDiodes:TPD6E05U06 D?
+U 1 1 64AC4AD0
+P 2225 3825
+F 0 "D?" V 2445 3147 50  0000 R CNN
+F 1 "TPD6E05U06" V 2354 3147 50  0000 R CNN
+F 2 "antmicro-footprints:TPD6E05U06" H 3425 4075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" H 3725 4175 50  0001 C CNN
+F 4 "TPD6E05U06RVZR" V 2263 3147 50  0000 R CNN "MPN"
+F 5 "Texas Instruments" V 2172 3147 50  0000 R CNN "Manufacturer"
+	1    2225 3825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 2950 2075 2950
+Wire Wire Line
+	2950 3050 2175 3050
+Wire Wire Line
+	2950 3250 2575 3250
+Wire Wire Line
+	2075 3575 2075 2950
+Connection ~ 2075 2950
+Wire Wire Line
+	2075 2950 1900 2950
+Wire Wire Line
+	2175 3575 2175 3050
+Connection ~ 2175 3050
+Wire Wire Line
+	2175 3050 1900 3050
+Wire Wire Line
+	2475 3575 2475 3150
+Wire Wire Line
+	1900 3150 2475 3150
+Connection ~ 2475 3150
+Wire Wire Line
+	2475 3150 2950 3150
+Wire Wire Line
+	2575 3575 2575 3250
+Connection ~ 2575 3250
+Wire Wire Line
+	2575 3250 1900 3250
+Wire Wire Line
+	2675 3575 2675 3475
+Wire Wire Line
+	2675 3475 2775 3475
+Wire Wire Line
+	2775 3575 2775 3475
+Connection ~ 2775 3475
+Wire Wire Line
+	2775 3475 2925 3475
+$Comp
+L power:GND #PWR?
+U 1 1 64AECC53
+P 2925 3475
+F 0 "#PWR?" H 2925 3225 50  0001 C CNN
+F 1 "GND" H 2930 3302 50  0000 C CNN
+F 2 "" H 2925 3475 50  0001 C CNN
+F 3 "" H 2925 3475 50  0001 C CNN
+	1    2925 3475
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1900 3350
+NoConn ~ 1900 3450
+Text GLabel 2125 2725 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	1900 2850 2125 2850
+Wire Wire Line
+	2125 2850 2125 2725
+Text Notes 1525 2050 0    50   ~ 0
+Compatible with Xilinx Platform Cable
 $EndSCHEMATC
