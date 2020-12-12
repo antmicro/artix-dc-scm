@@ -179,8 +179,6 @@ Wire Wire Line
 	11600 2600 12000 2600
 Wire Wire Line
 	11600 2500 12000 2500
-Text Notes 13125 725  0    118  ~ 0
-DDR3
 Text GLabel 11600 2500 0    50   BiDi ~ 0
 DDR3_DQS1-
 Text GLabel 11600 2600 0    50   BiDi ~ 0
@@ -626,8 +624,6 @@ Wire Wire Line
 	10000 8850 9450 8850
 Wire Wire Line
 	10000 8400 10000 8150
-Text GLabel 10000 8150 1    50   Input ~ 0
-VCC3V3
 $Comp
 L antmicroResistors0402:R_200R_0402 R?
 U 1 1 60B66864
@@ -687,8 +683,6 @@ Wire Wire Line
 	10650 8400 10650 8300
 Wire Wire Line
 	10800 8700 10800 8300
-Text GLabel 10800 8150 1    50   Input ~ 0
-VCC3V3
 Connection ~ 10800 8300
 Wire Wire Line
 	10800 8300 10650 8300
@@ -712,8 +706,6 @@ Wire Wire Line
 	9450 9750 9600 9750
 Wire Wire Line
 	9900 9750 10050 9750
-Text GLabel 10050 9750 2    50   Input ~ 0
-VCC3V3
 $Comp
 L antmicroResistors0402:R_100R_0402 R?
 U 1 1 60D065C0
@@ -795,8 +787,6 @@ F 3 "" H 9450 10850 50  0001 C CNN
 	1    9450 10850
 	1    0    0    -1  
 $EndComp
-Text GLabel 9600 7550 2    50   Input ~ 0
-VCC3V3
 Wire Wire Line
 	9600 7550 9450 7550
 Connection ~ 9050 7550
@@ -897,8 +887,6 @@ Wire Wire Line
 	4150 1250 4300 1250
 Text GLabel 2000 1250 0    50   Input ~ 0
 VCCB13
-Text GLabel 4300 1250 2    50   Input ~ 0
-VCCB14
 Wire Wire Line
 	7600 1250 7500 1250
 Connection ~ 7100 1250
@@ -917,7 +905,7 @@ Connection ~ 7500 1250
 Wire Wire Line
 	7500 1250 7400 1250
 Text GLabel 6950 1250 0    50   Input ~ 0
-VCCB15
+VCC3V3_BANK
 Wire Wire Line
 	8600 1250 8700 1250
 Connection ~ 8700 1250
@@ -935,8 +923,6 @@ Wire Wire Line
 Connection ~ 9100 1250
 Wire Wire Line
 	9100 1250 9250 1250
-Text GLabel 9250 1250 2    50   Input ~ 0
-VCCB16
 Wire Wire Line
 	12900 1200 12800 1200
 Connection ~ 12400 1200
@@ -955,7 +941,7 @@ Connection ~ 12800 1200
 Wire Wire Line
 	12800 1200 12700 1200
 Text GLabel 12250 1200 0    50   Input ~ 0
-VCCB34
+VCC1V35_BANK
 Wire Wire Line
 	13900 1200 14000 1200
 Connection ~ 14000 1200
@@ -973,8 +959,6 @@ Wire Wire Line
 Connection ~ 14400 1200
 Wire Wire Line
 	14400 1200 14550 1200
-Text GLabel 14550 1200 2    50   Input ~ 0
-VCCB35
 Wire Notes Line
 	1350 1900 2850 1900
 Wire Notes Line
@@ -1145,28 +1129,6 @@ Text GLabel 3275 9250 0    50   Input ~ 0
 IRQ_N
 Text GLabel 3275 9350 0    50   Input ~ 0
 PRSNT1_N
-Text GLabel 12250 875  0    50   Input ~ 0
-VCC1V35
-Text GLabel 12675 875  2    50   Input ~ 0
-VCCB34
-Wire Wire Line
-	12325 875  12250 875 
-Wire Wire Line
-	12625 875  12675 875 
-$Comp
-L antmicroResistors0402:R_0R_0402 R?
-U 1 1 64C71315
-P 12475 875
-F 0 "R?" H 12475 1088 60  0000 C CNN
-F 1 "R_0R_0402" H 12475 725 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12675 1075 60  0001 L CNN
-F 3 "" H 12475 875 50  0001 C CNN
-F 4 "PANASONIC" H 12675 1275 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 12675 1175 60  0001 L CNN "MPN"
-F 6 "0R" H 12475 990 50  0000 C CNN "Val"
-	1    12475 875 
-	1    0    0    -1  
-$EndComp
 NoConn ~ 12000 3200
 Text GLabel 11600 3300 0    50   Output ~ 0
 DDR3_A10
@@ -1182,94 +1144,6 @@ Wire Wire Line
 	11600 3400 12000 3400
 Wire Wire Line
 	11600 3300 12000 3300
-Text GLabel 14025 875  0    50   Input ~ 0
-VCC1V35
-Text GLabel 14450 875  2    50   Input ~ 0
-VCCB35
-Wire Wire Line
-	14100 875  14025 875 
-Wire Wire Line
-	14400 875  14450 875 
-$Comp
-L antmicroResistors0402:R_0R_0402 R?
-U 1 1 6529BA70
-P 14250 875
-F 0 "R?" H 14250 1088 60  0000 C CNN
-F 1 "R_0R_0402" H 14250 725 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14450 1075 60  0001 L CNN
-F 3 "" H 14250 875 50  0001 C CNN
-F 4 "PANASONIC" H 14450 1275 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 14450 1175 60  0001 L CNN "MPN"
-F 6 "0R" H 14250 990 50  0000 C CNN "Val"
-	1    14250 875 
-	1    0    0    -1  
-$EndComp
-Text GLabel 6925 900  0    50   Input ~ 0
-VCC3V3
-Text GLabel 7350 900  2    50   Input ~ 0
-VCCB15
-Wire Wire Line
-	7000 900  6925 900 
-Wire Wire Line
-	7300 900  7350 900 
-$Comp
-L antmicroResistors0402:R_0R_0402 R?
-U 1 1 6535C8E4
-P 7150 900
-F 0 "R?" H 7150 1113 60  0000 C CNN
-F 1 "R_0R_0402" H 7150 750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7350 1100 60  0001 L CNN
-F 3 "" H 7150 900 50  0001 C CNN
-F 4 "PANASONIC" H 7350 1300 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 7350 1200 60  0001 L CNN "MPN"
-F 6 "0R" H 7150 1015 50  0000 C CNN "Val"
-	1    7150 900 
-	1    0    0    -1  
-$EndComp
-Text GLabel 8725 900  0    50   Input ~ 0
-VCC3V3
-Text GLabel 9150 900  2    50   Input ~ 0
-VCCB16
-Wire Wire Line
-	8800 900  8725 900 
-Wire Wire Line
-	9100 900  9150 900 
-$Comp
-L antmicroResistors0402:R_0R_0402 R?
-U 1 1 655D7CE5
-P 8950 900
-F 0 "R?" H 8950 1113 60  0000 C CNN
-F 1 "R_0R_0402" H 8950 750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9150 1100 60  0001 L CNN
-F 3 "" H 8950 900 50  0001 C CNN
-F 4 "PANASONIC" H 9150 1300 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 9150 1200 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 1015 50  0000 C CNN "Val"
-	1    8950 900 
-	1    0    0    -1  
-$EndComp
-Text GLabel 3775 975  0    50   Input ~ 0
-VCC1V8
-Text GLabel 4200 975  2    50   Input ~ 0
-VCCB14
-Wire Wire Line
-	3850 975  3775 975 
-Wire Wire Line
-	4150 975  4200 975 
-$Comp
-L antmicroResistors0402:R_0R_0402 R?
-U 1 1 658C9945
-P 4000 975
-F 0 "R?" H 4000 1188 60  0000 C CNN
-F 1 "R_0R_0402" H 4000 825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4200 1175 60  0001 L CNN
-F 3 "" H 4000 975 50  0001 C CNN
-F 4 "PANASONIC" H 4200 1375 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 4200 1275 60  0001 L CNN "MPN"
-F 6 "0R" H 4000 1090 50  0000 C CNN "Val"
-	1    4000 975 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4875 2150 4550 2150
 Wire Wire Line
@@ -1294,4 +1168,20 @@ Wire Wire Line
 	6375 5050 6700 5050
 Text Notes 3300 7850 2    50   ~ 0
 Control signals from HPM
+Text Notes 13125 725  0    118  ~ 0
+DDR3
+Text GLabel 9250 1250 2    50   Input ~ 0
+VCC3V3_BANK
+Text GLabel 14550 1200 2    50   Input ~ 0
+VCC1V35_BANK
+Text GLabel 9600 7550 2    50   Input ~ 0
+VCC3V3_BANK
+Text GLabel 10000 8150 1    50   Input ~ 0
+VCC3V3_BANK
+Text GLabel 10800 8150 1    50   Input ~ 0
+VCC3V3_BANK
+Text GLabel 10050 9750 2    50   Input ~ 0
+VCC3V3_BANK
+Text GLabel 4300 1250 2    50   Input ~ 0
+VCC1V8_BANK
 $EndSCHEMATC

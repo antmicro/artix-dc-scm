@@ -384,8 +384,6 @@ $EndComp
 Wire Wire Line
 	1150 4000 1150 3850
 Connection ~ 1150 4000
-Text GLabel 1150 3850 1    50   Input ~ 0
-VCCB14
 $Comp
 L antmicroCapacitorsmisc:C_47u_1210 C?
 U 1 1 6166A0AB
@@ -563,8 +561,6 @@ $EndComp
 Wire Wire Line
 	1150 5100 1150 4950
 Connection ~ 1150 5100
-Text GLabel 1150 4950 1    50   Input ~ 0
-VCCB15
 $Comp
 L antmicroCapacitorsmisc:C_47u_1210 C?
 U 1 1 6166E665
@@ -742,8 +738,6 @@ $EndComp
 Wire Wire Line
 	1150 6200 1150 6050
 Connection ~ 1150 6200
-Text GLabel 1150 6050 1    50   Input ~ 0
-VCCB16
 $Comp
 L antmicroCapacitorsmisc:C_47u_1210 C?
 U 1 1 616744C2
@@ -921,8 +915,6 @@ $EndComp
 Wire Wire Line
 	1150 7300 1150 7150
 Connection ~ 1150 7300
-Text GLabel 1150 7150 1    50   Input ~ 0
-VCCB34
 $Comp
 L antmicroCapacitorsmisc:C_47u_1210 C?
 U 1 1 6167C9BF
@@ -1089,8 +1081,6 @@ Connection ~ 3250 8900
 Wire Wire Line
 	1150 8400 1150 8250
 Connection ~ 1150 8400
-Text GLabel 1150 8250 1    50   Input ~ 0
-VCCB35
 Wire Wire Line
 	7750 3300 7600 3300
 Wire Wire Line
@@ -1463,12 +1453,8 @@ Wire Wire Line
 	9900 4100 9900 4200
 Wire Wire Line
 	7750 3700 7600 3700
-Text GLabel 7600 3700 0    50   Input ~ 0
-VCC1V8
 Wire Wire Line
 	7750 3600 7600 3600
-Text GLabel 7600 3600 0    50   Input ~ 0
-VCC1V8
 Text GLabel 4650 3800 1    50   Input ~ 0
 XADC1V8
 $Comp
@@ -1521,8 +1507,6 @@ Wire Wire Line
 	7750 3500 7600 3500
 Text GLabel 4650 4500 3    50   Input ~ 0
 XADCGND
-Text GLabel 7600 2600 1    50   Input ~ 0
-VCC1V8
 $Comp
 L antmicroCapacitorsmisc:C_47u_1210 C?
 U 1 1 61996973
@@ -1745,8 +1729,6 @@ $EndComp
 Wire Wire Line
 	7050 3400 7050 3250
 Connection ~ 7050 3250
-Text GLabel 4650 2600 1    50   Input ~ 0
-VCC1V8
 Wire Wire Line
 	4650 2600 4650 2750
 Connection ~ 4650 2750
@@ -1761,13 +1743,9 @@ Wire Wire Line
 Connection ~ 7600 3900
 Wire Wire Line
 	7600 3900 7600 3800
-Text GLabel 7400 3800 0    50   Input ~ 0
-VCC1V0
 Wire Wire Line
 	7600 3800 7400 3800
 Connection ~ 7600 3800
-Text GLabel 9900 2600 1    50   Input ~ 0
-VCC1V0
 $Comp
 L antmicroCapacitorsmisc:C_100u_1210 C?
 U 1 1 61DCDEB6
@@ -1913,8 +1891,6 @@ Wire Wire Line
 Connection ~ 5500 4500
 Text Notes 5700 4250 0    118  ~ 0
 BRAM decoupling
-Text GLabel 5500 4300 1    50   Input ~ 0
-VCC1V0
 $Comp
 L antmicroCapacitorspol:C_330u_KEMET_D C?
 U 1 1 6223039A
@@ -2631,10 +2607,6 @@ Connection ~ 12050 2800
 Wire Wire Line
 	11500 4100 11500 3900
 Connection ~ 11500 4100
-Text GLabel 12050 2600 1    50   Input ~ 0
-VCC1V0
-Text GLabel 11500 3900 1    50   Input ~ 0
-VCC1V0
 $Comp
 L antmicroCapacitorspol:C_680u_KEMET_D C?
 U 1 1 62D6AEFB
@@ -2706,12 +2678,40 @@ Wire Wire Line
 	11000 2800 11350 2800
 Wire Wire Line
 	11000 2800 11000 2600
-Text GLabel 11000 2600 1    50   Input ~ 0
-VCC1V0
 Text Notes 10550 2800 3    50   ~ 0
 populate on \n
 Text Notes 11700 2150 0    118  ~ 0
 VCCINT decoupling
 Text Notes 5375 2375 0    118  ~ 0
 VCCAUX decoupling
+Text GLabel 4650 2600 1    50   Input ~ 0
+VCCAUX
+Text GLabel 7600 2600 1    50   Input ~ 0
+VCCAUX
+Text GLabel 7600 3600 0    50   Input ~ 0
+VCCAUX
+Text GLabel 7600 3700 0    50   Input ~ 0
+VCCAUX
+Text GLabel 7400 3800 0    50   Input ~ 0
+VCCINT
+Text GLabel 5500 4300 1    50   Input ~ 0
+VCCINT
+Text GLabel 9900 2600 1    50   Input ~ 0
+VCCINT
+Text GLabel 11000 2600 1    50   Input ~ 0
+VCCINT
+Text GLabel 12050 2600 1    50   Input ~ 0
+VCCINT
+Text GLabel 11500 3900 1    50   Input ~ 0
+VCCINT
+Text GLabel 1150 3850 0    50   Input ~ 0
+VCC1V8_BANK
+Text GLabel 1150 4950 0    50   Input ~ 0
+VCC3V3_BANK
+Text GLabel 1150 6050 0    50   Input ~ 0
+VCC3V3_BANK
+Text GLabel 1150 7150 0    50   Input ~ 0
+VCC1V35_BANK
+Text GLabel 1150 8250 0    50   Input ~ 0
+VCC1V35_BANK
 $EndSCHEMATC
