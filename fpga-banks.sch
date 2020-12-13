@@ -13,77 +13,77 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 6325 2350 0    50   Input ~ 0
+Text GLabel 15175 2300 2    50   Input ~ 0
 RGMII_RX_DV
-Text GLabel 6325 2050 0    50   Output ~ 0
+Text GLabel 15175 2000 2    50   Output ~ 0
 ETH_MDC
-Text GLabel 6325 3450 0    50   BiDi ~ 0
+Text GLabel 15175 3400 2    50   BiDi ~ 0
 ETH_MDIO
-Text GLabel 6325 3150 0    50   Output ~ 0
+Text GLabel 15175 3100 2    50   Output ~ 0
 RGMII_TX_DV
-Text GLabel 6325 3250 0    50   Output ~ 0
+Text GLabel 15175 3200 2    50   Output ~ 0
 RGMII_TXD0
-Text GLabel 6325 3350 0    50   Output ~ 0
+Text GLabel 15175 3300 2    50   Output ~ 0
 RGMII_TXD1
-Text GLabel 6325 3050 0    50   Output ~ 0
+Text GLabel 15175 3000 2    50   Output ~ 0
 RGMII_TXD2
-Text GLabel 6325 3550 0    50   Input ~ 0
+Text GLabel 15175 3500 2    50   Input ~ 0
 RGMII_TXD3
-Text GLabel 6325 3650 0    50   Input ~ 0
+Text GLabel 15175 3600 2    50   Input ~ 0
 RGMII_TX_CLK
-Text GLabel 6325 2450 0    50   Input ~ 0
+Text GLabel 15175 2400 2    50   Input ~ 0
 RGMII_RXD0
-Text GLabel 6325 2550 0    50   Input ~ 0
+Text GLabel 15175 2500 2    50   Input ~ 0
 RGMII_RXD1
-Text GLabel 6325 3750 0    50   Input ~ 0
+Text GLabel 15175 3700 2    50   Input ~ 0
 RGMII_RXD2
-Text GLabel 6325 2950 0    50   Input ~ 0
+Text GLabel 15175 2900 2    50   Input ~ 0
 RGMII_RXD3
-Text GLabel 6325 2150 0    50   Input ~ 0
+Text GLabel 15175 2100 2    50   Input ~ 0
 RGMII_RX_CLK
 Wire Wire Line
-	6700 2050 6325 2050
+	14800 2000 15175 2000
 Wire Wire Line
-	6700 2250 6325 2250
+	14800 2200 15175 2200
 Wire Wire Line
-	6700 2150 6325 2150
+	14800 2100 15175 2100
 Wire Wire Line
-	6700 2350 6325 2350
+	14800 2300 15175 2300
 Wire Wire Line
-	6700 2550 6325 2550
+	14800 2500 15175 2500
 Wire Wire Line
-	6700 2450 6325 2450
+	14800 2400 15175 2400
 Wire Wire Line
-	6700 2850 6325 2850
+	14800 2800 15175 2800
 Wire Wire Line
-	6700 2750 6325 2750
+	14800 2700 15175 2700
 Wire Wire Line
-	6700 2950 6325 2950
+	14800 2900 15175 2900
 Wire Wire Line
-	6700 3150 6325 3150
+	14800 3100 15175 3100
 Wire Wire Line
-	6700 3050 6325 3050
+	14800 3000 15175 3000
 Wire Wire Line
-	6700 3250 6325 3250
+	14800 3200 15175 3200
 Wire Wire Line
-	6700 3450 6325 3450
+	14800 3400 15175 3400
 Wire Wire Line
-	6700 3350 6325 3350
+	14800 3300 15175 3300
 Wire Wire Line
-	6700 3550 6325 3550
+	14800 3500 15175 3500
 Wire Wire Line
-	6700 3750 6325 3750
+	14800 3700 15175 3700
 Wire Wire Line
-	6700 3650 6325 3650
-Text GLabel 6325 2750 0    50   Input ~ 0
+	14800 3600 15175 3600
+Text GLabel 15175 2700 2    50   Input ~ 0
 ETH_INT_N
-Text GLabel 6325 2250 0    50   Input ~ 0
+Text GLabel 15175 2200 2    50   Input ~ 0
 RGMII_REF_CLK
 Wire Wire Line
-	6700 2650 6325 2650
-Text GLabel 6325 2650 0    50   Output ~ 0
+	14800 2600 15175 2600
+Text GLabel 15175 2600 2    50   Output ~ 0
 ETH_~RESET
-Text GLabel 6325 2850 0    50   Output ~ 0
+Text GLabel 15175 2800 2    50   Output ~ 0
 RGMII_TX_CLK
 Text Notes 5725 3050 1    50   ~ 0
 ethernet.sch
@@ -1173,7 +1173,7 @@ DDR3
 Text GLabel 9250 1250 2    50   Input ~ 0
 VCC3V3_BANK
 Text GLabel 14550 1200 2    50   Input ~ 0
-VCC1V35_BANK
+VCC3V3_BANK
 Text GLabel 9600 7550 2    50   Input ~ 0
 VCC3V3_BANK
 Text GLabel 10000 8150 1    50   Input ~ 0
