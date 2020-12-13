@@ -2620,10 +2620,10 @@ Wire Wire Line
 	1025 10075 1025 9775
 Connection ~ 1025 9775
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L antmicroResistors0402:R_1k_0402 R102
 U 1 1 5FFECF1E
 P 2075 9450
-F 0 "R?" V 2030 9520 60  0000 L CNN
+F 0 "R102" V 2030 9520 60  0000 L CNN
 F 1 "R_1k_0402" H 2075 9300 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 2275 9650 60  0001 L CNN
 F 3 "" H 2075 9450 50  0001 C CNN
@@ -2634,10 +2634,10 @@ F 6 "1k" V 2128 9520 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L antmicroResistors0402:R_1k_0402 R103
 U 1 1 5FFED382
 P 2175 9450
-F 0 "R?" V 2130 9520 60  0000 L CNN
+F 0 "R103" V 2130 9520 60  0000 L CNN
 F 1 "R_1k_0402" H 2175 9300 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 2375 9650 60  0001 L CNN
 F 3 "" H 2175 9450 50  0001 C CNN
@@ -2648,10 +2648,10 @@ F 6 "1k" V 2228 9520 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L antmicroResistors0402:R_1k_0402 R104
 U 1 1 5FFED63B
 P 2275 9450
-F 0 "R?" V 2230 9520 60  0000 L CNN
+F 0 "R104" V 2230 9520 60  0000 L CNN
 F 1 "R_1k_0402" H 2275 9300 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 2475 9650 60  0001 L CNN
 F 3 "" H 2275 9450 50  0001 C CNN
