@@ -23,10 +23,8 @@ Text Notes 1025 1550 0    50   ~ 0
 12V/2.5A\ninput
 Wire Wire Line
 	12975 2900 12675 2900
-Text Label 12675 2900 0    50   ~ 0
-3V3_EN
 Wire Wire Line
-	12375 2750 12975 2750
+	12375 2750 12675 2750
 Connection ~ 12375 2750
 $Comp
 L power:GND #PWR058
@@ -963,10 +961,8 @@ F 5 "ON Semiconductor" H 10100 4300 60  0001 L CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	13000 5050 12700 5050
-Text Label 12700 5050 0    50   ~ 0
-1V8_EN
 Wire Wire Line
-	12400 4900 13000 4900
+	12400 4900 12700 4900
 Connection ~ 12400 4900
 $Comp
 L power:GND #PWR060
@@ -1248,10 +1244,8 @@ F 5 "ON Semiconductor" H 10075 5675 60  0001 L CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	13050 6875 12725 6875
-Text Label 12725 6875 0    50   ~ 0
-1V35_EN
 Wire Wire Line
-	12450 6725 13050 6725
+	12450 6725 12725 6725
 Connection ~ 12450 6725
 $Comp
 L power:GND #PWR061
@@ -1719,7 +1713,7 @@ F 6 "2u2" H 3300 3750 50  0000 L CNN "Val"
 	1    3275 3850
 	1    0    0    -1  
 $EndComp
-Text Notes 1825 6950 0    118  ~ 0
+Text Notes 1900 6825 0    118  ~ 0
 To CHECK
 Wire Wire Line
 	9250 8225 9175 8225
@@ -1814,12 +1808,12 @@ F 3 "" H 2075 10500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2075 10075 2000 10075
-Text GLabel 1025 9350 1    50   Input ~ 0
-VCC5V0
+Text GLabel 1025 9175 1    50   Input ~ 0
+VCC3V3
 Wire Wire Line
 	1200 9775 1025 9775
 Wire Wire Line
-	1025 9350 1025 9775
+	1025 9175 1025 9775
 Text Label 625  9875 0    50   ~ 0
 PWR_EN
 Wire Wire Line
@@ -1941,36 +1935,19 @@ Wire Wire Line
 $Comp
 L antmicroCapacitors0402:C_10n_0402 C115
 U 1 1 6204B4B4
-P 1050 10325
-F 0 "C115" H 1165 10370 60  0000 L CNN
-F 1 "C_10n_0402" H 1050 10175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1250 10525 60  0001 L CNN
-F 3 "" H 1050 10325 50  0001 C CNN
-F 4 "AVX" H 1250 10725 60  0001 L CNN "Manufacturer"
-F 5 "04025G103ZAT2A" H 1250 10625 60  0001 L CNN "MPN"
-F 6 "10n" H 1165 10272 50  0000 L CNN "Val"
-	1    1050 10325
+P 800 10275
+F 0 "C115" H 915 10320 60  0000 L CNN
+F 1 "C_10n_0402" H 800 10125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 1000 10475 60  0001 L CNN
+F 3 "" H 800 10275 50  0001 C CNN
+F 4 "AVX" H 1000 10675 60  0001 L CNN "Manufacturer"
+F 5 "04025G103ZAT2A" H 1000 10575 60  0001 L CNN "MPN"
+F 6 "10n" H 915 10222 50  0000 L CNN "Val"
+	1    800  10275
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 10075 1050 10075
-Wire Wire Line
-	1050 10075 1050 10175
 Wire Wire Line
 	800  9975 1200 9975
-Wire Wire Line
-	1050 10525 1050 10475
-$Comp
-L power:GND #PWR033
-U 1 1 620E7228
-P 1050 10525
-F 0 "#PWR033" H 1050 10275 50  0001 C CNN
-F 1 "GND" H 1055 10352 50  0000 C CNN
-F 2 "" H 1050 10525 50  0001 C CNN
-F 3 "" H 1050 10525 50  0001 C CNN
-	1    1050 10525
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR029
 U 1 1 6211AF82
@@ -1982,8 +1959,6 @@ F 3 "" H 800 10525 50  0001 C CNN
 	1    800  10525
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	800  9975 800  10525
 Text Notes 9075 975  0    118  ~ 0
 PWR_LED Indicators
 Wire Notes Line
@@ -2203,10 +2178,8 @@ F 6 "124k" V 14753 7020 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	13025 8600 12700 8600
-Text Label 12700 8600 0    50   ~ 0
-1V0_EN
 Wire Wire Line
-	12425 8450 13025 8450
+	12425 8450 12700 8450
 Connection ~ 12425 8450
 $Comp
 L power:GND #PWR051
@@ -2500,11 +2473,11 @@ F 5 "LM3881MME/NOPB" H 1950 10375 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 9975 2700 9975
+	2000 9975 2275 9975
 Wire Wire Line
-	2000 9875 2700 9875
+	2000 9875 2175 9875
 Wire Wire Line
-	2000 9775 2700 9775
+	2000 9775 2075 9775
 Wire Wire Line
 	2900 9050 3350 9050
 Wire Wire Line
@@ -2592,120 +2565,6 @@ Text Label 5250 9375 0    50   ~ 0
 3V3_PG
 Wire Wire Line
 	2900 7250 3350 7250
-$Comp
-L antmicroLogicGatesandInverters:SN74LVC1G04DBVR U3
-U 1 1 60B6CB3B
-P 1525 7250
-F 0 "U3" H 1725 7175 60  0000 L CNN
-F 1 "SN74LVC1G04DBVR" H 1725 7075 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-753" H 1725 7450 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g04" H 1725 7550 60  0001 L CNN
-F 4 "SN74LVC1G04DBVR" H 1725 7750 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 1725 8350 60  0001 L CNN "Manufacturer"
-	1    1525 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroLogicGatesandInverters:SN74LVC1G04DBVR U4
-U 1 1 60B81582
-P 1525 8000
-F 0 "U4" H 1725 7925 60  0000 L CNN
-F 1 "SN74LVC1G04DBVR" H 1725 7825 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-753" H 1725 8200 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g04" H 1725 8300 60  0001 L CNN
-F 4 "SN74LVC1G04DBVR" H 1725 8500 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 1725 9100 60  0001 L CNN "Manufacturer"
-	1    1525 8000
-	1    0    0    -1  
-$EndComp
-Text Label 1125 7250 2    50   ~ 0
-VCCINT_EN
-Text Label 1175 8000 2    50   ~ 0
-VCCAUX_EN
-Wire Wire Line
-	1225 7250 750  7250
-Wire Wire Line
-	1725 7250 2200 7250
-Text Label 2200 7250 2    50   ~ 0
-VCCINT_EN_N
-Wire Wire Line
-	1225 8000 775  8000
-Wire Wire Line
-	1725 8000 2225 8000
-Text Label 2225 8000 2    50   ~ 0
-VCCAUX_EN_N
-Text GLabel 1375 7725 0    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	1375 7725 1525 7725
-Wire Wire Line
-	1525 7725 1525 7800
-Text GLabel 1375 6975 0    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	1375 6975 1525 6975
-Wire Wire Line
-	1525 6975 1525 7050
-$Comp
-L power:GND #PWR034
-U 1 1 60DE16AD
-P 1425 7450
-F 0 "#PWR034" H 1425 7200 50  0001 C CNN
-F 1 "GND" H 1430 7277 50  0000 C CNN
-F 2 "" H 1425 7450 50  0001 C CNN
-F 3 "" H 1425 7450 50  0001 C CNN
-	1    1425 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR036
-U 1 1 60E1F4BF
-P 1425 8200
-F 0 "#PWR036" H 1425 7950 50  0001 C CNN
-F 1 "GND" H 1430 8027 50  0000 C CNN
-F 2 "" H 1425 8200 50  0001 C CNN
-F 3 "" H 1425 8200 50  0001 C CNN
-	1    1425 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroLogicGatesandInverters:SN74LVC1G04DBVR U5
-U 1 1 60E226AF
-P 1525 8750
-F 0 "U5" H 1725 8675 60  0000 L CNN
-F 1 "SN74LVC1G04DBVR" H 1725 8575 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-753" H 1725 8950 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g04" H 1725 9050 60  0001 L CNN
-F 4 "SN74LVC1G04DBVR" H 1725 9250 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 1725 9850 60  0001 L CNN "Manufacturer"
-	1    1525 8750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1225 8750 775  8750
-Wire Wire Line
-	1725 8750 2225 8750
-Text GLabel 1375 8475 0    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	1375 8475 1525 8475
-Wire Wire Line
-	1525 8475 1525 8550
-$Comp
-L power:GND #PWR037
-U 1 1 60E226BC
-P 1425 8950
-F 0 "#PWR037" H 1425 8700 50  0001 C CNN
-F 1 "GND" H 1430 8777 50  0000 C CNN
-F 2 "" H 1425 8950 50  0001 C CNN
-F 3 "" H 1425 8950 50  0001 C CNN
-	1    1425 8950
-	1    0    0    -1  
-$EndComp
-Text Label 1125 8750 2    50   ~ 0
-VCCIO_EN
-Text Label 2200 8750 2    50   ~ 0
-VCCIO_EN_N
 Text Label 3325 7850 2    50   ~ 0
 VCCIO_EN_N
 Text Label 3350 9050 2    50   ~ 0
@@ -2751,4 +2610,105 @@ Text Label 3325 10250 2    50   ~ 0
 VCCIO_EN_N
 Text Notes 6075 11100 0    50   ~ 0
 ^ TODO: decide which DC-SCI pin connected\n    to FPGA does this
+Wire Wire Line
+	800  9975 800  10125
+Wire Wire Line
+	800  10425 800  10525
+Wire Wire Line
+	1200 10075 1025 10075
+Wire Wire Line
+	1025 10075 1025 9775
+Connection ~ 1025 9775
+$Comp
+L antmicroResistors0402:R_1k_0402 R?
+U 1 1 5FFECF1E
+P 2075 9450
+F 0 "R?" V 2030 9520 60  0000 L CNN
+F 1 "R_1k_0402" H 2075 9300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2275 9650 60  0001 L CNN
+F 3 "" H 2075 9450 50  0001 C CNN
+F 4 "BOURNS" H 2275 9850 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 2275 9750 60  0001 L CNN "MPN"
+F 6 "1k" V 2128 9520 50  0000 L CNN "Val"
+	1    2075 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_1k_0402 R?
+U 1 1 5FFED382
+P 2175 9450
+F 0 "R?" V 2130 9520 60  0000 L CNN
+F 1 "R_1k_0402" H 2175 9300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2375 9650 60  0001 L CNN
+F 3 "" H 2175 9450 50  0001 C CNN
+F 4 "BOURNS" H 2375 9850 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 2375 9750 60  0001 L CNN "MPN"
+F 6 "1k" V 2228 9520 50  0000 L CNN "Val"
+	1    2175 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_1k_0402 R?
+U 1 1 5FFED63B
+P 2275 9450
+F 0 "R?" V 2230 9520 60  0000 L CNN
+F 1 "R_1k_0402" H 2275 9300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2475 9650 60  0001 L CNN
+F 3 "" H 2275 9450 50  0001 C CNN
+F 4 "BOURNS" H 2475 9850 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 2475 9750 60  0001 L CNN "MPN"
+F 6 "1k" V 2328 9520 50  0000 L CNN "Val"
+	1    2275 9450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2075 9600 2075 9775
+Connection ~ 2075 9775
+Wire Wire Line
+	2075 9775 2700 9775
+Wire Wire Line
+	2175 9600 2175 9875
+Connection ~ 2175 9875
+Wire Wire Line
+	2175 9875 2700 9875
+Wire Wire Line
+	2275 9600 2275 9975
+Connection ~ 2275 9975
+Wire Wire Line
+	2275 9975 2700 9975
+Wire Wire Line
+	2075 9300 2075 9225
+Wire Wire Line
+	2075 9225 2175 9225
+Wire Wire Line
+	2275 9225 2275 9300
+Wire Wire Line
+	2175 9300 2175 9225
+Connection ~ 2175 9225
+Wire Wire Line
+	2175 9225 2275 9225
+Wire Wire Line
+	2175 9150 2175 9225
+Text GLabel 2175 9150 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	12675 2900 12675 2750
+Connection ~ 12675 2750
+Wire Wire Line
+	12675 2750 12975 2750
+Wire Wire Line
+	12700 5050 12700 4900
+Connection ~ 12700 4900
+Wire Wire Line
+	12700 4900 13000 4900
+Wire Wire Line
+	12725 6875 12725 6725
+Connection ~ 12725 6725
+Wire Wire Line
+	12725 6725 13050 6725
+Wire Wire Line
+	12700 8600 12700 8450
+Connection ~ 12700 8450
+Wire Wire Line
+	12700 8450 13025 8450
 $EndSCHEMATC
