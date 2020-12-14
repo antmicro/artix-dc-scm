@@ -14,57 +14,57 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 3400 975  0    118  ~ 0
-Artix-7 - Datacenter Secure Control Module (DC-SCM)
+Artix - Datacenter Secure Control Module (DC-SCM)
 $Sheet
-S 2500 1900 2150 1075
-U 5FC6B687
-F0 "FPGA banks" 50
-F1 "fpga-banks.sch" 50
-$EndSheet
-$Sheet
-S 2500 3300 2200 1100
-U 626D078D
+S 2375 4750 1875 1025
+U 5FD86C51
 F0 "FPGA power supply" 50
 F1 "fpga-power-supply.sch" 50
 $EndSheet
 $Sheet
-S 5900 3000 1000 800 
-U 5FCA4661
+S 4950 4750 1900 1075
+U 5FD86CE4
+F0 "FPGA banks" 50
+F1 "fpga-banks.sch" 50
+$EndSheet
+$Sheet
+S 9725 2650 1125 750 
+U 5FD86BEB
 F0 "Power supply" 50
 F1 "power-supply.sch" 50
 $EndSheet
 $Sheet
-S 7300 1900 975  775 
+S 8150 2650 1025 725 
 U 5FD8EBC2
 F0 "DDR3" 50
 F1 "ddr3.sch" 50
 $EndSheet
 $Sheet
-S 5900 4200 1000 800 
+S 6550 2675 1100 750 
 U 614223A1
 F0 "Interfaces" 50
 F1 "interfaces.sch" 50
 $EndSheet
 $Sheet
-S 8700 1900 1000 800 
+S 5200 2600 1150 725 
 U 625AEC25
 F0 "Edge connector" 50
 F1 "edge-connector.sch" 50
 $EndSheet
 $Sheet
-S 8700 3000 1000 800 
+S 3900 2625 1100 750 
 U 624C566F
 F0 "RoT" 50
 F1 "rot.sch" 50
 $EndSheet
 $Sheet
-S 7300 3000 1000 800 
+S 2425 2625 1125 750 
 U 5FD17EF1
 F0 "PCIe-connector" 50
 F1 "pcie-conn.sch" 50
 $EndSheet
 $Sheet
-S 5900 1900 1000 775 
+S 975  2625 1000 725 
 U 60570C04
 F0 "Ethernet" 50
 F1 "ethernet.sch" 50
