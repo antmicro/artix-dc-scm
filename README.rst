@@ -7,7 +7,7 @@ Artix DC-SCM
 Overview
 --------
 
-This repository contains design files of the Artix-7 Datacenter Secure Control Module (DC-SCM).
+This repository contains design files of the Artix-7 Data Center Secure Control Module (DC-SCM).
 The main purpose of this platform is to provide open-source DC-SCM with Baseboard Management Controller (BMC) unit based on Xilinx Artix-7 FPGA family.
 The design files were prepared in KiCad.
 This design is now a Work in Progress.
