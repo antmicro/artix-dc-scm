@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 10
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -85,8 +85,6 @@ Text GLabel 15175 2600 2    50   Output ~ 0
 ETH_~RESET
 Text GLabel 15175 2800 2    50   Output ~ 0
 RGMII_TX_CLK
-Text Notes 5725 3050 1    50   ~ 0
-ethernet.sch
 Wire Wire Line
 	11600 2000 12000 2000
 Wire Wire Line
@@ -359,7 +357,7 @@ Text GLabel 6375 4850 0    50   Input ~ 0
 QSPI1_D1
 Text Notes 5650 4900 1    50   ~ 0
 QSPI from SCM \nto HPM FPGA
-Text Notes 10550 6400 1    50   ~ 0
+Text Notes 10575 6400 1    50   ~ 0
 USB1 between HPM and BMC\nUSB2 between BMC and HPM expansion
 Text GLabel 6375 5050 0    50   Input ~ 0
 SGPIO_CLK
@@ -1184,4 +1182,16 @@ Text GLabel 10050 9750 2    50   Input ~ 0
 VCC3V3_BANK
 Text GLabel 4300 1250 2    50   Input ~ 0
 VCC1V8_BANK
+Text GLabel 6700 2050 0    50   Input ~ 0
+CLK_100M_PCIE_DP
+Text GLabel 6700 2150 0    50   Input ~ 0
+CLK_100M_PCIE_DN
+Text GLabel 6700 2250 0    50   Input ~ 0
+PCIE_BMC_TX_DP
+Text GLabel 6700 2350 0    50   Input ~ 0
+PCIE_BMC_TX_DN
+Text GLabel 6700 2550 0    50   Input ~ 0
+PCIE_BMC_RX_DN
+Text GLabel 6700 2450 0    50   Input ~ 0
+PCIE_BMC_RX_DP
 $EndSCHEMATC
