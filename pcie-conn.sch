@@ -16,12 +16,12 @@ $EndDescr
 Wire Wire Line
 	6250 2750 6450 2750
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C27
+L artix-dc-scm:C_100n_0402 C27
 U 1 1 5FD1CF34
 P 6600 2750
 F 0 "C27" V 6342 2750 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 2600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6800 2950 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6800 2950 60  0001 L CNN
 F 3 "" H 6600 2750 50  0001 C CNN
 F 4 "Walsin" H 6800 3150 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6800 3050 60  0001 L CNN "MPN"
@@ -30,12 +30,12 @@ F 6 "100n" V 6440 2750 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C29
+L artix-dc-scm:C_100n_0402 C29
 U 1 1 5FD1DAE4
 P 6875 2850
 F 0 "C29" V 6617 2850 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 2700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7075 3050 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7075 3050 60  0001 L CNN
 F 3 "" H 6875 2850 50  0001 C CNN
 F 4 "Walsin" H 7075 3250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7075 3150 60  0001 L CNN "MPN"
@@ -52,12 +52,12 @@ Wire Wire Line
 Wire Wire Line
 	6250 3350 6450 3350
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C28
+L artix-dc-scm:C_100n_0402 C28
 U 1 1 5FD279F6
 P 6600 3350
 F 0 "C28" V 6342 3350 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 3200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6800 3550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6800 3550 60  0001 L CNN
 F 3 "" H 6600 3350 50  0001 C CNN
 F 4 "Walsin" H 6800 3750 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6800 3650 60  0001 L CNN "MPN"
@@ -66,12 +66,12 @@ F 6 "100n" V 6440 3350 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C30
+L artix-dc-scm:C_100n_0402 C30
 U 1 1 5FD279FF
 P 6875 3450
 F 0 "C30" V 6617 3450 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 3300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7075 3650 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7075 3650 60  0001 L CNN
 F 3 "" H 6875 3450 50  0001 C CNN
 F 4 "Walsin" H 7075 3850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7075 3750 60  0001 L CNN "MPN"
@@ -98,12 +98,12 @@ Wire Wire Line
 Wire Wire Line
 	3675 2750 4050 2750
 $Comp
-L antmicroResistors0402:R_10k_0402 R17
+L artix-dc-scm:R_10k_0402 R17
 U 1 1 5FD6D5E7
 P 3825 2125
 F 0 "R17" V 3780 2195 60  0000 L CNN
 F 1 "R_10k_0402" H 3825 1975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4025 2325 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4025 2325 60  0001 L CNN
 F 3 "" H 3825 2125 50  0001 C CNN
 F 4 "VISHAY" H 4025 2525 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4025 2425 60  0001 L CNN "MPN"
@@ -112,12 +112,12 @@ F 6 "10k" V 3878 2195 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R19
+L artix-dc-scm:R_10k_0402 R19
 U 1 1 5FD6DA61
 P 4050 2125
 F 0 "R19" V 4005 2195 60  0000 L CNN
 F 1 "R_10k_0402" H 4050 1975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4250 2325 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4250 2325 60  0001 L CNN
 F 3 "" H 4050 2125 50  0001 C CNN
 F 4 "VISHAY" H 4250 2525 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4250 2425 60  0001 L CNN "MPN"
@@ -126,12 +126,12 @@ F 6 "10k" V 4103 2195 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R20
+L artix-dc-scm:R_10k_0402 R20
 U 1 1 5FD7820E
 P 4275 2125
 F 0 "R20" V 4230 2195 60  0000 L CNN
 F 1 "R_10k_0402" H 4275 1975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4475 2325 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4475 2325 60  0001 L CNN
 F 3 "" H 4275 2125 50  0001 C CNN
 F 4 "VISHAY" H 4475 2525 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4475 2425 60  0001 L CNN "MPN"
@@ -169,12 +169,12 @@ VCC1V8
 Wire Wire Line
 	4275 1500 4275 1975
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608CGCK D1
+L artix-dc-scm:KP-1608CGCK D1
 U 1 1 5FD7D8E8
 P 4250 4750
 F 0 "D1" H 4200 5087 60  0000 C CNN
 F 1 "KP-1608CGCK" H 4200 4981 60  0000 C CNN
-F 2 "antmicro-footprints:LED_0603" H 4450 4950 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:LED_0603" H 4450 4950 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 4450 5050 60  0001 L CNN
 F 4 "KP-1608CGCK" H 4450 5250 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 4460 5370 60  0001 L CNN "Manufacturer"
@@ -184,12 +184,12 @@ $EndComp
 Wire Wire Line
 	4350 4750 4650 4750
 $Comp
-L antmicroResistors0402:R_330R_0402 R18
+L artix-dc-scm:R_330R_0402 R18
 U 1 1 5FD7EE61
 P 3850 4375
 F 0 "R18" V 3805 4445 60  0000 L CNN
 F 1 "R_330R_0402" H 3850 4225 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4050 4575 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4050 4575 60  0001 L CNN
 F 3 "" H 3850 4375 50  0001 C CNN
 F 4 "MULTICOMP" H 4050 4775 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 4050 4675 60  0001 L CNN "MPN"
@@ -342,7 +342,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 5350 4550 5675
 $Comp
-L power:GND #PWR010
+L artix-dc-scm:GND #PWR010
 U 1 1 5FDC4FA1
 P 4550 5675
 F 0 "#PWR010" H 4550 5425 50  0001 C CNN
@@ -353,7 +353,7 @@ F 3 "" H 4550 5675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L artix-dc-scm:GND #PWR011
 U 1 1 5FDC53F7
 P 6325 5675
 F 0 "#PWR011" H 6325 5425 50  0001 C CNN
@@ -364,12 +364,12 @@ F 3 "" H 6325 5675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C31
+L artix-dc-scm:C_10u_0402 C31
 U 1 1 5FDCA87A
 P 4850 6750
 F 0 "C31" H 4965 6795 60  0000 L CNN
 F 1 "C_10u_0402" H 4850 6600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5050 6950 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 5050 6950 60  0001 L CNN
 F 3 "" H 4850 6750 50  0001 C CNN
 F 4 "MURATA" H 5050 7150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 5050 7050 60  0001 L CNN "MPN"
@@ -378,12 +378,12 @@ F 6 "10u" H 4965 6697 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C32
+L artix-dc-scm:C_10u_0402 C32
 U 1 1 5FDCB4B9
 P 5200 6750
 F 0 "C32" H 5315 6795 60  0000 L CNN
 F 1 "C_10u_0402" H 5200 6600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5400 6950 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 5400 6950 60  0001 L CNN
 F 3 "" H 5200 6750 50  0001 C CNN
 F 4 "MURATA" H 5400 7150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 5400 7050 60  0001 L CNN "MPN"
@@ -392,12 +392,12 @@ F 6 "10u" H 5315 6697 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C33
+L artix-dc-scm:C_10u_0402 C33
 U 1 1 5FDCB85E
 P 5550 6750
 F 0 "C33" H 5665 6795 60  0000 L CNN
 F 1 "C_10u_0402" H 5550 6600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5750 6950 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 5750 6950 60  0001 L CNN
 F 3 "" H 5550 6750 50  0001 C CNN
 F 4 "MURATA" H 5750 7150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 5750 7050 60  0001 L CNN "MPN"
@@ -406,12 +406,12 @@ F 6 "10u" H 5665 6697 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C34
+L artix-dc-scm:C_10u_0402 C34
 U 1 1 5FDCBB8F
 P 5900 6750
 F 0 "C34" H 6015 6795 60  0000 L CNN
 F 1 "C_10u_0402" H 5900 6600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6100 6950 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6100 6950 60  0001 L CNN
 F 3 "" H 5900 6750 50  0001 C CNN
 F 4 "MURATA" H 6100 7150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 6100 7050 60  0001 L CNN "MPN"
@@ -420,7 +420,7 @@ F 6 "10u" H 6015 6697 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L artix-dc-scm:GND #PWR012
 U 1 1 5FDD1861
 P 4850 6900
 F 0 "#PWR012" H 4850 6650 50  0001 C CNN
@@ -431,7 +431,7 @@ F 3 "" H 4850 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR013
+L artix-dc-scm:GND #PWR013
 U 1 1 5FDD1B5A
 P 5200 6900
 F 0 "#PWR013" H 5200 6650 50  0001 C CNN
@@ -442,7 +442,7 @@ F 3 "" H 5200 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L artix-dc-scm:GND #PWR014
 U 1 1 5FDD1D85
 P 5550 6900
 F 0 "#PWR014" H 5550 6650 50  0001 C CNN
@@ -453,7 +453,7 @@ F 3 "" H 5550 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L artix-dc-scm:GND #PWR015
 U 1 1 5FDD200B
 P 5900 6900
 F 0 "#PWR015" H 5900 6650 50  0001 C CNN
@@ -533,12 +533,12 @@ PCIE_HPM_TXN[3]
 Wire Wire Line
 	6250 3950 6450 3950
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C179
+L artix-dc-scm:C_100n_0402 C179
 U 1 1 5FFDF949
 P 6600 3950
 F 0 "C179" V 6342 3950 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 3800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6800 4150 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6800 4150 60  0001 L CNN
 F 3 "" H 6600 3950 50  0001 C CNN
 F 4 "Walsin" H 6800 4350 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6800 4250 60  0001 L CNN "MPN"
@@ -547,12 +547,12 @@ F 6 "100n" V 6440 3950 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C181
+L artix-dc-scm:C_100n_0402 C181
 U 1 1 5FFDF952
 P 6875 4050
 F 0 "C181" V 6617 4050 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 3900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7075 4250 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7075 4250 60  0001 L CNN
 F 3 "" H 6875 4050 50  0001 C CNN
 F 4 "Walsin" H 7075 4450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7075 4350 60  0001 L CNN "MPN"
@@ -575,12 +575,12 @@ Wire Wire Line
 Wire Wire Line
 	6775 4350 6250 4350
 $Comp
-L antmicroPciConnectors:1-2199230-6 J2
+L artix-dc-scm:1-2199230-6 J2
 U 1 1 5FD380A4
 P 5450 3900
 F 0 "J2" H 5450 6565 60  0000 C CNN
 F 1 "1-2199230-6" H 5300 2200 60  0001 C CNN
-F 2 "antmicro-footprints:1-2199230-6" H 5300 2200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:1-2199230-6" H 5300 2200 60  0001 C CNN
 F 3 "" H 5300 3900 60  0001 C CNN
 F 4 "TE" H 5450 6467 50  0000 C CNN "Manufacturer"
 F 5 "1-2199230-6" H 5450 6376 50  0000 C CNN "MPN"
@@ -594,12 +594,12 @@ Wire Wire Line
 Wire Wire Line
 	6250 4550 6450 4550
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C180
+L artix-dc-scm:C_100n_0402 C180
 U 1 1 60013CBE
 P 6600 4550
 F 0 "C180" V 6342 4550 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 4400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6800 4750 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6800 4750 60  0001 L CNN
 F 3 "" H 6600 4550 50  0001 C CNN
 F 4 "Walsin" H 6800 4950 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6800 4850 60  0001 L CNN "MPN"
@@ -608,12 +608,12 @@ F 6 "100n" V 6440 4550 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C182
+L artix-dc-scm:C_100n_0402 C182
 U 1 1 60013CC7
 P 6875 4650
 F 0 "C182" V 6617 4650 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 4500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7075 4850 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7075 4850 60  0001 L CNN
 F 3 "" H 6875 4650 50  0001 C CNN
 F 4 "Walsin" H 7075 5050 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7075 4950 60  0001 L CNN "MPN"
