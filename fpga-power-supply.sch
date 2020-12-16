@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 10
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -51,25 +51,7 @@ F 6 "47u" H 1265 3047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
-U 1 1 6165949A
-P 1500 3100
-AR Path="/626D078D/6165949A" Ref="C?"  Part="1" 
-AR Path="/605FD480/6165949A" Ref="C?"  Part="1" 
-AR Path="/60633613/6165949A" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6165949A" Ref="C97"  Part="1" 
-F 0 "C97" H 1615 3145 60  0000 L CNN
-F 1 "C_4u7_0805" H 1500 2950 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 1700 3300 60  0001 L CNN
-F 3 "" H 1500 3100 50  0001 C CNN
-F 4 "WALSIN" H 1700 3500 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 1700 3400 60  0001 L CNN "MPN"
-F 6 "4u7" H 1615 3047 50  0000 L CNN "Val"
-	1    1500 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 616597A9
 P 1850 3100
 AR Path="/626D078D/616597A9" Ref="C?"  Part="1" 
@@ -77,85 +59,13 @@ AR Path="/605FD480/616597A9" Ref="C?"  Part="1"
 AR Path="/60633613/616597A9" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/616597A9" Ref="C103"  Part="1" 
 F 0 "C103" H 1965 3145 60  0000 L CNN
-F 1 "C_4u7_0805" H 1850 2950 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 2050 3300 60  0001 L CNN
+F 1 "C_4u7_0603" H 1850 2950 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 2050 3300 60  0001 L CNN
 F 3 "" H 1850 3100 50  0001 C CNN
 F 4 "WALSIN" H 2050 3500 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 2050 3400 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 2050 3400 60  0001 L CNN "MPN"
 F 6 "4u7" H 1965 3047 50  0000 L CNN "Val"
 	1    1850 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6165A748
-P 2200 3100
-AR Path="/626D078D/6165A748" Ref="C?"  Part="1" 
-AR Path="/605FD480/6165A748" Ref="C?"  Part="1" 
-AR Path="/60633613/6165A748" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6165A748" Ref="C109"  Part="1" 
-F 0 "C109" H 2315 3145 60  0000 L CNN
-F 1 "C_470n_0603" H 2200 2950 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2400 3300 60  0001 L CNN
-F 3 "" H 2200 3100 50  0001 C CNN
-F 4 "TDK" H 2400 3500 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2400 3400 60  0001 L CNN "MPN"
-F 6 "470n" H 2315 3047 50  0000 L CNN "Val"
-	1    2200 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6165AB6D
-P 2550 3100
-AR Path="/626D078D/6165AB6D" Ref="C?"  Part="1" 
-AR Path="/605FD480/6165AB6D" Ref="C?"  Part="1" 
-AR Path="/60633613/6165AB6D" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6165AB6D" Ref="C115"  Part="1" 
-F 0 "C115" H 2665 3145 60  0000 L CNN
-F 1 "C_470n_0603" H 2550 2950 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2750 3300 60  0001 L CNN
-F 3 "" H 2550 3100 50  0001 C CNN
-F 4 "TDK" H 2750 3500 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2750 3400 60  0001 L CNN "MPN"
-F 6 "470n" H 2665 3047 50  0000 L CNN "Val"
-	1    2550 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6165AE32
-P 2900 3100
-AR Path="/626D078D/6165AE32" Ref="C?"  Part="1" 
-AR Path="/605FD480/6165AE32" Ref="C?"  Part="1" 
-AR Path="/60633613/6165AE32" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6165AE32" Ref="C121"  Part="1" 
-F 0 "C121" H 3015 3145 60  0000 L CNN
-F 1 "C_470n_0603" H 2900 2950 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3100 3300 60  0001 L CNN
-F 3 "" H 2900 3100 50  0001 C CNN
-F 4 "TDK" H 3100 3500 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3100 3400 60  0001 L CNN "MPN"
-F 6 "470n" H 3015 3047 50  0000 L CNN "Val"
-	1    2900 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6165CA6B
-P 3250 3100
-AR Path="/626D078D/6165CA6B" Ref="C?"  Part="1" 
-AR Path="/605FD480/6165CA6B" Ref="C?"  Part="1" 
-AR Path="/60633613/6165CA6B" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6165CA6B" Ref="C127"  Part="1" 
-F 0 "C127" H 3365 3145 60  0000 L CNN
-F 1 "C_470n_0603" H 3250 2950 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3450 3300 60  0001 L CNN
-F 3 "" H 3250 3100 50  0001 C CNN
-F 4 "TDK" H 3450 3500 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3450 3400 60  0001 L CNN "MPN"
-F 6 "470n" H 3365 3047 50  0000 L CNN "Val"
-	1    3250 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -262,7 +172,7 @@ F 6 "47u" H 1265 4197 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 61665CE4
 P 1500 4250
 AR Path="/626D078D/61665CE4" Ref="C?"  Part="1" 
@@ -270,17 +180,17 @@ AR Path="/605FD480/61665CE4" Ref="C?"  Part="1"
 AR Path="/60633613/61665CE4" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/61665CE4" Ref="C98"  Part="1" 
 F 0 "C98" H 1615 4295 60  0000 L CNN
-F 1 "C_4u7_0805" H 1500 4100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 1700 4450 60  0001 L CNN
+F 1 "C_4u7_0603" H 1500 4100 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 1700 4450 60  0001 L CNN
 F 3 "" H 1500 4250 50  0001 C CNN
 F 4 "WALSIN" H 1700 4650 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 1700 4550 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 1700 4550 60  0001 L CNN "MPN"
 F 6 "4u7" H 1615 4197 50  0000 L CNN "Val"
 	1    1500 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 61665CED
 P 1850 4250
 AR Path="/626D078D/61665CED" Ref="C?"  Part="1" 
@@ -288,85 +198,13 @@ AR Path="/605FD480/61665CED" Ref="C?"  Part="1"
 AR Path="/60633613/61665CED" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/61665CED" Ref="C104"  Part="1" 
 F 0 "C104" H 1965 4295 60  0000 L CNN
-F 1 "C_4u7_0805" H 1850 4100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 2050 4450 60  0001 L CNN
+F 1 "C_4u7_0603" H 1850 4100 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 2050 4450 60  0001 L CNN
 F 3 "" H 1850 4250 50  0001 C CNN
 F 4 "WALSIN" H 2050 4650 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 2050 4550 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 2050 4550 60  0001 L CNN "MPN"
 F 6 "4u7" H 1965 4197 50  0000 L CNN "Val"
 	1    1850 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 61665CF6
-P 2200 4250
-AR Path="/626D078D/61665CF6" Ref="C?"  Part="1" 
-AR Path="/605FD480/61665CF6" Ref="C?"  Part="1" 
-AR Path="/60633613/61665CF6" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/61665CF6" Ref="C110"  Part="1" 
-F 0 "C110" H 2315 4295 60  0000 L CNN
-F 1 "C_470n_0603" H 2200 4100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2400 4450 60  0001 L CNN
-F 3 "" H 2200 4250 50  0001 C CNN
-F 4 "TDK" H 2400 4650 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2400 4550 60  0001 L CNN "MPN"
-F 6 "470n" H 2315 4197 50  0000 L CNN "Val"
-	1    2200 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 61665CFF
-P 2550 4250
-AR Path="/626D078D/61665CFF" Ref="C?"  Part="1" 
-AR Path="/605FD480/61665CFF" Ref="C?"  Part="1" 
-AR Path="/60633613/61665CFF" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/61665CFF" Ref="C116"  Part="1" 
-F 0 "C116" H 2665 4295 60  0000 L CNN
-F 1 "C_470n_0603" H 2550 4100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2750 4450 60  0001 L CNN
-F 3 "" H 2550 4250 50  0001 C CNN
-F 4 "TDK" H 2750 4650 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2750 4550 60  0001 L CNN "MPN"
-F 6 "470n" H 2665 4197 50  0000 L CNN "Val"
-	1    2550 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 61665D08
-P 2900 4250
-AR Path="/626D078D/61665D08" Ref="C?"  Part="1" 
-AR Path="/605FD480/61665D08" Ref="C?"  Part="1" 
-AR Path="/60633613/61665D08" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/61665D08" Ref="C122"  Part="1" 
-F 0 "C122" H 3015 4295 60  0000 L CNN
-F 1 "C_470n_0603" H 2900 4100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3100 4450 60  0001 L CNN
-F 3 "" H 2900 4250 50  0001 C CNN
-F 4 "TDK" H 3100 4650 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3100 4550 60  0001 L CNN "MPN"
-F 6 "470n" H 3015 4197 50  0000 L CNN "Val"
-	1    2900 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 61665D11
-P 3250 4250
-AR Path="/626D078D/61665D11" Ref="C?"  Part="1" 
-AR Path="/605FD480/61665D11" Ref="C?"  Part="1" 
-AR Path="/60633613/61665D11" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/61665D11" Ref="C128"  Part="1" 
-F 0 "C128" H 3365 4295 60  0000 L CNN
-F 1 "C_470n_0603" H 3250 4100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3450 4450 60  0001 L CNN
-F 3 "" H 3250 4250 50  0001 C CNN
-F 4 "TDK" H 3450 4650 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3450 4550 60  0001 L CNN "MPN"
-F 6 "470n" H 3365 4197 50  0000 L CNN "Val"
-	1    3250 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -471,7 +309,7 @@ F 6 "47u" H 1265 5297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 6166A0B4
 P 1500 5350
 AR Path="/626D078D/6166A0B4" Ref="C?"  Part="1" 
@@ -479,17 +317,17 @@ AR Path="/605FD480/6166A0B4" Ref="C?"  Part="1"
 AR Path="/60633613/6166A0B4" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/6166A0B4" Ref="C99"  Part="1" 
 F 0 "C99" H 1615 5395 60  0000 L CNN
-F 1 "C_4u7_0805" H 1500 5200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 1700 5550 60  0001 L CNN
+F 1 "C_4u7_0603" H 1500 5200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 1700 5550 60  0001 L CNN
 F 3 "" H 1500 5350 50  0001 C CNN
 F 4 "WALSIN" H 1700 5750 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 1700 5650 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 1700 5650 60  0001 L CNN "MPN"
 F 6 "4u7" H 1615 5297 50  0000 L CNN "Val"
 	1    1500 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 6166A0BD
 P 1850 5350
 AR Path="/626D078D/6166A0BD" Ref="C?"  Part="1" 
@@ -497,85 +335,13 @@ AR Path="/605FD480/6166A0BD" Ref="C?"  Part="1"
 AR Path="/60633613/6166A0BD" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/6166A0BD" Ref="C105"  Part="1" 
 F 0 "C105" H 1965 5395 60  0000 L CNN
-F 1 "C_4u7_0805" H 1850 5200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 2050 5550 60  0001 L CNN
+F 1 "C_4u7_0603" H 1850 5200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 2050 5550 60  0001 L CNN
 F 3 "" H 1850 5350 50  0001 C CNN
 F 4 "WALSIN" H 2050 5750 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 2050 5650 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 2050 5650 60  0001 L CNN "MPN"
 F 6 "4u7" H 1965 5297 50  0000 L CNN "Val"
 	1    1850 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6166A0C6
-P 2200 5350
-AR Path="/626D078D/6166A0C6" Ref="C?"  Part="1" 
-AR Path="/605FD480/6166A0C6" Ref="C?"  Part="1" 
-AR Path="/60633613/6166A0C6" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6166A0C6" Ref="C111"  Part="1" 
-F 0 "C111" H 2315 5395 60  0000 L CNN
-F 1 "C_470n_0603" H 2200 5200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2400 5550 60  0001 L CNN
-F 3 "" H 2200 5350 50  0001 C CNN
-F 4 "TDK" H 2400 5750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2400 5650 60  0001 L CNN "MPN"
-F 6 "470n" H 2315 5297 50  0000 L CNN "Val"
-	1    2200 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6166A0CF
-P 2550 5350
-AR Path="/626D078D/6166A0CF" Ref="C?"  Part="1" 
-AR Path="/605FD480/6166A0CF" Ref="C?"  Part="1" 
-AR Path="/60633613/6166A0CF" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6166A0CF" Ref="C117"  Part="1" 
-F 0 "C117" H 2665 5395 60  0000 L CNN
-F 1 "C_470n_0603" H 2550 5200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2750 5550 60  0001 L CNN
-F 3 "" H 2550 5350 50  0001 C CNN
-F 4 "TDK" H 2750 5750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2750 5650 60  0001 L CNN "MPN"
-F 6 "470n" H 2665 5297 50  0000 L CNN "Val"
-	1    2550 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6166A0D8
-P 2900 5350
-AR Path="/626D078D/6166A0D8" Ref="C?"  Part="1" 
-AR Path="/605FD480/6166A0D8" Ref="C?"  Part="1" 
-AR Path="/60633613/6166A0D8" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6166A0D8" Ref="C123"  Part="1" 
-F 0 "C123" H 3015 5395 60  0000 L CNN
-F 1 "C_470n_0603" H 2900 5200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3100 5550 60  0001 L CNN
-F 3 "" H 2900 5350 50  0001 C CNN
-F 4 "TDK" H 3100 5750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3100 5650 60  0001 L CNN "MPN"
-F 6 "470n" H 3015 5297 50  0000 L CNN "Val"
-	1    2900 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6166A0E1
-P 3250 5350
-AR Path="/626D078D/6166A0E1" Ref="C?"  Part="1" 
-AR Path="/605FD480/6166A0E1" Ref="C?"  Part="1" 
-AR Path="/60633613/6166A0E1" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6166A0E1" Ref="C129"  Part="1" 
-F 0 "C129" H 3365 5395 60  0000 L CNN
-F 1 "C_470n_0603" H 3250 5200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3450 5550 60  0001 L CNN
-F 3 "" H 3250 5350 50  0001 C CNN
-F 4 "TDK" H 3450 5750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3450 5650 60  0001 L CNN "MPN"
-F 6 "470n" H 3365 5297 50  0000 L CNN "Val"
-	1    3250 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -680,7 +446,7 @@ F 6 "47u" H 1265 6397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 6166E66E
 P 1500 6450
 AR Path="/626D078D/6166E66E" Ref="C?"  Part="1" 
@@ -688,17 +454,17 @@ AR Path="/605FD480/6166E66E" Ref="C?"  Part="1"
 AR Path="/60633613/6166E66E" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/6166E66E" Ref="C100"  Part="1" 
 F 0 "C100" H 1615 6495 60  0000 L CNN
-F 1 "C_4u7_0805" H 1500 6300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 1700 6650 60  0001 L CNN
+F 1 "C_4u7_0603" H 1500 6300 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 1700 6650 60  0001 L CNN
 F 3 "" H 1500 6450 50  0001 C CNN
 F 4 "WALSIN" H 1700 6850 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 1700 6750 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 1700 6750 60  0001 L CNN "MPN"
 F 6 "4u7" H 1615 6397 50  0000 L CNN "Val"
 	1    1500 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 6166E677
 P 1850 6450
 AR Path="/626D078D/6166E677" Ref="C?"  Part="1" 
@@ -706,85 +472,13 @@ AR Path="/605FD480/6166E677" Ref="C?"  Part="1"
 AR Path="/60633613/6166E677" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/6166E677" Ref="C106"  Part="1" 
 F 0 "C106" H 1965 6495 60  0000 L CNN
-F 1 "C_4u7_0805" H 1850 6300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 2050 6650 60  0001 L CNN
+F 1 "C_4u7_0603" H 1850 6300 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 2050 6650 60  0001 L CNN
 F 3 "" H 1850 6450 50  0001 C CNN
 F 4 "WALSIN" H 2050 6850 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 2050 6750 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 2050 6750 60  0001 L CNN "MPN"
 F 6 "4u7" H 1965 6397 50  0000 L CNN "Val"
 	1    1850 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6166E680
-P 2200 6450
-AR Path="/626D078D/6166E680" Ref="C?"  Part="1" 
-AR Path="/605FD480/6166E680" Ref="C?"  Part="1" 
-AR Path="/60633613/6166E680" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6166E680" Ref="C112"  Part="1" 
-F 0 "C112" H 2315 6495 60  0000 L CNN
-F 1 "C_470n_0603" H 2200 6300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2400 6650 60  0001 L CNN
-F 3 "" H 2200 6450 50  0001 C CNN
-F 4 "TDK" H 2400 6850 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2400 6750 60  0001 L CNN "MPN"
-F 6 "470n" H 2315 6397 50  0000 L CNN "Val"
-	1    2200 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6166E689
-P 2550 6450
-AR Path="/626D078D/6166E689" Ref="C?"  Part="1" 
-AR Path="/605FD480/6166E689" Ref="C?"  Part="1" 
-AR Path="/60633613/6166E689" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6166E689" Ref="C118"  Part="1" 
-F 0 "C118" H 2665 6495 60  0000 L CNN
-F 1 "C_470n_0603" H 2550 6300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2750 6650 60  0001 L CNN
-F 3 "" H 2550 6450 50  0001 C CNN
-F 4 "TDK" H 2750 6850 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2750 6750 60  0001 L CNN "MPN"
-F 6 "470n" H 2665 6397 50  0000 L CNN "Val"
-	1    2550 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6166E692
-P 2900 6450
-AR Path="/626D078D/6166E692" Ref="C?"  Part="1" 
-AR Path="/605FD480/6166E692" Ref="C?"  Part="1" 
-AR Path="/60633613/6166E692" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6166E692" Ref="C124"  Part="1" 
-F 0 "C124" H 3015 6495 60  0000 L CNN
-F 1 "C_470n_0603" H 2900 6300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3100 6650 60  0001 L CNN
-F 3 "" H 2900 6450 50  0001 C CNN
-F 4 "TDK" H 3100 6850 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3100 6750 60  0001 L CNN "MPN"
-F 6 "470n" H 3015 6397 50  0000 L CNN "Val"
-	1    2900 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6166E69B
-P 3250 6450
-AR Path="/626D078D/6166E69B" Ref="C?"  Part="1" 
-AR Path="/605FD480/6166E69B" Ref="C?"  Part="1" 
-AR Path="/60633613/6166E69B" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6166E69B" Ref="C130"  Part="1" 
-F 0 "C130" H 3365 6495 60  0000 L CNN
-F 1 "C_470n_0603" H 3250 6300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3450 6650 60  0001 L CNN
-F 3 "" H 3250 6450 50  0001 C CNN
-F 4 "TDK" H 3450 6850 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3450 6750 60  0001 L CNN "MPN"
-F 6 "470n" H 3365 6397 50  0000 L CNN "Val"
-	1    3250 6450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -889,7 +583,7 @@ F 6 "47u" H 1265 7497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 616744CB
 P 1500 7550
 AR Path="/626D078D/616744CB" Ref="C?"  Part="1" 
@@ -897,17 +591,17 @@ AR Path="/605FD480/616744CB" Ref="C?"  Part="1"
 AR Path="/60633613/616744CB" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/616744CB" Ref="C101"  Part="1" 
 F 0 "C101" H 1615 7595 60  0000 L CNN
-F 1 "C_4u7_0805" H 1500 7400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 1700 7750 60  0001 L CNN
+F 1 "C_4u7_0603" H 1500 7400 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 1700 7750 60  0001 L CNN
 F 3 "" H 1500 7550 50  0001 C CNN
 F 4 "WALSIN" H 1700 7950 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 1700 7850 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 1700 7850 60  0001 L CNN "MPN"
 F 6 "4u7" H 1615 7497 50  0000 L CNN "Val"
 	1    1500 7550
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 616744D4
 P 1850 7550
 AR Path="/626D078D/616744D4" Ref="C?"  Part="1" 
@@ -915,85 +609,13 @@ AR Path="/605FD480/616744D4" Ref="C?"  Part="1"
 AR Path="/60633613/616744D4" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/616744D4" Ref="C107"  Part="1" 
 F 0 "C107" H 1965 7595 60  0000 L CNN
-F 1 "C_4u7_0805" H 1850 7400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 2050 7750 60  0001 L CNN
+F 1 "C_4u7_0603" H 1850 7400 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 2050 7750 60  0001 L CNN
 F 3 "" H 1850 7550 50  0001 C CNN
 F 4 "WALSIN" H 2050 7950 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 2050 7850 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 2050 7850 60  0001 L CNN "MPN"
 F 6 "4u7" H 1965 7497 50  0000 L CNN "Val"
 	1    1850 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 616744DD
-P 2200 7550
-AR Path="/626D078D/616744DD" Ref="C?"  Part="1" 
-AR Path="/605FD480/616744DD" Ref="C?"  Part="1" 
-AR Path="/60633613/616744DD" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/616744DD" Ref="C113"  Part="1" 
-F 0 "C113" H 2315 7595 60  0000 L CNN
-F 1 "C_470n_0603" H 2200 7400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2400 7750 60  0001 L CNN
-F 3 "" H 2200 7550 50  0001 C CNN
-F 4 "TDK" H 2400 7950 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2400 7850 60  0001 L CNN "MPN"
-F 6 "470n" H 2315 7497 50  0000 L CNN "Val"
-	1    2200 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 616744E6
-P 2550 7550
-AR Path="/626D078D/616744E6" Ref="C?"  Part="1" 
-AR Path="/605FD480/616744E6" Ref="C?"  Part="1" 
-AR Path="/60633613/616744E6" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/616744E6" Ref="C119"  Part="1" 
-F 0 "C119" H 2665 7595 60  0000 L CNN
-F 1 "C_470n_0603" H 2550 7400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2750 7750 60  0001 L CNN
-F 3 "" H 2550 7550 50  0001 C CNN
-F 4 "TDK" H 2750 7950 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2750 7850 60  0001 L CNN "MPN"
-F 6 "470n" H 2665 7497 50  0000 L CNN "Val"
-	1    2550 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 616744EF
-P 2900 7550
-AR Path="/626D078D/616744EF" Ref="C?"  Part="1" 
-AR Path="/605FD480/616744EF" Ref="C?"  Part="1" 
-AR Path="/60633613/616744EF" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/616744EF" Ref="C125"  Part="1" 
-F 0 "C125" H 3015 7595 60  0000 L CNN
-F 1 "C_470n_0603" H 2900 7400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3100 7750 60  0001 L CNN
-F 3 "" H 2900 7550 50  0001 C CNN
-F 4 "TDK" H 3100 7950 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3100 7850 60  0001 L CNN "MPN"
-F 6 "470n" H 3015 7497 50  0000 L CNN "Val"
-	1    2900 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 616744F8
-P 3250 7550
-AR Path="/626D078D/616744F8" Ref="C?"  Part="1" 
-AR Path="/605FD480/616744F8" Ref="C?"  Part="1" 
-AR Path="/60633613/616744F8" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/616744F8" Ref="C131"  Part="1" 
-F 0 "C131" H 3365 7595 60  0000 L CNN
-F 1 "C_470n_0603" H 3250 7400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3450 7750 60  0001 L CNN
-F 3 "" H 3250 7550 50  0001 C CNN
-F 4 "TDK" H 3450 7950 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3450 7850 60  0001 L CNN "MPN"
-F 6 "470n" H 3365 7497 50  0000 L CNN "Val"
-	1    3250 7550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1098,7 +720,7 @@ F 6 "47u" H 1265 8597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 6167C9C8
 P 1500 8650
 AR Path="/626D078D/6167C9C8" Ref="C?"  Part="1" 
@@ -1106,17 +728,17 @@ AR Path="/605FD480/6167C9C8" Ref="C?"  Part="1"
 AR Path="/60633613/6167C9C8" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/6167C9C8" Ref="C102"  Part="1" 
 F 0 "C102" H 1615 8695 60  0000 L CNN
-F 1 "C_4u7_0805" H 1500 8500 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 1700 8850 60  0001 L CNN
+F 1 "C_4u7_0603" H 1500 8500 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 1700 8850 60  0001 L CNN
 F 3 "" H 1500 8650 50  0001 C CNN
 F 4 "WALSIN" H 1700 9050 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 1700 8950 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 1700 8950 60  0001 L CNN "MPN"
 F 6 "4u7" H 1615 8597 50  0000 L CNN "Val"
 	1    1500 8650
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 6167C9D1
 P 1850 8650
 AR Path="/626D078D/6167C9D1" Ref="C?"  Part="1" 
@@ -1124,85 +746,13 @@ AR Path="/605FD480/6167C9D1" Ref="C?"  Part="1"
 AR Path="/60633613/6167C9D1" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/6167C9D1" Ref="C108"  Part="1" 
 F 0 "C108" H 1965 8695 60  0000 L CNN
-F 1 "C_4u7_0805" H 1850 8500 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 2050 8850 60  0001 L CNN
+F 1 "C_4u7_0603" H 1850 8500 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 2050 8850 60  0001 L CNN
 F 3 "" H 1850 8650 50  0001 C CNN
 F 4 "WALSIN" H 2050 9050 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 2050 8950 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 2050 8950 60  0001 L CNN "MPN"
 F 6 "4u7" H 1965 8597 50  0000 L CNN "Val"
 	1    1850 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6167C9DA
-P 2200 8650
-AR Path="/626D078D/6167C9DA" Ref="C?"  Part="1" 
-AR Path="/605FD480/6167C9DA" Ref="C?"  Part="1" 
-AR Path="/60633613/6167C9DA" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6167C9DA" Ref="C114"  Part="1" 
-F 0 "C114" H 2315 8695 60  0000 L CNN
-F 1 "C_470n_0603" H 2200 8500 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2400 8850 60  0001 L CNN
-F 3 "" H 2200 8650 50  0001 C CNN
-F 4 "TDK" H 2400 9050 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2400 8950 60  0001 L CNN "MPN"
-F 6 "470n" H 2315 8597 50  0000 L CNN "Val"
-	1    2200 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6167C9E3
-P 2550 8650
-AR Path="/626D078D/6167C9E3" Ref="C?"  Part="1" 
-AR Path="/605FD480/6167C9E3" Ref="C?"  Part="1" 
-AR Path="/60633613/6167C9E3" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6167C9E3" Ref="C120"  Part="1" 
-F 0 "C120" H 2665 8695 60  0000 L CNN
-F 1 "C_470n_0603" H 2550 8500 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2750 8850 60  0001 L CNN
-F 3 "" H 2550 8650 50  0001 C CNN
-F 4 "TDK" H 2750 9050 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 2750 8950 60  0001 L CNN "MPN"
-F 6 "470n" H 2665 8597 50  0000 L CNN "Val"
-	1    2550 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6167C9EC
-P 2900 8650
-AR Path="/626D078D/6167C9EC" Ref="C?"  Part="1" 
-AR Path="/605FD480/6167C9EC" Ref="C?"  Part="1" 
-AR Path="/60633613/6167C9EC" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6167C9EC" Ref="C126"  Part="1" 
-F 0 "C126" H 3015 8695 60  0000 L CNN
-F 1 "C_470n_0603" H 2900 8500 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3100 8850 60  0001 L CNN
-F 3 "" H 2900 8650 50  0001 C CNN
-F 4 "TDK" H 3100 9050 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3100 8950 60  0001 L CNN "MPN"
-F 6 "470n" H 3015 8597 50  0000 L CNN "Val"
-	1    2900 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 6167C9F5
-P 3250 8650
-AR Path="/626D078D/6167C9F5" Ref="C?"  Part="1" 
-AR Path="/605FD480/6167C9F5" Ref="C?"  Part="1" 
-AR Path="/60633613/6167C9F5" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6167C9F5" Ref="C132"  Part="1" 
-F 0 "C132" H 3365 8695 60  0000 L CNN
-F 1 "C_470n_0603" H 3250 8500 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3450 8850 60  0001 L CNN
-F 3 "" H 3250 8650 50  0001 C CNN
-F 4 "TDK" H 3450 9050 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 3450 8950 60  0001 L CNN "MPN"
-F 6 "470n" H 3365 8597 50  0000 L CNN "Val"
-	1    3250 8650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1738,7 +1288,7 @@ F 6 "47u" H 4765 2947 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 61997890
 P 4950 3000
 AR Path="/626D078D/61997890" Ref="C?"  Part="1" 
@@ -1746,17 +1296,17 @@ AR Path="/605FD480/61997890" Ref="C?"  Part="1"
 AR Path="/60633613/61997890" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/61997890" Ref="C135"  Part="1" 
 F 0 "C135" H 5065 3045 60  0000 L CNN
-F 1 "C_4u7_0805" H 4950 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 5150 3200 60  0001 L CNN
+F 1 "C_4u7_0603" H 4950 2850 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 5150 3200 60  0001 L CNN
 F 3 "" H 4950 3000 50  0001 C CNN
 F 4 "WALSIN" H 5150 3400 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 5150 3300 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 5150 3300 60  0001 L CNN "MPN"
 F 6 "4u7" H 5065 2947 50  0000 L CNN "Val"
 	1    4950 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 619B5F78
 P 5250 3000
 AR Path="/626D078D/619B5F78" Ref="C?"  Part="1" 
@@ -1764,17 +1314,17 @@ AR Path="/605FD480/619B5F78" Ref="C?"  Part="1"
 AR Path="/60633613/619B5F78" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/619B5F78" Ref="C137"  Part="1" 
 F 0 "C137" H 5365 3045 60  0000 L CNN
-F 1 "C_4u7_0805" H 5250 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 5450 3200 60  0001 L CNN
+F 1 "C_4u7_0603" H 5250 2850 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 5450 3200 60  0001 L CNN
 F 3 "" H 5250 3000 50  0001 C CNN
 F 4 "WALSIN" H 5450 3400 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 5450 3300 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 5450 3300 60  0001 L CNN "MPN"
 F 6 "4u7" H 5365 2947 50  0000 L CNN "Val"
 	1    5250 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 619B6781
 P 5550 3000
 AR Path="/626D078D/619B6781" Ref="C?"  Part="1" 
@@ -1782,103 +1332,13 @@ AR Path="/605FD480/619B6781" Ref="C?"  Part="1"
 AR Path="/60633613/619B6781" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/619B6781" Ref="C139"  Part="1" 
 F 0 "C139" H 5665 3045 60  0000 L CNN
-F 1 "C_4u7_0805" H 5550 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 5750 3200 60  0001 L CNN
+F 1 "C_4u7_0603" H 5550 2850 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 5750 3200 60  0001 L CNN
 F 3 "" H 5550 3000 50  0001 C CNN
 F 4 "WALSIN" H 5750 3400 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 5750 3300 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 5750 3300 60  0001 L CNN "MPN"
 F 6 "4u7" H 5665 2947 50  0000 L CNN "Val"
 	1    5550 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 619CB642
-P 5850 3000
-AR Path="/626D078D/619CB642" Ref="C?"  Part="1" 
-AR Path="/605FD480/619CB642" Ref="C?"  Part="1" 
-AR Path="/60633613/619CB642" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/619CB642" Ref="C141"  Part="1" 
-F 0 "C141" H 5965 3045 60  0000 L CNN
-F 1 "C_470n_0603" H 5850 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 6050 3200 60  0001 L CNN
-F 3 "" H 5850 3000 50  0001 C CNN
-F 4 "TDK" H 6050 3400 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 6050 3300 60  0001 L CNN "MPN"
-F 6 "470n" H 5965 2947 50  0000 L CNN "Val"
-	1    5850 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 619E9753
-P 6150 3000
-AR Path="/626D078D/619E9753" Ref="C?"  Part="1" 
-AR Path="/605FD480/619E9753" Ref="C?"  Part="1" 
-AR Path="/60633613/619E9753" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/619E9753" Ref="C143"  Part="1" 
-F 0 "C143" H 6265 3045 60  0000 L CNN
-F 1 "C_470n_0603" H 6150 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 6350 3200 60  0001 L CNN
-F 3 "" H 6150 3000 50  0001 C CNN
-F 4 "TDK" H 6350 3400 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 6350 3300 60  0001 L CNN "MPN"
-F 6 "470n" H 6265 2947 50  0000 L CNN "Val"
-	1    6150 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 619E9AA8
-P 6450 3000
-AR Path="/626D078D/619E9AA8" Ref="C?"  Part="1" 
-AR Path="/605FD480/619E9AA8" Ref="C?"  Part="1" 
-AR Path="/60633613/619E9AA8" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/619E9AA8" Ref="C144"  Part="1" 
-F 0 "C144" H 6565 3045 60  0000 L CNN
-F 1 "C_470n_0603" H 6450 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 6650 3200 60  0001 L CNN
-F 3 "" H 6450 3000 50  0001 C CNN
-F 4 "TDK" H 6650 3400 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 6650 3300 60  0001 L CNN "MPN"
-F 6 "470n" H 6565 2947 50  0000 L CNN "Val"
-	1    6450 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 619E9E9D
-P 6750 3000
-AR Path="/626D078D/619E9E9D" Ref="C?"  Part="1" 
-AR Path="/605FD480/619E9E9D" Ref="C?"  Part="1" 
-AR Path="/60633613/619E9E9D" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/619E9E9D" Ref="C146"  Part="1" 
-F 0 "C146" H 6865 3045 60  0000 L CNN
-F 1 "C_470n_0603" H 6750 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 6950 3200 60  0001 L CNN
-F 3 "" H 6750 3000 50  0001 C CNN
-F 4 "TDK" H 6950 3400 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 6950 3300 60  0001 L CNN "MPN"
-F 6 "470n" H 6865 2947 50  0000 L CNN "Val"
-	1    6750 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 619EA1DA
-P 7050 3000
-AR Path="/626D078D/619EA1DA" Ref="C?"  Part="1" 
-AR Path="/605FD480/619EA1DA" Ref="C?"  Part="1" 
-AR Path="/60633613/619EA1DA" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/619EA1DA" Ref="C148"  Part="1" 
-F 0 "C148" H 7165 3045 60  0000 L CNN
-F 1 "C_470n_0603" H 7050 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 7250 3200 60  0001 L CNN
-F 3 "" H 7050 3000 50  0001 C CNN
-F 4 "TDK" H 7250 3400 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 7250 3300 60  0001 L CNN "MPN"
-F 6 "470n" H 7165 2947 50  0000 L CNN "Val"
-	1    7050 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2038,60 +1498,6 @@ Text Notes 6400 5200 1    50   ~ 0
 non 35T
 Text Notes 6850 5000 1    50   ~ 0
 35T
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 61E5F52A
-P 5500 4800
-AR Path="/626D078D/61E5F52A" Ref="C?"  Part="1" 
-AR Path="/605FD480/61E5F52A" Ref="C?"  Part="1" 
-AR Path="/60633613/61E5F52A" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/61E5F52A" Ref="C138"  Part="1" 
-F 0 "C138" H 5615 4845 60  0000 L CNN
-F 1 "C_470n_0603" H 5500 4650 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 5700 5000 60  0001 L CNN
-F 3 "" H 5500 4800 50  0001 C CNN
-F 4 "TDK" H 5700 5200 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 5700 5100 60  0001 L CNN "MPN"
-F 6 "470n" H 5615 4747 50  0000 L CNN "Val"
-	1    5500 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 61E5F83F
-P 5800 4800
-AR Path="/626D078D/61E5F83F" Ref="C?"  Part="1" 
-AR Path="/605FD480/61E5F83F" Ref="C?"  Part="1" 
-AR Path="/60633613/61E5F83F" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/61E5F83F" Ref="C140"  Part="1" 
-F 0 "C140" H 5915 4845 60  0000 L CNN
-F 1 "C_470n_0603" H 5800 4650 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 6000 5000 60  0001 L CNN
-F 3 "" H 5800 4800 50  0001 C CNN
-F 4 "TDK" H 6000 5200 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 6000 5100 60  0001 L CNN "MPN"
-F 6 "470n" H 5915 4747 50  0000 L CNN "Val"
-	1    5800 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 61E5FB98
-P 6100 4800
-AR Path="/626D078D/61E5FB98" Ref="C?"  Part="1" 
-AR Path="/605FD480/61E5FB98" Ref="C?"  Part="1" 
-AR Path="/60633613/61E5FB98" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/61E5FB98" Ref="C142"  Part="1" 
-F 0 "C142" H 6215 4845 60  0000 L CNN
-F 1 "C_470n_0603" H 6100 4650 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 6300 5000 60  0001 L CNN
-F 3 "" H 6100 4800 50  0001 C CNN
-F 4 "TDK" H 6300 5200 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 6300 5100 60  0001 L CNN "MPN"
-F 6 "470n" H 6215 4747 50  0000 L CNN "Val"
-	1    6100 4800
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	5350 5400 6250 5400
 Wire Notes Line
@@ -2182,7 +1588,7 @@ F 6 "330u" H 11118 2897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 62233E54
 P 12050 3050
 AR Path="/626D078D/62233E54" Ref="C?"  Part="1" 
@@ -2190,17 +1596,17 @@ AR Path="/605FD480/62233E54" Ref="C?"  Part="1"
 AR Path="/60633613/62233E54" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/62233E54" Ref="C154"  Part="1" 
 F 0 "C154" H 12165 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 12050 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 12250 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 12050 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 12250 3250 60  0001 L CNN
 F 3 "" H 12050 3050 50  0001 C CNN
 F 4 "WALSIN" H 12250 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 12250 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 12250 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 12165 2997 50  0000 L CNN "Val"
 	1    12050 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 6223664D
 P 12350 3050
 AR Path="/626D078D/6223664D" Ref="C?"  Part="1" 
@@ -2208,17 +1614,17 @@ AR Path="/605FD480/6223664D" Ref="C?"  Part="1"
 AR Path="/60633613/6223664D" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/6223664D" Ref="C156"  Part="1" 
 F 0 "C156" H 12465 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 12350 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 12550 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 12350 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 12550 3250 60  0001 L CNN
 F 3 "" H 12350 3050 50  0001 C CNN
 F 4 "WALSIN" H 12550 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 12550 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 12550 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 12465 2997 50  0000 L CNN "Val"
 	1    12350 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 62236D2E
 P 12650 3050
 AR Path="/626D078D/62236D2E" Ref="C?"  Part="1" 
@@ -2226,17 +1632,17 @@ AR Path="/605FD480/62236D2E" Ref="C?"  Part="1"
 AR Path="/60633613/62236D2E" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/62236D2E" Ref="C158"  Part="1" 
 F 0 "C158" H 12765 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 12650 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 12850 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 12650 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 12850 3250 60  0001 L CNN
 F 3 "" H 12650 3050 50  0001 C CNN
 F 4 "WALSIN" H 12850 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 12850 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 12850 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 12765 2997 50  0000 L CNN "Val"
 	1    12650 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 622386FE
 P 12950 3050
 AR Path="/626D078D/622386FE" Ref="C?"  Part="1" 
@@ -2244,17 +1650,17 @@ AR Path="/605FD480/622386FE" Ref="C?"  Part="1"
 AR Path="/60633613/622386FE" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/622386FE" Ref="C160"  Part="1" 
 F 0 "C160" H 13065 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 12950 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 13150 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 12950 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 13150 3250 60  0001 L CNN
 F 3 "" H 12950 3050 50  0001 C CNN
 F 4 "WALSIN" H 13150 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 13150 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 13150 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 13065 2997 50  0000 L CNN "Val"
 	1    12950 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 62238C2D
 P 13250 3050
 AR Path="/626D078D/62238C2D" Ref="C?"  Part="1" 
@@ -2262,35 +1668,17 @@ AR Path="/605FD480/62238C2D" Ref="C?"  Part="1"
 AR Path="/60633613/62238C2D" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/62238C2D" Ref="C162"  Part="1" 
 F 0 "C162" H 13365 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 13250 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 13450 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 13250 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 13450 3250 60  0001 L CNN
 F 3 "" H 13250 3050 50  0001 C CNN
 F 4 "WALSIN" H 13450 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 13450 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 13450 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 13365 2997 50  0000 L CNN "Val"
 	1    13250 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
-U 1 1 62238F4A
-P 13550 3050
-AR Path="/626D078D/62238F4A" Ref="C?"  Part="1" 
-AR Path="/605FD480/62238F4A" Ref="C?"  Part="1" 
-AR Path="/60633613/62238F4A" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/62238F4A" Ref="C164"  Part="1" 
-F 0 "C164" H 13665 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 13550 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 13750 3250 60  0001 L CNN
-F 3 "" H 13550 3050 50  0001 C CNN
-F 4 "WALSIN" H 13750 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 13750 3350 60  0001 L CNN "MPN"
-F 6 "4u7" H 13665 2997 50  0000 L CNN "Val"
-	1    13550 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 62260260
 P 13850 3050
 AR Path="/626D078D/62260260" Ref="C?"  Part="1" 
@@ -2298,17 +1686,17 @@ AR Path="/605FD480/62260260" Ref="C?"  Part="1"
 AR Path="/60633613/62260260" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/62260260" Ref="C166"  Part="1" 
 F 0 "C166" H 13965 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 13850 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 14050 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 13850 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 14050 3250 60  0001 L CNN
 F 3 "" H 13850 3050 50  0001 C CNN
 F 4 "WALSIN" H 14050 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 14050 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 14050 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 13965 2997 50  0000 L CNN "Val"
 	1    13850 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 62260269
 P 14150 3050
 AR Path="/626D078D/62260269" Ref="C?"  Part="1" 
@@ -2316,17 +1704,17 @@ AR Path="/605FD480/62260269" Ref="C?"  Part="1"
 AR Path="/60633613/62260269" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/62260269" Ref="C168"  Part="1" 
 F 0 "C168" H 14265 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 14150 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 14350 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 14150 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 14350 3250 60  0001 L CNN
 F 3 "" H 14150 3050 50  0001 C CNN
 F 4 "WALSIN" H 14350 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 14350 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 14350 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 14265 2997 50  0000 L CNN "Val"
 	1    14150 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 62260272
 P 14450 3050
 AR Path="/626D078D/62260272" Ref="C?"  Part="1" 
@@ -2334,17 +1722,17 @@ AR Path="/605FD480/62260272" Ref="C?"  Part="1"
 AR Path="/60633613/62260272" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/62260272" Ref="C170"  Part="1" 
 F 0 "C170" H 14565 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 14450 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 14650 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 14450 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 14650 3250 60  0001 L CNN
 F 3 "" H 14450 3050 50  0001 C CNN
 F 4 "WALSIN" H 14650 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 14650 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 14650 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 14565 2997 50  0000 L CNN "Val"
 	1    14450 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 6226027B
 P 14750 3050
 AR Path="/626D078D/6226027B" Ref="C?"  Part="1" 
@@ -2352,17 +1740,17 @@ AR Path="/605FD480/6226027B" Ref="C?"  Part="1"
 AR Path="/60633613/6226027B" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/6226027B" Ref="C172"  Part="1" 
 F 0 "C172" H 14865 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 14750 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 14950 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 14750 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 14950 3250 60  0001 L CNN
 F 3 "" H 14750 3050 50  0001 C CNN
 F 4 "WALSIN" H 14950 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 14950 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 14950 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 14865 2997 50  0000 L CNN "Val"
 	1    14750 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 62260284
 P 15050 3050
 AR Path="/626D078D/62260284" Ref="C?"  Part="1" 
@@ -2370,17 +1758,17 @@ AR Path="/605FD480/62260284" Ref="C?"  Part="1"
 AR Path="/60633613/62260284" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/62260284" Ref="C174"  Part="1" 
 F 0 "C174" H 15165 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 15050 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 15250 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 15050 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 15250 3250 60  0001 L CNN
 F 3 "" H 15050 3050 50  0001 C CNN
 F 4 "WALSIN" H 15250 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 15250 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 15250 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 15165 2997 50  0000 L CNN "Val"
 	1    15050 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0805 C?
+L artix-dc-scm:C_4u7_0603 C?
 U 1 1 6226028D
 P 15350 3050
 AR Path="/626D078D/6226028D" Ref="C?"  Part="1" 
@@ -2388,265 +1776,13 @@ AR Path="/605FD480/6226028D" Ref="C?"  Part="1"
 AR Path="/60633613/6226028D" Ref="C?"  Part="1" 
 AR Path="/5FD86C51/6226028D" Ref="C176"  Part="1" 
 F 0 "C176" H 15465 3095 60  0000 L CNN
-F 1 "C_4u7_0805" H 15350 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0805-cap" H 15550 3250 60  0001 L CNN
+F 1 "C_4u7_0603" H 15350 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 15550 3250 60  0001 L CNN
 F 3 "" H 15350 3050 50  0001 C CNN
 F 4 "WALSIN" H 15550 3450 60  0001 L CNN "Manufacturer"
-F 5 "0805X475K250CT" H 15550 3350 60  0001 L CNN "MPN"
+F 5 "0603X475K250CT" H 15550 3350 60  0001 L CNN "MPN"
 F 6 "4u7" H 15465 2997 50  0000 L CNN "Val"
 	1    15350 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622A21D7
-P 12100 4350
-AR Path="/626D078D/622A21D7" Ref="C?"  Part="1" 
-AR Path="/605FD480/622A21D7" Ref="C?"  Part="1" 
-AR Path="/60633613/622A21D7" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622A21D7" Ref="C155"  Part="1" 
-F 0 "C155" H 12215 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 12100 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 12300 4550 60  0001 L CNN
-F 3 "" H 12100 4350 50  0001 C CNN
-F 4 "TDK" H 12300 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 12300 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 12215 4297 50  0000 L CNN "Val"
-	1    12100 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622A2AFE
-P 12400 4350
-AR Path="/626D078D/622A2AFE" Ref="C?"  Part="1" 
-AR Path="/605FD480/622A2AFE" Ref="C?"  Part="1" 
-AR Path="/60633613/622A2AFE" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622A2AFE" Ref="C157"  Part="1" 
-F 0 "C157" H 12515 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 12400 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 12600 4550 60  0001 L CNN
-F 3 "" H 12400 4350 50  0001 C CNN
-F 4 "TDK" H 12600 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 12600 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 12515 4297 50  0000 L CNN "Val"
-	1    12400 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622A2DF9
-P 12700 4350
-AR Path="/626D078D/622A2DF9" Ref="C?"  Part="1" 
-AR Path="/605FD480/622A2DF9" Ref="C?"  Part="1" 
-AR Path="/60633613/622A2DF9" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622A2DF9" Ref="C159"  Part="1" 
-F 0 "C159" H 12815 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 12700 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 12900 4550 60  0001 L CNN
-F 3 "" H 12700 4350 50  0001 C CNN
-F 4 "TDK" H 12900 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 12900 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 12815 4297 50  0000 L CNN "Val"
-	1    12700 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622A3F6B
-P 13000 4350
-AR Path="/626D078D/622A3F6B" Ref="C?"  Part="1" 
-AR Path="/605FD480/622A3F6B" Ref="C?"  Part="1" 
-AR Path="/60633613/622A3F6B" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622A3F6B" Ref="C161"  Part="1" 
-F 0 "C161" H 13115 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 13000 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 13200 4550 60  0001 L CNN
-F 3 "" H 13000 4350 50  0001 C CNN
-F 4 "TDK" H 13200 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 13200 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 13115 4297 50  0000 L CNN "Val"
-	1    13000 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622A7E95
-P 13300 4350
-AR Path="/626D078D/622A7E95" Ref="C?"  Part="1" 
-AR Path="/605FD480/622A7E95" Ref="C?"  Part="1" 
-AR Path="/60633613/622A7E95" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622A7E95" Ref="C163"  Part="1" 
-F 0 "C163" H 13415 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 13300 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 13500 4550 60  0001 L CNN
-F 3 "" H 13300 4350 50  0001 C CNN
-F 4 "TDK" H 13500 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 13500 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 13415 4297 50  0000 L CNN "Val"
-	1    13300 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622A7E9E
-P 13600 4350
-AR Path="/626D078D/622A7E9E" Ref="C?"  Part="1" 
-AR Path="/605FD480/622A7E9E" Ref="C?"  Part="1" 
-AR Path="/60633613/622A7E9E" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622A7E9E" Ref="C165"  Part="1" 
-F 0 "C165" H 13715 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 13600 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 13800 4550 60  0001 L CNN
-F 3 "" H 13600 4350 50  0001 C CNN
-F 4 "TDK" H 13800 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 13800 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 13715 4297 50  0000 L CNN "Val"
-	1    13600 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622A7EA7
-P 13900 4350
-AR Path="/626D078D/622A7EA7" Ref="C?"  Part="1" 
-AR Path="/605FD480/622A7EA7" Ref="C?"  Part="1" 
-AR Path="/60633613/622A7EA7" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622A7EA7" Ref="C167"  Part="1" 
-F 0 "C167" H 14015 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 13900 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 14100 4550 60  0001 L CNN
-F 3 "" H 13900 4350 50  0001 C CNN
-F 4 "TDK" H 14100 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 14100 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 14015 4297 50  0000 L CNN "Val"
-	1    13900 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622A7EB0
-P 14200 4350
-AR Path="/626D078D/622A7EB0" Ref="C?"  Part="1" 
-AR Path="/605FD480/622A7EB0" Ref="C?"  Part="1" 
-AR Path="/60633613/622A7EB0" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622A7EB0" Ref="C169"  Part="1" 
-F 0 "C169" H 14315 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 14200 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 14400 4550 60  0001 L CNN
-F 3 "" H 14200 4350 50  0001 C CNN
-F 4 "TDK" H 14400 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 14400 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 14315 4297 50  0000 L CNN "Val"
-	1    14200 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622C928A
-P 14450 4350
-AR Path="/626D078D/622C928A" Ref="C?"  Part="1" 
-AR Path="/605FD480/622C928A" Ref="C?"  Part="1" 
-AR Path="/60633613/622C928A" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622C928A" Ref="C171"  Part="1" 
-F 0 "C171" H 14565 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 14450 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 14650 4550 60  0001 L CNN
-F 3 "" H 14450 4350 50  0001 C CNN
-F 4 "TDK" H 14650 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 14650 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 14565 4297 50  0000 L CNN "Val"
-	1    14450 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622C9293
-P 14750 4350
-AR Path="/626D078D/622C9293" Ref="C?"  Part="1" 
-AR Path="/605FD480/622C9293" Ref="C?"  Part="1" 
-AR Path="/60633613/622C9293" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622C9293" Ref="C173"  Part="1" 
-F 0 "C173" H 14865 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 14750 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 14950 4550 60  0001 L CNN
-F 3 "" H 14750 4350 50  0001 C CNN
-F 4 "TDK" H 14950 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 14950 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 14865 4297 50  0000 L CNN "Val"
-	1    14750 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622C929C
-P 15050 4350
-AR Path="/626D078D/622C929C" Ref="C?"  Part="1" 
-AR Path="/605FD480/622C929C" Ref="C?"  Part="1" 
-AR Path="/60633613/622C929C" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622C929C" Ref="C175"  Part="1" 
-F 0 "C175" H 15165 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 15050 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 15250 4550 60  0001 L CNN
-F 3 "" H 15050 4350 50  0001 C CNN
-F 4 "TDK" H 15250 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 15250 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 15165 4297 50  0000 L CNN "Val"
-	1    15050 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622C92A5
-P 15350 4350
-AR Path="/626D078D/622C92A5" Ref="C?"  Part="1" 
-AR Path="/605FD480/622C92A5" Ref="C?"  Part="1" 
-AR Path="/60633613/622C92A5" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622C92A5" Ref="C177"  Part="1" 
-F 0 "C177" H 15465 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 15350 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 15550 4550 60  0001 L CNN
-F 3 "" H 15350 4350 50  0001 C CNN
-F 4 "TDK" H 15550 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 15550 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 15465 4297 50  0000 L CNN "Val"
-	1    15350 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622EEC4B
-P 11800 4350
-AR Path="/626D078D/622EEC4B" Ref="C?"  Part="1" 
-AR Path="/605FD480/622EEC4B" Ref="C?"  Part="1" 
-AR Path="/60633613/622EEC4B" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622EEC4B" Ref="C153"  Part="1" 
-F 0 "C153" H 11915 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 11800 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 12000 4550 60  0001 L CNN
-F 3 "" H 11800 4350 50  0001 C CNN
-F 4 "TDK" H 12000 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 12000 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 11915 4297 50  0000 L CNN "Val"
-	1    11800 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_470n_0603 C?
-U 1 1 622EF0DE
-P 11500 4350
-AR Path="/626D078D/622EF0DE" Ref="C?"  Part="1" 
-AR Path="/605FD480/622EF0DE" Ref="C?"  Part="1" 
-AR Path="/60633613/622EF0DE" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/622EF0DE" Ref="C152"  Part="1" 
-F 0 "C152" H 11615 4395 60  0000 L CNN
-F 1 "C_470n_0603" H 11500 4200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 11700 4550 60  0001 L CNN
-F 3 "" H 11500 4350 50  0001 C CNN
-F 4 "TDK" H 11700 4750 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1H474K080AB" H 11700 4650 60  0001 L CNN "MPN"
-F 6 "470n" H 11615 4297 50  0000 L CNN "Val"
-	1    11500 4350
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -3114,4 +2250,702 @@ Text GLabel 1150 7150 0    50   Input ~ 0
 VCC1V35_BANK
 Text GLabel 1150 8250 0    50   Input ~ 0
 VCC1V35_BANK
+$Comp
+L artix-dc-scm:C_4u7_0603 C?
+U 1 1 62238F4A
+P 13550 3050
+AR Path="/626D078D/62238F4A" Ref="C?"  Part="1" 
+AR Path="/605FD480/62238F4A" Ref="C?"  Part="1" 
+AR Path="/60633613/62238F4A" Ref="C?"  Part="1" 
+AR Path="/5FD86C51/62238F4A" Ref="C164"  Part="1" 
+F 0 "C164" H 13665 3095 60  0000 L CNN
+F 1 "C_4u7_0603" H 13550 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 13750 3250 60  0001 L CNN
+F 3 "" H 13550 3050 50  0001 C CNN
+F 4 "WALSIN" H 13750 3450 60  0001 L CNN "Manufacturer"
+F 5 "0603X475K250CT" H 13750 3350 60  0001 L CNN "MPN"
+F 6 "4u7" H 13665 2997 50  0000 L CNN "Val"
+	1    13550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C152
+U 1 1 603575F3
+P 11500 4350
+F 0 "C152" H 11615 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 11500 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 11700 4550 60  0001 L CNN
+F 3 "" H 11500 4350 50  0001 C CNN
+F 4 "TDK" H 11700 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 11700 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 11615 4297 50  0000 L CNN "Val"
+	1    11500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C153
+U 1 1 60357C64
+P 11800 4350
+F 0 "C153" H 11915 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 11800 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 12000 4550 60  0001 L CNN
+F 3 "" H 11800 4350 50  0001 C CNN
+F 4 "TDK" H 12000 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 12000 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 11915 4297 50  0000 L CNN "Val"
+	1    11800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C155
+U 1 1 60357FEF
+P 12100 4350
+F 0 "C155" H 12215 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 12100 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 12300 4550 60  0001 L CNN
+F 3 "" H 12100 4350 50  0001 C CNN
+F 4 "TDK" H 12300 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 12300 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 12215 4297 50  0000 L CNN "Val"
+	1    12100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C157
+U 1 1 603583CC
+P 12400 4350
+F 0 "C157" H 12515 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 12400 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 12600 4550 60  0001 L CNN
+F 3 "" H 12400 4350 50  0001 C CNN
+F 4 "TDK" H 12600 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 12600 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 12515 4297 50  0000 L CNN "Val"
+	1    12400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C159
+U 1 1 6035880F
+P 12700 4350
+F 0 "C159" H 12815 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 12700 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 12900 4550 60  0001 L CNN
+F 3 "" H 12700 4350 50  0001 C CNN
+F 4 "TDK" H 12900 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 12900 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 12815 4297 50  0000 L CNN "Val"
+	1    12700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C161
+U 1 1 60358B3A
+P 13000 4350
+F 0 "C161" H 13115 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 13000 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 13200 4550 60  0001 L CNN
+F 3 "" H 13000 4350 50  0001 C CNN
+F 4 "TDK" H 13200 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 13200 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 13115 4297 50  0000 L CNN "Val"
+	1    13000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C163
+U 1 1 60358ED9
+P 13300 4350
+F 0 "C163" H 13415 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 13300 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 13500 4550 60  0001 L CNN
+F 3 "" H 13300 4350 50  0001 C CNN
+F 4 "TDK" H 13500 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 13500 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 13415 4297 50  0000 L CNN "Val"
+	1    13300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C165
+U 1 1 60359FF4
+P 13600 4350
+F 0 "C165" H 13715 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 13600 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 13800 4550 60  0001 L CNN
+F 3 "" H 13600 4350 50  0001 C CNN
+F 4 "TDK" H 13800 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 13800 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 13715 4297 50  0000 L CNN "Val"
+	1    13600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C167
+U 1 1 6035A4B3
+P 13900 4350
+F 0 "C167" H 14015 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 13900 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 14100 4550 60  0001 L CNN
+F 3 "" H 13900 4350 50  0001 C CNN
+F 4 "TDK" H 14100 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 14100 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 14015 4297 50  0000 L CNN "Val"
+	1    13900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C169
+U 1 1 6035A86C
+P 14200 4350
+F 0 "C169" H 14315 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 14200 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 14400 4550 60  0001 L CNN
+F 3 "" H 14200 4350 50  0001 C CNN
+F 4 "TDK" H 14400 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 14400 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 14315 4297 50  0000 L CNN "Val"
+	1    14200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C171
+U 1 1 6035AD1D
+P 14450 4350
+F 0 "C171" H 14565 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 14450 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 14650 4550 60  0001 L CNN
+F 3 "" H 14450 4350 50  0001 C CNN
+F 4 "TDK" H 14650 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 14650 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 14565 4297 50  0000 L CNN "Val"
+	1    14450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C173
+U 1 1 6035B1A8
+P 14750 4350
+F 0 "C173" H 14865 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 14750 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 14950 4550 60  0001 L CNN
+F 3 "" H 14750 4350 50  0001 C CNN
+F 4 "TDK" H 14950 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 14950 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 14865 4297 50  0000 L CNN "Val"
+	1    14750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C175
+U 1 1 6035C6A9
+P 15050 4350
+F 0 "C175" H 15165 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 15050 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 15250 4550 60  0001 L CNN
+F 3 "" H 15050 4350 50  0001 C CNN
+F 4 "TDK" H 15250 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 15250 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 15165 4297 50  0000 L CNN "Val"
+	1    15050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C177
+U 1 1 6035CA9C
+P 15350 4350
+F 0 "C177" H 15465 4395 60  0000 L CNN
+F 1 "C_470n_0402" H 15350 4200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 15550 4550 60  0001 L CNN
+F 3 "" H 15350 4350 50  0001 C CNN
+F 4 "TDK" H 15550 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 15550 4650 60  0001 L CNN "MPN"
+F 6 "470n" H 15465 4297 50  0000 L CNN "Val"
+	1    15350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C138
+U 1 1 603CDFCC
+P 5500 4800
+F 0 "C138" H 5615 4845 60  0000 L CNN
+F 1 "C_470n_0402" H 5500 4650 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 5700 5000 60  0001 L CNN
+F 3 "" H 5500 4800 50  0001 C CNN
+F 4 "TDK" H 5700 5200 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 5700 5100 60  0001 L CNN "MPN"
+F 6 "470n" H 5615 4747 50  0000 L CNN "Val"
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C140
+U 1 1 603CED5A
+P 5800 4800
+F 0 "C140" H 5915 4845 60  0000 L CNN
+F 1 "C_470n_0402" H 5800 4650 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6000 5000 60  0001 L CNN
+F 3 "" H 5800 4800 50  0001 C CNN
+F 4 "TDK" H 6000 5200 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 6000 5100 60  0001 L CNN "MPN"
+F 6 "470n" H 5915 4747 50  0000 L CNN "Val"
+	1    5800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C142
+U 1 1 603CF11F
+P 6100 4800
+F 0 "C142" H 6215 4845 60  0000 L CNN
+F 1 "C_470n_0402" H 6100 4650 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6300 5000 60  0001 L CNN
+F 3 "" H 6100 4800 50  0001 C CNN
+F 4 "TDK" H 6300 5200 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 6300 5100 60  0001 L CNN "MPN"
+F 6 "470n" H 6215 4747 50  0000 L CNN "Val"
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C144
+U 1 1 60421B2A
+P 6450 3000
+F 0 "C144" H 6565 3045 60  0000 L CNN
+F 1 "C_470n_0402" H 6450 2850 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6650 3200 60  0001 L CNN
+F 3 "" H 6450 3000 50  0001 C CNN
+F 4 "TDK" H 6650 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 6650 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 6565 2947 50  0000 L CNN "Val"
+	1    6450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C146
+U 1 1 6042206F
+P 6750 3000
+F 0 "C146" H 6865 3045 60  0000 L CNN
+F 1 "C_470n_0402" H 6750 2850 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6950 3200 60  0001 L CNN
+F 3 "" H 6750 3000 50  0001 C CNN
+F 4 "TDK" H 6950 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 6950 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 6865 2947 50  0000 L CNN "Val"
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C148
+U 1 1 6042243C
+P 7050 3000
+F 0 "C148" H 7165 3045 60  0000 L CNN
+F 1 "C_470n_0402" H 7050 2850 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7250 3200 60  0001 L CNN
+F 3 "" H 7050 3000 50  0001 C CNN
+F 4 "TDK" H 7250 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 7250 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 7165 2947 50  0000 L CNN "Val"
+	1    7050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C109
+U 1 1 604CFD9A
+P 2200 3100
+F 0 "C109" H 2315 3145 60  0000 L CNN
+F 1 "C_470n_0402" H 2200 2950 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2400 3300 60  0001 L CNN
+F 3 "" H 2200 3100 50  0001 C CNN
+F 4 "TDK" H 2400 3500 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2400 3400 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 3047 50  0000 L CNN "Val"
+	1    2200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C115
+U 1 1 604D402B
+P 2550 3100
+F 0 "C115" H 2665 3145 60  0000 L CNN
+F 1 "C_470n_0402" H 2550 2950 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2750 3300 60  0001 L CNN
+F 3 "" H 2550 3100 50  0001 C CNN
+F 4 "TDK" H 2750 3500 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2750 3400 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 3047 50  0000 L CNN "Val"
+	1    2550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C121
+U 1 1 604D4346
+P 2900 3100
+F 0 "C121" H 3015 3145 60  0000 L CNN
+F 1 "C_470n_0402" H 2900 2950 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3100 3300 60  0001 L CNN
+F 3 "" H 2900 3100 50  0001 C CNN
+F 4 "TDK" H 3100 3500 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3100 3400 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 3047 50  0000 L CNN "Val"
+	1    2900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C127
+U 1 1 604D4BF8
+P 3250 3100
+F 0 "C127" H 3365 3145 60  0000 L CNN
+F 1 "C_470n_0402" H 3250 2950 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3450 3300 60  0001 L CNN
+F 3 "" H 3250 3100 50  0001 C CNN
+F 4 "TDK" H 3450 3500 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3450 3400 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 3047 50  0000 L CNN "Val"
+	1    3250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C110
+U 1 1 605132A6
+P 2200 4250
+F 0 "C110" H 2315 4295 60  0000 L CNN
+F 1 "C_470n_0402" H 2200 4100 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2400 4450 60  0001 L CNN
+F 3 "" H 2200 4250 50  0001 C CNN
+F 4 "TDK" H 2400 4650 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2400 4550 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 4197 50  0000 L CNN "Val"
+	1    2200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C116
+U 1 1 605132AF
+P 2550 4250
+F 0 "C116" H 2665 4295 60  0000 L CNN
+F 1 "C_470n_0402" H 2550 4100 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2750 4450 60  0001 L CNN
+F 3 "" H 2550 4250 50  0001 C CNN
+F 4 "TDK" H 2750 4650 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2750 4550 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 4197 50  0000 L CNN "Val"
+	1    2550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C122
+U 1 1 605132B8
+P 2900 4250
+F 0 "C122" H 3015 4295 60  0000 L CNN
+F 1 "C_470n_0402" H 2900 4100 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3100 4450 60  0001 L CNN
+F 3 "" H 2900 4250 50  0001 C CNN
+F 4 "TDK" H 3100 4650 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3100 4550 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 4197 50  0000 L CNN "Val"
+	1    2900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C128
+U 1 1 605132C1
+P 3250 4250
+F 0 "C128" H 3365 4295 60  0000 L CNN
+F 1 "C_470n_0402" H 3250 4100 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3450 4450 60  0001 L CNN
+F 3 "" H 3250 4250 50  0001 C CNN
+F 4 "TDK" H 3450 4650 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3450 4550 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 4197 50  0000 L CNN "Val"
+	1    3250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C111
+U 1 1 6058112A
+P 2200 5350
+F 0 "C111" H 2315 5395 60  0000 L CNN
+F 1 "C_470n_0402" H 2200 5200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2400 5550 60  0001 L CNN
+F 3 "" H 2200 5350 50  0001 C CNN
+F 4 "TDK" H 2400 5750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2400 5650 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 5297 50  0000 L CNN "Val"
+	1    2200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C117
+U 1 1 60581133
+P 2550 5350
+F 0 "C117" H 2665 5395 60  0000 L CNN
+F 1 "C_470n_0402" H 2550 5200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2750 5550 60  0001 L CNN
+F 3 "" H 2550 5350 50  0001 C CNN
+F 4 "TDK" H 2750 5750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2750 5650 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 5297 50  0000 L CNN "Val"
+	1    2550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C123
+U 1 1 6058113C
+P 2900 5350
+F 0 "C123" H 3015 5395 60  0000 L CNN
+F 1 "C_470n_0402" H 2900 5200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3100 5550 60  0001 L CNN
+F 3 "" H 2900 5350 50  0001 C CNN
+F 4 "TDK" H 3100 5750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3100 5650 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 5297 50  0000 L CNN "Val"
+	1    2900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C129
+U 1 1 60581145
+P 3250 5350
+F 0 "C129" H 3365 5395 60  0000 L CNN
+F 1 "C_470n_0402" H 3250 5200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3450 5550 60  0001 L CNN
+F 3 "" H 3250 5350 50  0001 C CNN
+F 4 "TDK" H 3450 5750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3450 5650 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 5297 50  0000 L CNN "Val"
+	1    3250 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C112
+U 1 1 605ED4B0
+P 2200 6450
+F 0 "C112" H 2315 6495 60  0000 L CNN
+F 1 "C_470n_0402" H 2200 6300 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2400 6650 60  0001 L CNN
+F 3 "" H 2200 6450 50  0001 C CNN
+F 4 "TDK" H 2400 6850 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2400 6750 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 6397 50  0000 L CNN "Val"
+	1    2200 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C118
+U 1 1 605ED4B9
+P 2550 6450
+F 0 "C118" H 2665 6495 60  0000 L CNN
+F 1 "C_470n_0402" H 2550 6300 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2750 6650 60  0001 L CNN
+F 3 "" H 2550 6450 50  0001 C CNN
+F 4 "TDK" H 2750 6850 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2750 6750 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 6397 50  0000 L CNN "Val"
+	1    2550 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C124
+U 1 1 605ED4C2
+P 2900 6450
+F 0 "C124" H 3015 6495 60  0000 L CNN
+F 1 "C_470n_0402" H 2900 6300 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3100 6650 60  0001 L CNN
+F 3 "" H 2900 6450 50  0001 C CNN
+F 4 "TDK" H 3100 6850 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3100 6750 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 6397 50  0000 L CNN "Val"
+	1    2900 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C130
+U 1 1 605ED4CB
+P 3250 6450
+F 0 "C130" H 3365 6495 60  0000 L CNN
+F 1 "C_470n_0402" H 3250 6300 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3450 6650 60  0001 L CNN
+F 3 "" H 3250 6450 50  0001 C CNN
+F 4 "TDK" H 3450 6850 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3450 6750 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 6397 50  0000 L CNN "Val"
+	1    3250 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C113
+U 1 1 6065972E
+P 2200 7550
+F 0 "C113" H 2315 7595 60  0000 L CNN
+F 1 "C_470n_0402" H 2200 7400 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2400 7750 60  0001 L CNN
+F 3 "" H 2200 7550 50  0001 C CNN
+F 4 "TDK" H 2400 7950 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2400 7850 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 7497 50  0000 L CNN "Val"
+	1    2200 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C119
+U 1 1 60659737
+P 2550 7550
+F 0 "C119" H 2665 7595 60  0000 L CNN
+F 1 "C_470n_0402" H 2550 7400 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2750 7750 60  0001 L CNN
+F 3 "" H 2550 7550 50  0001 C CNN
+F 4 "TDK" H 2750 7950 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2750 7850 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 7497 50  0000 L CNN "Val"
+	1    2550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C125
+U 1 1 60659740
+P 2900 7550
+F 0 "C125" H 3015 7595 60  0000 L CNN
+F 1 "C_470n_0402" H 2900 7400 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3100 7750 60  0001 L CNN
+F 3 "" H 2900 7550 50  0001 C CNN
+F 4 "TDK" H 3100 7950 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3100 7850 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 7497 50  0000 L CNN "Val"
+	1    2900 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C131
+U 1 1 60659749
+P 3250 7550
+F 0 "C131" H 3365 7595 60  0000 L CNN
+F 1 "C_470n_0402" H 3250 7400 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3450 7750 60  0001 L CNN
+F 3 "" H 3250 7550 50  0001 C CNN
+F 4 "TDK" H 3450 7950 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3450 7850 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 7497 50  0000 L CNN "Val"
+	1    3250 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C114
+U 1 1 606F61D4
+P 2200 8650
+F 0 "C114" H 2315 8695 60  0000 L CNN
+F 1 "C_470n_0402" H 2200 8500 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2400 8850 60  0001 L CNN
+F 3 "" H 2200 8650 50  0001 C CNN
+F 4 "TDK" H 2400 9050 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2400 8950 60  0001 L CNN "MPN"
+F 6 "470n" H 2315 8597 50  0000 L CNN "Val"
+	1    2200 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C120
+U 1 1 606F61DD
+P 2550 8650
+F 0 "C120" H 2665 8695 60  0000 L CNN
+F 1 "C_470n_0402" H 2550 8500 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 2750 8850 60  0001 L CNN
+F 3 "" H 2550 8650 50  0001 C CNN
+F 4 "TDK" H 2750 9050 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 2750 8950 60  0001 L CNN "MPN"
+F 6 "470n" H 2665 8597 50  0000 L CNN "Val"
+	1    2550 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C126
+U 1 1 606F61E6
+P 2900 8650
+F 0 "C126" H 3015 8695 60  0000 L CNN
+F 1 "C_470n_0402" H 2900 8500 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3100 8850 60  0001 L CNN
+F 3 "" H 2900 8650 50  0001 C CNN
+F 4 "TDK" H 3100 9050 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3100 8950 60  0001 L CNN "MPN"
+F 6 "470n" H 3015 8597 50  0000 L CNN "Val"
+	1    2900 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C132
+U 1 1 606F61EF
+P 3250 8650
+F 0 "C132" H 3365 8695 60  0000 L CNN
+F 1 "C_470n_0402" H 3250 8500 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3450 8850 60  0001 L CNN
+F 3 "" H 3250 8650 50  0001 C CNN
+F 4 "TDK" H 3450 9050 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 3450 8950 60  0001 L CNN "MPN"
+F 6 "470n" H 3365 8597 50  0000 L CNN "Val"
+	1    3250 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C143
+U 1 1 60420C9D
+P 6150 3000
+F 0 "C143" H 6265 3045 60  0000 L CNN
+F 1 "C_470n_0402" H 6150 2850 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6350 3200 60  0001 L CNN
+F 3 "" H 6150 3000 50  0001 C CNN
+F 4 "TDK" H 6350 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 6350 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 6265 2947 50  0000 L CNN "Val"
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_470n_0402 C141
+U 1 1 60773275
+P 5850 3000
+F 0 "C141" H 5965 3045 60  0000 L CNN
+F 1 "C_470n_0402" H 5850 2850 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6050 3200 60  0001 L CNN
+F 3 "" H 5850 3000 50  0001 C CNN
+F 4 "TDK" H 6050 3400 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 6050 3300 60  0001 L CNN "MPN"
+F 6 "470n" H 5965 2947 50  0000 L CNN "Val"
+	1    5850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 6077E24E
+P 6900 5200
+AR Path="/626D078D/6077E24E" Ref="#PWR?"  Part="1" 
+AR Path="/605FD480/6077E24E" Ref="#PWR?"  Part="1" 
+AR Path="/60633613/6077E24E" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86C51/6077E24E" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 6900 4950 50  0001 C CNN
+F 1 "GND" H 6905 5027 50  0000 C CNN
+F 2 "" H 6900 5200 50  0001 C CNN
+F 3 "" H 6900 5200 50  0001 C CNN
+	1    6900 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5200 6900 5050
+Connection ~ 6900 5050
+$Comp
+L artix-dc-scm:C_4u7_0603 C?
+U 1 1 6165949A
+P 1500 3100
+AR Path="/626D078D/6165949A" Ref="C?"  Part="1" 
+AR Path="/605FD480/6165949A" Ref="C?"  Part="1" 
+AR Path="/60633613/6165949A" Ref="C?"  Part="1" 
+AR Path="/5FD86C51/6165949A" Ref="C97"  Part="1" 
+F 0 "C97" H 1615 3145 60  0000 L CNN
+F 1 "C_4u7_0603" H 1500 2950 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 1700 3300 60  0001 L CNN
+F 3 "" H 1500 3100 50  0001 C CNN
+F 4 "WALSIN" H 1700 3500 60  0001 L CNN "Manufacturer"
+F 5 "0603X475K250CT" H 1700 3400 60  0001 L CNN "MPN"
+F 6 "4u7" H 1615 3047 50  0000 L CNN "Val"
+	1    1500 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
