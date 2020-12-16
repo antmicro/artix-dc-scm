@@ -319,22 +319,6 @@ Text GLabel 9825 5050 2    50   Input ~ 0
 I2C12_SCL
 Text GLabel 9875 2650 2    50   Input ~ 0
 I2C0_SCL
-Text GLabel 9825 5250 2    50   Input ~ 0
-I3C0_SDA
-Text GLabel 9825 5450 2    50   Input ~ 0
-I3C1_SDA
-Text GLabel 9825 5550 2    50   Input ~ 0
-I3C1_SCL
-Text GLabel 9825 5650 2    50   Input ~ 0
-I3C2_SDA
-Text GLabel 9825 5750 2    50   Input ~ 0
-I3C2_SCL
-Text GLabel 9825 5850 2    50   Input ~ 0
-I3C3_SDA
-Text GLabel 9825 5950 2    50   Input ~ 0
-I3C3_SCL
-Text GLabel 9825 5350 2    50   Input ~ 0
-I3C0_SCL
 Text GLabel 9825 6050 2    50   Input ~ 0
 USB1_DP
 Text GLabel 9825 6150 2    50   Input ~ 0
@@ -1194,4 +1178,20 @@ Text GLabel 6700 2550 0    50   Input ~ 0
 PCIE_BMC_RX_DN
 Text GLabel 6700 2450 0    50   Input ~ 0
 PCIE_BMC_RX_DP
+Text GLabel 9825 5250 2    50   Input ~ 0
+I3C[0]_SDA_3V3
+Text GLabel 9825 5450 2    50   Input ~ 0
+I3C[1]_SDA_3V3
+Text GLabel 9825 5550 2    50   Input ~ 0
+I3C[1]_SCL_3V3
+Text GLabel 9825 5650 2    50   Input ~ 0
+I3C[2]_SDA_3V3
+Text GLabel 9825 5750 2    50   Input ~ 0
+I3C[2]_SCL_3V3
+Text GLabel 9825 5850 2    50   Input ~ 0
+I3C[3]_SDA_3V3
+Text GLabel 9825 5950 2    50   Input ~ 0
+I3C[3]_SCL_3V3
+Text GLabel 9825 5350 2    50   Input ~ 0
+I3C[0]_SCL_3V3
 $EndSCHEMATC
