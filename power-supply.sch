@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 10
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -510,20 +510,6 @@ Wire Wire Line
 Connection ~ 6600 4300
 Wire Wire Line
 	6600 3950 6600 3825
-$Comp
-L artix-dc-scm:R_0R_0402 R69
-U 1 1 614435B5
-P 6600 3050
-F 0 "R69" V 6555 3120 60  0000 L CNN
-F 1 "R_0R_0402" H 6600 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6800 3250 60  0001 L CNN
-F 3 "" H 6600 3050 50  0001 C CNN
-F 4 "PANASONIC" H 6800 3450 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6800 3350 60  0001 L CNN "MPN"
-F 6 "0R" V 6653 3120 50  0000 L CNN "Val"
-	1    6600 3050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6600 3200 6600 3475
 Text GLabel 6600 2825 1    50   Input ~ 0
@@ -1825,8 +1811,8 @@ P 6450 6550
 AR Path="/5FCA4661/609496E6" Ref="Q?"  Part="1" 
 AR Path="/6052C7CF/609496E6" Ref="Q?"  Part="1" 
 AR Path="/5FD86D1B/609496E6" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/609496E6" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6558 6603 60  0000 L CNN
+AR Path="/5FD86BEB/609496E6" Ref="Q1"  Part="1" 
+F 0 "Q1" H 6558 6603 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 6558 6497 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 6750 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 6850 60  0001 L CNN
@@ -1842,8 +1828,8 @@ P 6450 7150
 AR Path="/5FCA4661/609496EE" Ref="Q?"  Part="1" 
 AR Path="/6052C7CF/609496EE" Ref="Q?"  Part="1" 
 AR Path="/5FD86D1B/609496EE" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/609496EE" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6558 7203 60  0000 L CNN
+AR Path="/5FD86BEB/609496EE" Ref="Q2"  Part="1" 
+F 0 "Q2" H 6558 7203 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 6558 7097 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 7350 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 7450 60  0001 L CNN
@@ -1859,8 +1845,8 @@ P 6450 7750
 AR Path="/5FCA4661/609496F6" Ref="Q?"  Part="1" 
 AR Path="/6052C7CF/609496F6" Ref="Q?"  Part="1" 
 AR Path="/5FD86D1B/609496F6" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/609496F6" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6558 7803 60  0000 L CNN
+AR Path="/5FD86BEB/609496F6" Ref="Q3"  Part="1" 
+F 0 "Q3" H 6558 7803 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 6558 7697 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 7950 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 8050 60  0001 L CNN
@@ -1876,8 +1862,8 @@ P 6450 8350
 AR Path="/5FCA4661/609496FE" Ref="Q?"  Part="1" 
 AR Path="/6052C7CF/609496FE" Ref="Q?"  Part="1" 
 AR Path="/5FD86D1B/609496FE" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/609496FE" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6558 8403 60  0000 L CNN
+AR Path="/5FD86BEB/609496FE" Ref="Q4"  Part="1" 
+F 0 "Q4" H 6558 8403 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 6558 8297 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 8550 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 8650 60  0001 L CNN
@@ -1899,8 +1885,8 @@ P 6450 8950
 AR Path="/5FCA4661/60949709" Ref="Q?"  Part="1" 
 AR Path="/6052C7CF/60949709" Ref="Q?"  Part="1" 
 AR Path="/5FD86D1B/60949709" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60949709" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6558 9003 60  0000 L CNN
+AR Path="/5FD86BEB/60949709" Ref="Q5"  Part="1" 
+F 0 "Q5" H 6558 9003 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 6558 8897 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 9150 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 9250 60  0001 L CNN
@@ -1938,8 +1924,8 @@ P 6450 9550
 AR Path="/5FCA4661/6094971C" Ref="Q?"  Part="1" 
 AR Path="/6052C7CF/6094971C" Ref="Q?"  Part="1" 
 AR Path="/5FD86D1B/6094971C" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/6094971C" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6558 9603 60  0000 L CNN
+AR Path="/5FD86BEB/6094971C" Ref="Q6"  Part="1" 
+F 0 "Q6" H 6558 9603 60  0000 L CNN
 F 1 "IRLML6402TRPBF" H 6558 9497 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 9750 60  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 9850 60  0001 L CNN
@@ -1986,8 +1972,8 @@ AR Path="/5FEC3511/609655FF" Ref="#PWR?"  Part="1"
 AR Path="/5FCA4661/609655FF" Ref="#PWR?"  Part="1" 
 AR Path="/6052C7CF/609655FF" Ref="#PWR?"  Part="1" 
 AR Path="/5FD86D1B/609655FF" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86BEB/609655FF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4475 7500 50  0001 C CNN
+AR Path="/5FD86BEB/609655FF" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 4475 7500 50  0001 C CNN
 F 1 "GND" H 4480 7577 50  0000 C CNN
 F 2 "" H 4475 7750 50  0001 C CNN
 F 3 "" H 4475 7750 50  0001 C CNN
@@ -2019,8 +2005,8 @@ P 4475 7450
 AR Path="/5FCA4661/60965610" Ref="U?"  Part="1" 
 AR Path="/6052C7CF/60965610" Ref="U?"  Part="1" 
 AR Path="/5FD86D1B/60965610" Ref="U?"  Part="1" 
-AR Path="/5FD86BEB/60965610" Ref="U?"  Part="1" 
-F 0 "U?" H 4625 7250 60  0000 L CNN
+AR Path="/5FD86BEB/60965610" Ref="U15"  Part="1" 
+F 0 "U15" H 4625 7250 60  0000 L CNN
 F 1 "SN74LVC1G08DCKR" H 4550 7150 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SC-70-5" H 4675 7650 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08" H 4675 7750 60  0001 L CNN
@@ -2045,8 +2031,8 @@ AR Path="/5FEC3511/6096561A" Ref="#PWR?"  Part="1"
 AR Path="/5FCA4661/6096561A" Ref="#PWR?"  Part="1" 
 AR Path="/6052C7CF/6096561A" Ref="#PWR?"  Part="1" 
 AR Path="/5FD86D1B/6096561A" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86BEB/6096561A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4475 9600 50  0001 C CNN
+AR Path="/5FD86BEB/6096561A" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 4475 9600 50  0001 C CNN
 F 1 "GND" H 4480 9677 50  0000 C CNN
 F 2 "" H 4475 9850 50  0001 C CNN
 F 3 "" H 4475 9850 50  0001 C CNN
@@ -2067,8 +2053,8 @@ AR Path="/5FEC3511/60965625" Ref="U?"  Part="1"
 AR Path="/5FCA4661/60965625" Ref="U?"  Part="1" 
 AR Path="/6052C7CF/60965625" Ref="U?"  Part="1" 
 AR Path="/5FD86D1B/60965625" Ref="U?"  Part="1" 
-AR Path="/5FD86BEB/60965625" Ref="U?"  Part="1" 
-F 0 "U?" H 4175 9375 60  0000 C CNN
+AR Path="/5FD86BEB/60965625" Ref="U16"  Part="1" 
+F 0 "U16" H 4175 9375 60  0000 C CNN
 F 1 "SN74LS08DBR" H 4050 9250 60  0000 C CNN
 F 2 "artix-dc-scm-footprints:SOP65P775X265-14N" H 4675 9075 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls08" H 4675 9175 60  0001 L CNN
@@ -2088,10 +2074,10 @@ Wire Wire Line
 Wire Wire Line
 	9725 2850 10025 2850
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND #PWR0103
 U 1 1 60986D4B
 P 10325 3050
-F 0 "#PWR?" H 10325 2800 50  0001 C CNN
+F 0 "#PWR0103" H 10325 2800 50  0001 C CNN
 F 1 "GND" H 10330 2877 50  0000 C CNN
 F 2 "" H 10325 3050 50  0001 C CNN
 F 3 "" H 10325 3050 50  0001 C CNN
@@ -2103,10 +2089,10 @@ Wire Wire Line
 Wire Wire Line
 	10325 2250 10325 2550
 $Comp
-L artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R93
 U 1 1 60986D56
 P 9725 2525
-F 0 "R?" V 9575 2550 60  0000 L CNN
+F 0 "R93" V 9575 2550 60  0000 L CNN
 F 1 "R_10k_0402" H 9725 2375 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 9925 2725 60  0001 L CNN
 F 3 "" H 9725 2525 50  0001 C CNN
@@ -2121,10 +2107,10 @@ Wire Wire Line
 Wire Wire Line
 	9725 2675 9725 2850
 $Comp
-L artix-dc-scm:LG_L29K-G2J1-24-Z D?
+L artix-dc-scm:LG_L29K-G2J1-24-Z D8
 U 1 1 60986D60
 P 10525 2250
-F 0 "D?" H 10550 2150 60  0000 L CNN
+F 0 "D8" H 10550 2150 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9650 2475 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10725 2450 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10725 2550 60  0001 L CNN
@@ -2138,10 +2124,10 @@ Wire Wire Line
 Wire Wire Line
 	10725 2250 10825 2250
 $Comp
-L artix-dc-scm:R_1k_0402 R?
+L artix-dc-scm:R_1k_0402 R98
 U 1 1 60986D6B
 P 10975 2250
-F 0 "R?" H 10925 2350 60  0000 C CNN
+F 0 "R98" H 10925 2350 60  0000 C CNN
 F 1 "R_1k_0402" H 10975 2100 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 11175 2450 60  0001 L CNN
 F 3 "" H 10975 2250 50  0001 C CNN
@@ -2161,10 +2147,10 @@ Wire Wire Line
 	9400 2950 9725 2950
 Connection ~ 9725 2850
 $Comp
-L artix-dc-scm:2N7002 Q?
+L artix-dc-scm:2N7002 Q11
 U 1 1 60986D78
 P 10325 2750
-F 0 "Q?" H 10433 2803 60  0000 L CNN
+F 0 "Q11" H 10433 2803 60  0000 L CNN
 F 1 "2N7002" H 10433 2697 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 10525 2950 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10525 3050 60  0001 L CNN
@@ -2178,10 +2164,10 @@ Wire Wire Line
 Wire Wire Line
 	9675 4075 9975 4075
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND #PWR0104
 U 1 1 60986D80
 P 10275 4275
-F 0 "#PWR?" H 10275 4025 50  0001 C CNN
+F 0 "#PWR0104" H 10275 4025 50  0001 C CNN
 F 1 "GND" H 10280 4102 50  0000 C CNN
 F 2 "" H 10275 4275 50  0001 C CNN
 F 3 "" H 10275 4275 50  0001 C CNN
@@ -2193,10 +2179,10 @@ Wire Wire Line
 Wire Wire Line
 	10275 3475 10275 3775
 $Comp
-L artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R91
 U 1 1 60986D8B
 P 9675 3750
-F 0 "R?" V 9525 3775 60  0000 L CNN
+F 0 "R91" V 9525 3775 60  0000 L CNN
 F 1 "R_10k_0402" H 9675 3600 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 9875 3950 60  0001 L CNN
 F 3 "" H 9675 3750 50  0001 C CNN
@@ -2211,10 +2197,10 @@ Wire Wire Line
 Wire Wire Line
 	9675 3900 9675 4075
 $Comp
-L artix-dc-scm:LG_L29K-G2J1-24-Z D?
+L artix-dc-scm:LG_L29K-G2J1-24-Z D6
 U 1 1 60986D95
 P 10475 3475
-F 0 "D?" H 10500 3375 60  0000 L CNN
+F 0 "D6" H 10500 3375 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9600 3700 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10675 3675 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10675 3775 60  0001 L CNN
@@ -2228,10 +2214,10 @@ Wire Wire Line
 Wire Wire Line
 	10675 3475 10775 3475
 $Comp
-L artix-dc-scm:R_1k_0402 R?
+L artix-dc-scm:R_1k_0402 R96
 U 1 1 60986DA0
 P 10925 3475
-F 0 "R?" H 10875 3575 60  0000 C CNN
+F 0 "R96" H 10875 3575 60  0000 C CNN
 F 1 "R_1k_0402" H 10925 3325 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 11125 3675 60  0001 L CNN
 F 3 "" H 10925 3475 50  0001 C CNN
@@ -2251,10 +2237,10 @@ Wire Wire Line
 	9350 4175 9675 4175
 Connection ~ 9675 4075
 $Comp
-L artix-dc-scm:2N7002 Q?
+L artix-dc-scm:2N7002 Q9
 U 1 1 60986DAD
 P 10275 3975
-F 0 "Q?" H 10383 4028 60  0000 L CNN
+F 0 "Q9" H 10383 4028 60  0000 L CNN
 F 1 "2N7002" H 10383 3922 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 10475 4175 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10475 4275 60  0001 L CNN
@@ -2268,10 +2254,10 @@ Wire Wire Line
 Wire Wire Line
 	9700 5300 10000 5300
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND #PWR0105
 U 1 1 60986DB5
 P 10300 5500
-F 0 "#PWR?" H 10300 5250 50  0001 C CNN
+F 0 "#PWR0105" H 10300 5250 50  0001 C CNN
 F 1 "GND" H 10305 5327 50  0000 C CNN
 F 2 "" H 10300 5500 50  0001 C CNN
 F 3 "" H 10300 5500 50  0001 C CNN
@@ -2283,10 +2269,10 @@ Wire Wire Line
 Wire Wire Line
 	10300 4700 10300 5000
 $Comp
-L artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R92
 U 1 1 60986DC0
 P 9700 4975
-F 0 "R?" V 9550 5000 60  0000 L CNN
+F 0 "R92" V 9550 5000 60  0000 L CNN
 F 1 "R_10k_0402" H 9700 4825 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 9900 5175 60  0001 L CNN
 F 3 "" H 9700 4975 50  0001 C CNN
@@ -2301,10 +2287,10 @@ Wire Wire Line
 Wire Wire Line
 	9700 5125 9700 5300
 $Comp
-L artix-dc-scm:LG_L29K-G2J1-24-Z D?
+L artix-dc-scm:LG_L29K-G2J1-24-Z D7
 U 1 1 60986DCA
 P 10500 4700
-F 0 "D?" H 10525 4600 60  0000 L CNN
+F 0 "D7" H 10525 4600 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9625 4925 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10700 4900 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10700 5000 60  0001 L CNN
@@ -2318,10 +2304,10 @@ Wire Wire Line
 Wire Wire Line
 	10700 4700 10800 4700
 $Comp
-L artix-dc-scm:R_1k_0402 R?
+L artix-dc-scm:R_1k_0402 R97
 U 1 1 60986DD5
 P 10950 4700
-F 0 "R?" H 10900 4800 60  0000 C CNN
+F 0 "R97" H 10900 4800 60  0000 C CNN
 F 1 "R_1k_0402" H 10950 4550 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 11150 4900 60  0001 L CNN
 F 3 "" H 10950 4700 50  0001 C CNN
@@ -2339,10 +2325,10 @@ Wire Wire Line
 	9700 5300 9700 5400
 Connection ~ 9700 5300
 $Comp
-L artix-dc-scm:2N7002 Q?
+L artix-dc-scm:2N7002 Q10
 U 1 1 60986DE1
 P 10300 5200
-F 0 "Q?" H 10408 5253 60  0000 L CNN
+F 0 "Q10" H 10408 5253 60  0000 L CNN
 F 1 "2N7002" H 10408 5147 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 10500 5400 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10500 5500 60  0001 L CNN
@@ -2372,10 +2358,10 @@ Wire Wire Line
 Wire Wire Line
 	10250 5975 10250 6275
 $Comp
-L artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R61
 U 1 1 60986DF4
 P 9650 6250
-F 0 "R?" V 9500 6275 60  0000 L CNN
+F 0 "R61" V 9500 6275 60  0000 L CNN
 F 1 "R_10k_0402" H 9650 6100 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 9850 6450 60  0001 L CNN
 F 3 "" H 9650 6250 50  0001 C CNN
@@ -2390,10 +2376,10 @@ Wire Wire Line
 Wire Wire Line
 	9650 6400 9650 6575
 $Comp
-L artix-dc-scm:LG_L29K-G2J1-24-Z D?
+L artix-dc-scm:LG_L29K-G2J1-24-Z D4
 U 1 1 60986DFE
 P 10450 5975
-F 0 "D?" H 10475 5875 60  0000 L CNN
+F 0 "D4" H 10475 5875 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9575 6200 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10650 6175 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10650 6275 60  0001 L CNN
@@ -2407,10 +2393,10 @@ Wire Wire Line
 Wire Wire Line
 	10650 5975 10750 5975
 $Comp
-L artix-dc-scm:R_1k_0402 R?
+L artix-dc-scm:R_1k_0402 R94
 U 1 1 60986E09
 P 10900 5975
-F 0 "R?" H 10850 6075 60  0000 C CNN
+F 0 "R94" H 10850 6075 60  0000 C CNN
 F 1 "R_1k_0402" H 10900 5825 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 11100 6175 60  0001 L CNN
 F 3 "" H 10900 5975 50  0001 C CNN
@@ -2425,10 +2411,10 @@ VCC3V3
 Wire Wire Line
 	11050 5975 11150 5975
 $Comp
-L artix-dc-scm:2N7002 Q?
+L artix-dc-scm:2N7002 Q7
 U 1 1 60986E13
 P 10250 6475
-F 0 "Q?" H 10358 6528 60  0000 L CNN
+F 0 "Q7" H 10358 6528 60  0000 L CNN
 F 1 "2N7002" H 10358 6422 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 10450 6675 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10450 6775 60  0001 L CNN
@@ -2440,10 +2426,10 @@ $EndComp
 Text GLabel 9575 6025 0    50   Input ~ 0
 VCC1V0
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND #PWR0106
 U 1 1 60986E1A
 P 10250 6775
-F 0 "#PWR?" H 10250 6525 50  0001 C CNN
+F 0 "#PWR0106" H 10250 6525 50  0001 C CNN
 F 1 "GND" H 10255 6602 50  0000 C CNN
 F 2 "" H 10250 6775 50  0001 C CNN
 F 3 "" H 10250 6775 50  0001 C CNN
@@ -2457,10 +2443,10 @@ Wire Wire Line
 Wire Wire Line
 	10250 7175 10250 7475
 $Comp
-L artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R62
 U 1 1 60986E26
 P 9650 7450
-F 0 "R?" V 9500 7475 60  0000 L CNN
+F 0 "R62" V 9500 7475 60  0000 L CNN
 F 1 "R_10k_0402" H 9650 7300 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 9850 7650 60  0001 L CNN
 F 3 "" H 9650 7450 50  0001 C CNN
@@ -2475,10 +2461,10 @@ Wire Wire Line
 Wire Wire Line
 	9650 7600 9650 7775
 $Comp
-L artix-dc-scm:LG_L29K-G2J1-24-Z D?
+L artix-dc-scm:LG_L29K-G2J1-24-Z D5
 U 1 1 60986E30
 P 10450 7175
-F 0 "D?" H 10475 7075 60  0000 L CNN
+F 0 "D5" H 10475 7075 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9575 7400 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10650 7375 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10650 7475 60  0001 L CNN
@@ -2492,10 +2478,10 @@ Wire Wire Line
 Wire Wire Line
 	10650 7175 10750 7175
 $Comp
-L artix-dc-scm:R_1k_0402 R?
+L artix-dc-scm:R_1k_0402 R95
 U 1 1 60986E3B
 P 10900 7175
-F 0 "R?" H 10850 7275 60  0000 C CNN
+F 0 "R95" H 10850 7275 60  0000 C CNN
 F 1 "R_1k_0402" H 10900 7025 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 11100 7375 60  0001 L CNN
 F 3 "" H 10900 7175 50  0001 C CNN
@@ -2511,10 +2497,10 @@ Wire Wire Line
 	11050 7175 11150 7175
 Connection ~ 9650 7775
 $Comp
-L artix-dc-scm:2N7002 Q?
+L artix-dc-scm:2N7002 Q8
 U 1 1 60986E46
 P 10250 7675
-F 0 "Q?" H 10358 7728 60  0000 L CNN
+F 0 "Q8" H 10358 7728 60  0000 L CNN
 F 1 "2N7002" H 10358 7622 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:SOT-23-3" H 10450 7875 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10450 7975 60  0001 L CNN
@@ -2524,10 +2510,10 @@ F 5 "ON Semiconductor" H 10450 8775 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND #PWR0107
 U 1 1 60986E4C
 P 10250 7975
-F 0 "#PWR?" H 10250 7725 50  0001 C CNN
+F 0 "#PWR0107" H 10250 7725 50  0001 C CNN
 F 1 "GND" H 10255 7802 50  0000 C CNN
 F 2 "" H 10250 7975 50  0001 C CNN
 F 3 "" H 10250 7975 50  0001 C CNN
@@ -2541,10 +2527,10 @@ PWR_EN
 Wire Wire Line
 	9250 7225 9650 7225
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND #PWR0108
 U 1 1 60986E55
 P 9650 7975
-F 0 "#PWR?" H 9650 7725 50  0001 C CNN
+F 0 "#PWR0108" H 9650 7725 50  0001 C CNN
 F 1 "GND" H 9655 7802 50  0000 C CNN
 F 2 "" H 9650 7975 50  0001 C CNN
 F 3 "" H 9650 7975 50  0001 C CNN
@@ -2560,4 +2546,18 @@ Wire Wire Line
 Connection ~ 9650 6575
 Text Label 9250 6675 0    50   ~ 0
 1V0_PG
+$Comp
+L artix-dc-scm:R_0R_1206 R69
+U 1 1 5FE11461
+P 6600 3050
+F 0 "R69" V 6555 3120 60  0000 L CNN
+F 1 "R_0R_1206" H 6600 2900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:1206-res" H 6800 3250 60  0001 L CNN
+F 3 "" H 6600 3050 50  0001 C CNN
+F 4 "MULTICOMP" H 6800 3450 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 6800 3350 60  0001 L CNN "MPN"
+F 6 "0R" V 6653 3120 50  0000 L CNN "Val"
+	1    6600 3050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
