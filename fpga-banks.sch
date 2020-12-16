@@ -13,34 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 15175 2300 2    50   Input ~ 0
-RGMII_RX_DV
-Text GLabel 15175 2000 2    50   Output ~ 0
-ETH_MDC
-Text GLabel 15175 3400 2    50   BiDi ~ 0
-ETH_MDIO
-Text GLabel 15175 3100 2    50   Output ~ 0
-RGMII_TX_DV
-Text GLabel 15175 3200 2    50   Output ~ 0
-RGMII_TXD0
-Text GLabel 15175 3300 2    50   Output ~ 0
-RGMII_TXD1
-Text GLabel 15175 3000 2    50   Output ~ 0
-RGMII_TXD2
-Text GLabel 15175 3500 2    50   Input ~ 0
-RGMII_TXD3
-Text GLabel 15175 3600 2    50   Input ~ 0
-RGMII_TX_CLK
-Text GLabel 15175 2400 2    50   Input ~ 0
-RGMII_RXD0
-Text GLabel 15175 2500 2    50   Input ~ 0
-RGMII_RXD1
-Text GLabel 15175 3700 2    50   Input ~ 0
-RGMII_RXD2
-Text GLabel 15175 2900 2    50   Input ~ 0
-RGMII_RXD3
-Text GLabel 15175 2100 2    50   Input ~ 0
-RGMII_RX_CLK
 Wire Wire Line
 	14800 2000 15175 2000
 Wire Wire Line
@@ -75,16 +47,8 @@ Wire Wire Line
 	14800 3700 15175 3700
 Wire Wire Line
 	14800 3600 15175 3600
-Text GLabel 15175 2700 2    50   Input ~ 0
-ETH_INT_N
-Text GLabel 15175 2200 2    50   Input ~ 0
-RGMII_REF_CLK
 Wire Wire Line
 	14800 2600 15175 2600
-Text GLabel 15175 2600 2    50   Output ~ 0
-ETH_~RESET
-Text GLabel 15175 2800 2    50   Output ~ 0
-RGMII_TX_CLK
 Wire Wire Line
 	11600 2000 12000 2000
 Wire Wire Line
@@ -1194,4 +1158,40 @@ F 3 "" H 6250 9900 50  0001 C CNN
 	1    6250 9900
 	0    1    1    0   
 $EndComp
+Text GLabel 15175 2400 2    50   Input ~ 0
+ETH_~RESET
+Text GLabel 15175 2200 2    50   Output ~ 0
+ETH_INT_N
+Text GLabel 15175 2100 2    50   Output ~ 0
+RGMII_REF_CLK
+Text GLabel 15175 2300 2    50   BiDi ~ 0
+ETH_MDIO
+Wire Wire Line
+	14800 3800 15175 3800
+Text GLabel 15175 3300 2    50   Input ~ 0
+RGMII_TXD0
+Text GLabel 15175 3700 2    50   Input ~ 0
+RGMII_TXD1
+Text GLabel 15175 3800 2    50   Input ~ 0
+RGMII_TXD3
+Text GLabel 15175 3500 2    50   Input ~ 0
+RGMII_TX_CLK
+Text GLabel 15175 2900 2    50   Input ~ 0
+RGMII_TX_DV
+Text GLabel 15175 3600 2    50   Output ~ 0
+RGMII_RXD3
+Text GLabel 15175 3100 2    50   Output ~ 0
+RGMII_RXD1
+Text GLabel 15175 3400 2    50   Input ~ 0
+RGMII_TXD2
+Text GLabel 15175 3000 2    50   Output ~ 0
+RGMII_RXD2
+Text GLabel 15175 2500 2    50   Output ~ 0
+RGMII_RXD0
+Text GLabel 15175 2700 2    50   Output ~ 0
+RGMII_RX_DV
+Text GLabel 15175 2600 2    50   Output ~ 0
+RGMII_RX_CLK
+Text GLabel 15175 2800 2    50   Input ~ 0
+ETH_MDC
 $EndSCHEMATC
