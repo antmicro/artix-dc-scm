@@ -1989,7 +1989,7 @@ AR Path="/6052C7CF/60965625" Ref="U?"  Part="1"
 AR Path="/5FD86D1B/60965625" Ref="U?"  Part="1" 
 AR Path="/5FD86BEB/60965625" Ref="U16"  Part="1" 
 F 0 "U16" H 4175 9375 60  0000 C CNN
-F 1 "SN74LS08DBR" H 4050 9250 60  0000 C CNN
+F 1 "SN74LS08DBR" H 5250 9150 60  0000 C CNN
 F 2 "artix-dc-scm-footprints:SOP65P775X265-14N" H 4675 9075 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls08" H 4675 9175 60  0001 L CNN
 F 4 "SN74LS08DBR" H 4675 9375 60  0001 L CNN "MPN"
@@ -2373,27 +2373,7 @@ $EndComp
 Wire Wire Line
 	10250 6775 10250 6675
 Wire Wire Line
-	9650 7775 9950 7775
-Wire Wire Line
 	10250 7175 10250 7475
-$Comp
-L artix-dc-scm:R_10k_0402 R62
-U 1 1 60986E26
-P 9650 7450
-F 0 "R62" V 9500 7475 60  0000 L CNN
-F 1 "R_10k_0402" H 9650 7300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 9850 7650 60  0001 L CNN
-F 3 "" H 9650 7450 50  0001 C CNN
-F 4 "VISHAY" H 9850 7850 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 9850 7750 60  0001 L CNN "MPN"
-F 6 "10k" V 9775 7500 50  0000 L CNN "Val"
-	1    9650 7450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9650 7225 9650 7300
-Wire Wire Line
-	9650 7600 9650 7775
 $Comp
 L artix-dc-scm:LG_L29K-G2J1-24-Z D5
 U 1 1 60986E30
@@ -2429,7 +2409,6 @@ Text GLabel 11150 7175 2    50   Input ~ 0
 VCC3V3
 Wire Wire Line
 	11050 7175 11150 7175
-Connection ~ 9650 7775
 $Comp
 L artix-dc-scm:2N7002 Q8
 U 1 1 60986E46
@@ -2456,23 +2435,8 @@ F 3 "" H 10250 7975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10250 7975 10250 7875
-Text Label 9250 7225 0    50   ~ 0
+Text Label 9600 7775 0    50   ~ 0
 PWR_EN
-Wire Wire Line
-	9250 7225 9650 7225
-$Comp
-L artix-dc-scm:GND #PWR0108
-U 1 1 60986E55
-P 9650 7975
-F 0 "#PWR0108" H 9650 7725 50  0001 C CNN
-F 1 "GND" H 9655 7802 50  0000 C CNN
-F 2 "" H 9650 7975 50  0001 C CNN
-F 3 "" H 9650 7975 50  0001 C CNN
-	1    9650 7975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 7775 9650 7975
 Wire Wire Line
 	9650 6575 9650 6675
 Wire Wire Line
@@ -2568,4 +2532,6 @@ Wire Wire Line
 	1125 9350 1125 9175
 Text GLabel 1125 9175 1    50   Input ~ 0
 VCC3V3
+Wire Wire Line
+	9950 7775 9600 7775
 $EndSCHEMATC
