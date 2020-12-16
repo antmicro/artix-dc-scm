@@ -13,14 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1350 1975 0    50   Input ~ 0
-PCIe_12V
-Text Notes 1775 1250 0    50   ~ 0
-in socket
-Text Notes 1550 2275 0    50   ~ 0
-fit socket but\nno fuse, optional\nfor PCIe power
-Text Notes 1025 1550 0    50   ~ 0
-12V/2.5A\ninput
 Wire Wire Line
 	12975 2900 12675 2900
 Wire Wire Line
@@ -92,54 +84,22 @@ NoConn ~ -625 5725
 $Comp
 L artix-dc-scm:0466003.NR F1
 U 1 1 5FE8C269
-P 1500 1975
-F 0 "F1" H 1850 2189 50  0000 C CNN
-F 1 "0466003.NR" H 1850 2098 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:1206-Fuse-Littelfuse-0466-0-0-MFG" H 1500 2275 50  0001 L CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 1500 2475 50  0001 L CNN
-F 4 "Littelfuse" H 1500 2475 50  0001 L CNN "Manufacturer"
-F 5 "0466003.NR " H 1750 2375 50  0001 C CNN "MPN"
-	1    1500 1975
+P 1775 2250
+F 0 "F1" H 2125 2464 50  0000 C CNN
+F 1 "0466003.NR" H 2125 2373 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:1206-Fuse-Littelfuse-0466-0-0-MFG" H 1775 2550 50  0001 L CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 1775 2750 50  0001 L CNN
+F 4 "Littelfuse" H 1775 2750 50  0001 L CNN "Manufacturer"
+F 5 "0466003.NR " H 2025 2650 50  0001 C CNN "MPN"
+	1    1775 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 1150 2275 1150
+	1625 2250 1875 2250
 Wire Wire Line
-	1350 1975 1600 1975
-Wire Wire Line
-	2100 1975 2350 1975
-$Comp
-L artix-dc-scm:0466003.NR F2
-U 1 1 5FFF57DB
-P 1550 1150
-F 0 "F2" H 1900 1364 50  0000 C CNN
-F 1 "0466003.NR" H 1900 1273 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:1206-Fuse-Littelfuse-0466-0-0-MFG" H 1550 1450 50  0001 L CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 1550 1650 50  0001 L CNN
-F 4 "Littelfuse" H 1550 1650 50  0001 L CNN "Manufacturer"
-F 5 "0466003.NR " H 1800 1550 50  0001 C CNN "MPN"
-	1    1550 1150
-	1    0    0    -1  
-$EndComp
-Text GLabel 2350 1975 2    50   Input ~ 0
+	2375 2250 2625 2250
+Text GLabel 2625 2250 2    50   Input ~ 0
 VCC12V
-Text GLabel 2400 850  2    50   Input ~ 0
-VCC12V
-Wire Wire Line
-	2275 850  2275 1150
-Wire Wire Line
-	2275 850  2400 850 
-$Comp
-L artix-dc-scm:GND #PWR049
-U 1 1 60217368
-P 2300 1450
-F 0 "#PWR049" H 2300 1200 50  0001 C CNN
-F 1 "GND" H 2305 1277 50  0000 C CNN
-F 2 "" H 2300 1450 50  0001 C CNN
-F 3 "" H 2300 1450 50  0001 C CNN
-	1    2300 1450
-	1    0    0    -1  
-$EndComp
 $Comp
 L artix-dc-scm:TPS54561 IC1
 U 1 1 60694B04
@@ -1297,32 +1257,6 @@ Text Notes 12950 4450 0    118  ~ 0
 1V8 supply
 Text Notes 12900 6375 0    118  ~ 0
 1V35 supply
-$Comp
-L artix-dc-scm:DC_SOCKET J11
-U 1 1 633BB6FF
-P 1250 1250
-F 0 "J11" H 1183 1603 60  0000 C CNN
-F 1 "DC_SOCKET" H 1300 975 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:DC_SOCKET" H 1300 900 60  0001 C CNN
-F 3 "" H 1250 1250 60  0001 C CNN
-F 4 "Multicomp" H 1275 775 50  0001 C CNN "Manufacturer"
-F 5 "MJ-179PH" H 1183 1505 50  0000 C CNN "MPN"
-	1    1250 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 1150 1450 1150
-Wire Wire Line
-	1450 1350 1550 1350
-Wire Wire Line
-	2300 1350 2300 1450
-Wire Wire Line
-	1450 1250 1550 1250
-Wire Wire Line
-	1550 1250 1550 1350
-Connection ~ 1550 1350
-Wire Wire Line
-	1550 1350 2300 1350
 $Comp
 L artix-dc-scm:IHLP1212AEERR47M11 L2
 U 1 1 6356D0C5
@@ -2560,4 +2494,55 @@ F 6 "0R" V 6653 3120 50  0000 L CNN "Val"
 	1    6600 3050
 	0    1    1    0   
 $EndComp
+$Comp
+L artix-dc-scm:RCW-0C TP3
+U 1 1 5FE83A9D
+P 1900 1575
+F 0 "TP3" V 1900 1400 50  0000 C CNN
+F 1 "RCW-0C" V 1766 1622 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:PROBE_PAD_1206" H 2100 1775 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2100 1875 60  0001 L CNN
+F 4 "RCW-0C" H 2100 2075 60  0001 L CNN "MPN"
+F 5 "TE Connectivity AMP Connectors" H 2100 2675 60  0001 L CNN "Manufacturer"
+	1    1900 1575
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:RCW-0C TP4
+U 1 1 5FEA4BA8
+P 1900 1725
+F 0 "TP4" V 1925 1550 50  0000 C CNN
+F 1 "RCW-0C" V 1766 1772 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:PROBE_PAD_1206" H 2100 1925 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2100 2025 60  0001 L CNN
+F 4 "RCW-0C" H 2100 2225 60  0001 L CNN "MPN"
+F 5 "TE Connectivity AMP Connectors" H 2100 2825 60  0001 L CNN "Manufacturer"
+	1    1900 1725
+	0    1    1    0   
+$EndComp
+Text GLabel 2250 1400 1    50   Input ~ 0
+VCC12V
+Wire Wire Line
+	2000 1575 2250 1575
+Wire Wire Line
+	2250 1575 2250 1400
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 5FEC5E7F
+P 2250 1825
+F 0 "#PWR?" H 2250 1575 50  0001 C CNN
+F 1 "GND" H 2255 1652 50  0000 C CNN
+F 2 "" H 2250 1825 50  0001 C CNN
+F 3 "" H 2250 1825 50  0001 C CNN
+	1    2250 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1725 2250 1725
+Wire Wire Line
+	2250 1725 2250 1825
+Text GLabel 1625 2250 0    50   Input ~ 0
+P12V_AUX
+Text Notes 1300 925  0    118  ~ 0
+External 12V supply
 $EndSCHEMATC
