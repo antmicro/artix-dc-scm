@@ -36,21 +36,21 @@ F 5 "NXP Semiconductors" H 8750 7400 50  0001 C CNN "Manufacturer"
 	1    8350 6450
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 6950 0    50   Input ~ 0
-I3C[0]_SDA_3V3
-Text GLabel 7650 6750 0    50   Input ~ 0
-I3C[1]_SDA_3V3
-Text GLabel 7650 6850 0    50   Input ~ 0
-I3C[1]_SCL_3V3
-Text GLabel 7650 6550 0    50   Input ~ 0
-I3C[2]_SDA_3V3
-Text GLabel 7650 6650 0    50   Input ~ 0
-I3C[2]_SCL_3V3
-Text GLabel 7650 6350 0    50   Input ~ 0
-I3C[3]_SDA_3V3
 Text GLabel 7650 6450 0    50   Input ~ 0
-I3C[3]_SCL_3V3
+I3C[0]_SDA_3V3
+Text GLabel 7650 6650 0    50   Input ~ 0
+I3C[1]_SDA_3V3
+Text GLabel 7650 6550 0    50   Input ~ 0
+I3C[1]_SCL_3V3
+Text GLabel 7650 6850 0    50   Input ~ 0
+I3C[2]_SDA_3V3
+Text GLabel 7650 6750 0    50   Input ~ 0
+I3C[2]_SCL_3V3
 Text GLabel 7650 7050 0    50   Input ~ 0
+I3C[3]_SDA_3V3
+Text GLabel 7650 6950 0    50   Input ~ 0
+I3C[3]_SCL_3V3
+Text GLabel 7650 6350 0    50   Input ~ 0
 I3C[0]_SCL_3V3
 Text GLabel 9050 6200 2    50   Input ~ 0
 VCC1V0
@@ -669,20 +669,20 @@ Text GLabel 5325 2575 2    50   Input ~ 0
 I2C[1]_SDA
 Text GLabel 4925 2575 0    50   Input ~ 0
 I2C[0]_SDA
-Text GLabel 9050 7050 2    50   Input ~ 0
-I3C[0]_SCL
-Text GLabel 9050 6950 2    50   Input ~ 0
-I3C[0]_SDA
-Text GLabel 9050 6850 2    50   Input ~ 0
-I3C[1]_SCL
-Text GLabel 9050 6750 2    50   Input ~ 0
-I3C[1]_SDA
-Text GLabel 9050 6650 2    50   Input ~ 0
-I3C[2]_SCL
-Text GLabel 9050 6550 2    50   Input ~ 0
-I3C[2]_SDA
-Text GLabel 9050 6450 2    50   Input ~ 0
-I3C[3]_SCL
 Text GLabel 9050 6350 2    50   Input ~ 0
+I3C[0]_SCL
+Text GLabel 9050 6450 2    50   Input ~ 0
+I3C[0]_SDA
+Text GLabel 9050 6550 2    50   Input ~ 0
+I3C[1]_SCL
+Text GLabel 9050 6650 2    50   Input ~ 0
+I3C[1]_SDA
+Text GLabel 9050 6750 2    50   Input ~ 0
+I3C[2]_SCL
+Text GLabel 9050 6850 2    50   Input ~ 0
+I3C[2]_SDA
+Text GLabel 9050 6950 2    50   Input ~ 0
+I3C[3]_SCL
+Text GLabel 9050 7050 2    50   Input ~ 0
 I3C[3]_SDA
 $EndSCHEMATC
