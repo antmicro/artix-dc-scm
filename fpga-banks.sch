@@ -141,96 +141,6 @@ Wire Wire Line
 	11600 2600 12000 2600
 Wire Wire Line
 	11600 2500 12000 2500
-Text GLabel 11600 2500 0    50   BiDi ~ 0
-DDR3_DQS1-
-Text GLabel 11600 2600 0    50   BiDi ~ 0
-DDR3_DQS1+
-Text GLabel 11600 3700 0    50   BiDi ~ 0
-DDR3_DQS0-
-Text GLabel 11600 3800 0    50   BiDi ~ 0
-DDR3_DQS0+
-Text GLabel 11600 5100 0    50   BiDi ~ 0
-DDR3_DM1
-Text GLabel 11600 5200 0    50   BiDi ~ 0
-DDR3_DM0
-Text GLabel 11600 5300 0    50   BiDi ~ 0
-DDR3_DQ15
-Text GLabel 11600 5400 0    50   BiDi ~ 0
-DDR3_DQ14
-Text GLabel 11600 5500 0    50   BiDi ~ 0
-DDR3_DQ13
-Text GLabel 11600 5600 0    50   BiDi ~ 0
-DDR3_DQ12
-Text GLabel 11600 5700 0    50   BiDi ~ 0
-DDR3_DQ11
-Text GLabel 11600 5900 0    50   BiDi ~ 0
-DDR3_DQ10
-Text GLabel 11600 6000 0    50   BiDi ~ 0
-DDR3_DQ9
-Text GLabel 11600 6100 0    50   BiDi ~ 0
-DDR3_DQ8
-Text GLabel 11600 6200 0    50   BiDi ~ 0
-DDR3_DQ7
-Text GLabel 11600 6300 0    50   BiDi ~ 0
-DDR3_DQ6
-Text GLabel 11600 6400 0    50   BiDi ~ 0
-DDR3_DQ5
-Text GLabel 11600 6500 0    50   BiDi ~ 0
-DDR3_DQ4
-Text GLabel 11600 6600 0    50   BiDi ~ 0
-DDR3_DQ3
-Text GLabel 11600 6700 0    50   BiDi ~ 0
-DDR3_DQ2
-Text GLabel 11600 6800 0    50   BiDi ~ 0
-DDR3_DQ1
-Text GLabel 11600 6900 0    50   BiDi ~ 0
-DDR3_DQ0
-Text GLabel 11600 4800 0    50   Output ~ 0
-DDR3_ODT
-Text GLabel 11600 4700 0    50   Output ~ 0
-DDR3_WE
-Text GLabel 11600 4600 0    50   Output ~ 0
-DDR3_RAS
-Text GLabel 11600 4500 0    50   Output ~ 0
-DDR3_CAS
-Text GLabel 11600 4400 0    50   Output ~ 0
-DDR3_CS
-Text GLabel 11600 4200 0    50   Output ~ 0
-DDR3_BA2
-Text GLabel 11600 4100 0    50   Output ~ 0
-DDR3_BA1
-Text GLabel 11600 4000 0    50   Output ~ 0
-DDR3_BA0
-Text GLabel 11600 3900 0    50   Output ~ 0
-DDR3_A14
-Text GLabel 11600 3100 0    50   Output ~ 0
-DDR3_A9
-Text GLabel 11600 3000 0    50   Output ~ 0
-DDR3_A8
-Text GLabel 11600 2900 0    50   Output ~ 0
-DDR3_A7
-Text GLabel 11600 2800 0    50   Output ~ 0
-DDR3_A6
-Text GLabel 11600 2700 0    50   Output ~ 0
-DDR3_A5
-Text GLabel 11600 2400 0    50   Output ~ 0
-DDR3_A4
-Text GLabel 11600 2300 0    50   Output ~ 0
-DDR3_A3
-Text GLabel 11600 2200 0    50   Output ~ 0
-DDR3_A2
-Text GLabel 11600 2100 0    50   Output ~ 0
-DDR3_A1
-Text GLabel 11600 2000 0    50   Output ~ 0
-DDR3_A0
-Text GLabel 11600 4900 0    50   Output ~ 0
-DDR3_CLK+
-Text GLabel 11600 5000 0    50   Output ~ 0
-DDR3_CLK-
-Text GLabel 11600 4300 0    50   Output ~ 0
-DDR3_CKE
-Text GLabel 11600 5800 0    50   Output ~ 0
-DDR3_RESET
 Text GLabel 9825 6250 2    50   Input ~ 0
 USB1_DN
 Text GLabel 9825 5950 2    50   Input ~ 0
@@ -932,14 +842,6 @@ IRQ_N
 Text GLabel 15300 5200 2    50   Input ~ 0
 PRSNT1_N
 NoConn ~ 12000 3200
-Text GLabel 11600 3300 0    50   Output ~ 0
-DDR3_A10
-Text GLabel 11600 3400 0    50   Output ~ 0
-DDR3_A11
-Text GLabel 11600 3500 0    50   Output ~ 0
-DDR3_A12
-Text GLabel 11600 3600 0    50   Output ~ 0
-DDR3_A13
 Wire Wire Line
 	11600 3500 12000 3500
 Wire Wire Line
@@ -1512,4 +1414,102 @@ Text GLabel 14800 6700 2    50   Input ~ 0
 SPIO_MOSI
 Text GLabel 14800 6800 2    50   Input ~ 0
 SPIO_MISO
+Text GLabel 11025 3550 0    50   Output ~ 0
+DDR3_A13
+Text GLabel 11025 3450 0    50   Output ~ 0
+DDR3_A12
+Text GLabel 11025 3350 0    50   Output ~ 0
+DDR3_A11
+Text GLabel 11025 3250 0    50   Output ~ 0
+DDR3_A10
+Text GLabel 11600 2900 0    50   Output ~ 0
+DDR3_RESET
+Text GLabel 11600 5900 0    50   Output ~ 0
+DDR3_CKE
+Text GLabel 11600 4000 0    50   Output ~ 0
+DDR3_CLK-
+Text GLabel 11600 6000 0    50   Output ~ 0
+DDR3_CLK+
+Text GLabel 11025 1950 0    50   Output ~ 0
+DDR3_A0
+Text GLabel 11025 2050 0    50   Output ~ 0
+DDR3_A1
+Text GLabel 11025 2150 0    50   Output ~ 0
+DDR3_A2
+Text GLabel 11025 2250 0    50   Output ~ 0
+DDR3_A3
+Text GLabel 11025 2350 0    50   Output ~ 0
+DDR3_A4
+Text GLabel 11025 2650 0    50   Output ~ 0
+DDR3_A5
+Text GLabel 11025 2750 0    50   Output ~ 0
+DDR3_A6
+Text GLabel 11025 2850 0    50   Output ~ 0
+DDR3_A7
+Text GLabel 11025 2950 0    50   Output ~ 0
+DDR3_A8
+Text GLabel 11025 3050 0    50   Output ~ 0
+DDR3_A9
+Text GLabel 11025 3850 0    50   Output ~ 0
+DDR3_A14
+Text GLabel 11600 3400 0    50   Output ~ 0
+DDR3_BA0
+Text GLabel 11600 6400 0    50   Output ~ 0
+DDR3_BA1
+Text GLabel 11600 3300 0    50   Output ~ 0
+DDR3_BA2
+Text GLabel 11600 3000 0    50   Output ~ 0
+DDR3_CS
+Text GLabel 11600 3800 0    50   Output ~ 0
+DDR3_CAS
+Text GLabel 11600 3500 0    50   Output ~ 0
+DDR3_RAS
+Text GLabel 11600 4200 0    50   Output ~ 0
+DDR3_WE
+Text GLabel 11600 3600 0    50   Output ~ 0
+DDR3_ODT
+Text GLabel 11025 6850 0    50   BiDi ~ 0
+DDR3_DQ0
+Text GLabel 11025 6750 0    50   BiDi ~ 0
+DDR3_DQ1
+Text GLabel 11025 6650 0    50   BiDi ~ 0
+DDR3_DQ2
+Text GLabel 11025 6550 0    50   BiDi ~ 0
+DDR3_DQ3
+Text GLabel 11025 6450 0    50   BiDi ~ 0
+DDR3_DQ4
+Text GLabel 11025 6350 0    50   BiDi ~ 0
+DDR3_DQ5
+Text GLabel 11025 6250 0    50   BiDi ~ 0
+DDR3_DQ6
+Text GLabel 11025 6150 0    50   BiDi ~ 0
+DDR3_DQ7
+Text GLabel 11025 6050 0    50   BiDi ~ 0
+DDR3_DQ8
+Text GLabel 11025 5950 0    50   BiDi ~ 0
+DDR3_DQ9
+Text GLabel 11025 5850 0    50   BiDi ~ 0
+DDR3_DQ10
+Text GLabel 11025 5650 0    50   BiDi ~ 0
+DDR3_DQ11
+Text GLabel 11025 5550 0    50   BiDi ~ 0
+DDR3_DQ12
+Text GLabel 11025 5450 0    50   BiDi ~ 0
+DDR3_DQ13
+Text GLabel 11025 5350 0    50   BiDi ~ 0
+DDR3_DQ14
+Text GLabel 11025 5250 0    50   BiDi ~ 0
+DDR3_DQ15
+Text GLabel 11025 5150 0    50   BiDi ~ 0
+DDR3_DM0
+Text GLabel 11025 5050 0    50   BiDi ~ 0
+DDR3_DM1
+Text GLabel 11025 3750 0    50   BiDi ~ 0
+DDR3_DQS0+
+Text GLabel 11025 3650 0    50   BiDi ~ 0
+DDR3_DQS0-
+Text GLabel 11025 2550 0    50   BiDi ~ 0
+DDR3_DQS1+
+Text GLabel 11025 2450 0    50   BiDi ~ 0
+DDR3_DQS1-
 $EndSCHEMATC

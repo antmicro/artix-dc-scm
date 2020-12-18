@@ -935,19 +935,19 @@ Wire Wire Line
 	11700 2375 11775 2375
 Wire Wire Line
 	11775 2375 11775 2700
-Text GLabel 4425 9375 0    50   UnSpc ~ 0
+Text GLabel 4425 9175 0    50   UnSpc ~ 0
 DDR3_A1
 Text GLabel 4425 8975 0    50   UnSpc ~ 0
 DDR3_A4
-Text GLabel 4425 9175 0    50   UnSpc ~ 0
+Text GLabel 4425 9075 0    50   UnSpc ~ 0
 DDR3_A6
 Text GLabel 4425 9275 0    50   UnSpc ~ 0
 DDR3_A8
-Text GLabel 4425 9475 0    50   UnSpc ~ 0
+Text GLabel 4425 9375 0    50   UnSpc ~ 0
 DDR3_A11
-Text GLabel 4425 9075 0    50   UnSpc ~ 0
+Text GLabel 4425 7375 0    50   UnSpc ~ 0
 DDR3_A12
-Text GLabel 4425 7475 0    50   UnSpc ~ 0
+Text GLabel 4425 9475 0    50   UnSpc ~ 0
 DDR3_A14
 Wire Wire Line
 	4425 9475 4625 9475
@@ -1545,36 +1545,36 @@ F 6 "51R" V 12528 8520 50  0000 L CNN "Val"
 	1    12475 8450
 	0    1    1    0   
 $EndComp
-Text GLabel 4425 10875 0    50   UnSpc ~ 0
+Text GLabel 4425 10675 0    50   UnSpc ~ 0
 DDR3_ODT
 Text GLabel 4425 8775 0    50   UnSpc ~ 0
 DDR3_CKE
-Text GLabel 4425 10775 0    50   UnSpc ~ 0
-DDR3_CS
-Text GLabel 4425 10675 0    50   UnSpc ~ 0
-DDR3_CAS
-Text GLabel 4425 10175 0    50   UnSpc ~ 0
-DDR3_RAS
 Text GLabel 4425 10575 0    50   UnSpc ~ 0
-DDR3_BA0
-Text GLabel 4425 10475 0    50   UnSpc ~ 0
-DDR3_A3
-Text GLabel 4425 7575 0    50   UnSpc ~ 0
-DDR3_WE
-Text GLabel 4425 7675 0    50   UnSpc ~ 0
-DDR3_BA2
-Text GLabel 4425 10275 0    50   UnSpc ~ 0
-DDR3_A7
-Text GLabel 4425 7875 0    50   UnSpc ~ 0
-DDR3_A2
-Text GLabel 4425 7775 0    50   UnSpc ~ 0
-DDR3_A0
+DDR3_CS
+Text GLabel 4425 10875 0    50   UnSpc ~ 0
+DDR3_CAS
+Text GLabel 4425 10775 0    50   UnSpc ~ 0
+DDR3_RAS
 Text GLabel 4425 10375 0    50   UnSpc ~ 0
-DDR3_A5
-Text GLabel 4425 7375 0    50   UnSpc ~ 0
-DDR3_A10
+DDR3_BA0
+Text GLabel 4425 10175 0    50   UnSpc ~ 0
+DDR3_A3
+Text GLabel 4425 10475 0    50   UnSpc ~ 0
+DDR3_WE
+Text GLabel 4425 10275 0    50   UnSpc ~ 0
+DDR3_BA2
 Text GLabel 4425 8075 0    50   UnSpc ~ 0
-DDR3_A13
+DDR3_A7
+Text GLabel 4425 7575 0    50   UnSpc ~ 0
+DDR3_A2
+Text GLabel 4425 7875 0    50   UnSpc ~ 0
+DDR3_A0
 Text GLabel 4425 7975 0    50   UnSpc ~ 0
+DDR3_A5
+Text GLabel 4425 7475 0    50   UnSpc ~ 0
+DDR3_A10
+Text GLabel 4425 7775 0    50   UnSpc ~ 0
+DDR3_A13
+Text GLabel 4425 7675 0    50   UnSpc ~ 0
 DDR3_A9
 $EndSCHEMATC
