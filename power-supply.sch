@@ -2001,8 +2001,6 @@ Text GLabel 4175 9075 0    50   Input ~ 0
 HPM_STBY_RDY
 Text GLabel 4675 8875 2    50   Input ~ 0
 HPM_STBY_EN
-Text GLabel 4175 8775 0    50   Input ~ 0
-ROT_RDY
 Wire Wire Line
 	9725 2300 9650 2300
 Wire Wire Line
@@ -2510,10 +2508,10 @@ P12V_AUX
 Text Notes 1300 925  0    118  ~ 0
 External 12V supply
 $Comp
-L artix-dc-scm:R_1k_0402 R99
+L artix-dc-scm:R_1k_0402 R62
 U 1 1 6003348A
 P 1125 9500
-F 0 "R99" V 1080 9570 60  0000 L CNN
+F 0 "R62" V 1080 9570 60  0000 L CNN
 F 1 "R_1k_0402" H 1125 9350 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 1325 9700 60  0001 L CNN
 F 3 "" H 1125 9500 50  0001 C CNN
@@ -2534,4 +2532,6 @@ Text GLabel 1125 9175 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
 	9950 7775 9600 7775
+Text GLabel 4175 8775 0    50   Input ~ 0
+ROT_RDY\ROT_GPIO0
 $EndSCHEMATC

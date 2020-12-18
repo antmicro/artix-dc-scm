@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 10
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -16,18 +16,18 @@ $EndDescr
 $Comp
 L artix-dc-scm:543630489 J3
 U 1 1 6268C044
-P 8950 4650
-F 0 "J3" H 8975 4665 50  0000 C CNN
-F 1 "543630489" H 8975 4574 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:543630489" H 8700 2300 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9200 2350 50  0001 C CNN
-	1    8950 4650
-	1    0    0    -1  
+P 8925 6775
+F 0 "J3" H 8950 6790 50  0000 C CNN
+F 1 "543630489" H 8950 6699 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:543630489" H 8675 4425 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C CNN
+	1    8925 6775
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8750 4900 8250 4900
+	8725 6325 8225 6325
 Wire Wire Line
-	8750 5000 8250 5000
+	8725 6225 8225 6225
 Text GLabel 1950 2550 0    50   Input ~ 0
 QSPIA1_CS_N
 Text GLabel 1950 2850 0    50   Input ~ 0
@@ -1054,146 +1054,132 @@ Text Notes 1650 6400 0    50   ~ 0
 One or typically two flash devices used to contain the BMC firmware image
 Text Notes 1475 1475 0    50   ~ 0
 One or typically two flash devices used to contain the BIOS firmware image
-Text GLabel 8250 4900 0    50   Input ~ 0
+Text GLabel 8225 5225 0    50   Input ~ 0
 SPI_ROT_CLK
-Text GLabel 8250 5000 0    50   Input ~ 0
+Text GLabel 8225 5125 0    50   Input ~ 0
 SPI_ROT_CS_N
-Text GLabel 8250 5100 0    50   Input ~ 0
+Text GLabel 8225 5025 0    50   Input ~ 0
 SPI_ROT_MOSI
-Text GLabel 8250 5200 0    50   Input ~ 0
+Text GLabel 8225 4925 0    50   Input ~ 0
 SPI_ROT_MISO
 Wire Wire Line
-	8750 5100 8250 5100
+	8725 6125 8225 6125
 Wire Wire Line
-	8750 5200 8250 5200
-Text GLabel 8250 5800 0    50   Input ~ 0
+	8725 6025 8225 6025
+Text GLabel 8225 6125 0    50   Input ~ 0
 QSPIA1_CS_N
-Text GLabel 8250 5300 0    50   Input ~ 0
+Text GLabel 9675 5825 2    50   Input ~ 0
 QSPIA_CLK
-Text GLabel 8250 5400 0    50   Input ~ 0
+Text GLabel 8225 5925 0    50   Input ~ 0
 QSPIA1_D0
-Text GLabel 8250 5600 0    50   Input ~ 0
+Text GLabel 8225 6325 0    50   Input ~ 0
 QSPIA1_D2
-Text GLabel 8250 5700 0    50   Input ~ 0
+Text GLabel 8225 6025 0    50   Input ~ 0
 QSPIA1_D3
-Text GLabel 8250 6300 0    50   Input ~ 0
+Text GLabel 9675 6025 2    50   Input ~ 0
 QSPIA2_CS_N
-Text GLabel 8250 5900 0    50   Input ~ 0
+Text GLabel 9675 5725 2    50   Input ~ 0
 QSPIA2_D0
-Text GLabel 8250 6100 0    50   Input ~ 0
+Text GLabel 9675 6225 2    50   Input ~ 0
 QSPIA2_D2
-Text GLabel 8250 6200 0    50   Input ~ 0
+Text GLabel 9675 5925 2    50   Input ~ 0
 QSPIA2_D3
-Text GLabel 9700 6000 2    50   Input ~ 0
+Text GLabel 9675 5425 2    50   Input ~ 0
 QSPIB1_CS_N
-Text GLabel 9700 5500 2    50   Input ~ 0
+Text GLabel 9675 4725 2    50   Input ~ 0
 QSPIB_CLK
-Text GLabel 9700 5600 2    50   Input ~ 0
+Text GLabel 9675 5225 2    50   Input ~ 0
 QSPIB1_D0
-Text GLabel 9700 5800 2    50   Input ~ 0
+Text GLabel 9675 5625 2    50   Input ~ 0
 QSPIB1_D2
-Text GLabel 9700 5900 2    50   Input ~ 0
+Text GLabel 9675 5325 2    50   Input ~ 0
 QSPIB1_D3
-Text GLabel 9700 6500 2    50   Input ~ 0
+Text GLabel 9675 4925 2    50   Input ~ 0
 QSPIB2_CS_N
-Text GLabel 9700 6100 2    50   Input ~ 0
+Text GLabel 9675 4625 2    50   Input ~ 0
 QSPIB2_D0
-Text GLabel 9700 6300 2    50   Input ~ 0
+Text GLabel 9675 5125 2    50   Input ~ 0
 QSPIB2_D2
-Text GLabel 9700 6400 2    50   Input ~ 0
+Text GLabel 9675 4825 2    50   Input ~ 0
 QSPIB2_D3
-Text GLabel 8250 5500 0    50   Input ~ 0
+Text GLabel 8225 6225 0    50   Input ~ 0
 QSPIA1_D1
-Text GLabel 8250 6000 0    50   Input ~ 0
+Text GLabel 9675 6125 2    50   Input ~ 0
 QSPIA2_D1
-Text GLabel 9700 5700 2    50   Input ~ 0
+Text GLabel 9675 5525 2    50   Input ~ 0
 QSPIB1_D1
-Text GLabel 9700 6200 2    50   Input ~ 0
+Text GLabel 9675 5025 2    50   Input ~ 0
 QSPIB2_D1
-Text GLabel 9700 4900 2    50   Input ~ 0
+Text GLabel 8225 5825 0    50   Input ~ 0
 QSPI0_CLK
-Text GLabel 9700 5400 2    50   Input ~ 0
+Text GLabel 8225 5725 0    50   Input ~ 0
 QSPI0_CS0_N
-Text GLabel 9700 5000 2    50   Input ~ 0
+Text GLabel 8225 5625 0    50   Input ~ 0
 QSPI0_D0
-Text GLabel 9700 5100 2    50   Input ~ 0
+Text GLabel 8225 5525 0    50   Input ~ 0
 QSPI0_D1
-Text GLabel 9700 5200 2    50   Input ~ 0
+Text GLabel 8225 5425 0    50   Input ~ 0
 QSPI0_D2
-Text GLabel 9700 5300 2    50   Input ~ 0
+Text GLabel 8225 5325 0    50   Input ~ 0
 QSPI0_D3
 Wire Wire Line
-	8250 5300 8750 5300
+	8225 5925 8725 5925
 Wire Wire Line
-	8750 5400 8250 5400
+	8725 5825 8225 5825
 Wire Wire Line
-	8750 5500 8250 5500
+	8725 5725 8225 5725
 Wire Wire Line
-	8750 5600 8250 5600
+	8725 5625 8225 5625
 Wire Wire Line
-	8750 5700 8250 5700
+	8725 5525 8225 5525
 Wire Wire Line
-	8750 5900 8250 5900
+	8725 5325 8225 5325
 Wire Wire Line
-	8750 6000 8250 6000
+	8725 5225 8225 5225
 Wire Wire Line
-	8750 6100 8250 6100
+	8725 5125 8225 5125
 Wire Wire Line
-	8750 6200 8250 6200
+	8725 5025 8225 5025
 Wire Wire Line
-	9200 5600 9700 5600
+	9175 5825 9675 5825
 Wire Wire Line
-	9200 5700 9700 5700
+	9175 5725 9675 5725
 Wire Wire Line
-	9200 5800 9700 5800
+	9175 5625 9675 5625
 Wire Wire Line
-	9200 5900 9700 5900
+	9175 5525 9675 5525
 Wire Wire Line
-	9200 6100 9700 6100
+	9175 5325 9675 5325
 Wire Wire Line
-	9200 6200 9700 6200
+	9175 5225 9675 5225
 Wire Wire Line
-	9200 6300 9700 6300
+	9175 5125 9675 5125
 Wire Wire Line
-	9200 6400 9700 6400
+	9175 5025 9675 5025
 Wire Wire Line
-	8750 6300 8250 6300
+	8725 4925 8225 4925
 Wire Wire Line
-	9200 5500 9700 5500
+	9175 5925 9675 5925
 Wire Wire Line
-	9200 6000 9700 6000
+	9175 5425 9675 5425
 Wire Wire Line
-	9200 6500 9700 6500
+	9175 4925 9675 4925
 Wire Wire Line
-	8750 5800 8250 5800
+	8725 5425 8225 5425
 Wire Wire Line
-	9700 4900 9200 4900
+	9675 6325 9175 6325
 Wire Wire Line
-	9700 5000 9200 5000
+	9675 6225 9175 6225
 Wire Wire Line
-	9700 5100 9200 5100
+	9675 6125 9175 6125
 Wire Wire Line
-	9700 5200 9200 5200
-Wire Wire Line
-	9700 5300 9200 5300
-Wire Wire Line
-	9700 5400 9200 5400
+	9675 6025 9175 6025
 Text Notes 8325 4350 0    118  ~ 0
 RoT connector
-Text Notes 8800 4475 0    50   ~ 0
+Text Notes 8775 6950 0    50   ~ 0
 preliminary\n
-Text Notes 7550 5250 1    50   ~ 0
-SPI to FPGA\n
-Text Notes 7475 6350 1    50   ~ 0
-BIOS flash
-Text Notes 10500 6550 1    50   ~ 0
-BMC flash
-Text Notes 10525 5325 1    50   ~ 0
-QSPI to HPM
-Text GLabel 8250 6800 0    50   Input ~ 0
-ROT_RDY
-Wire Wire Line
-	8750 6800 8250 6800
+Text GLabel 8225 4625 0    50   Input ~ 0
+ROT_RDY\ROT_GPIO0
 $Comp
 L artix-dc-scm:M20-7830642 J4
 U 1 1 5FD63CCC
@@ -1273,4 +1259,45 @@ Text Notes 12175 2675 0    50   ~ 0
 Pinout for AES-PMOD-TPM20-SLB9670-G
 Text Notes 12325 2425 1    50   ~ 0
 TODO: tie this pins to DC-SCI connector
+Wire Wire Line
+	9675 4825 9175 4825
+Wire Wire Line
+	9675 4725 9175 4725
+Wire Wire Line
+	9675 4625 9175 4625
+Wire Wire Line
+	8725 4825 8225 4825
+Wire Wire Line
+	8725 4725 8225 4725
+Wire Wire Line
+	8725 4625 8225 4625
+Text GLabel 8225 4825 0    50   Input ~ 0
+PROGRAM
+Text GLabel 8225 4725 0    50   Input ~ 0
+INIT
+Text GLabel 9775 6525 2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	8225 6525 8725 6525
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 626717FC
+P 8225 6525
+AR Path="/5FC6B687/626717FC" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/626717FC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8225 6275 50  0001 C CNN
+F 1 "GND" H 8230 6352 50  0000 C CNN
+F 2 "" H 8225 6525 50  0001 C CNN
+F 3 "" H 8225 6525 50  0001 C CNN
+	1    8225 6525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8725 6425 8725 6525
+Connection ~ 8725 6525
+Wire Wire Line
+	9175 6525 9775 6525
+Wire Wire Line
+	9175 6425 9175 6525
+Connection ~ 9175 6525
 $EndSCHEMATC
