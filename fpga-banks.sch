@@ -369,6 +369,7 @@ F 3 "" H 10000 8550 50  0001 C CNN
 F 4 "BOURNS" H 10200 8950 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 10200 8850 60  0001 L CNN "MPN"
 F 6 "100R" V 10053 8620 50  0000 L CNN "Val"
+F 7 "DNP" V 10000 8550 50  0000 C CNN "Populate"
 	1    10000 8550
 	0    1    1    0   
 $EndComp
@@ -472,6 +473,7 @@ F 3 "" H 10000 9000 50  0001 C CNN
 F 4 "BOURNS" H 10200 9400 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 10200 9300 60  0001 L CNN "MPN"
 F 6 "100R" V 10053 9070 50  0000 L CNN "Val"
+F 7 "DNP" V 10000 9000 50  0000 C CNN "Populate"
 	1    10000 9000
 	0    1    1    0   
 $EndComp
@@ -487,10 +489,10 @@ F 3 "" H 10000 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:KMR2 S1
+L artix-dc-scm:KMR2 PROG_B
 U 1 1 60DA2AC9
 P 10900 10100
-F 0 "S1" V 10854 10238 50  0000 L CNN
+F 0 "PROG_B" V 10854 10238 50  0000 L CNN
 F 1 "KMR2" V 10945 10238 50  0000 L CNN
 F 2 "artix-dc-scm-footprints:SW_SPST_4.2x2.8" H 11100 10300 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 11100 10400 60  0001 L CNN
@@ -628,7 +630,7 @@ Wire Wire Line
 	4050 1250 4150 1250
 Connection ~ 4150 1250
 Wire Wire Line
-	4150 1250 4300 1250
+	4150 1250 4625 1250
 Text GLabel 2000 1250 0    50   Input ~ 0
 VCCB13
 Wire Wire Line
@@ -718,6 +720,7 @@ F 3 "" H 6575 9900 50  0001 C CNN
 F 4 "PANASONIC" H 6775 10300 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6775 10200 60  0001 L CNN "MPN"
 F 6 "0R" H 6575 10015 50  0000 C CNN "Val"
+F 7 "DNP" H 6575 9900 50  0000 C CNN "Populate"
 	1    6575 9900
 	1    0    0    -1  
 $EndComp
@@ -732,6 +735,7 @@ F 3 "" H 6575 10075 50  0001 C CNN
 F 4 "PANASONIC" H 6775 10475 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6775 10375 60  0001 L CNN "MPN"
 F 6 "0R" H 6575 10190 50  0000 C CNN "Val"
+F 7 "DNP" H 6575 10075 50  0000 C CNN "Populate"
 	1    6575 10075
 	1    0    0    -1  
 $EndComp
@@ -1526,17 +1530,15 @@ MMC_RSTN
 Text GLabel 9825 5050 2    50   Input ~ 0
 SGPIO0_CLK
 Wire Wire Line
-	4875 2250 4550 2250
+	5025 2250 4550 2250
 Wire Wire Line
-	4875 2350 4550 2350
+	5025 2350 4750 2350
 Wire Wire Line
-	4875 2450 4550 2450
+	5025 2450 4875 2450
 Wire Wire Line
-	4875 2550 4550 2550
+	5025 2550 4550 2550
 Wire Wire Line
-	4875 2150 4550 2150
-Wire Wire Line
-	4875 2050 4550 2050
+	5025 2150 4550 2150
 Wire Wire Line
 	4875 2850 4550 2850
 Wire Wire Line
@@ -1544,10 +1546,10 @@ Wire Wire Line
 Wire Wire Line
 	4875 3050 4550 3050
 Wire Wire Line
-	4875 3150 4550 3150
+	5025 3150 4625 3150
 Wire Wire Line
 	4875 2750 4550 2750
-Text GLabel 4300 1250 2    50   Input ~ 0
+Text GLabel 5025 1250 2    50   Input ~ 0
 VCC3V3_BANK
 Text GLabel 1550 8950 2    50   Input ~ 0
 NCSI_CLK
@@ -1569,17 +1571,17 @@ Text GLabel 9825 5350 2    50   Input ~ 0
 RSVD2
 Text Notes 10175 5400 0    50   ~ 0
 SGPIO1_CLK
-Text GLabel 4875 2150 2    50   Input ~ 0
+Text GLabel 5025 2150 2    50   Input ~ 0
 ROT_QSPI_DQ0
-Text GLabel 4875 2250 2    50   Input ~ 0
+Text GLabel 5025 2250 2    50   Input ~ 0
 ROT_QSPI_DQ1
-Text GLabel 4875 2350 2    50   Input ~ 0
+Text GLabel 5025 2350 2    50   Input ~ 0
 ROT_QSPI_DQ2
-Text GLabel 4875 2450 2    50   Input ~ 0
+Text GLabel 5025 2450 2    50   Input ~ 0
 ROT_QSPI_DQ3
-Text GLabel 4875 2550 2    50   Input ~ 0
+Text GLabel 5025 2550 2    50   Input ~ 0
 PUDC_B
-Text GLabel 4875 2650 2    50   Input ~ 0
+Text GLabel 5025 2650 2    50   Input ~ 0
 EMCCLK
 Text GLabel 4875 4950 2    50   Input ~ 0
 CK_IO34
@@ -1598,10 +1600,10 @@ Wire Wire Line
 Text GLabel 7225 8575 2    50   Input ~ 0
 PUDC_B
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L antmicroResistors0402:R_1k_0402 R1
 U 1 1 60F834C5
 P 7025 8350
-F 0 "R?" V 6980 8420 60  0000 L CNN
+F 0 "R1" V 6980 8420 60  0000 L CNN
 F 1 "R_1k_0402" H 7025 8200 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 7225 8550 60  0001 L CNN
 F 3 "" H 7025 8350 50  0001 C CNN
@@ -1612,16 +1614,17 @@ F 6 "1k" V 7078 8420 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L antmicroResistors0402:R_1k_0402 R2
 U 1 1 60F84719
 P 7025 8800
-F 0 "R?" V 6980 8870 60  0000 L CNN
+F 0 "R2" V 6980 8870 60  0000 L CNN
 F 1 "R_1k_0402" H 7025 8650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 7225 9000 60  0001 L CNN
 F 3 "" H 7025 8800 50  0001 C CNN
 F 4 "BOURNS" H 7225 9200 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 7225 9100 60  0001 L CNN "MPN"
 F 6 "1k" V 7078 8870 50  0000 L CNN "Val"
+F 7 "DNP" V 7025 8800 50  0000 C CNN "Populate"
 	1    7025 8800
 	0    1    1    0   
 $EndComp
@@ -1633,10 +1636,10 @@ Wire Wire Line
 Text GLabel 7025 8100 1    50   Input ~ 0
 VCC3V3_BANK
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND #PWR01
 U 1 1 60FFFD73
 P 7025 9050
-F 0 "#PWR?" H 7025 8800 50  0001 C CNN
+F 0 "#PWR01" H 7025 8800 50  0001 C CNN
 F 1 "GND" H 7030 8877 50  0000 C CNN
 F 2 "" H 7025 9050 50  0001 C CNN
 F 3 "" H 7025 9050 50  0001 C CNN
@@ -1649,8 +1652,216 @@ Wire Wire Line
 	7025 8100 7025 8200
 Wire Wire Line
 	7025 8575 7225 8575
-Text GLabel 4875 3150 2    50   Input ~ 0
+Text GLabel 5025 3150 2    50   Input ~ 0
 FCS_B
 Wire Wire Line
-	4550 2650 4875 2650
+	4550 2650 5025 2650
+$Comp
+L antmicroResistors0402:R_2k2_0402 R?
+U 1 1 601DDEB8
+P 4625 1700
+F 0 "R?" V 4580 1770 60  0000 L CNN
+F 1 "R_2k2_0402" H 4625 1550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4825 1900 60  0001 L CNN
+F 3 "" H 4625 1700 50  0001 C CNN
+F 4 "YAGEO" H 4825 2100 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 4825 2000 60  0001 L CNN "MPN"
+F 6 "2k2" V 4678 1770 50  0000 L CNN "Val"
+	1    4625 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_4k7_0402 R?
+U 1 1 601DFDEE
+P 4750 1700
+F 0 "R?" V 4705 1770 60  0000 L CNN
+F 1 "R_4k7_0402" H 4750 1550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4950 1900 60  0001 L CNN
+F 3 "" H 4750 1700 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 4950 2100 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 4950 2000 60  0001 L CNN "MPN"
+F 6 "4k7" V 4803 1770 50  0000 L CNN "Val"
+	1    4750 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_4k7_0402 R?
+U 1 1 601E0616
+P 4875 1700
+F 0 "R?" V 4830 1770 60  0000 L CNN
+F 1 "R_4k7_0402" H 4875 1550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5075 1900 60  0001 L CNN
+F 3 "" H 4875 1700 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 5075 2100 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 5075 2000 60  0001 L CNN "MPN"
+F 6 "4k7" V 4928 1770 50  0000 L CNN "Val"
+	1    4875 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4625 1850 4625 3150
+Connection ~ 4625 3150
+Wire Wire Line
+	4625 3150 4550 3150
+Wire Wire Line
+	4750 1850 4750 2350
+Connection ~ 4750 2350
+Wire Wire Line
+	4750 2350 4550 2350
+Wire Wire Line
+	4875 1850 4875 2450
+Connection ~ 4875 2450
+Wire Wire Line
+	4875 2450 4550 2450
+Wire Wire Line
+	4625 1550 4625 1250
+Connection ~ 4625 1250
+Wire Wire Line
+	4625 1250 4750 1250
+Wire Wire Line
+	4750 1550 4750 1250
+Connection ~ 4750 1250
+Wire Wire Line
+	4750 1250 4875 1250
+Wire Wire Line
+	4875 1550 4875 1250
+Connection ~ 4875 1250
+Wire Wire Line
+	4875 1250 5025 1250
+Wire Wire Line
+	12350 7875 12350 8175
+$Comp
+L artix-dc-scm:LG_L29K-G2J1-24-Z D?
+U 1 1 605CC5B1
+P 12550 7875
+F 0 "D?" H 12575 7775 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 11675 8100 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:LED_0603" H 12750 8075 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 12750 8175 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 12750 8375 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 12750 8975 60  0001 L CNN "Manufacturer"
+	1    12550 7875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12350 7875 12450 7875
+Wire Wire Line
+	12750 7875 12850 7875
+$Comp
+L artix-dc-scm:R_1k_0402 R?
+U 1 1 605CC5BC
+P 13000 7875
+F 0 "R?" H 12950 7975 60  0000 C CNN
+F 1 "R_1k_0402" H 13000 7725 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 13200 8075 60  0001 L CNN
+F 3 "" H 13000 7875 50  0001 C CNN
+F 4 "BOURNS" H 13200 8275 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 13200 8175 60  0001 L CNN "MPN"
+F 6 "1k" H 13150 7825 50  0000 C CNN "Val"
+	1    13000 7875
+	1    0    0    -1  
+$EndComp
+Text GLabel 13250 7875 2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	13150 7875 13250 7875
+$Comp
+L artix-dc-scm:2N7002 Q?
+U 1 1 605CC5C6
+P 12350 8375
+F 0 "Q?" H 12458 8428 60  0000 L CNN
+F 1 "2N7002" H 12458 8322 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:SOT-23-3" H 12550 8575 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 12550 8675 60  0001 L CNN
+F 4 "2N7002" H 12550 8875 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 12550 9475 60  0001 L CNN "Manufacturer"
+	1    12350 8375
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 605CC5CC
+P 12350 8675
+F 0 "#PWR?" H 12350 8425 50  0001 C CNN
+F 1 "GND" H 12355 8502 50  0000 C CNN
+F 2 "" H 12350 8675 50  0001 C CNN
+F 3 "" H 12350 8675 50  0001 C CNN
+	1    12350 8675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 8675 12350 8575
+Wire Wire Line
+	12050 8475 11950 8475
+Wire Wire Line
+	13075 8450 13075 8750
+$Comp
+L artix-dc-scm:LG_L29K-G2J1-24-Z D?
+U 1 1 605FEFC2
+P 13275 8450
+F 0 "D?" H 13300 8350 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 12400 8675 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:LED_0603" H 13475 8650 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13475 8750 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 13475 8950 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 13475 9550 60  0001 L CNN "Manufacturer"
+	1    13275 8450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13075 8450 13175 8450
+Wire Wire Line
+	13475 8450 13575 8450
+$Comp
+L artix-dc-scm:R_1k_0402 R?
+U 1 1 605FEFCD
+P 13725 8450
+F 0 "R?" H 13675 8550 60  0000 C CNN
+F 1 "R_1k_0402" H 13725 8300 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 13925 8650 60  0001 L CNN
+F 3 "" H 13725 8450 50  0001 C CNN
+F 4 "BOURNS" H 13925 8850 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 13925 8750 60  0001 L CNN "MPN"
+F 6 "1k" H 13875 8400 50  0000 C CNN "Val"
+	1    13725 8450
+	1    0    0    -1  
+$EndComp
+Text GLabel 13975 8450 2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	13875 8450 13975 8450
+$Comp
+L artix-dc-scm:2N7002 Q?
+U 1 1 605FEFD7
+P 13075 8950
+F 0 "Q?" H 13183 9003 60  0000 L CNN
+F 1 "2N7002" H 13183 8897 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:SOT-23-3" H 13275 9150 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 13275 9250 60  0001 L CNN
+F 4 "2N7002" H 13275 9450 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 13275 10050 60  0001 L CNN "Manufacturer"
+	1    13075 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 605FEFDD
+P 13075 9250
+F 0 "#PWR?" H 13075 9000 50  0001 C CNN
+F 1 "GND" H 13080 9077 50  0000 C CNN
+F 2 "" H 13075 9250 50  0001 C CNN
+F 3 "" H 13075 9250 50  0001 C CNN
+	1    13075 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13075 9250 13075 9150
+Wire Wire Line
+	12775 9050 12650 9050
+Text GLabel 11950 8475 0    50   Input ~ 0
+INIT
+Text GLabel 12650 9050 0    50   Input ~ 0
+DONE
+Text Notes 13100 7725 0    118  ~ 0
+Status LEDs
 $EndSCHEMATC
