@@ -1300,4 +1300,16 @@ Wire Wire Line
 Wire Wire Line
 	9175 6425 9175 6525
 Connection ~ 9175 6525
+Text GLabel 7250 3900 2    50   Input ~ 0
+ROT_QSPI_DQ0
+Text GLabel 7250 4000 2    50   Input ~ 0
+ROT_QSPI_DQ1
+Text GLabel 7250 4100 2    50   Input ~ 0
+ROT_QSPI_DQ2
+Text GLabel 7250 4200 2    50   Input ~ 0
+ROT_QSPI_DQ3
+Text GLabel 7250 4300 2    50   Input ~ 0
+ROT_QSPI_SCK
+Text GLabel 7250 4400 2    50   Input ~ 0
+FCS_B
 $EndSCHEMATC

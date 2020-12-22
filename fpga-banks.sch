@@ -147,8 +147,6 @@ Text GLabel 9825 5950 2    50   Input ~ 0
 USB2_DP
 Text GLabel 9825 6050 2    50   Input ~ 0
 USB2_DN
-Text GLabel 9825 5050 2    50   Input ~ 0
-SGPIO_CLK
 Text GLabel 9825 5750 2    50   Input ~ 0
 SGPIO0_DI
 Text GLabel 9825 5650 2    50   Input ~ 0
@@ -165,23 +163,23 @@ Text GLabel 9825 5450 2    50   Input ~ 0
 SGPIO_RESET_N
 Text GLabel 9825 5250 2    50   Input ~ 0
 SGPIO_INTR_N
-Text GLabel 4875 3250 2    50   Input ~ 0
+Text GLabel 950  3400 2    50   Input ~ 0
 ESPI_CLK
-Text GLabel 4875 3350 2    50   Input ~ 0
+Text GLabel 950  3500 2    50   Input ~ 0
 ESPI_CS0_N
-Text GLabel 4875 3450 2    50   Input ~ 0
+Text GLabel 950  3600 2    50   Input ~ 0
 ESPI_CS1_N
-Text GLabel 4875 3550 2    50   Input ~ 0
+Text GLabel 950  3700 2    50   Input ~ 0
 ESPI_IO0
-Text GLabel 4875 3650 2    50   Input ~ 0
+Text GLabel 950  3800 2    50   Input ~ 0
 ESPI_IO1
-Text GLabel 4875 3750 2    50   Input ~ 0
+Text GLabel 950  3900 2    50   Input ~ 0
 ESPI_IO2
-Text GLabel 4875 3850 2    50   Input ~ 0
+Text GLabel 950  4000 2    50   Input ~ 0
 ESPI_IO3
-Text GLabel 4875 3950 2    50   Input ~ 0
+Text GLabel 950  4100 2    50   Input ~ 0
 ESPI_ALERT_N
-Text GLabel 4875 4050 2    50   Input ~ 0
+Text GLabel 950  4200 2    50   Input ~ 0
 ESPI_RESET_N
 Text GLabel 9450 8650 2    50   Input ~ 0
 JTAG_TCK
@@ -307,12 +305,6 @@ Wire Wire Line
 	6375 4050 6700 4050
 Wire Wire Line
 	6375 4150 6700 4150
-Text GLabel 14800 6200 2    50   Input ~ 0
-SPI_ROT_CS_N
-Text GLabel 14800 6300 2    50   Input ~ 0
-SPI_ROT_MOSI
-Text GLabel 14800 6400 2    50   Input ~ 0
-SPI_ROT_MISO
 $Comp
 L artix-dc-scm:XC7A100T-FGG484 U14
 U 1 1 6052CB1C
@@ -360,8 +352,6 @@ Text GLabel 9450 9050 2    50   Input ~ 0
 MODE1
 Text GLabel 9450 9150 2    50   Input ~ 0
 MODE2
-Text GLabel 10150 8850 2    50   Input ~ 0
-SPI_ROT_CLK
 Wire Wire Line
 	10150 8850 10000 8850
 Text GLabel 11100 9350 2    50   Input ~ 0
@@ -869,8 +859,6 @@ Wire Wire Line
 	6375 5150 6700 5150
 Wire Wire Line
 	6375 5050 6700 5050
-Text Notes 3300 7850 2    50   ~ 0
-Control signals from HPM
 Text Notes 13125 725  0    118  ~ 0
 DDR3
 Text GLabel 9250 1250 2    50   Input ~ 0
@@ -885,7 +873,7 @@ Text GLabel 10800 8150 1    50   Input ~ 0
 VCC3V3_BANK
 Text GLabel 10050 9750 2    50   Input ~ 0
 VCC3V3_BANK
-Text GLabel 4300 1250 2    50   Input ~ 0
+Text GLabel 4850 975  2    50   Input ~ 0
 VCC1V8_BANK
 Text GLabel 6375 4950 0    50   Input ~ 0
 CLK_100M_PCIE_DP
@@ -1457,9 +1445,9 @@ Text GLabel 11600 3300 0    50   Output ~ 0
 DDR3_BA2
 Text GLabel 11600 3000 0    50   Output ~ 0
 DDR3_CS
-Text GLabel 11600 3800 0    50   Output ~ 0
-DDR3_CAS
 Text GLabel 11600 3500 0    50   Output ~ 0
+DDR3_CAS
+Text GLabel 11600 3800 0    50   Output ~ 0
 DDR3_RAS
 Text GLabel 11600 4200 0    50   Output ~ 0
 DDR3_WE
@@ -1505,8 +1493,6 @@ Text GLabel 11600 5500 0    50   BiDi ~ 0
 DDR3_DQS1+
 Text GLabel 11600 5700 0    50   BiDi ~ 0
 DDR3_DQS1-
-Text GLabel 11600 4500 0    50   BiDi ~ 0
-HERE
 Wire Wire Line
 	11600 3200 12000 3200
 Text GLabel 11600 4300 0    50   BiDi ~ 0
@@ -1515,4 +1501,156 @@ Text GLabel 11600 5800 0    50   BiDi ~ 0
 DDR3_DQ14
 Text GLabel 11600 4600 0    50   Output ~ 0
 DDR3_A14
+Text GLabel 1575 7600 2    50   Input ~ 0
+MMC_DAT0
+Text GLabel 1575 7700 2    50   Input ~ 0
+MMC_DAT1
+Text GLabel 1575 7800 2    50   Input ~ 0
+MMC_DAT2
+Text GLabel 1575 7900 2    50   Input ~ 0
+MMC_DAT3
+Text GLabel 1575 8000 2    50   Input ~ 0
+MMC_DAT4
+Text GLabel 1575 8100 2    50   Input ~ 0
+MMC_DAT5
+Text GLabel 1575 8200 2    50   Input ~ 0
+MMC_DAT6
+Text GLabel 1575 8300 2    50   Input ~ 0
+MMC_DAT7
+Text GLabel 1575 8500 2    50   Input ~ 0
+MMC_CMD
+Text GLabel 1575 8600 2    50   Input ~ 0
+MMC_CLK
+Text GLabel 1575 8800 2    50   Input ~ 0
+MMC_RSTN
+Text GLabel 9825 5050 2    50   Input ~ 0
+SGPIO0_CLK
+Wire Wire Line
+	4875 2250 4550 2250
+Wire Wire Line
+	4875 2350 4550 2350
+Wire Wire Line
+	4875 2450 4550 2450
+Wire Wire Line
+	4875 2550 4550 2550
+Wire Wire Line
+	4875 2150 4550 2150
+Wire Wire Line
+	4875 2050 4550 2050
+Wire Wire Line
+	4875 2850 4550 2850
+Wire Wire Line
+	4875 2950 4550 2950
+Wire Wire Line
+	4875 3050 4550 3050
+Wire Wire Line
+	4875 3150 4550 3150
+Wire Wire Line
+	4875 2750 4550 2750
+Text GLabel 4300 1250 2    50   Input ~ 0
+VCC3V3_BANK
+Text GLabel 1550 8950 2    50   Input ~ 0
+NCSI_CLK
+Text GLabel 1550 9050 2    50   Input ~ 0
+NCSI_CRS_DV
+Text GLabel 1550 9150 2    50   Input ~ 0
+NCSI_TXEN
+Text GLabel 1550 9250 2    50   Input ~ 0
+NCSI_TXD0
+Text GLabel 1550 9350 2    50   Input ~ 0
+NCSI_TXD1
+Text GLabel 1550 9450 2    50   Input ~ 0
+NCSI_RXER
+Text GLabel 1550 9550 2    50   Input ~ 0
+NCSI_RXD0
+Text GLabel 1550 9650 2    50   Input ~ 0
+NCSI_RXD1
+Text GLabel 9825 5350 2    50   Input ~ 0
+RSVD2
+Text Notes 10175 5400 0    50   ~ 0
+SGPIO1_CLK
+Text GLabel 4875 2150 2    50   Input ~ 0
+ROT_QSPI_DQ0
+Text GLabel 4875 2250 2    50   Input ~ 0
+ROT_QSPI_DQ1
+Text GLabel 4875 2350 2    50   Input ~ 0
+ROT_QSPI_DQ2
+Text GLabel 4875 2450 2    50   Input ~ 0
+ROT_QSPI_DQ3
+Text GLabel 4875 2550 2    50   Input ~ 0
+PUDC_B
+Text GLabel 4875 2650 2    50   Input ~ 0
+EMCCLK
+Text GLabel 4875 4950 2    50   Input ~ 0
+CK_IO34
+Text GLabel 4875 5150 2    50   Input ~ 0
+CK_IO0
+Text GLabel 4875 5050 2    50   Input ~ 0
+CK_IO7
+Text GLabel 10150 8850 2    50   Input ~ 0
+ROT_QSPI_SCK
+Wire Wire Line
+	4875 4950 4550 4950
+Wire Wire Line
+	4875 5050 4550 5050
+Wire Wire Line
+	4875 5150 4550 5150
+Text GLabel 7225 8575 2    50   Input ~ 0
+PUDC_B
+$Comp
+L antmicroResistors0402:R_1k_0402 R?
+U 1 1 60F834C5
+P 7025 8350
+F 0 "R?" V 6980 8420 60  0000 L CNN
+F 1 "R_1k_0402" H 7025 8200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7225 8550 60  0001 L CNN
+F 3 "" H 7025 8350 50  0001 C CNN
+F 4 "BOURNS" H 7225 8750 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 7225 8650 60  0001 L CNN "MPN"
+F 6 "1k" V 7078 8420 50  0000 L CNN "Val"
+	1    7025 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_1k_0402 R?
+U 1 1 60F84719
+P 7025 8800
+F 0 "R?" V 6980 8870 60  0000 L CNN
+F 1 "R_1k_0402" H 7025 8650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7225 9000 60  0001 L CNN
+F 3 "" H 7025 8800 50  0001 C CNN
+F 4 "BOURNS" H 7225 9200 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 7225 9100 60  0001 L CNN "MPN"
+F 6 "1k" V 7078 8870 50  0000 L CNN "Val"
+	1    7025 8800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7025 8500 7025 8575
+Connection ~ 7025 8575
+Wire Wire Line
+	7025 8575 7025 8650
+Text GLabel 7025 8100 1    50   Input ~ 0
+VCC3V3_BANK
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 60FFFD73
+P 7025 9050
+F 0 "#PWR?" H 7025 8800 50  0001 C CNN
+F 1 "GND" H 7030 8877 50  0000 C CNN
+F 2 "" H 7025 9050 50  0001 C CNN
+F 3 "" H 7025 9050 50  0001 C CNN
+	1    7025 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7025 8950 7025 9050
+Wire Wire Line
+	7025 8100 7025 8200
+Wire Wire Line
+	7025 8575 7225 8575
+Text GLabel 4875 3150 2    50   Input ~ 0
+FCS_B
+Wire Wire Line
+	4550 2650 4875 2650
 $EndSCHEMATC
