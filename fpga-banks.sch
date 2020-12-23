@@ -2149,4 +2149,40 @@ Text GLabel 15925 6150 0    50   Input ~ 0
 USR_LED1
 Text GLabel 15925 6250 0    50   Input ~ 0
 USR_LED2
+Text GLabel 850  7475 2    50   Input ~ 0
+USB1_D0
+Text GLabel 850  7575 2    50   Input ~ 0
+USB1_D1
+Text GLabel 850  7675 2    50   Input ~ 0
+USB1_D2
+Text GLabel 850  7775 2    50   Input ~ 0
+USB1_D3
+Text GLabel 850  7875 2    50   Input ~ 0
+USB1_D4
+Text GLabel 850  7975 2    50   Input ~ 0
+USB1_D5
+Text GLabel 850  8075 2    50   Input ~ 0
+USB1_D6
+Text GLabel 850  8175 2    50   Input ~ 0
+USB1_D7
+Text GLabel 850  8375 2    50   Input ~ 0
+USB1_~RXF
+Text GLabel 850  8475 2    50   Input ~ 0
+USB1_~TXE
+Text GLabel 850  8575 2    50   Input ~ 0
+USB1_~RD
+Text GLabel 850  8675 2    50   Input ~ 0
+USB1_WR
+Text GLabel 1225 8900 0    50   Input ~ 0
+RST_USB2
+Text GLabel 1225 9000 0    50   Input ~ 0
+SCK_USB2
+Text GLabel 1225 9100 0    50   Input ~ 0
+SS_USB2
+Text GLabel 1225 9200 0    50   Input ~ 0
+MISO_USB2
+Text GLabel 1225 9300 0    50   Input ~ 0
+MOSI_USB2
+Text GLabel 1225 9400 0    50   Input ~ 0
+GPX_USB2
 $EndSCHEMATC

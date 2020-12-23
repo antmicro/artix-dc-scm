@@ -616,7 +616,7 @@ RSVD0
 Text GLabel 6775 2550 2    50   Input ~ 0
 RSVD1
 Text GLabel 3675 2750 0    50   Input ~ 0
-PRSNT0_N
+PRSNT1_N
 $Comp
 L artix-dc-scm:TP_SMD1MM TP12
 U 1 1 611CC4C6

@@ -363,7 +363,7 @@ Connection ~ 3650 3775
 Wire Wire Line
 	3250 4000 3450 4000
 Text GLabel 4400 4450 0    50   Input ~ 0
-3V3_SYS
+VCC3V3
 Wire Wire Line
 	4450 4450 4400 4450
 NoConn ~ 6575 6350
