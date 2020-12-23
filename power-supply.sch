@@ -78,7 +78,7 @@ Wire Wire Line
 Connection ~ 14325 2750
 Wire Wire Line
 	14325 2750 14625 2750
-Text Notes 14625 2300 0    50   ~ 0
+Text Notes 14600 2425 0    50   ~ 0
 3.3V/3A
 NoConn ~ -625 5725
 $Comp
@@ -472,10 +472,10 @@ Wire Wire Line
 	6600 3950 6600 3825
 Wire Wire Line
 	6600 3200 6600 3475
-Text GLabel 6600 2825 1    50   Input ~ 0
+Text GLabel 6600 2775 1    50   Input ~ 0
 VCC5V0
 Wire Wire Line
-	6600 2900 6600 2825
+	6600 2900 6600 2850
 $Comp
 L artix-dc-scm:WE_7447798720 L1
 U 1 1 614D2866
@@ -595,10 +595,6 @@ F 6 "10u" H 12490 2897 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	12375 2750 12375 2800
-Text GLabel 12350 2350 0    50   Input ~ 0
-VCC5V0
-Wire Wire Line
-	12375 2350 12350 2350
 Wire Wire Line
 	12375 2350 12375 2750
 $Comp
@@ -711,14 +707,10 @@ F 6 "10u" H 15300 3050 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	15275 3300 15275 3550
-Text GLabel 14925 2375 0    50   Input ~ 0
+Text GLabel 14975 2375 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	14975 2375 14925 2375
-Wire Wire Line
 	14975 2375 14975 2750
-Text Notes 4725 2725 0    50   ~ 0
-SOURCE:LPDDR4 board
 Text Notes 12725 3500 0    50   ~ 0
 SOURCE:Trelis board
 Wire Wire Line
@@ -804,10 +796,6 @@ F 6 "10u" H 12515 5047 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	12400 4900 12400 4950
-Text GLabel 12375 4500 0    50   Input ~ 0
-VCC5V0
-Wire Wire Line
-	12400 4500 12375 4500
 Wire Wire Line
 	12400 4500 12400 4900
 $Comp
@@ -906,10 +894,8 @@ F 6 "10u" H 15325 5200 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	15300 5450 15300 5700
-Text GLabel 14950 4525 0    50   Input ~ 0
+Text GLabel 15000 4525 1    50   Input ~ 0
 VCC1V8
-Wire Wire Line
-	15000 4525 14950 4525
 Wire Wire Line
 	15000 4525 15000 4900
 Text Notes 12800 5650 0    50   ~ 0
@@ -983,10 +969,6 @@ F 6 "10u" H 12565 6872 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	12450 6725 12450 6775
-Text GLabel 12425 6325 0    50   Input ~ 0
-VCC5V0
-Wire Wire Line
-	12450 6325 12425 6325
 Wire Wire Line
 	12450 6325 12450 6725
 $Comp
@@ -1085,10 +1067,8 @@ F 6 "10u" H 15375 7025 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	15350 7275 15350 7525
-Text GLabel 15000 6350 0    50   Input ~ 0
+Text GLabel 15050 6350 1    50   Input ~ 0
 VCC1V35
-Wire Wire Line
-	15050 6350 15000 6350
 Wire Wire Line
 	15050 6350 15050 6725
 Text Notes 12850 7475 0    50   ~ 0
@@ -1187,8 +1167,6 @@ F 6 "2u2" H 3300 3750 50  0000 L CNN "Val"
 	1    3275 3850
 	1    0    0    -1  
 $EndComp
-Text Notes 1900 6825 0    118  ~ 0
-To CHECK
 Text Label 3000 9775 2    50   ~ 0
 VCCINT_EN
 Text Label 3000 9875 2    50   ~ 0
@@ -1245,7 +1223,7 @@ F 3 "" H 1100 10525 50  0001 C CNN
 	1    1100 10525
 	1    0    0    -1  
 $EndComp
-Text Notes 9075 975  0    118  ~ 0
+Text Notes 9525 1825 0    118  ~ 0
 PWR_LED Indicators
 Wire Notes Line
 	475  8400 475  8425
@@ -1499,10 +1477,8 @@ F 6 "10u" H 15350 8750 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	15325 9000 15325 9250
-Text GLabel 14975 8075 0    50   Input ~ 0
+Text GLabel 15025 8075 1    50   Input ~ 0
 VCC1V0
-Wire Wire Line
-	15025 8075 14975 8075
 Wire Wire Line
 	15025 8075 15025 8450
 Text Notes 12825 9200 0    50   ~ 0
@@ -1542,22 +1518,6 @@ F 5 "IHLP1212AEERR47M11" H 14075 8450 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	13875 8450 13825 8450
-$Comp
-L artix-dc-scm:R_124k_0402 R77
-U 1 1 63A59281
-P 14675 8675
-F 0 "R77" V 14630 8745 60  0000 L CNN
-F 1 "R_124k_0402" H 14675 8525 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 14875 8875 60  0001 L CNN
-F 3 "" H 14675 8675 50  0001 C CNN
-F 4 "WALSIN" H 14875 9075 60  0001 L CNN "Manufacturer"
-F 5 "WR04X1243FTL" H 14875 8975 60  0001 L CNN "MPN"
-F 6 "???" V 14728 8745 50  0000 L CNN "Val"
-	1    14675 8675
-	0    1    1    0   
-$EndComp
-Text Notes 14125 9400 0    50   ~ 0
-TODO: calculate correct value for ??? resistor
 Text Notes 4300 11025 0    50   ~ 0
 STEP1: VRs start and RoT boots (HPM_STBY_EN when both are done)\nSTEP2: HPM starts its VRs and sets HPM_STBY_RDY when done\nSTEP3: FPGA VCCINT (1.0V)\nSTEP4: FPGA VCCAUX + DDR3 (1.8V, 1.35V)\nSTEP5: FPGA VCCIO + DDR3 (3.3V, DDRVTT), HPM reset is de-asserted\nSTEP6: HPM boots
 $Comp
@@ -1942,7 +1902,7 @@ AR Path="/5FD86D1B/60965610" Ref="U?"  Part="1"
 AR Path="/5FD86BEB/60965610" Ref="U15"  Part="1" 
 F 0 "U15" H 4625 7250 60  0000 L CNN
 F 1 "SN74LVC1G08DCKR" H 4550 7150 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:SC-70-5" H 4675 7650 60  0001 L CNN
+F 2 "antmicro-footprints:SC-70-5" H 4675 7650 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08" H 4675 7750 60  0001 L CNN
 F 4 "SN74LVC1G08DCKR" H 4675 7950 60  0001 L CNN "MPN"
 F 5 "Texas Instruments" H 4675 8550 60  0001 L CNN "Manufacturer"
@@ -2269,12 +2229,6 @@ F 5 "ON Semiconductor" H 10500 6300 60  0001 L CNN "Manufacturer"
 	1    10300 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9650 2300 0    50   Input ~ 0
-VCC3V3
-Text GLabel 9625 3525 0    50   Input ~ 0
-VCC1V8
-Text GLabel 9625 4750 0    50   Input ~ 0
-VCC1V35
 Text Label 9300 5400 0    50   ~ 0
 1V35_PG
 Wire Wire Line
@@ -2355,8 +2309,6 @@ F 5 "ON Semiconductor" H 10450 7575 60  0001 L CNN "Manufacturer"
 	1    10250 6475
 	1    0    0    -1  
 $EndComp
-Text GLabel 9575 6025 0    50   Input ~ 0
-VCC1V0
 $Comp
 L artix-dc-scm:GND #PWR0106
 U 1 1 60986E1A
@@ -2534,4 +2486,100 @@ Wire Wire Line
 	9950 7775 9600 7775
 Text GLabel 4175 8775 0    50   Input ~ 0
 ROT_RDY\ROT_GPIO0
+$Comp
+L artix-dc-scm:R_66k5_0402 R77
+U 1 1 61771C2F
+P 14675 8675
+F 0 "R77" V 14630 8745 60  0000 L CNN
+F 1 "R_66k5_0402" H 14675 8525 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 14875 8875 60  0001 L CNN
+F 3 "" H 14675 8675 50  0001 C CNN
+F 4 "PANASONIC" H 14875 9075 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF6652X" H 14875 8975 60  0001 L CNN "MPN"
+F 6 "66k5" V 14728 8745 50  0000 L CNN "Val"
+	1    14675 8675
+	0    1    1    0   
+$EndComp
+Text GLabel 9650 2300 0    50   Input ~ 0
+VCC5V0
+Text GLabel 9625 3525 0    50   Input ~ 0
+VCC5V0
+Text GLabel 9625 4750 0    50   Input ~ 0
+VCC5V0
+Text GLabel 9575 6025 0    50   Input ~ 0
+VCC5V0
+$Comp
+L artix-dc-scm:TP_SMD1MM TP8
+U 1 1 617CB838
+P 15375 2750
+F 0 "TP8" V 15280 2797 50  0000 C CNN
+F 1 "TP_SMD1MM" H 15375 2650 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 15575 2950 60  0001 L CNN
+F 3 "" H 15575 3050 60  0001 L CNN
+	1    15375 2750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15275 2750
+$Comp
+L artix-dc-scm:TP_SMD1MM TP9
+U 1 1 61819AA7
+P 15400 4900
+F 0 "TP9" V 15305 4947 50  0000 C CNN
+F 1 "TP_SMD1MM" H 15400 4800 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 15600 5100 60  0001 L CNN
+F 3 "" H 15600 5200 60  0001 L CNN
+	1    15400 4900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15300 4900
+$Comp
+L artix-dc-scm:TP_SMD1MM TP11
+U 1 1 61841199
+P 15450 6725
+F 0 "TP11" V 15355 6772 50  0000 C CNN
+F 1 "TP_SMD1MM" H 15450 6625 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 15650 6925 60  0001 L CNN
+F 3 "" H 15650 7025 60  0001 L CNN
+	1    15450 6725
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15350 6725
+$Comp
+L artix-dc-scm:TP_SMD1MM TP10
+U 1 1 618652F8
+P 15425 8450
+F 0 "TP10" V 15330 8497 50  0000 C CNN
+F 1 "TP_SMD1MM" H 15425 8350 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 15625 8650 60  0001 L CNN
+F 3 "" H 15625 8750 60  0001 L CNN
+	1    15425 8450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15325 8450
+$Comp
+L artix-dc-scm:TP_SMD1MM TP7
+U 1 1 61885323
+P 6700 2850
+F 0 "TP7" V 6675 2700 50  0000 C CNN
+F 1 "TP_SMD1MM" H 6700 2750 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 6900 3050 60  0001 L CNN
+F 3 "" H 6900 3150 60  0001 L CNN
+	1    6700 2850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6600 2850
+Wire Wire Line
+	6600 2850 6600 2775
+Wire Wire Line
+	12450 6325 12425 6325
+Text GLabel 12425 6325 0    50   Input ~ 0
+VCC5V0
+Wire Wire Line
+	12400 4500 12375 4500
+Text GLabel 12375 4500 0    50   Input ~ 0
+VCC5V0
+Wire Wire Line
+	12375 2350 12350 2350
+Text GLabel 12350 2350 0    50   Input ~ 0
+VCC5V0
 $EndSCHEMATC

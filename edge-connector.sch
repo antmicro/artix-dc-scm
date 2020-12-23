@@ -99,15 +99,11 @@ Wire Wire Line
 Wire Wire Line
 	9125 6125 8575 6125
 Wire Wire Line
-	9125 6225 8575 6225
-Wire Wire Line
 	8575 6325 9125 6325
 Wire Wire Line
 	9125 6425 8575 6425
 Wire Wire Line
 	8575 6625 9125 6625
-Wire Wire Line
-	9125 6725 8575 6725
 Wire Wire Line
 	9125 6825 8575 6825
 Wire Wire Line
@@ -677,7 +673,7 @@ Text GLabel 9125 6425 2    50   Input ~ 0
 SGPIO0_LD
 Text GLabel 9125 6625 2    50   Input ~ 0
 SGPIO1_DO
-Text GLabel 9125 6725 2    50   Input ~ 0
+Text GLabel 9300 6725 2    50   Input ~ 0
 RSVD2
 Text GLabel 9125 6825 2    50   Input ~ 0
 SGPIO1_DI
@@ -745,6 +741,44 @@ F 1 "GND" H 8830 10452 50  0000 C CNN
 F 2 "" H 8825 10625 50  0001 C CNN
 F 3 "" H 8825 10625 50  0001 C CNN
 	1    8825 10625
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:R_0R_0402 R136
+U 1 1 616ABCDE
+P 9050 6725
+F 0 "R136" H 9050 6938 60  0000 C CNN
+F 1 "R_0R_0402" H 9050 6575 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9250 6925 60  0001 L CNN
+F 3 "" H 9050 6725 50  0001 C CNN
+F 4 "PANASONIC" H 9250 7125 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9250 7025 60  0001 L CNN "MPN"
+F 6 "0R" H 9050 6840 50  0000 C CNN "Val"
+	1    9050 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 6725 9200 6725
+Wire Wire Line
+	8575 6725 8900 6725
+Wire Wire Line
+	8575 6225 9125 6225
+Text GLabel 10150 6375 0    50   Input ~ 0
+RSVD2
+Text GLabel 10450 6375 2    50   Input ~ 0
+SGPIO0_CLK
+$Comp
+L artix-dc-scm:R_0R_0402 R137
+U 1 1 617019A6
+P 10300 6375
+F 0 "R137" H 10300 6588 60  0000 C CNN
+F 1 "R_0R_0402" H 10300 6225 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 10500 6575 60  0001 L CNN
+F 3 "" H 10300 6375 50  0001 C CNN
+F 4 "PANASONIC" H 10500 6775 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 10500 6675 60  0001 L CNN "MPN"
+F 6 "0R" H 10300 6490 50  0000 C CNN "Val"
+	1    10300 6375
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

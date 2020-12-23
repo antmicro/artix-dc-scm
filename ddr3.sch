@@ -249,10 +249,6 @@ F 3 "" H 7850 9400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7850 9400 7850 9250
-Text GLabel 8500 8950 2    50   Input ~ 0
-DDR3_VTT_EN
-Wire Wire Line
-	8500 8950 8350 8950
 Connection ~ 7300 8950
 Wire Wire Line
 	7300 8950 7350 8950
@@ -918,8 +914,6 @@ Wire Wire Line
 	11675 5000 11675 5050
 Wire Wire Line
 	11675 5350 11675 5400
-Text GLabel 11700 2375 0    50   Input ~ 0
-VCC1V35
 Wire Wire Line
 	11700 2375 11775 2375
 Wire Wire Line
@@ -1257,8 +1251,6 @@ Wire Wire Line
 	8100 7450 8100 7525
 Wire Wire Line
 	8400 7450 8400 7525
-Text GLabel 8875 7025 2    50   Input ~ 0
-VCC1V35
 Wire Wire Line
 	8400 7525 8900 7525
 Wire Wire Line
@@ -1266,18 +1258,12 @@ Wire Wire Line
 Connection ~ 8400 7525
 Wire Wire Line
 	8400 7025 8875 7025
-Text GLabel 6100 8000 0    50   Input ~ 0
-VCC1V35
 Wire Wire Line
 	6175 8000 6100 8000
-Text GLabel 9325 8200 2    50   Input ~ 0
-VCC3V3
 Wire Wire Line
 	9250 8200 9325 8200
 Wire Wire Line
 	9250 8200 9250 8550
-Text GLabel 6875 8000 0    50   Input ~ 0
-VCC3V3
 Wire Wire Line
 	6925 8000 6875 8000
 Wire Wire Line
@@ -1360,7 +1346,7 @@ Wire Wire Line
 	7350 7025 7350 8550
 Connection ~ 9250 8550
 Wire Wire Line
-	8350 8550 9250 8550
+	8350 8550 9000 8550
 Wire Wire Line
 	7850 7025 7850 8250
 Text Notes 7150 6750 0    50   ~ 0
@@ -1556,10 +1542,10 @@ DDR3_A13
 Text GLabel 4425 7675 0    50   UnSpc ~ 0
 DDR3_A9
 $Comp
-L antmicroCapacitors0402:C_1n_0402 C?
+L artix-dc-scm:C_1n_0402 C1
 U 1 1 6033B485
 P 6400 9175
-F 0 "C?" H 6515 9220 60  0000 L CNN
+F 0 "C1" H 6515 9220 60  0000 L CNN
 F 1 "C_1n_0402" H 6400 9025 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 6600 9375 60  0001 L CNN
 F 3 "" H 6400 9175 50  0001 C CNN
@@ -1572,10 +1558,10 @@ $EndComp
 Wire Wire Line
 	6400 9325 6400 9450
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND #PWR03
 U 1 1 603993AB
 P 6400 9550
-F 0 "#PWR?" H 6400 9300 50  0001 C CNN
+F 0 "#PWR03" H 6400 9300 50  0001 C CNN
 F 1 "GND" H 6405 9377 50  0000 C CNN
 F 2 "" H 6400 9550 50  0001 C CNN
 F 3 "" H 6400 9550 50  0001 C CNN
@@ -1601,4 +1587,21 @@ Wire Wire Line
 Wire Wire Line
 	6175 8850 6175 8550
 Connection ~ 6175 8850
+Text GLabel 8875 7025 2    50   Input ~ 0
+VCC1V35_DDR3
+Text GLabel 11700 2375 0    50   Input ~ 0
+VCC1V35_DDR3
+Text GLabel 6100 8000 0    50   Input ~ 0
+VCC1V35_DDR3
+Text GLabel 6875 8000 0    50   Input ~ 0
+VCC3V3_BANK
+Text GLabel 9325 8200 2    50   Input ~ 0
+VCC3V3_BANK
+Wire Wire Line
+	8350 8950 9000 8950
+Wire Wire Line
+	9000 8950 9000 8550
+Connection ~ 9000 8550
+Wire Wire Line
+	9000 8550 9250 8550
 $EndSCHEMATC
