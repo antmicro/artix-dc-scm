@@ -85,18 +85,12 @@ Wire Wire Line
 	6750 3350 7350 3350
 Wire Wire Line
 	7025 3450 7350 3450
-Text GLabel 3675 2550 0    50   Input ~ 0
-PEWAKE_3V3_N
-Text GLabel 3675 2650 0    50   Input ~ 0
-PEX_L0_CLKREQ_N
-Text GLabel 3675 2750 0    50   Input ~ 0
-PEX_L0_RST_N
 Wire Wire Line
 	3675 2550 4650 2550
 Wire Wire Line
 	3675 2650 3825 2650
 Wire Wire Line
-	3675 2750 4050 2750
+	3675 2750 3825 2750
 $Comp
 L artix-dc-scm:R_10k_0402 R17
 U 1 1 5FD6D5E7
@@ -471,12 +465,6 @@ Text GLabel 5550 6600 1    50   Input ~ 0
 VCC3V3
 Text GLabel 5900 6600 1    50   Input ~ 0
 VCC3V3
-Text Notes 7500 5775 0    50   ~ 0
-TODO: add 9774025151 standoff
-Text GLabel 6775 2450 2    50   Input ~ 0
-CLK_100M_PCIE_DP
-Text GLabel 6775 2550 2    50   Input ~ 0
-CLK_100M_PCIE_DN
 NoConn ~ 4650 4950
 NoConn ~ 4650 4850
 NoConn ~ 4650 3350
@@ -506,10 +494,6 @@ Text GLabel 7350 2750 2    50   Input ~ 0
 PCIE_HPM_TXP[0]
 Text GLabel 7350 2850 2    50   Input ~ 0
 PCIE_HPM_TXN[0]
-Text Notes 6625 2325 0    50   ~ 0
-TODO: connect CLK to edge connector\n
-Text Notes 2600 2425 0    50   ~ 0
-TODO: connect this signals\n
 Text GLabel 6775 3650 2    50   Input ~ 0
 PCIE_HPM_RXP[1]
 Text GLabel 6775 3750 2    50   Input ~ 0
@@ -627,4 +611,60 @@ Wire Wire Line
 	6750 4550 7350 4550
 Wire Wire Line
 	7025 4650 7350 4650
+Text GLabel 6775 2450 2    50   Input ~ 0
+RSVD0
+Text GLabel 6775 2550 2    50   Input ~ 0
+RSVD1
+Text GLabel 3675 2750 0    50   Input ~ 0
+PRSNT0_N
+$Comp
+L artix-dc-scm:TP_SMD1MM TP?
+U 1 1 611CC4C6
+P 3575 2550
+F 0 "TP?" V 3480 2597 50  0000 C CNN
+F 1 "TP_SMD1MM" H 3575 2450 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 3775 2750 60  0001 L CNN
+F 3 "" H 3775 2850 60  0001 L CNN
+	1    3575 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:TP_SMD1MM TP?
+U 1 1 611CCA21
+P 3575 2650
+F 0 "TP?" V 3480 2697 50  0000 C CNN
+F 1 "TP_SMD1MM" H 3575 2550 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 3775 2850 60  0001 L CNN
+F 3 "" H 3775 2950 60  0001 L CNN
+	1    3575 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:TP_SMD1MM TP?
+U 1 1 611CCE09
+P 3825 2850
+F 0 "TP?" H 3875 2897 50  0000 L CNN
+F 1 "TP_SMD1MM" H 3825 2750 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 4025 3050 60  0001 L CNN
+F 3 "" H 4025 3150 60  0001 L CNN
+	1    3825 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3825 2750
+Wire Wire Line
+	3825 2750 4050 2750
+$Comp
+L artix-dc-scm:9774025151 SP?
+U 1 1 611DD06A
+P 7200 5475
+F 0 "SP?" H 7330 5528 60  0000 L CNN
+F 1 "9774025151" H 7330 5422 60  0000 L CNN
+F 2 "antmicro-footprints:9774025151" H 7200 5475 60  0001 C CNN
+F 3 "" H 7200 5475 60  0001 C CNN
+F 4 "Wurth Elektronik" H 7200 5475 50  0001 C CNN "Manufacturer"
+F 5 "9774025151" H 7200 5475 50  0001 C CNN "MPN"
+	1    7200 5475
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7000 5475
 $EndSCHEMATC
