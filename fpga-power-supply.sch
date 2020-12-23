@@ -1209,66 +1209,6 @@ Wire Wire Line
 	7750 3700 7600 3700
 Wire Wire Line
 	7750 3600 7600 3600
-Text GLabel 4650 3800 1    50   Input ~ 0
-XADC1V8
-$Comp
-L artix-dc-scm:C_10n_0402 C?
-U 1 1 6188C046
-P 4650 4150
-AR Path="/626D078D/6188C046" Ref="C?"  Part="1" 
-AR Path="/605FD480/6188C046" Ref="C?"  Part="1" 
-AR Path="/60633613/6188C046" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6188C046" Ref="C134"  Part="1" 
-F 0 "C134" H 4765 4195 60  0000 L CNN
-F 1 "C_10n_0402" H 4650 4000 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 4850 4350 60  0001 L CNN
-F 3 "" H 4650 4150 50  0001 C CNN
-F 4 "AVX" H 4850 4550 60  0001 L CNN "Manufacturer"
-F 5 "04025G103ZAT2A" H 4850 4450 60  0001 L CNN "MPN"
-F 6 "10n" H 4765 4097 50  0000 L CNN "Val"
-	1    4650 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_100n_0402 C?
-U 1 1 6188CD94
-P 5000 4150
-AR Path="/626D078D/6188CD94" Ref="C?"  Part="1" 
-AR Path="/605FD480/6188CD94" Ref="C?"  Part="1" 
-AR Path="/60633613/6188CD94" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6188CD94" Ref="C136"  Part="1" 
-F 0 "C136" H 5115 4195 60  0000 L CNN
-F 1 "C_100n_0402" H 5000 4000 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 5200 4350 60  0001 L CNN
-F 3 "" H 5000 4150 50  0001 C CNN
-F 4 "Walsin" H 5200 4550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 5200 4450 60  0001 L CNN "MPN"
-F 6 "100n" H 5115 4097 50  0000 L CNN "Val"
-	1    5000 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 4000 5000 3900
-Wire Wire Line
-	5000 3900 4650 3900
-Wire Wire Line
-	4650 3900 4650 3800
-Wire Wire Line
-	4650 4000 4650 3900
-Connection ~ 4650 3900
-Wire Wire Line
-	5000 4300 5000 4400
-Wire Wire Line
-	5000 4400 4650 4400
-Wire Wire Line
-	4650 4400 4650 4300
-Wire Wire Line
-	4650 4400 4650 4500
-Connection ~ 4650 4400
-Wire Wire Line
-	7750 3500 7600 3500
-Text GLabel 4650 4500 3    50   Input ~ 0
-XADCGND
 $Comp
 L artix-dc-scm:C_47u_1210 C?
 U 1 1 61996973
@@ -2240,7 +2180,7 @@ Text GLabel 12050 2600 1    50   Input ~ 0
 VCCINT
 Text GLabel 11500 3900 1    50   Input ~ 0
 VCCINT
-Text GLabel 1150 3850 0    50   Input ~ 0
+Text GLabel 1050 2700 0    50   Input ~ 0
 VCC1V8_BANK
 Text GLabel 1150 4950 0    50   Input ~ 0
 VCC3V3_BANK
@@ -2948,4 +2888,23 @@ F 6 "4u7" H 1615 3047 50  0000 L CNN "Val"
 	1    1500 3100
 	1    0    0    -1  
 $EndComp
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 61075D45
+P 7350 3500
+AR Path="/626D078D/61075D45" Ref="#PWR?"  Part="1" 
+AR Path="/605FD480/61075D45" Ref="#PWR?"  Part="1" 
+AR Path="/60633613/61075D45" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86C51/61075D45" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7350 3250 50  0001 C CNN
+F 1 "GND" H 7355 3327 50  0000 C CNN
+F 2 "" H 7350 3500 50  0001 C CNN
+F 3 "" H 7350 3500 50  0001 C CNN
+	1    7350 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 3500 7750 3500
+Text GLabel 1150 3850 0    50   Input ~ 0
+VCC3V3_BANK
 $EndSCHEMATC

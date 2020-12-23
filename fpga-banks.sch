@@ -340,12 +340,10 @@ F 3 "" H 7650 9150 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	9450 9550 10800 9550
-Text GLabel 11100 9550 2    50   Input ~ 0
+Text GLabel 11375 9550 2    50   Input ~ 0
 PROGRAM
-Text GLabel 11100 9450 2    50   Input ~ 0
+Text GLabel 11375 9450 2    50   Input ~ 0
 INIT
-Wire Wire Line
-	11100 9450 10950 9450
 Text GLabel 9450 8950 2    50   Input ~ 0
 MODE0
 Text GLabel 9450 9050 2    50   Input ~ 0
@@ -354,10 +352,10 @@ Text GLabel 9450 9150 2    50   Input ~ 0
 MODE2
 Wire Wire Line
 	10150 8850 10000 8850
-Text GLabel 11100 9350 2    50   Input ~ 0
+Text GLabel 11375 9350 2    50   Input ~ 0
 DONE
 Wire Wire Line
-	11100 9350 10650 9350
+	11375 9350 11050 9350
 $Comp
 L artix-dc-scm:R_100R_0402 R86
 U 1 1 60A2E489
@@ -502,7 +500,7 @@ F 5 "C&K Components" H 11100 10572 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10800 9550 11100 9550
+	10800 9550 11300 9550
 Wire Wire Line
 	10950 8300 10950 8400
 Wire Wire Line
@@ -1728,140 +1726,427 @@ Wire Wire Line
 Connection ~ 4875 1250
 Wire Wire Line
 	4875 1250 5025 1250
-Wire Wire Line
-	12350 7875 12350 8175
 $Comp
 L artix-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 605CC5B1
-P 12550 7875
-F 0 "D?" H 12575 7775 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" H 11675 8100 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:LED_0603" H 12750 8075 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 12750 8175 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 12750 8375 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 12750 8975 60  0001 L CNN "Manufacturer"
-	1    12550 7875
+P 4100 8500
+AR Path="/5FD86BEB/605CC5B1" Ref="D?"  Part="1" 
+AR Path="/5FD86CE4/605CC5B1" Ref="D?"  Part="1" 
+F 0 "D?" H 4125 8400 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 3225 8725 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:LED_0603" H 4300 8700 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 4300 8800 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 4300 9000 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 4300 9600 60  0001 L CNN "Manufacturer"
+	1    4100 8500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	12350 7875 12450 7875
-Wire Wire Line
-	12750 7875 12850 7875
+	4300 8500 4400 8500
 $Comp
 L artix-dc-scm:R_1k_0402 R?
 U 1 1 605CC5BC
-P 13000 7875
-F 0 "R?" H 12950 7975 60  0000 C CNN
-F 1 "R_1k_0402" H 13000 7725 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 13200 8075 60  0001 L CNN
-F 3 "" H 13000 7875 50  0001 C CNN
-F 4 "BOURNS" H 13200 8275 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 13200 8175 60  0001 L CNN "MPN"
-F 6 "1k" H 13150 7825 50  0000 C CNN "Val"
-	1    13000 7875
+P 4550 8500
+AR Path="/5FD86BEB/605CC5BC" Ref="R?"  Part="1" 
+AR Path="/5FD86CE4/605CC5BC" Ref="R?"  Part="1" 
+F 0 "R?" H 4500 8600 60  0000 C CNN
+F 1 "R_1k_0402" H 4550 8350 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4750 8700 60  0001 L CNN
+F 3 "" H 4550 8500 50  0001 C CNN
+F 4 "BOURNS" H 4750 8900 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 4750 8800 60  0001 L CNN "MPN"
+F 6 "1k" H 4700 8450 50  0000 C CNN "Val"
+	1    4550 8500
 	1    0    0    -1  
 $EndComp
-Text GLabel 13250 7875 2    50   Input ~ 0
+Text GLabel 4800 8500 2    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	13150 7875 13250 7875
+	4700 8500 4800 8500
 $Comp
 L artix-dc-scm:2N7002 Q?
 U 1 1 605CC5C6
-P 12350 8375
-F 0 "Q?" H 12458 8428 60  0000 L CNN
-F 1 "2N7002" H 12458 8322 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:SOT-23-3" H 12550 8575 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 12550 8675 60  0001 L CNN
-F 4 "2N7002" H 12550 8875 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 12550 9475 60  0001 L CNN "Manufacturer"
-	1    12350 8375
-	1    0    0    -1  
+P 3700 8500
+AR Path="/5FD86BEB/605CC5C6" Ref="Q?"  Part="1" 
+AR Path="/5FD86CE4/605CC5C6" Ref="Q?"  Part="1" 
+F 0 "Q?" V 3350 8500 60  0000 L CNN
+F 1 "2N7002" V 3450 8500 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:SOT-23-3" H 3900 8700 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3900 8800 60  0001 L CNN
+F 4 "2N7002" H 3900 9000 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 3900 9600 60  0001 L CNN "Manufacturer"
+	1    3700 8500
+	0    1    1    0   
 $EndComp
 $Comp
 L artix-dc-scm:GND #PWR?
 U 1 1 605CC5CC
-P 12350 8675
-F 0 "#PWR?" H 12350 8425 50  0001 C CNN
-F 1 "GND" H 12355 8502 50  0000 C CNN
-F 2 "" H 12350 8675 50  0001 C CNN
-F 3 "" H 12350 8675 50  0001 C CNN
-	1    12350 8675
-	1    0    0    -1  
+P 3375 8500
+AR Path="/5FD86BEB/605CC5CC" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86CE4/605CC5CC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3375 8250 50  0001 C CNN
+F 1 "GND" H 3380 8327 50  0000 C CNN
+F 2 "" H 3375 8500 50  0001 C CNN
+F 3 "" H 3375 8500 50  0001 C CNN
+	1    3375 8500
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12350 8675 12350 8575
-Wire Wire Line
-	12050 8475 11950 8475
-Wire Wire Line
-	13075 8450 13075 8750
+	3375 8500 3500 8500
 $Comp
 L artix-dc-scm:LG_L29K-G2J1-24-Z D?
 U 1 1 605FEFC2
-P 13275 8450
-F 0 "D?" H 13300 8350 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" H 12400 8675 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:LED_0603" H 13475 8650 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 13475 8750 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 13475 8950 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 13475 9550 60  0001 L CNN "Manufacturer"
-	1    13275 8450
+P 4100 9050
+AR Path="/5FD86BEB/605FEFC2" Ref="D?"  Part="1" 
+AR Path="/5FD86CE4/605FEFC2" Ref="D?"  Part="1" 
+F 0 "D?" H 4125 8950 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 3225 9275 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:LED_0603" H 4300 9250 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 4300 9350 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 4300 9550 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 4300 10150 60  0001 L CNN "Manufacturer"
+	1    4100 9050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13075 8450 13175 8450
+	3900 9050 4000 9050
 Wire Wire Line
-	13475 8450 13575 8450
+	4300 9050 4400 9050
 $Comp
 L artix-dc-scm:R_1k_0402 R?
 U 1 1 605FEFCD
-P 13725 8450
-F 0 "R?" H 13675 8550 60  0000 C CNN
-F 1 "R_1k_0402" H 13725 8300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 13925 8650 60  0001 L CNN
-F 3 "" H 13725 8450 50  0001 C CNN
-F 4 "BOURNS" H 13925 8850 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 13925 8750 60  0001 L CNN "MPN"
-F 6 "1k" H 13875 8400 50  0000 C CNN "Val"
-	1    13725 8450
+P 4550 9050
+AR Path="/5FD86BEB/605FEFCD" Ref="R?"  Part="1" 
+AR Path="/5FD86CE4/605FEFCD" Ref="R?"  Part="1" 
+F 0 "R?" H 4500 9150 60  0000 C CNN
+F 1 "R_1k_0402" H 4550 8900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4750 9250 60  0001 L CNN
+F 3 "" H 4550 9050 50  0001 C CNN
+F 4 "BOURNS" H 4750 9450 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 4750 9350 60  0001 L CNN "MPN"
+F 6 "1k" H 4700 9000 50  0000 C CNN "Val"
+	1    4550 9050
 	1    0    0    -1  
 $EndComp
-Text GLabel 13975 8450 2    50   Input ~ 0
+Text GLabel 4800 9050 2    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	13875 8450 13975 8450
+	4700 9050 4800 9050
 $Comp
 L artix-dc-scm:2N7002 Q?
 U 1 1 605FEFD7
-P 13075 8950
-F 0 "Q?" H 13183 9003 60  0000 L CNN
-F 1 "2N7002" H 13183 8897 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:SOT-23-3" H 13275 9150 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 13275 9250 60  0001 L CNN
-F 4 "2N7002" H 13275 9450 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 13275 10050 60  0001 L CNN "Manufacturer"
-	1    13075 8950
-	1    0    0    -1  
+P 3700 9050
+AR Path="/5FD86BEB/605FEFD7" Ref="Q?"  Part="1" 
+AR Path="/5FD86CE4/605FEFD7" Ref="Q?"  Part="1" 
+F 0 "Q?" V 3350 9050 60  0000 L CNN
+F 1 "2N7002" V 3450 9050 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:SOT-23-3" H 3900 9250 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3900 9350 60  0001 L CNN
+F 4 "2N7002" H 3900 9550 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 3900 10150 60  0001 L CNN "Manufacturer"
+	1    3700 9050
+	0    1    1    0   
 $EndComp
 $Comp
 L artix-dc-scm:GND #PWR?
 U 1 1 605FEFDD
-P 13075 9250
-F 0 "#PWR?" H 13075 9000 50  0001 C CNN
-F 1 "GND" H 13080 9077 50  0000 C CNN
-F 2 "" H 13075 9250 50  0001 C CNN
-F 3 "" H 13075 9250 50  0001 C CNN
-	1    13075 9250
-	1    0    0    -1  
+P 3400 9050
+AR Path="/5FD86BEB/605FEFDD" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86CE4/605FEFDD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 8800 50  0001 C CNN
+F 1 "GND" H 3405 8877 50  0000 C CNN
+F 2 "" H 3400 9050 50  0001 C CNN
+F 3 "" H 3400 9050 50  0001 C CNN
+	1    3400 9050
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	13075 9250 13075 9150
-Wire Wire Line
-	12775 9050 12650 9050
-Text GLabel 11950 8475 0    50   Input ~ 0
+	3400 9050 3500 9050
+Text GLabel 3475 8200 0    50   Input ~ 0
 INIT
-Text GLabel 12650 9050 0    50   Input ~ 0
+Text GLabel 3475 8750 0    50   Input ~ 0
 DONE
-Text Notes 13100 7725 0    118  ~ 0
+Text Notes 3800 7850 0    118  ~ 0
 Status LEDs
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 607DBFB7
+P 11050 9125
+F 0 "TP?" H 11075 9050 50  0000 R CNN
+F 1 "TP_SMD1MM" H 11050 9025 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 11250 9325 60  0001 L CNN
+F 3 "" H 11250 9425 60  0001 L CNN
+	1    11050 9125
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 60868E72
+P 11175 9125
+F 0 "TP?" H 11175 9050 50  0000 R CNN
+F 1 "TP_SMD1MM" H 11175 9025 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 11375 9325 60  0001 L CNN
+F 3 "" H 11375 9425 60  0001 L CNN
+	1    11175 9125
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 60869265
+P 11300 9125
+F 0 "TP?" H 11275 9050 50  0000 R CNN
+F 1 "TP_SMD1MM" H 11300 9025 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 11500 9325 60  0001 L CNN
+F 3 "" H 11500 9425 60  0001 L CNN
+	1    11300 9125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11050 9225 11050 9350
+Connection ~ 11050 9350
+Wire Wire Line
+	11050 9350 10650 9350
+Wire Wire Line
+	11175 9225 11175 9450
+Wire Wire Line
+	10950 9450 11175 9450
+Connection ~ 11175 9450
+Wire Wire Line
+	11175 9450 11375 9450
+Wire Wire Line
+	11300 9225 11300 9550
+Connection ~ 11300 9550
+Wire Wire Line
+	11300 9550 11375 9550
+Wire Wire Line
+	3900 8500 4000 8500
+Wire Wire Line
+	3600 8200 3475 8200
+Wire Wire Line
+	3600 8750 3475 8750
+$Comp
+L artix-dc-scm:LG_L29K-G2J1-24-Z D?
+U 1 1 60D22676
+P 4100 9625
+AR Path="/5FD86BEB/60D22676" Ref="D?"  Part="1" 
+AR Path="/5FD86CE4/60D22676" Ref="D?"  Part="1" 
+F 0 "D?" H 4125 9525 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 3225 9850 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:LED_0603" H 4300 9825 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 4300 9925 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 4300 10125 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 4300 10725 60  0001 L CNN "Manufacturer"
+	1    4100 9625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 9625 4000 9625
+Wire Wire Line
+	4300 9625 4400 9625
+$Comp
+L artix-dc-scm:R_1k_0402 R?
+U 1 1 60D22681
+P 4550 9625
+AR Path="/5FD86BEB/60D22681" Ref="R?"  Part="1" 
+AR Path="/5FD86CE4/60D22681" Ref="R?"  Part="1" 
+F 0 "R?" H 4500 9725 60  0000 C CNN
+F 1 "R_1k_0402" H 4550 9475 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4750 9825 60  0001 L CNN
+F 3 "" H 4550 9625 50  0001 C CNN
+F 4 "BOURNS" H 4750 10025 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 4750 9925 60  0001 L CNN "MPN"
+F 6 "1k" H 4700 9575 50  0000 C CNN "Val"
+	1    4550 9625
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 9625 2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	4700 9625 4800 9625
+$Comp
+L artix-dc-scm:2N7002 Q?
+U 1 1 60D2268B
+P 3700 9625
+AR Path="/5FD86BEB/60D2268B" Ref="Q?"  Part="1" 
+AR Path="/5FD86CE4/60D2268B" Ref="Q?"  Part="1" 
+F 0 "Q?" V 3350 9625 60  0000 L CNN
+F 1 "2N7002" V 3450 9625 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:SOT-23-3" H 3900 9825 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3900 9925 60  0001 L CNN
+F 4 "2N7002" H 3900 10125 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 3900 10725 60  0001 L CNN "Manufacturer"
+	1    3700 9625
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 60D22691
+P 3400 9625
+AR Path="/5FD86BEB/60D22691" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86CE4/60D22691" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 9375 50  0001 C CNN
+F 1 "GND" H 3405 9452 50  0000 C CNN
+F 2 "" H 3400 9625 50  0001 C CNN
+F 3 "" H 3400 9625 50  0001 C CNN
+	1    3400 9625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 9625 3500 9625
+Text GLabel 3475 9325 0    50   Input ~ 0
+USR_LED0
+$Comp
+L artix-dc-scm:LG_L29K-G2J1-24-Z D?
+U 1 1 60D56405
+P 4100 10225
+AR Path="/5FD86BEB/60D56405" Ref="D?"  Part="1" 
+AR Path="/5FD86CE4/60D56405" Ref="D?"  Part="1" 
+F 0 "D?" H 4125 10125 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 3225 10450 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:LED_0603" H 4300 10425 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 4300 10525 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 4300 10725 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 4300 11325 60  0001 L CNN "Manufacturer"
+	1    4100 10225
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 10225 4000 10225
+Wire Wire Line
+	4300 10225 4400 10225
+$Comp
+L artix-dc-scm:R_1k_0402 R?
+U 1 1 60D56410
+P 4550 10225
+AR Path="/5FD86BEB/60D56410" Ref="R?"  Part="1" 
+AR Path="/5FD86CE4/60D56410" Ref="R?"  Part="1" 
+F 0 "R?" H 4500 10325 60  0000 C CNN
+F 1 "R_1k_0402" H 4550 10075 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4750 10425 60  0001 L CNN
+F 3 "" H 4550 10225 50  0001 C CNN
+F 4 "BOURNS" H 4750 10625 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 4750 10525 60  0001 L CNN "MPN"
+F 6 "1k" H 4700 10175 50  0000 C CNN "Val"
+	1    4550 10225
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 10225 2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	4700 10225 4800 10225
+$Comp
+L artix-dc-scm:2N7002 Q?
+U 1 1 60D5641A
+P 3700 10225
+AR Path="/5FD86BEB/60D5641A" Ref="Q?"  Part="1" 
+AR Path="/5FD86CE4/60D5641A" Ref="Q?"  Part="1" 
+F 0 "Q?" V 3350 10225 60  0000 L CNN
+F 1 "2N7002" V 3450 10225 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:SOT-23-3" H 3900 10425 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3900 10525 60  0001 L CNN
+F 4 "2N7002" H 3900 10725 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 3900 11325 60  0001 L CNN "Manufacturer"
+	1    3700 10225
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 60D56420
+P 3400 10225
+AR Path="/5FD86BEB/60D56420" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86CE4/60D56420" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 9975 50  0001 C CNN
+F 1 "GND" H 3405 10052 50  0000 C CNN
+F 2 "" H 3400 10225 50  0001 C CNN
+F 3 "" H 3400 10225 50  0001 C CNN
+	1    3400 10225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 10225 3500 10225
+Text GLabel 3475 9925 0    50   Input ~ 0
+USR_LED1
+Wire Wire Line
+	3600 9325 3475 9325
+Wire Wire Line
+	3600 9925 3475 9925
+$Comp
+L artix-dc-scm:LG_L29K-G2J1-24-Z D?
+U 1 1 60EC059F
+P 4100 10825
+AR Path="/5FD86BEB/60EC059F" Ref="D?"  Part="1" 
+AR Path="/5FD86CE4/60EC059F" Ref="D?"  Part="1" 
+F 0 "D?" H 4125 10725 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 3225 11050 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:LED_0603" H 4300 11025 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 4300 11125 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 4300 11325 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 4300 11925 60  0001 L CNN "Manufacturer"
+	1    4100 10825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 10825 4000 10825
+Wire Wire Line
+	4300 10825 4400 10825
+$Comp
+L artix-dc-scm:R_1k_0402 R?
+U 1 1 60EC05AA
+P 4550 10825
+AR Path="/5FD86BEB/60EC05AA" Ref="R?"  Part="1" 
+AR Path="/5FD86CE4/60EC05AA" Ref="R?"  Part="1" 
+F 0 "R?" H 4500 10925 60  0000 C CNN
+F 1 "R_1k_0402" H 4550 10675 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4750 11025 60  0001 L CNN
+F 3 "" H 4550 10825 50  0001 C CNN
+F 4 "BOURNS" H 4750 11225 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 4750 11125 60  0001 L CNN "MPN"
+F 6 "1k" H 4700 10775 50  0000 C CNN "Val"
+	1    4550 10825
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 10825 2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	4700 10825 4800 10825
+$Comp
+L artix-dc-scm:2N7002 Q?
+U 1 1 60EC05B4
+P 3700 10825
+AR Path="/5FD86BEB/60EC05B4" Ref="Q?"  Part="1" 
+AR Path="/5FD86CE4/60EC05B4" Ref="Q?"  Part="1" 
+F 0 "Q?" V 3350 10825 60  0000 L CNN
+F 1 "2N7002" V 3450 10825 60  0000 L CNN
+F 2 "artix-dc-scm-footprints:SOT-23-3" H 3900 11025 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3900 11125 60  0001 L CNN
+F 4 "2N7002" H 3900 11325 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 3900 11925 60  0001 L CNN "Manufacturer"
+	1    3700 10825
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 60EC05BA
+P 3400 10825
+AR Path="/5FD86BEB/60EC05BA" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86CE4/60EC05BA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 10575 50  0001 C CNN
+F 1 "GND" H 3405 10652 50  0000 C CNN
+F 2 "" H 3400 10825 50  0001 C CNN
+F 3 "" H 3400 10825 50  0001 C CNN
+	1    3400 10825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 10825 3500 10825
+Text GLabel 3475 10525 0    50   Input ~ 0
+USR_LED2
+Wire Wire Line
+	3600 10525 3475 10525
+Text GLabel 15925 6050 0    50   Input ~ 0
+USR_LED0
+Text GLabel 15925 6150 0    50   Input ~ 0
+USR_LED1
+Text GLabel 15925 6250 0    50   Input ~ 0
+USR_LED2
 $EndSCHEMATC
