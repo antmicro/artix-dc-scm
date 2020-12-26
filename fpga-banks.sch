@@ -141,27 +141,27 @@ Wire Wire Line
 	11600 2600 12000 2600
 Wire Wire Line
 	11600 2500 12000 2500
-Text GLabel 9825 6250 2    50   Input ~ 0
+Text GLabel 10725 150  2    50   Input ~ 0
 USB1_DN
-Text GLabel 9825 5950 2    50   Input ~ 0
+Text GLabel 10725 -150 2    50   Input ~ 0
 USB2_DP
-Text GLabel 9825 6050 2    50   Input ~ 0
+Text GLabel 10725 -50  2    50   Input ~ 0
 USB2_DN
-Text GLabel 9825 5750 2    50   Input ~ 0
+Text GLabel 10725 -350 2    50   Input ~ 0
 SGPIO0_DI
-Text GLabel 9825 5650 2    50   Input ~ 0
+Text GLabel 10725 -450 2    50   Input ~ 0
 SGPIO0_DO
-Text GLabel 9825 4850 2    50   Input ~ 0
+Text GLabel 10725 -1250 2    50   Input ~ 0
 SGPIO0_LD
-Text GLabel 9825 5850 2    50   Input ~ 0
+Text GLabel 10725 -250 2    50   Input ~ 0
 SGPIO1_DI
-Text GLabel 9825 4750 2    50   Input ~ 0
+Text GLabel 10725 -1350 2    50   Input ~ 0
 SGPIO1_DO
-Text GLabel 9825 5150 2    50   Input ~ 0
+Text GLabel 10725 -950 2    50   Input ~ 0
 SGPIO1_LD
-Text GLabel 9825 5450 2    50   Input ~ 0
+Text GLabel 10725 -650 2    50   Input ~ 0
 SGPIO_RESET_N
-Text GLabel 9825 5250 2    50   Input ~ 0
+Text GLabel 10725 -850 2    50   Input ~ 0
 SGPIO_INTR_N
 Text GLabel 950  3400 2    50   Input ~ 0
 ESPI_CLK
@@ -908,7 +908,7 @@ Wire Wire Line
 	14800 4100 15175 4100
 Wire Wire Line
 	9825 5150 9500 5150
-Text GLabel 9825 6150 2    50   Input ~ 0
+Text GLabel 10725 50   2    50   Input ~ 0
 USB1_DP
 Wire Wire Line
 	9825 6450 9500 6450
@@ -960,17 +960,17 @@ Wire Wire Line
 	6375 3550 6700 3550
 Wire Wire Line
 	6375 3650 6700 3650
-Text GLabel 9825 6350 2    50   Input ~ 0
+Text GLabel 10725 250  2    50   Input ~ 0
 QSPI1_D1
-Text GLabel 9825 6450 2    50   Input ~ 0
+Text GLabel 10725 350  2    50   Input ~ 0
 QSPI1_D3
-Text GLabel 9825 6650 2    50   Input ~ 0
+Text GLabel 10725 550  2    50   Input ~ 0
 QSPI1_D2
-Text GLabel 9825 6550 2    50   Input ~ 0
+Text GLabel 10725 450  2    50   Input ~ 0
 QSPI1_D0
-Text GLabel 9825 6850 2    50   Input ~ 0
+Text GLabel 10725 750  2    50   Input ~ 0
 QSPI1_CLK
-Text GLabel 9825 6950 2    50   Input ~ 0
+Text GLabel 10725 850  2    50   Input ~ 0
 QSPI1_CS_N
 Text GLabel 9600 -1625 2    50   Input ~ 0
 I2C[1]_SDA
@@ -1447,29 +1447,29 @@ Text GLabel 11600 6500 0    50   BiDi ~ 0
 DDR3_DQ14
 Text GLabel 11600 4400 0    50   Output ~ 0
 DDR3_A14
-Text GLabel 1575 7600 2    50   Input ~ 0
+Text GLabel 9825 6050 2    50   Input ~ 0
 MMC_DAT0
-Text GLabel 1575 7700 2    50   Input ~ 0
+Text GLabel 9825 6250 2    50   Input ~ 0
 MMC_DAT1
-Text GLabel 1575 7800 2    50   Input ~ 0
+Text GLabel 9825 6150 2    50   Input ~ 0
 MMC_DAT2
-Text GLabel 1575 7900 2    50   Input ~ 0
+Text GLabel 9825 6450 2    50   Input ~ 0
 MMC_DAT3
-Text GLabel 1575 8000 2    50   Input ~ 0
+Text GLabel 9800 5950 2    50   Input ~ 0
 MMC_DAT4
-Text GLabel 1575 8100 2    50   Input ~ 0
+Text GLabel 9825 6650 2    50   Input ~ 0
 MMC_DAT5
-Text GLabel 1575 8200 2    50   Input ~ 0
+Text GLabel 9825 5250 2    50   Input ~ 0
 MMC_DAT6
-Text GLabel 1575 8300 2    50   Input ~ 0
+Text GLabel 9825 5150 2    50   Input ~ 0
 MMC_DAT7
-Text GLabel 1575 8500 2    50   Input ~ 0
+Text GLabel 9825 5750 2    50   Input ~ 0
 MMC_CMD
-Text GLabel 1575 8600 2    50   Input ~ 0
+Text GLabel 9825 5850 2    50   Input ~ 0
 MMC_CLK
-Text GLabel 1575 8800 2    50   Input ~ 0
+Text GLabel 9825 6550 2    50   Input ~ 0
 MMC_RSTN
-Text GLabel 9825 5050 2    50   Input ~ 0
+Text GLabel 10725 -1050 2    50   Input ~ 0
 SGPIO0_CLK
 Wire Wire Line
 	5025 2250 4550 2250
@@ -1509,9 +1509,9 @@ Text GLabel 1550 9550 2    50   Input ~ 0
 NCSI_RXD0
 Text GLabel 1550 9650 2    50   Input ~ 0
 NCSI_RXD1
-Text GLabel 9825 5350 2    50   Input ~ 0
+Text GLabel 10725 -750 2    50   Input ~ 0
 RSVD2
-Text Notes 10175 5400 0    50   ~ 0
+Text Notes 11075 -700 0    50   ~ 0
 SGPIO1_CLK
 Text GLabel 5025 2150 2    50   Input ~ 0
 ROT_QSPI_DQ0
@@ -2125,8 +2125,8 @@ Text GLabel 9875 3450 2    50   Input ~ 0
 MOSI_USB2
 Text GLabel 9875 4150 2    50   Input ~ 0
 GPX_USB2
-Text Notes 12975 8825 0    50   ~ 0
-Interfaces status:\nJTAG - needs pre-defined pins (BANK0)\nboot (Q)SPI - needs pre-defined pins (BANK14)\neSPI\nQSPI0, QSPI1 - \nSPI - \nSGPIO0, SGPIO1 - \nUSB client, USB host - free\nPCIe x1 - needs to be connected to transreceivers\nI3C - \nI2C - free\nNCS-\nUART \nethernet - free\nDDR3 - uses B34 as in references
+Text Notes 13100 8900 0    50   ~ 0
+Interfaces status:\nJTAG - needs pre-defined pins (BANK0)\nboot (Q)SPI - needs pre-defined pins (BANK14)\neSPI\nQSPI0, QSPI1 - \nSPI - \nSGPIO0, SGPIO1 - \nUSB client, USB host - free\nPCIe x1 - needs to be connected to transreceivers\nI3C - \nI2C - free\nNCSI-\nUART \nethernet - free\nDDR3 - uses B34 as in references\neMMC - free
 Text Notes 15000 7750 0    50   ~ 10
 done
 Text Notes 15000 7850 0    50   ~ 10
@@ -2181,10 +2181,12 @@ Wire Wire Line
 	14800 4200 15175 4200
 Wire Wire Line
 	14800 3800 15175 3800
-Text Notes 15000 8725 0    50   ~ 10
+Text Notes 15000 8750 0    50   ~ 10
 done
 Text GLabel 9875 4250 2    50   Input ~ 0
 INT_USB
 Text Notes 15000 8275 0    50   ~ 10
+done
+Text Notes 15000 8900 0    50   ~ 10
 done
 $EndSCHEMATC
