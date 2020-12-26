@@ -813,9 +813,9 @@ Text Notes 5575 9450 0    118  ~ 0
 Configuration modes
 Text GLabel 15300 4000 2    50   Input ~ 0
 HPM_FW_RECOVERY
-Text GLabel 15300 4100 2    50   Input ~ 0
+Text GLabel 16900 4300 2    50   Input ~ 0
 HPM_STBY_RST_N
-Text GLabel 15300 4200 2    50   Input ~ 0
+Text GLabel 16825 4475 2    50   Input ~ 0
 SYS_PWRBTN_N
 Text GLabel 15300 4300 2    50   Input ~ 0
 SYS_PWROK
@@ -904,42 +904,8 @@ F 3 "" H 6250 9900 50  0001 C CNN
 	1    6250 9900
 	0    1    1    0   
 $EndComp
-Text GLabel 15175 2400 2    50   Input ~ 0
-ETH_~RESET
-Text GLabel 15175 2200 2    50   Output ~ 0
-ETH_INT_N
-Text GLabel 15175 2100 2    50   Output ~ 0
-RGMII_REF_CLK
-Text GLabel 15175 2300 2    50   BiDi ~ 0
-ETH_MDIO
 Wire Wire Line
-	14800 3800 15175 3800
-Text GLabel 15175 3300 2    50   Input ~ 0
-RGMII_TXD0
-Text GLabel 15175 3700 2    50   Input ~ 0
-RGMII_TXD1
-Text GLabel 15175 3800 2    50   Input ~ 0
-RGMII_TXD3
-Text GLabel 15175 3500 2    50   Input ~ 0
-RGMII_TX_CLK
-Text GLabel 15175 2900 2    50   Input ~ 0
-RGMII_TX_DV
-Text GLabel 15175 3600 2    50   Output ~ 0
-RGMII_RXD3
-Text GLabel 15175 3100 2    50   Output ~ 0
-RGMII_RXD1
-Text GLabel 15175 3400 2    50   Input ~ 0
-RGMII_TXD2
-Text GLabel 15175 3000 2    50   Output ~ 0
-RGMII_RXD2
-Text GLabel 15175 2500 2    50   Output ~ 0
-RGMII_RXD0
-Text GLabel 15175 2700 2    50   Output ~ 0
-RGMII_RX_DV
-Text GLabel 15175 2600 2    50   Output ~ 0
-RGMII_RX_CLK
-Text GLabel 15175 2800 2    50   Input ~ 0
-ETH_MDC
+	14800 4100 15175 4100
 Wire Wire Line
 	9825 5150 9500 5150
 Text GLabel 9825 6150 2    50   Input ~ 0
@@ -1075,29 +1041,29 @@ $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R102
 U 1 1 61547192
-P 15050 4100
-F 0 "R102" H 15050 4313 60  0000 C CNN
-F 1 "R_0R_0402" H 15050 3950 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 15250 4300 60  0001 L CNN
-F 3 "" H 15050 4100 50  0001 C CNN
-F 4 "PANASONIC" H 15250 4500 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 15250 4400 60  0001 L CNN "MPN"
-F 6 "0R" H 15050 4215 50  0000 C CNN "Val"
-	1    15050 4100
+P 16650 4300
+F 0 "R102" H 16650 4513 60  0000 C CNN
+F 1 "R_0R_0402" H 16650 4150 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 16850 4500 60  0001 L CNN
+F 3 "" H 16650 4300 50  0001 C CNN
+F 4 "PANASONIC" H 16850 4700 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 16850 4600 60  0001 L CNN "MPN"
+F 6 "0R" H 16650 4415 50  0000 C CNN "Val"
+	1    16650 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R103
 U 1 1 615497A8
-P 15050 4200
-F 0 "R103" H 15050 4413 60  0000 C CNN
-F 1 "R_0R_0402" H 15050 4050 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 15250 4400 60  0001 L CNN
-F 3 "" H 15050 4200 50  0001 C CNN
-F 4 "PANASONIC" H 15250 4600 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 15250 4500 60  0001 L CNN "MPN"
-F 6 "0R" H 15050 4315 50  0000 C CNN "Val"
-	1    15050 4200
+P 16575 4475
+F 0 "R103" H 16575 4688 60  0000 C CNN
+F 1 "R_0R_0402" H 16575 4325 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 16775 4675 60  0001 L CNN
+F 3 "" H 16575 4475 50  0001 C CNN
+F 4 "PANASONIC" H 16775 4875 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 16775 4775 60  0001 L CNN "MPN"
+F 6 "0R" H 16575 4590 50  0000 C CNN "Val"
+	1    16575 4475
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1247,10 +1213,6 @@ RoT_CPU_RST_N
 Wire Wire Line
 	14800 4000 14900 4000
 Wire Wire Line
-	14800 4100 14900 4100
-Wire Wire Line
-	14800 4200 14900 4200
-Wire Wire Line
 	14800 4300 14900 4300
 Wire Wire Line
 	14800 4400 14900 4400
@@ -1273,9 +1235,9 @@ Wire Wire Line
 Wire Wire Line
 	15200 4000 15300 4000
 Wire Wire Line
-	15200 4100 15300 4100
+	16800 4300 16900 4300
 Wire Wire Line
-	15200 4200 15300 4200
+	16725 4475 16825 4475
 Wire Wire Line
 	15200 4300 15300 4300
 Wire Wire Line
@@ -2168,7 +2130,7 @@ MOSI_USB2
 Text GLabel 1225 9400 0    50   Input ~ 0
 GPX_USB2
 Text Notes 12975 8825 0    50   ~ 0
-Interfaces status:\nJTAG - needs pre-defined pins (BANK0)\nboot (Q)SPI - needs pre-defined pins (BANK14)\neSPI\nQSPI0, QSPI1\nSPI\nSGPIO0, SGPIO1\nUSB client, USB host\nPCIe x1 - needs to be connected to transreceivers\nI3C\nI2C\nNCS-I\nUART\nethernet\nDDR3 - uses B34 as in references
+Interfaces status:\nJTAG - needs pre-defined pins (BANK0)\nboot (Q)SPI - needs pre-defined pins (BANK14)\neSPI\nQSPI0, QSPI1 - \nSPI - \nSGPIO0, SGPIO1 - \nUSB client, USB host\nPCIe x1 - needs to be connected to transreceivers\nI3C - \nI2C - free\nNCS-\nUART \nethernet - free\nDDR3 - uses B34 as in references
 Text Notes 15000 7750 0    50   ~ 10
 done
 Text Notes 15000 7850 0    50   ~ 10
@@ -2182,5 +2144,47 @@ DDR3_DM1
 Text GLabel 11600 4000 0    50   Output ~ 0
 DDR3_BA1
 Text Notes 15000 8825 0    50   ~ 10
+done
+Text GLabel 15175 2300 2    50   Input ~ 0
+ETH_TXD0
+Text GLabel 15175 2400 2    50   Input ~ 0
+ETH_TXD1
+Text GLabel 15175 2100 2    50   Input ~ 0
+ETH_TXD2
+Text GLabel 15175 2200 2    50   Input ~ 0
+ETH_TXD3
+Text GLabel 15175 2800 2    50   Input ~ 0
+ETH_TX_CLK
+Text GLabel 15175 2600 2    50   Input ~ 0
+ETH_TX_EN
+Text GLabel 15175 3600 2    50   Input ~ 0
+ETH_RXD0
+Text GLabel 15175 3000 2    50   Input ~ 0
+ETH_RXD1
+Text GLabel 15175 2700 2    50   Input ~ 0
+ETH_RXD2
+Text GLabel 15175 2500 2    50   Input ~ 0
+ETH_RXD3
+Text GLabel 15175 3700 2    50   Input ~ 0
+ETH_RX_CLK
+Text GLabel 15175 3400 2    50   Input ~ 0
+ETH_RX_DV
+Text GLabel 15175 3500 2    50   Input ~ 0
+ETH_RXERR
+Text GLabel 15175 2900 2    50   Input ~ 0
+ETH_COL
+Text GLabel 15175 3800 2    50   Input ~ 0
+ETH_CRS
+Text GLabel 15175 3100 2    50   Input ~ 0
+ETH_MDC
+Text GLabel 15175 4200 2    50   Input ~ 0
+ETH_MDIO
+Text GLabel 15175 4100 2    50   Input ~ 0
+ETH_RSTN
+Wire Wire Line
+	14800 4200 15175 4200
+Wire Wire Line
+	14800 3800 15175 3800
+Text Notes 15000 8725 0    50   ~ 10
 done
 $EndSCHEMATC
