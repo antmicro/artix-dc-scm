@@ -1515,9 +1515,9 @@ Text GLabel 4425 8775 0    50   UnSpc ~ 0
 DDR3_CKE
 Text GLabel 4425 10575 0    50   UnSpc ~ 0
 DDR3_CS
-Text GLabel 4425 10875 0    50   UnSpc ~ 0
-DDR3_CAS
 Text GLabel 4425 10775 0    50   UnSpc ~ 0
+DDR3_CAS
+Text GLabel 4425 10875 0    50   UnSpc ~ 0
 DDR3_RAS
 Text GLabel 4425 10375 0    50   UnSpc ~ 0
 DDR3_BA0

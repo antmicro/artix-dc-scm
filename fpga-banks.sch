@@ -877,18 +877,6 @@ Text GLabel 10050 9750 2    50   Input ~ 0
 VCC3V3_BANK
 Text GLabel 4850 975  2    50   Input ~ 0
 VCC1V8_BANK
-Text GLabel 6375 4950 0    50   Input ~ 0
-CLK_100M_PCIE_DP
-Text GLabel 6375 5050 0    50   Input ~ 0
-CLK_100M_PCIE_DN
-Text GLabel 6375 3950 0    50   Input ~ 0
-PCIE_BMC_TX_DP
-Text GLabel 6375 4050 0    50   Input ~ 0
-PCIE_BMC_TX_DN
-Text GLabel 6375 3350 0    50   Input ~ 0
-PCIE_BMC_RX_DN
-Text GLabel 6375 3850 0    50   Input ~ 0
-PCIE_BMC_RX_DP
 Text GLabel 6700 6250 0    50   Input ~ 0
 I3C[0]_SDA_3V3
 Text GLabel 6700 6450 0    50   Input ~ 0
@@ -1006,8 +994,6 @@ Wire Wire Line
 	6375 3550 6700 3550
 Wire Wire Line
 	6375 3650 6700 3650
-Text GLabel 6375 3450 0    50   Input ~ 0
-QSPI0_CS1_N
 Text GLabel 9825 6350 2    50   Input ~ 0
 QSPI1_D1
 Text GLabel 9825 6450 2    50   Input ~ 0
@@ -1405,21 +1391,21 @@ Text GLabel 14800 6800 2    50   Input ~ 0
 SPIO_MISO
 Text GLabel 11600 2300 0    50   Output ~ 0
 DDR3_A13
-Text GLabel 11600 4700 0    50   Output ~ 0
-DDR3_A12
 Text GLabel 11600 4800 0    50   Output ~ 0
+DDR3_A12
+Text GLabel 11600 4600 0    50   Output ~ 0
 DDR3_A11
-Text GLabel 11600 5100 0    50   Output ~ 0
+Text GLabel 11600 4700 0    50   Output ~ 0
 DDR3_A10
-Text GLabel 11600 2900 0    50   Output ~ 0
+Text GLabel 11600 2400 0    50   Output ~ 0
 DDR3_RESET
-Text GLabel 11600 5900 0    50   Output ~ 0
+Text GLabel 11600 4200 0    50   Output ~ 0
 DDR3_CKE
-Text GLabel 11600 4000 0    50   Output ~ 0
+Text GLabel 11600 3800 0    50   Output ~ 0
 DDR3_CLK-
-Text GLabel 11600 6000 0    50   Output ~ 0
+Text GLabel 11600 3700 0    50   Output ~ 0
 DDR3_CLK+
-Text GLabel 11600 2500 0    50   Output ~ 0
+Text GLabel 11600 4500 0    50   Output ~ 0
 DDR3_A0
 Text GLabel 11600 5200 0    50   Output ~ 0
 DDR3_A1
@@ -1427,11 +1413,11 @@ Text GLabel 11600 3100 0    50   Output ~ 0
 DDR3_A2
 Text GLabel 11600 2200 0    50   Output ~ 0
 DDR3_A3
-Text GLabel 11600 5400 0    50   Output ~ 0
+Text GLabel 11600 5100 0    50   Output ~ 0
 DDR3_A4
 Text GLabel 11600 2100 0    50   Output ~ 0
 DDR3_A5
-Text GLabel 11600 6900 0    50   Output ~ 0
+Text GLabel 11600 5400 0    50   Output ~ 0
 DDR3_A6
 Text GLabel 11600 2000 0    50   Output ~ 0
 DDR3_A7
@@ -1439,69 +1425,65 @@ Text GLabel 11600 5300 0    50   Output ~ 0
 DDR3_A8
 Text GLabel 11600 2600 0    50   Output ~ 0
 DDR3_A9
-Text GLabel 11600 3400 0    50   Output ~ 0
+Text GLabel 11600 2900 0    50   Output ~ 0
 DDR3_BA0
-Text GLabel 11600 6400 0    50   Output ~ 0
-DDR3_BA1
-Text GLabel 11600 3300 0    50   Output ~ 0
+Text GLabel 11600 2700 0    50   Output ~ 0
 DDR3_BA2
-Text GLabel 11600 3000 0    50   Output ~ 0
+Text GLabel 11600 2800 0    50   Output ~ 0
 DDR3_CS
-Text GLabel 11600 3500 0    50   Output ~ 0
+Text GLabel 11600 3000 0    50   Output ~ 0
 DDR3_CAS
-Text GLabel 11600 3800 0    50   Output ~ 0
+Text GLabel 11600 3400 0    50   Output ~ 0
 DDR3_RAS
-Text GLabel 11600 4200 0    50   Output ~ 0
-DDR3_WE
 Text GLabel 11600 3600 0    50   Output ~ 0
+DDR3_WE
+Text GLabel 11600 3300 0    50   Output ~ 0
 DDR3_ODT
-Text GLabel 11600 3200 0    50   BiDi ~ 0
+Text GLabel 11600 3500 0    50   BiDi ~ 0
 DDR3_DQ0
-Text GLabel 11600 6300 0    50   BiDi ~ 0
+Text GLabel 11600 5900 0    50   BiDi ~ 0
 DDR3_DQ1
-Text GLabel 11600 2700 0    50   BiDi ~ 0
+Text GLabel 11600 4300 0    50   BiDi ~ 0
 DDR3_DQ2
 Text GLabel 11600 6700 0    50   BiDi ~ 0
 DDR3_DQ3
-Text GLabel 11600 2400 0    50   BiDi ~ 0
+Text GLabel 11600 4100 0    50   BiDi ~ 0
 DDR3_DQ4
 Text GLabel 11600 6800 0    50   BiDi ~ 0
 DDR3_DQ5
-Text GLabel 11600 2800 0    50   BiDi ~ 0
+Text GLabel 11600 3200 0    50   BiDi ~ 0
 DDR3_DQ6
-Text GLabel 11600 6100 0    50   BiDi ~ 0
-DDR3_DQ7
-Text GLabel 11600 5600 0    50   BiDi ~ 0
-DDR3_DQ8
-Text GLabel 11600 4100 0    50   BiDi ~ 0
-DDR3_DQ9
-Text GLabel 11600 6500 0    50   BiDi ~ 0
-DDR3_DQ10
-Text GLabel 11600 3700 0    50   BiDi ~ 0
-DDR3_DQ11
 Text GLabel 11600 6600 0    50   BiDi ~ 0
+DDR3_DQ7
+Text GLabel 11600 6900 0    50   BiDi ~ 0
+DDR3_DQ8
+Text GLabel 11600 6000 0    50   BiDi ~ 0
+DDR3_DQ9
+Text GLabel 11600 6300 0    50   BiDi ~ 0
+DDR3_DQ10
+Text GLabel 11600 5700 0    50   BiDi ~ 0
+DDR3_DQ11
+Text GLabel 11600 6400 0    50   BiDi ~ 0
 DDR3_DQ12
-Text GLabel 11600 4400 0    50   BiDi ~ 0
+Text GLabel 11600 3900 0    50   BiDi ~ 0
 DDR3_DQ15
-Text GLabel 11600 6200 0    50   BiDi ~ 0
+Text GLabel 11600 5800 0    50   BiDi ~ 0
 DDR3_DM0
-Text GLabel 11600 5000 0    50   BiDi ~ 0
-DDR3_DM1
 Text GLabel 11600 4900 0    50   BiDi ~ 0
 DDR3_DQS0+
-Text GLabel 11600 3900 0    50   BiDi ~ 0
+Text GLabel 11600 5000 0    50   BiDi ~ 0
 DDR3_DQS0-
-Text GLabel 11600 5500 0    50   BiDi ~ 0
+Text GLabel 11600 6100 0    50   BiDi ~ 0
 DDR3_DQS1+
-Text GLabel 11600 5700 0    50   BiDi ~ 0
+Text GLabel 11600 6200 0    50   BiDi ~ 0
 DDR3_DQS1-
 Wire Wire Line
 	11600 3200 12000 3200
-Text GLabel 11600 4300 0    50   BiDi ~ 0
+Text GLabel 11600 5500 0    50   BiDi ~ 0
 DDR3_DQ13
-Text GLabel 11600 5800 0    50   BiDi ~ 0
+Text GLabel 11600 6500 0    50   BiDi ~ 0
 DDR3_DQ14
-Text GLabel 11600 4600 0    50   Output ~ 0
+Text GLabel 11600 4400 0    50   Output ~ 0
 DDR3_A14
 Text GLabel 1575 7600 2    50   Input ~ 0
 MMC_DAT0
@@ -2185,4 +2167,20 @@ Text GLabel 1225 9300 0    50   Input ~ 0
 MOSI_USB2
 Text GLabel 1225 9400 0    50   Input ~ 0
 GPX_USB2
+Text Notes 12975 8825 0    50   ~ 0
+Interfaces status:\nJTAG - needs pre-defined pins (BANK0)\nboot (Q)SPI - needs pre-defined pins (BANK14)\neSPI\nQSPI0, QSPI1\nSPI\nSGPIO0, SGPIO1\nUSB client, USB host\nPCIe x1 - needs to be connected to transreceivers\nI3C\nI2C\nNCS-I\nUART\nethernet\nDDR3 - uses B34 as in references
+Text Notes 15000 7750 0    50   ~ 10
+done
+Text Notes 15000 7850 0    50   ~ 10
+done
+Text GLabel 6375 3450 0    50   Input ~ 0
+QSPI0_CS1_N
+Text Notes 15000 8350 0    50   ~ 10
+done
+Text GLabel 11600 5600 0    50   BiDi ~ 0
+DDR3_DM1
+Text GLabel 11600 4000 0    50   Output ~ 0
+DDR3_BA1
+Text Notes 15000 8825 0    50   ~ 10
+done
 $EndSCHEMATC
