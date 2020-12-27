@@ -13,21 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L artix-dc-scm:543630489 J3
-U 1 1 6268C044
-P 8925 6775
-F 0 "J3" H 8950 6790 50  0000 C CNN
-F 1 "543630489" H 8950 6699 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:543630489" H 8675 4425 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C CNN
-	1    8925 6775
-	1    0    0    1   
-$EndComp
+Wire Wire Line
+	8725 6425 8225 6425
 Wire Wire Line
 	8725 6325 8225 6325
-Wire Wire Line
-	8725 6225 8225 6225
 Text GLabel 1950 2550 0    50   Input ~ 0
 QSPIA1_CS_N
 Text GLabel 1950 2850 0    50   Input ~ 0
@@ -1054,76 +1043,70 @@ Text Notes 1650 6400 0    50   ~ 0
 One or typically two flash devices used to contain the BMC firmware image
 Text Notes 1475 1475 0    50   ~ 0
 One or typically two flash devices used to contain the BIOS firmware image
-Text GLabel 8225 5225 0    50   Input ~ 0
-SPI_ROT_CLK
-Text GLabel 8225 5125 0    50   Input ~ 0
-SPI_ROT_CS_N
-Text GLabel 8225 5025 0    50   Input ~ 0
-SPI_ROT_MOSI
-Text GLabel 8225 4925 0    50   Input ~ 0
-SPI_ROT_MISO
+Wire Wire Line
+	8725 6225 8225 6225
 Wire Wire Line
 	8725 6125 8225 6125
-Wire Wire Line
-	8725 6025 8225 6025
-Text GLabel 8225 6125 0    50   Input ~ 0
-QSPIA1_CS_N
-Text GLabel 9675 5825 2    50   Input ~ 0
-QSPIA_CLK
-Text GLabel 8225 5925 0    50   Input ~ 0
-QSPIA1_D0
-Text GLabel 8225 6325 0    50   Input ~ 0
-QSPIA1_D2
-Text GLabel 8225 6025 0    50   Input ~ 0
-QSPIA1_D3
-Text GLabel 9675 6025 2    50   Input ~ 0
-QSPIA2_CS_N
-Text GLabel 9675 5725 2    50   Input ~ 0
-QSPIA2_D0
-Text GLabel 9675 6225 2    50   Input ~ 0
-QSPIA2_D2
-Text GLabel 9675 5925 2    50   Input ~ 0
-QSPIA2_D3
-Text GLabel 9675 5425 2    50   Input ~ 0
-QSPIB1_CS_N
-Text GLabel 9675 4725 2    50   Input ~ 0
-QSPIB_CLK
-Text GLabel 9675 5225 2    50   Input ~ 0
-QSPIB1_D0
-Text GLabel 9675 5625 2    50   Input ~ 0
-QSPIB1_D2
-Text GLabel 9675 5325 2    50   Input ~ 0
-QSPIB1_D3
-Text GLabel 9675 4925 2    50   Input ~ 0
-QSPIB2_CS_N
-Text GLabel 9675 4625 2    50   Input ~ 0
-QSPIB2_D0
-Text GLabel 9675 5125 2    50   Input ~ 0
-QSPIB2_D2
-Text GLabel 9675 4825 2    50   Input ~ 0
-QSPIB2_D3
 Text GLabel 8225 6225 0    50   Input ~ 0
-QSPIA1_D1
+QSPIA1_CS_N
+Text GLabel 9675 5925 2    50   Input ~ 0
+QSPIA_CLK
+Text GLabel 8225 6025 0    50   Input ~ 0
+QSPIA1_D0
+Text GLabel 8225 6425 0    50   Input ~ 0
+QSPIA1_D2
+Text GLabel 8225 6125 0    50   Input ~ 0
+QSPIA1_D3
 Text GLabel 9675 6125 2    50   Input ~ 0
-QSPIA2_D1
+QSPIA2_CS_N
+Text GLabel 9675 5825 2    50   Input ~ 0
+QSPIA2_D0
+Text GLabel 9675 6325 2    50   Input ~ 0
+QSPIA2_D2
+Text GLabel 9675 6025 2    50   Input ~ 0
+QSPIA2_D3
 Text GLabel 9675 5525 2    50   Input ~ 0
-QSPIB1_D1
+QSPIB1_CS_N
+Text GLabel 9675 4825 2    50   Input ~ 0
+QSPIB_CLK
+Text GLabel 9675 5325 2    50   Input ~ 0
+QSPIB1_D0
+Text GLabel 9675 5725 2    50   Input ~ 0
+QSPIB1_D2
+Text GLabel 9675 5425 2    50   Input ~ 0
+QSPIB1_D3
 Text GLabel 9675 5025 2    50   Input ~ 0
+QSPIB2_CS_N
+Text GLabel 9675 4725 2    50   Input ~ 0
+QSPIB2_D0
+Text GLabel 9675 5225 2    50   Input ~ 0
+QSPIB2_D2
+Text GLabel 9675 4925 2    50   Input ~ 0
+QSPIB2_D3
+Text GLabel 8225 6325 0    50   Input ~ 0
+QSPIA1_D1
+Text GLabel 9675 6225 2    50   Input ~ 0
+QSPIA2_D1
+Text GLabel 9675 5625 2    50   Input ~ 0
+QSPIB1_D1
+Text GLabel 9675 5125 2    50   Input ~ 0
 QSPIB2_D1
-Text GLabel 8225 5825 0    50   Input ~ 0
+Text GLabel 8225 5925 0    50   Input ~ 0
 QSPI0_CLK
-Text GLabel 8225 5725 0    50   Input ~ 0
+Text GLabel 8225 5825 0    50   Input ~ 0
 QSPI0_CS0_N
-Text GLabel 8225 5625 0    50   Input ~ 0
+Text GLabel 8225 5725 0    50   Input ~ 0
 QSPI0_D0
-Text GLabel 8225 5525 0    50   Input ~ 0
+Text GLabel 8225 5625 0    50   Input ~ 0
 QSPI0_D1
-Text GLabel 8225 5425 0    50   Input ~ 0
+Text GLabel 8225 5525 0    50   Input ~ 0
 QSPI0_D2
-Text GLabel 8225 5325 0    50   Input ~ 0
+Text GLabel 8225 5425 0    50   Input ~ 0
 QSPI0_D3
 Wire Wire Line
-	8225 5925 8725 5925
+	8225 6025 8725 6025
+Wire Wire Line
+	8725 5925 8225 5925
 Wire Wire Line
 	8725 5825 8225 5825
 Wire Wire Line
@@ -1131,9 +1114,7 @@ Wire Wire Line
 Wire Wire Line
 	8725 5625 8225 5625
 Wire Wire Line
-	8725 5525 8225 5525
-Wire Wire Line
-	8725 5325 8225 5325
+	8725 5425 8225 5425
 Wire Wire Line
 	8725 5225 8225 5225
 Wire Wire Line
@@ -1165,7 +1146,7 @@ Wire Wire Line
 Wire Wire Line
 	9175 4925 9675 4925
 Wire Wire Line
-	8725 5425 8225 5425
+	8725 5525 8225 5525
 Wire Wire Line
 	9675 6325 9175 6325
 Wire Wire Line
@@ -1293,23 +1274,33 @@ F 3 "" H 8225 6525 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	8725 6425 8725 6525
-Connection ~ 8725 6525
-Wire Wire Line
 	9175 6525 9775 6525
 Wire Wire Line
 	9175 6425 9175 6525
 Connection ~ 9175 6525
-Text GLabel 7250 3900 2    50   Input ~ 0
-ROT_QSPI_DQ0
-Text GLabel 7250 4000 2    50   Input ~ 0
-ROT_QSPI_DQ1
-Text GLabel 7250 4100 2    50   Input ~ 0
-ROT_QSPI_DQ2
-Text GLabel 7250 4200 2    50   Input ~ 0
-ROT_QSPI_DQ3
-Text GLabel 7250 4300 2    50   Input ~ 0
-ROT_QSPI_SCK
-Text GLabel 7250 4400 2    50   Input ~ 0
+$Comp
+L artix-dc-scm:543630489 J3
+U 1 1 6268C044
+P 8925 6775
+F 0 "J3" H 8950 6790 50  0000 C CNN
+F 1 "543630489" H 8950 6699 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:543630489" H 8675 4425 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C CNN
+	1    8925 6775
+	1    0    0    1   
+$EndComp
+Text GLabel 9675 4625 2    50   Input ~ 0
 FCS_B
+Text GLabel 8225 5325 0    50   Input ~ 0
+ROT_QSPI_SCK
+Text GLabel 8225 5225 0    50   Input ~ 0
+ROT_QSPI_DQ3
+Text GLabel 8225 5125 0    50   Input ~ 0
+ROT_QSPI_DQ2
+Text GLabel 8225 5025 0    50   Input ~ 0
+ROT_QSPI_DQ1
+Text GLabel 8225 4925 0    50   Input ~ 0
+ROT_QSPI_DQ0
+Wire Wire Line
+	8725 5325 8225 5325
 $EndSCHEMATC
