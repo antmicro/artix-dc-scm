@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3400 975  0    118  ~ 0
+Text Notes 3400 975  0    118  ~ 24
 Artix - Datacenter Secure Control Module (DC-SCM)
 $Sheet
 S 800  6400 1875 1025
