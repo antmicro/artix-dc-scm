@@ -14,85 +14,85 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	6250 2750 6375 2750
+	6250 2750 7025 2750
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C27
 U 1 1 5FD1CF34
-P 6525 2750
+P 7175 2750
 AR Path="/5FD1CF34" Ref="C27"  Part="1" 
 AR Path="/5FD17EF1/5FD1CF34" Ref="C27"  Part="1" 
-F 0 "C27" V 6475 2625 60  0000 C CNN
-F 1 "C_100n_0402" H 6525 2600 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 6725 2950 60  0001 L CNN
-F 3 "" H 6525 2750 50  0001 C CNN
-F 4 "Walsin" H 6725 3150 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 6725 3050 60  0001 L CNN "MPN"
-F 6 "100n" V 6575 2600 50  0000 C CNN "Val"
-	1    6525 2750
+F 0 "C27" V 7125 2625 60  0000 C CNN
+F 1 "C_100n_0402" H 7175 2600 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7375 2950 60  0001 L CNN
+F 3 "" H 7175 2750 50  0001 C CNN
+F 4 "Walsin" H 7375 3150 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7375 3050 60  0001 L CNN "MPN"
+F 6 "100n" V 7225 2600 50  0000 C CNN "Val"
+	1    7175 2750
 	0    -1   1    0   
 $EndComp
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C29
 U 1 1 5FD1DAE4
-P 6875 2850
+P 7475 2850
 AR Path="/5FD1DAE4" Ref="C29"  Part="1" 
 AR Path="/5FD17EF1/5FD1DAE4" Ref="C29"  Part="1" 
-F 0 "C29" V 6825 2700 60  0000 C CNN
-F 1 "C_100n_0402" H 6875 2700 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 7075 3050 60  0001 L CNN
-F 3 "" H 6875 2850 50  0001 C CNN
-F 4 "Walsin" H 7075 3250 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 7075 3150 60  0001 L CNN "MPN"
-F 6 "100n" V 6925 2675 50  0000 C CNN "Val"
-	1    6875 2850
+F 0 "C29" V 7425 2700 60  0000 C CNN
+F 1 "C_100n_0402" H 7475 2700 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7675 3050 60  0001 L CNN
+F 3 "" H 7475 2850 50  0001 C CNN
+F 4 "Walsin" H 7675 3250 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7675 3150 60  0001 L CNN "MPN"
+F 6 "100n" V 7525 2675 50  0000 C CNN "Val"
+	1    7475 2850
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6725 2850 6250 2850
+	7325 2850 6250 2850
 Wire Wire Line
-	6675 2750 7350 2750
+	7325 2750 7825 2750
 Wire Wire Line
-	7025 2850 7350 2850
+	7625 2850 7825 2850
 Wire Wire Line
-	6250 3350 6400 3350
+	6250 3350 7025 3350
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C28
 U 1 1 5FD279F6
-P 6550 3350
+P 7175 3350
 AR Path="/5FD279F6" Ref="C28"  Part="1" 
 AR Path="/5FD17EF1/5FD279F6" Ref="C28"  Part="1" 
-F 0 "C28" V 6500 3200 60  0000 C CNN
-F 1 "C_100n_0402" H 6550 3200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 6750 3550 60  0001 L CNN
-F 3 "" H 6550 3350 50  0001 C CNN
-F 4 "Walsin" H 6750 3750 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 6750 3650 60  0001 L CNN "MPN"
-F 6 "100n" V 6600 3200 50  0000 C CNN "Val"
-	1    6550 3350
+F 0 "C28" V 7125 3200 60  0000 C CNN
+F 1 "C_100n_0402" H 7175 3200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7375 3550 60  0001 L CNN
+F 3 "" H 7175 3350 50  0001 C CNN
+F 4 "Walsin" H 7375 3750 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7375 3650 60  0001 L CNN "MPN"
+F 6 "100n" V 7225 3200 50  0000 C CNN "Val"
+	1    7175 3350
 	0    -1   1    0   
 $EndComp
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C30
 U 1 1 5FD279FF
-P 6875 3450
+P 7475 3450
 AR Path="/5FD279FF" Ref="C30"  Part="1" 
 AR Path="/5FD17EF1/5FD279FF" Ref="C30"  Part="1" 
-F 0 "C30" V 6825 3275 60  0000 C CNN
-F 1 "C_100n_0402" H 6875 3300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 7075 3650 60  0001 L CNN
-F 3 "" H 6875 3450 50  0001 C CNN
-F 4 "Walsin" H 7075 3850 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 7075 3750 60  0001 L CNN "MPN"
-F 6 "100n" V 6925 3250 50  0000 C CNN "Val"
-	1    6875 3450
+F 0 "C30" V 7425 3275 60  0000 C CNN
+F 1 "C_100n_0402" H 7475 3300 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7675 3650 60  0001 L CNN
+F 3 "" H 7475 3450 50  0001 C CNN
+F 4 "Walsin" H 7675 3850 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7675 3750 60  0001 L CNN "MPN"
+F 6 "100n" V 7525 3250 50  0000 C CNN "Val"
+	1    7475 3450
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6725 3450 6250 3450
+	7325 3450 6250 3450
 Wire Wire Line
-	6700 3350 7350 3350
+	7325 3350 7825 3350
 Wire Wire Line
-	7025 3450 7350 3450
+	7625 3450 7825 3450
 Wire Wire Line
 	3475 2550 4650 2550
 Wire Wire Line
@@ -254,17 +254,17 @@ Wire Wire Line
 Text GLabel 4550 1500 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	6775 2450 6250 2450
+	7825 2450 6250 2450
 Wire Wire Line
-	6775 2550 6250 2550
+	7825 2550 6250 2550
 Wire Wire Line
-	6775 3050 6250 3050
+	7825 3050 6250 3050
 Wire Wire Line
-	6775 3150 6250 3150
+	7825 3150 6250 3150
 Wire Wire Line
-	6775 3650 6250 3650
+	7825 3650 6250 3650
 Wire Wire Line
-	6775 3750 6250 3750
+	7825 3750 6250 3750
 Wire Wire Line
 	6250 1850 6325 1850
 Wire Wire Line
@@ -494,82 +494,82 @@ NoConn ~ 4650 2450
 NoConn ~ 4650 1950
 NoConn ~ 6250 1950
 NoConn ~ 6250 2050
-Text GLabel 6775 3050 2    50   Input ~ 0
+Text GLabel 7825 3050 2    50   Input ~ 0
 PCIE_HPM_RX[0]_P
-Text GLabel 6775 3150 2    50   Input ~ 0
+Text GLabel 7825 3150 2    50   Input ~ 0
 PCIE_HPM_RX[0]_N
-Text GLabel 7350 2750 2    50   Input ~ 0
+Text GLabel 7825 2750 2    50   Input ~ 0
 PCIE_HPM_TX[0]_P
-Text GLabel 7350 2850 2    50   Input ~ 0
+Text GLabel 7825 2850 2    50   Input ~ 0
 PCIE_HPM_TX[0]_N
-Text GLabel 6775 3650 2    50   Input ~ 0
+Text GLabel 7825 3650 2    50   Input ~ 0
 PCIE_HPM_RX[1]_P
-Text GLabel 6775 3750 2    50   Input ~ 0
+Text GLabel 7825 3750 2    50   Input ~ 0
 PCIE_HPM_RX[1]_N
-Text GLabel 6775 4850 2    50   Input ~ 0
+Text GLabel 7825 4850 2    50   Input ~ 0
 PCIE_HPM_RX[3]_P
-Text GLabel 6775 4950 2    50   Input ~ 0
+Text GLabel 7825 4950 2    50   Input ~ 0
 PCIE_HPM_RX[3]_N
-Text GLabel 7350 3350 2    50   Input ~ 0
+Text GLabel 7825 3350 2    50   Input ~ 0
 PCIE_HPM_TX[1]_P
-Text GLabel 7350 3450 2    50   Input ~ 0
+Text GLabel 7825 3450 2    50   Input ~ 0
 PCIE_HPM_TX[1]_N
-Text GLabel 7350 3950 2    50   Input ~ 0
+Text GLabel 7825 3950 2    50   Input ~ 0
 PCIE_HPM_TX[2]_P
-Text GLabel 7350 4050 2    50   Input ~ 0
+Text GLabel 7825 4050 2    50   Input ~ 0
 PCIE_HPM_TX[2]_N
-Text GLabel 7350 4550 2    50   Input ~ 0
+Text GLabel 7825 4550 2    50   Input ~ 0
 PCIE_HPM_TX[3]_P
-Text GLabel 7350 4650 2    50   Input ~ 0
+Text GLabel 7825 4650 2    50   Input ~ 0
 PCIE_HPM_TX[3]_N
 Wire Wire Line
-	6250 3950 6400 3950
+	6250 3950 6975 3950
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C179
 U 1 1 5FFDF949
-P 6550 3950
+P 7125 3950
 AR Path="/5FFDF949" Ref="C179"  Part="1" 
 AR Path="/5FD17EF1/5FFDF949" Ref="C179"  Part="1" 
-F 0 "C179" V 6500 3775 60  0000 C CNN
-F 1 "C_100n_0402" H 6550 3800 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 6750 4150 60  0001 L CNN
-F 3 "" H 6550 3950 50  0001 C CNN
-F 4 "Walsin" H 6750 4350 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 6750 4250 60  0001 L CNN "MPN"
-F 6 "100n" V 6600 3775 50  0000 C CNN "Val"
-	1    6550 3950
+F 0 "C179" V 7075 3775 60  0000 C CNN
+F 1 "C_100n_0402" H 7125 3800 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7325 4150 60  0001 L CNN
+F 3 "" H 7125 3950 50  0001 C CNN
+F 4 "Walsin" H 7325 4350 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7325 4250 60  0001 L CNN "MPN"
+F 6 "100n" V 7175 3775 50  0000 C CNN "Val"
+	1    7125 3950
 	0    -1   1    0   
 $EndComp
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C181
 U 1 1 5FFDF952
-P 6925 4050
+P 7450 4050
 AR Path="/5FFDF952" Ref="C181"  Part="1" 
 AR Path="/5FD17EF1/5FFDF952" Ref="C181"  Part="1" 
-F 0 "C181" V 6875 3875 60  0000 C CNN
-F 1 "C_100n_0402" H 6925 3900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 7125 4250 60  0001 L CNN
-F 3 "" H 6925 4050 50  0001 C CNN
-F 4 "Walsin" H 7125 4450 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 7125 4350 60  0001 L CNN "MPN"
-F 6 "100n" V 6975 3875 50  0000 C CNN "Val"
-	1    6925 4050
+F 0 "C181" V 7400 3875 60  0000 C CNN
+F 1 "C_100n_0402" H 7450 3900 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7650 4250 60  0001 L CNN
+F 3 "" H 7450 4050 50  0001 C CNN
+F 4 "Walsin" H 7650 4450 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7650 4350 60  0001 L CNN "MPN"
+F 6 "100n" V 7500 3875 50  0000 C CNN "Val"
+	1    7450 4050
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6775 4050 6250 4050
+	7300 4050 6250 4050
 Wire Wire Line
-	6700 3950 7350 3950
+	7275 3950 7825 3950
 Wire Wire Line
-	7075 4050 7350 4050
-Text GLabel 7350 4350 2    50   Input ~ 0
+	7600 4050 7825 4050
+Text GLabel 7825 4350 2    50   Input ~ 0
 PCIE_HPM_RX[2]_N
-Text GLabel 7350 4250 2    50   Input ~ 0
+Text GLabel 7825 4250 2    50   Input ~ 0
 PCIE_HPM_RX[2]_P
 Wire Wire Line
-	7350 4250 6250 4250
+	7825 4250 6250 4250
 Wire Wire Line
-	7350 4350 6250 4350
+	7825 4350 6250 4350
 $Comp
 L artix-dc-scm:1-2199230-6 J2
 U 1 1 5FD380A4
@@ -584,52 +584,52 @@ F 5 "1-2199230-6" H 5450 6376 50  0000 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6775 4850 6250 4850
+	7825 4850 6250 4850
 Wire Wire Line
-	6775 4950 6250 4950
+	7825 4950 6250 4950
 Wire Wire Line
-	6250 4550 6400 4550
+	6250 4550 6975 4550
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C180
 U 1 1 60013CBE
-P 6550 4550
+P 7125 4550
 AR Path="/60013CBE" Ref="C180"  Part="1" 
 AR Path="/5FD17EF1/60013CBE" Ref="C180"  Part="1" 
-F 0 "C180" V 6500 4375 60  0000 C CNN
-F 1 "C_100n_0402" H 6550 4400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 6750 4750 60  0001 L CNN
-F 3 "" H 6550 4550 50  0001 C CNN
-F 4 "Walsin" H 6750 4950 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 6750 4850 60  0001 L CNN "MPN"
-F 6 "100n" V 6600 4375 50  0000 C CNN "Val"
-	1    6550 4550
+F 0 "C180" V 7075 4375 60  0000 C CNN
+F 1 "C_100n_0402" H 7125 4400 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7325 4750 60  0001 L CNN
+F 3 "" H 7125 4550 50  0001 C CNN
+F 4 "Walsin" H 7325 4950 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7325 4850 60  0001 L CNN "MPN"
+F 6 "100n" V 7175 4375 50  0000 C CNN "Val"
+	1    7125 4550
 	0    -1   1    0   
 $EndComp
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C182
 U 1 1 60013CC7
-P 6950 4650
+P 7450 4650
 AR Path="/60013CC7" Ref="C182"  Part="1" 
 AR Path="/5FD17EF1/60013CC7" Ref="C182"  Part="1" 
-F 0 "C182" V 6900 4450 60  0000 C CNN
-F 1 "C_100n_0402" H 6950 4500 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 7150 4850 60  0001 L CNN
-F 3 "" H 6950 4650 50  0001 C CNN
-F 4 "Walsin" H 7150 5050 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 7150 4950 60  0001 L CNN "MPN"
-F 6 "100n" V 7000 4450 50  0000 C CNN "Val"
-	1    6950 4650
+F 0 "C182" V 7400 4450 60  0000 C CNN
+F 1 "C_100n_0402" H 7450 4500 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7650 4850 60  0001 L CNN
+F 3 "" H 7450 4650 50  0001 C CNN
+F 4 "Walsin" H 7650 5050 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7650 4950 60  0001 L CNN "MPN"
+F 6 "100n" V 7500 4450 50  0000 C CNN "Val"
+	1    7450 4650
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6800 4650 6250 4650
+	7300 4650 6250 4650
 Wire Wire Line
-	6700 4550 7350 4550
+	7275 4550 7825 4550
 Wire Wire Line
-	7100 4650 7350 4650
-Text GLabel 6775 2450 2    50   Input ~ 0
+	7600 4650 7825 4650
+Text GLabel 7825 2450 2    50   Input ~ 0
 PCIE_HPM_CLK_P
-Text GLabel 6775 2550 2    50   Input ~ 0
+Text GLabel 7825 2550 2    50   Input ~ 0
 PCIE_HPM_CLK_N
 Text GLabel 3675 2750 0    50   Input ~ 0
 PRSNT1_N
@@ -685,4 +685,20 @@ $EndComp
 NoConn ~ 7000 5475
 Text Notes 625  800  0    118  ~ 24
 NVMe SSD
+Text Label 6400 2750 0    50   ~ 0
+PCIE_HPM_TX0_C_P
+Text Label 6400 2850 0    50   ~ 0
+PCIE_HPM_TX0_C_N
+Text Label 6375 3450 0    50   ~ 0
+PCIE_HPM_TX1_C_N
+Text Label 6375 4050 0    50   ~ 0
+PCIE_HPM_TX2_C_N
+Text Label 6350 4650 0    50   ~ 0
+PCIE_HPM_TX3_C_N
+Text Label 6375 3350 0    50   ~ 0
+PCIE_HPM_TX1_C_P
+Text Label 6375 3950 0    50   ~ 0
+PCIE_HPM_TX2_C_P
+Text Label 6375 4550 0    50   ~ 0
+PCIE_HPM_TX3_C_P
 $EndSCHEMATC
