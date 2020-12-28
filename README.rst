@@ -29,7 +29,7 @@ Key Features
 * QSPI FLASH memory
 * Ethernet RJ45 connector with 100BASE-T transciever
 * JTAG connector compatible with Xilinx Platform Cable
-* M.2 connector with PCIe x1 Gen2 interface
+* M.2 NVMe interface
 * 13 I2C buses, 4 I3C buses
 * dual UART 
 * SPI connector
