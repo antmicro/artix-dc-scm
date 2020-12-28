@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antmicroInterfaceDriversReceiversTransceivers:DP83848JSQ_NOPB U?
+L artix-dc-scm:DP83848JSQ_NOPB U?
 U 1 1 5FEA8148
 P 6175 5250
 AR Path="/5FE270C1/5FEA8148" Ref="U?"  Part="1" 
 AR Path="/60570C04/5FEA8148" Ref="U1"  Part="1" 
 F 0 "U1" H 5225 6900 50  0000 C CNN
 F 1 "DP83848JSQ_NOPB" H 5525 3550 50  0000 C CNN
-F 2 "antmicro-footprints:DP83848JSQ-NOPB" H 6225 7050 50  0001 L BNN
+F 2 "artix-dc-scm-footprints:DP83848JSQ-NOPB" H 6225 7050 50  0001 L BNN
 F 3 "APR 2015" H 6875 7150 50  0001 L BNN
 F 4 "Texas Instruments" H 6525 7200 50  0001 L BNN "Field4"
 F 5 "Manufacturer Recommendation" H 6225 7300 50  0001 L BNN "Field5"
@@ -274,14 +274,14 @@ ETH_REF_CLK
 Wire Wire Line
 	9675 6275 9675 6375
 $Comp
-L antmicroCrystals:ABM8G-25.000MHZ-18-D2Y-T Y?
+L artix-dc-scm:ABM8G-25.000MHZ-18-D2Y-T Y?
 U 1 1 5FEA81D6
 P 9325 5900
 AR Path="/5FE270C1/5FEA81D6" Ref="Y?"  Part="1" 
 AR Path="/60570C04/5FEA81D6" Ref="Y2"  Part="1" 
 F 0 "Y2" H 9225 6100 31  0000 L CNN
 F 1 "ABM8G-25.000MHZ-18-D2Y-T" H 9450 5950 31  0000 L CNN
-F 2 "antmicro-footprints:KX-7" H 11425 5900 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:KX-7" H 11425 5900 50  0001 C CNN
 F 3 "" H 11525 6000 50  0001 C CNN
 F 4 "ABM8G-25.000MHZ-18-D2Y-T" H 9425 5850 31  0001 L CNN "MPN"
 F 5 "Abracon" H 9450 5800 31  0001 L CNN "Manufacturer"
@@ -374,14 +374,14 @@ PFBOUT
 Wire Wire Line
 	4700 2925 5300 2925
 $Comp
-L antmicroFerriteBeadsandChips:MPZ2012S601AT000 FB?
+L artix-dc-scm:MPZ2012S601AT000 FB?
 U 1 1 5FEA824F
 P 7050 3550
 AR Path="/5FE270C1/5FEA824F" Ref="FB?"  Part="1" 
 AR Path="/60570C04/5FEA824F" Ref="FB2"  Part="1" 
 F 0 "FB2" V 6900 3575 60  0000 L CNN
 F 1 "MPZ2012S601AT000" V 7225 3575 60  0000 L CNN
-F 2 "antmicro-footprints:0805-res" H 7250 3750 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0805-res" H 7250 3750 60  0001 L CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" H 7250 3850 60  0001 L CNN
 F 4 "MPZ2012S601AT000" H 7250 4050 60  0001 L CNN "MPN"
 F 5 "TDK Corporation" H 7250 4650 60  0001 L CNN "Manufacturer"
@@ -416,14 +416,14 @@ Ethernet transceiver
 Wire Wire Line
 	6575 5750 8975 5750
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L artix-dc-scm:C_10u_0603 C?
 U 1 1 5FEA826A
 P 7425 3150
 AR Path="/5FE270C1/5FEA826A" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA826A" Ref="C6"  Part="1" 
 F 0 "C6" H 7540 3195 60  0000 L CNN
 F 1 "C_10u_0603" H 7425 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 7625 3350 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 7625 3350 60  0001 L CNN
 F 3 "" H 7425 3150 50  0001 C CNN
 F 4 "Murata" H 7625 3550 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R61A106KE69D" H 7625 3450 60  0001 L CNN "MPN"
@@ -432,7 +432,7 @@ F 6 "10u" H 7540 3097 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FEA8270
 P 7425 3400
 AR Path="/5FE270C1/5FEA8270" Ref="#PWR?"  Part="1" 
@@ -445,14 +445,14 @@ F 3 "" H 7425 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L artix-dc-scm:C_10u_0603 C?
 U 1 1 5FEA8279
 P 7425 4150
 AR Path="/5FE270C1/5FEA8279" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA8279" Ref="C7"  Part="1" 
 F 0 "C7" H 7540 4195 60  0000 L CNN
 F 1 "C_10u_0603" H 7425 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 7625 4350 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 7625 4350 60  0001 L CNN
 F 3 "" H 7425 4150 50  0001 C CNN
 F 4 "Murata" H 7625 4550 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R61A106KE69D" H 7625 4450 60  0001 L CNN "MPN"
@@ -461,14 +461,14 @@ F 6 "10u" H 7540 4097 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L artix-dc-scm:C_1u_0402 C?
 U 1 1 5FEA8282
 P 7775 4150
 AR Path="/5FE270C1/5FEA8282" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA8282" Ref="C8"  Part="1" 
 F 0 "C8" H 7890 4195 60  0000 L CNN
 F 1 "C_1u_0402" H 7775 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7975 4350 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7975 4350 60  0001 L CNN
 F 3 "" H 7775 4150 50  0001 C CNN
 F 4 "TDK" H 7975 4550 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 7975 4450 60  0001 L CNN "MPN"
@@ -477,14 +477,14 @@ F 6 "1u" H 7890 4097 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402 C?
 U 1 1 5FEA828B
 P 8125 4150
 AR Path="/5FE270C1/5FEA828B" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA828B" Ref="C9"  Part="1" 
 F 0 "C9" H 8240 4195 60  0000 L CNN
 F 1 "C_100n_0402" H 8125 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8325 4350 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 8325 4350 60  0001 L CNN
 F 3 "" H 8125 4150 50  0001 C CNN
 F 4 "Walsin" H 8325 4550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8325 4450 60  0001 L CNN "MPN"
@@ -493,14 +493,14 @@ F 6 "100n" H 8240 4097 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402 C?
 U 1 1 5FEA8294
 P 8475 4150
 AR Path="/5FE270C1/5FEA8294" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA8294" Ref="C10"  Part="1" 
 F 0 "C10" H 8590 4195 60  0000 L CNN
 F 1 "C_100n_0402" H 8475 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8675 4350 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 8675 4350 60  0001 L CNN
 F 3 "" H 8475 4150 50  0001 C CNN
 F 4 "Walsin" H 8675 4550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8675 4450 60  0001 L CNN "MPN"
@@ -509,7 +509,7 @@ F 6 "100n" H 8590 4097 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FEA829A
 P 8475 4650
 AR Path="/5FE270C1/5FEA829A" Ref="#PWR?"  Part="1" 
@@ -522,14 +522,14 @@ F 3 "" H 8475 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_1k5_0402 R?
+L artix-dc-scm:R_1k5_0402 R?
 U 1 1 5FEA82A3
 P 7675 6250
 AR Path="/5FE270C1/5FEA82A3" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA82A3" Ref="R10"  Part="1" 
 F 0 "R10" H 7675 6463 60  0000 C CNN
 F 1 "R_1k5_0402" H 7675 6100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7875 6450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 7875 6450 60  0001 L CNN
 F 3 "" H 7675 6250 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 7875 6650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1501X" H 7875 6550 60  0001 L CNN "MPN"
@@ -538,7 +538,7 @@ F 6 "1k5" H 7675 6365 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FEA82A9
 P 6725 7050
 AR Path="/5FE270C1/5FEA82A9" Ref="#PWR?"  Part="1" 
@@ -551,7 +551,7 @@ F 3 "" H 6725 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FEA82AF
 P 8975 6550
 AR Path="/5FE270C1/5FEA82AF" Ref="#PWR?"  Part="1" 
@@ -564,14 +564,14 @@ F 3 "" H 8975 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L artix-dc-scm:R_0R_0402 R?
 U 1 1 5FEA82B8
 P 10125 5650
 AR Path="/5FE270C1/5FEA82B8" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA82B8" Ref="R11"  Part="1" 
 F 0 "R11" H 10125 5863 60  0000 C CNN
 F 1 "R_0R_0402" H 10125 5500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10325 5850 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 10325 5850 60  0001 L CNN
 F 3 "" H 10125 5650 50  0001 C CNN
 F 4 "PANASONIC" H 10325 6050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 10325 5950 60  0001 L CNN "MPN"
@@ -580,14 +580,14 @@ F 6 "0R" H 10125 5765 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_27p_0402 C?
+L artix-dc-scm:C_27p_0402 C?
 U 1 1 5FEA82C1
 P 9675 6125
 AR Path="/5FE270C1/5FEA82C1" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA82C1" Ref="C12"  Part="1" 
 F 0 "C12" H 9790 6170 60  0000 L CNN
 F 1 "C_27p_0402" H 9675 5975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9875 6325 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 9875 6325 60  0001 L CNN
 F 3 "" H 9675 6125 50  0001 C CNN
 F 4 "WALSIN" H 9875 6525 60  0001 L CNN "Manufacturer"
 F 5 "0402N270J500CT" H 9875 6425 60  0001 L CNN "MPN"
@@ -596,14 +596,14 @@ F 6 "27p" H 9790 6072 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_27p_0402 C?
+L artix-dc-scm:C_27p_0402 C?
 U 1 1 5FEA82CA
 P 8975 6125
 AR Path="/5FE270C1/5FEA82CA" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA82CA" Ref="C11"  Part="1" 
 F 0 "C11" H 9090 6170 60  0000 L CNN
 F 1 "C_27p_0402" H 8975 5975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9175 6325 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 9175 6325 60  0001 L CNN
 F 3 "" H 8975 6125 50  0001 C CNN
 F 4 "WALSIN" H 9175 6525 60  0001 L CNN "Manufacturer"
 F 5 "0402N270J500CT" H 9175 6425 60  0001 L CNN "MPN"
@@ -612,14 +612,14 @@ F 6 "27p" H 9090 6072 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L artix-dc-scm:C_10u_0603 C?
 U 1 1 5FEA82D3
 P 3600 3200
 AR Path="/5FE270C1/5FEA82D3" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA82D3" Ref="C2"  Part="1" 
 F 0 "C2" H 3715 3245 60  0000 L CNN
 F 1 "C_10u_0603" H 3600 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 3800 3400 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 3800 3400 60  0001 L CNN
 F 3 "" H 3600 3200 50  0001 C CNN
 F 4 "Murata" H 3800 3600 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R61A106KE69D" H 3800 3500 60  0001 L CNN "MPN"
@@ -628,7 +628,7 @@ F 6 "10u" H 3715 3147 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FEA82D9
 P 4425 3600
 AR Path="/5FE270C1/5FEA82D9" Ref="#PWR?"  Part="1" 
@@ -641,14 +641,14 @@ F 3 "" H 4425 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402 C?
 U 1 1 5FEA82E2
 P 3875 3200
 AR Path="/5FE270C1/5FEA82E2" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA82E2" Ref="C3"  Part="1" 
 F 0 "C3" H 3990 3245 60  0000 L CNN
 F 1 "C_100n_0402" H 3875 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4075 3400 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 4075 3400 60  0001 L CNN
 F 3 "" H 3875 3200 50  0001 C CNN
 F 4 "Walsin" H 4075 3600 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4075 3500 60  0001 L CNN "MPN"
@@ -657,14 +657,14 @@ F 6 "100n" H 3990 3147 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402 C?
 U 1 1 5FEA82EB
 P 4150 3200
 AR Path="/5FE270C1/5FEA82EB" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA82EB" Ref="C4"  Part="1" 
 F 0 "C4" H 4265 3245 60  0000 L CNN
 F 1 "C_100n_0402" H 4150 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4350 3400 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 4350 3400 60  0001 L CNN
 F 3 "" H 4150 3200 50  0001 C CNN
 F 4 "Walsin" H 4350 3600 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4350 3500 60  0001 L CNN "MPN"
@@ -675,14 +675,14 @@ $EndComp
 Wire Wire Line
 	4425 3450 4425 3350
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402 C?
 U 1 1 5FEA82F5
 P 4425 3200
 AR Path="/5FE270C1/5FEA82F5" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA82F5" Ref="C5"  Part="1" 
 F 0 "C5" H 4540 3245 60  0000 L CNN
 F 1 "C_100n_0402" H 4425 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4625 3400 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 4625 3400 60  0001 L CNN
 F 3 "" H 4425 3200 50  0001 C CNN
 F 4 "Walsin" H 4625 3600 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4625 3500 60  0001 L CNN "MPN"
@@ -691,7 +691,7 @@ F 6 "100n" H 4540 3147 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FEA82FB
 P 2525 3775
 AR Path="/5FE270C1/5FEA82FB" Ref="#PWR?"  Part="1" 
@@ -704,14 +704,14 @@ F 3 "" H 2525 3775 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k2_0402 R?
+L artix-dc-scm:R_2k2_0402 R?
 U 1 1 5FEA8304
 P 2975 4425
 AR Path="/5FE270C1/5FEA8304" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA8304" Ref="R3"  Part="1" 
 F 0 "R3" V 2930 4495 60  0000 L CNN
 F 1 "R_2k2_0402" H 2975 4275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3175 4625 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 3175 4625 60  0001 L CNN
 F 3 "" H 2975 4425 50  0001 C CNN
 F 4 "YAGEO" H 3175 4825 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 3175 4725 60  0001 L CNN "MPN"
@@ -720,14 +720,14 @@ F 6 "2k2" V 3028 4495 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k2_0402 R?
+L artix-dc-scm:R_2k2_0402 R?
 U 1 1 5FEA830E
 P 3250 4425
 AR Path="/5FE270C1/5FEA830E" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA830E" Ref="R4"  Part="1" 
 F 0 "R4" V 3159 4495 60  0000 L CNN
 F 1 "R_2k2_0402" H 3250 4275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3450 4625 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 3450 4625 60  0001 L CNN
 F 3 "" H 3250 4425 50  0001 C CNN
 F 4 "YAGEO" H 3450 4825 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 3450 4725 60  0001 L CNN "MPN"
@@ -737,14 +737,14 @@ F 7 "DNP" V 3348 4495 50  0000 L CNN "Populate"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k2_0402 R?
+L artix-dc-scm:R_2k2_0402 R?
 U 1 1 5FEA8318
 P 3450 4425
 AR Path="/5FE270C1/5FEA8318" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA8318" Ref="R5"  Part="1" 
 F 0 "R5" V 3359 4495 60  0000 L CNN
 F 1 "R_2k2_0402" H 3450 4275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3650 4625 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 3650 4625 60  0001 L CNN
 F 3 "" H 3450 4425 50  0001 C CNN
 F 4 "YAGEO" H 3650 4825 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 3650 4725 60  0001 L CNN "MPN"
@@ -754,14 +754,14 @@ F 7 "DNP" V 3548 4495 50  0000 L CNN "Populate"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k2_0402 R?
+L artix-dc-scm:R_2k2_0402 R?
 U 1 1 5FEA8322
 P 3650 4425
 AR Path="/5FE270C1/5FEA8322" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA8322" Ref="R6"  Part="1" 
 F 0 "R6" V 3559 4495 60  0000 L CNN
 F 1 "R_2k2_0402" H 3650 4275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3850 4625 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 3850 4625 60  0001 L CNN
 F 3 "" H 3650 4425 50  0001 C CNN
 F 4 "YAGEO" H 3850 4825 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 3850 4725 60  0001 L CNN "MPN"
@@ -771,14 +771,14 @@ F 7 "DNP" V 3748 4495 50  0000 L CNN "Populate"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k2_0402 R?
+L artix-dc-scm:R_2k2_0402 R?
 U 1 1 5FEA832C
 P 3850 4425
 AR Path="/5FE270C1/5FEA832C" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA832C" Ref="R7"  Part="1" 
 F 0 "R7" V 3759 4495 60  0000 L CNN
 F 1 "R_2k2_0402" H 3850 4275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4050 4625 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4050 4625 60  0001 L CNN
 F 3 "" H 3850 4425 50  0001 C CNN
 F 4 "YAGEO" H 4050 4825 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 4050 4725 60  0001 L CNN "MPN"
@@ -788,7 +788,7 @@ F 7 "DNP" V 3948 4495 50  0000 L CNN "Populate"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FEA8332
 P 4250 4650
 AR Path="/5FE270C1/5FEA8332" Ref="#PWR?"  Part="1" 
@@ -801,14 +801,14 @@ F 3 "" H 4250 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_4k87_0402 R?
+L artix-dc-scm:R_4k87_0402 R?
 U 1 1 5FEA833B
 P 4575 4650
 AR Path="/5FE270C1/5FEA833B" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA833B" Ref="R8"  Part="1" 
 F 0 "R8" H 4575 4863 60  0000 C CNN
 F 1 "R_4k87_0402" H 4575 4500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4775 4850 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4775 4850 60  0001 L CNN
 F 3 "" H 4575 4650 50  0001 C CNN
 F 4 "VISHAY" H 4775 5050 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04024K87FKED" H 4775 4950 60  0001 L CNN "MPN"
@@ -817,14 +817,14 @@ F 6 "4k87" H 4575 4765 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FEA8344
 P 4600 4450
 AR Path="/5FE270C1/5FEA8344" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA8344" Ref="R9"  Part="1" 
 F 0 "R9" H 4600 4663 60  0000 C CNN
 F 1 "R_10k_0402" H 4600 4300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4800 4650 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4800 4650 60  0001 L CNN
 F 3 "" H 4600 4450 50  0001 C CNN
 F 4 "VISHAY" H 4800 4850 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4800 4750 60  0001 L CNN "MPN"
@@ -833,7 +833,7 @@ F 6 "10k" H 4600 4565 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FEA838F
 P 7875 3050
 AR Path="/5FE270C1/5FEA838F" Ref="#PWR?"  Part="1" 
@@ -846,14 +846,14 @@ F 3 "" H 7875 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402 C?
 U 1 1 5FEA8389
 P 7875 2900
 AR Path="/5FE270C1/5FEA8389" Ref="C?"  Part="1" 
 AR Path="/60570C04/5FEA8389" Ref="C13"  Part="1" 
 F 0 "C13" H 7760 2855 60  0000 R CNN
 F 1 "C_100n_0402" H 7875 2750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8075 3100 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 8075 3100 60  0001 L CNN
 F 3 "" H 7875 2900 50  0001 C CNN
 F 4 "Walsin" H 8075 3300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8075 3200 60  0001 L CNN "MPN"
@@ -862,14 +862,14 @@ F 6 "100n" H 7760 2953 50  0000 R CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroResistors0402:R_49R9_0402 R?
+L artix-dc-scm:R_49R9_0402 R?
 U 1 1 5FEA8380
 P 10450 3050
 AR Path="/5FE270C1/5FEA8380" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA8380" Ref="R127"  Part="1" 
 F 0 "R127" V 10405 3120 60  0000 L CNN
 F 1 "R_49R9_0402" H 10450 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10650 3250 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 10650 3250 60  0001 L CNN
 F 3 "" H 10450 3050 50  0001 C CNN
 F 4 "VISHAY" H 10650 3450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 10650 3350 60  0001 L CNN "MPN"
@@ -878,14 +878,14 @@ F 6 "49R9" V 10503 3120 50  0000 L CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_49R9_0402 R?
+L artix-dc-scm:R_49R9_0402 R?
 U 1 1 5FEA8377
 P 10600 3050
 AR Path="/5FE270C1/5FEA8377" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA8377" Ref="R16"  Part="1" 
 F 0 "R16" V 10555 3120 60  0000 L CNN
 F 1 "R_49R9_0402" H 10600 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10800 3250 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 10800 3250 60  0001 L CNN
 F 3 "" H 10600 3050 50  0001 C CNN
 F 4 "VISHAY" H 10800 3450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 10800 3350 60  0001 L CNN "MPN"
@@ -894,14 +894,14 @@ F 6 "49R9" V 10653 3120 50  0000 L CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_49R9_0402 R?
+L artix-dc-scm:R_49R9_0402 R?
 U 1 1 5FEA836E
 P 10750 3050
 AR Path="/5FE270C1/5FEA836E" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA836E" Ref="R15"  Part="1" 
 F 0 "R15" V 10705 3120 60  0000 L CNN
 F 1 "R_49R9_0402" H 10750 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10950 3250 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 10950 3250 60  0001 L CNN
 F 3 "" H 10750 3050 50  0001 C CNN
 F 4 "VISHAY" H 10950 3450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 10950 3350 60  0001 L CNN "MPN"
@@ -910,14 +910,14 @@ F 6 "49R9" V 10803 3120 50  0000 L CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_49R9_0402 R?
+L artix-dc-scm:R_49R9_0402 R?
 U 1 1 5FEA8365
 P 10900 3050
 AR Path="/5FE270C1/5FEA8365" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA8365" Ref="R14"  Part="1" 
 F 0 "R14" V 10855 3120 60  0000 L CNN
 F 1 "R_49R9_0402" H 10900 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11100 3250 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 11100 3250 60  0001 L CNN
 F 3 "" H 10900 3050 50  0001 C CNN
 F 4 "VISHAY" H 11100 3450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 11100 3350 60  0001 L CNN "MPN"
@@ -926,14 +926,14 @@ F 6 "49R9" V 10953 3120 50  0000 L CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_220R_0402 R?
+L artix-dc-scm:R_220R_0402 R?
 U 1 1 5FEA835C
 P 11650 3050
 AR Path="/5FE270C1/5FEA835C" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA835C" Ref="R12"  Part="1" 
 F 0 "R12" H 11650 3263 60  0000 C CNN
 F 1 "R_220R_0402" H 11650 2900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11850 3250 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 11850 3250 60  0001 L CNN
 F 3 "" H 11650 3050 50  0001 C CNN
 F 4 "Panasonic" H 11850 3450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ221X" H 11850 3350 60  0001 L CNN "MPN"
@@ -942,14 +942,14 @@ F 6 "220R" H 11650 3165 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_220R_0402 R?
+L artix-dc-scm:R_220R_0402 R?
 U 1 1 5FEA8353
 P 11650 4150
 AR Path="/5FE270C1/5FEA8353" Ref="R?"  Part="1" 
 AR Path="/60570C04/5FEA8353" Ref="R13"  Part="1" 
 F 0 "R13" H 11650 4363 60  0000 C CNN
 F 1 "R_220R_0402" H 11650 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11850 4350 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 11850 4350 60  0001 L CNN
 F 3 "" H 11650 4150 50  0001 C CNN
 F 4 "Panasonic" H 11850 4550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ221X" H 11850 4450 60  0001 L CNN "MPN"
@@ -978,18 +978,6 @@ TXP
 Text Notes 12325 2000 2    118  ~ 24
 RJ45 Connector
 Connection ~ 4700 2925
-$Comp
-L antmicroModularConnectorsJacksWithMagnetics:RJMG1BD3B8K1ANR J1
-U 1 1 5FED793B
-P 12500 3800
-F 0 "J1" H 12543 4767 50  0000 C CNN
-F 1 "RJMG1BD3B8K1ANR" H 12543 4676 50  0000 C CNN
-F 2 "CONN_RJMG1BD3B8K1ANR" H 12500 4900 50  0001 L BNN
-F 3 "" H 12500 3800 50  0001 L BNN
-F 4 "Amphenol Commercial Products" H 12500 4900 50  0001 L BNN "MANUFACTURER"
-	1    12500 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11750 3250 11950 3250
 Wire Wire Line
@@ -1003,7 +991,7 @@ Wire Wire Line
 Wire Wire Line
 	11350 4150 11500 4150
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FF52D60
 P 12700 4600
 AR Path="/5FE270C1/5FF52D60" Ref="#PWR?"  Part="1" 
@@ -1016,7 +1004,7 @@ F 3 "" H 12700 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FF542E9
 P 11900 4600
 AR Path="/5FE270C1/5FF542E9" Ref="#PWR?"  Part="1" 
@@ -1092,4 +1080,16 @@ Wire Wire Line
 Connection ~ 10450 3800
 Wire Wire Line
 	10450 3800 10350 3800
+$Comp
+L artix-dc-scm:RJMG1BD3B8K1ANR J?
+U 1 1 5FEA9709
+P 12500 3800
+F 0 "J?" H 13180 3839 50  0000 L CNN
+F 1 "RJMG1BD3B8K1ANR" H 13180 3748 50  0000 L CNN
+F 2 "CONN_RJMG1BD3B8K1ANR" H 12500 4900 50  0001 L BNN
+F 3 "" H 12500 3800 50  0001 L BNN
+F 4 "Amphenol Commercial Products" H 12500 4900 50  0001 L BNN "MANUFACTURER"
+	1    12500 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

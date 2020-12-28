@@ -134,7 +134,7 @@ Wire Wire Line
 	3250 3350 3250 3500
 Connection ~ 3250 3350
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6166233A
 P 3250 3500
 AR Path="/626D078D/6166233A" Ref="#PWR?"  Part="1" 
@@ -273,7 +273,7 @@ Wire Wire Line
 	3250 4500 3250 4650
 Connection ~ 3250 4500
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 61665D3D
 P 3250 4650
 AR Path="/626D078D/61665D3D" Ref="#PWR?"  Part="1" 
@@ -410,7 +410,7 @@ Wire Wire Line
 	3250 5600 3250 5750
 Connection ~ 3250 5600
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6166A10D
 P 3250 5750
 AR Path="/626D078D/6166A10D" Ref="#PWR?"  Part="1" 
@@ -547,7 +547,7 @@ Wire Wire Line
 	3250 6700 3250 6850
 Connection ~ 3250 6700
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6166E6C7
 P 3250 6850
 AR Path="/626D078D/6166E6C7" Ref="#PWR?"  Part="1" 
@@ -684,7 +684,7 @@ Wire Wire Line
 	3250 7800 3250 7950
 Connection ~ 3250 7800
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 61674524
 P 3250 7950
 AR Path="/626D078D/61674524" Ref="#PWR?"  Part="1" 
@@ -979,7 +979,7 @@ Connection ~ 7750 8700
 Wire Wire Line
 	7750 8700 7750 9000
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6167CA21
 P 3250 9050
 AR Path="/626D078D/6167CA21" Ref="#PWR?"  Part="1" 
@@ -994,7 +994,7 @@ F 3 "" H 3250 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6175DADD
 P 7750 9000
 AR Path="/626D078D/6175DADD" Ref="#PWR?"  Part="1" 
@@ -1137,7 +1137,7 @@ Connection ~ 9750 8700
 Wire Wire Line
 	9750 8700 9750 9000
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 61771DD8
 P 9750 9000
 AR Path="/626D078D/61771DD8" Ref="#PWR?"  Part="1" 
@@ -1364,7 +1364,7 @@ Connection ~ 6750 3250
 Wire Wire Line
 	6750 3250 7050 3250
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 61BBB7F0
 P 7050 3400
 AR Path="/626D078D/61BBB7F0" Ref="#PWR?"  Part="1" 
@@ -1893,7 +1893,7 @@ Connection ~ 15050 5000
 Wire Wire Line
 	15050 5000 15350 5000
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 627B33DD
 P 15350 5200
 AR Path="/626D078D/627B33DD" Ref="#PWR?"  Part="1" 
@@ -1926,7 +1926,7 @@ Connection ~ 15050 3700
 Wire Wire Line
 	15050 3700 15350 3700
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 62810E19
 P 15350 3850
 AR Path="/626D078D/62810E19" Ref="#PWR?"  Part="1" 
@@ -2114,7 +2114,7 @@ Text Notes 11100 3500 1    50   ~ 0
 Text Notes 10750 3300 1    50   ~ 0
 200T
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 62E6DC2F
 P 11000 3550
 AR Path="/626D078D/62E6DC2F" Ref="#PWR?"  Part="1" 
@@ -2853,7 +2853,7 @@ F 6 "470n" H 5965 2947 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6077E24E
 P 6900 5200
 AR Path="/626D078D/6077E24E" Ref="#PWR?"  Part="1" 
@@ -2889,7 +2889,7 @@ F 6 "4u7" H 1615 3047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 61075D45
 P 7350 3500
 AR Path="/626D078D/61075D45" Ref="#PWR?"  Part="1" 
@@ -2996,12 +2996,12 @@ F 6 "4u7" H 14540 7372 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C192
+L artix-dc-scm:C_100n_0402-artix-dc-scm C192
 U 1 1 607F3D6A
 P 14675 7425
 F 0 "C192" H 14790 7470 60  0000 L CNN
 F 1 "C_100n_0402" H 14675 7275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14875 7625 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 14875 7625 60  0001 L CNN
 F 3 "" H 14675 7425 50  0001 C CNN
 F 4 "Walsin" H 14875 7825 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 14875 7725 60  0001 L CNN "MPN"
@@ -3010,12 +3010,12 @@ F 6 "100n" H 14790 7372 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C193
+L artix-dc-scm:C_100n_0402-artix-dc-scm C193
 U 1 1 607F45D3
 P 14925 7425
 F 0 "C193" H 15040 7470 60  0000 L CNN
 F 1 "C_100n_0402" H 14925 7275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 15125 7625 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 15125 7625 60  0001 L CNN
 F 3 "" H 14925 7425 50  0001 C CNN
 F 4 "Walsin" H 15125 7825 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 15125 7725 60  0001 L CNN "MPN"
@@ -3042,12 +3042,12 @@ F 6 "4u7" H 11415 7347 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C136
+L artix-dc-scm:C_100n_0402-artix-dc-scm C136
 U 1 1 6083962C
 P 11050 7400
 F 0 "C136" H 11165 7445 60  0000 L CNN
 F 1 "C_100n_0402" H 11050 7250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 11250 7600 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 11250 7600 60  0001 L CNN
 F 3 "" H 11050 7400 50  0001 C CNN
 F 4 "Walsin" H 11250 7800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 11250 7700 60  0001 L CNN "MPN"
@@ -3056,12 +3056,12 @@ F 6 "100n" H 11165 7347 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C134
+L artix-dc-scm:C_100n_0402-artix-dc-scm C134
 U 1 1 6083EFEF
 P 10800 7400
 F 0 "C134" H 10915 7445 60  0000 L CNN
 F 1 "C_100n_0402" H 10800 7250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 11000 7600 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 11000 7600 60  0001 L CNN
 F 3 "" H 10800 7400 50  0001 C CNN
 F 4 "Walsin" H 11000 7800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 11000 7700 60  0001 L CNN "MPN"
@@ -3127,7 +3127,7 @@ Wire Wire Line
 	10800 7625 10800 7750
 Connection ~ 10800 7625
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 60B225B3
 P 10800 7750
 AR Path="/626D078D/60B225B3" Ref="#PWR?"  Part="1" 
@@ -3142,7 +3142,7 @@ F 3 "" H 10800 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 60BAB37F
 P 14925 7800
 AR Path="/626D078D/60BAB37F" Ref="#PWR?"  Part="1" 

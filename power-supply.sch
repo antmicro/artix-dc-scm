@@ -19,7 +19,7 @@ Wire Wire Line
 	12375 2750 12675 2750
 Connection ~ 12375 2750
 $Comp
-L artix-dc-scm:GND #PWR060
+L artix-dc-scm:GND-artix-dc-scm #PWR060
 U 1 1 5B730196
 P 12375 3775
 F 0 "#PWR060" H 12375 3525 50  0001 C CNN
@@ -30,7 +30,7 @@ F 3 "" H 12375 3775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR064
+L artix-dc-scm:GND-artix-dc-scm #PWR064
 U 1 1 5B73AFB3
 P 13875 3800
 F 0 "#PWR064" H 13875 3550 50  0001 C CNN
@@ -135,7 +135,7 @@ Wire Wire Line
 Text GLabel 3025 3700 1    50   Input ~ 0
 VCC12V
 $Comp
-L artix-dc-scm:GND #PWR051
+L artix-dc-scm:GND-artix-dc-scm #PWR051
 U 1 1 6078B1C9
 P 3025 4100
 F 0 "#PWR051" H 3025 3850 50  0001 C CNN
@@ -150,7 +150,7 @@ Wire Wire Line
 Text GLabel 2775 3700 1    50   Input ~ 0
 VCC12V
 $Comp
-L artix-dc-scm:GND #PWR050
+L artix-dc-scm:GND-artix-dc-scm #PWR050
 U 1 1 607C69A2
 P 2775 4100
 F 0 "#PWR050" H 2775 3850 50  0001 C CNN
@@ -165,7 +165,7 @@ Wire Wire Line
 Text GLabel 3275 3700 1    50   Input ~ 0
 VCC12V
 $Comp
-L artix-dc-scm:GND #PWR052
+L artix-dc-scm:GND-artix-dc-scm #PWR052
 U 1 1 60802656
 P 3275 4100
 F 0 "#PWR052" H 3275 3850 50  0001 C CNN
@@ -198,7 +198,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 3675 3850 3875
 $Comp
-L artix-dc-scm:GND #PWR053
+L artix-dc-scm:GND-artix-dc-scm #PWR053
 U 1 1 608FDB54
 P 3850 3975
 F 0 "#PWR053" H 3850 3725 50  0001 C CNN
@@ -258,7 +258,7 @@ F 6 "47p" H 4325 4625 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR054
+L artix-dc-scm:GND-artix-dc-scm #PWR054
 U 1 1 609F61D8
 P 4050 5025
 F 0 "#PWR054" H 4050 4775 50  0001 C CNN
@@ -332,7 +332,7 @@ PWR_GOOD
 Wire Wire Line
 	5800 3175 5800 3275
 $Comp
-L artix-dc-scm:C_100n_0402 C71
+L artix-dc-scm:C_100n_0402-artix-dc-scm C71
 U 1 1 60E0359F
 P 5875 3475
 F 0 "C71" V 5800 3350 60  0000 C CNN
@@ -379,7 +379,7 @@ Connection ~ 5725 4175
 Wire Wire Line
 	5725 4175 5725 4500
 $Comp
-L artix-dc-scm:GND #PWR057
+L artix-dc-scm:GND-artix-dc-scm #PWR057
 U 1 1 60F9F58D
 P 6600 4700
 F 0 "#PWR057" H 6600 4450 50  0001 C CNN
@@ -392,7 +392,7 @@ $EndComp
 Wire Wire Line
 	6150 3925 6150 4050
 $Comp
-L artix-dc-scm:GND #PWR056
+L artix-dc-scm:GND-artix-dc-scm #PWR056
 U 1 1 6102902D
 P 6150 4050
 F 0 "#PWR056" H 6150 3800 50  0001 C CNN
@@ -427,7 +427,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 4700 6600 4650
 $Comp
-L artix-dc-scm:GND #PWR055
+L artix-dc-scm:GND-artix-dc-scm #PWR055
 U 1 1 61299EC8
 P 5725 4500
 F 0 "#PWR055" H 5725 4250 50  0001 C CNN
@@ -554,7 +554,7 @@ Connection ~ 7350 3475
 Wire Wire Line
 	7350 3475 7575 3475
 $Comp
-L artix-dc-scm:GND #PWR058
+L artix-dc-scm:GND-artix-dc-scm #PWR058
 U 1 1 61686A06
 P 7575 4075
 F 0 "#PWR058" H 7575 3825 50  0001 C CNN
@@ -721,7 +721,7 @@ Wire Wire Line
 	12400 4900 12700 4900
 Connection ~ 12400 4900
 $Comp
-L artix-dc-scm:GND #PWR061
+L artix-dc-scm:GND-artix-dc-scm #PWR061
 U 1 1 6278FF79
 P 12400 5925
 F 0 "#PWR061" H 12400 5675 50  0001 C CNN
@@ -732,7 +732,7 @@ F 3 "" H 12400 5925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR065
+L artix-dc-scm:GND-artix-dc-scm #PWR065
 U 1 1 6278FF7F
 P 13900 5950
 F 0 "#PWR065" H 13900 5700 50  0001 C CNN
@@ -908,7 +908,7 @@ Wire Wire Line
 	12450 6725 12725 6725
 Connection ~ 12450 6725
 $Comp
-L artix-dc-scm:GND #PWR063
+L artix-dc-scm:GND-artix-dc-scm #PWR063
 U 1 1 627F647A
 P 12450 7650
 F 0 "#PWR063" H 12450 7400 50  0001 C CNN
@@ -1083,7 +1083,7 @@ Connection ~ 13950 7525
 Wire Wire Line
 	13950 7675 13950 7525
 $Comp
-L artix-dc-scm:GND #PWR067
+L artix-dc-scm:GND-artix-dc-scm #PWR067
 U 1 1 627F6480
 P 13950 7675
 F 0 "#PWR067" H 13950 7425 50  0001 C CNN
@@ -1111,7 +1111,7 @@ $EndComp
 Wire Wire Line
 	8425 10875 8425 10825
 $Comp
-L artix-dc-scm:GND #PWR059
+L artix-dc-scm:GND-artix-dc-scm #PWR059
 U 1 1 5FF71002
 P 8425 10875
 F 0 "#PWR059" H 8425 10625 50  0001 C CNN
@@ -1174,7 +1174,7 @@ VCCAUX_EN
 Wire Wire Line
 	2375 10500 2375 10075
 $Comp
-L artix-dc-scm:GND #PWR048
+L artix-dc-scm:GND-artix-dc-scm #PWR048
 U 1 1 61620212
 P 2375 10500
 F 0 "#PWR048" H 2375 10250 50  0001 C CNN
@@ -1213,7 +1213,7 @@ $EndComp
 Wire Wire Line
 	1100 9975 1500 9975
 $Comp
-L artix-dc-scm:GND #PWR047
+L artix-dc-scm:GND-artix-dc-scm #PWR047
 U 1 1 6211AF82
 P 1100 10525
 F 0 "#PWR047" H 1100 10275 50  0001 C CNN
@@ -1281,7 +1281,7 @@ $EndComp
 Wire Wire Line
 	13900 6725 13850 6725
 $Comp
-L artix-dc-scm:R_200k_0402 R75
+L artix-dc-scm:R_200k_0402-artix-dc-scm R75
 U 1 1 6376139B
 P 14650 5125
 F 0 "R75" V 14605 5195 60  0000 L CNN
@@ -1314,7 +1314,7 @@ Wire Wire Line
 	12425 8450 12700 8450
 Connection ~ 12425 8450
 $Comp
-L artix-dc-scm:GND #PWR062
+L artix-dc-scm:GND-artix-dc-scm #PWR062
 U 1 1 63A59204
 P 12425 9375
 F 0 "#PWR062" H 12425 9125 50  0001 C CNN
@@ -1491,7 +1491,7 @@ Connection ~ 13925 9250
 Wire Wire Line
 	13925 9400 13925 9250
 $Comp
-L artix-dc-scm:GND #PWR066
+L artix-dc-scm:GND-artix-dc-scm #PWR066
 U 1 1 63A5926E
 P 13925 9400
 F 0 "#PWR066" H 13925 9150 50  0001 C CNN
@@ -1859,7 +1859,7 @@ Wire Wire Line
 Wire Wire Line
 	4175 7350 3700 7350
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 609655FF
 P 4475 7750
 AR Path="/5FEC3511/609655FF" Ref="#PWR?"  Part="1" 
@@ -1902,7 +1902,7 @@ AR Path="/5FD86D1B/60965610" Ref="U?"  Part="1"
 AR Path="/5FD86BEB/60965610" Ref="U15"  Part="1" 
 F 0 "U15" H 4625 7250 60  0000 L CNN
 F 1 "SN74LVC1G08DCKR" H 4550 7150 60  0000 L CNN
-F 2 "antmicro-footprints:SC-70-5" H 4675 7650 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:SC-70-5" H 4675 7650 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08" H 4675 7750 60  0001 L CNN
 F 4 "SN74LVC1G08DCKR" H 4675 7950 60  0001 L CNN "MPN"
 F 5 "Texas Instruments" H 4675 8550 60  0001 L CNN "Manufacturer"
@@ -1918,7 +1918,7 @@ DNP
 Text Notes 3475 8700 0    50   ~ 0
 RoT booted flag pin
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6096561A
 P 4475 9850
 AR Path="/5FEC3511/6096561A" Ref="#PWR?"  Part="1" 
@@ -1966,7 +1966,7 @@ Wire Wire Line
 Wire Wire Line
 	9725 2850 10025 2850
 $Comp
-L artix-dc-scm:GND #PWR0103
+L artix-dc-scm:GND-artix-dc-scm #PWR0103
 U 1 1 60986D4B
 P 10325 3050
 F 0 "#PWR0103" H 10325 2800 50  0001 C CNN
@@ -2056,7 +2056,7 @@ Wire Wire Line
 Wire Wire Line
 	9675 4075 9975 4075
 $Comp
-L artix-dc-scm:GND #PWR0104
+L artix-dc-scm:GND-artix-dc-scm #PWR0104
 U 1 1 60986D80
 P 10275 4275
 F 0 "#PWR0104" H 10275 4025 50  0001 C CNN
@@ -2146,7 +2146,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 5300 10000 5300
 $Comp
-L artix-dc-scm:GND #PWR0105
+L artix-dc-scm:GND-artix-dc-scm #PWR0105
 U 1 1 60986DB5
 P 10300 5500
 F 0 "#PWR0105" H 10300 5250 50  0001 C CNN
@@ -2310,7 +2310,7 @@ F 5 "ON Semiconductor" H 10450 7575 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR0106
+L artix-dc-scm:GND-artix-dc-scm #PWR0106
 U 1 1 60986E1A
 P 10250 6775
 F 0 "#PWR0106" H 10250 6525 50  0001 C CNN
@@ -2373,7 +2373,7 @@ F 5 "ON Semiconductor" H 10450 8775 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR0107
+L artix-dc-scm:GND-artix-dc-scm #PWR0107
 U 1 1 60986E4C
 P 10250 7975
 F 0 "#PWR0107" H 10250 7725 50  0001 C CNN
@@ -2441,7 +2441,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 1575 2250 1400
 $Comp
-L artix-dc-scm:GND #PWR0109
+L artix-dc-scm:GND-artix-dc-scm #PWR0109
 U 1 1 5FEC5E7F
 P 2250 1825
 F 0 "#PWR0109" H 2250 1575 50  0001 C CNN
@@ -2492,7 +2492,7 @@ U 1 1 61771C2F
 P 14675 8675
 F 0 "R77" V 14630 8745 60  0000 L CNN
 F 1 "R_66k5_0402" H 14675 8525 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14875 8875 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 14875 8875 60  0001 L CNN
 F 3 "" H 14675 8675 50  0001 C CNN
 F 4 "PANASONIC" H 14875 9075 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF6652X" H 14875 8975 60  0001 L CNN "MPN"
@@ -2588,7 +2588,7 @@ U 1 1 619949C4
 P 3200 1675
 F 0 "C14" H 3315 1720 60  0000 L CNN
 F 1 "C_10u_25V_0603" H 3200 1525 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 3400 1875 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 3400 1875 60  0001 L CNN
 F 3 "" H 3200 1675 50  0001 C CNN
 F 4 "TDK" H 3400 2075 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1E106M080AC" H 3400 1975 60  0001 L CNN "MPN"
@@ -2602,7 +2602,7 @@ U 1 1 619975A1
 P 3475 1675
 F 0 "C15" H 3590 1720 60  0000 L CNN
 F 1 "C_10u_25V_0603" H 3475 1525 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 3675 1875 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 3675 1875 60  0001 L CNN
 F 3 "" H 3475 1675 50  0001 C CNN
 F 4 "TDK" H 3675 2075 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1E106M080AC" H 3675 1975 60  0001 L CNN "MPN"
@@ -2616,7 +2616,7 @@ U 1 1 619977B0
 P 3750 1675
 F 0 "C16" H 3865 1720 60  0000 L CNN
 F 1 "C_10u_25V_0603" H 3750 1525 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 3950 1875 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 3950 1875 60  0001 L CNN
 F 3 "" H 3750 1675 50  0001 C CNN
 F 4 "TDK" H 3950 2075 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1E106M080AC" H 3950 1975 60  0001 L CNN "MPN"
@@ -2630,7 +2630,7 @@ U 1 1 619982FA
 P 4025 1675
 F 0 "C17" H 4140 1720 60  0000 L CNN
 F 1 "C_100n_0402_16V" H 4025 1525 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4225 1875 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 4225 1875 60  0001 L CNN
 F 3 "" H 4025 1675 50  0001 C CNN
 F 4 "MULTICOMP" H 4225 2075 60  0001 L CNN "Manufacturer"
 F 5 "MC0402B104K160CT" H 4225 1975 60  0001 L CNN "MPN"
@@ -2641,7 +2641,7 @@ $EndComp
 Text GLabel 3200 1375 1    50   Input ~ 0
 VCC12V
 $Comp
-L artix-dc-scm:GND #PWR092
+L artix-dc-scm:GND-artix-dc-scm #PWR092
 U 1 1 619DB17E
 P 3200 2000
 F 0 "#PWR092" H 3200 1750 50  0001 C CNN

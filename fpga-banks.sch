@@ -449,7 +449,7 @@ F 7 "DNP" V 10000 9000 50  0000 C CNN "Populate"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR085
+L artix-dc-scm:GND-artix-dc-scm #PWR085
 U 1 1 60D0D551
 P 10000 9150
 F 0 "#PWR085" H 10000 8900 50  0001 C CNN
@@ -489,7 +489,7 @@ Wire Wire Line
 	10800 10250 10800 10450
 Connection ~ 10800 10250
 $Comp
-L artix-dc-scm:GND #PWR086
+L artix-dc-scm:GND-artix-dc-scm #PWR086
 U 1 1 60E5F880
 P 10800 10450
 F 0 "#PWR086" H 10800 10200 50  0001 C CNN
@@ -505,7 +505,7 @@ Connection ~ 9450 10650
 Wire Wire Line
 	9450 10650 9450 10850
 $Comp
-L artix-dc-scm:GND #PWR084
+L artix-dc-scm:GND-artix-dc-scm #PWR084
 U 1 1 60E9E149
 P 9450 10850
 F 0 "#PWR084" H 9450 10600 50  0001 C CNN
@@ -531,7 +531,7 @@ VCC3V3
 Text GLabel 6250 10075 0    50   Input ~ 0
 VCC3V3
 $Comp
-L artix-dc-scm:GND #PWR081
+L artix-dc-scm:GND-artix-dc-scm #PWR081
 U 1 1 612D9DD9
 P 6250 10200
 F 0 "#PWR081" H 6250 9950 50  0001 C CNN
@@ -561,7 +561,7 @@ Connection ~ 9450 7550
 Wire Wire Line
 	9450 7550 9050 7550
 $Comp
-L artix-dc-scm:GND #PWR083
+L artix-dc-scm:GND-artix-dc-scm #PWR083
 U 1 1 6148AC43
 P 9450 7950
 F 0 "#PWR083" H 9450 7700 50  0001 C CNN
@@ -737,7 +737,7 @@ VCC3V3
 Wire Wire Line
 	6800 10400 6675 10400
 $Comp
-L artix-dc-scm:GND #PWR082
+L artix-dc-scm:GND-artix-dc-scm #PWR082
 U 1 1 649B5B60
 P 6825 10600
 F 0 "#PWR082" H 6825 10350 50  0001 C CNN
@@ -834,7 +834,7 @@ I3C[3]_SCL_3V3
 Text GLabel 4875 4550 2    50   Input ~ 0
 I3C[0]_SCL_3V3
 $Comp
-L artix-dc-scm:GND #PWR080
+L artix-dc-scm:GND-artix-dc-scm #PWR080
 U 1 1 612DAB50
 P 6250 9900
 F 0 "#PWR080" H 6250 9650 50  0001 C CNN
@@ -1182,7 +1182,7 @@ Wire Wire Line
 	10175 4550 10275 4550
 Wire Wire Line
 	10125 4650 10225 4650
-Text GLabel 13725 250  2    50   Input ~ 0
+Text GLabel 10750 1400 2    50   Input ~ 0
 PRSNT0_N
 Wire Wire Line
 	12900 1200 12800 1200
@@ -1234,21 +1234,21 @@ VIRTUAL_RESEAT
 $Comp
 L artix-dc-scm:R_0R_0402 R114
 U 1 1 61B1DDFB
-P 13475 250
-F 0 "R114" H 13475 463 60  0000 C CNN
-F 1 "R_0R_0402" H 13475 100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 13675 450 60  0001 L CNN
-F 3 "" H 13475 250 50  0001 C CNN
-F 4 "PANASONIC" H 13675 650 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 13675 550 60  0001 L CNN "MPN"
-F 6 "0R" H 13475 365 50  0000 C CNN "Val"
-	1    13475 250 
+P 10500 1400
+F 0 "R114" H 10500 1613 60  0000 C CNN
+F 1 "R_0R_0402" H 10500 1250 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 10700 1600 60  0001 L CNN
+F 3 "" H 10500 1400 50  0001 C CNN
+F 4 "PANASONIC" H 10700 1800 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 10700 1700 60  0001 L CNN "MPN"
+F 6 "0R" H 10500 1515 50  0000 C CNN "Val"
+	1    10500 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	14800 5300 14900 5300
 Wire Wire Line
-	13625 250  13725 250 
+	10650 1400 10750 1400
 $Comp
 L artix-dc-scm:R_0R_0402 R115
 U 1 1 61B40AA5
@@ -1471,7 +1471,7 @@ U 1 1 60F834C5
 P 7025 8350
 F 0 "R1" V 6980 8420 60  0000 L CNN
 F 1 "R_1k_0402" H 7025 8200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7225 8550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 7225 8550 60  0001 L CNN
 F 3 "" H 7025 8350 50  0001 C CNN
 F 4 "BOURNS" H 7225 8750 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 7225 8650 60  0001 L CNN "MPN"
@@ -1485,7 +1485,7 @@ U 1 1 60F84719
 P 7025 8800
 F 0 "R2" V 6980 8870 60  0000 L CNN
 F 1 "R_1k_0402" H 7025 8650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7225 9000 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 7225 9000 60  0001 L CNN
 F 3 "" H 7025 8800 50  0001 C CNN
 F 4 "BOURNS" H 7225 9200 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 7225 9100 60  0001 L CNN "MPN"
@@ -1502,7 +1502,7 @@ Wire Wire Line
 Text GLabel 7025 8100 1    50   Input ~ 0
 VCC3V3_BANK
 $Comp
-L artix-dc-scm:GND #PWR01
+L artix-dc-scm:GND-artix-dc-scm #PWR01
 U 1 1 60FFFD73
 P 7025 9050
 F 0 "#PWR01" H 7025 8800 50  0001 C CNN
@@ -1528,7 +1528,7 @@ U 1 1 601DDEB8
 P 4625 1700
 F 0 "R133" V 4580 1770 60  0000 L CNN
 F 1 "R_2k2_0402" H 4625 1550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4825 1900 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4825 1900 60  0001 L CNN
 F 3 "" H 4625 1700 50  0001 C CNN
 F 4 "YAGEO" H 4825 2100 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 4825 2000 60  0001 L CNN "MPN"
@@ -1542,7 +1542,7 @@ U 1 1 601DFDEE
 P 4750 1700
 F 0 "R134" V 4705 1770 60  0000 L CNN
 F 1 "R_4k7_0402" H 4750 1550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4950 1900 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4950 1900 60  0001 L CNN
 F 3 "" H 4750 1700 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 4950 2100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 4950 2000 60  0001 L CNN "MPN"
@@ -1556,7 +1556,7 @@ U 1 1 601E0616
 P 4875 1700
 F 0 "R135" V 4830 1770 60  0000 L CNN
 F 1 "R_4k7_0402" H 4875 1550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5075 1900 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5075 1900 60  0001 L CNN
 F 3 "" H 4875 1700 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 5075 2100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 5075 2000 60  0001 L CNN "MPN"
@@ -1647,7 +1647,7 @@ F 5 "ON Semiconductor" H 3900 9600 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 605CC5CC
 P 3375 8500
 AR Path="/5FD86BEB/605CC5CC" Ref="#PWR?"  Part="1" 
@@ -1716,7 +1716,7 @@ F 5 "ON Semiconductor" H 3900 10150 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 605FEFDD
 P 3400 9050
 AR Path="/5FD86BEB/605FEFDD" Ref="#PWR?"  Part="1" 
@@ -1742,7 +1742,7 @@ U 1 1 607DBFB7
 P 11050 9125
 F 0 "TP2" H 11075 9050 50  0000 R CNN
 F 1 "TP_SMD1MM" H 11050 9025 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 11250 9325 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 11250 9325 60  0001 L CNN
 F 3 "" H 11250 9425 60  0001 L CNN
 	1    11050 9125
 	-1   0    0    1   
@@ -1753,7 +1753,7 @@ U 1 1 60868E72
 P 11175 9125
 F 0 "TP5" H 11175 9050 50  0000 R CNN
 F 1 "TP_SMD1MM" H 11175 9025 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 11375 9325 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 11375 9325 60  0001 L CNN
 F 3 "" H 11375 9425 60  0001 L CNN
 	1    11175 9125
 	-1   0    0    1   
@@ -1764,7 +1764,7 @@ U 1 1 60869265
 P 11300 9125
 F 0 "TP6" H 11275 9050 50  0000 R CNN
 F 1 "TP_SMD1MM" H 11300 9025 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 11500 9325 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 11500 9325 60  0001 L CNN
 F 3 "" H 11500 9425 60  0001 L CNN
 	1    11300 9125
 	-1   0    0    1   
@@ -1847,7 +1847,7 @@ F 5 "ON Semiconductor" H 3900 10725 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 60D22691
 P 3400 9625
 AR Path="/5FD86BEB/60D22691" Ref="#PWR?"  Part="1" 
@@ -1918,7 +1918,7 @@ F 5 "ON Semiconductor" H 3900 11325 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 60D56420
 P 3400 10225
 AR Path="/5FD86BEB/60D56420" Ref="#PWR?"  Part="1" 
@@ -1993,7 +1993,7 @@ F 5 "ON Semiconductor" H 3900 11925 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 60EC05BA
 P 3400 10825
 AR Path="/5FD86BEB/60EC05BA" Ref="#PWR?"  Part="1" 
@@ -2131,7 +2131,7 @@ U 1 1 62EA7773
 P 5575 2750
 F 0 "TP15" V 5575 2700 50  0000 R CNN
 F 1 "TP_SMD1MM" H 5575 2650 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5775 2950 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 5775 2950 60  0001 L CNN
 F 3 "" H 5775 3050 60  0001 L CNN
 	1    5575 2750
 	0    -1   -1   0   
@@ -2227,7 +2227,7 @@ U 1 1 66DFC7B7
 P 4800 4750
 F 0 "R144" H 4800 4963 60  0000 C CNN
 F 1 "R_0R_0402" H 4800 4600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5000 4950 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5000 4950 60  0001 L CNN
 F 3 "" H 4800 4750 50  0001 C CNN
 F 4 "PANASONIC" H 5000 5150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 5000 5050 60  0001 L CNN "MPN"
@@ -2241,7 +2241,7 @@ U 1 1 66DFD08E
 P 4800 5250
 F 0 "R145" H 4800 5463 60  0000 C CNN
 F 1 "R_0R_0402" H 4800 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5000 5450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5000 5450 60  0001 L CNN
 F 3 "" H 4800 5250 50  0001 C CNN
 F 4 "PANASONIC" H 5000 5650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 5000 5550 60  0001 L CNN "MPN"
@@ -2255,7 +2255,7 @@ U 1 1 66DFD667
 P 4800 5550
 F 0 "R146" H 4800 5763 60  0000 C CNN
 F 1 "R_0R_0402" H 4800 5400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5000 5750 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5000 5750 60  0001 L CNN
 F 3 "" H 4800 5550 50  0001 C CNN
 F 4 "PANASONIC" H 5000 5950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 5000 5850 60  0001 L CNN "MPN"
@@ -2269,7 +2269,7 @@ U 1 1 66DFDC54
 P 4800 5650
 F 0 "R147" H 4800 5863 60  0000 C CNN
 F 1 "R_0R_0402" H 4800 5500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5000 5850 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5000 5850 60  0001 L CNN
 F 3 "" H 4800 5650 50  0001 C CNN
 F 4 "PANASONIC" H 5000 6050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 5000 5950 60  0001 L CNN "MPN"

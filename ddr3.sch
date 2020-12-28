@@ -220,7 +220,7 @@ Connection ~ 6700 7525
 Wire Wire Line
 	6700 7525 6400 7525
 $Comp
-L artix-dc-scm:GND #PWR036
+L artix-dc-scm:GND-artix-dc-scm #PWR036
 U 1 1 617E94FA
 P 5600 7675
 F 0 "#PWR036" H 5600 7425 50  0001 C CNN
@@ -237,7 +237,7 @@ DDR3_VREF
 Wire Wire Line
 	7000 8950 7050 8950
 $Comp
-L artix-dc-scm:GND #PWR039
+L artix-dc-scm:GND-artix-dc-scm #PWR039
 U 1 1 6192C6FB
 P 7850 9400
 F 0 "#PWR039" H 7850 9150 50  0001 C CNN
@@ -257,7 +257,7 @@ DDR3_VTT
 Wire Wire Line
 	8850 8750 8350 8750
 $Comp
-L artix-dc-scm:GND #PWR041
+L artix-dc-scm:GND-artix-dc-scm #PWR041
 U 1 1 61999CDB
 P 9250 9075
 F 0 "#PWR041" H 9250 8825 50  0001 C CNN
@@ -361,7 +361,7 @@ Wire Wire Line
 	9475 3200 9825 3200
 Connection ~ 9825 3200
 $Comp
-L artix-dc-scm:GND #PWR042
+L artix-dc-scm:GND-artix-dc-scm #PWR042
 U 1 1 61D3FBA2
 P 9475 3300
 F 0 "#PWR042" H 9475 3050 50  0001 C CNN
@@ -375,7 +375,7 @@ Wire Wire Line
 	9475 3200 9475 3300
 Connection ~ 9475 3200
 $Comp
-L artix-dc-scm:GND #PWR043
+L artix-dc-scm:GND-artix-dc-scm #PWR043
 U 1 1 61D3FBEE
 P 9825 4200
 F 0 "#PWR043" H 9825 3950 50  0001 C CNN
@@ -407,7 +407,7 @@ Connection ~ 11325 5400
 Wire Wire Line
 	11325 5400 10975 5400
 $Comp
-L artix-dc-scm:GND #PWR044
+L artix-dc-scm:GND-artix-dc-scm #PWR044
 U 1 1 61D3FC25
 P 11325 5500
 F 0 "#PWR044" H 11325 5250 50  0001 C CNN
@@ -430,7 +430,7 @@ Wire Wire Line
 	10825 4800 10975 4800
 Connection ~ 10975 4800
 $Comp
-L artix-dc-scm:GND #PWR046
+L artix-dc-scm:GND-artix-dc-scm #PWR046
 U 1 1 61E153B0
 P 14175 5600
 F 0 "#PWR046" H 14175 5350 50  0001 C CNN
@@ -549,7 +549,7 @@ DDR3_CLK+
 Text GLabel 12325 8600 0    50   Input ~ 0
 DDR3_CLK-
 $Comp
-L artix-dc-scm:GND #PWR045
+L artix-dc-scm:GND-artix-dc-scm #PWR045
 U 1 1 61F71898
 P 13175 8250
 F 0 "#PWR045" H 13175 8000 50  0001 C CNN
@@ -857,7 +857,7 @@ Connection ~ 11325 3700
 Wire Wire Line
 	11325 3700 11775 3700
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402-artix-dc-scm C?
 U 1 1 6053AE48
 P 10975 5100
 AR Path="/6053AE48" Ref="C?"  Part="1" 
@@ -879,7 +879,7 @@ Wire Wire Line
 Wire Wire Line
 	10975 5250 10975 5400
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402-artix-dc-scm C?
 U 1 1 605C067B
 P 11325 5100
 AR Path="/605C067B" Ref="C?"  Part="1" 
@@ -1217,7 +1217,7 @@ Connection ~ 8400 7025
 Wire Wire Line
 	8400 7525 8100 7525
 $Comp
-L artix-dc-scm:GND #PWR040
+L artix-dc-scm:GND-artix-dc-scm #PWR040
 U 1 1 61880049
 P 8900 7675
 F 0 "#PWR040" H 8900 7425 50  0001 C CNN
@@ -1232,7 +1232,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 7025 8400 7150
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402-artix-dc-scm C?
 U 1 1 60AEFC4F
 P 8100 7300
 AR Path="/60AEFC4F" Ref="C?"  Part="1" 
@@ -1279,7 +1279,7 @@ Connection ~ 7050 8950
 Wire Wire Line
 	7050 8950 7300 8950
 $Comp
-L artix-dc-scm:GND #PWR038
+L artix-dc-scm:GND-artix-dc-scm #PWR038
 U 1 1 6132157D
 P 7200 9550
 F 0 "#PWR038" H 7200 9300 50  0001 C CNN
@@ -1370,7 +1370,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 8950 9250 9075
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402-artix-dc-scm C?
 U 1 1 628665BB
 P 8400 7300
 AR Path="/628665BB" Ref="C?"  Part="1" 
@@ -1386,7 +1386,7 @@ F 6 "100n" H 8425 7200 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402-artix-dc-scm C?
 U 1 1 62867A2A
 P 7050 9175
 AR Path="/62867A2A" Ref="C?"  Part="1" 
@@ -1402,7 +1402,7 @@ F 6 "100n" H 7075 9075 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402-artix-dc-scm C?
 U 1 1 62867ED9
 P 7300 9175
 AR Path="/62867ED9" Ref="C?"  Part="1" 
@@ -1418,7 +1418,7 @@ F 6 "100n" H 7325 9075 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402-artix-dc-scm C?
 U 1 1 6286E330
 P 12950 8250
 AR Path="/6286E330" Ref="C?"  Part="1" 
@@ -1547,7 +1547,7 @@ U 1 1 6033B485
 P 6400 9175
 F 0 "C1" H 6515 9220 60  0000 L CNN
 F 1 "C_1n_0402" H 6400 9025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6600 9375 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 6600 9375 60  0001 L CNN
 F 3 "" H 6400 9175 50  0001 C CNN
 F 4 "YAGEO" H 6600 9575 60  0001 L CNN "Manufacturer"
 F 5 "CC0402KRX7R9BB102" H 6600 9475 60  0001 L CNN "MPN"
@@ -1558,7 +1558,7 @@ $EndComp
 Wire Wire Line
 	6400 9325 6400 9450
 $Comp
-L artix-dc-scm:GND #PWR03
+L artix-dc-scm:GND-artix-dc-scm #PWR03
 U 1 1 603993AB
 P 6400 9550
 F 0 "#PWR03" H 6400 9300 50  0001 C CNN

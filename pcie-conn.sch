@@ -16,7 +16,7 @@ $EndDescr
 Wire Wire Line
 	6250 2750 6450 2750
 $Comp
-L artix-dc-scm:C_100n_0402 C27
+L artix-dc-scm:C_100n_0402-artix-dc-scm C27
 U 1 1 5FD1CF34
 P 6600 2750
 AR Path="/5FD1CF34" Ref="C27"  Part="1" 
@@ -32,7 +32,7 @@ F 6 "100n" V 6440 2750 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C29
+L artix-dc-scm:C_100n_0402-artix-dc-scm C29
 U 1 1 5FD1DAE4
 P 6875 2850
 AR Path="/5FD1DAE4" Ref="C29"  Part="1" 
@@ -56,7 +56,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 3350 6450 3350
 $Comp
-L artix-dc-scm:C_100n_0402 C28
+L artix-dc-scm:C_100n_0402-artix-dc-scm C28
 U 1 1 5FD279F6
 P 6600 3350
 AR Path="/5FD279F6" Ref="C28"  Part="1" 
@@ -72,7 +72,7 @@ F 6 "100n" V 6440 3350 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C30
+L artix-dc-scm:C_100n_0402-artix-dc-scm C30
 U 1 1 5FD279FF
 P 6875 3450
 AR Path="/5FD279FF" Ref="C30"  Part="1" 
@@ -344,7 +344,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 5350 4550 5675
 $Comp
-L artix-dc-scm:GND #PWR010
+L artix-dc-scm:GND-artix-dc-scm #PWR010
 U 1 1 5FDC4FA1
 P 4550 5675
 F 0 "#PWR010" H 4550 5425 50  0001 C CNN
@@ -355,7 +355,7 @@ F 3 "" H 4550 5675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR011
+L artix-dc-scm:GND-artix-dc-scm #PWR011
 U 1 1 5FDC53F7
 P 6325 5675
 F 0 "#PWR011" H 6325 5425 50  0001 C CNN
@@ -422,7 +422,7 @@ F 6 "10u" H 6015 6697 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR012
+L artix-dc-scm:GND-artix-dc-scm #PWR012
 U 1 1 5FDD1861
 P 4850 6900
 F 0 "#PWR012" H 4850 6650 50  0001 C CNN
@@ -433,7 +433,7 @@ F 3 "" H 4850 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR013
+L artix-dc-scm:GND-artix-dc-scm #PWR013
 U 1 1 5FDD1B5A
 P 5200 6900
 F 0 "#PWR013" H 5200 6650 50  0001 C CNN
@@ -444,7 +444,7 @@ F 3 "" H 5200 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR014
+L artix-dc-scm:GND-artix-dc-scm #PWR014
 U 1 1 5FDD1D85
 P 5550 6900
 F 0 "#PWR014" H 5550 6650 50  0001 C CNN
@@ -455,7 +455,7 @@ F 3 "" H 5550 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND #PWR015
+L artix-dc-scm:GND-artix-dc-scm #PWR015
 U 1 1 5FDD200B
 P 5900 6900
 F 0 "#PWR015" H 5900 6650 50  0001 C CNN
@@ -525,7 +525,7 @@ PCIE_HPM_TXN[3]
 Wire Wire Line
 	6250 3950 6450 3950
 $Comp
-L artix-dc-scm:C_100n_0402 C179
+L artix-dc-scm:C_100n_0402-artix-dc-scm C179
 U 1 1 5FFDF949
 P 6600 3950
 AR Path="/5FFDF949" Ref="C179"  Part="1" 
@@ -541,7 +541,7 @@ F 6 "100n" V 6440 3950 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C181
+L artix-dc-scm:C_100n_0402-artix-dc-scm C181
 U 1 1 5FFDF952
 P 6875 4050
 AR Path="/5FFDF952" Ref="C181"  Part="1" 
@@ -590,7 +590,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 4550 6450 4550
 $Comp
-L artix-dc-scm:C_100n_0402 C180
+L artix-dc-scm:C_100n_0402-artix-dc-scm C180
 U 1 1 60013CBE
 P 6600 4550
 AR Path="/60013CBE" Ref="C180"  Part="1" 
@@ -606,7 +606,7 @@ F 6 "100n" V 6440 4550 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C182
+L artix-dc-scm:C_100n_0402-artix-dc-scm C182
 U 1 1 60013CC7
 P 6875 4650
 AR Path="/60013CC7" Ref="C182"  Part="1" 
@@ -639,7 +639,7 @@ U 1 1 611CC4C6
 P 3575 2550
 F 0 "TP12" V 3480 2597 50  0000 C CNN
 F 1 "TP_SMD1MM" H 3575 2450 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 3775 2750 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 3775 2750 60  0001 L CNN
 F 3 "" H 3775 2850 60  0001 L CNN
 	1    3575 2550
 	0    1    1    0   
@@ -650,7 +650,7 @@ U 1 1 611CCA21
 P 3575 2650
 F 0 "TP13" V 3480 2697 50  0000 C CNN
 F 1 "TP_SMD1MM" H 3575 2550 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 3775 2850 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 3775 2850 60  0001 L CNN
 F 3 "" H 3775 2950 60  0001 L CNN
 	1    3575 2650
 	0    1    1    0   
@@ -661,7 +661,7 @@ U 1 1 611CCE09
 P 3825 2850
 F 0 "TP14" H 3875 2897 50  0000 L CNN
 F 1 "TP_SMD1MM" H 3825 2750 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 4025 3050 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 4025 3050 60  0001 L CNN
 F 3 "" H 4025 3150 60  0001 L CNN
 	1    3825 2850
 	1    0    0    -1  

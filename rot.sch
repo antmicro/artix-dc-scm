@@ -161,7 +161,7 @@ $EndComp
 Text GLabel 3050 1850 1    50   Input ~ 0
 VCC3V3
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD7A6DA
 P 3050 2200
 AR Path="/5FCFE2A8/5FD7A6DA" Ref="#PWR?"  Part="1" 
@@ -259,7 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 3150 3450 3250
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD7A70F
 P 3450 3250
 AR Path="/5FC6B687/5FD7A70F" Ref="#PWR?"  Part="1" 
@@ -415,7 +415,7 @@ $EndComp
 Text GLabel 3025 3900 1    50   Input ~ 0
 VCC3V3
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD8350C
 P 3025 4250
 AR Path="/5FCFE2A8/5FD8350C" Ref="#PWR?"  Part="1" 
@@ -513,7 +513,7 @@ Wire Wire Line
 Wire Wire Line
 	3425 5200 3425 5300
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD83541
 P 3425 5300
 AR Path="/5FC6B687/5FD83541" Ref="#PWR?"  Part="1" 
@@ -669,7 +669,7 @@ $EndComp
 Text GLabel 2975 6800 1    50   Input ~ 0
 VCC3V3
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FE29472
 P 2975 7150
 AR Path="/5FCFE2A8/5FE29472" Ref="#PWR?"  Part="1" 
@@ -767,7 +767,7 @@ Wire Wire Line
 Wire Wire Line
 	3375 8100 3375 8200
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FE294A6
 P 3375 8200
 AR Path="/5FC6B687/5FE294A6" Ref="#PWR?"  Part="1" 
@@ -923,7 +923,7 @@ $EndComp
 Text GLabel 2950 8850 1    50   Input ~ 0
 VCC3V3
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FE294FB
 P 2950 9200
 AR Path="/5FCFE2A8/5FE294FB" Ref="#PWR?"  Part="1" 
@@ -1021,7 +1021,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 10150 3350 10250
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FE2952F
 P 3350 10250
 AR Path="/5FC6B687/5FE2952F" Ref="#PWR?"  Part="1" 
@@ -1211,7 +1211,7 @@ Wire Wire Line
 Wire Wire Line
 	12050 2400 12050 2650
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD8331F
 P 12050 2650
 AR Path="/5FC6B687/5FD8331F" Ref="#PWR?"  Part="1" 
@@ -1248,7 +1248,7 @@ VCC3V3
 Wire Wire Line
 	8225 6525 8725 6525
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 626717FC
 P 8225 6525
 AR Path="/5FC6B687/626717FC" Ref="#PWR?"  Part="1" 
@@ -1290,7 +1290,7 @@ Wire Wire Line
 Text GLabel 9675 6425 2    50   Input ~ 0
 QSPI0_CS1_N
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD82134
 P 11400 2650
 AR Path="/5FC6B687/5FD82134" Ref="#PWR?"  Part="1" 

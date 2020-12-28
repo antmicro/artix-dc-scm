@@ -4516,7 +4516,7 @@
     )
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FF4EE0C)
+  (module artix-dc-scm-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FF4EE0C)
     (at 192.05 104.675)
     (path /5FD86CE4/62EA7773)
     (attr virtual)
@@ -4634,7 +4634,7 @@
     )
   )
 
-  (module antmicro-footprints:CONN_RJMG1BD3B8K1ANR (layer F.Cu) (tedit 5FE46ABC) (tstamp 5FE4D5F0)
+  (module artix-dc-scm-footprints:CONN_RJMG1BD3B8K1ANR (layer F.Cu) (tedit 5FE46ABC) (tstamp 5FE4D5F0)
     (at 128.425 69.55 180)
     (path /60570C04/5FED793B)
     (fp_text reference J1 (at -4.82751 -12.39143) (layer F.SilkS)
@@ -4737,7 +4737,7 @@
     )
   )
 
-  (module antmicro-footprints:MICRON_EMMC_153 (layer F.Cu) (tedit 5FE0FB8D) (tstamp 5FE3FDBC)
+  (module artix-dc-scm-footprints:MICRON_EMMC_153 (layer F.Cu) (tedit 5FE0FB8D) (tstamp 5FE3FDBC)
     (at 129.94 144.445)
     (path /614223A1/5FF3BF0C)
     (fp_text reference U17 (at -2.96 -7.25) (layer F.SilkS)
@@ -5054,7 +5054,7 @@
     )
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F3B9)
+  (module artix-dc-scm-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F3B9)
     (at 196.064999 100.245799)
     (path /5FD17EF1/611CCE09)
     (attr virtual)
@@ -5068,7 +5068,7 @@
       (net 144 PRSNT1_N))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F3B4)
+  (module artix-dc-scm-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F3B4)
     (at 196.064999 102.245799)
     (path /5FD17EF1/611CCA21)
     (attr virtual)
@@ -5082,7 +5082,7 @@
       (net 437 "Net-(J2-Pad52)"))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F3AF)
+  (module artix-dc-scm-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F3AF)
     (at 197.8 101.475)
     (path /5FD17EF1/611CC4C6)
     (attr virtual)
@@ -5166,7 +5166,7 @@
       (net 5 VCC5V0))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F391)
+  (module artix-dc-scm-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F391)
     (at 174.249999 105.710799)
     (path /5FD86CE4/60869265)
     (attr virtual)
@@ -5180,7 +5180,7 @@
       (net 283 PROGRAM))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F38C)
+  (module artix-dc-scm-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F38C)
     (at 176.889999 103.250799)
     (path /5FD86CE4/60868E72)
     (attr virtual)
@@ -5194,7 +5194,7 @@
       (net 284 INIT))
   )
 
-  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F333)
+  (module artix-dc-scm-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FE3F333)
     (at 176.889999 101.250799)
     (path /5FD86CE4/607DBFB7)
     (attr virtual)
@@ -6254,7 +6254,7 @@
     )
   )
 
-  (module antmicro-footprints:0805-res (layer F.Cu) (tedit 5D5D3F54) (tstamp 5FE3DEBB)
+  (module artix-dc-scm-footprints:0805-res (layer F.Cu) (tedit 5D5D3F54) (tstamp 5FE3DEBB)
     (at 120.875 86.675 90)
     (path /60570C04/5FEA824F)
     (attr smd)
