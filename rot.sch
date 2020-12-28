@@ -1033,11 +1033,11 @@ F 3 "" H 3350 10250 50  0001 C CNN
 	1    3350 10250
 	1    0    0    -1  
 $EndComp
-Text Notes 2425 1350 0    118  ~ 0
+Text Notes 1425 1250 0    118  ~ 24
 BIOS flash
-Text Notes 2525 6300 0    118  ~ 0
+Text Notes 1625 6175 0    118  ~ 24
 BMC flash
-Text Notes 10900 1500 0    118  ~ 0
+Text Notes 11525 4275 0    118  ~ 24
 TPM connector
 Text Notes 1650 6400 0    50   ~ 0
 One or typically two flash devices used to contain the BMC firmware image
@@ -1155,8 +1155,8 @@ Wire Wire Line
 	9675 6125 9175 6125
 Wire Wire Line
 	9675 6025 9175 6025
-Text Notes 8325 4350 0    118  ~ 0
-RoT connector
+Text Notes 7375 4200 0    118  ~ 24
+RoT module connector
 Text Notes 8775 6950 0    50   ~ 0
 preliminary\n
 Text GLabel 8225 4625 0    50   Input ~ 0
@@ -1164,68 +1164,68 @@ ROT_RDY\ROT_GPIO0
 $Comp
 L artix-dc-scm:M20-7830642 J4
 U 1 1 5FD63CCC
-P 11725 2200
-F 0 "J4" H 11725 2647 60  0000 C CNN
-F 1 "M20-7830642" H 11725 2541 60  0000 C CNN
-F 2 "artix-dc-scm-footprints:PinHeader_6x2_P2.54mm_Vertical" H 11925 2400 60  0001 L CNN
-F 3 "" H 11925 2500 60  0001 L CNN
-F 4 "M20-7830642" H 11925 2700 60  0001 L CNN "MPN"
-F 5 "Molex" H 11925 2800 60  0001 L CNN "Manufacturer"
-	1    11725 2200
+P 12475 5250
+F 0 "J4" H 12475 5697 60  0000 C CNN
+F 1 "M20-7830642" H 12475 5591 60  0000 C CNN
+F 2 "artix-dc-scm-footprints:PinHeader_6x2_P2.54mm_Vertical" H 12675 5450 60  0001 L CNN
+F 3 "" H 12675 5550 60  0001 L CNN
+F 4 "M20-7830642" H 12675 5750 60  0001 L CNN "MPN"
+F 5 "Molex" H 12675 5850 60  0001 L CNN "Manufacturer"
+	1    12475 5250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10900 1950 1    50   Input ~ 0
+Text GLabel 11650 5000 1    50   Input ~ 0
 VCC3V3
-Text GLabel 11525 2000 0    50   Input ~ 0
+Text GLabel 12275 5050 0    50   Input ~ 0
 SPI0_CS_N
-Text GLabel 11525 2100 0    50   Input ~ 0
+Text GLabel 12275 5150 0    50   Input ~ 0
 SPI0_MOSI
-Text GLabel 11525 2200 0    50   Input ~ 0
+Text GLabel 12275 5250 0    50   Input ~ 0
 SPI0_MISO
-Text GLabel 11525 2300 0    50   Input ~ 0
+Text GLabel 12275 5350 0    50   Input ~ 0
 SPI0_CLK
-Text GLabel 11925 2000 2    50   Input ~ 0
+Text GLabel 12675 5050 2    50   Input ~ 0
 PIRQ#
-Text GLabel 11925 2100 2    50   Input ~ 0
+Text GLabel 12675 5150 2    50   Input ~ 0
 RST
-Text GLabel 11925 2200 2    50   Input ~ 0
+Text GLabel 12675 5250 2    50   Input ~ 0
 GPIO
-Text GLabel 11925 2300 2    50   Input ~ 0
+Text GLabel 12675 5350 2    50   Input ~ 0
 PP
-Text GLabel 12375 1950 1    50   Input ~ 0
+Text GLabel 13125 5000 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	11525 2500 10900 2500
+	12275 5550 11650 5550
 Wire Wire Line
-	10900 2500 10900 1950
+	11650 5550 11650 5000
 Wire Wire Line
-	11925 2500 12375 2500
+	12675 5550 13125 5550
 Wire Wire Line
-	12375 2500 12375 1950
+	13125 5550 13125 5000
 Wire Wire Line
-	11525 2400 11400 2400
+	12275 5450 12150 5450
 Wire Wire Line
-	11400 2400 11400 2650
+	12150 5450 12150 5700
 Wire Wire Line
-	11925 2400 12050 2400
+	12675 5450 12800 5450
 Wire Wire Line
-	12050 2400 12050 2650
+	12800 5450 12800 5700
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD8331F
-P 12050 2650
+P 12800 5700
 AR Path="/5FC6B687/5FD8331F" Ref="#PWR?"  Part="1" 
 AR Path="/624C566F/5FD8331F" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 12050 2400 50  0001 C CNN
-F 1 "GND" H 12055 2477 50  0000 C CNN
-F 2 "" H 12050 2650 50  0001 C CNN
-F 3 "" H 12050 2650 50  0001 C CNN
-	1    12050 2650
+F 0 "#PWR025" H 12800 5450 50  0001 C CNN
+F 1 "GND" H 12805 5527 50  0000 C CNN
+F 2 "" H 12800 5700 50  0001 C CNN
+F 3 "" H 12800 5700 50  0001 C CNN
+	1    12800 5700
 	1    0    0    -1  
 $EndComp
-Text Notes 12175 2675 0    50   ~ 0
+Text Notes 12925 5725 0    50   ~ 0
 Pinout for AES-PMOD-TPM20-SLB9670-G
-Text Notes 12325 2425 1    50   ~ 0
+Text Notes 13075 5475 1    50   ~ 0
 TODO: tie this pins to DC-SCI connector
 Wire Wire Line
 	9675 4825 9175 4825
@@ -1292,14 +1292,14 @@ QSPI0_CS1_N
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD82134
-P 11400 2650
+P 12150 5700
 AR Path="/5FC6B687/5FD82134" Ref="#PWR?"  Part="1" 
 AR Path="/624C566F/5FD82134" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 11400 2400 50  0001 C CNN
-F 1 "GND" H 11405 2477 50  0000 C CNN
-F 2 "" H 11400 2650 50  0001 C CNN
-F 3 "" H 11400 2650 50  0001 C CNN
-	1    11400 2650
+F 0 "#PWR024" H 12150 5450 50  0001 C CNN
+F 1 "GND" H 12155 5527 50  0000 C CNN
+F 2 "" H 12150 5700 50  0001 C CNN
+F 3 "" H 12150 5700 50  0001 C CNN
+	1    12150 5700
 	1    0    0    -1  
 $EndComp
 Text GLabel 9675 4625 2    50   Input ~ 0
