@@ -1173,7 +1173,7 @@ Wire Wire Line
 	11125 2725 10375 2725
 Connection ~ 10375 2725
 $Comp
-L antmicroInterfaceControllers:MAX3421EEHJ U18
+L artix-dc-scm:MAX3421EEHJ U18
 U 1 1 61B3B9D4
 P 12675 3225
 F 0 "U18" H 12625 4588 50  0000 C CNN
@@ -1186,7 +1186,7 @@ F 5 "Maxim integrated" H 12625 4315 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTVSDiodes:PGB1010603MR D14
+L artix-dc-scm:PGB1010603MR D14
 U 1 1 61B3B9DC
 P 10375 3075
 F 0 "D14" V 10525 3075 60  0000 L CNN
@@ -1199,7 +1199,7 @@ F 5 "PGB1010603MR" H 10575 3575 60  0001 L CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:PGB1010603MR D15
+L artix-dc-scm:PGB1010603MR D15
 U 1 1 61B3B9E4
 P 10675 3075
 F 0 "D15" V 10825 3075 60  0000 L CNN
@@ -1212,7 +1212,7 @@ F 5 "PGB1010603MR" H 10875 3575 60  0001 L CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C18
+L artix-dc-scm:C_100n_0402 C18
 U 1 1 61B3B9ED
 P 11825 4125
 F 0 "C18" H 11850 4225 60  0000 L CNN
@@ -1226,7 +1226,7 @@ F 6 "100n" H 11850 4025 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_22p_0402 C20
+L artix-dc-scm:C_22p_0402 C20
 U 1 1 61B3B9F6
 P 13725 4275
 F 0 "C20" H 13725 4375 60  0000 L CNN
@@ -1240,7 +1240,7 @@ F 6 "22p" H 13725 4175 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_22p_0402 C22
+L artix-dc-scm:C_22p_0402 C22
 U 1 1 61B3B9FF
 P 14325 4275
 F 0 "C22" H 14325 4375 60  0000 L CNN
@@ -1254,7 +1254,7 @@ F 6 "22p" H 14325 4175 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCrystals:ABM8G-12.000MHZ-18-D2Y-T Y1
+L artix-dc-scm:ABM8G-12.000MHZ-18-D2Y-T Y1
 U 1 1 61B3BA07
 P 13925 3875
 F 0 "Y1" H 14119 3906 31  0000 L CNN
@@ -1267,7 +1267,7 @@ F 5 "Abracon" H 14119 3782 31  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C19
+L artix-dc-scm:C_100n_0402 C19
 U 1 1 61B3BA10
 P 13725 2075
 F 0 "C19" H 13750 2175 60  0000 L CNN
@@ -1293,7 +1293,7 @@ Wire Wire Line
 Wire Wire Line
 	14225 1700 14225 1925
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C21
+L artix-dc-scm:C_100n_0402 C21
 U 1 1 61B3BA1F
 P 14225 2075
 F 0 "C21" H 14250 2175 60  0000 L CNN
@@ -1319,7 +1319,7 @@ Wire Wire Line
 Wire Wire Line
 	11925 1525 11925 1825
 $Comp
-L antmicroResistors0402:R_22R_0402 R138
+L artix-dc-scm:R_22R_0402 R138
 U 1 1 61B3BA2E
 P 11275 2625
 F 0 "R138" H 11075 2675 60  0000 C CNN
@@ -1333,7 +1333,7 @@ F 6 "22R" H 11450 2575 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R139
+L artix-dc-scm:R_22R_0402 R139
 U 1 1 61B3BA37
 P 11275 2725
 F 0 "R139" H 11075 2775 60  0000 C CNN
@@ -1347,7 +1347,7 @@ F 6 "22R" H 11450 2675 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R141
+L artix-dc-scm:R_10k_0402 R141
 U 1 1 61B3BA40
 P 11925 2125
 F 0 "R141" V 11880 2195 60  0000 L CNN
@@ -1361,7 +1361,7 @@ F 6 "10k" V 11978 2195 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R140
+L artix-dc-scm:R_0R_0402 R140
 U 1 1 61B3BA4A
 P 11675 2125
 F 0 "R140" V 11630 2195 60  0000 L CNN
@@ -1550,7 +1550,7 @@ F 3 "" H 12550 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C25
+L artix-dc-scm:C_100n_0402 C25
 U 1 1 625E9A3D
 P 10750 7625
 F 0 "C25" H 10775 7725 60  0000 L CNN
@@ -1564,7 +1564,7 @@ F 6 "100n" H 10775 7525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R142
+L artix-dc-scm:R_10k_0402 R142
 U 1 1 6260A025
 P 13450 8275
 F 0 "R142" V 13405 8345 60  0000 L CNN
@@ -1626,7 +1626,7 @@ USB1_~RD
 Text GLabel 13775 7925 2    50   Input ~ 0
 USB1_WR
 $Comp
-L antmicroInterfaceControllers:FT245RQ U19
+L artix-dc-scm:FT245RQ U19
 U 1 1 6250AFED
 P 12650 7375
 F 0 "U19" H 12650 8350 60  0000 C CNN
@@ -1649,7 +1649,7 @@ Wire Wire Line
 	11675 6500 11675 6725
 Connection ~ 11675 6725
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C26
+L artix-dc-scm:C_10u_0402 C26
 U 1 1 627E1224
 P 11050 7625
 F 0 "C26" H 11165 7670 60  0000 L CNN
@@ -1663,7 +1663,7 @@ F 6 "10u" H 11165 7572 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C24
+L artix-dc-scm:C_100n_0402 C24
 U 1 1 62805326
 P 10450 7625
 F 0 "C24" H 10475 7725 60  0000 L CNN
@@ -1677,7 +1677,7 @@ F 6 "100n" H 10475 7525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C23
+L artix-dc-scm:C_4u7_0402 C23
 U 1 1 628061B5
 P 10150 7625
 F 0 "C23" H 10265 7670 60  0000 L CNN
@@ -1848,7 +1848,7 @@ HPM SPI
 Text Notes 7775 5175 0    50   ~ 0
 reserved for future use (as of DC-SCI OPC specification)
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61300611121 J?
+L artix-dc-scm:61300611121 J?
 U 1 1 66DBB6BD
 P 8875 5850
 AR Path="/624C566F/66DBB6BD" Ref="J?"  Part="1" 

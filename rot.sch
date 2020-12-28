@@ -1273,8 +1273,6 @@ F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C 
 	1    8925 6775
 	1    0    0    1   
 $EndComp
-Text GLabel 9675 4625 2    50   Input ~ 0
-FCS_B
 Text GLabel 8225 5325 0    50   Input ~ 0
 ROT_QSPI_SCK
 Text GLabel 8225 5225 0    50   Input ~ 0
@@ -1304,4 +1302,6 @@ F 3 "" H 11400 2650 50  0001 C CNN
 	1    11400 2650
 	1    0    0    -1  
 $EndComp
+Text GLabel 9675 4625 2    50   Input ~ 0
+ROT_QSPI_CS_B
 $EndSCHEMATC

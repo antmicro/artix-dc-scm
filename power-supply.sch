@@ -2583,7 +2583,7 @@ Wire Wire Line
 Text GLabel 12350 2350 0    50   Input ~ 0
 VCC5V0
 $Comp
-L antmicroCapacitors0603:C_10u_25V_0603 C14
+L artix-dc-scm:C_10u_25V_0603 C14
 U 1 1 619949C4
 P 3200 1675
 F 0 "C14" H 3315 1720 60  0000 L CNN
@@ -2597,7 +2597,7 @@ F 6 "10u/25V" H 3315 1622 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_25V_0603 C15
+L artix-dc-scm:C_10u_25V_0603 C15
 U 1 1 619975A1
 P 3475 1675
 F 0 "C15" H 3590 1720 60  0000 L CNN
@@ -2611,7 +2611,7 @@ F 6 "10u/25V" H 3590 1622 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_25V_0603 C16
+L artix-dc-scm:C_10u_25V_0603 C16
 U 1 1 619977B0
 P 3750 1675
 F 0 "C16" H 3865 1720 60  0000 L CNN
@@ -2625,7 +2625,7 @@ F 6 "10u/25V" H 3865 1622 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_100n_0402_16V C17
+L artix-dc-scm:C_100n_0402_16V C17
 U 1 1 619982FA
 P 4025 1675
 F 0 "C17" H 4140 1720 60  0000 L CNN

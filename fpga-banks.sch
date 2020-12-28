@@ -1267,13 +1267,13 @@ Wire Wire Line
 	14800 5400 14900 5400
 Wire Wire Line
 	10650 1050 10750 1050
-Text GLabel 4550 5250 2    50   Input ~ 0
+Text GLabel 5025 5250 2    50   Input ~ 0
 SPIO_CLK
-Text GLabel 4550 5550 2    50   Input ~ 0
+Text GLabel 5025 5550 2    50   Input ~ 0
 SPIO_CS_N
-Text GLabel 4550 4750 2    50   Input ~ 0
+Text GLabel 5025 4750 2    50   Input ~ 0
 SPIO_MOSI
-Text GLabel 4550 5650 2    50   Input ~ 0
+Text GLabel 5025 5650 2    50   Input ~ 0
 SPIO_MISO
 Text GLabel 11600 2300 0    50   Output ~ 0
 DDR3_A13
@@ -1412,7 +1412,7 @@ Wire Wire Line
 Wire Wire Line
 	4875 3050 4550 3050
 Wire Wire Line
-	5025 3150 4625 3150
+	4875 3150 4625 3150
 Wire Wire Line
 	4675 2750 4550 2750
 Text GLabel 5025 1250 2    50   Input ~ 0
@@ -1518,8 +1518,8 @@ Wire Wire Line
 	7025 8100 7025 8200
 Wire Wire Line
 	7025 8575 7225 8575
-Text GLabel 5025 3150 2    50   Input ~ 0
-FCS_B
+Text GLabel 4875 3150 2    50   Input ~ 0
+ROT_QSPI_CS_B
 Wire Wire Line
 	4550 2650 5225 2650
 $Comp
@@ -2221,4 +2221,76 @@ Text GLabel 1750 3150 0    50   Input ~ 0
 ESPI_RESET_N
 Text Notes 12900 7925 0    50   ~ 10
 done
+$Comp
+L artix-dc-scm:R_0R_0402 R144
+U 1 1 66DFC7B7
+P 4800 4750
+F 0 "R144" H 4800 4963 60  0000 C CNN
+F 1 "R_0R_0402" H 4800 4600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5000 4950 60  0001 L CNN
+F 3 "" H 4800 4750 50  0001 C CNN
+F 4 "PANASONIC" H 5000 5150 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5000 5050 60  0001 L CNN "MPN"
+F 6 "0R" H 4800 4865 50  0000 C CNN "Val"
+	1    4800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:R_0R_0402 R145
+U 1 1 66DFD08E
+P 4800 5250
+F 0 "R145" H 4800 5463 60  0000 C CNN
+F 1 "R_0R_0402" H 4800 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5000 5450 60  0001 L CNN
+F 3 "" H 4800 5250 50  0001 C CNN
+F 4 "PANASONIC" H 5000 5650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5000 5550 60  0001 L CNN "MPN"
+F 6 "0R" H 4800 5365 50  0000 C CNN "Val"
+	1    4800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:R_0R_0402 R146
+U 1 1 66DFD667
+P 4800 5550
+F 0 "R146" H 4800 5763 60  0000 C CNN
+F 1 "R_0R_0402" H 4800 5400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5000 5750 60  0001 L CNN
+F 3 "" H 4800 5550 50  0001 C CNN
+F 4 "PANASONIC" H 5000 5950 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5000 5850 60  0001 L CNN "MPN"
+F 6 "0R" H 4800 5665 50  0000 C CNN "Val"
+	1    4800 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:R_0R_0402 R147
+U 1 1 66DFDC54
+P 4800 5650
+F 0 "R147" H 4800 5863 60  0000 C CNN
+F 1 "R_0R_0402" H 4800 5500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5000 5850 60  0001 L CNN
+F 3 "" H 4800 5650 50  0001 C CNN
+F 4 "PANASONIC" H 5000 6050 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5000 5950 60  0001 L CNN "MPN"
+F 6 "0R" H 4800 5765 50  0000 C CNN "Val"
+	1    4800 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4750 4550 4750
+Wire Wire Line
+	4550 5250 4650 5250
+Wire Wire Line
+	4650 5550 4550 5550
+Wire Wire Line
+	4650 5650 4550 5650
+Wire Wire Line
+	5025 5650 4950 5650
+Wire Wire Line
+	5025 5550 4950 5550
+Wire Wire Line
+	5025 4750 4950 4750
+Wire Wire Line
+	5025 5250 4950 5250
 $EndSCHEMATC
