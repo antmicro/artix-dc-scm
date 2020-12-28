@@ -1757,10 +1757,10 @@ TODO: tie to FPGA
 Text Notes 5650 1300 0    118  ~ 24
 PCIe x1
 $Comp
-L artix-dc-scm:XC7A100T-FGG484 U?
+L artix-dc-scm:XC7A100T-FGG484 U14
 U 4 1 603098D4
 P 7475 2850
-F 0 "U?" H 7505 2896 50  0000 L CNN
+F 0 "U14" H 7505 2896 50  0000 L CNN
 F 1 "XC7A100T-FGG484" H 7505 2805 50  0000 L CNN
 F 2 "artix-dc-scm-footprints:Xilinx_FGG484" H 7175 2850 50  0001 C CNN
 F 3 "" H 7175 2850 50  0000 C CNN
@@ -1780,10 +1780,10 @@ PCIE_BMC_RX_DP
 Text GLabel 5975 2750 0    50   Input ~ 0
 PCIE_BMC_RX_DN
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402 C195
 U 1 1 604DDE71
 P 5750 1750
-F 0 "C?" V 5492 1750 60  0000 C CNN
+F 0 "C195" V 5492 1750 60  0000 C CNN
 F 1 "C_100n_0402" H 5750 1600 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5950 1950 60  0001 L CNN
 F 3 "" H 5750 1750 50  0001 C CNN
@@ -1794,10 +1794,10 @@ F 6 "100n" V 5590 1750 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L artix-dc-scm:C_100n_0402 C194
 U 1 1 6050F852
 P 5500 1850
-F 0 "C?" V 5242 1850 60  0000 C CNN
+F 0 "C194" V 5242 1850 60  0000 C CNN
 F 1 "C_100n_0402" H 5500 1700 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5700 2050 60  0001 L CNN
 F 3 "" H 5500 1850 50  0001 C CNN
@@ -1833,14 +1833,65 @@ Wire Wire Line
 	5975 3350 5850 3350
 Connection ~ 5975 3350
 $Comp
-L artix-dc-scm:GND #PWR?
+L artix-dc-scm:GND #PWR0122
 U 1 1 60C31F12
 P 5850 3350
-F 0 "#PWR?" H 5850 3100 50  0001 C CNN
+F 0 "#PWR0122" H 5850 3100 50  0001 C CNN
 F 1 "GND" H 5855 3177 50  0000 C CNN
 F 2 "" H 5850 3350 50  0001 C CNN
 F 3 "" H 5850 3350 50  0001 C CNN
 	1    5850 3350
 	0    1    1    0   
 $EndComp
+Text Notes 8275 5050 0    118  ~ 0
+HPM SPI
+Text Notes 7775 5175 0    50   ~ 0
+reserved for future use (as of DC-SCI OPC specification)
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:61300611121 J?
+U 1 1 66DBB6BD
+P 8875 5850
+AR Path="/624C566F/66DBB6BD" Ref="J?"  Part="1" 
+AR Path="/614223A1/66DBB6BD" Ref="J7"  Part="1" 
+F 0 "J7" V 9074 5772 50  0000 R CNN
+F 1 "61300611121" V 9165 5772 50  0000 R CNN
+F 2 "antmicro-footprints:61300611121" H 9075 6050 60  0001 L CNN
+F 3 "" H 9075 6150 60  0001 L CNN
+F 4 "61300611121" H 8825 6250 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 9075 6950 60  0001 L CNN "Manufacturer"
+	1    8875 5850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8725 5850 8600 5850
+Wire Wire Line
+	8600 5850 8600 5650
+Wire Wire Line
+	8725 6350 8600 6350
+Wire Wire Line
+	8600 6350 8600 6525
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 66DBB6C7
+P 8600 6525
+AR Path="/5FC6B687/66DBB6C7" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/66DBB6C7" Ref="#PWR?"  Part="1" 
+AR Path="/614223A1/66DBB6C7" Ref="#PWR096"  Part="1" 
+F 0 "#PWR096" H 8600 6275 50  0001 C CNN
+F 1 "GND" H 8605 6352 50  0000 C CNN
+F 2 "" H 8600 6525 50  0001 C CNN
+F 3 "" H 8600 6525 50  0001 C CNN
+	1    8600 6525
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 5650 1    50   Input ~ 0
+VCC3V3
+Text GLabel 8725 6250 0    50   Input ~ 0
+SPI0_CS_N
+Text GLabel 8725 5950 0    50   Input ~ 0
+SPI0_MOSI
+Text GLabel 8725 6050 0    50   Input ~ 0
+SPI0_MISO
+Text GLabel 8725 6150 0    50   Input ~ 0
+SPI0_CLK
 $EndSCHEMATC
