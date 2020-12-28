@@ -141,40 +141,30 @@ Wire Wire Line
 	11600 2600 12000 2600
 Wire Wire Line
 	11600 2500 12000 2500
-Text GLabel 5850 2950 2    50   Input ~ 0
+Text GLabel 6375 4750 0    50   Input ~ 0
 SGPIO0_DI
-Text GLabel 5850 2850 2    50   Input ~ 0
+Text GLabel 6375 5450 0    50   Input ~ 0
 SGPIO0_DO
-Text GLabel 5850 2050 2    50   Input ~ 0
+Text GLabel 6375 5250 0    50   Input ~ 0
 SGPIO0_LD
-Text GLabel 5850 3050 2    50   Input ~ 0
+Text GLabel 6375 4350 0    50   Input ~ 0
 SGPIO1_DI
-Text GLabel 5850 1950 2    50   Input ~ 0
+Text GLabel 6375 4650 0    50   Input ~ 0
 SGPIO1_DO
-Text GLabel 5850 2350 2    50   Input ~ 0
+Text GLabel 6375 4450 0    50   Input ~ 0
 SGPIO1_LD
-Text GLabel 5850 2650 2    50   Input ~ 0
+Text GLabel 6700 3250 0    50   Input ~ 0
 SGPIO_RESET_N
-Text GLabel 5850 2450 2    50   Input ~ 0
+Text GLabel 6700 2850 0    50   Input ~ 0
 SGPIO_INTR_N
-Text GLabel 950  3400 2    50   Input ~ 0
+Text GLabel 1750 2650 0    50   Input ~ 0
 ESPI_CLK
-Text GLabel 950  3500 2    50   Input ~ 0
+Text GLabel 1750 2350 0    50   Input ~ 0
 ESPI_CS0_N
-Text GLabel 950  3600 2    50   Input ~ 0
+Text GLabel 1750 2450 0    50   Input ~ 0
 ESPI_CS1_N
-Text GLabel 950  3700 2    50   Input ~ 0
+Text GLabel 1750 2850 0    50   Input ~ 0
 ESPI_IO0
-Text GLabel 950  3800 2    50   Input ~ 0
-ESPI_IO1
-Text GLabel 950  3900 2    50   Input ~ 0
-ESPI_IO2
-Text GLabel 950  4000 2    50   Input ~ 0
-ESPI_IO3
-Text GLabel 950  4100 2    50   Input ~ 0
-ESPI_ALERT_N
-Text GLabel 950  4200 2    50   Input ~ 0
-ESPI_RESET_N
 Text GLabel 9450 8650 2    50   Input ~ 0
 JTAG_TCK
 Text GLabel 9450 8550 2    50   Input ~ 0
@@ -183,13 +173,13 @@ Text GLabel 9450 8350 2    50   Input ~ 0
 JTAG_TDI
 Text GLabel 9450 8450 2    50   Input ~ 0
 JTAG_TDO
-Text GLabel 15350 5775 2    50   Input ~ 0
+Text GLabel 4875 3450 2    50   Input ~ 0
 UART1_SCM_TX
-Text GLabel 15350 5675 2    50   Input ~ 0
+Text GLabel 4875 3350 2    50   Input ~ 0
 UART1_SCM_RX
-Text GLabel 15350 5575 2    50   Input ~ 0
+Text GLabel 4875 3850 2    50   Input ~ 0
 UART0_SCM_TX
-Text GLabel 15350 5475 2    50   Input ~ 0
+Text GLabel 4875 3750 2    50   Input ~ 0
 UART0_SCM_RX
 Text Notes 2425 650  0    50   ~ 0
 FPGA connections to be established while preparing layout
@@ -299,17 +289,6 @@ Wire Wire Line
 	6375 4050 6700 4050
 Wire Wire Line
 	6375 4150 6700 4150
-$Comp
-L artix-dc-scm:XC7A100T-FGG484 U14
-U 1 1 6052CB1C
-P 2550 4150
-F 0 "U14" H 3150 1175 50  0000 C CNN
-F 1 "XC7A100T-FGG484" H 3150 1084 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:Xilinx_FGG484" H 2250 4150 50  0001 C CNN
-F 3 "" H 2250 4150 50  0000 C CNN
-	1    2550 4150
-	1    0    0    -1  
-$EndComp
 $Comp
 L artix-dc-scm:XC7A100T-FGG484 U14
 U 2 1 60532D58
@@ -593,39 +572,6 @@ F 3 "" H 9450 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 1250 2450 1250
-Connection ~ 2150 1250
-Wire Wire Line
-	2150 1250 2000 1250
-Connection ~ 2250 1250
-Wire Wire Line
-	2250 1250 2150 1250
-Connection ~ 2350 1250
-Wire Wire Line
-	2350 1250 2250 1250
-Connection ~ 2450 1250
-Wire Wire Line
-	2450 1250 2350 1250
-Wire Wire Line
-	3650 1250 3750 1250
-Connection ~ 3750 1250
-Wire Wire Line
-	3750 1250 3850 1250
-Connection ~ 3850 1250
-Wire Wire Line
-	3850 1250 3950 1250
-Connection ~ 3950 1250
-Wire Wire Line
-	3950 1250 4050 1250
-Connection ~ 4050 1250
-Wire Wire Line
-	4050 1250 4150 1250
-Connection ~ 4150 1250
-Wire Wire Line
-	4150 1250 4625 1250
-Text GLabel 2000 1250 0    50   Input ~ 0
-VCCB13
-Wire Wire Line
 	7600 1250 7500 1250
 Connection ~ 7100 1250
 Wire Wire Line
@@ -869,7 +815,7 @@ Text GLabel 10800 8150 1    50   Input ~ 0
 VCC3V3_BANK
 Text GLabel 10050 9750 2    50   Input ~ 0
 VCC3V3_BANK
-Text GLabel 4850 975  2    50   Input ~ 0
+Text GLabel 1975 1250 0    50   Input ~ 0
 VCC1V8_BANK
 Text GLabel 4875 5450 2    50   Input ~ 0
 I3C[0]_SDA_3V3
@@ -885,7 +831,7 @@ Text GLabel 4875 4050 2    50   Input ~ 0
 I3C[3]_SDA_3V3
 Text GLabel 4875 3650 2    50   Input ~ 0
 I3C[3]_SCL_3V3
-Text GLabel 4875 4750 2    50   Input ~ 0
+Text GLabel 4875 4550 2    50   Input ~ 0
 I3C[0]_SCL_3V3
 $Comp
 L artix-dc-scm:GND #PWR080
@@ -952,57 +898,57 @@ Text GLabel 6375 4950 0    50   Input ~ 0
 QSPI1_CLK
 Text GLabel 6375 3950 0    50   Input ~ 0
 QSPI1_CS_N
-Text GLabel 9600 -1625 2    50   Input ~ 0
+Text GLabel 6700 2250 0    50   Input ~ 0
 I2C[1]_SDA
-Text GLabel 9600 -1525 2    50   Input ~ 0
+Text GLabel 6700 5950 0    50   Input ~ 0
 I2C[1]_SCL
-Text GLabel 9600 75   2    50   Input ~ 0
+Text GLabel 6700 6150 0    50   Input ~ 0
 I2C[9]_SCL
-Text GLabel 9600 175  2    50   Input ~ 0
+Text GLabel 6700 3050 0    50   Input ~ 0
 I2C[10]_SDA
-Text GLabel 9600 275  2    50   Input ~ 0
+Text GLabel 6700 6250 0    50   Input ~ 0
 I2C[10]_SCL
-Text GLabel 9600 375  2    50   Input ~ 0
+Text GLabel 6700 2450 0    50   Input ~ 0
 I2C[11]_SDA
-Text GLabel 9600 475  2    50   Input ~ 0
+Text GLabel 6700 3150 0    50   Input ~ 0
 I2C[11]_SCL
-Text GLabel 9600 575  2    50   Input ~ 0
+Text GLabel 6700 2350 0    50   Input ~ 0
 I2C[12]_SDA
-Text GLabel 9600 675  2    50   Input ~ 0
+Text GLabel 6700 2750 0    50   Input ~ 0
 I2C[12]_SCL
-Text GLabel 9600 -1725 2    50   Input ~ 0
+Text GLabel 6700 2150 0    50   Input ~ 0
 I2C[0]_SCL
-Text GLabel 9600 -25  2    50   Input ~ 0
+Text GLabel 6700 2950 0    50   Input ~ 0
 I2C[9]_SDA
-Text GLabel 9600 -125 2    50   Input ~ 0
+Text GLabel 6700 6650 0    50   Input ~ 0
 I2C[8]_SCL
-Text GLabel 9600 -225 2    50   Input ~ 0
+Text GLabel 6700 2050 0    50   Input ~ 0
 I2C[8]_SDA
-Text GLabel 9600 -325 2    50   Input ~ 0
+Text GLabel 6700 6550 0    50   Input ~ 0
 I2C[7]_SCL
-Text GLabel 9600 -425 2    50   Input ~ 0
+Text GLabel 6700 6450 0    50   Input ~ 0
 I2C[7]_SDA
-Text GLabel 9600 -525 2    50   Input ~ 0
+Text GLabel 6700 6950 0    50   Input ~ 0
 I2C[6]_SCL
-Text GLabel 9600 -625 2    50   Input ~ 0
+Text GLabel 6700 6850 0    50   Input ~ 0
 I2C[6]_SDA
-Text GLabel 9600 -725 2    50   Input ~ 0
+Text GLabel 6375 5350 0    50   Input ~ 0
 I2C[5]_SCL
-Text GLabel 9600 -825 2    50   Input ~ 0
+Text GLabel 6700 6750 0    50   Input ~ 0
 I2C[5]_SDA
-Text GLabel 9600 -925 2    50   Input ~ 0
+Text GLabel 6375 5050 0    50   Input ~ 0
 I2C[4]_SCL
-Text GLabel 9600 -1025 2    50   Input ~ 0
+Text GLabel 6375 3350 0    50   Input ~ 0
 I2C[4]_SDA
-Text GLabel 9600 -1125 2    50   Input ~ 0
+Text GLabel 6375 5850 0    50   Input ~ 0
 I2C[3]_SCL
-Text GLabel 9600 -1225 2    50   Input ~ 0
+Text GLabel 6700 6350 0    50   Input ~ 0
 I2C[3]_SDA
-Text GLabel 9600 -1325 2    50   Input ~ 0
+Text GLabel 6700 2550 0    50   Input ~ 0
 I2C[2]_SCL
-Text GLabel 9600 -1425 2    50   Input ~ 0
+Text GLabel 6700 2650 0    50   Input ~ 0
 I2C[2]_SDA
-Text GLabel 9600 -1825 2    50   Input ~ 0
+Text GLabel 6700 6050 0    50   Input ~ 0
 I2C[0]_SDA
 $Comp
 L artix-dc-scm:R_0R_0402 R101
@@ -1321,13 +1267,13 @@ Wire Wire Line
 	14800 5400 14900 5400
 Wire Wire Line
 	10650 1050 10750 1050
-Text GLabel 16825 6475 2    50   Input ~ 0
+Text GLabel 4550 5250 2    50   Input ~ 0
 SPIO_CLK
-Text GLabel 16825 6575 2    50   Input ~ 0
+Text GLabel 4550 5550 2    50   Input ~ 0
 SPIO_CS_N
-Text GLabel 16825 6675 2    50   Input ~ 0
+Text GLabel 4550 4750 2    50   Input ~ 0
 SPIO_MOSI
-Text GLabel 16825 6775 2    50   Input ~ 0
+Text GLabel 4550 5650 2    50   Input ~ 0
 SPIO_MISO
 Text GLabel 11600 2300 0    50   Output ~ 0
 DDR3_A13
@@ -1447,7 +1393,7 @@ Text GLabel 9825 5850 2    50   Input ~ 0
 MMC_CLK
 Text GLabel 9825 6550 2    50   Input ~ 0
 MMC_RSTN
-Text GLabel 5850 2250 2    50   Input ~ 0
+Text GLabel 6375 5150 0    50   Input ~ 0
 SGPIO0_CLK
 Wire Wire Line
 	5025 2250 4550 2250
@@ -1460,7 +1406,7 @@ Wire Wire Line
 Wire Wire Line
 	5025 2150 4550 2150
 Wire Wire Line
-	4875 2850 4550 2850
+	4675 2850 4550 2850
 Wire Wire Line
 	4875 2950 4550 2950
 Wire Wire Line
@@ -1468,28 +1414,28 @@ Wire Wire Line
 Wire Wire Line
 	5025 3150 4625 3150
 Wire Wire Line
-	4875 2750 4550 2750
+	4675 2750 4550 2750
 Text GLabel 5025 1250 2    50   Input ~ 0
 VCC3V3_BANK
-Text GLabel 2075 7425 2    50   Input ~ 0
+Text GLabel 4550 4450 2    50   Input ~ 0
 NCSI_CLK
-Text GLabel 2075 7525 2    50   Input ~ 0
+Text GLabel 4550 4350 2    50   Input ~ 0
 NCSI_CRS_DV
-Text GLabel 2075 7625 2    50   Input ~ 0
+Text GLabel 4550 4250 2    50   Input ~ 0
 NCSI_TXEN
-Text GLabel 2075 7725 2    50   Input ~ 0
+Text GLabel 4550 4850 2    50   Input ~ 0
 NCSI_TXD0
-Text GLabel 2075 7825 2    50   Input ~ 0
+Text GLabel 4675 2850 2    50   Input ~ 0
 NCSI_TXD1
-Text GLabel 2075 7925 2    50   Input ~ 0
+Text GLabel 4550 4150 2    50   Input ~ 0
 NCSI_RXER
-Text GLabel 2075 8025 2    50   Input ~ 0
+Text GLabel 4675 2750 2    50   Input ~ 0
 NCSI_RXD0
-Text GLabel 2075 8125 2    50   Input ~ 0
+Text GLabel 4875 3250 2    50   Input ~ 0
 NCSI_RXD1
-Text GLabel 5850 2550 2    50   Input ~ 0
+Text GLabel 6375 4550 0    50   Input ~ 0
 RSVD2
-Text Notes 11075 -700 0    50   ~ 0
+Text Notes 5625 4575 0    50   ~ 0
 SGPIO1_CLK
 Text GLabel 5025 2150 2    50   Input ~ 0
 ROT_QSPI_DQ0
@@ -1501,7 +1447,7 @@ Text GLabel 5025 2450 2    50   Input ~ 0
 ROT_QSPI_DQ3
 Text GLabel 5025 2550 2    50   Input ~ 0
 PUDC_B
-Text GLabel 5175 2650 2    50   Input ~ 0
+Text GLabel 5350 2650 2    50   Input ~ 0
 EMCCLK
 Text GLabel 4875 4950 2    50   Input ~ 0
 CK_IO34
@@ -1575,7 +1521,7 @@ Wire Wire Line
 Text GLabel 5025 3150 2    50   Input ~ 0
 FCS_B
 Wire Wire Line
-	4550 2650 5075 2650
+	4550 2650 5225 2650
 $Comp
 L artix-dc-scm:R_2k2_0402 R133
 U 1 1 601DDEB8
@@ -2065,11 +2011,11 @@ Text GLabel 3475 10525 0    50   Input ~ 0
 USR_LED2
 Wire Wire Line
 	3600 10525 3475 10525
-Text GLabel 16675 5750 2    50   Input ~ 0
+Text GLabel 14800 6000 2    50   Input ~ 0
 USR_LED0
-Text GLabel 16675 5850 2    50   Input ~ 0
+Text GLabel 14900 4900 2    50   Input ~ 0
 USR_LED1
-Text GLabel 16675 5950 2    50   Input ~ 0
+Text GLabel 14900 5000 2    50   Input ~ 0
 USR_LED2
 Text GLabel 9875 2150 2    50   Input ~ 0
 USB1_D0
@@ -2105,17 +2051,17 @@ Text GLabel 9875 4150 2    50   Input ~ 0
 GPX_USB2
 Text Notes 13100 8900 0    50   ~ 0
 Interfaces status:\nJTAG - needs pre-defined pins (BANK0)\nboot (Q)SPI - needs pre-defined pins (BANK14)\neSPI\nQSPI0, QSPI1 - \nSPI - \nSGPIO0, SGPIO1 - \nUSB client, USB host - free\nPCIe x1 - needs to be connected to transreceivers\nI3C - free\nI2C - free\nNCSI-\nUART \nethernet - free\nDDR3 - uses B34 as in references\neMMC - free
-Text Notes 15000 7750 0    50   ~ 10
+Text Notes 12900 7750 0    50   ~ 10
 done
-Text Notes 15000 7850 0    50   ~ 10
+Text Notes 12900 7850 0    50   ~ 10
 done
-Text Notes 15000 8350 0    50   ~ 10
+Text Notes 12900 8325 0    50   ~ 10
 done
 Text GLabel 11600 5600 0    50   BiDi ~ 0
 DDR3_DM1
 Text GLabel 11600 4000 0    50   Output ~ 0
 DDR3_BA1
-Text Notes 15000 8825 0    50   ~ 10
+Text Notes 12900 8825 0    50   ~ 10
 done
 Text GLabel 15175 2300 2    50   Input ~ 0
 ETH_TXD0
@@ -2157,13 +2103,13 @@ Wire Wire Line
 	14800 4200 15175 4200
 Wire Wire Line
 	14800 3800 15175 3800
-Text Notes 15000 8750 0    50   ~ 10
+Text Notes 12900 8750 0    50   ~ 10
 done
 Text GLabel 9875 4250 2    50   Input ~ 0
 INT_USB
-Text Notes 15000 8275 0    50   ~ 10
+Text Notes 12900 8250 0    50   ~ 10
 done
-Text Notes 15000 8900 0    50   ~ 10
+Text Notes 12900 8900 0    50   ~ 10
 done
 Text GLabel 6375 3450 0    50   Input ~ 0
 QSPI0_CS1_N
@@ -2182,20 +2128,20 @@ QSPI0_CLK
 $Comp
 L artix-dc-scm:TP_SMD1MM TP15
 U 1 1 62EA7773
-P 5075 2750
-F 0 "TP15" H 5275 2725 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5075 2650 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5275 2950 60  0001 L CNN
-F 3 "" H 5275 3050 60  0001 L CNN
-	1    5075 2750
-	1    0    0    -1  
+P 5575 2750
+F 0 "TP15" V 5575 2700 50  0000 R CNN
+F 1 "TP_SMD1MM" H 5575 2650 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5775 2950 60  0001 L CNN
+F 3 "" H 5775 3050 60  0001 L CNN
+	1    5575 2750
+	0    -1   -1   0   
 $EndComp
-Connection ~ 5075 2650
+Connection ~ 5225 2650
 Wire Wire Line
-	5075 2650 5175 2650
+	5225 2650 5350 2650
 Wire Wire Line
 	10225 5550 10125 5550
-Text Notes 15000 8025 0    50   ~ 10
+Text Notes 12900 8025 0    50   ~ 10
 done
 Wire Wire Line
 	4875 5350 4550 5350
@@ -2203,8 +2149,76 @@ Wire Wire Line
 	4550 5450 4875 5450
 Wire Wire Line
 	4875 4650 4550 4650
+Text Notes 12900 8425 0    50   ~ 10
+done
+Text Notes 12900 8675 0    50   ~ 10
+done
+Text Notes 12900 8175 0    50   ~ 10
+done
+Text Notes 12900 8500 0    50   ~ 10
+done
 Wire Wire Line
-	4550 4750 4875 4750
-Text Notes 15000 8425 0    50   ~ 10
+	5475 2750 5225 2750
+Wire Wire Line
+	5225 2750 5225 2650
+Text Notes 12900 8575 0    50   ~ 10
+done
+Wire Wire Line
+	4550 4550 4875 4550
+Text Notes 12900 8100 0    50   ~ 10
+done
+Wire Wire Line
+	4150 1250 4625 1250
+Connection ~ 4150 1250
+Wire Wire Line
+	2550 1250 2450 1250
+Connection ~ 2450 1250
+Wire Wire Line
+	2450 1250 2350 1250
+Connection ~ 2350 1250
+Wire Wire Line
+	4050 1250 4150 1250
+Connection ~ 4050 1250
+Wire Wire Line
+	3950 1250 4050 1250
+Connection ~ 3950 1250
+Wire Wire Line
+	3850 1250 3950 1250
+Connection ~ 3850 1250
+Wire Wire Line
+	3750 1250 3850 1250
+Wire Wire Line
+	3650 1250 3750 1250
+Connection ~ 3750 1250
+Wire Wire Line
+	2350 1250 2250 1250
+Connection ~ 2250 1250
+Wire Wire Line
+	2250 1250 2150 1250
+Wire Wire Line
+	2150 1250 2000 1250
+Connection ~ 2150 1250
+$Comp
+L artix-dc-scm:XC7A100T-FGG484 U14
+U 1 1 6052CB1C
+P 2550 4150
+F 0 "U14" H 3150 1175 50  0000 C CNN
+F 1 "XC7A100T-FGG484" H 3150 1084 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:Xilinx_FGG484" H 2250 4150 50  0001 C CNN
+F 3 "" H 2250 4150 50  0000 C CNN
+	1    2550 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 2250 0    50   Input ~ 0
+ESPI_IO1
+Text GLabel 1750 2150 0    50   Input ~ 0
+ESPI_IO2
+Text GLabel 1750 2050 0    50   Input ~ 0
+ESPI_IO3
+Text GLabel 1750 3250 0    50   Input ~ 0
+ESPI_ALERT_N
+Text GLabel 1750 3150 0    50   Input ~ 0
+ESPI_RESET_N
+Text Notes 12900 7925 0    50   ~ 10
 done
 $EndSCHEMATC
