@@ -499,25 +499,9 @@ Text GLabel 6625 9025 0    50   Input ~ 0
 IRQ_N
 Text GLabel 6625 9125 0    50   Input ~ 0
 PRSNT1_N
-Text GLabel 6625 9325 0    50   Input ~ 0
-PCIE_HPM_RXP[0]
-Text GLabel 6625 9425 0    50   Input ~ 0
-PCIE_HPM_RXN[0]
 Connection ~ 6925 9525
 Wire Wire Line
 	6925 9525 6925 9825
-Text GLabel 6625 9625 0    50   Input ~ 0
-PCIE_HPM_RXP[1]
-Text GLabel 6625 9725 0    50   Input ~ 0
-PCIE_HPM_RXN[1]
-Text GLabel 6625 9925 0    50   Input ~ 0
-PCIE_HPM_RXP[2]
-Text GLabel 6625 10025 0    50   Input ~ 0
-PCIE_HPM_RXN[2]
-Text GLabel 6625 10225 0    50   Input ~ 0
-PCIE_HPM_RXP[3]
-Text GLabel 6625 10325 0    50   Input ~ 0
-PCIE_HPM_RXN[3]
 Text GLabel 9125 1625 2    50   Input ~ 0
 P12V_AUX
 Text GLabel 9125 1525 2    50   Input ~ 0
@@ -710,26 +694,6 @@ Text GLabel 9125 8725 2    50   Input ~ 0
 USB1_DP
 Text GLabel 9125 8825 2    50   Input ~ 0
 USB1_DN
-Text GLabel 9125 9325 2    50   Input ~ 0
-PCIE_HPM_TXP[0]
-Text GLabel 9125 9425 2    50   Input ~ 0
-PCIE_HPM_TXN[0]
-Text GLabel 9125 9625 2    50   Input ~ 0
-PCIE_HPM_TXP[1]
-Text GLabel 9125 9725 2    50   Input ~ 0
-PCIE_HPM_TXN[1]
-Text GLabel 9125 9925 2    50   Input ~ 0
-PCIE_HPM_TXP[2]
-Text GLabel 9125 10025 2    50   Input ~ 0
-PCIE_HPM_TXN[2]
-Text GLabel 9125 10225 2    50   Input ~ 0
-PCIE_HPM_TXP[3]
-Text GLabel 9125 10325 2    50   Input ~ 0
-PCIE_HPM_TXN[3]
-Text GLabel 9125 9025 2    50   Input ~ 0
-RSVD0
-Text GLabel 9125 9125 2    50   Input ~ 0
-RSVD1
 Wire Wire Line
 	8825 10425 8825 10625
 $Comp
@@ -781,4 +745,40 @@ F 6 "0R" H 10300 6490 50  0000 C CNN "Val"
 	1    10300 6375
 	1    0    0    -1  
 $EndComp
+Text GLabel 6625 9325 0    50   Input ~ 0
+PCIE_HPM_RX[0]_P
+Text GLabel 6625 9425 0    50   Input ~ 0
+PCIE_HPM_RX[0]_N
+Text GLabel 6625 9625 0    50   Input ~ 0
+PCIE_HPM_RX[1]_P
+Text GLabel 6625 9725 0    50   Input ~ 0
+PCIE_HPM_RX[1]_N
+Text GLabel 6625 10225 0    50   Input ~ 0
+PCIE_HPM_RX[3]_P
+Text GLabel 6625 10325 0    50   Input ~ 0
+PCIE_HPM_RX[3]_N
+Text GLabel 9125 9625 2    50   Input ~ 0
+PCIE_HPM_TX[1]_P
+Text GLabel 9125 9725 2    50   Input ~ 0
+PCIE_HPM_TX[1]_N
+Text GLabel 9125 9925 2    50   Input ~ 0
+PCIE_HPM_TX[2]_P
+Text GLabel 9125 10025 2    50   Input ~ 0
+PCIE_HPM_TX[2]_N
+Text GLabel 9125 10225 2    50   Input ~ 0
+PCIE_HPM_TX[3]_P
+Text GLabel 9125 10325 2    50   Input ~ 0
+PCIE_HPM_TX[3]_N
+Text GLabel 6625 10025 0    50   Input ~ 0
+PCIE_HPM_RX[2]_N
+Text GLabel 6625 9925 0    50   Input ~ 0
+PCIE_HPM_RX[2]_P
+Text GLabel 9125 9025 2    50   Input ~ 0
+PCIE_HPM_CLK_P
+Text GLabel 9125 9125 2    50   Input ~ 0
+PCIE_HPM_CLK_N
+Text GLabel 9125 9425 2    50   Input ~ 0
+PCIE_HPM_TX[0]_N
+Text GLabel 9125 9325 2    50   Input ~ 0
+PCIE_HPM_TX[0]_P
 $EndSCHEMATC
