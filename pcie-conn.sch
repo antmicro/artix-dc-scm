@@ -19,6 +19,8 @@ $Comp
 L artix-dc-scm:C_100n_0402 C27
 U 1 1 5FD1CF34
 P 6600 2750
+AR Path="/5FD1CF34" Ref="C27"  Part="1" 
+AR Path="/5FD17EF1/5FD1CF34" Ref="C27"  Part="1" 
 F 0 "C27" V 6342 2750 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 2600 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 6800 2950 60  0001 L CNN
@@ -33,6 +35,8 @@ $Comp
 L artix-dc-scm:C_100n_0402 C29
 U 1 1 5FD1DAE4
 P 6875 2850
+AR Path="/5FD1DAE4" Ref="C29"  Part="1" 
+AR Path="/5FD17EF1/5FD1DAE4" Ref="C29"  Part="1" 
 F 0 "C29" V 6617 2850 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 2700 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 7075 3050 60  0001 L CNN
@@ -55,6 +59,8 @@ $Comp
 L artix-dc-scm:C_100n_0402 C28
 U 1 1 5FD279F6
 P 6600 3350
+AR Path="/5FD279F6" Ref="C28"  Part="1" 
+AR Path="/5FD17EF1/5FD279F6" Ref="C28"  Part="1" 
 F 0 "C28" V 6342 3350 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 3200 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 6800 3550 60  0001 L CNN
@@ -69,6 +75,8 @@ $Comp
 L artix-dc-scm:C_100n_0402 C30
 U 1 1 5FD279FF
 P 6875 3450
+AR Path="/5FD279FF" Ref="C30"  Part="1" 
+AR Path="/5FD17EF1/5FD279FF" Ref="C30"  Part="1" 
 F 0 "C30" V 6617 3450 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 3300 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 7075 3650 60  0001 L CNN
@@ -520,6 +528,8 @@ $Comp
 L artix-dc-scm:C_100n_0402 C179
 U 1 1 5FFDF949
 P 6600 3950
+AR Path="/5FFDF949" Ref="C179"  Part="1" 
+AR Path="/5FD17EF1/5FFDF949" Ref="C179"  Part="1" 
 F 0 "C179" V 6342 3950 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 3800 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 6800 4150 60  0001 L CNN
@@ -534,6 +544,8 @@ $Comp
 L artix-dc-scm:C_100n_0402 C181
 U 1 1 5FFDF952
 P 6875 4050
+AR Path="/5FFDF952" Ref="C181"  Part="1" 
+AR Path="/5FD17EF1/5FFDF952" Ref="C181"  Part="1" 
 F 0 "C181" V 6617 4050 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 3900 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 7075 4250 60  0001 L CNN
@@ -581,6 +593,8 @@ $Comp
 L artix-dc-scm:C_100n_0402 C180
 U 1 1 60013CBE
 P 6600 4550
+AR Path="/60013CBE" Ref="C180"  Part="1" 
+AR Path="/5FD17EF1/60013CBE" Ref="C180"  Part="1" 
 F 0 "C180" V 6342 4550 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 4400 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 6800 4750 60  0001 L CNN
@@ -595,6 +609,8 @@ $Comp
 L artix-dc-scm:C_100n_0402 C182
 U 1 1 60013CC7
 P 6875 4650
+AR Path="/60013CC7" Ref="C182"  Part="1" 
+AR Path="/5FD17EF1/60013CC7" Ref="C182"  Part="1" 
 F 0 "C182" V 6617 4650 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 4500 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 7075 4850 60  0001 L CNN
@@ -659,7 +675,7 @@ U 1 1 611DD06A
 P 7200 5475
 F 0 "SP1" H 7330 5528 60  0000 L CNN
 F 1 "9774025151" H 7330 5422 60  0000 L CNN
-F 2 "antmicro-footprints:9774025151" H 7200 5475 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:9774025151" H 7200 5475 60  0001 C CNN
 F 3 "" H 7200 5475 60  0001 C CNN
 F 4 "Wurth Elektronik" H 7200 5475 50  0001 C CNN "Manufacturer"
 F 5 "9774025151" H 7200 5475 50  0001 C CNN "MPN"
