@@ -1261,101 +1261,101 @@ Text GLabel 5025 4750 2    50   Input ~ 0
 SPIO_MOSI
 Text GLabel 5025 5650 2    50   Input ~ 0
 SPIO_MISO
-Text GLabel 11600 2300 0    50   Output ~ 0
+Text GLabel 17400 2025 0    50   Output ~ 0
 DDR3_A13
-Text GLabel 11600 4800 0    50   Output ~ 0
+Text GLabel 17400 4525 0    50   Output ~ 0
 DDR3_A12
-Text GLabel 11600 4600 0    50   Output ~ 0
+Text GLabel 17400 4325 0    50   Output ~ 0
 DDR3_A11
-Text GLabel 11600 4700 0    50   Output ~ 0
+Text GLabel 17400 4425 0    50   Output ~ 0
 DDR3_A10
-Text GLabel 11600 2400 0    50   Output ~ 0
+Text GLabel 17400 2125 0    50   Output ~ 0
 DDR3_RESET
-Text GLabel 11600 4200 0    50   Output ~ 0
+Text GLabel 17400 3925 0    50   Output ~ 0
 DDR3_CKE
-Text GLabel 11600 3800 0    50   Output ~ 0
+Text GLabel 17400 3525 0    50   Output ~ 0
 DDR3_CLK-
-Text GLabel 11600 3700 0    50   Output ~ 0
+Text GLabel 17400 3425 0    50   Output ~ 0
 DDR3_CLK+
-Text GLabel 11600 4500 0    50   Output ~ 0
+Text GLabel 17400 4225 0    50   Output ~ 0
 DDR3_A0
-Text GLabel 11600 5200 0    50   Output ~ 0
+Text GLabel 17400 4925 0    50   Output ~ 0
 DDR3_A1
-Text GLabel 11600 3100 0    50   Output ~ 0
+Text GLabel 17400 2825 0    50   Output ~ 0
 DDR3_A2
-Text GLabel 11600 2200 0    50   Output ~ 0
+Text GLabel 17400 1925 0    50   Output ~ 0
 DDR3_A3
-Text GLabel 11600 5100 0    50   Output ~ 0
+Text GLabel 17400 4825 0    50   Output ~ 0
 DDR3_A4
-Text GLabel 11600 2100 0    50   Output ~ 0
+Text GLabel 17400 1825 0    50   Output ~ 0
 DDR3_A5
-Text GLabel 11600 5400 0    50   Output ~ 0
+Text GLabel 17400 5125 0    50   Output ~ 0
 DDR3_A6
-Text GLabel 11600 2000 0    50   Output ~ 0
+Text GLabel 17400 1725 0    50   Output ~ 0
 DDR3_A7
-Text GLabel 11600 5300 0    50   Output ~ 0
+Text GLabel 17400 5025 0    50   Output ~ 0
 DDR3_A8
-Text GLabel 11600 2600 0    50   Output ~ 0
+Text GLabel 17400 2325 0    50   Output ~ 0
 DDR3_A9
-Text GLabel 11600 2900 0    50   Output ~ 0
+Text GLabel 17400 2625 0    50   Output ~ 0
 DDR3_BA0
-Text GLabel 11600 2700 0    50   Output ~ 0
+Text GLabel 17400 2425 0    50   Output ~ 0
 DDR3_BA2
-Text GLabel 11600 2800 0    50   Output ~ 0
+Text GLabel 17400 2525 0    50   Output ~ 0
 DDR3_CS
-Text GLabel 11600 3000 0    50   Output ~ 0
+Text GLabel 17400 2725 0    50   Output ~ 0
 DDR3_CAS
-Text GLabel 11600 3400 0    50   Output ~ 0
+Text GLabel 17400 3125 0    50   Output ~ 0
 DDR3_RAS
-Text GLabel 11600 3600 0    50   Output ~ 0
+Text GLabel 17400 3325 0    50   Output ~ 0
 DDR3_WE
-Text GLabel 11600 3300 0    50   Output ~ 0
+Text GLabel 17400 3025 0    50   Output ~ 0
 DDR3_ODT
-Text GLabel 11600 3500 0    50   BiDi ~ 0
+Text GLabel 17400 3225 0    50   BiDi ~ 0
 DDR3_DQ0
-Text GLabel 11600 5900 0    50   BiDi ~ 0
+Text GLabel 17400 5625 0    50   BiDi ~ 0
 DDR3_DQ1
-Text GLabel 11600 4300 0    50   BiDi ~ 0
+Text GLabel 17400 4025 0    50   BiDi ~ 0
 DDR3_DQ2
-Text GLabel 11600 6700 0    50   BiDi ~ 0
+Text GLabel 17400 6425 0    50   BiDi ~ 0
 DDR3_DQ3
-Text GLabel 11600 4100 0    50   BiDi ~ 0
+Text GLabel 17400 3825 0    50   BiDi ~ 0
 DDR3_DQ4
-Text GLabel 11600 6800 0    50   BiDi ~ 0
+Text GLabel 17400 6525 0    50   BiDi ~ 0
 DDR3_DQ5
-Text GLabel 11600 3200 0    50   BiDi ~ 0
+Text GLabel 17400 2925 0    50   BiDi ~ 0
 DDR3_DQ6
-Text GLabel 11600 6600 0    50   BiDi ~ 0
+Text GLabel 17400 6325 0    50   BiDi ~ 0
 DDR3_DQ7
-Text GLabel 11600 6900 0    50   BiDi ~ 0
+Text GLabel 17400 6625 0    50   BiDi ~ 0
 DDR3_DQ8
-Text GLabel 11600 6000 0    50   BiDi ~ 0
+Text GLabel 17400 5725 0    50   BiDi ~ 0
 DDR3_DQ9
-Text GLabel 11600 6300 0    50   BiDi ~ 0
+Text GLabel 17400 6025 0    50   BiDi ~ 0
 DDR3_DQ10
-Text GLabel 11600 5700 0    50   BiDi ~ 0
+Text GLabel 17400 5425 0    50   BiDi ~ 0
 DDR3_DQ11
-Text GLabel 11600 6400 0    50   BiDi ~ 0
+Text GLabel 17400 6125 0    50   BiDi ~ 0
 DDR3_DQ12
-Text GLabel 11600 3900 0    50   BiDi ~ 0
+Text GLabel 17400 3625 0    50   BiDi ~ 0
 DDR3_DQ15
-Text GLabel 11600 5800 0    50   BiDi ~ 0
+Text GLabel 17400 5525 0    50   BiDi ~ 0
 DDR3_DM0
-Text GLabel 11600 4900 0    50   BiDi ~ 0
+Text GLabel 17400 4625 0    50   BiDi ~ 0
 DDR3_DQS0+
-Text GLabel 11600 5000 0    50   BiDi ~ 0
+Text GLabel 17400 4725 0    50   BiDi ~ 0
 DDR3_DQS0-
-Text GLabel 11600 6100 0    50   BiDi ~ 0
+Text GLabel 17400 5825 0    50   BiDi ~ 0
 DDR3_DQS1+
-Text GLabel 11600 6200 0    50   BiDi ~ 0
+Text GLabel 17400 5925 0    50   BiDi ~ 0
 DDR3_DQS1-
 Wire Wire Line
 	11600 3200 12000 3200
-Text GLabel 11600 5500 0    50   BiDi ~ 0
+Text GLabel 17400 5225 0    50   BiDi ~ 0
 DDR3_DQ13
-Text GLabel 11600 6500 0    50   BiDi ~ 0
+Text GLabel 17400 6225 0    50   BiDi ~ 0
 DDR3_DQ14
-Text GLabel 11600 4400 0    50   Output ~ 0
+Text GLabel 17400 4125 0    50   Output ~ 0
 DDR3_A14
 Text GLabel 9825 6050 2    50   Input ~ 0
 MMC_DAT0
@@ -2043,9 +2043,9 @@ Text Notes 12900 7850 0    50   ~ 10
 done
 Text Notes 12900 8325 0    50   ~ 10
 done
-Text GLabel 11600 5600 0    50   BiDi ~ 0
+Text GLabel 17400 5325 0    50   BiDi ~ 0
 DDR3_DM1
-Text GLabel 11600 4000 0    50   Output ~ 0
+Text GLabel 17400 3725 0    50   Output ~ 0
 DDR3_BA1
 Text Notes 12900 8825 0    50   ~ 10
 done
@@ -2327,31 +2327,31 @@ Text GLabel 1350 9350 0    50   Input ~ 0
 RoT_CPU_RST_N_R
 Text Notes 725  7825 0    118  ~ 0
 HPM Control Jumpers
-Text GLabel 9825 6950 2    50   Input ~ 0
+Text GLabel 11600 3100 0    50   Input ~ 0
 HPM_FW_RECOVERY_R
-Text GLabel 9825 4950 2    50   Input ~ 0
+Text GLabel 11600 2200 0    50   Input ~ 0
 HPM_STBY_RST_N_R
-Text GLabel 9875 2450 2    50   Input ~ 0
+Text GLabel 11600 2300 0    50   Input ~ 0
 SYS_PWRBTN_N_R
-Text GLabel 9825 5050 2    50   Input ~ 0
+Text GLabel 11600 3200 0    50   Input ~ 0
 SYS_PWROK_R
-Text GLabel 9850 4350 2    50   Input ~ 0
+Text GLabel 11600 2400 0    50   Input ~ 0
 DBP_PREQ_N_R
-Text GLabel 9850 4550 2    50   Input ~ 0
+Text GLabel 11600 2700 0    50   Input ~ 0
 DBP_PRDY_N_R
-Text GLabel 9825 5550 2    50   Input ~ 0
+Text GLabel 11600 2900 0    50   Input ~ 0
 RST_PLTRST_BUF_N_R
-Text GLabel 9825 4850 2    50   Input ~ 0
+Text GLabel 11600 3700 0    50   Input ~ 0
 CHASI#_R
-Text GLabel 9825 4650 2    50   Input ~ 0
+Text GLabel 11600 3300 0    50   Input ~ 0
 SPARE0_R
-Text GLabel 9825 6550 2    50   Input ~ 0
+Text GLabel 11600 3400 0    50   Input ~ 0
 IRQ_N_R
-Text GLabel 9825 6350 2    50   Input ~ 0
+Text GLabel 11525 8500 2    50   Input ~ 0
 PRSNT1_N_R
-Text GLabel 9825 5650 2    50   Input ~ 0
+Text GLabel 11600 2800 0    50   Input ~ 0
 SPARE1_R
-Text GLabel 9825 4750 2    50   Input ~ 0
+Text GLabel 11600 3000 0    50   Input ~ 0
 RoT_CPU_RST_N_R
 Wire Wire Line
 	9500 5550 9825 5550
