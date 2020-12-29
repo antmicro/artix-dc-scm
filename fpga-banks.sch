@@ -2089,8 +2089,6 @@ Wire Wire Line
 	14800 4200 15175 4200
 Wire Wire Line
 	14800 3800 15175 3800
-Text Notes 12900 8750 0    50   ~ 10
-done
 Text GLabel 1175 7000 2    50   Input ~ 0
 INT_USB
 Text Notes 12900 8250 0    50   ~ 10
@@ -2361,4 +2359,38 @@ Wire Wire Line
 	9850 4550 9500 4550
 Wire Wire Line
 	9500 4350 9850 4350
+Text GLabel 16425 4400 0    50   Input ~ 0
+ETH_~RESET
+Text GLabel 16425 4050 0    50   Output ~ 0
+ETH_INT_N
+Text GLabel 16425 4250 0    50   Output ~ 0
+RGMII_REF_CLK
+Text GLabel 16450 3650 0    50   Output ~ 0
+RGMII_RX_CLK
+Text GLabel 16450 3550 0    50   Output ~ 0
+RGMII_RXD3
+Text GLabel 16450 3450 0    50   Output ~ 0
+RGMII_RXD2
+Text GLabel 16450 3350 0    50   Output ~ 0
+RGMII_RXD1
+Text GLabel 16450 3250 0    50   Output ~ 0
+RGMII_RXD0
+Text GLabel 16450 2950 0    50   Input ~ 0
+RGMII_TX_CLK
+Text GLabel 16450 2850 0    50   Input ~ 0
+RGMII_TXD3
+Text GLabel 16450 2750 0    50   Input ~ 0
+RGMII_TXD2
+Text GLabel 16450 2650 0    50   Input ~ 0
+RGMII_TXD1
+Text GLabel 16450 2550 0    50   Input ~ 0
+RGMII_TXD0
+Text GLabel 16450 2450 0    50   Input ~ 0
+RGMII_TX_DV
+Text GLabel 16450 2250 0    50   BiDi ~ 0
+ETH_MDIO
+Text GLabel 16450 2150 0    50   Input ~ 0
+ETH_MDC
+Text GLabel 16450 3150 0    50   Output ~ 0
+RGMII_RX_DV
 $EndSCHEMATC
