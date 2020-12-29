@@ -1626,20 +1626,6 @@ F 6 "120k" H 11100 7415 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_1M_0603 R4
-U 1 1 601F5896
-P 9750 6600
-F 0 "R4" H 9750 6813 60  0000 C CNN
-F 1 "R_1M_0603" H 9750 6450 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 9950 6800 60  0001 L CNN
-F 3 "" H 9750 6600 50  0001 C CNN
-F 4 "BOURNS" H 9950 7000 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-JW-105GLF" H 9950 6900 60  0001 L CNN "MPN"
-F 6 "1M" H 9750 6715 50  0000 C CNN "Val"
-	1    9750 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L antmicroCapacitors0402:C_12p_0402 C5
 U 1 1 601F589F
 P 9300 7150
@@ -2237,4 +2223,18 @@ Wire Wire Line
 NoConn ~ 11300 3400
 Text Notes 11350 1250 0    50   ~ 0
 TBD: is EXT VBUS, CPEN,  VBUS necessary?\n(datasheet for host variant specifies so)
+$Comp
+L antmicroResistors0402:R_1M5_0402 R?
+U 1 1 603E998C
+P 9750 6600
+F 0 "R?" H 9750 6813 60  0000 C CNN
+F 1 "R_1M5_0402" H 9750 6450 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9950 6800 60  0001 L CNN
+F 3 "" H 9750 6600 50  0001 C CNN
+F 4 "MULTICOMP" H 9950 7000 60  0001 L CNN "Manufacturer"
+F 5 "MCWR04W1504FTL" H 9950 6900 60  0001 L CNN "MPN"
+F 6 "1M5" H 9750 6715 50  0000 C CNN "Val"
+	1    9750 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

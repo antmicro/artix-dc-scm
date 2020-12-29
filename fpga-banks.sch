@@ -40,8 +40,6 @@ Wire Wire Line
 Wire Wire Line
 	14800 3400 15175 3400
 Wire Wire Line
-	14800 3300 15175 3300
-Wire Wire Line
 	14800 3500 15175 3500
 Wire Wire Line
 	14800 3700 15175 3700
@@ -113,8 +111,6 @@ Wire Wire Line
 	11600 6300 12000 6300
 Wire Wire Line
 	11600 6200 12000 6200
-Wire Wire Line
-	11600 6100 12000 6100
 Wire Wire Line
 	11600 6000 12000 6000
 Wire Wire Line
@@ -778,8 +774,6 @@ Wire Wire Line
 Wire Wire Line
 	11600 3400 12000 3400
 Wire Wire Line
-	11600 3300 12000 3300
-Wire Wire Line
 	4875 3350 4550 3350
 Wire Wire Line
 	4875 3250 4550 3250
@@ -1170,51 +1164,6 @@ Wire Wire Line
 	2025 9950 2125 9950
 Text GLabel 10750 1400 2    50   Input ~ 0
 PRSNT0_N
-Wire Wire Line
-	12900 1200 12800 1200
-Connection ~ 12800 1200
-Wire Wire Line
-	12800 1200 12700 1200
-Connection ~ 12700 1200
-Wire Wire Line
-	12700 1200 12600 1200
-Connection ~ 12600 1200
-Wire Wire Line
-	14400 1200 14550 1200
-Connection ~ 14400 1200
-Wire Wire Line
-	14300 1200 14400 1200
-Connection ~ 14300 1200
-Wire Wire Line
-	14200 1200 14300 1200
-Connection ~ 14200 1200
-Wire Wire Line
-	14100 1200 14200 1200
-Connection ~ 14100 1200
-Wire Wire Line
-	13900 1200 14000 1200
-Wire Wire Line
-	14000 1200 14100 1200
-Connection ~ 14000 1200
-Wire Wire Line
-	12600 1200 12500 1200
-Connection ~ 12500 1200
-Wire Wire Line
-	12400 1200 12250 1200
-Wire Wire Line
-	12500 1200 12400 1200
-Connection ~ 12400 1200
-$Comp
-L artix-dc-scm:XC7A100T-FGG484 U14
-U 3 1 6053B1F8
-P 12800 4100
-F 0 "U14" H 13400 1125 50  0000 C CNN
-F 1 "XC7A100T-FGG484" H 13400 1034 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:Xilinx_FGG484" H 12500 4100 50  0001 C CNN
-F 3 "" H 12500 4100 50  0000 C CNN
-	3    12800 4100
-	1    0    0    -1  
-$EndComp
 Text GLabel 10750 1050 2    50   Input ~ 0
 VIRTUAL_RESEAT
 $Comp
@@ -2393,4 +2342,81 @@ Text GLabel 16450 2150 0    50   Input ~ 0
 ETH_MDC
 Text GLabel 16450 3150 0    50   Output ~ 0
 RGMII_RX_DV
+Text GLabel 11600 4000 0    50   Input ~ 0
+ULPI2_DATA5
+Text GLabel 11600 4200 0    50   Input ~ 0
+ULPI2_DATA4
+Text GLabel 11600 4100 0    50   Input ~ 0
+ULPI2_DATA3
+Text GLabel 11600 3500 0    50   Input ~ 0
+ULPI2_DATA2
+Text GLabel 11600 3800 0    50   Input ~ 0
+ULPI2_DATA1
+Text GLabel 11600 3600 0    50   Input ~ 0
+ULPI2_DATA0
+Text GLabel 11600 6000 0    50   Input ~ 0
+ULPI2_DATA7
+Text GLabel 11600 6400 0    50   Input ~ 0
+ULPI2_NXT
+Text GLabel 11600 5900 0    50   Input ~ 0
+ULPI2_DIR
+Text GLabel 11600 5600 0    50   Input ~ 0
+ULPI2_STP
+Text GLabel 11600 4300 0    50   Input ~ 0
+ULPI2_CLKOUT
+Text GLabel 11600 6300 0    50   Input ~ 0
+ULPI2_RESET
+Text GLabel 11600 3900 0    50   Input ~ 0
+ULPI2_DATA6
+Connection ~ 12400 1200
+Wire Wire Line
+	12500 1200 12400 1200
+Wire Wire Line
+	12400 1200 12250 1200
+Connection ~ 12500 1200
+Connection ~ 14000 1200
+Wire Wire Line
+	14000 1200 14100 1200
+Wire Wire Line
+	13900 1200 14000 1200
+Connection ~ 14100 1200
+Connection ~ 14200 1200
+Wire Wire Line
+	14100 1200 14200 1200
+Wire Wire Line
+	14200 1200 14300 1200
+Connection ~ 14300 1200
+Connection ~ 14400 1200
+Wire Wire Line
+	14300 1200 14400 1200
+Wire Wire Line
+	14400 1200 14550 1200
+Connection ~ 12600 1200
+Wire Wire Line
+	12600 1200 12500 1200
+Wire Wire Line
+	12700 1200 12600 1200
+Connection ~ 12700 1200
+Connection ~ 12800 1200
+Wire Wire Line
+	12800 1200 12700 1200
+Wire Wire Line
+	12900 1200 12800 1200
+Wire Wire Line
+	14800 3300 15175 3300
+Wire Wire Line
+	11600 3300 12000 3300
+Wire Wire Line
+	11600 6100 12000 6100
+$Comp
+L artix-dc-scm:XC7A100T-FGG484 U14
+U 3 1 6053B1F8
+P 12800 4100
+F 0 "U14" H 13400 1125 50  0000 C CNN
+F 1 "XC7A100T-FGG484" H 13400 1034 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:Xilinx_FGG484" H 12500 4100 50  0001 C CNN
+F 3 "" H 12500 4100 50  0000 C CNN
+	3    12800 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
