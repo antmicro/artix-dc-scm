@@ -684,16 +684,16 @@ QSPI1_D2
 Text GLabel 9125 8225 2    50   Input ~ 0
 QSPI1_D3
 Text GLabel 9125 8425 2    50   Input ~ 0
-USB2_DP
+USB2_D_P
 Text GLabel 9125 8525 2    50   Input ~ 0
-USB2_DN
+USB2_D_N
 Connection ~ 8825 8625
 Wire Wire Line
 	8825 8625 8825 8925
 Text GLabel 9125 8725 2    50   Input ~ 0
-USB1_DP
+USB1_D_P
 Text GLabel 9125 8825 2    50   Input ~ 0
-USB1_DN
+USB1_D_N
 Wire Wire Line
 	8825 10425 8825 10625
 $Comp

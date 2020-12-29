@@ -1080,19 +1080,6 @@ F 5 "WURTH ELEKTRONIK" H 13000 5975 50  0001 C CNN "Manufacturer"
 	1    13000 5975
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroModularConnectorsJacksWithMagnetics:08B0-1X1T-36-F J?
-U 1 1 5FEC7CFD
-P 14525 6025
-F 0 "J?" H 14575 5526 50  0000 C CNN
-F 1 "08B0-1X1T-36-F" H 14575 5435 50  0000 C CNN
-F 2 "antmicro-footprints:BEL_08B0-1X1T-36-F" H 14725 6225 50  0001 L CNN
-F 3 "" H 14725 6325 60  0001 L CNN
-F 4 "08B0-1X1T-36-F" H 15075 6475 60  0001 L CNN "MPN"
-F 5 "Abracon LLC" H 14725 7125 60  0001 L CNN "Manufacturer"
-	1    14525 6025
-	1    0    0    -1  
-$EndComp
 Text Notes 13650 6975 2    59   ~ 0
 TODO: specify low profile RJ45
 Text Notes 5925 7350 2    59   ~ 0
