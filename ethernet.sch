@@ -1093,4 +1093,8 @@ F 5 "Abracon LLC" H 14725 7125 60  0001 L CNN "Manufacturer"
 	1    14525 6025
 	1    0    0    -1  
 $EndComp
+Text Notes 13650 6975 2    59   ~ 0
+TODO: specify low profile RJ45
+Text Notes 5925 7350 2    59   ~ 0
+TODO: change into 1GbE (KSZ9031RNXIC or 88E1116R)
 $EndSCHEMATC
