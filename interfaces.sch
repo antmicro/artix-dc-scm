@@ -1375,10 +1375,6 @@ F 7 "DNP" V 11675 2125 50  0000 C CNN "Populate"
 	1    11675 2125
 	0    1    1    0   
 $EndComp
-Text GLabel 9875 2625 0    50   Input ~ 0
-USB2_DN
-Text GLabel 9875 2725 0    50   Input ~ 0
-USB2_DP
 Text GLabel 11375 3225 0    50   Input ~ 0
 RST_USB2
 Text GLabel 11375 3325 0    50   Input ~ 0
@@ -1901,9 +1897,9 @@ Wire Wire Line
 	5300 2650 5975 2650
 Wire Wire Line
 	5300 2750 5975 2750
-Text GLabel 9425 2725 0    50   Input ~ 0
+Text GLabel 9875 2725 0    50   Input ~ 0
 USB2_D_P
-Text GLabel 9425 2625 0    50   Input ~ 0
+Text GLabel 9875 2625 0    50   Input ~ 0
 USB2_D_N
 Text GLabel 11400 7075 0    50   Input ~ 0
 USB1_D_P
