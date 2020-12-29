@@ -1895,4 +1895,6 @@ Text GLabel 8725 6050 0    50   Input ~ 0
 SPI0_MISO
 Text GLabel 8725 6150 0    50   Input ~ 0
 SPI0_CLK
+Text Notes 5125 10800 0    50   ~ 0
+TODO: Use Micron MTFC32GAPALBH-IT
 $EndSCHEMATC
