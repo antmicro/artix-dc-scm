@@ -1760,25 +1760,13 @@ $Comp
 L artix-dc-scm:XC7A100T-FGG484 U14
 U 4 1 603098D4
 P 7475 2850
-F 0 "U14" H 7505 2896 50  0000 L CNN
-F 1 "XC7A100T-FGG484" H 7505 2805 50  0000 L CNN
+F 0 "U14" H 6225 4175 50  0000 L CNN
+F 1 "XC7A100T-FGG484" H 6225 4100 50  0000 L CNN
 F 2 "artix-dc-scm-footprints:Xilinx_FGG484" H 7175 2850 50  0001 C CNN
 F 3 "" H 7175 2850 50  0000 C CNN
 	4    7475 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 5975 3550 0    50   Input ~ 0
-CLK_100M_PCIE_DP
-Text GLabel 5975 3650 0    50   Input ~ 0
-CLK_100M_PCIE_DN
-Text GLabel 5250 1750 0    50   Input ~ 0
-PCIE_BMC_TX_DP
-Text GLabel 5250 1850 0    50   Input ~ 0
-PCIE_BMC_TX_DN
-Text GLabel 5975 2650 0    50   Input ~ 0
-PCIE_BMC_RX_DP
-Text GLabel 5975 2750 0    50   Input ~ 0
-PCIE_BMC_RX_DN
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C195
 U 1 1 604DDE71
@@ -1897,4 +1885,24 @@ Text GLabel 8725 6150 0    50   Input ~ 0
 SPI0_CLK
 Text Notes 5125 10800 0    50   ~ 0
 TODO: Use Micron MTFC32GAPALBH-IT
+Text GLabel 5550 3550 0    50   Input ~ 0
+PCIE_BMC_CLK_100_P
+Text GLabel 5550 3650 0    50   Input ~ 0
+PCIE_BMC_CLK_100_N
+Text GLabel 5250 1750 0    50   Input ~ 0
+PCIE_BMC_TX_P
+Text GLabel 5250 1850 0    50   Input ~ 0
+PCIE_BMC_TX_N
+Text GLabel 5300 2650 0    50   Input ~ 0
+PCIE_BMC_RX_P
+Text GLabel 5300 2750 0    50   Input ~ 0
+PCIE_BMC_RX_N
+Wire Wire Line
+	5975 3550 5550 3550
+Wire Wire Line
+	5975 3650 5550 3650
+Wire Wire Line
+	5300 2650 5975 2650
+Wire Wire Line
+	5300 2750 5975 2750
 $EndSCHEMATC

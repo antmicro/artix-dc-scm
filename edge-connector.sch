@@ -418,17 +418,17 @@ I2C[4]_SCL
 Text GLabel 6625 4025 0    50   Input ~ 0
 I2C[4]_SDA
 Text GLabel 6625 4225 0    50   Input ~ 0
-CLK_100M_PCIE_DP
+PCIE_BMC_CLK_100_P
 Text GLabel 6625 4325 0    50   Input ~ 0
-CLK_100M_PCIE_DN
+PCIE_BMC_CLK_100_N
 Text GLabel 6625 4525 0    50   Input ~ 0
-PCIE_BMC_TX_DP
+PCIE_BMC_TX_P
 Text GLabel 6625 4625 0    50   Input ~ 0
-PCIE_BMC_TX_DN
+PCIE_BMC_TX_N
 Text GLabel 6625 4825 0    50   Input ~ 0
-PCIE_BMC_RX_DP
+PCIE_BMC_RX_P
 Text GLabel 6625 4925 0    50   Input ~ 0
-PCIE_BMC_RX_DN
+PCIE_BMC_RX_N
 Text GLabel 6625 5125 0    50   Input ~ 0
 I2C[5]_SCL
 Text GLabel 6625 5225 0    50   Input ~ 0
