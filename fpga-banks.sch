@@ -16,37 +16,37 @@ $EndDescr
 Wire Wire Line
 	14800 2000 15175 2000
 Wire Wire Line
-	14800 2200 15175 2200
+	14800 2200 14900 2200
 Wire Wire Line
-	14800 2100 15175 2100
+	14800 2100 14900 2100
 Wire Wire Line
-	14800 2300 15175 2300
+	14800 2300 14900 2300
 Wire Wire Line
-	14800 2500 15175 2500
+	14800 2500 14900 2500
 Wire Wire Line
-	14800 2400 15175 2400
+	14800 2400 14900 2400
 Wire Wire Line
-	14800 2800 15175 2800
+	14800 2800 14900 2800
 Wire Wire Line
-	14800 2700 15175 2700
+	14800 2700 14900 2700
 Wire Wire Line
-	14800 2900 15175 2900
+	14800 2900 14900 2900
 Wire Wire Line
-	14800 3100 15175 3100
+	14800 3100 14900 3100
 Wire Wire Line
-	14800 3000 15175 3000
+	14800 3000 14900 3000
 Wire Wire Line
-	14800 3200 15175 3200
+	14800 3200 14900 3200
 Wire Wire Line
-	14800 3400 15175 3400
+	14800 3400 14900 3400
 Wire Wire Line
-	14800 3500 15175 3500
+	14800 3500 14900 3500
 Wire Wire Line
-	14800 3700 15175 3700
+	14800 3700 14900 3700
 Wire Wire Line
-	14800 3600 15175 3600
+	14800 3600 14900 3600
 Wire Wire Line
-	14800 2600 15175 2600
+	14800 2600 14900 2600
 Wire Wire Line
 	11600 2000 12000 2000
 Wire Wire Line
@@ -169,13 +169,13 @@ Text GLabel 9450 8350 2    50   Input ~ 0
 JTAG_TDI
 Text GLabel 9450 8450 2    50   Input ~ 0
 JTAG_TDO
-Text GLabel 850  6175 2    50   Input ~ 0
+Text GLabel 4675 2850 2    50   Input ~ 0
 UART1_SCM_TX
-Text GLabel 850  6075 2    50   Input ~ 0
+Text GLabel 4675 2750 2    50   Input ~ 0
 UART1_SCM_RX
-Text GLabel 850  6575 2    50   Input ~ 0
+Text GLabel 5300 1775 2    50   Input ~ 0
 UART0_SCM_TX
-Text GLabel 850  6475 2    50   Input ~ 0
+Text GLabel 5300 1675 2    50   Input ~ 0
 UART0_SCM_RX
 Text Notes 2425 650  0    50   ~ 0
 FPGA connections to be established while preparing layout
@@ -839,7 +839,7 @@ F 3 "" H 6250 9900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	14800 4100 15175 4100
+	14800 4100 14900 4100
 Wire Wire Line
 	9825 5150 9500 5150
 Wire Wire Line
@@ -1123,21 +1123,21 @@ Wire Wire Line
 Wire Wire Line
 	14800 4400 14900 4400
 Wire Wire Line
-	14800 4500 14900 4500
+	14800 4500 14925 4500
 Wire Wire Line
-	14800 4600 14900 4600
+	14800 4600 14925 4600
 Wire Wire Line
-	14800 4700 14900 4700
+	14800 4700 14925 4700
 Wire Wire Line
-	14800 4800 14900 4800
+	14800 4800 14925 4800
 Wire Wire Line
-	14800 4900 14900 4900
+	14800 4900 14925 4900
 Wire Wire Line
-	14800 5000 14900 5000
+	14800 5000 14925 5000
 Wire Wire Line
-	14800 5100 14900 5100
+	14800 5100 14925 5100
 Wire Wire Line
-	14800 5200 14900 5200
+	14800 5200 14925 5200
 Wire Wire Line
 	2025 8125 2125 8125
 Wire Wire Line
@@ -1181,7 +1181,7 @@ F 6 "0R" H 10500 1515 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14800 5300 14900 5300
+	14800 5300 14925 5300
 Wire Wire Line
 	10650 1400 10750 1400
 $Comp
@@ -1199,7 +1199,7 @@ F 6 "0R" H 10500 1165 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14800 5400 14900 5400
+	14800 5400 14925 5400
 Wire Wire Line
 	10650 1050 10750 1050
 Text GLabel -1575 5950 2    50   Input ~ 0
@@ -1210,102 +1210,8 @@ Text GLabel -1575 5450 2    50   Input ~ 0
 SPIO_MOSI
 Text GLabel -1575 6350 2    50   Input ~ 0
 SPIO_MISO
-Text GLabel 17400 2025 0    50   Output ~ 0
-DDR3_A13
-Text GLabel 17400 4525 0    50   Output ~ 0
-DDR3_A12
-Text GLabel 17400 4325 0    50   Output ~ 0
-DDR3_A11
-Text GLabel 17400 4425 0    50   Output ~ 0
-DDR3_A10
-Text GLabel 17400 2125 0    50   Output ~ 0
-DDR3_RESET
-Text GLabel 17400 3925 0    50   Output ~ 0
-DDR3_CKE
-Text GLabel 17400 3525 0    50   Output ~ 0
-DDR3_CLK-
-Text GLabel 17400 3425 0    50   Output ~ 0
-DDR3_CLK+
-Text GLabel 17400 4225 0    50   Output ~ 0
-DDR3_A0
-Text GLabel 17400 4925 0    50   Output ~ 0
-DDR3_A1
-Text GLabel 17400 2825 0    50   Output ~ 0
-DDR3_A2
-Text GLabel 17400 1925 0    50   Output ~ 0
-DDR3_A3
-Text GLabel 17400 4825 0    50   Output ~ 0
-DDR3_A4
-Text GLabel 17400 1825 0    50   Output ~ 0
-DDR3_A5
-Text GLabel 17400 5125 0    50   Output ~ 0
-DDR3_A6
-Text GLabel 17400 1725 0    50   Output ~ 0
-DDR3_A7
-Text GLabel 17400 5025 0    50   Output ~ 0
-DDR3_A8
-Text GLabel 17400 2325 0    50   Output ~ 0
-DDR3_A9
-Text GLabel 17400 2625 0    50   Output ~ 0
-DDR3_BA0
-Text GLabel 17400 2425 0    50   Output ~ 0
-DDR3_BA2
-Text GLabel 17400 2525 0    50   Output ~ 0
-DDR3_CS
-Text GLabel 17400 2725 0    50   Output ~ 0
-DDR3_CAS
-Text GLabel 17400 3125 0    50   Output ~ 0
-DDR3_RAS
-Text GLabel 17400 3325 0    50   Output ~ 0
-DDR3_WE
-Text GLabel 17400 3025 0    50   Output ~ 0
-DDR3_ODT
-Text GLabel 17400 3225 0    50   BiDi ~ 0
-DDR3_DQ0
-Text GLabel 17400 5625 0    50   BiDi ~ 0
-DDR3_DQ1
-Text GLabel 17400 4025 0    50   BiDi ~ 0
-DDR3_DQ2
-Text GLabel 17400 6425 0    50   BiDi ~ 0
-DDR3_DQ3
-Text GLabel 17400 3825 0    50   BiDi ~ 0
-DDR3_DQ4
-Text GLabel 17400 6525 0    50   BiDi ~ 0
-DDR3_DQ5
-Text GLabel 17400 2925 0    50   BiDi ~ 0
-DDR3_DQ6
-Text GLabel 17400 6325 0    50   BiDi ~ 0
-DDR3_DQ7
-Text GLabel 17400 6625 0    50   BiDi ~ 0
-DDR3_DQ8
-Text GLabel 17400 5725 0    50   BiDi ~ 0
-DDR3_DQ9
-Text GLabel 17400 6025 0    50   BiDi ~ 0
-DDR3_DQ10
-Text GLabel 17400 5425 0    50   BiDi ~ 0
-DDR3_DQ11
-Text GLabel 17400 6125 0    50   BiDi ~ 0
-DDR3_DQ12
-Text GLabel 17400 3625 0    50   BiDi ~ 0
-DDR3_DQ15
-Text GLabel 17400 5525 0    50   BiDi ~ 0
-DDR3_DM0
-Text GLabel 17400 4625 0    50   BiDi ~ 0
-DDR3_DQS0+
-Text GLabel 17400 4725 0    50   BiDi ~ 0
-DDR3_DQS0-
-Text GLabel 17400 5825 0    50   BiDi ~ 0
-DDR3_DQS1+
-Text GLabel 17400 5925 0    50   BiDi ~ 0
-DDR3_DQS1-
 Wire Wire Line
 	11600 3200 12000 3200
-Text GLabel 17400 5225 0    50   BiDi ~ 0
-DDR3_DQ13
-Text GLabel 17400 6225 0    50   BiDi ~ 0
-DDR3_DQ14
-Text GLabel 17400 4125 0    50   Output ~ 0
-DDR3_A14
 Text GLabel 9825 6050 2    50   Input ~ 0
 MMC_DAT0
 Text GLabel 9825 6250 2    50   Input ~ 0
@@ -1360,11 +1266,11 @@ Text GLabel -2050 4950 2    50   Input ~ 0
 NCSI_TXEN
 Text GLabel -2050 5550 2    50   Input ~ 0
 NCSI_TXD0
-Text GLabel 4675 2850 2    50   Input ~ 0
+Text GLabel 5000 3100 2    50   Input ~ 0
 NCSI_TXD1
 Text GLabel -2050 4850 2    50   Input ~ 0
 NCSI_RXER
-Text GLabel 4675 2750 2    50   Input ~ 0
+Text GLabel 5000 3000 2    50   Input ~ 0
 NCSI_RXD0
 Text GLabel 850  5975 2    50   Input ~ 0
 NCSI_RXD1
@@ -1455,8 +1361,6 @@ Wire Wire Line
 	7025 8575 7225 8575
 Text GLabel 850  5875 2    50   Input ~ 0
 ROT_QSPI_CS_B
-Wire Wire Line
-	4550 2650 5225 2650
 $Comp
 L artix-dc-scm:R_2k2_0402 R133
 U 1 1 601DDEB8
@@ -1946,11 +1850,11 @@ Text GLabel 3475 10525 0    50   Input ~ 0
 USR_LED2
 Wire Wire Line
 	3600 10525 3475 10525
-Text GLabel 14800 6000 2    50   Input ~ 0
+Text GLabel 18425 5950 2    50   Input ~ 0
 USR_LED0
-Text GLabel 14900 4900 2    50   Input ~ 0
+Text GLabel 18100 5250 2    50   Input ~ 0
 USR_LED1
-Text GLabel 14900 5000 2    50   Input ~ 0
+Text GLabel 18100 5350 2    50   Input ~ 0
 USR_LED2
 Text GLabel 9875 2150 2    50   Input ~ 0
 USB1_D0
@@ -1992,52 +1896,48 @@ Text Notes 12900 7850 0    50   ~ 10
 done
 Text Notes 12900 8325 0    50   ~ 10
 done
-Text GLabel 17400 5325 0    50   BiDi ~ 0
-DDR3_DM1
-Text GLabel 17400 3725 0    50   Output ~ 0
-DDR3_BA1
 Text Notes 12900 8825 0    50   ~ 10
 done
-Text GLabel 15175 2300 2    50   Input ~ 0
+Text GLabel 17800 2125 2    50   Input ~ 0
 ETH_TXD0
-Text GLabel 15175 2400 2    50   Input ~ 0
+Text GLabel 17800 2225 2    50   Input ~ 0
 ETH_TXD1
-Text GLabel 15175 2100 2    50   Input ~ 0
+Text GLabel 17800 1925 2    50   Input ~ 0
 ETH_TXD2
-Text GLabel 15175 2200 2    50   Input ~ 0
+Text GLabel 17800 2025 2    50   Input ~ 0
 ETH_TXD3
-Text GLabel 15175 2800 2    50   Input ~ 0
+Text GLabel 17800 2625 2    50   Input ~ 0
 ETH_TX_CLK
-Text GLabel 15175 2600 2    50   Input ~ 0
+Text GLabel 17800 2425 2    50   Input ~ 0
 ETH_TX_EN
-Text GLabel 15175 3600 2    50   Input ~ 0
+Text GLabel 17800 3425 2    50   Input ~ 0
 ETH_RXD0
-Text GLabel 15175 3000 2    50   Input ~ 0
+Text GLabel 17800 2825 2    50   Input ~ 0
 ETH_RXD1
-Text GLabel 15175 2700 2    50   Input ~ 0
+Text GLabel 17800 2525 2    50   Input ~ 0
 ETH_RXD2
-Text GLabel 15175 2500 2    50   Input ~ 0
+Text GLabel 17800 2325 2    50   Input ~ 0
 ETH_RXD3
-Text GLabel 15175 3700 2    50   Input ~ 0
+Text GLabel 17800 3525 2    50   Input ~ 0
 ETH_RX_CLK
-Text GLabel 15175 3400 2    50   Input ~ 0
+Text GLabel 17800 3225 2    50   Input ~ 0
 ETH_RX_DV
-Text GLabel 15175 3500 2    50   Input ~ 0
+Text GLabel 17800 3325 2    50   Input ~ 0
 ETH_RXERR
-Text GLabel 15175 2900 2    50   Input ~ 0
+Text GLabel 17800 2725 2    50   Input ~ 0
 ETH_COL
-Text GLabel 15175 3800 2    50   Input ~ 0
+Text GLabel 17800 3625 2    50   Input ~ 0
 ETH_CRS
-Text GLabel 15175 3100 2    50   Input ~ 0
+Text GLabel 17800 2925 2    50   Input ~ 0
 ETH_MDC
-Text GLabel 15175 4200 2    50   Input ~ 0
+Text GLabel 17925 4125 2    50   Input ~ 0
 ETH_MDIO
-Text GLabel 15175 4100 2    50   Input ~ 0
+Text GLabel 17925 4025 2    50   Input ~ 0
 ETH_RSTN
 Wire Wire Line
-	14800 4200 15175 4200
+	14800 4200 14900 4200
 Wire Wire Line
-	14800 3800 15175 3800
+	14800 3800 14900 3800
 Text GLabel 1175 7000 2    50   Input ~ 0
 INT_USB
 Text Notes 12900 8250 0    50   ~ 10
@@ -2058,20 +1958,6 @@ Text GLabel 6375 5650 0    50   Input ~ 0
 QSPI0_CS0_N
 Text GLabel 6375 5550 0    50   Input ~ 0
 QSPI0_CLK
-$Comp
-L artix-dc-scm:TP_SMD1MM TP15
-U 1 1 62EA7773
-P 5575 2750
-F 0 "TP15" V 5575 2700 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5575 2650 50  0001 C CNN
-F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 5775 2950 60  0001 L CNN
-F 3 "" H 5775 3050 60  0001 L CNN
-	1    5575 2750
-	0    -1   -1   0   
-$EndComp
-Connection ~ 5225 2650
-Wire Wire Line
-	5225 2650 5350 2650
 Wire Wire Line
 	2125 8950 2025 8950
 Text Notes 12900 8025 0    50   ~ 10
@@ -2090,10 +1976,6 @@ Text Notes 12900 8175 0    50   ~ 10
 done
 Text Notes 12900 8500 0    50   ~ 10
 done
-Wire Wire Line
-	5475 2750 5225 2750
-Wire Wire Line
-	5225 2750 5225 2650
 Text Notes 12900 8575 0    50   ~ 10
 done
 Wire Wire Line
@@ -2403,7 +2285,7 @@ Wire Wire Line
 Wire Wire Line
 	12900 1200 12800 1200
 Wire Wire Line
-	14800 3300 15175 3300
+	14800 3300 14900 3300
 Wire Wire Line
 	11600 3300 12000 3300
 Wire Wire Line
@@ -2457,4 +2339,140 @@ Wire Wire Line
 	4825 4350 4550 4350
 Wire Wire Line
 	4825 4250 4550 4250
+Text GLabel 14925 5200 2    50   Input ~ 0
+DDR3_A0
+Text GLabel 14925 6600 2    50   Input ~ 0
+DDR3_A1
+Text GLabel 14925 5100 2    50   Input ~ 0
+DDR3_A2
+Text GLabel 14925 4900 2    50   Input ~ 0
+DDR3_A3
+Text GLabel 14925 6900 2    50   Input ~ 0
+DDR3_A4
+Text GLabel 14925 6000 2    50   Input ~ 0
+DDR3_A5
+Text GLabel 14925 5800 2    50   Input ~ 0
+DDR3_A6
+Text GLabel 14925 6400 2    50   Input ~ 0
+DDR3_A7
+Text GLabel 14925 6500 2    50   Input ~ 0
+DDR3_A8
+Text GLabel 14925 5900 2    50   Input ~ 0
+DDR3_A9
+Text GLabel 14925 5500 2    50   Input ~ 0
+DDR3_A10
+Text GLabel 14925 6800 2    50   Input ~ 0
+DDR3_A11
+Text GLabel 14925 5700 2    50   Input ~ 0
+DDR3_A12
+Text GLabel 14925 6300 2    50   Input ~ 0
+DDR3_A13
+Text GLabel 14925 6700 2    50   Input ~ 0
+DDR3_A14
+Text GLabel 14925 4700 2    50   Input ~ 0
+DDR3_BA0
+Text GLabel 14925 5300 2    50   Input ~ 0
+DDR3_BA1
+Text GLabel 14925 5600 2    50   Input ~ 0
+DDR3_BA2
+Text GLabel 14925 6100 2    50   Input ~ 0
+DDR3_CLK_P
+Text GLabel 14925 6200 2    50   Input ~ 0
+DDR3_CLK_N
+Text GLabel 14925 5400 2    50   Input ~ 0
+DDR3_CKE
+Text GLabel 14900 2900 2    50   Input ~ 0
+DDR3_RESET
+Text GLabel 17125 6950 0    50   Input ~ 0
+DDR3_CS
+Text GLabel 14925 4800 2    50   Input ~ 0
+DDR3_CAS
+Text GLabel 14925 4600 2    50   Input ~ 0
+DDR3_RAS
+Text GLabel 14925 5000 2    50   Input ~ 0
+DDR3_WE
+Text GLabel 14925 4500 2    50   Input ~ 0
+DDR3_ODT
+Text GLabel 14900 3600 2    50   BiDi ~ 0
+DDR3_DQ0
+Text GLabel 14900 4300 2    50   BiDi ~ 0
+DDR3_DQ1
+Text GLabel 14900 4000 2    50   BiDi ~ 0
+DDR3_DQ2
+Text GLabel 14900 3400 2    50   BiDi ~ 0
+DDR3_DQ3
+Text GLabel 14900 3300 2    50   BiDi ~ 0
+DDR3_DQ4
+Text GLabel 14900 4100 2    50   BiDi ~ 0
+DDR3_DQ5
+Text GLabel 14900 3500 2    50   BiDi ~ 0
+DDR3_DQ6
+Text GLabel 14900 3900 2    50   BiDi ~ 0
+DDR3_DQ7
+Text GLabel 14900 3200 2    50   BiDi ~ 0
+DDR3_DQ8
+Text GLabel 14900 2400 2    50   BiDi ~ 0
+DDR3_DQ9
+Text GLabel 14900 3100 2    50   BiDi ~ 0
+DDR3_DQ10
+Text GLabel 14900 2800 2    50   BiDi ~ 0
+DDR3_DQ11
+Text GLabel 14900 2300 2    50   BiDi ~ 0
+DDR3_DQ12
+Text GLabel 14900 2200 2    50   BiDi ~ 0
+DDR3_DQ13
+Text GLabel 14900 2700 2    50   BiDi ~ 0
+DDR3_DQ14
+Text GLabel 14900 2100 2    50   BiDi ~ 0
+DDR3_DQ15
+Text GLabel 14900 4200 2    50   BiDi ~ 0
+DDR3_DM0
+Text GLabel 14900 3000 2    50   BiDi ~ 0
+DDR3_DM1
+Text GLabel 14900 3700 2    50   BiDi ~ 0
+DDR3_DQS0_P
+Text GLabel 14900 3800 2    50   BiDi ~ 0
+DDR3_DQS0_N
+Text GLabel 14900 2500 2    50   BiDi ~ 0
+DDR3_DQS1_P
+Text GLabel 14900 2600 2    50   BiDi ~ 0
+DDR3_DQS1_N
+Wire Wire Line
+	14800 6900 14925 6900
+Wire Wire Line
+	14925 6800 14800 6800
+Wire Wire Line
+	14800 6700 14925 6700
+Wire Wire Line
+	14925 6600 14800 6600
+Wire Wire Line
+	14800 6500 14925 6500
+Wire Wire Line
+	14925 6400 14800 6400
+Wire Wire Line
+	14800 6300 14925 6300
+Wire Wire Line
+	14800 6000 14925 6000
+Wire Wire Line
+	14800 5900 14925 5900
+Wire Wire Line
+	14800 5800 14925 5800
+Wire Wire Line
+	14800 5700 14925 5700
+Wire Wire Line
+	14800 5500 14925 5500
+Wire Wire Line
+	14800 5600 14925 5600
+Wire Wire Line
+	14800 3900 14900 3900
+Wire Wire Line
+	14800 6100 14925 6100
+Wire Wire Line
+	14800 6200 14925 6200
+Wire Wire Line
+	4550 2650 5350 2650
+Wire Notes Line
+	5325 2700 5325 2900
+Wire Notes Line
+	5325 2900 5175 2900
 $EndSCHEMATC
