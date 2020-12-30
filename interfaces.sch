@@ -2224,10 +2224,10 @@ NoConn ~ 11300 3400
 Text Notes 11350 1250 0    50   ~ 0
 TBD: is EXT VBUS, CPEN,  VBUS necessary?\n(datasheet for host variant specifies so)
 $Comp
-L antmicroResistors0402:R_1M5_0402 R?
+L antmicroResistors0402:R_1M5_0402 R4
 U 1 1 603E998C
 P 9750 6600
-F 0 "R?" H 9750 6813 60  0000 C CNN
+F 0 "R4" H 9750 6813 60  0000 C CNN
 F 1 "R_1M5_0402" H 9750 6450 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 9950 6800 60  0001 L CNN
 F 3 "" H 9750 6600 50  0001 C CNN
@@ -2237,4 +2237,6 @@ F 6 "1M5" H 9750 6715 50  0000 C CNN "Val"
 	1    9750 6600
 	1    0    0    -1  
 $EndComp
+Text Notes 5350 10625 0    50   ~ 0
+TODO: change to MTFC8GAMALNA which has 1mm ball pitch
 $EndSCHEMATC
