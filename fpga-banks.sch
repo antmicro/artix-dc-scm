@@ -139,7 +139,7 @@ Wire Wire Line
 	11600 2500 12000 2500
 Text GLabel 6375 4750 0    50   Input ~ 0
 SGPIO0_DI
-Text GLabel 6375 5450 0    50   Input ~ 0
+Text GLabel 5650 5900 0    50   Input ~ 0
 SGPIO0_DO
 Text GLabel 6375 5250 0    50   Input ~ 0
 SGPIO0_LD
@@ -926,14 +926,10 @@ Text GLabel 6700 6950 0    50   Input ~ 0
 I2C[6]_SCL
 Text GLabel 6700 6850 0    50   Input ~ 0
 I2C[6]_SDA
-Text GLabel 6375 5350 0    50   Input ~ 0
+Text GLabel 5700 5475 0    50   Input ~ 0
 I2C[5]_SCL
 Text GLabel 6700 6750 0    50   Input ~ 0
 I2C[5]_SDA
-Text GLabel 6375 5050 0    50   Input ~ 0
-I2C[4]_SCL
-Text GLabel 6375 3350 0    50   Input ~ 0
-I2C[4]_SDA
 Text GLabel 6375 5850 0    50   Input ~ 0
 I2C[3]_SCL
 Text GLabel 6700 6350 0    50   Input ~ 0
@@ -1212,29 +1208,29 @@ Text GLabel -1575 6350 2    50   Input ~ 0
 SPIO_MISO
 Wire Wire Line
 	11600 3200 12000 3200
-Text GLabel 9825 6050 2    50   Input ~ 0
-MMC_DAT0
-Text GLabel 9825 6250 2    50   Input ~ 0
-MMC_DAT1
-Text GLabel 9825 5450 2    50   Input ~ 0
-MMC_DAT2
-Text GLabel 9825 6450 2    50   Input ~ 0
-MMC_DAT3
-Text GLabel 9825 5950 2    50   Input ~ 0
-MMC_DAT4
-Text GLabel 9825 6650 2    50   Input ~ 0
-MMC_DAT5
 Text GLabel 9825 5250 2    50   Input ~ 0
-MMC_DAT6
-Text GLabel 9825 5150 2    50   Input ~ 0
-MMC_DAT7
+MMC_DAT0
+Text GLabel 9825 5450 2    50   Input ~ 0
+MMC_DAT1
 Text GLabel 9825 5750 2    50   Input ~ 0
-MMC_CMD
+MMC_DAT2
+Text GLabel 9825 5150 2    50   Input ~ 0
+MMC_DAT3
+Text GLabel 9825 6050 2    50   Input ~ 0
+MMC_DAT4
+Text GLabel 9825 6250 2    50   Input ~ 0
+MMC_DAT5
+Text GLabel 9825 5950 2    50   Input ~ 0
+MMC_DAT6
+Text GLabel 9825 6450 2    50   Input ~ 0
+MMC_DAT7
 Text GLabel 9825 5850 2    50   Input ~ 0
+MMC_CMD
+Text GLabel 9825 6650 2    50   Input ~ 0
 MMC_CLK
 Text GLabel 9825 6150 2    50   Input ~ 0
 MMC_RSTN
-Text GLabel 6375 5150 0    50   Input ~ 0
+Text GLabel 6375 5750 0    50   Input ~ 0
 SGPIO0_CLK
 Wire Wire Line
 	5025 2250 4550 2250
@@ -1898,42 +1894,6 @@ Text Notes 12900 8325 0    50   ~ 10
 done
 Text Notes 12900 8825 0    50   ~ 10
 done
-Text GLabel 17800 2125 2    50   Input ~ 0
-ETH_TXD0
-Text GLabel 17800 2225 2    50   Input ~ 0
-ETH_TXD1
-Text GLabel 17800 1925 2    50   Input ~ 0
-ETH_TXD2
-Text GLabel 17800 2025 2    50   Input ~ 0
-ETH_TXD3
-Text GLabel 17800 2625 2    50   Input ~ 0
-ETH_TX_CLK
-Text GLabel 17800 2425 2    50   Input ~ 0
-ETH_TX_EN
-Text GLabel 17800 3425 2    50   Input ~ 0
-ETH_RXD0
-Text GLabel 17800 2825 2    50   Input ~ 0
-ETH_RXD1
-Text GLabel 17800 2525 2    50   Input ~ 0
-ETH_RXD2
-Text GLabel 17800 2325 2    50   Input ~ 0
-ETH_RXD3
-Text GLabel 17800 3525 2    50   Input ~ 0
-ETH_RX_CLK
-Text GLabel 17800 3225 2    50   Input ~ 0
-ETH_RX_DV
-Text GLabel 17800 3325 2    50   Input ~ 0
-ETH_RXERR
-Text GLabel 17800 2725 2    50   Input ~ 0
-ETH_COL
-Text GLabel 17800 3625 2    50   Input ~ 0
-ETH_CRS
-Text GLabel 17800 2925 2    50   Input ~ 0
-ETH_MDC
-Text GLabel 17925 4125 2    50   Input ~ 0
-ETH_MDIO
-Text GLabel 17925 4025 2    50   Input ~ 0
-ETH_RSTN
 Wire Wire Line
 	14800 4200 14900 4200
 Wire Wire Line
@@ -1944,20 +1904,6 @@ Text Notes 12900 8250 0    50   ~ 10
 done
 Text Notes 12900 8900 0    50   ~ 10
 done
-Text GLabel 6375 3450 0    50   Input ~ 0
-QSPI0_CS1_N
-Text GLabel 6375 3650 0    50   Input ~ 0
-QSPI0_D3
-Text GLabel 6375 3550 0    50   Input ~ 0
-QSPI0_D2
-Text GLabel 6375 4150 0    50   Input ~ 0
-QSPI0_D1
-Text GLabel 6375 4850 0    50   Input ~ 0
-QSPI0_D0
-Text GLabel 6375 5650 0    50   Input ~ 0
-QSPI0_CS0_N
-Text GLabel 6375 5550 0    50   Input ~ 0
-QSPI0_CLK
 Wire Wire Line
 	2125 8950 2025 8950
 Text Notes 12900 8025 0    50   ~ 10
@@ -2190,39 +2136,37 @@ Wire Wire Line
 	9850 4550 9500 4550
 Wire Wire Line
 	9500 4350 9850 4350
-Text GLabel 16425 4400 0    50   Input ~ 0
-ETH_~RESET
-Text GLabel 16425 4050 0    50   Output ~ 0
+Text GLabel 6375 5550 0    50   Output ~ 0
 ETH_INT_N
-Text GLabel 16425 4250 0    50   Output ~ 0
+Text GLabel 6375 5450 0    50   Output ~ 0
 RGMII_REF_CLK
-Text GLabel 16450 3650 0    50   Output ~ 0
+Text GLabel 6375 3950 0    50   Output ~ 0
 RGMII_RX_CLK
-Text GLabel 16450 3550 0    50   Output ~ 0
+Text GLabel 6375 3850 0    50   Output ~ 0
 RGMII_RXD3
-Text GLabel 16450 3450 0    50   Output ~ 0
+Text GLabel 6375 3750 0    50   Output ~ 0
 RGMII_RXD2
-Text GLabel 16450 3350 0    50   Output ~ 0
+Text GLabel 6375 4050 0    50   Output ~ 0
 RGMII_RXD1
-Text GLabel 16450 3250 0    50   Output ~ 0
+Text GLabel 6375 4850 0    50   Output ~ 0
 RGMII_RXD0
-Text GLabel 16450 2950 0    50   Input ~ 0
+Text GLabel 6375 3350 0    50   Input ~ 0
 RGMII_TX_CLK
-Text GLabel 16450 2850 0    50   Input ~ 0
+Text GLabel 6375 4250 0    50   Input ~ 0
 RGMII_TXD3
-Text GLabel 16450 2750 0    50   Input ~ 0
+Text GLabel 6375 3450 0    50   Input ~ 0
 RGMII_TXD2
-Text GLabel 16450 2650 0    50   Input ~ 0
+Text GLabel 6375 3550 0    50   Input ~ 0
 RGMII_TXD1
-Text GLabel 16450 2550 0    50   Input ~ 0
+Text GLabel 6375 3650 0    50   Input ~ 0
 RGMII_TXD0
-Text GLabel 16450 2450 0    50   Input ~ 0
+Text GLabel 6375 4150 0    50   Input ~ 0
 RGMII_TX_DV
-Text GLabel 16450 2250 0    50   BiDi ~ 0
+Text GLabel 6375 5650 0    50   BiDi ~ 0
 ETH_MDIO
-Text GLabel 16450 2150 0    50   Input ~ 0
+Text GLabel 6375 4950 0    50   Input ~ 0
 ETH_MDC
-Text GLabel 16450 3150 0    50   Output ~ 0
+Text GLabel 6375 5050 0    50   Output ~ 0
 RGMII_RX_DV
 Text GLabel 11600 4000 0    50   Input ~ 0
 ULPI2_DATA5
@@ -2475,4 +2419,26 @@ Wire Notes Line
 	5325 2700 5325 2900
 Wire Notes Line
 	5325 2900 5175 2900
+Text GLabel 5825 3675 0    50   Input ~ 0
+QSPI0_D2
+Text GLabel 5925 3800 0    50   Input ~ 0
+QSPI0_D3
+Text GLabel 5925 4150 0    50   Input ~ 0
+QSPI0_D1
+Text GLabel 5725 4675 0    50   Input ~ 0
+QSPI0_D0
+Text GLabel 5750 5625 0    50   Input ~ 0
+QSPI0_CLK
+Text GLabel 5800 5775 0    50   Input ~ 0
+QSPI0_CS0_N
+Text GLabel 5950 3325 0    50   Input ~ 0
+I2C[4]_SDA
+Text GLabel 5975 3500 0    50   Input ~ 0
+QSPI0_CS1_N
+Text GLabel 6000 5050 0    50   Input ~ 0
+I2C[4]_SCL
+Text GLabel 5450 8250 0    50   Input ~ 0
+ETH_~RESET
+Text GLabel 6375 5350 0    50   UnSpc ~ 0
+ETH_~RESET
 $EndSCHEMATC
