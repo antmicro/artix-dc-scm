@@ -1357,20 +1357,6 @@ F 6 "120k" H 11000 3915 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_1M_0603 R3
-U 1 1 601001C9
-P 9650 3100
-F 0 "R3" H 9650 3313 60  0000 C CNN
-F 1 "R_1M_0603" H 9650 2950 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 9850 3300 60  0001 L CNN
-F 3 "" H 9650 3100 50  0001 C CNN
-F 4 "BOURNS" H 9850 3500 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-JW-105GLF" H 9850 3400 60  0001 L CNN "MPN"
-F 6 "1M" H 9650 3215 50  0000 C CNN "Val"
-	1    9650 3100
-	1    0    0    -1  
-$EndComp
-$Comp
 L antmicroCapacitors0402:C_12p_0402 C4
 U 1 1 60101477
 P 9200 3650
@@ -2239,4 +2225,18 @@ F 6 "1M5" H 9750 6715 50  0000 C CNN "Val"
 $EndComp
 Text Notes 5350 10625 0    50   ~ 0
 TODO: change to MTFC8GAMALNA which has 1mm ball pitch
+$Comp
+L antmicroResistors0402:R_1M5_0402 R?
+U 1 1 60957386
+P 9650 3100
+F 0 "R?" H 9650 3313 60  0000 C CNN
+F 1 "R_1M5_0402" H 9650 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9850 3300 60  0001 L CNN
+F 3 "" H 9650 3100 50  0001 C CNN
+F 4 "MULTICOMP" H 9850 3500 60  0001 L CNN "Manufacturer"
+F 5 "MCWR04W1504FTL" H 9850 3400 60  0001 L CNN "MPN"
+F 6 "1M5" H 9650 3215 50  0000 C CNN "Val"
+	1    9650 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

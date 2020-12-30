@@ -169,13 +169,13 @@ Text GLabel 9450 8350 2    50   Input ~ 0
 JTAG_TDI
 Text GLabel 9450 8450 2    50   Input ~ 0
 JTAG_TDO
-Text GLabel 4875 3450 2    50   Input ~ 0
+Text GLabel 850  6175 2    50   Input ~ 0
 UART1_SCM_TX
-Text GLabel 4875 3350 2    50   Input ~ 0
+Text GLabel 850  6075 2    50   Input ~ 0
 UART1_SCM_RX
-Text GLabel 4875 3850 2    50   Input ~ 0
+Text GLabel 850  6575 2    50   Input ~ 0
 UART0_SCM_TX
-Text GLabel 4875 3750 2    50   Input ~ 0
+Text GLabel 850  6475 2    50   Input ~ 0
 UART0_SCM_RX
 Text Notes 2425 650  0    50   ~ 0
 FPGA connections to be established while preparing layout
@@ -811,21 +811,21 @@ Text GLabel 10050 9750 2    50   Input ~ 0
 VCC3V3_BANK
 Text GLabel 1975 1250 0    50   Input ~ 0
 VCC1V8_BANK
-Text GLabel 4875 5450 2    50   Input ~ 0
+Text GLabel -1725 6150 2    50   Input ~ 0
 I3C[0]_SDA_3V3
-Text GLabel 4875 4650 2    50   Input ~ 0
+Text GLabel -1725 5350 2    50   Input ~ 0
 I3C[1]_SDA_3V3
-Text GLabel 4875 5350 2    50   Input ~ 0
+Text GLabel -1725 6050 2    50   Input ~ 0
 I3C[1]_SCL_3V3
-Text GLabel 4875 3950 2    50   Input ~ 0
+Text GLabel 850  6675 2    50   Input ~ 0
 I3C[2]_SDA_3V3
-Text GLabel 4875 3550 2    50   Input ~ 0
+Text GLabel 850  6275 2    50   Input ~ 0
 I3C[2]_SCL_3V3
-Text GLabel 4875 4050 2    50   Input ~ 0
+Text GLabel 850  6775 2    50   Input ~ 0
 I3C[3]_SDA_3V3
-Text GLabel 4875 3650 2    50   Input ~ 0
+Text GLabel 850  6375 2    50   Input ~ 0
 I3C[3]_SCL_3V3
-Text GLabel 4875 4550 2    50   Input ~ 0
+Text GLabel -1725 5250 2    50   Input ~ 0
 I3C[0]_SCL_3V3
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR080
@@ -1202,13 +1202,13 @@ Wire Wire Line
 	14800 5400 14900 5400
 Wire Wire Line
 	10650 1050 10750 1050
-Text GLabel 5025 5250 2    50   Input ~ 0
+Text GLabel -1575 5950 2    50   Input ~ 0
 SPIO_CLK
-Text GLabel 5025 5550 2    50   Input ~ 0
+Text GLabel -1575 6250 2    50   Input ~ 0
 SPIO_CS_N
-Text GLabel 5025 4750 2    50   Input ~ 0
+Text GLabel -1575 5450 2    50   Input ~ 0
 SPIO_MOSI
-Text GLabel 5025 5650 2    50   Input ~ 0
+Text GLabel -1575 6350 2    50   Input ~ 0
 SPIO_MISO
 Text GLabel 17400 2025 0    50   Output ~ 0
 DDR3_A13
@@ -1352,25 +1352,25 @@ Wire Wire Line
 	4675 2750 4550 2750
 Text GLabel 5025 1250 2    50   Input ~ 0
 VCC3V3_BANK
-Text GLabel 4550 4450 2    50   Input ~ 0
+Text GLabel -2050 5150 2    50   Input ~ 0
 NCSI_CLK
-Text GLabel 4550 4350 2    50   Input ~ 0
+Text GLabel -2050 5050 2    50   Input ~ 0
 NCSI_CRS_DV
-Text GLabel 4550 4250 2    50   Input ~ 0
+Text GLabel -2050 4950 2    50   Input ~ 0
 NCSI_TXEN
-Text GLabel 4550 4850 2    50   Input ~ 0
+Text GLabel -2050 5550 2    50   Input ~ 0
 NCSI_TXD0
 Text GLabel 4675 2850 2    50   Input ~ 0
 NCSI_TXD1
-Text GLabel 4550 4150 2    50   Input ~ 0
+Text GLabel -2050 4850 2    50   Input ~ 0
 NCSI_RXER
 Text GLabel 4675 2750 2    50   Input ~ 0
 NCSI_RXD0
-Text GLabel 4875 3250 2    50   Input ~ 0
+Text GLabel 850  5975 2    50   Input ~ 0
 NCSI_RXD1
 Text GLabel 6375 4550 0    50   Input ~ 0
 RSVD2
-Text Notes 5625 4575 0    50   ~ 0
+Text Notes -975 5275 0    50   ~ 0
 SGPIO1_CLK
 Text GLabel 5025 2150 2    50   Input ~ 0
 ROT_QSPI_DQ0
@@ -1384,20 +1384,20 @@ Text GLabel 5025 2550 2    50   Input ~ 0
 PUDC_B
 Text GLabel 5350 2650 2    50   Input ~ 0
 EMCCLK
-Text GLabel 4875 4950 2    50   Input ~ 0
+Text GLabel -1725 5650 2    50   Input ~ 0
 CK_IO34
-Text GLabel 4875 5150 2    50   Input ~ 0
+Text GLabel -1725 5850 2    50   Input ~ 0
 CK_IO0
-Text GLabel 4875 5050 2    50   Input ~ 0
+Text GLabel -1725 5750 2    50   Input ~ 0
 CK_IO7
 Text GLabel 10150 8850 2    50   Input ~ 0
 ROT_QSPI_SCK
 Wire Wire Line
-	4875 4950 4550 4950
+	-1725 5650 -2050 5650
 Wire Wire Line
-	4875 5050 4550 5050
+	-1725 5750 -2050 5750
 Wire Wire Line
-	4875 5150 4550 5150
+	-1725 5850 -2050 5850
 Text GLabel 7225 8575 2    50   Input ~ 0
 PUDC_B
 $Comp
@@ -1453,7 +1453,7 @@ Wire Wire Line
 	7025 8100 7025 8200
 Wire Wire Line
 	7025 8575 7225 8575
-Text GLabel 4875 3150 2    50   Input ~ 0
+Text GLabel 850  5875 2    50   Input ~ 0
 ROT_QSPI_CS_B
 Wire Wire Line
 	4550 2650 5225 2650
@@ -2077,11 +2077,11 @@ Wire Wire Line
 Text Notes 12900 8025 0    50   ~ 10
 done
 Wire Wire Line
-	4875 5350 4550 5350
+	-1725 6050 -2050 6050
 Wire Wire Line
-	4550 5450 4875 5450
+	-2050 6150 -1725 6150
 Wire Wire Line
-	4875 4650 4550 4650
+	-1725 5350 -2050 5350
 Text Notes 12900 8425 0    50   ~ 10
 done
 Text Notes 12900 8675 0    50   ~ 10
@@ -2097,7 +2097,7 @@ Wire Wire Line
 Text Notes 12900 8575 0    50   ~ 10
 done
 Wire Wire Line
-	4550 4550 4875 4550
+	-2050 5250 -1725 5250
 Text Notes 12900 8100 0    50   ~ 10
 done
 Wire Wire Line
@@ -2157,75 +2157,75 @@ done
 $Comp
 L artix-dc-scm:R_0R_0402 R144
 U 1 1 66DFC7B7
-P 4800 4750
-F 0 "R144" H 4800 4963 60  0000 C CNN
-F 1 "R_0R_0402" H 4800 4600 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5000 4950 60  0001 L CNN
-F 3 "" H 4800 4750 50  0001 C CNN
-F 4 "PANASONIC" H 5000 5150 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 5000 5050 60  0001 L CNN "MPN"
-F 6 "0R" H 4800 4865 50  0000 C CNN "Val"
-	1    4800 4750
+P -1800 5450
+F 0 "R144" H -1800 5663 60  0000 C CNN
+F 1 "R_0R_0402" H -1800 5300 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H -1600 5650 60  0001 L CNN
+F 3 "" H -1800 5450 50  0001 C CNN
+F 4 "PANASONIC" H -1600 5850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H -1600 5750 60  0001 L CNN "MPN"
+F 6 "0R" H -1800 5565 50  0000 C CNN "Val"
+	1    -1800 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R145
 U 1 1 66DFD08E
-P 4800 5250
-F 0 "R145" H 4800 5463 60  0000 C CNN
-F 1 "R_0R_0402" H 4800 5100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5000 5450 60  0001 L CNN
-F 3 "" H 4800 5250 50  0001 C CNN
-F 4 "PANASONIC" H 5000 5650 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 5000 5550 60  0001 L CNN "MPN"
-F 6 "0R" H 4800 5365 50  0000 C CNN "Val"
-	1    4800 5250
+P -1800 5950
+F 0 "R145" H -1800 6163 60  0000 C CNN
+F 1 "R_0R_0402" H -1800 5800 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H -1600 6150 60  0001 L CNN
+F 3 "" H -1800 5950 50  0001 C CNN
+F 4 "PANASONIC" H -1600 6350 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H -1600 6250 60  0001 L CNN "MPN"
+F 6 "0R" H -1800 6065 50  0000 C CNN "Val"
+	1    -1800 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R146
 U 1 1 66DFD667
-P 4800 5550
-F 0 "R146" H 4800 5763 60  0000 C CNN
-F 1 "R_0R_0402" H 4800 5400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5000 5750 60  0001 L CNN
-F 3 "" H 4800 5550 50  0001 C CNN
-F 4 "PANASONIC" H 5000 5950 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 5000 5850 60  0001 L CNN "MPN"
-F 6 "0R" H 4800 5665 50  0000 C CNN "Val"
-	1    4800 5550
+P -1800 6250
+F 0 "R146" H -1800 6463 60  0000 C CNN
+F 1 "R_0R_0402" H -1800 6100 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H -1600 6450 60  0001 L CNN
+F 3 "" H -1800 6250 50  0001 C CNN
+F 4 "PANASONIC" H -1600 6650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H -1600 6550 60  0001 L CNN "MPN"
+F 6 "0R" H -1800 6365 50  0000 C CNN "Val"
+	1    -1800 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R147
 U 1 1 66DFDC54
-P 4800 5650
-F 0 "R147" H 4800 5863 60  0000 C CNN
-F 1 "R_0R_0402" H 4800 5500 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5000 5850 60  0001 L CNN
-F 3 "" H 4800 5650 50  0001 C CNN
-F 4 "PANASONIC" H 5000 6050 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 5000 5950 60  0001 L CNN "MPN"
-F 6 "0R" H 4800 5765 50  0000 C CNN "Val"
-	1    4800 5650
+P -1800 6350
+F 0 "R147" H -1800 6563 60  0000 C CNN
+F 1 "R_0R_0402" H -1800 6200 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H -1600 6550 60  0001 L CNN
+F 3 "" H -1800 6350 50  0001 C CNN
+F 4 "PANASONIC" H -1600 6750 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H -1600 6650 60  0001 L CNN "MPN"
+F 6 "0R" H -1800 6465 50  0000 C CNN "Val"
+	1    -1800 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 4750 4550 4750
+	-1950 5450 -2050 5450
 Wire Wire Line
-	4550 5250 4650 5250
+	-2050 5950 -1950 5950
 Wire Wire Line
-	4650 5550 4550 5550
+	-1950 6250 -2050 6250
 Wire Wire Line
-	4650 5650 4550 5650
+	-1950 6350 -2050 6350
 Wire Wire Line
-	5025 5650 4950 5650
+	-1575 6350 -1650 6350
 Wire Wire Line
-	5025 5550 4950 5550
+	-1575 6250 -1650 6250
 Wire Wire Line
-	5025 4750 4950 4750
+	-1575 5450 -1650 5450
 Wire Wire Line
-	5025 5250 4950 5250
+	-1575 5950 -1650 5950
 $Comp
 L artix-dc-scm:R_0R_0402 R111
 U 1 1 6154EF68
@@ -2419,4 +2419,42 @@ F 3 "" H 12500 4100 50  0000 C CNN
 	3    12800 4100
 	1    0    0    -1  
 $EndComp
+Text GLabel 4875 3650 2    50   Input ~ 0
+ULPI1_DATA6
+Text GLabel 4875 3950 2    50   Input ~ 0
+ULPI1_DATA5
+Text GLabel 4875 3550 2    50   Input ~ 0
+ULPI1_DATA4
+Text GLabel 4875 5050 2    50   Input ~ 0
+ULPI1_DATA3
+Text GLabel 4875 4950 2    50   Input ~ 0
+ULPI1_DATA2
+Text GLabel 4875 5350 2    50   Input ~ 0
+ULPI1_DATA1
+Text GLabel 4875 5450 2    50   Input ~ 0
+ULPI1_DATA0
+Text GLabel 4875 4050 2    50   Input ~ 0
+ULPI1_DATA7
+Text GLabel 4875 3450 2    50   Input ~ 0
+ULPI1_NXT
+Text GLabel 4875 3350 2    50   Input ~ 0
+ULPI1_DIR
+Text GLabel 4875 3850 2    50   Input ~ 0
+ULPI1_STP
+Text GLabel 4825 4350 2    50   Input ~ 0
+ULPI1_CLKOUT
+Text GLabel 4825 4250 2    50   Input ~ 0
+ULPI1_RESET
+Wire Wire Line
+	4550 5350 4875 5350
+Wire Wire Line
+	4875 5450 4550 5450
+Wire Wire Line
+	4550 5050 4875 5050
+Wire Wire Line
+	4875 4950 4550 4950
+Wire Wire Line
+	4825 4350 4550 4350
+Wire Wire Line
+	4825 4250 4550 4250
 $EndSCHEMATC

@@ -477,23 +477,6 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroResistors0603_R_1M_0603
-#
-DEF antmicroResistors0603_R_1M_0603 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0603_R_1M_0603" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0603-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
-F5 "CR0603-JW-105GLF" 200 300 60 H I L CNN "MPN"
-F6 "1M" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # artix-dc-scm_0466003.NR
 #
 DEF artix-dc-scm_0466003.NR F 0 39 Y Y 1 F N
