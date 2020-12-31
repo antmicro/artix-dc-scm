@@ -880,7 +880,7 @@ Wire Wire Line
 	6375 3550 6700 3550
 Wire Wire Line
 	6375 3650 6700 3650
-Text GLabel 11600 2600 0    50   Input ~ 0
+Text GLabel 11600 4600 0    50   Input ~ 0
 QSPI1_D1
 Text GLabel 11600 2100 0    50   Input ~ 0
 QSPI1_D3
@@ -890,7 +890,7 @@ Text GLabel 11600 2500 0    50   Input ~ 0
 QSPI1_D0
 Text GLabel 11600 4500 0    50   Input ~ 0
 QSPI1_CLK
-Text GLabel 11600 4600 0    50   Input ~ 0
+Text GLabel 11600 2600 0    50   Input ~ 0
 QSPI1_CS0_N
 Text GLabel 6700 2250 0    50   Input ~ 0
 I2C[1]_SDA
