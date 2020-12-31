@@ -137,30 +137,20 @@ Wire Wire Line
 	11600 2600 12000 2600
 Wire Wire Line
 	11600 2500 12000 2500
-Text GLabel 6375 4750 0    50   Input ~ 0
+Text GLabel 11600 4400 0    50   Input ~ 0
 SGPIO0_DI
-Text GLabel 5650 5900 0    50   Input ~ 0
-SGPIO0_DO
-Text GLabel 6375 5250 0    50   Input ~ 0
+Text GLabel 11600 5700 0    50   Input ~ 0
 SGPIO0_LD
-Text GLabel 6375 4350 0    50   Input ~ 0
+Text GLabel 11600 6500 0    50   Input ~ 0
 SGPIO1_DI
-Text GLabel 6375 4650 0    50   Input ~ 0
+Text GLabel 11600 5500 0    50   Input ~ 0
 SGPIO1_DO
-Text GLabel 6375 4450 0    50   Input ~ 0
+Text GLabel 11600 6800 0    50   Input ~ 0
 SGPIO1_LD
 Text GLabel 6700 3250 0    50   Input ~ 0
 SGPIO_RESET_N
 Text GLabel 6700 2850 0    50   Input ~ 0
 SGPIO_INTR_N
-Text GLabel 1750 2650 0    50   Input ~ 0
-ESPI_CLK
-Text GLabel 1750 2350 0    50   Input ~ 0
-ESPI_CS0_N
-Text GLabel 1750 2450 0    50   Input ~ 0
-ESPI_CS1_N
-Text GLabel 1750 2850 0    50   Input ~ 0
-ESPI_IO0
 Text GLabel 9450 8650 2    50   Input ~ 0
 JTAG_TCK
 Text GLabel 9450 8550 2    50   Input ~ 0
@@ -180,41 +170,13 @@ UART0_SCM_RX
 Text Notes 2425 650  0    50   ~ 0
 FPGA connections to be established while preparing layout
 Wire Wire Line
-	9500 2550 9875 2550
-Wire Wire Line
-	9500 2750 9875 2750
-Wire Wire Line
-	9500 2650 9875 2650
-Wire Wire Line
-	9500 2850 9875 2850
-Wire Wire Line
 	1350 8325 1725 8325
 Wire Wire Line
 	1350 9150 1725 9150
 Wire Wire Line
-	9500 3350 9875 3350
-Wire Wire Line
 	1350 8125 1725 8125
 Wire Wire Line
-	9500 3450 9875 3450
-Wire Wire Line
-	9500 3650 9875 3650
-Wire Wire Line
-	9500 3550 9875 3550
-Wire Wire Line
-	9500 3750 9875 3750
-Wire Wire Line
-	9500 3950 9875 3950
-Wire Wire Line
-	9500 3850 9875 3850
-Wire Wire Line
-	9500 4050 9875 4050
-Wire Wire Line
 	800  7000 1175 7000
-Wire Wire Line
-	9500 4150 9875 4150
-Wire Wire Line
-	9500 3150 9875 3150
 Wire Wire Line
 	1350 9550 1725 9550
 Wire Wire Line
@@ -606,16 +568,12 @@ Wire Wire Line
 Text GLabel 12250 1200 0    50   Input ~ 0
 VCC1V35_BANK
 Wire Notes Line
-	1350 1900 2850 1900
-Wire Notes Line
 	2850 1900 2850 5600
 Wire Notes Line
-	2850 5600 625  5600
+	2850 5600 1375 5600
 Wire Notes Line
-	625  5600 625  1900
-Wire Notes Line
-	625  1900 1325 1900
-Text Notes 675  1875 0    50   ~ 0
+	1375 5600 1375 1900
+Text Notes 1525 4500 1    50   ~ 0
 This bank is unavailable on 35T
 Wire Wire Line
 	9450 9950 9450 10050
@@ -855,13 +813,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 8750 1725 8750
 Wire Wire Line
-	9500 2250 9875 2250
-Wire Wire Line
-	9500 2150 9875 2150
-Wire Wire Line
 	1350 8525 1725 8525
-Wire Wire Line
-	9500 2450 9875 2450
 Wire Wire Line
 	1350 9750 1725 9750
 Wire Wire Line
@@ -898,21 +850,21 @@ Text GLabel 6700 5950 0    50   Input ~ 0
 I2C[1]_SCL
 Text GLabel 6700 6150 0    50   Input ~ 0
 I2C[9]_SCL
-Text GLabel 6700 3050 0    50   Input ~ 0
+Text GLabel 11600 4900 0    50   Input ~ 0
 I2C[10]_SDA
 Text GLabel 6700 6250 0    50   Input ~ 0
 I2C[10]_SCL
-Text GLabel 6700 2450 0    50   Input ~ 0
+Text GLabel 11600 6700 0    50   Input ~ 0
 I2C[11]_SDA
-Text GLabel 6700 3150 0    50   Input ~ 0
+Text GLabel 11600 5800 0    50   Input ~ 0
 I2C[11]_SCL
-Text GLabel 6700 2350 0    50   Input ~ 0
+Text GLabel 11600 6100 0    50   Input ~ 0
 I2C[12]_SDA
-Text GLabel 6700 2750 0    50   Input ~ 0
+Text GLabel 11600 6200 0    50   Input ~ 0
 I2C[12]_SCL
 Text GLabel 6700 2150 0    50   Input ~ 0
 I2C[0]_SCL
-Text GLabel 6700 2950 0    50   Input ~ 0
+Text GLabel 11600 5400 0    50   Input ~ 0
 I2C[9]_SDA
 Text GLabel 6700 6650 0    50   Input ~ 0
 I2C[8]_SCL
@@ -926,8 +878,6 @@ Text GLabel 6700 6950 0    50   Input ~ 0
 I2C[6]_SCL
 Text GLabel 6700 6850 0    50   Input ~ 0
 I2C[6]_SDA
-Text GLabel 5700 5475 0    50   Input ~ 0
-I2C[5]_SCL
 Text GLabel 6700 6750 0    50   Input ~ 0
 I2C[5]_SDA
 Text GLabel 6375 5850 0    50   Input ~ 0
@@ -1208,29 +1158,29 @@ Text GLabel -1575 6350 2    50   Input ~ 0
 SPIO_MISO
 Wire Wire Line
 	11600 3200 12000 3200
-Text GLabel 9825 5250 2    50   Input ~ 0
+Text GLabel 4850 6250 2    50   Input ~ 0
 MMC_DAT0
-Text GLabel 9825 5450 2    50   Input ~ 0
+Text GLabel 4875 5250 2    50   Input ~ 0
 MMC_DAT1
-Text GLabel 9825 5750 2    50   Input ~ 0
+Text GLabel 4850 5950 2    50   Input ~ 0
 MMC_DAT2
-Text GLabel 9825 5150 2    50   Input ~ 0
+Text GLabel 4875 4750 2    50   Input ~ 0
 MMC_DAT3
-Text GLabel 9825 6050 2    50   Input ~ 0
+Text GLabel 4850 5650 2    50   Input ~ 0
 MMC_DAT4
-Text GLabel 9825 6250 2    50   Input ~ 0
+Text GLabel 4850 5550 2    50   Input ~ 0
 MMC_DAT5
-Text GLabel 9825 5950 2    50   Input ~ 0
+Text GLabel 4850 6050 2    50   Input ~ 0
 MMC_DAT6
-Text GLabel 9825 6450 2    50   Input ~ 0
+Text GLabel 4825 6850 2    50   Input ~ 0
 MMC_DAT7
-Text GLabel 9825 5850 2    50   Input ~ 0
+Text GLabel 4875 4650 2    50   Input ~ 0
 MMC_CMD
-Text GLabel 9825 6650 2    50   Input ~ 0
+Text GLabel 4875 4550 2    50   Input ~ 0
 MMC_CLK
-Text GLabel 9825 6150 2    50   Input ~ 0
+Text GLabel 4875 4850 2    50   Input ~ 0
 MMC_RSTN
-Text GLabel 6375 5750 0    50   Input ~ 0
+Text GLabel 11600 5000 0    50   Input ~ 0
 SGPIO0_CLK
 Wire Wire Line
 	5025 2250 4550 2250
@@ -1270,7 +1220,7 @@ Text GLabel 5000 3000 2    50   Input ~ 0
 NCSI_RXD0
 Text GLabel 850  5975 2    50   Input ~ 0
 NCSI_RXD1
-Text GLabel 6375 4550 0    50   Input ~ 0
+Text GLabel 11600 6600 0    50   Input ~ 0
 RSVD2
 Text Notes -975 5275 0    50   ~ 0
 SGPIO1_CLK
@@ -1284,8 +1234,6 @@ Text GLabel 5025 2450 2    50   Input ~ 0
 ROT_QSPI_DQ3
 Text GLabel 5025 2550 2    50   Input ~ 0
 PUDC_B
-Text GLabel 5350 2650 2    50   Input ~ 0
-EMCCLK
 Text GLabel -1725 5650 2    50   Input ~ 0
 CK_IO34
 Text GLabel -1725 5850 2    50   Input ~ 0
@@ -1852,38 +1800,6 @@ Text GLabel 18100 5250 2    50   Input ~ 0
 USR_LED1
 Text GLabel 18100 5350 2    50   Input ~ 0
 USR_LED2
-Text GLabel 9875 2150 2    50   Input ~ 0
-USB1_D0
-Text GLabel 9875 2850 2    50   Input ~ 0
-USB1_D1
-Text GLabel 9875 2750 2    50   Input ~ 0
-USB1_D2
-Text GLabel 9875 3950 2    50   Input ~ 0
-USB1_D3
-Text GLabel 9875 2250 2    50   Input ~ 0
-USB1_D4
-Text GLabel 9875 3550 2    50   Input ~ 0
-USB1_D5
-Text GLabel 9875 3650 2    50   Input ~ 0
-USB1_D6
-Text GLabel 9875 3150 2    50   Input ~ 0
-USB1_D7
-Text GLabel 9875 2550 2    50   Input ~ 0
-USB1_~RD
-Text GLabel 9875 4050 2    50   Input ~ 0
-USB1_WR
-Text GLabel 9875 3350 2    50   Input ~ 0
-RST_USB2
-Text GLabel 9875 3750 2    50   Input ~ 0
-SCK_USB2
-Text GLabel 9875 2650 2    50   Input ~ 0
-SS_USB2
-Text GLabel 9875 3850 2    50   Input ~ 0
-MISO_USB2
-Text GLabel 9875 3450 2    50   Input ~ 0
-MOSI_USB2
-Text GLabel 9875 4150 2    50   Input ~ 0
-GPX_USB2
 Text Notes 13100 8900 0    50   ~ 0
 Interfaces status:\nJTAG - needs pre-defined pins (BANK0)\nboot (Q)SPI - needs pre-defined pins (BANK14)\neSPI\nQSPI0, QSPI1 - \nSPI - \nSGPIO0, SGPIO1 - \nUSB client, USB host - free\nPCIe x1 - needs to be connected to transreceivers\nI3C - free\nI2C - free\nNCSI-\nUART \nethernet - free\nDDR3 - uses B34 as in references\neMMC - free
 Text Notes 12900 7750 0    50   ~ 10
@@ -1970,16 +1886,6 @@ F 3 "" H 2250 4150 50  0000 C CNN
 	1    2550 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 2250 0    50   Input ~ 0
-ESPI_IO1
-Text GLabel 1750 2150 0    50   Input ~ 0
-ESPI_IO2
-Text GLabel 1750 2050 0    50   Input ~ 0
-ESPI_IO3
-Text GLabel 1750 3250 0    50   Input ~ 0
-ESPI_ALERT_N
-Text GLabel 1750 3150 0    50   Input ~ 0
-ESPI_RESET_N
 Text Notes 12900 7925 0    50   ~ 10
 done
 $Comp
@@ -2413,32 +2319,60 @@ Wire Wire Line
 	14800 6100 14925 6100
 Wire Wire Line
 	14800 6200 14925 6200
-Wire Wire Line
-	4550 2650 5350 2650
 Wire Notes Line
 	5325 2700 5325 2900
 Wire Notes Line
 	5325 2900 5175 2900
-Text GLabel 5825 3675 0    50   Input ~ 0
-QSPI0_D2
-Text GLabel 5925 3800 0    50   Input ~ 0
-QSPI0_D3
-Text GLabel 5925 4150 0    50   Input ~ 0
-QSPI0_D1
-Text GLabel 5725 4675 0    50   Input ~ 0
-QSPI0_D0
-Text GLabel 5750 5625 0    50   Input ~ 0
-QSPI0_CLK
-Text GLabel 5800 5775 0    50   Input ~ 0
-QSPI0_CS0_N
-Text GLabel 5950 3325 0    50   Input ~ 0
-I2C[4]_SDA
-Text GLabel 5975 3500 0    50   Input ~ 0
-QSPI0_CS1_N
-Text GLabel 6000 5050 0    50   Input ~ 0
-I2C[4]_SCL
 Text GLabel 5450 8250 0    50   Input ~ 0
 ETH_~RESET
 Text GLabel 6375 5350 0    50   UnSpc ~ 0
 ETH_~RESET
+Text GLabel 11600 4700 0    50   Input ~ 0
+I2C[9]_SCL
+Text GLabel 11600 5100 0    50   Input ~ 0
+I2C[10]_SCL
+Text GLabel 11600 5200 0    50   Input ~ 0
+SGPIO0_DO
+Text GLabel -425 3200 0    50   Input ~ 0
+ESPI_CLK
+Text GLabel -425 2900 0    50   Input ~ 0
+ESPI_CS0_N
+Text GLabel -425 3000 0    50   Input ~ 0
+ESPI_CS1_N
+Text GLabel -425 3400 0    50   Input ~ 0
+ESPI_IO0
+Text GLabel -425 2800 0    50   Input ~ 0
+ESPI_IO1
+Text GLabel -425 2700 0    50   Input ~ 0
+ESPI_IO2
+Text GLabel -425 2600 0    50   Input ~ 0
+ESPI_IO3
+Text GLabel -425 3800 0    50   Input ~ 0
+ESPI_ALERT_N
+Text GLabel -425 3700 0    50   Input ~ 0
+ESPI_RESET_N
+Wire Notes Line
+	1375 1900 2850 1900
+Wire Wire Line
+	4550 6850 4825 6850
+Wire Wire Line
+	4550 6250 4850 6250
+Wire Wire Line
+	4550 6050 4850 6050
+Wire Wire Line
+	4550 5950 4850 5950
+Wire Wire Line
+	4550 5550 4850 5550
+Wire Wire Line
+	4550 5650 4850 5650
+Wire Wire Line
+	4550 4850 4875 4850
+Wire Wire Line
+	4550 4750 4875 4750
+Wire Wire Line
+	4875 5250 4550 5250
+Wire Wire Line
+	4550 4550 4875 4550
+Wire Wire Line
+	4550 4650 4875 4650
 $EndSCHEMATC
