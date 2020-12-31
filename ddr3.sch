@@ -50,9 +50,9 @@ DDR3_BA1
 Text GLabel 3650 4425 0    50   Input ~ 0
 DDR3_BA2
 Text GLabel 3650 4625 0    50   Input ~ 0
-DDR3_CLK+
+DDR3_CLK_P
 Text GLabel 3650 4725 0    50   Input ~ 0
-DDR3_CLK-
+DDR3_CLK_N
 Text GLabel 3650 4825 0    50   Input ~ 0
 DDR3_CKE
 Text GLabel 3650 5025 0    50   Input ~ 0
@@ -194,13 +194,13 @@ Wire Wire Line
 Wire Wire Line
 	6050 4425 6450 4425
 Text GLabel 6450 4625 2    50   BiDi ~ 0
-DDR3_DQS0+
+DDR3_DQS0_P
 Text GLabel 6450 4725 2    50   BiDi ~ 0
-DDR3_DQS0-
+DDR3_DQS0_N
 Text GLabel 6450 4825 2    50   BiDi ~ 0
-DDR3_DQS1+
+DDR3_DQS1_P
 Text GLabel 6450 4925 2    50   BiDi ~ 0
-DDR3_DQS1-
+DDR3_DQS1_N
 Wire Wire Line
 	6450 4625 6050 4625
 Wire Wire Line
