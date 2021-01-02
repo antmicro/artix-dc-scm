@@ -1,4 +1,4 @@
-update=Thu Dec 31 12:48:47 2020
+update=Sat Jan  2 19:08:49 2021
 version=1
 last_client=kicad
 [general]
@@ -261,6 +261,17 @@ dPairWidth=0.11
 dPairGap=0.11
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=PCIe_inner
+Clearance=0.21
+TrackWidth=0.11
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.11
+dPairGap=0.21
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=USB
 Clearance=0.15
 TrackWidth=0.16
