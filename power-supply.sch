@@ -13,10 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	12975 2900 12675 2900
-Wire Wire Line
-	12375 2750 12675 2750
 Connection ~ 12375 2750
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR060
@@ -538,13 +534,13 @@ $Comp
 L artix-dc-scm:C_10u_0402 C75
 U 1 1 618F9CF7
 P 12375 2950
-F 0 "C75" H 12490 2995 60  0000 L CNN
+F 0 "C75" H 12075 3000 60  0000 L CNN
 F 1 "C_10u_0402" H 12375 2800 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 12575 3150 60  0001 L CNN
 F 3 "" H 12375 2950 50  0001 C CNN
 F 4 "MURATA" H 12575 3350 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 12575 3250 60  0001 L CNN "MPN"
-F 6 "10u" H 12490 2897 50  0000 L CNN "Val"
+F 6 "10u" H 12125 2900 50  0000 L CNN "Val"
 	1    12375 2950
 	1    0    0    -1  
 $EndComp
@@ -662,18 +658,14 @@ F 6 "10u" H 15300 3050 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	15275 3300 15275 3550
-Text GLabel 14975 2375 1    50   Input ~ 0
+Text GLabel 14975 2350 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	14975 2375 14975 2750
+	14975 2650 14975 2750
 Text Notes 12725 3500 0    50   ~ 0
 SOURCE:Trelis board
 Wire Wire Line
 	12675 3050 12975 3050
-Wire Wire Line
-	13000 5050 12700 5050
-Wire Wire Line
-	12400 4900 12700 4900
 Connection ~ 12400 4900
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR061
@@ -739,13 +731,13 @@ $Comp
 L artix-dc-scm:C_10u_0402 C76
 U 1 1 6278FFB2
 P 12400 5100
-F 0 "C76" H 12515 5145 60  0000 L CNN
+F 0 "C76" H 12125 5150 60  0000 L CNN
 F 1 "C_10u_0402" H 12400 4950 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 12600 5300 60  0001 L CNN
 F 3 "" H 12400 5100 50  0001 C CNN
 F 4 "MURATA" H 12600 5500 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 12600 5400 60  0001 L CNN "MPN"
-F 6 "10u" H 12515 5047 50  0000 L CNN "Val"
+F 6 "10u" H 12150 5050 50  0000 L CNN "Val"
 	1    12400 5100
 	1    0    0    -1  
 $EndComp
@@ -849,18 +841,14 @@ F 6 "10u" H 15325 5200 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	15300 5450 15300 5700
-Text GLabel 15000 4525 1    50   Input ~ 0
+Text GLabel 15000 4500 1    50   Input ~ 0
 VCC1V8
 Wire Wire Line
-	15000 4525 15000 4900
+	15000 4800 15000 4900
 Text Notes 12800 5650 0    50   ~ 0
 SOURCE:Trelis board
 Wire Wire Line
 	12700 5200 13000 5200
-Wire Wire Line
-	13050 6875 12725 6875
-Wire Wire Line
-	12450 6725 12725 6725
 Connection ~ 12450 6725
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR063
@@ -912,13 +900,13 @@ $Comp
 L artix-dc-scm:C_10u_0402 C78
 U 1 1 627F64B3
 P 12450 6925
-F 0 "C78" H 12565 6970 60  0000 L CNN
+F 0 "C78" H 12175 6975 60  0000 L CNN
 F 1 "C_10u_0402" H 12450 6775 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 12650 7125 60  0001 L CNN
 F 3 "" H 12450 6925 50  0001 C CNN
 F 4 "MURATA" H 12650 7325 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 12650 7225 60  0001 L CNN "MPN"
-F 6 "10u" H 12565 6872 50  0000 L CNN "Val"
+F 6 "10u" H 12200 6875 50  0000 L CNN "Val"
 	1    12450 6925
 	1    0    0    -1  
 $EndComp
@@ -1022,17 +1010,17 @@ F 6 "10u" H 15375 7025 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	15350 7275 15350 7525
-Text GLabel 15050 6350 1    50   Input ~ 0
+Text GLabel 15050 6275 1    50   Input ~ 0
 VCC1V35
 Wire Wire Line
-	15050 6350 15050 6725
+	15050 6575 15050 6725
 Text Notes 12850 7475 0    50   ~ 0
 SOURCE:Trelis board
 Wire Wire Line
 	12725 7025 13050 7025
-Text Notes 15050 4550 0    50   ~ 0
+Text Notes 15225 4700 0    50   ~ 0
 1.8V/3A
-Text Notes 15150 6400 0    50   ~ 0
+Text Notes 15375 6475 0    50   ~ 0
 1.35V/3A
 Connection ~ 13950 7525
 Wire Wire Line
@@ -1048,99 +1036,97 @@ F 3 "" H 13950 7675 50  0001 C CNN
 	1    13950 7675
 	1    0    0    -1  
 $EndComp
-Text GLabel 8400 10725 2    50   Input ~ 0
+Text GLabel 11075 10600 2    50   Input ~ 0
 3V0_BAT
 $Comp
 L artix-dc-scm:S2B-PH-K-S_LF__SN_ J12
 U 1 1 5FE878FF
-P 8000 10725
-F 0 "J12" V 7775 10733 50  0000 C CNN
-F 1 "S2B-PH-K-S_LF__SN_" V 7866 10733 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:PinHeader_1x2_P2mm_Drill1mm_RA" H 8200 10925 60  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 8200 11025 60  0001 L CNN
-F 4 "S2B-PH-K-S(LF)(SN)" H 8200 11225 60  0001 L CNN "MPN"
-F 5 "JST Sales America Inc." H 8200 11825 60  0001 L CNN "Manufacturer"
-	1    8000 10725
+P 10675 10600
+F 0 "J12" V 10450 10608 50  0000 C CNN
+F 1 "S2B-PH-K-S_LF__SN_" V 10541 10608 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:PinHeader_1x2_P2mm_Drill1mm_RA" H 10875 10800 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10875 10900 60  0001 L CNN
+F 4 "S2B-PH-K-S(LF)(SN)" H 10875 11100 60  0001 L CNN "MPN"
+F 5 "JST Sales America Inc." H 10875 11700 60  0001 L CNN "Manufacturer"
+	1    10675 10600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8425 10875 8425 10825
+	11100 10750 11100 10700
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR059
 U 1 1 5FF71002
-P 8425 10875
-F 0 "#PWR059" H 8425 10625 50  0001 C CNN
-F 1 "GND" H 8430 10702 50  0000 C CNN
-F 2 "" H 8425 10875 50  0001 C CNN
-F 3 "" H 8425 10875 50  0001 C CNN
-	1    8425 10875
+P 11100 10750
+F 0 "#PWR059" H 11100 10500 50  0001 C CNN
+F 1 "GND" H 11105 10577 50  0000 C CNN
+F 2 "" H 11100 10750 50  0001 C CNN
+F 3 "" H 11100 10750 50  0001 C CNN
+	1    11100 10750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 10825 8425 10825
+	10775 10700 11100 10700
 Wire Wire Line
-	8100 10725 8400 10725
-Text Label 3000 9775 2    50   ~ 0
+	10775 10600 11075 10600
+Text Label 5600 8900 2    50   ~ 0
 VCCINT_EN
-Text Label 3000 9875 2    50   ~ 0
+Text Label 5600 9000 2    50   ~ 0
 VCCAUX_EN
 Wire Wire Line
-	2375 10500 2375 10075
+	4975 9625 4975 9200
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR048
 U 1 1 61620212
-P 2375 10500
-F 0 "#PWR048" H 2375 10250 50  0001 C CNN
-F 1 "GND" H 2380 10327 50  0000 C CNN
-F 2 "" H 2375 10500 50  0001 C CNN
-F 3 "" H 2375 10500 50  0001 C CNN
-	1    2375 10500
+P 4975 9625
+F 0 "#PWR048" H 4975 9375 50  0001 C CNN
+F 1 "GND" H 4980 9452 50  0000 C CNN
+F 2 "" H 4975 9625 50  0001 C CNN
+F 3 "" H 4975 9625 50  0001 C CNN
+	1    4975 9625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2375 10075 2300 10075
-Text GLabel 1325 9175 1    50   Input ~ 0
-VCC3V3
+	4975 9200 4900 9200
 Wire Wire Line
-	1500 9775 1325 9775
+	4100 8900 3925 8900
 Wire Wire Line
-	1325 9175 1325 9775
-Text Label 750  9875 0    50   ~ 0
+	3925 8300 3925 8900
+Text Label 3350 9000 0    50   ~ 0
 PWR_EN
 Wire Wire Line
-	750  9875 1125 9875
+	3350 9000 3725 9000
 $Comp
 L artix-dc-scm:C_10n_0402 C64
 U 1 1 6204B4B4
-P 1100 10275
-F 0 "C64" H 1215 10320 60  0000 L CNN
-F 1 "C_10n_0402" H 1100 10125 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 1300 10475 60  0001 L CNN
-F 3 "" H 1100 10275 50  0001 C CNN
-F 4 "AVX" H 1300 10675 60  0001 L CNN "Manufacturer"
-F 5 "04025G103ZAT2A" H 1300 10575 60  0001 L CNN "MPN"
-F 6 "10n" H 1215 10222 50  0000 L CNN "Val"
-	1    1100 10275
+P 3700 9400
+F 0 "C64" H 3815 9445 60  0000 L CNN
+F 1 "C_10n_0402" H 3700 9250 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3900 9600 60  0001 L CNN
+F 3 "" H 3700 9400 50  0001 C CNN
+F 4 "AVX" H 3900 9800 60  0001 L CNN "Manufacturer"
+F 5 "04025G103ZAT2A" H 3900 9700 60  0001 L CNN "MPN"
+F 6 "10n" H 3815 9347 50  0000 L CNN "Val"
+	1    3700 9400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 9975 1500 9975
+	3700 9100 4100 9100
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR047
 U 1 1 6211AF82
-P 1100 10525
-F 0 "#PWR047" H 1100 10275 50  0001 C CNN
-F 1 "GND" H 1105 10352 50  0000 C CNN
-F 2 "" H 1100 10525 50  0001 C CNN
-F 3 "" H 1100 10525 50  0001 C CNN
-	1    1100 10525
+P 3700 9650
+F 0 "#PWR047" H 3700 9400 50  0001 C CNN
+F 1 "GND" H 3705 9477 50  0000 C CNN
+F 2 "" H 3700 9650 50  0001 C CNN
+F 3 "" H 3700 9650 50  0001 C CNN
+	1    3700 9650
 	1    0    0    -1  
 $EndComp
 Text Notes 9525 1825 0    118  ~ 0
 PWR_LED Indicators
 Wire Notes Line
 	475  8400 475  8425
-Text Label 3000 9975 2    50   ~ 0
+Text Label 5600 9100 2    50   ~ 0
 VCCIO_EN
 Text Notes 12875 2350 0    118  ~ 0
 3V3 supply
@@ -1221,10 +1207,6 @@ F 6 "124k" V 14753 7020 50  0000 L CNN "Val"
 	1    14700 6950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	13025 8600 12700 8600
-Wire Wire Line
-	12425 8450 12700 8450
 Connection ~ 12425 8450
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR062
@@ -1276,22 +1258,22 @@ $Comp
 L artix-dc-scm:C_10u_0402 C77
 U 1 1 63A59222
 P 12425 8650
-F 0 "C77" H 12540 8695 60  0000 L CNN
+F 0 "C77" H 12125 8700 60  0000 L CNN
 F 1 "C_10u_0402" H 12425 8500 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 12625 8850 60  0001 L CNN
 F 3 "" H 12425 8650 50  0001 C CNN
 F 4 "MURATA" H 12625 9050 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 12625 8950 60  0001 L CNN "MPN"
-F 6 "10u" H 12540 8597 50  0000 L CNN "Val"
+F 6 "10u" H 12150 8600 50  0000 L CNN "Val"
 	1    12425 8650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12425 8450 12425 8500
-Text GLabel 12400 8050 0    50   Input ~ 0
+Text GLabel 12250 8050 0    50   Input ~ 0
 VCC5V0
 Wire Wire Line
-	12425 8050 12400 8050
+	12425 8050 12250 8050
 Wire Wire Line
 	12425 8050 12425 8450
 $Comp
@@ -1390,15 +1372,15 @@ F 6 "10u" H 15350 8750 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	15325 9000 15325 9250
-Text GLabel 15025 8075 1    50   Input ~ 0
+Text GLabel 15025 8050 1    50   Input ~ 0
 VCC1V0
 Wire Wire Line
-	15025 8075 15025 8450
+	15025 8350 15025 8450
 Text Notes 12825 9200 0    50   ~ 0
 SOURCE:Trelis board
 Wire Wire Line
 	12700 8750 13025 8750
-Text Notes 15125 8125 0    50   ~ 0
+Text Notes 15425 8200 0    50   ~ 0
 1.0V/3A
 Connection ~ 13925 9250
 Wire Wire Line
@@ -1431,420 +1413,110 @@ F 5 "IHLP1212AEERR47M11" H 14075 8450 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	13875 8450 13825 8450
-Text Notes 4300 11025 0    50   ~ 0
-STEP1: VRs start and RoT boots (HPM_STBY_EN when both are done)\nSTEP2: HPM starts its VRs and sets HPM_STBY_RDY when done\nSTEP3: FPGA VCCINT (1.0V)\nSTEP4: FPGA VCCAUX + DDR3 (1.8V, 1.35V)\nSTEP5: FPGA VCCIO + DDR3 (3.3V, DDRVTT), HPM reset is de-asserted\nSTEP6: HPM boots
 $Comp
 L artix-dc-scm:LM3881MME_NOPB U9
 U 1 1 6113B8AB
-P 1900 9875
-F 0 "U9" H 1650 10200 50  0000 C CNN
-F 1 "LM3881MME_NOPB" H 1975 10150 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 1900 10275 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm3881.pdf" H 1900 10375 50  0001 L CNN
-F 4 "Texas Instruments" H 1900 10475 50  0001 L CNN "Manufacturer"
-F 5 "LM3881MME/NOPB" H 2250 10375 50  0001 C CNN "MPN"
-	1    1900 9875
+P 4500 9000
+F 0 "U9" H 4250 9325 50  0000 C CNN
+F 1 "LM3881MME_NOPB" H 4575 9275 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 4500 9400 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm3881.pdf" H 4500 9500 50  0001 L CNN
+F 4 "Texas Instruments" H 4500 9600 50  0001 L CNN "Manufacturer"
+F 5 "LM3881MME/NOPB" H 4850 9500 50  0001 C CNN "MPN"
+	1    4500 9000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 9975 2575 9975
+	4900 9100 5175 9100
 Wire Wire Line
-	2300 9875 2475 9875
+	4900 9000 5075 9000
 Wire Wire Line
-	2300 9775 2375 9775
-Text Notes 1025 6650 0    118  ~ 0
+	4900 8900 4975 8900
+Text Notes 3650 7350 0    118  ~ 0
 Power sequencer
-Text Notes 6075 11100 0    50   ~ 0
-^ TODO: decide which DC-SCI pin connected\n    to FPGA does this
 Wire Wire Line
-	1100 9975 1100 10125
+	3700 9100 3700 9250
 Wire Wire Line
-	1100 10425 1100 10525
+	3700 9550 3700 9650
 Wire Wire Line
-	1500 10075 1325 10075
+	4100 9200 3925 9200
 Wire Wire Line
-	1325 10075 1325 9775
-Connection ~ 1325 9775
+	3925 9200 3925 8900
+Connection ~ 3925 8900
 $Comp
 L artix-dc-scm:R_1k_0402 R63
 U 1 1 5FFECF1E
-P 2375 9450
-F 0 "R63" V 2330 9520 60  0000 L CNN
-F 1 "R_1k_0402" H 2375 9300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2575 9650 60  0001 L CNN
-F 3 "" H 2375 9450 50  0001 C CNN
-F 4 "BOURNS" H 2575 9850 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 2575 9750 60  0001 L CNN "MPN"
-F 6 "1k" V 2428 9520 50  0000 L CNN "Val"
-	1    2375 9450
+P 4975 8575
+F 0 "R63" V 4930 8645 60  0000 L CNN
+F 1 "R_1k_0402" H 4975 8425 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5175 8775 60  0001 L CNN
+F 3 "" H 4975 8575 50  0001 C CNN
+F 4 "BOURNS" H 5175 8975 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 5175 8875 60  0001 L CNN "MPN"
+F 6 "1k" V 5028 8645 50  0000 L CNN "Val"
+	1    4975 8575
 	0    1    1    0   
 $EndComp
 $Comp
 L artix-dc-scm:R_1k_0402 R64
 U 1 1 5FFED382
-P 2475 9450
-F 0 "R64" V 2430 9520 60  0000 L CNN
-F 1 "R_1k_0402" H 2475 9300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2675 9650 60  0001 L CNN
-F 3 "" H 2475 9450 50  0001 C CNN
-F 4 "BOURNS" H 2675 9850 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 2675 9750 60  0001 L CNN "MPN"
-F 6 "1k" V 2528 9520 50  0000 L CNN "Val"
-	1    2475 9450
+P 5075 8575
+F 0 "R64" V 5030 8645 60  0000 L CNN
+F 1 "R_1k_0402" H 5075 8425 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5275 8775 60  0001 L CNN
+F 3 "" H 5075 8575 50  0001 C CNN
+F 4 "BOURNS" H 5275 8975 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 5275 8875 60  0001 L CNN "MPN"
+F 6 "1k" V 5128 8645 50  0000 L CNN "Val"
+	1    5075 8575
 	0    1    1    0   
 $EndComp
 $Comp
 L artix-dc-scm:R_1k_0402 R65
 U 1 1 5FFED63B
-P 2575 9450
-F 0 "R65" V 2530 9520 60  0000 L CNN
-F 1 "R_1k_0402" H 2575 9300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2775 9650 60  0001 L CNN
-F 3 "" H 2575 9450 50  0001 C CNN
-F 4 "BOURNS" H 2775 9850 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 2775 9750 60  0001 L CNN "MPN"
-F 6 "1k" V 2628 9520 50  0000 L CNN "Val"
-	1    2575 9450
+P 5175 8575
+F 0 "R65" V 5130 8645 60  0000 L CNN
+F 1 "R_1k_0402" H 5175 8425 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5375 8775 60  0001 L CNN
+F 3 "" H 5175 8575 50  0001 C CNN
+F 4 "BOURNS" H 5375 8975 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 5375 8875 60  0001 L CNN "MPN"
+F 6 "1k" V 5228 8645 50  0000 L CNN "Val"
+	1    5175 8575
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2375 9600 2375 9775
-Connection ~ 2375 9775
+	4975 8725 4975 8900
+Connection ~ 4975 8900
 Wire Wire Line
-	2375 9775 3000 9775
+	4975 8900 5600 8900
 Wire Wire Line
-	2475 9600 2475 9875
-Connection ~ 2475 9875
+	5075 8725 5075 9000
+Connection ~ 5075 9000
 Wire Wire Line
-	2475 9875 3000 9875
+	5075 9000 5600 9000
 Wire Wire Line
-	2575 9600 2575 9975
-Connection ~ 2575 9975
+	5175 8725 5175 9100
+Connection ~ 5175 9100
 Wire Wire Line
-	2575 9975 3000 9975
+	5175 9100 5600 9100
 Wire Wire Line
-	2375 9300 2375 9225
+	4975 8425 4975 8350
 Wire Wire Line
-	2375 9225 2475 9225
+	4975 8350 5075 8350
 Wire Wire Line
-	2575 9225 2575 9300
+	5175 8350 5175 8425
 Wire Wire Line
-	2475 9300 2475 9225
-Connection ~ 2475 9225
+	5075 8425 5075 8350
+Connection ~ 5075 8350
 Wire Wire Line
-	2475 9225 2575 9225
+	5075 8350 5175 8350
 Wire Wire Line
-	2475 9150 2475 9225
-Text GLabel 2475 9150 1    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	12675 2900 12675 2750
-Connection ~ 12675 2750
-Wire Wire Line
-	12675 2750 12975 2750
-Wire Wire Line
-	12700 5050 12700 4900
-Connection ~ 12700 4900
-Wire Wire Line
-	12700 4900 13000 4900
-Wire Wire Line
-	12725 6875 12725 6725
-Connection ~ 12725 6725
-Wire Wire Line
-	12725 6725 13050 6725
-Wire Wire Line
-	12700 8600 12700 8450
-Connection ~ 12700 8450
-Wire Wire Line
-	12700 8450 13025 8450
-Text Notes 7575 10225 0    79   ~ 0
+	5075 8275 5075 8350
+Text Notes 10250 10100 0    79   ~ 0
 Battery connector
-Text GLabel 6150 6275 0    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	6450 6750 6450 6825
-Wire Wire Line
-	6450 6825 6650 6825
-Text GLabel 6650 6825 2    50   Input ~ 0
-VCC3V3_BANK
-Text GLabel 6150 6875 0    50   Input ~ 0
-VCC1V35
-Wire Wire Line
-	6450 7350 6450 7425
-Wire Wire Line
-	6450 7425 6650 7425
-Text GLabel 6650 7425 2    50   Input ~ 0
-VCC1V35_BANK
-Text GLabel 6150 7475 0    50   Input ~ 0
-VCC1V35
-Wire Wire Line
-	6450 7950 6450 8025
-Wire Wire Line
-	6450 8025 6650 8025
-Text GLabel 6650 8025 2    50   Input ~ 0
-VCC1V35_DDR3
-Text GLabel 6150 8075 0    50   Input ~ 0
-VCC1V8
-Wire Wire Line
-	6450 8550 6450 8625
-Wire Wire Line
-	6450 8625 6650 8625
-Text GLabel 6650 8625 2    50   Input ~ 0
-VCCAUX
-Text GLabel 6150 8675 0    50   Input ~ 0
-VCC1V0
-Wire Wire Line
-	6450 9225 6650 9225
-Text GLabel 6650 9225 2    50   Input ~ 0
-VCCINT
-Wire Wire Line
-	5700 8250 6150 8250
-Wire Wire Line
-	5700 7650 6150 7650
-Wire Wire Line
-	5700 7050 6150 7050
-$Comp
-L artix-dc-scm:IRLML6402TRPBF Q?
-U 1 1 609496E6
-P 6450 6550
-AR Path="/5FCA4661/609496E6" Ref="Q?"  Part="1" 
-AR Path="/6052C7CF/609496E6" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/609496E6" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/609496E6" Ref="Q1"  Part="1" 
-F 0 "Q1" H 6558 6603 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 6558 6497 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 6750 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 6850 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 6650 7050 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 6650 7650 60  0001 L CNN "Manufacturer"
-	1    6450 6550
-	1    0    0    1   
-$EndComp
-$Comp
-L artix-dc-scm:IRLML6402TRPBF Q?
-U 1 1 609496EE
-P 6450 7150
-AR Path="/5FCA4661/609496EE" Ref="Q?"  Part="1" 
-AR Path="/6052C7CF/609496EE" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/609496EE" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/609496EE" Ref="Q2"  Part="1" 
-F 0 "Q2" H 6558 7203 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 6558 7097 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 7350 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 7450 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 6650 7650 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 6650 8250 60  0001 L CNN "Manufacturer"
-	1    6450 7150
-	1    0    0    1   
-$EndComp
-$Comp
-L artix-dc-scm:IRLML6402TRPBF Q?
-U 1 1 609496F6
-P 6450 7750
-AR Path="/5FCA4661/609496F6" Ref="Q?"  Part="1" 
-AR Path="/6052C7CF/609496F6" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/609496F6" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/609496F6" Ref="Q3"  Part="1" 
-F 0 "Q3" H 6558 7803 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 6558 7697 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 7950 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 8050 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 6650 8250 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 6650 8850 60  0001 L CNN "Manufacturer"
-	1    6450 7750
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5700 8850 6150 8850
-Wire Wire Line
-	6450 9150 6450 9225
-$Comp
-L artix-dc-scm:IRLML6402TRPBF Q?
-U 1 1 60949709
-P 6450 8950
-AR Path="/5FCA4661/60949709" Ref="Q?"  Part="1" 
-AR Path="/6052C7CF/60949709" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/60949709" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/60949709" Ref="Q5"  Part="1" 
-F 0 "Q5" H 6558 9003 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 6558 8897 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 9150 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 9250 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 6650 9450 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 6650 10050 60  0001 L CNN "Manufacturer"
-	1    6450 8950
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5700 6450 6150 6450
-Text Label 6125 7050 2    50   ~ 0
-VCCIO_EN
-Text Label 6150 8250 2    50   ~ 0
-VCCAUX_EN
-Text Label 6150 8850 2    50   ~ 0
-VCCINT_EN
-Text Label 6125 7650 2    50   ~ 0
-VCCAUX_EN
-Text Label 6125 6450 2    50   ~ 0
-VCCIO_EN
-Text GLabel 6150 9275 0    50   Input ~ 0
-VCC1V8
-Wire Wire Line
-	6450 9750 6450 9825
-Wire Wire Line
-	6450 9825 6650 9825
-Text GLabel 6650 9825 2    50   Input ~ 0
-VCC1V8_BANK
-$Comp
-L artix-dc-scm:IRLML6402TRPBF Q?
-U 1 1 6094971C
-P 6450 9550
-AR Path="/5FCA4661/6094971C" Ref="Q?"  Part="1" 
-AR Path="/6052C7CF/6094971C" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/6094971C" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/6094971C" Ref="Q6"  Part="1" 
-F 0 "Q6" H 6558 9603 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 6558 9497 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 9750 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 9850 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 6650 10050 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 6650 10650 60  0001 L CNN "Manufacturer"
-	1    6450 9550
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5700 9450 6150 9450
-Text Label 6125 9450 2    50   ~ 0
-VCCIO_EN
-Wire Wire Line
-	4475 9775 4475 9850
-Wire Wire Line
-	4175 8975 4125 8975
-Text Label 3250 9475 0    50   ~ 0
-3V3_PG
-Text Label 3250 9375 0    50   ~ 0
-1V0_PG
-Text Label 3250 9275 0    50   ~ 0
-1V35_PG
-Text Label 3250 9175 0    50   ~ 0
-1V8_PG
-Text Label 4775 9075 0    50   ~ 0
-PWR_EN
-Text Label 4850 7450 0    50   ~ 0
-VR_GOOD
-Wire Wire Line
-	4775 7450 5200 7450
-Text Label 3700 7550 0    50   ~ 0
-VR2_PG
-Text Label 3700 7350 0    50   ~ 0
-VR1_PG
-Wire Wire Line
-	4175 7550 3700 7550
-Wire Wire Line
-	4175 7350 3700 7350
-$Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
-U 1 1 609655FF
-P 4475 7750
-AR Path="/5FEC3511/609655FF" Ref="#PWR?"  Part="1" 
-AR Path="/5FCA4661/609655FF" Ref="#PWR?"  Part="1" 
-AR Path="/6052C7CF/609655FF" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86D1B/609655FF" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86BEB/609655FF" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 4475 7500 50  0001 C CNN
-F 1 "GND" H 4480 7577 50  0000 C CNN
-F 2 "" H 4475 7750 50  0001 C CNN
-F 3 "" H 4475 7750 50  0001 C CNN
-	1    4475 7750
-	1    0    0    -1  
-$EndComp
-Text GLabel 4475 7150 1    50   Input ~ 0
-VCC3V3
-Text Label 4775 9475 0    50   ~ 0
-VR2_PG
-Text Label 4775 9275 0    50   ~ 0
-VR1_PG
-Wire Wire Line
-	4675 9475 5050 9475
-Wire Wire Line
-	4675 9275 5050 9275
-Wire Wire Line
-	4175 9475 3250 9475
-Wire Wire Line
-	4175 9375 3250 9375
-Wire Wire Line
-	4175 9275 3250 9275
-Wire Wire Line
-	4175 9175 3250 9175
-$Comp
-L artix-dc-scm:SN74LVC1G08DCKR U?
-U 1 1 60965610
-P 4475 7450
-AR Path="/5FCA4661/60965610" Ref="U?"  Part="1" 
-AR Path="/6052C7CF/60965610" Ref="U?"  Part="1" 
-AR Path="/5FD86D1B/60965610" Ref="U?"  Part="1" 
-AR Path="/5FD86BEB/60965610" Ref="U15"  Part="1" 
-F 0 "U15" H 4625 7250 60  0000 L CNN
-F 1 "SN74LVC1G08DCKR" H 4550 7150 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:SC-70-5" H 4675 7650 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08" H 4675 7750 60  0001 L CNN
-F 4 "SN74LVC1G08DCKR" H 4675 7950 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 4675 8550 60  0001 L CNN "Manufacturer"
-	1    4475 7450
-	1    0    0    -1  
-$EndComp
-Text Label 3275 8875 0    50   ~ 0
-VR_GOOD
-Wire Wire Line
-	4175 8875 3275 8875
-Text Notes 1025 9600 1    50   ~ 0
+Text Notes 3625 8725 1    50   ~ 0
 DNP
-Text Notes 3475 8700 0    50   ~ 0
-RoT booted flag pin
-$Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
-U 1 1 6096561A
-P 4475 9850
-AR Path="/5FEC3511/6096561A" Ref="#PWR?"  Part="1" 
-AR Path="/5FCA4661/6096561A" Ref="#PWR?"  Part="1" 
-AR Path="/6052C7CF/6096561A" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86D1B/6096561A" Ref="#PWR?"  Part="1" 
-AR Path="/5FD86BEB/6096561A" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 4475 9600 50  0001 C CNN
-F 1 "GND" H 4480 9677 50  0000 C CNN
-F 2 "" H 4475 9850 50  0001 C CNN
-F 3 "" H 4475 9850 50  0001 C CNN
-	1    4475 9850
-	1    0    0    -1  
-$EndComp
-Text GLabel 4475 8475 1    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	4675 9075 5050 9075
-Text GLabel 4125 8975 0    50   Input ~ 0
-HPM_STBY_EN
-$Comp
-L artix-dc-scm:SN74LS08DBR U?
-U 1 1 60965625
-P 4475 8875
-AR Path="/5FEC3511/60965625" Ref="U?"  Part="1" 
-AR Path="/5FCA4661/60965625" Ref="U?"  Part="1" 
-AR Path="/6052C7CF/60965625" Ref="U?"  Part="1" 
-AR Path="/5FD86D1B/60965625" Ref="U?"  Part="1" 
-AR Path="/5FD86BEB/60965625" Ref="U16"  Part="1" 
-F 0 "U16" H 4175 9375 60  0000 C CNN
-F 1 "SN74LS08DBR" H 5250 9150 60  0000 C CNN
-F 2 "artix-dc-scm-footprints:SOP65P775X265-14N" H 4675 9075 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls08" H 4675 9175 60  0001 L CNN
-F 4 "SN74LS08DBR" H 4675 9375 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 4675 9975 60  0001 L CNN "Manufacturer"
-	1    4475 8875
-	1    0    0    -1  
-$EndComp
-Text GLabel 4175 9075 0    50   Input ~ 0
-HPM_STBY_RDY
-Text GLabel 4675 8875 2    50   Input ~ 0
-HPM_STBY_EN
 Wire Wire Line
 	9725 2300 9650 2300
 Wire Wire Line
@@ -2346,30 +2018,26 @@ External 12V supply
 $Comp
 L artix-dc-scm:R_1k_0402 R62
 U 1 1 6003348A
-P 1125 9500
-F 0 "R62" V 1080 9570 60  0000 L CNN
-F 1 "R_1k_0402" H 1125 9350 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 1325 9700 60  0001 L CNN
-F 3 "" H 1125 9500 50  0001 C CNN
-F 4 "BOURNS" H 1325 9900 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 1325 9800 60  0001 L CNN "MPN"
-F 6 "1k" V 1178 9570 50  0000 L CNN "Val"
-	1    1125 9500
+P 3725 8625
+F 0 "R62" V 3680 8695 60  0000 L CNN
+F 1 "R_1k_0402" H 3725 8475 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 3925 8825 60  0001 L CNN
+F 3 "" H 3725 8625 50  0001 C CNN
+F 4 "BOURNS" H 3925 9025 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 3925 8925 60  0001 L CNN "MPN"
+F 6 "1k" V 3778 8695 50  0000 L CNN "Val"
+	1    3725 8625
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1125 9650 1125 9875
-Connection ~ 1125 9875
+	3725 8775 3725 9000
+Connection ~ 3725 9000
 Wire Wire Line
-	1125 9875 1500 9875
+	3725 9000 4100 9000
 Wire Wire Line
-	1125 9350 1125 9175
-Text GLabel 1125 9175 1    50   Input ~ 0
-VCC3V3
+	3725 8475 3725 8300
 Wire Wire Line
 	9950 7775 9600 7775
-Text GLabel 4175 8775 0    50   Input ~ 0
-ROT_RDY\ROT_GPIO0
 $Comp
 L artix-dc-scm:R_66k5_0402 R77
 U 1 1 61771C2F
@@ -2386,7 +2054,7 @@ F 6 "66k5" V 14728 8745 50  0000 L CNN "Val"
 $EndComp
 Text GLabel 9650 2300 0    50   Input ~ 0
 VCC5V0
-Text GLabel 8125 5325 0    50   Input ~ 0
+Text GLabel 9625 3525 0    50   Input ~ 0
 VCC5V0
 Text GLabel 9625 4750 0    50   Input ~ 0
 VCC5V0
@@ -2455,16 +2123,16 @@ Connection ~ 6175 3375
 Wire Wire Line
 	6175 3375 6175 3300
 Wire Wire Line
-	12450 6325 12425 6325
-Text GLabel 12425 6325 0    50   Input ~ 0
+	12450 6325 12275 6325
+Text GLabel 12275 6325 0    50   Input ~ 0
 VCC5V0
 Wire Wire Line
-	12400 4500 12375 4500
-Text GLabel 12375 4500 0    50   Input ~ 0
+	12400 4500 12250 4500
+Text GLabel 12250 4500 0    50   Input ~ 0
 VCC5V0
 Wire Wire Line
-	12375 2350 12350 2350
-Text GLabel 12350 2350 0    50   Input ~ 0
+	12375 2350 12225 2350
+Text GLabel 12225 2350 0    50   Input ~ 0
 VCC5V0
 $Comp
 L artix-dc-scm:C_10u_25V_0603 C14
@@ -2660,45 +2328,180 @@ F 6 "2u2" H 2625 4125 50  0000 L CNN "Val"
 	1    2600 4225
 	1    0    0    -1  
 $EndComp
+Text GLabel 3725 8300 1    50   Input ~ 0
+VCC5V0
+Text GLabel 3925 8300 1    50   Input ~ 0
+VCC5V0
+Text GLabel 5075 8275 1    50   Input ~ 0
+VCC5V0
+Text Notes 5350 9675 0    50   ~ 0
+STEP1: FPGA VCCINT (1V0)\nSTEP2: FPGA VCCAUX (1V8)\nSTEP3: FPGA VCCIO (3V3, 1V8), HPM reset is de-asserted\nSTEP4: HPM boots
 Wire Wire Line
-	6150 6275 6450 6275
+	12375 2750 12975 2750
 Wire Wire Line
-	6450 6275 6450 6350
+	12400 4900 13000 4900
+Wire Wire Line
+	12450 6725 13050 6725
+Wire Wire Line
+	12425 8450 13025 8450
+Wire Wire Line
+	12975 2900 12550 2900
+Wire Wire Line
+	12550 2900 12550 2700
 $Comp
-L artix-dc-scm:IRLML6402TRPBF Q?
-U 1 1 609496FE
-P 6450 8350
-AR Path="/5FCA4661/609496FE" Ref="Q?"  Part="1" 
-AR Path="/6052C7CF/609496FE" Ref="Q?"  Part="1" 
-AR Path="/5FD86D1B/609496FE" Ref="Q?"  Part="1" 
-AR Path="/5FD86BEB/609496FE" Ref="Q4"  Part="1" 
-F 0 "Q4" H 6558 8403 60  0000 L CNN
-F 1 "IRLML6402TRPBF" H 6558 8297 60  0000 L CNN
-F 2 "artix-dc-scm-footprints:SOT-23-3" H 6650 8550 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 6650 8650 60  0001 L CNN
-F 4 "IRLML6402TRPBF" H 6650 8850 60  0001 L CNN "MPN"
-F 5 "Infineon Technologies" H 6650 9450 60  0001 L CNN "Manufacturer"
-	1    6450 8350
-	1    0    0    1   
+L artix-dc-scm:R_0R_0402 R14
+U 1 1 600D456E
+P 12550 2550
+F 0 "R14" V 12459 2620 60  0000 L CNN
+F 1 "R_0R_0402" H 12550 2400 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 12750 2750 60  0001 L CNN
+F 3 "" H 12550 2550 50  0001 C CNN
+F 4 "PANASONIC" H 12750 2950 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 12750 2850 60  0001 L CNN "MPN"
+F 6 "0R" V 12557 2620 50  0000 L CNN "Val"
+F 7 "DNP" V 12648 2620 50  0000 L CNN "Populate"
+	1    12550 2550
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6150 6875 6450 6875
+	12550 2400 12550 2350
 Wire Wire Line
-	6450 6875 6450 6950
+	12550 2350 12375 2350
+Connection ~ 12375 2350
 Wire Wire Line
-	6150 7475 6450 7475
+	12575 5050 12575 4850
+$Comp
+L artix-dc-scm:R_0R_0402 R15
+U 1 1 60130445
+P 12575 4700
+F 0 "R15" V 12484 4770 60  0000 L CNN
+F 1 "R_0R_0402" H 12575 4550 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 12775 4900 60  0001 L CNN
+F 3 "" H 12575 4700 50  0001 C CNN
+F 4 "PANASONIC" H 12775 5100 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 12775 5000 60  0001 L CNN "MPN"
+F 6 "0R" V 12582 4770 50  0000 L CNN "Val"
+F 7 "DNP" V 12673 4770 50  0000 L CNN "Populate"
+	1    12575 4700
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	6450 7475 6450 7550
+	12575 4550 12575 4500
 Wire Wire Line
-	6150 8075 6450 8075
+	12575 4500 12400 4500
+Connection ~ 12400 4500
+$Comp
+L artix-dc-scm:R_0R_0402 R138
+U 1 1 6017231F
+P 12625 6550
+F 0 "R138" V 12534 6620 60  0000 L CNN
+F 1 "R_0R_0402" H 12625 6400 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 12825 6750 60  0001 L CNN
+F 3 "" H 12625 6550 50  0001 C CNN
+F 4 "PANASONIC" H 12825 6950 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 12825 6850 60  0001 L CNN "MPN"
+F 6 "0R" V 12632 6620 50  0000 L CNN "Val"
+F 7 "DNP" V 12723 6620 50  0000 L CNN "Populate"
+	1    12625 6550
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	6450 8075 6450 8150
+	13050 6875 12625 6875
 Wire Wire Line
-	6150 8675 6450 8675
+	12625 6875 12625 6700
 Wire Wire Line
-	6450 8675 6450 8750
+	12625 6400 12625 6325
 Wire Wire Line
-	6450 9275 6450 9350
+	12625 6325 12450 6325
+Connection ~ 12450 6325
+$Comp
+L artix-dc-scm:R_0R_0402 R16
+U 1 1 601F38C1
+P 12575 8250
+F 0 "R16" V 12484 8320 60  0000 L CNN
+F 1 "R_0R_0402" H 12575 8100 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 12775 8450 60  0001 L CNN
+F 3 "" H 12575 8250 50  0001 C CNN
+F 4 "PANASONIC" H 12775 8650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 12775 8550 60  0001 L CNN "MPN"
+F 6 "0R" V 12582 8320 50  0000 L CNN "Val"
+F 7 "DNP" V 12673 8320 50  0000 L CNN "Populate"
+	1    12575 8250
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	6150 9275 6450 9275
+	12575 8600 12575 8400
+Wire Wire Line
+	12575 8100 12575 8050
+Wire Wire Line
+	12575 8050 12425 8050
+Connection ~ 12425 8050
+Text Label 13000 8600 2    50   ~ 0
+VCCINT_EN
+Wire Wire Line
+	12575 8600 13025 8600
+Text Label 13050 6875 2    50   ~ 0
+VCCAUX_EN
+Text Label 13000 5050 2    50   ~ 0
+VCCAUX_EN
+Wire Wire Line
+	12575 5050 13000 5050
+Text Label 12925 2900 2    50   ~ 0
+VCCIO_EN
+$Comp
+L artix-dc-scm:R_0R_1206 R139
+U 1 1 605EF030
+P 14975 2500
+F 0 "R139" V 14930 2570 60  0000 L CNN
+F 1 "R_0R_1206" H 14975 2350 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:1206-res" H 15175 2700 60  0001 L CNN
+F 3 "" H 14975 2500 50  0001 C CNN
+F 4 "MULTICOMP" H 15175 2900 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 15175 2800 60  0001 L CNN "MPN"
+F 6 "0R" V 15028 2570 50  0000 L CNN "Val"
+	1    14975 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:R_0R_1206 R140
+U 1 1 6061444B
+P 15000 4650
+F 0 "R140" V 14955 4720 60  0000 L CNN
+F 1 "R_0R_1206" H 15000 4500 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:1206-res" H 15200 4850 60  0001 L CNN
+F 3 "" H 15000 4650 50  0001 C CNN
+F 4 "MULTICOMP" H 15200 5050 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 15200 4950 60  0001 L CNN "MPN"
+F 6 "0R" V 15053 4720 50  0000 L CNN "Val"
+	1    15000 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:R_0R_1206 R142
+U 1 1 6065C41C
+P 15050 6425
+F 0 "R142" V 15005 6495 60  0000 L CNN
+F 1 "R_0R_1206" H 15050 6275 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:1206-res" H 15250 6625 60  0001 L CNN
+F 3 "" H 15050 6425 50  0001 C CNN
+F 4 "MULTICOMP" H 15250 6825 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 15250 6725 60  0001 L CNN "MPN"
+F 6 "0R" V 15103 6495 50  0000 L CNN "Val"
+	1    15050 6425
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:R_0R_1206 R141
+U 1 1 606C1F59
+P 15025 8200
+F 0 "R141" V 14980 8270 60  0000 L CNN
+F 1 "R_0R_1206" H 15025 8050 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:1206-res" H 15225 8400 60  0001 L CNN
+F 3 "" H 15025 8200 50  0001 C CNN
+F 4 "MULTICOMP" H 15225 8600 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 15225 8500 60  0001 L CNN "MPN"
+F 6 "0R" V 15078 8270 50  0000 L CNN "Val"
+	1    15025 8200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
