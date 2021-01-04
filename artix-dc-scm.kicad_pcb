@@ -1571,7 +1571,7 @@
     )
   )
 
-  (module antmicro-footprints:QFN50P500X500X100-33N (layer F.Cu) (tedit 5FEB3043) (tstamp 5FEFB8DF)
+  (module artix-dc-scm-footprints:QFN50P500X500X100-33N (layer F.Cu) (tedit 5FEB3043) (tstamp 5FEFB8DF)
     (at 124.975 127.475 180)
     (path /614223A1/601F5838)
     (fp_text reference U18 (at -1.658013 -3.494586) (layer F.SilkS)
@@ -1671,7 +1671,7 @@
     )
   )
 
-  (module antmicro-footprints:QFN50P500X500X100-33N (layer F.Cu) (tedit 5FEB3043) (tstamp 5FEFB8A8)
+  (module artix-dc-scm-footprints:QFN50P500X500X100-33N (layer F.Cu) (tedit 5FEB3043) (tstamp 5FEFB8A8)
     (at 125.175 111.375 180)
     (path /614223A1/5FF36760)
     (fp_text reference U17 (at -1.658013 -3.494586) (layer F.SilkS)
