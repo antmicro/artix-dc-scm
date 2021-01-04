@@ -767,21 +767,21 @@ Text GLabel 10050 9750 2    50   Input ~ 0
 VCC3V3_BANK
 Text GLabel 1975 1250 0    50   Input ~ 0
 VCC1V8_BANK
-Text GLabel -1725 5575 2    50   Input ~ 0
+Text GLabel 9825 5150 2    50   Input ~ 0
 I3C[0]_SDA_3V3
-Text GLabel -1725 5350 2    50   Input ~ 0
+Text GLabel 9825 5650 2    50   Input ~ 0
 I3C[1]_SDA_3V3
-Text GLabel -1725 5475 2    50   Input ~ 0
+Text GLabel 9825 5750 2    50   Input ~ 0
 I3C[1]_SCL_3V3
-Text GLabel -1725 6175 2    50   Input ~ 0
+Text GLabel 9825 5550 2    50   Input ~ 0
 I3C[2]_SDA_3V3
-Text GLabel -1725 5775 2    50   Input ~ 0
+Text GLabel 9825 4650 2    50   Input ~ 0
 I3C[2]_SCL_3V3
-Text GLabel -1725 6275 2    50   Input ~ 0
+Text GLabel 9825 4950 2    50   Input ~ 0
 I3C[3]_SDA_3V3
-Text GLabel -1725 5875 2    50   Input ~ 0
+Text GLabel 9825 4850 2    50   Input ~ 0
 I3C[3]_SCL_3V3
-Text GLabel -1725 5250 2    50   Input ~ 0
+Text GLabel 9825 6250 2    50   Input ~ 0
 I3C[0]_SCL_3V3
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR080
@@ -1802,12 +1802,6 @@ Wire Wire Line
 	2200 9225 2100 9225
 Text Notes 12900 8025 0    50   ~ 10
 done
-Wire Wire Line
-	-1725 5475 -2050 5475
-Wire Wire Line
-	-2050 5575 -1725 5575
-Wire Wire Line
-	-1725 5350 -2050 5350
 Text Notes 12900 8425 0    50   ~ 10
 done
 Text Notes 12900 8675 0    50   ~ 10
@@ -1818,8 +1812,6 @@ Text Notes 12900 8500 0    50   ~ 10
 done
 Text Notes 12900 8575 0    50   ~ 10
 done
-Wire Wire Line
-	-2050 5250 -1725 5250
 Text Notes 12900 8100 0    50   ~ 10
 done
 Wire Wire Line
