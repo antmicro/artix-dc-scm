@@ -25,17 +25,17 @@ Key Features
 
 * Artix-7 FPGA - XC7A100T-FGG484
 * DC-SCI standard 168-pin 4C+ edge connector
-* On-board DDR3 DRAM and eMMC
-* QSPI FLASH memory
-* Ethernet RJ45 connector with 100BASE-T transciever
-* JTAG connector compatible with Xilinx Platform Cable
+* On-board DDR3 DRAM (AS4C256M16D3) and eMMC (MTFC16GAPALNA-AIT)
+* 4x SPI FLASH memory
+* Ethernet RJ45 connector with Gigabit Ethernet transciever (KSZ9031RNXCA)
+* JTAG connector
+* Host and client USB (over USB3300-EZK-TR controller)
 * M.2 NVMe interface
-* 13 I2C buses, 4 I3C buses
+* 13x I2C buses, 4x I3C buses
 * dual UART 
 * SPI connector
 * RoT module connector
 * TPM SPI connector
-* optional external 12V power input 
 
 Block diagram
 -------------
