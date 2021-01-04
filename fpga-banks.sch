@@ -1141,13 +1141,13 @@ Wire Wire Line
 Wire Wire Line
 	3850 7600 3950 7600
 Text GLabel 2175 8200 2    50   Input ~ 0
-SPIO_CLK
+SPI0_CLK
 Text GLabel 2175 8000 2    50   Input ~ 0
-SPIO_CS_N
+SPI0_CS_N
 Text GLabel 2175 7600 2    50   Input ~ 0
-SPIO_MOSI
+SPI0_MOSI
 Text GLabel 2175 7800 2    50   Input ~ 0
-SPIO_MISO
+SPI0_MISO
 Wire Wire Line
 	11600 3200 12000 3200
 Text GLabel 4850 6250 2    50   Input ~ 0
@@ -2402,13 +2402,13 @@ Wire Wire Line
 Wire Wire Line
 	6325 6950 6700 6950
 Text GLabel 1425 8200 0    50   Input ~ 0
-SPIO_CLK_R
+SPI0_CLK_R
 Text GLabel 1425 8000 0    50   Input ~ 0
-SPIO_CS_N_R
+SPI0_CS_N_R
 Text GLabel 1425 7600 0    50   Input ~ 0
-SPIO_MOSI_R
+SPI0_MOSI_R
 Text GLabel 1425 7800 0    50   Input ~ 0
-SPIO_MISO_R
+SPI0_MISO_R
 Wire Wire Line
 	1425 7600 1800 7600
 Wire Wire Line
@@ -2418,13 +2418,13 @@ Wire Wire Line
 Wire Wire Line
 	1425 8200 1800 8200
 Text GLabel 9725 2950 2    50   Input ~ 0
-SPIO_CLK_R
+SPI0_CLK_R
 Text GLabel 9725 3050 2    50   Input ~ 0
-SPIO_CS_N_R
+SPI0_CS_N_R
 Text GLabel 9725 3850 2    50   Input ~ 0
-SPIO_MOSI_R
+SPI0_MOSI_R
 Text GLabel 9725 3450 2    50   Input ~ 0
-SPIO_MISO_R
+SPI0_MISO_R
 Wire Wire Line
 	9500 3450 9725 3450
 Wire Wire Line
