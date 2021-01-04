@@ -495,8 +495,6 @@ Wire Wire Line
 	1900 2850 2125 2850
 Wire Wire Line
 	2125 2850 2125 2725
-Text Notes 1525 2050 0    50   ~ 0
-Compatible with Xilinx Platform Cable
 Text GLabel 5700 5925 2    50   Input ~ 0
 I3C[0]_SCL
 Text GLabel 5700 6025 2    50   Input ~ 0
