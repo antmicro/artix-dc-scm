@@ -1588,15 +1588,11 @@ Wire Wire Line
 	6175 8850 6175 8550
 Connection ~ 6175 8850
 Text GLabel 8875 7025 2    50   Input ~ 0
-VCC1V35_DDR3
+VCC1V35
 Text GLabel 11700 2375 0    50   Input ~ 0
-VCC1V35_DDR3
-Text GLabel 6100 8000 0    50   Input ~ 0
-VCC1V35_DDR3
-Text GLabel 6875 8000 0    50   Input ~ 0
-VCC3V3_BANK
-Text GLabel 9325 8200 2    50   Input ~ 0
-VCC3V3_BANK
+VCC1V35
+Text GLabel 9325 8200 2    50   3State ~ 0
+VCC3V3
 Wire Wire Line
 	8350 8950 9000 8950
 Wire Wire Line
@@ -1683,4 +1679,8 @@ Wire Wire Line
 	11450 2800 11775 2800
 Wire Wire Line
 	11450 2850 11450 2800
+Text GLabel 6875 8000 0    50   Input ~ 0
+VCC3V3
+Text GLabel 6100 8000 0    50   Input ~ 0
+VCC1V35
 $EndSCHEMATC

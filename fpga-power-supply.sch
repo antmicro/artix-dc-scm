@@ -151,8 +151,6 @@ $EndComp
 Wire Wire Line
 	1150 2850 1150 2700
 Connection ~ 1150 2850
-Text GLabel 1150 2700 1    50   Input ~ 0
-VCCB13
 $Comp
 L artix-dc-scm:C_47u_1210 C?
 U 1 1 61665CDB
@@ -1206,8 +1204,6 @@ Connection ~ 9900 4100
 Wire Wire Line
 	9900 4100 9900 4200
 Wire Wire Line
-	7750 3700 7600 3700
-Wire Wire Line
 	7750 3600 7600 3600
 $Comp
 L artix-dc-scm:C_47u_1210 C?
@@ -2160,36 +2156,14 @@ Text Notes 11700 2150 0    118  ~ 0
 VCCINT decoupling
 Text Notes 5375 2375 0    118  ~ 0
 VCCAUX decoupling
-Text GLabel 4650 2600 1    50   Input ~ 0
-VCCAUX
-Text GLabel 7600 2600 1    50   Input ~ 0
-VCCAUX
-Text GLabel 7600 3600 0    50   Input ~ 0
-VCCAUX
-Text GLabel 7600 3700 0    50   Input ~ 0
-VCCAUX
 Text GLabel 7400 3800 0    50   Input ~ 0
-VCCINT
-Text GLabel 5500 4300 1    50   Input ~ 0
-VCCINT
+VCC1V1
 Text GLabel 9900 2600 1    50   Input ~ 0
 VCCINT
-Text GLabel 11000 2600 1    50   Input ~ 0
-VCCINT
-Text GLabel 12050 2600 1    50   Input ~ 0
-VCCINT
-Text GLabel 11500 3900 1    50   Input ~ 0
-VCCINT
-Text GLabel 1050 2700 0    50   Input ~ 0
-VCC1V8_BANK
-Text GLabel 1150 4950 0    50   Input ~ 0
-VCC3V3_BANK
-Text GLabel 1150 6050 0    50   Input ~ 0
-VCC3V3_BANK
-Text GLabel 1150 7150 0    50   Input ~ 0
-VCC1V35_BANK
-Text GLabel 1150 8250 0    50   Input ~ 0
-VCC1V35_BANK
+Text GLabel 1150 7150 1    50   Input ~ 0
+VCC3V3
+Text GLabel 1150 8250 1    50   Input ~ 0
+VCC1V35
 $Comp
 L artix-dc-scm:C_4u7_0603 C?
 U 1 1 62238F4A
@@ -2905,8 +2879,8 @@ F 3 "" H 7350 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7350 3500 7750 3500
-Text GLabel 1150 3850 0    50   Input ~ 0
-VCC3V3_BANK
+Text GLabel 1150 3850 1    50   Input ~ 0
+VCC3V3
 $Comp
 L artix-dc-scm:XC7A100T-FGG484 U?
 U 5 1 6036C315
@@ -3161,4 +3135,29 @@ Wire Wire Line
 Connection ~ 14925 7650
 Text Notes 11850 6425 0    118  ~ 0
 Transceiver supply
+Text GLabel 7600 2600 1    50   Input ~ 0
+VCC1V8
+Text GLabel 7600 3600 0    50   Input ~ 0
+VCC1V8
+Wire Wire Line
+	7750 3600 7750 3700
+Connection ~ 7750 3600
+Text GLabel 4650 2600 1    50   Input ~ 0
+VCC1V8
+Text GLabel 1150 2700 1    50   Input ~ 0
+VCC3V3
+Text GLabel 1150 4950 1    50   Input ~ 0
+VCC3V3
+Text GLabel 1150 6050 1    50   Input ~ 0
+VCC3V3
+Text GLabel 5500 4300 1    50   Input ~ 0
+VCC1V1
+Text GLabel 11000 2600 1    50   Input ~ 0
+VCC1V1
+Text GLabel 12050 2600 1    50   Input ~ 0
+VCC1V1
+Text GLabel 11500 3900 1    50   Input ~ 0
+VCC1V1
+Text Notes 1150 9200 0    50   ~ 0
+TODO: rearrange capacitors on PCB after update
 $EndSCHEMATC

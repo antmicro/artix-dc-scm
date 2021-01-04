@@ -2335,7 +2335,7 @@ VCC5V0
 Text GLabel 5075 8275 1    50   Input ~ 0
 VCC5V0
 Text Notes 5350 9675 0    50   ~ 0
-STEP1: FPGA VCCINT (1V0)\nSTEP2: FPGA VCCAUX (1V8)\nSTEP3: FPGA VCCIO (3V3, 1V8), HPM reset is de-asserted\nSTEP4: HPM boots
+STEP1: FPGA VCCINT (1V0)\nSTEP2: FPGA VCCAUX (1V8)\nSTEP3: FPGA VCCIO (3V3), HPM reset is de-asserted\nSTEP4: HPM boots
 Wire Wire Line
 	12375 2750 12975 2750
 Wire Wire Line
@@ -2440,8 +2440,6 @@ Text Label 13000 8600 2    50   ~ 0
 VCCINT_EN
 Wire Wire Line
 	12575 8600 13025 8600
-Text Label 13050 6875 2    50   ~ 0
-VCCAUX_EN
 Text Label 13000 5050 2    50   ~ 0
 VCCAUX_EN
 Wire Wire Line
@@ -2504,4 +2502,6 @@ F 6 "0R" V 15078 8270 50  0000 L CNN "Val"
 	1    15025 8200
 	0    1    1    0   
 $EndComp
+Text Label 13000 6875 2    50   ~ 0
+VCCIO_EN
 $EndSCHEMATC
