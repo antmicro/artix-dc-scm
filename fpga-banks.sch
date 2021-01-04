@@ -1102,28 +1102,28 @@ Wire Wire Line
 	2100 10025 2200 10025
 Wire Wire Line
 	2100 10225 2200 10225
-Text GLabel -1725 7650 2    50   Input ~ 0
+Text GLabel -1725 7425 2    50   Input ~ 0
 PRSNT0_N
 Text GLabel -1725 7300 2    50   Input ~ 0
 VIRTUAL_RESEAT
 $Comp
 L artix-dc-scm:R_0R_0402 R114
 U 1 1 61B1DDFB
-P -1975 7650
-F 0 "R114" H -1975 7750 60  0000 C CNN
-F 1 "R_0R_0402" H -1975 7500 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H -1775 7850 60  0001 L CNN
-F 3 "" H -1975 7650 50  0001 C CNN
-F 4 "PANASONIC" H -1775 8050 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H -1775 7950 60  0001 L CNN "MPN"
-F 6 "0R" H -1975 7650 50  0000 C CNN "Val"
-	1    -1975 7650
+P -1975 7425
+F 0 "R114" H -1975 7525 60  0000 C CNN
+F 1 "R_0R_0402" H -1975 7275 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H -1775 7625 60  0001 L CNN
+F 3 "" H -1975 7425 50  0001 C CNN
+F 4 "PANASONIC" H -1775 7825 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H -1775 7725 60  0001 L CNN "MPN"
+F 6 "0R" H -1975 7425 50  0000 C CNN "Val"
+	1    -1975 7425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	14800 5300 14925 5300
 Wire Wire Line
-	-1825 7650 -1725 7650
+	-1825 7425 -1725 7425
 $Comp
 L artix-dc-scm:R_0R_0402 R115
 U 1 1 61B40AA5
@@ -1283,7 +1283,7 @@ Wire Wire Line
 	7025 8100 7025 8200
 Wire Wire Line
 	7025 8575 7225 8575
-Text GLabel -1700 4975 2    50   Input ~ 0
+Text GLabel -1500 6325 2    50   Input ~ 0
 ROT_QSPI_CS_B
 $Comp
 L artix-dc-scm:R_2k2_0402 R133
@@ -1774,11 +1774,11 @@ Text GLabel 3475 10525 0    50   Input ~ 0
 USR_LED2
 Wire Wire Line
 	3600 10525 3475 10525
-Text GLabel -1500 6675 2    50   Input ~ 0
+Text GLabel 9825 6050 2    50   Input ~ 0
 USR_LED0
-Text GLabel -1500 6475 2    50   Input ~ 0
+Text GLabel 9825 5950 2    50   Input ~ 0
 USR_LED1
-Text GLabel -1500 6575 2    50   Input ~ 0
+Text GLabel 9825 6450 2    50   Input ~ 0
 USR_LED2
 Text Notes 13100 8900 0    50   ~ 0
 Interfaces status:\nJTAG - needs pre-defined pins (BANK0)\nboot (Q)SPI - needs pre-defined pins (BANK14)\neSPI\nQSPI0, QSPI1 - \nSPI - \nSGPIO0, SGPIO1 - \nUSB client, USB host - free\nPCIe x1 - needs to be connected to transreceivers\nI3C - free\nI2C - free\nNCSI-\nUART \nethernet - free\nDDR3 - uses B34 as in references\neMMC - free
