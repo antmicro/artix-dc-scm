@@ -2440,10 +2440,10 @@ Wire Wire Line
 Text GLabel 2000 1250 0    50   Input ~ 0
 VCC3V3
 $Comp
-L artix-dc-scm:R_0R_0402 R?
+L artix-dc-scm:R_0R_0402 R161
 U 1 1 60D5BDB3
 P 4950 3150
-F 0 "R?" H 4950 3250 60  0000 C CNN
+F 0 "R161" H 4950 3250 60  0000 C CNN
 F 1 "R_0R_0402" H 4950 3000 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 5150 3350 60  0001 L CNN
 F 3 "" H 4950 3150 50  0001 C CNN

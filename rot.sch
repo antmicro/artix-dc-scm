@@ -1262,17 +1262,6 @@ F 3 "" H 8225 6525 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9175 6525 9775 6525
-$Comp
-L artix-dc-scm:543630489 J3
-U 1 1 6268C044
-P 8925 6775
-F 0 "J3" H 8950 6790 50  0000 C CNN
-F 1 "543630489" H 8950 6699 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:543630489" H 8675 4425 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C CNN
-	1    8925 6775
-	1    0    0    1   
-$EndComp
 Text GLabel 8225 5325 0    50   Input ~ 0
 ROT_QSPI_SCK
 Text GLabel 8225 5225 0    50   Input ~ 0
@@ -1304,4 +1293,15 @@ F 3 "" H 12150 5700 50  0001 C CNN
 $EndComp
 Text GLabel 9675 4625 2    50   Input ~ 0
 ROT_QSPI_CS_B
+$Comp
+L artix-dc-scm:529910408 J3
+U 1 1 61745B1A
+P 8925 6775
+F 0 "J3" H 8950 4360 50  0000 C CNN
+F 1 "529910408" H 8950 4451 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:529910408" H 8675 4425 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C CNN
+	1    8925 6775
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
