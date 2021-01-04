@@ -147,9 +147,9 @@ Text GLabel 11600 5500 0    50   Input ~ 0
 SGPIO1_DO
 Text GLabel 11600 6800 0    50   Input ~ 0
 SGPIO1_LD
-Text GLabel 6700 3250 0    50   Input ~ 0
+Text GLabel 11600 4800 0    50   Input ~ 0
 SGPIO_RESET_N
-Text GLabel 6700 2850 0    50   Input ~ 0
+Text GLabel 11600 6900 0    50   Input ~ 0
 SGPIO_INTR_N
 Text GLabel 9450 8650 2    50   Input ~ 0
 JTAG_TCK
@@ -163,24 +163,22 @@ Text GLabel 4675 2850 2    50   Input ~ 0
 UART1_SCM_TX
 Text GLabel 4675 2750 2    50   Input ~ 0
 UART1_SCM_RX
-Text GLabel 5300 1775 2    50   Input ~ 0
+Text GLabel 9750 2450 2    50   Input ~ 0
 UART0_SCM_TX
-Text GLabel 5300 1675 2    50   Input ~ 0
+Text GLabel 9700 4350 2    50   Input ~ 0
 UART0_SCM_RX
 Text Notes 2425 650  0    50   ~ 0
 FPGA connections to be established while preparing layout
 Wire Wire Line
-	1350 8325 1725 8325
+	1425 8600 1800 8600
 Wire Wire Line
-	1350 9150 1725 9150
+	1425 9425 1800 9425
 Wire Wire Line
-	1350 8125 1725 8125
+	1425 8400 1800 8400
 Wire Wire Line
-	800  7000 1175 7000
+	1425 9825 1800 9825
 Wire Wire Line
-	1350 9550 1725 9550
-Wire Wire Line
-	1350 9350 1725 9350
+	1425 9625 1800 9625
 Wire Wire Line
 	9825 4650 9500 4650
 Wire Wire Line
@@ -198,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	9825 5450 9500 5450
 Wire Wire Line
-	1725 8950 1350 8950
+	1800 9225 1425 9225
 Wire Wire Line
 	9825 5650 9500 5650
 Wire Wire Line
@@ -705,27 +703,27 @@ Wire Wire Line
 	6825 10600 6675 10600
 Text Notes 5575 9450 0    118  ~ 0
 Configuration modes
-Text GLabel 2125 8125 2    50   Input ~ 0
+Text GLabel 2200 8400 2    50   Input ~ 0
 HPM_FW_RECOVERY
-Text GLabel 2125 8325 2    50   Input ~ 0
+Text GLabel 2200 8600 2    50   Input ~ 0
 HPM_STBY_RST_N
-Text GLabel 2125 8525 2    50   Input ~ 0
+Text GLabel 2200 8800 2    50   Input ~ 0
 SYS_PWRBTN_N
-Text GLabel 2125 8750 2    50   Input ~ 0
+Text GLabel 2200 9025 2    50   Input ~ 0
 SYS_PWROK
-Text GLabel 2125 10550 2    50   Input ~ 0
+Text GLabel 2200 10825 2    50   Input ~ 0
 DBP_PREQ_N
-Text GLabel 2125 8950 2    50   Input ~ 0
+Text GLabel 2200 9225 2    50   Input ~ 0
 DBP_PRDY_N
-Text GLabel 2125 9150 2    50   Input ~ 0
+Text GLabel 2200 9425 2    50   Input ~ 0
 RST_PLTRST_BUF_N
-Text GLabel 2125 10350 2    50   Input ~ 0
+Text GLabel 2200 10625 2    50   Input ~ 0
 CHASI#
-Text GLabel 2125 9550 2    50   Input ~ 0
+Text GLabel 2200 9825 2    50   Input ~ 0
 SPARE0
-Text GLabel 2125 9750 2    50   Input ~ 0
+Text GLabel 2200 10025 2    50   Input ~ 0
 IRQ_N
-Text GLabel 2125 9950 2    50   Input ~ 0
+Text GLabel 2200 10225 2    50   Input ~ 0
 PRSNT1_N
 Wire Wire Line
 	11600 3500 12000 3500
@@ -769,19 +767,19 @@ Text GLabel 10050 9750 2    50   Input ~ 0
 VCC3V3_BANK
 Text GLabel 1975 1250 0    50   Input ~ 0
 VCC1V8_BANK
-Text GLabel -1725 6150 2    50   Input ~ 0
+Text GLabel -1725 5575 2    50   Input ~ 0
 I3C[0]_SDA_3V3
 Text GLabel -1725 5350 2    50   Input ~ 0
 I3C[1]_SDA_3V3
-Text GLabel -1725 6050 2    50   Input ~ 0
+Text GLabel -1725 5475 2    50   Input ~ 0
 I3C[1]_SCL_3V3
-Text GLabel 850  6675 2    50   Input ~ 0
+Text GLabel -1725 6175 2    50   Input ~ 0
 I3C[2]_SDA_3V3
-Text GLabel 850  6275 2    50   Input ~ 0
+Text GLabel -1725 5775 2    50   Input ~ 0
 I3C[2]_SCL_3V3
-Text GLabel 850  6775 2    50   Input ~ 0
+Text GLabel -1725 6275 2    50   Input ~ 0
 I3C[3]_SDA_3V3
-Text GLabel 850  6375 2    50   Input ~ 0
+Text GLabel -1725 5875 2    50   Input ~ 0
 I3C[3]_SCL_3V3
 Text GLabel -1725 5250 2    50   Input ~ 0
 I3C[0]_SCL_3V3
@@ -811,11 +809,11 @@ Wire Wire Line
 Wire Wire Line
 	9825 6950 9500 6950
 Wire Wire Line
-	1350 8750 1725 8750
+	1425 9025 1800 9025
 Wire Wire Line
-	1350 8525 1725 8525
+	1425 8800 1800 8800
 Wire Wire Line
-	1350 9750 1725 9750
+	1425 10025 1800 10025
 Wire Wire Line
 	6375 3350 6700 3350
 Wire Wire Line
@@ -844,16 +842,12 @@ Text GLabel 11600 4500 0    50   Input ~ 0
 QSPI1_CLK
 Text GLabel 11600 2600 0    50   Input ~ 0
 QSPI1_CS0_N
-Text GLabel 6700 2250 0    50   Input ~ 0
+Text GLabel 6350 6750 0    50   Input ~ 0
 I2C[1]_SDA
-Text GLabel 6700 5950 0    50   Input ~ 0
+Text GLabel 6350 6450 0    50   Input ~ 0
 I2C[1]_SCL
-Text GLabel 6700 6150 0    50   Input ~ 0
-I2C[9]_SCL
 Text GLabel 11600 4900 0    50   Input ~ 0
 I2C[10]_SDA
-Text GLabel 6700 6250 0    50   Input ~ 0
-I2C[10]_SCL
 Text GLabel 11600 6700 0    50   Input ~ 0
 I2C[11]_SDA
 Text GLabel 11600 5800 0    50   Input ~ 0
@@ -862,205 +856,205 @@ Text GLabel 11600 6100 0    50   Input ~ 0
 I2C[12]_SDA
 Text GLabel 11600 6200 0    50   Input ~ 0
 I2C[12]_SCL
-Text GLabel 6700 2150 0    50   Input ~ 0
+Text GLabel 6525 2050 0    50   Input ~ 0
 I2C[0]_SCL
 Text GLabel 11600 5400 0    50   Input ~ 0
 I2C[9]_SDA
-Text GLabel 6700 6650 0    50   Input ~ 0
+Text GLabel 9725 3550 2    50   Input ~ 0
 I2C[8]_SCL
-Text GLabel 6700 2050 0    50   Input ~ 0
+Text GLabel 9725 2550 2    50   Input ~ 0
 I2C[8]_SDA
-Text GLabel 6700 6550 0    50   Input ~ 0
+Text GLabel 9725 2150 2    50   Input ~ 0
 I2C[7]_SCL
-Text GLabel 6700 6450 0    50   Input ~ 0
+Text GLabel 9725 2750 2    50   Input ~ 0
 I2C[7]_SDA
-Text GLabel 6700 6950 0    50   Input ~ 0
+Text GLabel 6525 2150 0    50   Input ~ 0
 I2C[6]_SCL
-Text GLabel 6700 6850 0    50   Input ~ 0
+Text GLabel 6525 2250 0    50   Input ~ 0
 I2C[6]_SDA
-Text GLabel 6700 6750 0    50   Input ~ 0
-I2C[5]_SDA
+Text GLabel 4850 6550 2    50   Input ~ 0
+I2C[5]_SCL
 Text GLabel 6375 5850 0    50   Input ~ 0
 I2C[3]_SCL
-Text GLabel 6700 6350 0    50   Input ~ 0
+Text GLabel 6325 5950 0    50   Input ~ 0
 I2C[3]_SDA
-Text GLabel 6700 2550 0    50   Input ~ 0
+Text GLabel 6350 6350 0    50   Input ~ 0
 I2C[2]_SCL
-Text GLabel 6700 2650 0    50   Input ~ 0
+Text GLabel 6525 2550 0    50   Input ~ 0
 I2C[2]_SDA
-Text GLabel 6700 6050 0    50   Input ~ 0
+Text GLabel 6525 2950 0    50   Input ~ 0
 I2C[0]_SDA
 $Comp
 L artix-dc-scm:R_0R_0402 R101
 U 1 1 615436CD
-P 1875 8125
-F 0 "R101" H 1875 8225 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 7975 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 8325 60  0001 L CNN
-F 3 "" H 1875 8125 50  0001 C CNN
-F 4 "PANASONIC" H 2075 8525 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 8425 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 8125 50  0000 C CNN "Val"
-	1    1875 8125
+P 1950 8400
+F 0 "R101" H 1950 8500 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 8250 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 8600 60  0001 L CNN
+F 3 "" H 1950 8400 50  0001 C CNN
+F 4 "PANASONIC" H 2150 8800 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 8700 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 8400 50  0000 C CNN "Val"
+	1    1950 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R102
 U 1 1 61547192
-P 1875 8325
-F 0 "R102" H 1875 8425 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 8175 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 8525 60  0001 L CNN
-F 3 "" H 1875 8325 50  0001 C CNN
-F 4 "PANASONIC" H 2075 8725 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 8625 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 8325 50  0000 C CNN "Val"
-	1    1875 8325
+P 1950 8600
+F 0 "R102" H 1950 8700 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 8450 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 8800 60  0001 L CNN
+F 3 "" H 1950 8600 50  0001 C CNN
+F 4 "PANASONIC" H 2150 9000 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 8900 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 8600 50  0000 C CNN "Val"
+	1    1950 8600
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R103
 U 1 1 615497A8
-P 1875 8525
-F 0 "R103" H 1875 8625 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 8375 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 8725 60  0001 L CNN
-F 3 "" H 1875 8525 50  0001 C CNN
-F 4 "PANASONIC" H 2075 8925 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 8825 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 8525 50  0000 C CNN "Val"
-	1    1875 8525
+P 1950 8800
+F 0 "R103" H 1950 8900 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 8650 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 9000 60  0001 L CNN
+F 3 "" H 1950 8800 50  0001 C CNN
+F 4 "PANASONIC" H 2150 9200 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 9100 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 8800 50  0000 C CNN "Val"
+	1    1950 8800
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R104
 U 1 1 61549DED
-P 1875 8750
-F 0 "R104" H 1875 8850 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 8600 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 8950 60  0001 L CNN
-F 3 "" H 1875 8750 50  0001 C CNN
-F 4 "PANASONIC" H 2075 9150 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 9050 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 8750 50  0000 C CNN "Val"
-	1    1875 8750
+P 1950 9025
+F 0 "R104" H 1950 9125 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 8875 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 9225 60  0001 L CNN
+F 3 "" H 1950 9025 50  0001 C CNN
+F 4 "PANASONIC" H 2150 9425 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 9325 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 9025 50  0000 C CNN "Val"
+	1    1950 9025
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R105
 U 1 1 6154A406
-P 1875 10550
-F 0 "R105" H 1875 10650 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 10400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 10750 60  0001 L CNN
-F 3 "" H 1875 10550 50  0001 C CNN
-F 4 "PANASONIC" H 2075 10950 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 10850 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 10550 50  0000 C CNN "Val"
-	1    1875 10550
+P 1950 10825
+F 0 "R105" H 1950 10925 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 10675 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 11025 60  0001 L CNN
+F 3 "" H 1950 10825 50  0001 C CNN
+F 4 "PANASONIC" H 2150 11225 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 11125 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 10825 50  0000 C CNN "Val"
+	1    1950 10825
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R106
 U 1 1 6154A993
-P 1875 8950
-F 0 "R106" H 1875 9050 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 8800 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 9150 60  0001 L CNN
-F 3 "" H 1875 8950 50  0001 C CNN
-F 4 "PANASONIC" H 2075 9350 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 9250 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 8950 50  0000 C CNN "Val"
-	1    1875 8950
+P 1950 9225
+F 0 "R106" H 1950 9325 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 9075 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 9425 60  0001 L CNN
+F 3 "" H 1950 9225 50  0001 C CNN
+F 4 "PANASONIC" H 2150 9625 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 9525 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 9225 50  0000 C CNN "Val"
+	1    1950 9225
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R107
 U 1 1 6154AF74
-P 1875 9150
-F 0 "R107" H 1875 9250 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 9000 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 9350 60  0001 L CNN
-F 3 "" H 1875 9150 50  0001 C CNN
-F 4 "PANASONIC" H 2075 9550 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 9450 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 9150 50  0000 C CNN "Val"
-	1    1875 9150
+P 1950 9425
+F 0 "R107" H 1950 9525 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 9275 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 9625 60  0001 L CNN
+F 3 "" H 1950 9425 50  0001 C CNN
+F 4 "PANASONIC" H 2150 9825 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 9725 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 9425 50  0000 C CNN "Val"
+	1    1950 9425
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R109
 U 1 1 6154E2F2
-P 1875 9350
-F 0 "R109" H 1875 9450 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 9200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 9550 60  0001 L CNN
-F 3 "" H 1875 9350 50  0001 C CNN
-F 4 "PANASONIC" H 2075 9750 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 9650 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 9350 50  0000 C CNN "Val"
-	1    1875 9350
+P 1950 9625
+F 0 "R109" H 1950 9725 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 9475 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 9825 60  0001 L CNN
+F 3 "" H 1950 9625 50  0001 C CNN
+F 4 "PANASONIC" H 2150 10025 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 9925 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 9625 50  0000 C CNN "Val"
+	1    1950 9625
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R110
 U 1 1 6154E957
-P 1875 10350
-F 0 "R110" H 1875 10450 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 10200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 10550 60  0001 L CNN
-F 3 "" H 1875 10350 50  0001 C CNN
-F 4 "PANASONIC" H 2075 10750 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 10650 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 10350 50  0000 C CNN "Val"
-	1    1875 10350
+P 1950 10625
+F 0 "R110" H 1950 10725 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 10475 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 10825 60  0001 L CNN
+F 3 "" H 1950 10625 50  0001 C CNN
+F 4 "PANASONIC" H 2150 11025 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 10925 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 10625 50  0000 C CNN "Val"
+	1    1950 10625
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R112
 U 1 1 6154F4F5
-P 1875 9750
-F 0 "R112" H 1875 9850 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 9600 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 9950 60  0001 L CNN
-F 3 "" H 1875 9750 50  0001 C CNN
-F 4 "PANASONIC" H 2075 10150 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 10050 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 9750 50  0000 C CNN "Val"
-	1    1875 9750
+P 1950 10025
+F 0 "R112" H 1950 10125 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 9875 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 10225 60  0001 L CNN
+F 3 "" H 1950 10025 50  0001 C CNN
+F 4 "PANASONIC" H 2150 10425 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 10325 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 10025 50  0000 C CNN "Val"
+	1    1950 10025
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R113
 U 1 1 6154FB1E
-P 1875 9950
-F 0 "R113" H 1875 10050 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 9800 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 10150 60  0001 L CNN
-F 3 "" H 1875 9950 50  0001 C CNN
-F 4 "PANASONIC" H 2075 10350 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 10250 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 9950 50  0000 C CNN "Val"
-	1    1875 9950
+P 1950 10225
+F 0 "R113" H 1950 10325 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 10075 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 10425 60  0001 L CNN
+F 3 "" H 1950 10225 50  0001 C CNN
+F 4 "PANASONIC" H 2150 10625 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 10525 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 10225 50  0000 C CNN "Val"
+	1    1950 10225
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R108
 U 1 1 6154DC81
-P 1875 10150
-F 0 "R108" H 1875 10250 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 10000 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 10350 60  0001 L CNN
-F 3 "" H 1875 10150 50  0001 C CNN
-F 4 "PANASONIC" H 2075 10550 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 10450 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 10150 50  0000 C CNN "Val"
-	1    1875 10150
+P 1950 10425
+F 0 "R108" H 1950 10525 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 10275 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 10625 60  0001 L CNN
+F 3 "" H 1950 10425 50  0001 C CNN
+F 4 "PANASONIC" H 2150 10825 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 10725 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 10425 50  0000 C CNN "Val"
+	1    1950 10425
 	1    0    0    -1  
 $EndComp
-Text GLabel 2125 10150 2    50   Input ~ 0
+Text GLabel 2200 10425 2    50   Input ~ 0
 SPARE1
-Text GLabel 2125 9350 2    50   Input ~ 0
+Text GLabel 2200 9625 2    50   Input ~ 0
 RoT_CPU_RST_N
 Wire Wire Line
 	14800 4000 14900 4000
@@ -1085,76 +1079,76 @@ Wire Wire Line
 Wire Wire Line
 	14800 5200 14925 5200
 Wire Wire Line
-	2025 8125 2125 8125
+	2100 8400 2200 8400
 Wire Wire Line
-	2025 8325 2125 8325
+	2100 8600 2200 8600
 Wire Wire Line
-	2025 8525 2125 8525
+	2100 8800 2200 8800
 Wire Wire Line
-	2025 8750 2125 8750
+	2100 9025 2200 9025
 Wire Wire Line
-	2025 10550 2125 10550
+	2100 10825 2200 10825
 Wire Wire Line
-	2025 9150 2125 9150
+	2100 9425 2200 9425
 Wire Wire Line
-	2025 10150 2125 10150
+	2100 10425 2200 10425
 Wire Wire Line
-	2025 9350 2125 9350
+	2100 9625 2200 9625
 Wire Wire Line
-	2025 10350 2125 10350
+	2100 10625 2200 10625
 Wire Wire Line
-	2025 9550 2125 9550
+	2100 9825 2200 9825
 Wire Wire Line
-	2025 9750 2125 9750
+	2100 10025 2200 10025
 Wire Wire Line
-	2025 9950 2125 9950
-Text GLabel 10750 1400 2    50   Input ~ 0
+	2100 10225 2200 10225
+Text GLabel -1725 7650 2    50   Input ~ 0
 PRSNT0_N
-Text GLabel 10750 1050 2    50   Input ~ 0
+Text GLabel -1725 7300 2    50   Input ~ 0
 VIRTUAL_RESEAT
 $Comp
 L artix-dc-scm:R_0R_0402 R114
 U 1 1 61B1DDFB
-P 10500 1400
-F 0 "R114" H 10500 1613 60  0000 C CNN
-F 1 "R_0R_0402" H 10500 1250 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 10700 1600 60  0001 L CNN
-F 3 "" H 10500 1400 50  0001 C CNN
-F 4 "PANASONIC" H 10700 1800 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 10700 1700 60  0001 L CNN "MPN"
-F 6 "0R" H 10500 1515 50  0000 C CNN "Val"
-	1    10500 1400
+P -1975 7650
+F 0 "R114" H -1975 7750 60  0000 C CNN
+F 1 "R_0R_0402" H -1975 7500 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H -1775 7850 60  0001 L CNN
+F 3 "" H -1975 7650 50  0001 C CNN
+F 4 "PANASONIC" H -1775 8050 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H -1775 7950 60  0001 L CNN "MPN"
+F 6 "0R" H -1975 7650 50  0000 C CNN "Val"
+	1    -1975 7650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	14800 5300 14925 5300
 Wire Wire Line
-	10650 1400 10750 1400
+	-1825 7650 -1725 7650
 $Comp
 L artix-dc-scm:R_0R_0402 R115
 U 1 1 61B40AA5
-P 10500 1050
-F 0 "R115" H 10500 1263 60  0000 C CNN
-F 1 "R_0R_0402" H 10500 900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 10700 1250 60  0001 L CNN
-F 3 "" H 10500 1050 50  0001 C CNN
-F 4 "PANASONIC" H 10700 1450 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 10700 1350 60  0001 L CNN "MPN"
-F 6 "0R" H 10500 1165 50  0000 C CNN "Val"
-	1    10500 1050
+P -1975 7300
+F 0 "R115" H -1975 7400 60  0000 C CNN
+F 1 "R_0R_0402" H -1975 7150 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H -1775 7500 60  0001 L CNN
+F 3 "" H -1975 7300 50  0001 C CNN
+F 4 "PANASONIC" H -1775 7700 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H -1775 7600 60  0001 L CNN "MPN"
+F 6 "0R" H -1975 7300 50  0000 C CNN "Val"
+	1    -1975 7300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	14800 5400 14925 5400
 Wire Wire Line
-	10650 1050 10750 1050
-Text GLabel -1575 5950 2    50   Input ~ 0
+	-1825 7300 -1725 7300
+Text GLabel 2175 8200 2    50   Input ~ 0
 SPIO_CLK
-Text GLabel -1575 6250 2    50   Input ~ 0
+Text GLabel 2175 8000 2    50   Input ~ 0
 SPIO_CS_N
-Text GLabel -1575 5450 2    50   Input ~ 0
+Text GLabel 2175 7600 2    50   Input ~ 0
 SPIO_MOSI
-Text GLabel -1575 6350 2    50   Input ~ 0
+Text GLabel 2175 7800 2    50   Input ~ 0
 SPIO_MISO
 Wire Wire Line
 	11600 3200 12000 3200
@@ -1204,26 +1198,24 @@ Wire Wire Line
 	4675 2750 4550 2750
 Text GLabel 5025 1250 2    50   Input ~ 0
 VCC3V3_BANK
-Text GLabel -2050 5150 2    50   Input ~ 0
+Text GLabel 9725 3650 2    50   Input ~ 0
 NCSI_CLK
-Text GLabel -2050 5050 2    50   Input ~ 0
+Text GLabel 9700 4050 2    50   Input ~ 0
 NCSI_CRS_DV
-Text GLabel -2050 4950 2    50   Input ~ 0
+Text GLabel 9700 3950 2    50   Input ~ 0
 NCSI_TXEN
-Text GLabel -2050 5550 2    50   Input ~ 0
+Text GLabel 9725 3150 2    50   Input ~ 0
 NCSI_TXD0
-Text GLabel 5000 3100 2    50   Input ~ 0
+Text GLabel 9725 2850 2    50   Input ~ 0
 NCSI_TXD1
-Text GLabel -2050 4850 2    50   Input ~ 0
+Text GLabel 9725 2650 2    50   Input ~ 0
 NCSI_RXER
-Text GLabel 5000 3000 2    50   Input ~ 0
+Text GLabel 9725 3750 2    50   Input ~ 0
 NCSI_RXD0
-Text GLabel 850  5975 2    50   Input ~ 0
+Text GLabel 9725 3350 2    50   Input ~ 0
 NCSI_RXD1
 Text GLabel 11600 6600 0    50   Input ~ 0
 RSVD2
-Text Notes -975 5275 0    50   ~ 0
-SGPIO1_CLK
 Text GLabel 5025 2150 2    50   Input ~ 0
 ROT_QSPI_DQ0
 Text GLabel 5025 2250 2    50   Input ~ 0
@@ -1234,20 +1226,8 @@ Text GLabel 5025 2450 2    50   Input ~ 0
 ROT_QSPI_DQ3
 Text GLabel 5025 2550 2    50   Input ~ 0
 PUDC_B
-Text GLabel -1725 5650 2    50   Input ~ 0
-CK_IO34
-Text GLabel -1725 5850 2    50   Input ~ 0
-CK_IO0
-Text GLabel -1725 5750 2    50   Input ~ 0
-CK_IO7
 Text GLabel 10150 8850 2    50   Input ~ 0
 ROT_QSPI_SCK
-Wire Wire Line
-	-1725 5650 -2050 5650
-Wire Wire Line
-	-1725 5750 -2050 5750
-Wire Wire Line
-	-1725 5850 -2050 5850
 Text GLabel 7225 8575 2    50   Input ~ 0
 PUDC_B
 $Comp
@@ -1303,7 +1283,7 @@ Wire Wire Line
 	7025 8100 7025 8200
 Wire Wire Line
 	7025 8575 7225 8575
-Text GLabel 850  5875 2    50   Input ~ 0
+Text GLabel -1700 4975 2    50   Input ~ 0
 ROT_QSPI_CS_B
 $Comp
 L artix-dc-scm:R_2k2_0402 R133
@@ -1794,11 +1774,11 @@ Text GLabel 3475 10525 0    50   Input ~ 0
 USR_LED2
 Wire Wire Line
 	3600 10525 3475 10525
-Text GLabel 18425 5950 2    50   Input ~ 0
+Text GLabel -1500 6675 2    50   Input ~ 0
 USR_LED0
-Text GLabel 18100 5250 2    50   Input ~ 0
+Text GLabel -1500 6475 2    50   Input ~ 0
 USR_LED1
-Text GLabel 18100 5350 2    50   Input ~ 0
+Text GLabel -1500 6575 2    50   Input ~ 0
 USR_LED2
 Text Notes 13100 8900 0    50   ~ 0
 Interfaces status:\nJTAG - needs pre-defined pins (BANK0)\nboot (Q)SPI - needs pre-defined pins (BANK14)\neSPI\nQSPI0, QSPI1 - \nSPI - \nSGPIO0, SGPIO1 - \nUSB client, USB host - free\nPCIe x1 - needs to be connected to transreceivers\nI3C - free\nI2C - free\nNCSI-\nUART \nethernet - free\nDDR3 - uses B34 as in references\neMMC - free
@@ -1814,20 +1794,18 @@ Wire Wire Line
 	14800 4200 14900 4200
 Wire Wire Line
 	14800 3800 14900 3800
-Text GLabel 1175 7000 2    50   Input ~ 0
-INT_USB
 Text Notes 12900 8250 0    50   ~ 10
 done
 Text Notes 12900 8900 0    50   ~ 10
 done
 Wire Wire Line
-	2125 8950 2025 8950
+	2200 9225 2100 9225
 Text Notes 12900 8025 0    50   ~ 10
 done
 Wire Wire Line
-	-1725 6050 -2050 6050
+	-1725 5475 -2050 5475
 Wire Wire Line
-	-2050 6150 -1725 6150
+	-2050 5575 -1725 5575
 Wire Wire Line
 	-1725 5350 -2050 5350
 Text Notes 12900 8425 0    50   ~ 10
@@ -1891,124 +1869,116 @@ done
 $Comp
 L artix-dc-scm:R_0R_0402 R144
 U 1 1 66DFC7B7
-P -1800 5450
-F 0 "R144" H -1800 5663 60  0000 C CNN
-F 1 "R_0R_0402" H -1800 5300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H -1600 5650 60  0001 L CNN
-F 3 "" H -1800 5450 50  0001 C CNN
-F 4 "PANASONIC" H -1600 5850 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H -1600 5750 60  0001 L CNN "MPN"
-F 6 "0R" H -1800 5565 50  0000 C CNN "Val"
-	1    -1800 5450
+P 1950 7600
+F 0 "R144" H 1950 7700 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 7450 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 7800 60  0001 L CNN
+F 3 "" H 1950 7600 50  0001 C CNN
+F 4 "PANASONIC" H 2150 8000 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 7900 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 7600 50  0000 C CNN "Val"
+	1    1950 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R145
 U 1 1 66DFD08E
-P -1800 5950
-F 0 "R145" H -1800 6163 60  0000 C CNN
-F 1 "R_0R_0402" H -1800 5800 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H -1600 6150 60  0001 L CNN
-F 3 "" H -1800 5950 50  0001 C CNN
-F 4 "PANASONIC" H -1600 6350 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H -1600 6250 60  0001 L CNN "MPN"
-F 6 "0R" H -1800 6065 50  0000 C CNN "Val"
-	1    -1800 5950
+P 1950 8200
+F 0 "R145" H 1950 8300 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 8050 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 8400 60  0001 L CNN
+F 3 "" H 1950 8200 50  0001 C CNN
+F 4 "PANASONIC" H 2150 8600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 8500 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 8200 50  0000 C CNN "Val"
+	1    1950 8200
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R146
 U 1 1 66DFD667
-P -1800 6250
-F 0 "R146" H -1800 6463 60  0000 C CNN
-F 1 "R_0R_0402" H -1800 6100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H -1600 6450 60  0001 L CNN
-F 3 "" H -1800 6250 50  0001 C CNN
-F 4 "PANASONIC" H -1600 6650 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H -1600 6550 60  0001 L CNN "MPN"
-F 6 "0R" H -1800 6365 50  0000 C CNN "Val"
-	1    -1800 6250
+P 1950 8000
+F 0 "R146" H 1950 8100 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 7850 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 8200 60  0001 L CNN
+F 3 "" H 1950 8000 50  0001 C CNN
+F 4 "PANASONIC" H 2150 8400 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 8300 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 8000 50  0000 C CNN "Val"
+	1    1950 8000
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:R_0R_0402 R147
 U 1 1 66DFDC54
-P -1800 6350
-F 0 "R147" H -1800 6563 60  0000 C CNN
-F 1 "R_0R_0402" H -1800 6200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H -1600 6550 60  0001 L CNN
-F 3 "" H -1800 6350 50  0001 C CNN
-F 4 "PANASONIC" H -1600 6750 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H -1600 6650 60  0001 L CNN "MPN"
-F 6 "0R" H -1800 6465 50  0000 C CNN "Val"
-	1    -1800 6350
+P 1950 7800
+F 0 "R147" H 1950 7900 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 7650 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 8000 60  0001 L CNN
+F 3 "" H 1950 7800 50  0001 C CNN
+F 4 "PANASONIC" H 2150 8200 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 8100 60  0001 L CNN "MPN"
+F 6 "0R" H 1925 7800 50  0000 C CNN "Val"
+	1    1950 7800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-1950 5450 -2050 5450
+	2175 7800 2100 7800
 Wire Wire Line
-	-2050 5950 -1950 5950
+	2175 8000 2100 8000
 Wire Wire Line
-	-1950 6250 -2050 6250
+	2175 7600 2100 7600
 Wire Wire Line
-	-1950 6350 -2050 6350
-Wire Wire Line
-	-1575 6350 -1650 6350
-Wire Wire Line
-	-1575 6250 -1650 6250
-Wire Wire Line
-	-1575 5450 -1650 5450
-Wire Wire Line
-	-1575 5950 -1650 5950
+	2175 8200 2100 8200
 $Comp
 L artix-dc-scm:R_0R_0402 R111
 U 1 1 6154EF68
-P 1875 9550
-F 0 "R111" H 1875 9650 60  0000 C CNN
-F 1 "R_0R_0402" H 1875 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 9750 60  0001 L CNN
-F 3 "" H 1875 9550 50  0001 C CNN
-F 4 "PANASONIC" H 2075 9950 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2075 9850 60  0001 L CNN "MPN"
-F 6 "0R" H 1875 9550 50  0000 C CNN "Val"
-	1    1875 9550
+P 1950 9825
+F 0 "R111" H 1950 9925 60  0000 C CNN
+F 1 "R_0R_0402" H 1950 9675 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2150 10025 60  0001 L CNN
+F 3 "" H 1950 9825 50  0001 C CNN
+F 4 "PANASONIC" H 2150 10225 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2150 10125 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 9825 50  0000 C CNN "Val"
+	1    1950 9825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1725 9950 1350 9950
+	1800 10225 1425 10225
 Wire Wire Line
-	1725 10150 1350 10150
+	1800 10425 1425 10425
 Wire Wire Line
-	1725 10350 1350 10350
+	1800 10625 1425 10625
 Wire Wire Line
-	1725 10550 1350 10550
-Text GLabel 1350 8125 0    50   Input ~ 0
+	1800 10825 1425 10825
+Text GLabel 1425 8400 0    50   Input ~ 0
 HPM_FW_RECOVERY_R
-Text GLabel 1350 8325 0    50   Input ~ 0
+Text GLabel 1425 8600 0    50   Input ~ 0
 HPM_STBY_RST_N_R
-Text GLabel 1350 8525 0    50   Input ~ 0
+Text GLabel 1425 8800 0    50   Input ~ 0
 SYS_PWRBTN_N_R
-Text GLabel 1350 8750 0    50   Input ~ 0
+Text GLabel 1425 9025 0    50   Input ~ 0
 SYS_PWROK_R
-Text GLabel 1350 10550 0    50   Input ~ 0
+Text GLabel 1425 10825 0    50   Input ~ 0
 DBP_PREQ_N_R
-Text GLabel 1350 8950 0    50   Input ~ 0
+Text GLabel 1425 9225 0    50   Input ~ 0
 DBP_PRDY_N_R
-Text GLabel 1350 9150 0    50   Input ~ 0
+Text GLabel 1425 9425 0    50   Input ~ 0
 RST_PLTRST_BUF_N_R
-Text GLabel 1350 10350 0    50   Input ~ 0
+Text GLabel 1425 10625 0    50   Input ~ 0
 CHASI#_R
-Text GLabel 1350 9550 0    50   Input ~ 0
+Text GLabel 1425 9825 0    50   Input ~ 0
 SPARE0_R
-Text GLabel 1350 9750 0    50   Input ~ 0
+Text GLabel 1425 10025 0    50   Input ~ 0
 IRQ_N_R
-Text GLabel 1350 9950 0    50   Input ~ 0
+Text GLabel 1425 10225 0    50   Input ~ 0
 PRSNT1_N_R
-Text GLabel 1350 10150 0    50   Input ~ 0
+Text GLabel 1425 10425 0    50   Input ~ 0
 SPARE1_R
-Text GLabel 1350 9350 0    50   Input ~ 0
+Text GLabel 1425 9625 0    50   Input ~ 0
 RoT_CPU_RST_N_R
-Text Notes 725  7825 0    118  ~ 0
+Text Notes 625  7400 0    118  ~ 0
 HPM Control Jumpers
 Text GLabel 11600 3100 0    50   Input ~ 0
 HPM_FW_RECOVERY_R
@@ -2041,7 +2011,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 4550 9500 4550
 Wire Wire Line
-	9500 4350 9850 4350
+	9500 4350 9700 4350
 Text GLabel 6375 5550 0    50   Output ~ 0
 ETH_INT_N
 Text GLabel 6375 5450 0    50   Output ~ 0
@@ -2233,7 +2203,7 @@ Text GLabel 14925 5400 2    50   Input ~ 0
 DDR3_CKE
 Text GLabel 14900 2900 2    50   Input ~ 0
 DDR3_RESET
-Text GLabel 17125 6950 0    50   Input ~ 0
+Text GLabel -1500 6775 2    50   Input ~ 0
 DDR3_CS
 Text GLabel 14925 4800 2    50   Input ~ 0
 DDR3_CAS
@@ -2323,8 +2293,6 @@ Wire Notes Line
 	5325 2700 5325 2900
 Wire Notes Line
 	5325 2900 5175 2900
-Text GLabel 5450 8250 0    50   Input ~ 0
-ETH_~RESET
 Text GLabel 6375 5350 0    50   UnSpc ~ 0
 ETH_~RESET
 Text GLabel 11600 4700 0    50   Input ~ 0
@@ -2333,23 +2301,23 @@ Text GLabel 11600 5100 0    50   Input ~ 0
 I2C[10]_SCL
 Text GLabel 11600 5200 0    50   Input ~ 0
 SGPIO0_DO
-Text GLabel -425 3200 0    50   Input ~ 0
+Text GLabel 6375 5250 0    50   Input ~ 0
 ESPI_CLK
-Text GLabel -425 2900 0    50   Input ~ 0
+Text GLabel 6375 4550 0    50   Input ~ 0
 ESPI_CS0_N
-Text GLabel -425 3000 0    50   Input ~ 0
+Text GLabel 6525 2350 0    50   Input ~ 0
 ESPI_CS1_N
-Text GLabel -425 3400 0    50   Input ~ 0
+Text GLabel 6325 6150 0    50   Input ~ 0
 ESPI_IO0
-Text GLabel -425 2800 0    50   Input ~ 0
+Text GLabel 6325 6850 0    50   Input ~ 0
 ESPI_IO1
-Text GLabel -425 2700 0    50   Input ~ 0
+Text GLabel 6325 6650 0    50   Input ~ 0
 ESPI_IO2
-Text GLabel -425 2600 0    50   Input ~ 0
+Text GLabel 6325 6550 0    50   Input ~ 0
 ESPI_IO3
-Text GLabel -425 3800 0    50   Input ~ 0
+Text GLabel 6375 3250 0    50   Input ~ 0
 ESPI_ALERT_N
-Text GLabel -425 3700 0    50   Input ~ 0
+Text GLabel 6325 6950 0    50   Input ~ 0
 ESPI_RESET_N
 Wire Notes Line
 	1375 1900 2850 1900
@@ -2375,4 +2343,112 @@ Wire Wire Line
 	4550 4550 4875 4550
 Wire Wire Line
 	4550 4650 4875 4650
+Text GLabel 4850 6650 2    50   Input ~ 0
+I2C[5]_SDA
+Wire Wire Line
+	4550 6550 4850 6550
+Wire Wire Line
+	4850 6650 4550 6650
+Wire Wire Line
+	6525 2150 6700 2150
+Wire Wire Line
+	6700 2250 6525 2250
+Wire Wire Line
+	9500 2750 9725 2750
+Wire Wire Line
+	9500 2150 9725 2150
+Wire Wire Line
+	9500 3550 9725 3550
+Wire Wire Line
+	9500 2550 9725 2550
+Wire Wire Line
+	9500 2650 9725 2650
+Wire Wire Line
+	9500 3650 9725 3650
+Wire Wire Line
+	9500 4050 9700 4050
+Wire Wire Line
+	9500 3950 9700 3950
+Wire Wire Line
+	9500 2850 9725 2850
+Wire Wire Line
+	9500 3150 9725 3150
+Wire Wire Line
+	9500 3750 9725 3750
+Wire Wire Line
+	9725 3350 9500 3350
+Text GLabel 6375 5750 0    50   Input ~ 0
+I2C[4]_SCL
+Text GLabel 6325 6050 0    50   Input ~ 0
+I2C[4]_SDA
+Wire Wire Line
+	6325 6050 6700 6050
+Wire Wire Line
+	6350 6350 6700 6350
+Wire Wire Line
+	6325 5950 6700 5950
+Wire Wire Line
+	6525 2550 6700 2550
+Wire Wire Line
+	6350 6750 6700 6750
+Wire Wire Line
+	6350 6450 6700 6450
+Wire Wire Line
+	6525 2950 6700 2950
+Wire Wire Line
+	6375 3250 6700 3250
+Wire Wire Line
+	6525 2850 6700 2850
+Wire Wire Line
+	6700 2050 6525 2050
+Wire Wire Line
+	6525 2350 6700 2350
+Wire Wire Line
+	6525 2450 6700 2450
+Wire Wire Line
+	6325 6650 6700 6650
+Wire Wire Line
+	6325 6550 6700 6550
+Wire Wire Line
+	6325 6850 6700 6850
+Wire Wire Line
+	6325 6150 6700 6150
+Wire Wire Line
+	6325 6950 6700 6950
+Text GLabel 1425 8200 0    50   Input ~ 0
+SPIO_CLK_R
+Text GLabel 1425 8000 0    50   Input ~ 0
+SPIO_CS_N_R
+Text GLabel 1425 7600 0    50   Input ~ 0
+SPIO_MOSI_R
+Text GLabel 1425 7800 0    50   Input ~ 0
+SPIO_MISO_R
+Wire Wire Line
+	1425 7600 1800 7600
+Wire Wire Line
+	1425 7800 1800 7800
+Wire Wire Line
+	1425 8000 1800 8000
+Wire Wire Line
+	1425 8200 1800 8200
+Text GLabel 9725 2950 2    50   Input ~ 0
+SPIO_CLK_R
+Text GLabel 9725 3050 2    50   Input ~ 0
+SPIO_CS_N_R
+Text GLabel 9725 3850 2    50   Input ~ 0
+SPIO_MOSI_R
+Text GLabel 9725 3450 2    50   Input ~ 0
+SPIO_MISO_R
+Wire Wire Line
+	9500 3450 9725 3450
+Wire Wire Line
+	9500 3850 9725 3850
+Wire Wire Line
+	9725 3050 9500 3050
+Wire Wire Line
+	9500 2950 9725 2950
+Wire Wire Line
+	9500 2450 9750 2450
+Wire Wire Line
+	9500 4150 9700 4150
 $EndSCHEMATC
