@@ -2157,9 +2157,7 @@ VCCINT decoupling
 Text Notes 5375 2375 0    118  ~ 0
 VCCAUX decoupling
 Text GLabel 7400 3800 0    50   Input ~ 0
-VCC1V1
-Text GLabel 9900 2600 1    50   Input ~ 0
-VCCINT
+VCC1V0
 Text GLabel 1150 7150 1    50   Input ~ 0
 VCC3V3
 Text GLabel 1150 8250 1    50   Input ~ 0
@@ -3151,13 +3149,15 @@ VCC3V3
 Text GLabel 1150 6050 1    50   Input ~ 0
 VCC3V3
 Text GLabel 5500 4300 1    50   Input ~ 0
-VCC1V1
-Text GLabel 11000 2600 1    50   Input ~ 0
-VCC1V1
+VCC1V0
 Text GLabel 12050 2600 1    50   Input ~ 0
-VCC1V1
+VCC1V0
 Text GLabel 11500 3900 1    50   Input ~ 0
-VCC1V1
+VCC1V0
 Text Notes 1150 9200 0    50   ~ 0
 TODO: rearrange capacitors on PCB after update
+Text GLabel 9900 2600 1    50   Input ~ 0
+VCC1V0
+Text GLabel 11000 2600 1    50   Input ~ 0
+VCC1V0
 $EndSCHEMATC
