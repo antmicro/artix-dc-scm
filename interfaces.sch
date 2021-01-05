@@ -596,7 +596,7 @@ Text GLabel 6950 8950 2    50   Input ~ 0
 MMC_CLK
 Text GLabel 6950 9050 2    50   Input ~ 0
 MMC_RSTN
-Text Notes 5650 1300 0    118  ~ 24
+Text Notes 5650 1200 0    118  ~ 24
 PCIe x1
 $Comp
 L artix-dc-scm:XC7A100T-FGG484 U14
@@ -2372,4 +2372,6 @@ Text GLabel 2900 10400 1    50   Input ~ 0
 VCC3V3
 Text GLabel 3275 10400 1    50   Input ~ 0
 VCC3V3
+Text Notes 4650 1350 0    50   ~ 0
+TODO: The PCIe x1 connection must be confirmed by synthesis
 $EndSCHEMATC
