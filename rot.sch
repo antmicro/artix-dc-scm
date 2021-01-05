@@ -1304,4 +1304,17 @@ F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C 
 	1    8925 6775
 	1    0    0    1   
 $EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Spacer_M2 MP1
+U 1 1 61611FCB
+P 12125 7400
+F 0 "MP1" H 12333 7537 50  0000 L CNN
+F 1 "PCB_Spacer_M2" H 12333 7446 50  0000 L CNN
+F 2 "antmicro-footprints:9774030243R" H 12925 8100 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 13075 8200 50  0001 C CNN
+F 4 "9774030243R" H 12333 7355 50  0000 L CNN "MPN"
+F 5 "Wurth Elektronik " H 12333 7264 50  0000 L CNN "Manufacturer"
+	1    12125 7400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
