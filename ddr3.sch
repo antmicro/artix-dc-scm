@@ -1310,8 +1310,6 @@ Wire Wire Line
 	8350 8550 9000 8550
 Wire Wire Line
 	7850 7025 7850 8250
-Text Notes 7150 6750 0    50   ~ 0
-Source:Trellis board
 $Comp
 L artix-dc-scm:C_10u_0402 C47
 U 1 1 619622A2

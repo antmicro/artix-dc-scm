@@ -1535,8 +1535,6 @@ Text Notes 10950 4750 0    118  ~ 24
 USB CLIENT
 NoConn ~ 11400 6900
 NoConn ~ 11300 3400
-Text Notes 10625 1150 0    50   ~ 0
-TBD: is EXT VBUS, CPEN,  VBUS necessary?\n(datasheet for host variant specifies so)
 $Comp
 L artix-dc-scm:R_1M5_0402 R4
 U 1 1 603E998C

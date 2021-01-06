@@ -167,8 +167,6 @@ Text GLabel 9750 2450 2    50   Input ~ 0
 UART0_SCM_TX
 Text GLabel 9700 4350 2    50   Input ~ 0
 UART0_SCM_RX
-Text Notes 2425 650  0    50   ~ 0
-FPGA connections to be established while preparing layout
 Wire Wire Line
 	1425 8600 1800 8600
 Wire Wire Line
@@ -723,8 +721,6 @@ Text GLabel 2200 9825 2    50   Input ~ 0
 SPARE0
 Text GLabel 2200 10025 2    50   Input ~ 0
 IRQ_N
-Text GLabel 2200 10225 2    50   Input ~ 0
-PRSNT1_N
 Wire Wire Line
 	11600 3500 12000 3500
 Wire Wire Line
@@ -1023,20 +1019,6 @@ F 6 "0R" H 1950 10025 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:R_0R_0402 R113
-U 1 1 6154FB1E
-P 1950 10225
-F 0 "R113" H 1950 10325 60  0000 C CNN
-F 1 "R_0R_0402" H 1950 10075 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2150 10425 60  0001 L CNN
-F 3 "" H 1950 10225 50  0001 C CNN
-F 4 "PANASONIC" H 2150 10625 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 2150 10525 60  0001 L CNN "MPN"
-F 6 "0R" H 1950 10225 50  0000 C CNN "Val"
-	1    1950 10225
-	1    0    0    -1  
-$EndComp
-$Comp
 L artix-dc-scm:R_0R_0402 R108
 U 1 1 6154DC81
 P 1950 10425
@@ -1098,8 +1080,6 @@ Wire Wire Line
 	2100 9825 2200 9825
 Wire Wire Line
 	2100 10025 2200 10025
-Wire Wire Line
-	2100 10225 2200 10225
 Text GLabel 3950 7800 2    50   Input ~ 0
 PRSNT0_N
 Text GLabel 3950 7600 2    50   Input ~ 0
@@ -1774,40 +1754,12 @@ Text GLabel 9825 5950 2    50   Input ~ 0
 USR_LED1
 Text GLabel 9825 6450 2    50   Input ~ 0
 USR_LED2
-Text Notes 13100 8900 0    50   ~ 0
-Interfaces status:\nJTAG - needs pre-defined pins (BANK0)\nboot (Q)SPI - needs pre-defined pins (BANK14)\neSPI\nQSPI0, QSPI1 - \nSPI - \nSGPIO0, SGPIO1 - \nUSB client, USB host - free\nPCIe x1 - needs to be connected to transreceivers\nI3C - free\nI2C - free\nNCSI-\nUART \nethernet - free\nDDR3 - uses B34 as in references\neMMC - free
-Text Notes 12900 7750 0    50   ~ 10
-done
-Text Notes 12900 7850 0    50   ~ 10
-done
-Text Notes 12900 8325 0    50   ~ 10
-done
-Text Notes 12900 8825 0    50   ~ 10
-done
 Wire Wire Line
 	14800 4200 14900 4200
 Wire Wire Line
 	14800 3800 14900 3800
-Text Notes 12900 8250 0    50   ~ 10
-done
-Text Notes 12900 8900 0    50   ~ 10
-done
 Wire Wire Line
 	2200 9225 2100 9225
-Text Notes 12900 8025 0    50   ~ 10
-done
-Text Notes 12900 8425 0    50   ~ 10
-done
-Text Notes 12900 8675 0    50   ~ 10
-done
-Text Notes 12900 8175 0    50   ~ 10
-done
-Text Notes 12900 8500 0    50   ~ 10
-done
-Text Notes 12900 8575 0    50   ~ 10
-done
-Text Notes 12900 8100 0    50   ~ 10
-done
 Wire Wire Line
 	4150 1250 4625 1250
 Connection ~ 4150 1250
@@ -1850,8 +1802,6 @@ F 3 "" H 2250 4150 50  0000 C CNN
 	1    2550 4150
 	1    0    0    -1  
 $EndComp
-Text Notes 12900 7925 0    50   ~ 10
-done
 $Comp
 L artix-dc-scm:R_0R_0402 R144
 U 1 1 66DFC7B7
@@ -1931,8 +1881,6 @@ F 6 "0R" H 1950 9825 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 10225 1425 10225
-Wire Wire Line
 	1800 10425 1425 10425
 Wire Wire Line
 	1800 10625 1425 10625
@@ -1958,8 +1906,6 @@ Text GLabel 1425 9825 0    50   Input ~ 0
 SPARE0_R
 Text GLabel 1425 10025 0    50   Input ~ 0
 IRQ_N_R
-Text GLabel 1425 10225 0    50   Input ~ 0
-PRSNT1_N_R
 Text GLabel 1425 10425 0    50   Input ~ 0
 SPARE1_R
 Text GLabel 1425 9625 0    50   Input ~ 0

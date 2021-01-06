@@ -668,7 +668,7 @@ SGPIO_RESET_N
 Text GLabel 9125 7225 2    50   Input ~ 0
 SGPIO_INTR_N
 Text GLabel 9125 7325 2    50   Input ~ 0
-P3V0_BAT
+3V0_BAT
 Text GLabel 9125 7425 2    50   Input ~ 0
 QSPI0_CS1_N
 Text GLabel 9125 7725 2    50   Input ~ 0

@@ -1225,8 +1225,6 @@ F 3 "" H 12800 5700 50  0001 C CNN
 $EndComp
 Text Notes 12925 5725 0    50   ~ 0
 Pinout for AES-PMOD-TPM20-SLB9670-G
-Text Notes 13075 5475 1    50   ~ 0
-TODO: tie this pins to DC-SCI connector
 Wire Wire Line
 	9675 4825 9175 4825
 Wire Wire Line
