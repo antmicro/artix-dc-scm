@@ -2480,10 +2480,6 @@ Wire Wire Line
 	15175 9375 15175 9225
 Wire Wire Line
 	15175 9225 15225 9225
-Wire Wire Line
-	6275 800  6050 800 
-Text GLabel 6050 800  0    50   Input ~ 0
-GCLK100
 Text GLabel 9825 4550 2    50   Input ~ 0
 GCLK100
 $EndSCHEMATC

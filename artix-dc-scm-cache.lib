@@ -19,6 +19,24 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroCapacitorsmisc_C_470n_0201
+#
+DEF antmicroCapacitorsmisc_C_470n_0201 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitorsmisc_C_470n_0201" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0201-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C0603X5R1A474M030BC" 200 300 60 H I L CNN "MPN"
+F6 "470n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroMechanicalParts_PCB_Spacer_M2
 #
 DEF antmicroMechanicalParts_PCB_Spacer_M2 MP 0 40 Y Y 1 F N
