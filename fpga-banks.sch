@@ -202,10 +202,6 @@ Wire Wire Line
 Wire Wire Line
 	9825 5850 9500 5850
 Wire Wire Line
-	9825 5950 9500 5950
-Wire Wire Line
-	9825 6050 9500 6050
-Wire Wire Line
 	9825 6150 9500 6150
 Wire Wire Line
 	9825 6250 9500 6250
@@ -229,8 +225,6 @@ Wire Wire Line
 	4875 3550 4550 3550
 Wire Wire Line
 	4875 3650 4550 3650
-Wire Wire Line
-	4875 3750 4550 3750
 Wire Wire Line
 	4875 3850 4550 3850
 Wire Wire Line
@@ -728,8 +722,6 @@ Wire Wire Line
 Wire Wire Line
 	4875 3350 4550 3350
 Wire Wire Line
-	4875 3250 4550 3250
-Wire Wire Line
 	6375 5850 6700 5850
 Wire Wire Line
 	6375 5750 6700 5750
@@ -793,7 +785,7 @@ Wire Wire Line
 Wire Wire Line
 	9825 5150 9500 5150
 Wire Wire Line
-	9825 6450 9500 6450
+	4875 4450 4550 4450
 Wire Wire Line
 	9825 6550 9500 6550
 Wire Wire Line
@@ -1748,11 +1740,7 @@ Text GLabel 4075 10500 0    50   Input ~ 0
 USR_LED2
 Wire Wire Line
 	4200 10500 4075 10500
-Text GLabel 9825 6050 2    50   Input ~ 0
-USR_LED0
-Text GLabel 9825 5950 2    50   Input ~ 0
-USR_LED1
-Text GLabel 9825 6450 2    50   Input ~ 0
+Text GLabel 4875 4450 2    50   Input ~ 0
 USR_LED2
 Wire Wire Line
 	14800 4200 14900 4200
@@ -2482,4 +2470,14 @@ Wire Wire Line
 	15175 9225 15225 9225
 Text GLabel 9825 4550 2    50   Input ~ 0
 GCLK100
+Text GLabel 4875 3250 2    50   Input ~ 0
+USR_LED0
+Wire Wire Line
+	4550 3250 4875 3250
+Wire Wire Line
+	4875 3750 4550 3750
+Text GLabel 4875 4150 2    50   Input ~ 0
+USR_LED1
+Wire Wire Line
+	4875 4150 4550 4150
 $EndSCHEMATC
