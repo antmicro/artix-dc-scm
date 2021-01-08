@@ -1,4 +1,4 @@
-(module QFN-48-Microchip-QFN77-48LD-PL-2 (layer F.Cu) (tedit 5FCA0732)
+(module QFN-48-Microchip-QFN77-48LD-PL-2 (layer F.Cu) (tedit 5FF85735)
   (fp_text reference REF** (at -4.336237 -5.036237) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
