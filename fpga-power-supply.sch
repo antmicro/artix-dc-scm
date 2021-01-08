@@ -50,24 +50,6 @@ F 6 "47u" H 1265 3047 50  0000 L CNN "Val"
 	1    1150 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 616597A9
-P 1850 3100
-AR Path="/626D078D/616597A9" Ref="C?"  Part="1" 
-AR Path="/605FD480/616597A9" Ref="C?"  Part="1" 
-AR Path="/60633613/616597A9" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/616597A9" Ref="C103"  Part="1" 
-F 0 "C103" H 1965 3145 60  0000 L CNN
-F 1 "C_4u7_0603" H 1850 2950 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2050 3300 60  0001 L CNN
-F 3 "" H 1850 3100 50  0001 C CNN
-F 4 "WALSIN" H 2050 3500 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 2050 3400 60  0001 L CNN "MPN"
-F 6 "4u7" H 1965 3047 50  0000 L CNN "Val"
-	1    1850 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1150 2950 1150 2850
 Wire Wire Line
@@ -578,42 +560,6 @@ F 4 "KEMET" H 1350 7950 60  0001 L CNN "Manufacturer"
 F 5 "C1210C476K8RACTU" H 1350 7850 60  0001 L CNN "MPN"
 F 6 "47u" H 1265 7497 50  0000 L CNN "Val"
 	1    1150 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 616744CB
-P 1500 7550
-AR Path="/626D078D/616744CB" Ref="C?"  Part="1" 
-AR Path="/605FD480/616744CB" Ref="C?"  Part="1" 
-AR Path="/60633613/616744CB" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/616744CB" Ref="C101"  Part="1" 
-F 0 "C101" H 1615 7595 60  0000 L CNN
-F 1 "C_4u7_0603" H 1500 7400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 1700 7750 60  0001 L CNN
-F 3 "" H 1500 7550 50  0001 C CNN
-F 4 "WALSIN" H 1700 7950 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 1700 7850 60  0001 L CNN "MPN"
-F 6 "4u7" H 1615 7497 50  0000 L CNN "Val"
-	1    1500 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 616744D4
-P 1850 7550
-AR Path="/626D078D/616744D4" Ref="C?"  Part="1" 
-AR Path="/605FD480/616744D4" Ref="C?"  Part="1" 
-AR Path="/60633613/616744D4" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/616744D4" Ref="C107"  Part="1" 
-F 0 "C107" H 1965 7595 60  0000 L CNN
-F 1 "C_4u7_0603" H 1850 7400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 2050 7750 60  0001 L CNN
-F 3 "" H 1850 7550 50  0001 C CNN
-F 4 "WALSIN" H 2050 7950 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 2050 7850 60  0001 L CNN "MPN"
-F 6 "4u7" H 1965 7497 50  0000 L CNN "Val"
-	1    1850 7550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1225,24 +1171,6 @@ F 6 "47u" H 4765 2947 50  0000 L CNN "Val"
 $EndComp
 $Comp
 L artix-dc-scm:C_4u7_0603 C?
-U 1 1 61997890
-P 4950 3000
-AR Path="/626D078D/61997890" Ref="C?"  Part="1" 
-AR Path="/605FD480/61997890" Ref="C?"  Part="1" 
-AR Path="/60633613/61997890" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/61997890" Ref="C135"  Part="1" 
-F 0 "C135" H 5065 3045 60  0000 L CNN
-F 1 "C_4u7_0603" H 4950 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 5150 3200 60  0001 L CNN
-F 3 "" H 4950 3000 50  0001 C CNN
-F 4 "WALSIN" H 5150 3400 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 5150 3300 60  0001 L CNN "MPN"
-F 6 "4u7" H 5065 2947 50  0000 L CNN "Val"
-	1    4950 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
 U 1 1 619B5F78
 P 5250 3000
 AR Path="/626D078D/619B5F78" Ref="C?"  Part="1" 
@@ -1259,24 +1187,6 @@ F 6 "4u7" H 5365 2947 50  0000 L CNN "Val"
 	1    5250 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 619B6781
-P 5550 3000
-AR Path="/626D078D/619B6781" Ref="C?"  Part="1" 
-AR Path="/605FD480/619B6781" Ref="C?"  Part="1" 
-AR Path="/60633613/619B6781" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/619B6781" Ref="C139"  Part="1" 
-F 0 "C139" H 5665 3045 60  0000 L CNN
-F 1 "C_4u7_0603" H 5550 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 5750 3200 60  0001 L CNN
-F 3 "" H 5550 3000 50  0001 C CNN
-F 4 "WALSIN" H 5750 3400 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 5750 3300 60  0001 L CNN "MPN"
-F 6 "4u7" H 5665 2947 50  0000 L CNN "Val"
-	1    5550 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7050 2850 7050 2750
 Wire Wire Line
@@ -1284,25 +1194,11 @@ Wire Wire Line
 Wire Wire Line
 	4650 2750 4650 2850
 Wire Wire Line
-	4950 2850 4950 2750
-Connection ~ 4950 2750
-Wire Wire Line
-	4950 2750 4650 2750
-Wire Wire Line
 	5250 2850 5250 2750
 Connection ~ 5250 2750
 Wire Wire Line
-	5250 2750 4950 2750
-Wire Wire Line
-	5550 2850 5550 2750
-Connection ~ 5550 2750
-Wire Wire Line
-	5550 2750 5250 2750
-Wire Wire Line
 	5850 2850 5850 2750
 Connection ~ 5850 2750
-Wire Wire Line
-	5850 2750 5550 2750
 Wire Wire Line
 	6150 2850 6150 2750
 Connection ~ 6150 2750
@@ -1321,24 +1217,10 @@ Wire Wire Line
 Wire Wire Line
 	4650 3150 4650 3250
 Wire Wire Line
-	4650 3250 4950 3250
-Wire Wire Line
 	7050 3250 7050 3150
-Wire Wire Line
-	4950 3150 4950 3250
-Connection ~ 4950 3250
-Wire Wire Line
-	4950 3250 5250 3250
 Wire Wire Line
 	5250 3150 5250 3250
 Connection ~ 5250 3250
-Wire Wire Line
-	5250 3250 5550 3250
-Wire Wire Line
-	5550 3150 5550 3250
-Connection ~ 5550 3250
-Wire Wire Line
-	5550 3250 5850 3250
 Wire Wire Line
 	5850 3150 5850 3250
 Connection ~ 5850 3250
@@ -1525,24 +1407,6 @@ F 6 "330u" H 11118 2897 50  0000 L CNN "Val"
 $EndComp
 $Comp
 L artix-dc-scm:C_4u7_0603 C?
-U 1 1 62233E54
-P 12050 3050
-AR Path="/626D078D/62233E54" Ref="C?"  Part="1" 
-AR Path="/605FD480/62233E54" Ref="C?"  Part="1" 
-AR Path="/60633613/62233E54" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/62233E54" Ref="C154"  Part="1" 
-F 0 "C154" H 12165 3095 60  0000 L CNN
-F 1 "C_4u7_0603" H 12050 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 12250 3250 60  0001 L CNN
-F 3 "" H 12050 3050 50  0001 C CNN
-F 4 "WALSIN" H 12250 3450 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 12250 3350 60  0001 L CNN "MPN"
-F 6 "4u7" H 12165 2997 50  0000 L CNN "Val"
-	1    12050 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
 U 1 1 6223664D
 P 12350 3050
 AR Path="/626D078D/6223664D" Ref="C?"  Part="1" 
@@ -1595,158 +1459,6 @@ F 6 "4u7" H 13065 2997 50  0000 L CNN "Val"
 	1    12950 3050
 	1    0    0    -1  
 $EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 62238C2D
-P 13250 3050
-AR Path="/626D078D/62238C2D" Ref="C?"  Part="1" 
-AR Path="/605FD480/62238C2D" Ref="C?"  Part="1" 
-AR Path="/60633613/62238C2D" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/62238C2D" Ref="C162"  Part="1" 
-F 0 "C162" H 13365 3095 60  0000 L CNN
-F 1 "C_4u7_0603" H 13250 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 13450 3250 60  0001 L CNN
-F 3 "" H 13250 3050 50  0001 C CNN
-F 4 "WALSIN" H 13450 3450 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 13450 3350 60  0001 L CNN "MPN"
-F 6 "4u7" H 13365 2997 50  0000 L CNN "Val"
-	1    13250 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 62260260
-P 13850 3050
-AR Path="/626D078D/62260260" Ref="C?"  Part="1" 
-AR Path="/605FD480/62260260" Ref="C?"  Part="1" 
-AR Path="/60633613/62260260" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/62260260" Ref="C166"  Part="1" 
-F 0 "C166" H 13965 3095 60  0000 L CNN
-F 1 "C_4u7_0603" H 13850 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 14050 3250 60  0001 L CNN
-F 3 "" H 13850 3050 50  0001 C CNN
-F 4 "WALSIN" H 14050 3450 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 14050 3350 60  0001 L CNN "MPN"
-F 6 "4u7" H 13965 2997 50  0000 L CNN "Val"
-	1    13850 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 62260269
-P 14150 3050
-AR Path="/626D078D/62260269" Ref="C?"  Part="1" 
-AR Path="/605FD480/62260269" Ref="C?"  Part="1" 
-AR Path="/60633613/62260269" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/62260269" Ref="C168"  Part="1" 
-F 0 "C168" H 14265 3095 60  0000 L CNN
-F 1 "C_4u7_0603" H 14150 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 14350 3250 60  0001 L CNN
-F 3 "" H 14150 3050 50  0001 C CNN
-F 4 "WALSIN" H 14350 3450 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 14350 3350 60  0001 L CNN "MPN"
-F 6 "4u7" H 14265 2997 50  0000 L CNN "Val"
-	1    14150 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 62260272
-P 14450 3050
-AR Path="/626D078D/62260272" Ref="C?"  Part="1" 
-AR Path="/605FD480/62260272" Ref="C?"  Part="1" 
-AR Path="/60633613/62260272" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/62260272" Ref="C170"  Part="1" 
-F 0 "C170" H 14565 3095 60  0000 L CNN
-F 1 "C_4u7_0603" H 14450 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 14650 3250 60  0001 L CNN
-F 3 "" H 14450 3050 50  0001 C CNN
-F 4 "WALSIN" H 14650 3450 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 14650 3350 60  0001 L CNN "MPN"
-F 6 "4u7" H 14565 2997 50  0000 L CNN "Val"
-	1    14450 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 6226027B
-P 14750 3050
-AR Path="/626D078D/6226027B" Ref="C?"  Part="1" 
-AR Path="/605FD480/6226027B" Ref="C?"  Part="1" 
-AR Path="/60633613/6226027B" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6226027B" Ref="C172"  Part="1" 
-F 0 "C172" H 14865 3095 60  0000 L CNN
-F 1 "C_4u7_0603" H 14750 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 14950 3250 60  0001 L CNN
-F 3 "" H 14750 3050 50  0001 C CNN
-F 4 "WALSIN" H 14950 3450 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 14950 3350 60  0001 L CNN "MPN"
-F 6 "4u7" H 14865 2997 50  0000 L CNN "Val"
-	1    14750 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 62260284
-P 15050 3050
-AR Path="/626D078D/62260284" Ref="C?"  Part="1" 
-AR Path="/605FD480/62260284" Ref="C?"  Part="1" 
-AR Path="/60633613/62260284" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/62260284" Ref="C174"  Part="1" 
-F 0 "C174" H 15165 3095 60  0000 L CNN
-F 1 "C_4u7_0603" H 15050 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 15250 3250 60  0001 L CNN
-F 3 "" H 15050 3050 50  0001 C CNN
-F 4 "WALSIN" H 15250 3450 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 15250 3350 60  0001 L CNN "MPN"
-F 6 "4u7" H 15165 2997 50  0000 L CNN "Val"
-	1    15050 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:C_4u7_0603 C?
-U 1 1 6226028D
-P 15350 3050
-AR Path="/626D078D/6226028D" Ref="C?"  Part="1" 
-AR Path="/605FD480/6226028D" Ref="C?"  Part="1" 
-AR Path="/60633613/6226028D" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/6226028D" Ref="C176"  Part="1" 
-F 0 "C176" H 15465 3095 60  0000 L CNN
-F 1 "C_4u7_0603" H 15350 2900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 15550 3250 60  0001 L CNN
-F 3 "" H 15350 3050 50  0001 C CNN
-F 4 "WALSIN" H 15550 3450 60  0001 L CNN "Manufacturer"
-F 5 "0603X475K250CT" H 15550 3350 60  0001 L CNN "MPN"
-F 6 "4u7" H 15465 2997 50  0000 L CNN "Val"
-	1    15350 3050
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	11900 2750 15550 2750
-Wire Notes Line
-	15550 2750 15550 3600
-Wire Notes Line
-	15550 3600 11900 3600
-Wire Notes Line
-	11900 3600 11900 2750
-Wire Notes Line
-	13700 3500 13700 2750
-Wire Notes Line
-	12800 3400 12800 2750
-Wire Notes Line
-	11900 3300 12500 3300
-Wire Notes Line
-	12500 3300 12500 2750
-Text Notes 11850 2750 3    50   ~ 0
-populate on \n
-Text Notes 15550 3400 3    50   ~ 0
-200T
-Text Notes 13700 3300 3    50   ~ 0
-100T\n
-Text Notes 12800 3250 3    50   ~ 0
-50T
-Text Notes 12500 3150 3    50   ~ 0
-35T\n
 Wire Notes Line
 	11300 4900 11300 4050
 Text Notes 11250 4050 3    50   ~ 0
@@ -1759,10 +1471,6 @@ Wire Notes Line
 	12850 4700 12850 4050
 Wire Notes Line
 	11300 4700 12850 4700
-Wire Notes Line
-	12800 3400 11900 3400
-Wire Notes Line
-	13700 3500 11900 3500
 Wire Notes Line
 	13750 4800 13750 4050
 Wire Notes Line
@@ -1782,14 +1490,7 @@ Text Notes 12850 4550 3    50   ~ 0
 Text Notes 12250 4450 3    50   ~ 0
 35T\n
 Wire Wire Line
-	12050 3200 12050 3700
-Wire Wire Line
-	12050 3700 12350 3700
-Wire Wire Line
-	15350 3700 15350 3200
-Wire Wire Line
 	12350 3200 12350 3700
-Connection ~ 12350 3700
 Wire Wire Line
 	12350 3700 12650 3700
 Wire Wire Line
@@ -1801,30 +1502,11 @@ Wire Wire Line
 	12950 3200 12950 3700
 Connection ~ 12950 3700
 Wire Wire Line
-	12950 3700 13250 3700
-Wire Wire Line
-	13250 3200 13250 3700
-Connection ~ 13250 3700
-Wire Wire Line
-	13250 3700 13550 3700
-Wire Wire Line
 	13550 3200 13550 3700
-Wire Wire Line
-	13850 3200 13850 3700
-Wire Wire Line
-	14150 3200 14150 3700
-Wire Wire Line
-	14450 3200 14450 3700
-Wire Wire Line
-	14750 3200 14750 3700
-Wire Wire Line
-	15050 3200 15050 3700
 Wire Wire Line
 	11500 4500 11500 5000
 Wire Wire Line
 	11800 4500 11800 5000
-Wire Wire Line
-	12100 4500 12100 5000
 Wire Wire Line
 	12400 4500 12400 5000
 Wire Wire Line
@@ -1846,11 +1528,6 @@ Wire Wire Line
 Wire Wire Line
 	15350 5000 15350 5200
 Connection ~ 11800 5000
-Wire Wire Line
-	11800 5000 12100 5000
-Connection ~ 12100 5000
-Wire Wire Line
-	12100 5000 12400 5000
 Connection ~ 12400 5000
 Wire Wire Line
 	12400 5000 12700 5000
@@ -1887,41 +1564,21 @@ F 3 "" H 15350 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 13550 3700
-Wire Wire Line
-	13550 3700 13850 3700
-Connection ~ 13850 3700
-Wire Wire Line
-	13850 3700 14150 3700
-Connection ~ 14150 3700
-Wire Wire Line
-	14150 3700 14450 3700
-Connection ~ 14450 3700
-Wire Wire Line
-	14450 3700 14750 3700
-Connection ~ 14750 3700
-Wire Wire Line
-	14750 3700 15050 3700
-Connection ~ 15050 3700
-Wire Wire Line
-	15050 3700 15350 3700
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 62810E19
-P 15350 3850
+P 13550 3700
 AR Path="/626D078D/62810E19" Ref="#PWR?"  Part="1" 
 AR Path="/605FD480/62810E19" Ref="#PWR?"  Part="1" 
 AR Path="/60633613/62810E19" Ref="#PWR?"  Part="1" 
 AR Path="/5FD86C51/62810E19" Ref="#PWR078"  Part="1" 
-F 0 "#PWR078" H 15350 3600 50  0001 C CNN
-F 1 "GND" H 15355 3677 50  0000 C CNN
-F 2 "" H 15350 3850 50  0001 C CNN
-F 3 "" H 15350 3850 50  0001 C CNN
-	1    15350 3850
+F 0 "#PWR078" H 13550 3450 50  0001 C CNN
+F 1 "GND" H 13555 3527 50  0000 C CNN
+F 2 "" H 13550 3700 50  0001 C CNN
+F 3 "" H 13550 3700 50  0001 C CNN
+	1    13550 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15350 3700 15350 3850
-Connection ~ 15350 3700
 Wire Wire Line
 	11500 4100 11500 4200
 Wire Wire Line
@@ -1930,15 +1587,8 @@ Connection ~ 11800 4100
 Wire Wire Line
 	11800 4100 11500 4100
 Wire Wire Line
-	12100 4200 12100 4100
-Connection ~ 12100 4100
-Wire Wire Line
-	12100 4100 11800 4100
-Wire Wire Line
 	12400 4200 12400 4100
 Connection ~ 12400 4100
-Wire Wire Line
-	12400 4100 12100 4100
 Wire Wire Line
 	12700 4200 12700 4100
 Connection ~ 12700 4100
@@ -1970,16 +1620,8 @@ Connection ~ 14450 4100
 Wire Wire Line
 	15050 4100 15050 4200
 Wire Wire Line
-	15350 2800 15050 2800
-Wire Wire Line
-	12050 2800 12050 2900
-Wire Wire Line
-	15350 2800 15350 2900
-Wire Wire Line
 	12350 2900 12350 2800
 Connection ~ 12350 2800
-Wire Wire Line
-	12350 2800 12050 2800
 Wire Wire Line
 	12650 2900 12650 2800
 Connection ~ 12650 2800
@@ -1991,64 +1633,12 @@ Connection ~ 12950 2800
 Wire Wire Line
 	12950 2800 12650 2800
 Wire Wire Line
-	13250 2900 13250 2800
-Connection ~ 13250 2800
-Wire Wire Line
-	13250 2800 12950 2800
-Wire Wire Line
 	13550 2900 13550 2800
-Connection ~ 13550 2800
 Wire Wire Line
-	13550 2800 13250 2800
-Wire Wire Line
-	13850 2800 13850 2900
-Connection ~ 13850 2800
-Wire Wire Line
-	13850 2800 13550 2800
-Wire Wire Line
-	14150 2900 14150 2800
-Connection ~ 14150 2800
-Wire Wire Line
-	14150 2800 13850 2800
-Wire Wire Line
-	14450 2900 14450 2800
-Connection ~ 14450 2800
-Wire Wire Line
-	14450 2800 14150 2800
-Wire Wire Line
-	14750 2900 14750 2800
-Connection ~ 14750 2800
-Wire Wire Line
-	14750 2800 14450 2800
-Wire Wire Line
-	15050 2800 15050 2900
-Connection ~ 15050 2800
-Wire Wire Line
-	15050 2800 14750 2800
-Wire Wire Line
-	12050 2800 12050 2600
-Connection ~ 12050 2800
+	12350 2800 12350 2600
 Wire Wire Line
 	11500 4100 11500 3900
 Connection ~ 11500 4100
-$Comp
-L artix-dc-scm:C_680u_KEMET_D C?
-U 1 1 62D6AEFB
-P 10650 3000
-AR Path="/626D078D/62D6AEFB" Ref="C?"  Part="1" 
-AR Path="/605FD480/62D6AEFB" Ref="C?"  Part="1" 
-AR Path="/60633613/62D6AEFB" Ref="C?"  Part="1" 
-AR Path="/5FD86C51/62D6AEFB" Ref="C149"  Part="1" 
-F 0 "C149" H 10768 2995 60  0000 L CNN
-F 1 "C_680u_KEMET_D" H 10650 2850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:KEMET_D" H 10850 3200 60  0001 L CNN
-F 3 "" H 10650 3000 50  0001 C CNN
-F 4 "KEMET" H 10850 3400 60  0001 L CNN "Manufacturer"
-F 5 "T520D687M004ATE012" H 10850 3300 60  0001 L CNN "MPN"
-F 6 "680u" H 10768 2897 50  0000 L CNN "Val"
-	1    10650 3000
-	1    0    0    -1  
-$EndComp
 $Comp
 L artix-dc-scm:C_100u_1210 C?
 U 1 1 62D726DD
@@ -2071,8 +1661,6 @@ Text Notes 11450 3250 1    50   ~ 0
 35T
 Text Notes 11100 3500 1    50   ~ 0
 50T, 100T
-Text Notes 10750 3300 1    50   ~ 0
-200T
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 62E6DC2F
@@ -2089,10 +1677,6 @@ F 3 "" H 11000 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10650 3200 10650 3500
-Wire Wire Line
-	10650 3500 11000 3500
-Wire Wire Line
 	11350 3500 11350 3200
 Wire Wire Line
 	11000 3200 11000 3500
@@ -2102,10 +1686,6 @@ Wire Wire Line
 Wire Wire Line
 	11000 3500 11000 3550
 Wire Wire Line
-	10650 2900 10650 2800
-Wire Wire Line
-	10650 2800 11000 2800
-Wire Wire Line
 	11350 2800 11350 2900
 Wire Wire Line
 	11000 2900 11000 2800
@@ -2114,8 +1694,6 @@ Wire Wire Line
 	11000 2800 11350 2800
 Wire Wire Line
 	11000 2800 11000 2600
-Text Notes 10550 2800 3    50   ~ 0
-populate on \n
 Text Notes 11700 2150 0    118  ~ 0
 VCCINT decoupling
 Text Notes 5375 2375 0    118  ~ 0
@@ -3056,7 +2634,7 @@ Text GLabel 1150 6050 1    50   Input ~ 0
 VCC3V3
 Text GLabel 5500 4300 1    50   Input ~ 0
 VCC1V0
-Text GLabel 12050 2600 1    50   Input ~ 0
+Text GLabel 12350 2600 1    50   Input ~ 0
 VCC1V0
 Text GLabel 11500 3900 1    50   Input ~ 0
 VCC1V0
@@ -3357,4 +2935,47 @@ Wire Wire Line
 Connection ~ 9900 3800
 Wire Wire Line
 	9900 3800 9900 3900
+$Comp
+L artix-dc-scm:C_4u7_0603 C?
+U 1 1 60348FE5
+P 14200 7425
+AR Path="/626D078D/60348FE5" Ref="C?"  Part="1" 
+AR Path="/605FD480/60348FE5" Ref="C?"  Part="1" 
+AR Path="/60633613/60348FE5" Ref="C?"  Part="1" 
+AR Path="/5FD86C51/60348FE5" Ref="C45"  Part="1" 
+F 0 "C45" H 14315 7470 60  0000 L CNN
+F 1 "C_4u7_0603" H 14200 7275 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 14400 7625 60  0001 L CNN
+F 3 "" H 14200 7425 50  0001 C CNN
+F 4 "WALSIN" H 14400 7825 60  0001 L CNN "Manufacturer"
+F 5 "0603X475K250CT" H 14400 7725 60  0001 L CNN "MPN"
+F 6 "4u7" H 14315 7372 50  0000 L CNN "Val"
+	1    14200 7425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 7575 14200 7650
+Wire Wire Line
+	14200 7650 14425 7650
+Connection ~ 14425 7650
+Wire Wire Line
+	14425 7200 14200 7200
+Wire Wire Line
+	14200 7200 14200 7275
+Wire Wire Line
+	12950 2800 13550 2800
+Wire Wire Line
+	12950 3700 13550 3700
+Wire Wire Line
+	11800 4100 12400 4100
+Wire Wire Line
+	11800 5000 12400 5000
+Wire Wire Line
+	4650 2750 5250 2750
+Wire Wire Line
+	4650 3250 5250 3250
+Wire Wire Line
+	5250 3250 5850 3250
+Wire Wire Line
+	5250 2750 5850 2750
 $EndSCHEMATC

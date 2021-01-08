@@ -662,8 +662,6 @@ Text GLabel 14975 2350 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
 	14975 2650 14975 2750
-Text Notes 12725 3500 0    50   ~ 0
-SOURCE:Trelis board
 Wire Wire Line
 	12675 3050 12975 3050
 $Comp
@@ -823,8 +821,6 @@ Text GLabel 15000 4500 1    50   Input ~ 0
 VCC1V8
 Wire Wire Line
 	15000 4800 15000 4900
-Text Notes 12800 5650 0    50   ~ 0
-SOURCE:Trelis board
 Wire Wire Line
 	12700 5200 13000 5200
 Connection ~ 12450 6725
@@ -992,8 +988,6 @@ Text GLabel 15050 6275 1    50   Input ~ 0
 VCC1V35
 Wire Wire Line
 	15050 6575 15050 6725
-Text Notes 12850 7475 0    50   ~ 0
-SOURCE:Trelis board
 Wire Wire Line
 	12725 7025 13050 7025
 Text Notes 15225 4700 0    50   ~ 0
@@ -1354,8 +1348,6 @@ Text GLabel 15025 8050 1    50   Input ~ 0
 VCC1V0
 Wire Wire Line
 	15025 8350 15025 8450
-Text Notes 12825 9200 0    50   ~ 0
-SOURCE:Trelis board
 Wire Wire Line
 	12700 8750 13025 8750
 Text Notes 15425 8200 0    50   ~ 0

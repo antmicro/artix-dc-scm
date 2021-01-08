@@ -222,12 +222,12 @@ Wire Wire Line
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR036
 U 1 1 617E94FA
-P 5600 7675
-F 0 "#PWR036" H 5600 7425 50  0001 C CNN
-F 1 "GND" H 5605 7502 50  0000 C CNN
-F 2 "" H 5600 7675 50  0001 C CNN
-F 3 "" H 5600 7675 50  0001 C CNN
-	1    5600 7675
+P 6100 7650
+F 0 "#PWR036" H 6100 7400 50  0001 C CNN
+F 1 "GND" H 6105 7477 50  0000 C CNN
+F 2 "" H 6100 7650 50  0001 C CNN
+F 3 "" H 6100 7650 50  0001 C CNN
+	1    6100 7650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1172,51 +1172,22 @@ Wire Wire Line
 	6400 7450 6400 7525
 Wire Wire Line
 	7000 7450 7000 7525
-Wire Wire Line
-	8100 7025 8400 7025
 Connection ~ 8400 7025
-Wire Wire Line
-	8400 7525 8100 7525
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR040
 U 1 1 61880049
-P 8900 7675
-F 0 "#PWR040" H 8900 7425 50  0001 C CNN
-F 1 "GND" H 8905 7502 50  0000 C CNN
-F 2 "" H 8900 7675 50  0001 C CNN
-F 3 "" H 8900 7675 50  0001 C CNN
-	1    8900 7675
+P 8400 7525
+F 0 "#PWR040" H 8400 7275 50  0001 C CNN
+F 1 "GND" H 8405 7352 50  0000 C CNN
+F 2 "" H 8400 7525 50  0001 C CNN
+F 3 "" H 8400 7525 50  0001 C CNN
+	1    8400 7525
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 7025 8100 7150
 Wire Wire Line
 	8400 7025 8400 7150
-$Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C?
-U 1 1 60AEFC4F
-P 8100 7300
-AR Path="/60AEFC4F" Ref="C?"  Part="1" 
-AR Path="/5FD8EBC2/60AEFC4F" Ref="C45"  Part="1" 
-F 0 "C45" H 8125 7400 60  0000 L CNN
-F 1 "C_100n_0402" H 8100 7150 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 8300 7500 60  0001 L CNN
-F 3 "" H 8100 7300 50  0001 C CNN
-F 4 "Walsin" H 8300 7700 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 8300 7600 60  0001 L CNN "MPN"
-F 6 "100n" H 8125 7200 50  0000 L CNN "Val"
-	1    8100 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 7450 8100 7525
 Wire Wire Line
 	8400 7450 8400 7525
-Wire Wire Line
-	8400 7525 8900 7525
-Wire Wire Line
-	8900 7525 8900 7675
-Connection ~ 8400 7525
 Wire Wire Line
 	8400 7025 8875 7025
 Wire Wire Line
@@ -1228,9 +1199,9 @@ Wire Wire Line
 Wire Wire Line
 	6925 8000 6875 8000
 Wire Wire Line
-	6400 7525 5600 7525
+	6400 7525 6100 7525
 Wire Wire Line
-	5600 7525 5600 7675
+	6100 7525 6100 7650
 Connection ~ 6400 7525
 Text Label 8600 7025 0    50   ~ 0
 VLDOIN
@@ -1279,9 +1250,6 @@ F 6 "10k" V 6228 8470 50  0000 L CNN "Val"
 	1    6175 8400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7850 7025 8100 7025
-Connection ~ 8100 7025
 Connection ~ 7000 7025
 Wire Wire Line
 	7000 7025 7350 7025
@@ -1437,7 +1405,7 @@ F 3 "" H 7850 9600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5125 7025 6400 7025
+	5125 7025 6100 7025
 Text Label 5725 7025 2    50   ~ 0
 DDR3_VTT
 $Comp
@@ -1552,8 +1520,6 @@ Text GLabel 11700 2375 0    50   Input ~ 0
 VCC1V35
 Text GLabel 9325 8200 2    50   3State ~ 0
 VCC3V3
-Wire Wire Line
-	8350 8950 9000 8950
 Wire Wire Line
 	9000 8950 9000 8550
 Connection ~ 9000 8550
@@ -1978,4 +1944,46 @@ F 6 "51R" H 4825 10875 50  0000 C CNN "Val"
 	1    4825 10875
 	1    0    0    -1  
 $EndComp
+$Comp
+L artix-dc-scm:R_10k_0402 R113
+U 1 1 5FFC6E4F
+P 8600 8950
+F 0 "R113" H 8475 9050 60  0000 L CNN
+F 1 "R_10k_0402" H 8600 8800 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 8800 9150 60  0001 L CNN
+F 3 "" H 8600 8950 50  0001 C CNN
+F 4 "VISHAY" H 8800 9350 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 8800 9250 60  0001 L CNN "MPN"
+F 6 "10k" H 8550 8950 50  0000 L CNN "Val"
+	1    8600 8950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8350 8950 8450 8950
+Wire Wire Line
+	8750 8950 9000 8950
+$Comp
+L artix-dc-scm:C_10u_0402 C155
+U 1 1 60068359
+P 6100 7300
+F 0 "C155" H 6125 7400 60  0000 L CNN
+F 1 "C_10u_0402" H 6100 7150 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6300 7500 60  0001 L CNN
+F 3 "" H 6100 7300 50  0001 C CNN
+F 4 "MURATA" H 6300 7700 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 6300 7600 60  0001 L CNN "MPN"
+F 6 "10u" H 6125 7200 50  0000 L CNN "Val"
+	1    6100 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 7150 6100 7025
+Connection ~ 6100 7025
+Wire Wire Line
+	6100 7025 6400 7025
+Wire Wire Line
+	6100 7450 6100 7525
+Connection ~ 6100 7525
+Wire Wire Line
+	7850 7025 8400 7025
 $EndSCHEMATC
