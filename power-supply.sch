@@ -74,7 +74,7 @@ Wire Wire Line
 Connection ~ 14575 1350
 Wire Wire Line
 	14575 1350 14875 1350
-Text Notes 14850 1025 0    50   ~ 0
+Text Notes 14850 1075 0    50   ~ 0
 3.3V/3A
 NoConn ~ -625 5725
 $Comp
@@ -311,8 +311,8 @@ $Comp
 L artix-dc-scm:PDS760-13 D3
 U 1 1 60F104BF
 P 5725 4350
-F 0 "D3" H 5808 4403 60  0000 L CNN
-F 1 "PDS760-13" H 5650 4250 60  0000 L CNN
+F 0 "D3" H 5600 4250 60  0000 L CNN
+F 1 "PDS760-13" V 5850 4050 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:PDS760-13" H 5725 4350 60  0001 C CNN
 F 3 "" H 5725 4350 60  0001 C CNN
 F 4 "Diodes Inc." H 5725 4350 50  0001 C CNN "Manufacturer"
@@ -526,7 +526,7 @@ Wire Wire Line
 	7150 4425 7375 4425
 Wire Wire Line
 	7150 4425 7150 4600
-Text Notes 3750 2750 0    118  ~ 0
+Text Notes 3750 2750 0    118  ~ 24
 MainSupply (5V 5A)
 $Comp
 L artix-dc-scm:C_10u_0402 C75
@@ -988,9 +988,9 @@ Wire Wire Line
 	15300 4950 15300 5100
 Wire Wire Line
 	12975 5400 13300 5400
-Text Notes 15475 3075 0    50   ~ 0
+Text Notes 14875 3000 0    50   ~ 0
 1.8V/3A
-Text Notes 15625 4850 0    50   ~ 0
+Text Notes 14875 4775 0    50   ~ 0
 1.35V/3A
 Connection ~ 14200 5900
 Wire Wire Line
@@ -1092,17 +1092,17 @@ F 3 "" H 3700 9650 50  0001 C CNN
 	1    3700 9650
 	1    0    0    -1  
 $EndComp
-Text Notes 9450 825  0    118  ~ 0
+Text Notes 9450 825  0    118  ~ 24
 PWR_LED Indicators
 Wire Notes Line
 	475  8400 475  8425
 Text Label 5600 9100 2    50   ~ 0
 VCCIO_EN
-Text Notes 13125 950  0    118  ~ 0
+Text Notes 13125 950  0    118  ~ 24
 3V3 supply
-Text Notes 13200 2825 0    118  ~ 0
+Text Notes 13200 2825 0    118  ~ 24
 1V8 supply
-Text Notes 13150 4750 0    118  ~ 0
+Text Notes 13150 4750 0    118  ~ 24
 1V35 supply
 Wire Wire Line
 	14075 1350 14025 1350
@@ -1309,7 +1309,7 @@ Wire Wire Line
 	15275 6725 15275 6825
 Wire Wire Line
 	12950 7125 13275 7125
-Text Notes 15675 6575 0    50   ~ 0
+Text Notes 14900 6550 0    50   ~ 0
 1.0V/3A
 Connection ~ 14175 7625
 Wire Wire Line
@@ -1325,7 +1325,7 @@ F 3 "" H 14175 7775 50  0001 C CNN
 	1    14175 7775
 	1    0    0    -1  
 $EndComp
-Text Notes 13125 6475 0    118  ~ 0
+Text Notes 13125 6475 0    118  ~ 24
 1V0 supply
 Wire Wire Line
 	14125 6825 14075 6825
@@ -1333,8 +1333,8 @@ $Comp
 L artix-dc-scm:LM3881MME_NOPB U9
 U 1 1 6113B8AB
 P 4500 9000
-F 0 "U9" H 4250 9325 50  0000 C CNN
-F 1 "LM3881MME_NOPB" H 4575 9275 50  0000 C CNN
+F 0 "U9" H 4475 9350 50  0000 C CNN
+F 1 "LM3881MME_NOPB" H 4475 9250 50  0000 C CNN
 F 2 "artix-dc-scm-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 4500 9400 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm3881.pdf" H 4500 9500 50  0001 L CNN
 F 4 "Texas Instruments" H 4500 9600 50  0001 L CNN "Manufacturer"
@@ -1363,13 +1363,13 @@ $Comp
 L artix-dc-scm:R_1k_0402 R63
 U 1 1 5FFECF1E
 P 4975 8575
-F 0 "R63" V 4930 8645 60  0000 L CNN
+F 0 "R63" H 5100 8550 60  0000 L CNN
 F 1 "R_1k_0402" H 4975 8425 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 5175 8775 60  0001 L CNN
 F 3 "" H 4975 8575 50  0001 C CNN
 F 4 "BOURNS" H 5175 8975 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 5175 8875 60  0001 L CNN "MPN"
-F 6 "1k" V 5028 8645 50  0000 L CNN "Val"
+F 6 "1k" H 4950 8575 50  0000 L CNN "Val"
 	1    4975 8575
 	0    1    1    0   
 $EndComp
@@ -1377,13 +1377,13 @@ $Comp
 L artix-dc-scm:R_1k_0402 R64
 U 1 1 5FFED382
 P 5075 8575
-F 0 "R64" V 5030 8645 60  0000 L CNN
+F 0 "R64" H 5200 8550 60  0000 L CNN
 F 1 "R_1k_0402" H 5075 8425 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 5275 8775 60  0001 L CNN
 F 3 "" H 5075 8575 50  0001 C CNN
 F 4 "BOURNS" H 5275 8975 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 5275 8875 60  0001 L CNN "MPN"
-F 6 "1k" V 5128 8645 50  0000 L CNN "Val"
+F 6 "1k" H 5050 8575 50  0000 L CNN "Val"
 	1    5075 8575
 	0    1    1    0   
 $EndComp
@@ -1391,13 +1391,13 @@ $Comp
 L artix-dc-scm:R_1k_0402 R65
 U 1 1 5FFED63B
 P 5175 8575
-F 0 "R65" V 5130 8645 60  0000 L CNN
+F 0 "R65" H 5300 8550 60  0000 L CNN
 F 1 "R_1k_0402" H 5175 8425 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 5375 8775 60  0001 L CNN
 F 3 "" H 5175 8575 50  0001 C CNN
 F 4 "BOURNS" H 5375 8975 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 5375 8875 60  0001 L CNN "MPN"
-F 6 "1k" V 5228 8645 50  0000 L CNN "Val"
+F 6 "1k" H 5150 8575 50  0000 L CNN "Val"
 	1    5175 8575
 	0    1    1    0   
 $EndComp
@@ -1474,7 +1474,7 @@ $Comp
 L artix-dc-scm:LG_L29K-G2J1-24-Z D8
 U 1 1 60986D60
 P 10525 2250
-F 0 "D8" H 10550 2150 60  0000 L CNN
+F 0 "D8" H 10450 2100 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9650 2475 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10725 2450 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10725 2550 60  0001 L CNN
@@ -1551,7 +1551,7 @@ $Comp
 L artix-dc-scm:LG_L29K-G2J1-24-Z D6
 U 1 1 60986D95
 P 10475 3475
-F 0 "D6" H 10500 3375 60  0000 L CNN
+F 0 "D6" H 10400 3325 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9600 3700 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10675 3675 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10675 3775 60  0001 L CNN
@@ -1628,7 +1628,7 @@ $Comp
 L artix-dc-scm:LG_L29K-G2J1-24-Z D7
 U 1 1 60986DCA
 P 10500 4700
-F 0 "D7" H 10525 4600 60  0000 L CNN
+F 0 "D7" H 10425 4525 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9625 4925 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10700 4900 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10700 5000 60  0001 L CNN
@@ -1698,7 +1698,7 @@ $Comp
 L artix-dc-scm:LG_L29K-G2J1-24-Z D4
 U 1 1 60986DFE
 P 10450 5975
-F 0 "D4" H 10475 5875 60  0000 L CNN
+F 0 "D4" H 10375 5825 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9575 6200 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10650 6175 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10650 6275 60  0001 L CNN
@@ -1748,7 +1748,7 @@ $Comp
 L artix-dc-scm:LG_L29K-G2J1-24-Z D5
 U 1 1 60986E30
 P 10450 7175
-F 0 "D5" H 10475 7075 60  0000 L CNN
+F 0 "D5" H 10375 7025 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9575 7400 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10650 7375 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10650 7475 60  0001 L CNN
@@ -1864,19 +1864,19 @@ Wire Wire Line
 	2250 1725 2250 1825
 Text GLabel 1625 2250 0    50   Input ~ 0
 P12V_AUX
-Text Notes 1300 925  0    118  ~ 0
+Text Notes 1300 925  0    118  ~ 24
 External 12V supply
 $Comp
 L artix-dc-scm:R_1k_0402 R62
 U 1 1 6003348A
 P 3725 8625
-F 0 "R62" V 3680 8695 60  0000 L CNN
+F 0 "R62" H 3650 8725 60  0000 L CNN
 F 1 "R_1k_0402" H 3725 8475 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-res" H 3925 8825 60  0001 L CNN
 F 3 "" H 3725 8625 50  0001 C CNN
 F 4 "BOURNS" H 3925 9025 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 3925 8925 60  0001 L CNN "MPN"
-F 6 "1k" V 3778 8695 50  0000 L CNN "Val"
+F 6 "1k" H 3675 8625 50  0000 L CNN "Val"
 	1    3725 8625
 	0    1    1    0   
 $EndComp
@@ -1927,13 +1927,13 @@ $Comp
 L artix-dc-scm:C_10u_25V_0603 C14
 U 1 1 619949C4
 P 3200 1675
-F 0 "C14" H 3315 1720 60  0000 L CNN
+F 0 "C14" V 3125 1725 60  0000 L CNN
 F 1 "C_10u_25V_0603" H 3200 1525 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0603-cap" H 3400 1875 60  0001 L CNN
 F 3 "" H 3200 1675 50  0001 C CNN
 F 4 "TDK" H 3400 2075 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1E106M080AC" H 3400 1975 60  0001 L CNN "MPN"
-F 6 "10u/25V" H 3315 1622 50  0000 L CNN "Val"
+F 6 "10u/25V" V 3325 1500 50  0000 L CNN "Val"
 	1    3200 1675
 	1    0    0    -1  
 $EndComp
@@ -1941,13 +1941,13 @@ $Comp
 L artix-dc-scm:C_10u_25V_0603 C15
 U 1 1 619975A1
 P 3475 1675
-F 0 "C15" H 3590 1720 60  0000 L CNN
+F 0 "C15" V 3400 1725 60  0000 L CNN
 F 1 "C_10u_25V_0603" H 3475 1525 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0603-cap" H 3675 1875 60  0001 L CNN
 F 3 "" H 3475 1675 50  0001 C CNN
 F 4 "TDK" H 3675 2075 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1E106M080AC" H 3675 1975 60  0001 L CNN "MPN"
-F 6 "10u/25V" H 3590 1622 50  0000 L CNN "Val"
+F 6 "10u/25V" V 3600 1500 50  0000 L CNN "Val"
 	1    3475 1675
 	1    0    0    -1  
 $EndComp
@@ -1955,13 +1955,13 @@ $Comp
 L artix-dc-scm:C_10u_25V_0603 C16
 U 1 1 619977B0
 P 3750 1675
-F 0 "C16" H 3865 1720 60  0000 L CNN
+F 0 "C16" V 3700 1725 60  0000 L CNN
 F 1 "C_10u_25V_0603" H 3750 1525 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0603-cap" H 3950 1875 60  0001 L CNN
 F 3 "" H 3750 1675 50  0001 C CNN
 F 4 "TDK" H 3950 2075 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1E106M080AC" H 3950 1975 60  0001 L CNN "MPN"
-F 6 "10u/25V" H 3865 1622 50  0000 L CNN "Val"
+F 6 "10u/25V" V 3875 1500 50  0000 L CNN "Val"
 	1    3750 1675
 	1    0    0    -1  
 $EndComp
@@ -1969,7 +1969,7 @@ $Comp
 L artix-dc-scm:C_100n_0402_16V C17
 U 1 1 619982FA
 P 4025 1675
-F 0 "C17" H 4140 1720 60  0000 L CNN
+F 0 "C17" H 4075 1775 60  0000 L CNN
 F 1 "C_100n_0402_16V" H 4025 1525 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 4225 1875 60  0001 L CNN
 F 3 "" H 4025 1675 50  0001 C CNN
@@ -2581,7 +2581,7 @@ Wire Wire Line
 	15275 8450 15275 8550
 Wire Wire Line
 	12950 8850 13275 8850
-Text Notes 15525 8025 0    50   ~ 0
+Text Notes 14900 8275 0    50   ~ 0
 1.2V/3A
 Connection ~ 14175 9350
 Wire Wire Line
@@ -2597,7 +2597,7 @@ F 3 "" H 14175 9500 50  0001 C CNN
 	1    14175 9500
 	1    0    0    -1  
 $EndComp
-Text Notes 13125 8200 0    118  ~ 0
+Text Notes 13125 8200 0    118  ~ 24
 1V2 supply
 Wire Wire Line
 	14125 8550 14075 8550
@@ -2617,8 +2617,6 @@ F 6 "0R" V 12432 8770 50  0000 L CNN "Val"
 	1    12425 8700
 	-1   0    0    1   
 $EndComp
-Text Label 12275 8700 2    50   ~ 0
-VCCINT_EN
 Wire Wire Line
 	12575 8700 13275 8700
 Wire Wire Line
@@ -2650,8 +2648,6 @@ F 6 "0R" V 15328 8370 50  0000 L CNN "Val"
 	1    15275 8300
 	0    1    1    0   
 $EndComp
-Text Notes 10625 8675 0    50   ~ 0
-TODO: decide when should this voltage be enabled\n(power sequencer)
 $Comp
 L artix-dc-scm:R_100k_0402 R186
 U 1 1 6021195E
@@ -2694,7 +2690,7 @@ $Comp
 L artix-dc-scm:LG_L29K-G2J1-24-Z D14
 U 1 1 60252530
 P 10525 1150
-F 0 "D14" H 10550 1050 60  0000 L CNN
+F 0 "D14" H 10425 1000 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" H 9650 1375 60  0000 L CNN
 F 2 "artix-dc-scm-footprints:LED_0603" H 10725 1350 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10725 1450 60  0001 L CNN
@@ -2760,4 +2756,6 @@ F 5 "ON Semiconductor" H 10525 2750 60  0001 L CNN "Manufacturer"
 	1    10325 1650
 	1    0    0    -1  
 $EndComp
+Text Label 12225 8700 2    50   ~ 0
+VCCIO_EN
 $EndSCHEMATC
