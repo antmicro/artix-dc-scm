@@ -1723,12 +1723,14 @@ F 6 "4u7" H 13665 2997 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C152
+L artix-dc-scm:C_470n_0201 C152
 U 1 1 603575F3
 P 11500 4350
+AR Path="/603575F3" Ref="C152"  Part="1" 
+AR Path="/5FD86C51/603575F3" Ref="C152"  Part="1" 
 F 0 "C152" H 11615 4395 60  0000 L CNN
 F 1 "C_470n_0402" H 11500 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 11700 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 11700 4550 60  0001 L CNN
 F 3 "" H 11500 4350 50  0001 C CNN
 F 4 "TDK" H 11700 4750 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 11700 4650 60  0001 L CNN "MPN"
@@ -1737,12 +1739,14 @@ F 6 "470n" H 11615 4297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C153
+L artix-dc-scm:C_470n_0201 C153
 U 1 1 60357C64
 P 11800 4350
+AR Path="/60357C64" Ref="C153"  Part="1" 
+AR Path="/5FD86C51/60357C64" Ref="C153"  Part="1" 
 F 0 "C153" H 11915 4395 60  0000 L CNN
 F 1 "C_470n_0402" H 11800 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 12000 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 12000 4550 60  0001 L CNN
 F 3 "" H 11800 4350 50  0001 C CNN
 F 4 "TDK" H 12000 4750 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 12000 4650 60  0001 L CNN "MPN"
@@ -1751,12 +1755,14 @@ F 6 "470n" H 11915 4297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C157
+L artix-dc-scm:C_470n_0201 C157
 U 1 1 603583CC
 P 12400 4350
+AR Path="/603583CC" Ref="C157"  Part="1" 
+AR Path="/5FD86C51/603583CC" Ref="C157"  Part="1" 
 F 0 "C157" H 12515 4395 60  0000 L CNN
 F 1 "C_470n_0402" H 12400 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 12600 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 12600 4550 60  0001 L CNN
 F 3 "" H 12400 4350 50  0001 C CNN
 F 4 "TDK" H 12600 4750 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 12600 4650 60  0001 L CNN "MPN"
@@ -1765,12 +1771,14 @@ F 6 "470n" H 12515 4297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C159
+L artix-dc-scm:C_470n_0201 C159
 U 1 1 6035880F
 P 12700 4350
+AR Path="/6035880F" Ref="C159"  Part="1" 
+AR Path="/5FD86C51/6035880F" Ref="C159"  Part="1" 
 F 0 "C159" H 12815 4395 60  0000 L CNN
 F 1 "C_470n_0402" H 12700 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 12900 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 12900 4550 60  0001 L CNN
 F 3 "" H 12700 4350 50  0001 C CNN
 F 4 "TDK" H 12900 4750 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 12900 4650 60  0001 L CNN "MPN"
@@ -1779,12 +1787,14 @@ F 6 "470n" H 12815 4297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C161
+L artix-dc-scm:C_470n_0201 C161
 U 1 1 60358B3A
 P 13000 4350
+AR Path="/60358B3A" Ref="C161"  Part="1" 
+AR Path="/5FD86C51/60358B3A" Ref="C161"  Part="1" 
 F 0 "C161" H 13115 4395 60  0000 L CNN
 F 1 "C_470n_0402" H 13000 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 13200 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 13200 4550 60  0001 L CNN
 F 3 "" H 13000 4350 50  0001 C CNN
 F 4 "TDK" H 13200 4750 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 13200 4650 60  0001 L CNN "MPN"
@@ -1793,12 +1803,14 @@ F 6 "470n" H 13115 4297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C163
+L artix-dc-scm:C_470n_0201 C163
 U 1 1 60358ED9
 P 13300 4350
+AR Path="/60358ED9" Ref="C163"  Part="1" 
+AR Path="/5FD86C51/60358ED9" Ref="C163"  Part="1" 
 F 0 "C163" H 13415 4395 60  0000 L CNN
 F 1 "C_470n_0402" H 13300 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 13500 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 13500 4550 60  0001 L CNN
 F 3 "" H 13300 4350 50  0001 C CNN
 F 4 "TDK" H 13500 4750 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 13500 4650 60  0001 L CNN "MPN"
@@ -1807,12 +1819,14 @@ F 6 "470n" H 13415 4297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C165
+L artix-dc-scm:C_470n_0201 C165
 U 1 1 60359FF4
 P 13600 4350
+AR Path="/60359FF4" Ref="C165"  Part="1" 
+AR Path="/5FD86C51/60359FF4" Ref="C165"  Part="1" 
 F 0 "C165" H 13715 4395 60  0000 L CNN
 F 1 "C_470n_0402" H 13600 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 13800 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 13800 4550 60  0001 L CNN
 F 3 "" H 13600 4350 50  0001 C CNN
 F 4 "TDK" H 13800 4750 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 13800 4650 60  0001 L CNN "MPN"
@@ -1835,12 +1849,14 @@ F 6 "470n" H 14015 4297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C171
+L artix-dc-scm:C_470n_0201 C171
 U 1 1 6035AD1D
 P 14450 4350
+AR Path="/6035AD1D" Ref="C171"  Part="1" 
+AR Path="/5FD86C51/6035AD1D" Ref="C171"  Part="1" 
 F 0 "C171" H 14565 4395 60  0000 L CNN
 F 1 "C_470n_0402" H 14450 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 14650 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 14650 4550 60  0001 L CNN
 F 3 "" H 14450 4350 50  0001 C CNN
 F 4 "TDK" H 14650 4750 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 14650 4650 60  0001 L CNN "MPN"
@@ -1849,12 +1865,14 @@ F 6 "470n" H 14565 4297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C175
+L artix-dc-scm:C_470n_0201 C175
 U 1 1 6035C6A9
 P 15050 4350
+AR Path="/6035C6A9" Ref="C175"  Part="1" 
+AR Path="/5FD86C51/6035C6A9" Ref="C175"  Part="1" 
 F 0 "C175" H 15165 4395 60  0000 L CNN
 F 1 "C_470n_0402" H 15050 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 15250 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 15250 4550 60  0001 L CNN
 F 3 "" H 15050 4350 50  0001 C CNN
 F 4 "TDK" H 15250 4750 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 15250 4650 60  0001 L CNN "MPN"
@@ -1863,12 +1881,14 @@ F 6 "470n" H 15165 4297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C138
+L artix-dc-scm:C_470n_0201 C138
 U 1 1 603CDFCC
 P 5500 4800
+AR Path="/603CDFCC" Ref="C138"  Part="1" 
+AR Path="/5FD86C51/603CDFCC" Ref="C138"  Part="1" 
 F 0 "C138" H 5615 4845 60  0000 L CNN
 F 1 "C_470n_0402" H 5500 4650 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 5700 5000 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 5700 5000 60  0001 L CNN
 F 3 "" H 5500 4800 50  0001 C CNN
 F 4 "TDK" H 5700 5200 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 5700 5100 60  0001 L CNN "MPN"
@@ -1891,12 +1911,14 @@ F 6 "470n" H 5915 4747 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C142
+L artix-dc-scm:C_470n_0201 C142
 U 1 1 603CF11F
 P 6100 4800
+AR Path="/603CF11F" Ref="C142"  Part="1" 
+AR Path="/5FD86C51/603CF11F" Ref="C142"  Part="1" 
 F 0 "C142" H 6215 4845 60  0000 L CNN
 F 1 "C_470n_0402" H 6100 4650 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 6300 5000 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 6300 5000 60  0001 L CNN
 F 3 "" H 6100 4800 50  0001 C CNN
 F 4 "TDK" H 6300 5200 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 6300 5100 60  0001 L CNN "MPN"
@@ -1919,12 +1941,14 @@ F 6 "470n" H 6565 2947 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C146
+L artix-dc-scm:C_470n_0201 C146
 U 1 1 6042206F
 P 6750 3000
+AR Path="/6042206F" Ref="C146"  Part="1" 
+AR Path="/5FD86C51/6042206F" Ref="C146"  Part="1" 
 F 0 "C146" H 6865 3045 60  0000 L CNN
 F 1 "C_470n_0402" H 6750 2850 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 6950 3200 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 6950 3200 60  0001 L CNN
 F 3 "" H 6750 3000 50  0001 C CNN
 F 4 "TDK" H 6950 3400 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 6950 3300 60  0001 L CNN "MPN"
@@ -2833,12 +2857,14 @@ Connection ~ 14925 7200
 Wire Wire Line
 	14925 7200 15350 7200
 $Comp
-L antmicroCapacitorsmisc:C_470n_0201 C242
+L artix-dc-scm:C_470n_0201 C242
 U 1 1 60B881B2
 P 4650 3625
+AR Path="/60B881B2" Ref="C242"  Part="1" 
+AR Path="/5FD86C51/60B881B2" Ref="C242"  Part="1" 
 F 0 "C242" H 4765 3670 60  0000 L CNN
 F 1 "C_470n_0402" H 4650 3475 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 4850 3825 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0201-res" H 4850 3825 60  0001 L CNN
 F 3 "" H 4650 3625 50  0001 C CNN
 F 4 "TDK" H 4850 4025 60  0001 L CNN "Manufacturer"
 F 5 "C0603X5R1A474M030BC" H 4850 3925 60  0001 L CNN "MPN"
