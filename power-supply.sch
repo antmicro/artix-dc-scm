@@ -1965,20 +1965,6 @@ F 6 "10u/25V" V 3875 1500 50  0000 L CNN "Val"
 	1    3750 1675
 	1    0    0    -1  
 $EndComp
-$Comp
-L artix-dc-scm:C_100n_0402_16V C17
-U 1 1 619982FA
-P 4025 1675
-F 0 "C17" H 4075 1775 60  0000 L CNN
-F 1 "C_100n_0402_16V" H 4025 1525 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 4225 1875 60  0001 L CNN
-F 3 "" H 4025 1675 50  0001 C CNN
-F 4 "MULTICOMP" H 4225 2075 60  0001 L CNN "Manufacturer"
-F 5 "MC0402B104K160CT" H 4225 1975 60  0001 L CNN "MPN"
-F 6 "100n" H 4140 1622 50  0000 L CNN "Val"
-	1    4025 1675
-	1    0    0    -1  
-$EndComp
 Text GLabel 3200 1375 1    50   Input ~ 0
 VCC12V
 $Comp
@@ -1998,16 +1984,11 @@ Wire Wire Line
 	3200 1825 3200 1900
 Wire Wire Line
 	3200 1450 3475 1450
-Wire Wire Line
-	4025 1450 4025 1525
 Connection ~ 3200 1450
 Wire Wire Line
 	3200 1450 3200 1525
 Wire Wire Line
 	3750 1525 3750 1450
-Connection ~ 3750 1450
-Wire Wire Line
-	3750 1450 4025 1450
 Wire Wire Line
 	3475 1525 3475 1450
 Connection ~ 3475 1450
@@ -2020,14 +2001,9 @@ Wire Wire Line
 Connection ~ 3200 1900
 Wire Wire Line
 	3200 1900 3200 2000
-Wire Wire Line
-	4025 1825 4025 1900
-Wire Wire Line
-	4025 1900 3750 1900
 Connection ~ 3475 1900
 Wire Wire Line
 	3750 1825 3750 1900
-Connection ~ 3750 1900
 Wire Wire Line
 	3750 1900 3475 1900
 Text GLabel 2350 4075 1    50   Input ~ 0
