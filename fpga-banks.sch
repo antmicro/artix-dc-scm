@@ -1932,9 +1932,9 @@ Wire Wire Line
 	9500 4350 9700 4350
 Text GLabel 6375 5550 0    50   Output ~ 0
 ETH_INT_N
-Text GLabel 6375 5450 0    50   Output ~ 0
+Text GLabel 6375 4450 0    50   Output ~ 0
 RGMII_REF_CLK
-Text GLabel 6375 3950 0    50   Output ~ 0
+Text GLabel 6375 4650 0    50   Output ~ 0
 RGMII_RX_CLK
 Text GLabel 6375 3850 0    50   Output ~ 0
 RGMII_RXD3
@@ -1944,7 +1944,7 @@ Text GLabel 6375 4050 0    50   Output ~ 0
 RGMII_RXD1
 Text GLabel 6375 4850 0    50   Output ~ 0
 RGMII_RXD0
-Text GLabel 6375 3350 0    50   Input ~ 0
+Text GLabel 6375 4350 0    50   Input ~ 0
 RGMII_TX_CLK
 Text GLabel 6375 4250 0    50   Input ~ 0
 RGMII_TXD3
@@ -1954,9 +1954,9 @@ Text GLabel 6375 3550 0    50   Input ~ 0
 RGMII_TXD1
 Text GLabel 6375 3650 0    50   Input ~ 0
 RGMII_TXD0
-Text GLabel 6375 4150 0    50   Input ~ 0
+Text GLabel 6375 3350 0    50   Input ~ 0
 RGMII_TX_DV
-Text GLabel 6375 5650 0    50   BiDi ~ 0
+Text GLabel 6375 3950 0    50   BiDi ~ 0
 ETH_MDIO
 Text GLabel 6375 4950 0    50   Input ~ 0
 ETH_MDC
