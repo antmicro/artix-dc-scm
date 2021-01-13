@@ -1152,8 +1152,6 @@ F 3 "" H 12675 7750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14175 7275 14075 7275
-Text Label 12950 7125 0    50   ~ 0
-1V0_PG
 Wire Wire Line
 	14175 7625 14925 7625
 Wire Wire Line
@@ -1307,8 +1305,6 @@ Text GLabel 15275 6425 1    50   Input ~ 0
 VCC1V0
 Wire Wire Line
 	15275 6725 15275 6825
-Wire Wire Line
-	12950 7125 13275 7125
 Text Notes 14900 6550 0    50   ~ 0
 1.0V/3A
 Connection ~ 14175 7625
@@ -1796,11 +1792,7 @@ Text Label 9600 7775 0    50   ~ 0
 PWR_EN
 Wire Wire Line
 	9650 6575 9650 6675
-Wire Wire Line
-	9650 6675 9250 6675
 Connection ~ 9650 6575
-Text Label 9250 6675 0    50   ~ 0
-1V0_PG
 $Comp
 L artix-dc-scm:R_0R_1206 R69
 U 1 1 5FE11461
@@ -1906,10 +1898,6 @@ $EndComp
 Text GLabel 9650 2300 0    50   Input ~ 0
 VCC5V0
 Text GLabel 9625 3525 0    50   Input ~ 0
-VCC5V0
-Text GLabel 9625 4750 0    50   Input ~ 0
-VCC5V0
-Text GLabel 9575 6025 0    50   Input ~ 0
 VCC5V0
 Wire Wire Line
 	12700 4700 12525 4700
@@ -2734,4 +2722,16 @@ F 5 "ON Semiconductor" H 10525 2750 60  0001 L CNN "Manufacturer"
 $EndComp
 Text Label 12225 8700 2    50   ~ 0
 VCCIO_EN
+Text GLabel 9625 4750 0    50   Input ~ 0
+VCC5V0
+Text GLabel 9575 6025 0    50   Input ~ 0
+VCC3V3
+Text GLabel 13275 7125 0    50   Input ~ 0
+1V0_PG
+Wire Wire Line
+	9650 6675 9600 6675
+Text GLabel 9600 6675 0    50   Input ~ 0
+1V0_PG
+Text Notes 8825 5925 0    50   ~ 0
+3v3 required by I3C translator
 $EndSCHEMATC

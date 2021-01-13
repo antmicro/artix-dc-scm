@@ -24,94 +24,6 @@ JTAG_TMS
 Text Notes 2000 1950 0    118  ~ 24
 JTAG
 $Comp
-L artix-dc-scm:NVT2008DQ,115-artix-dc-scm U6
-U 1 1 628E0C73
-P 5000 6025
-F 0 "U6" H 5000 6540 50  0000 C CNN
-F 1 "NVT2008DQ,115" H 5000 6449 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:QFN50P250X450X100-21N" H 5700 6775 50  0001 C CNN
-F 3 "" H 5650 6775 50  0001 C CNN
-F 4 "NVT2008BQ,115" H 5300 6875 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 5400 6975 50  0001 C CNN "Manufacturer"
-	1    5000 6025
-	1    0    0    -1  
-$EndComp
-Text GLabel 4300 6025 0    50   Input ~ 0
-I3C[0]_SDA_3V3
-Text GLabel 4300 6225 0    50   Input ~ 0
-I3C[1]_SDA_3V3
-Text GLabel 4300 6125 0    50   Input ~ 0
-I3C[1]_SCL_3V3
-Text GLabel 4300 6425 0    50   Input ~ 0
-I3C[2]_SDA_3V3
-Text GLabel 4300 6325 0    50   Input ~ 0
-I3C[2]_SCL_3V3
-Text GLabel 4300 6625 0    50   Input ~ 0
-I3C[3]_SDA_3V3
-Text GLabel 4300 6525 0    50   Input ~ 0
-I3C[3]_SCL_3V3
-Text GLabel 4300 5925 0    50   Input ~ 0
-I3C[0]_SCL_3V3
-Text GLabel 5700 5775 2    50   Input ~ 0
-VCC1V0
-$Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR032
-U 1 1 628E4783
-P 4475 7250
-F 0 "#PWR032" H 4475 7000 50  0001 C CNN
-F 1 "GND" H 4480 7077 50  0000 C CNN
-F 2 "" H 4475 7250 50  0001 C CNN
-F 3 "" H 4475 7250 50  0001 C CNN
-	1    4475 7250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 6775 4475 6775
-Wire Wire Line
-	4475 6775 4475 7250
-Wire Wire Line
-	4600 5925 4300 5925
-Wire Wire Line
-	4600 6025 4300 6025
-Wire Wire Line
-	4600 6125 4300 6125
-Wire Wire Line
-	4600 6225 4300 6225
-Wire Wire Line
-	4600 6325 4300 6325
-Wire Wire Line
-	4600 6425 4300 6425
-Wire Wire Line
-	4600 6525 4300 6525
-Wire Wire Line
-	4600 6625 4300 6625
-Wire Wire Line
-	5400 5925 5700 5925
-Wire Wire Line
-	5400 6025 5700 6025
-Wire Wire Line
-	5400 6125 5700 6125
-Wire Wire Line
-	5400 6225 5700 6225
-Wire Wire Line
-	5400 6325 5700 6325
-Wire Wire Line
-	5400 6425 5700 6425
-Wire Wire Line
-	5400 6525 5700 6525
-Wire Wire Line
-	5400 6625 5700 6625
-Text GLabel 4200 5325 0    50   Input ~ 0
-VCC3V3
-Wire Wire Line
-	4600 5775 4250 5775
-Wire Wire Line
-	5700 5775 5400 5775
-Wire Wire Line
-	6025 6775 5600 6775
-Text Label 6025 6775 2    50   ~ 0
-1V0_EN
-$Comp
 L artix-dc-scm:R_357k_0402-artix-dc-scm R46
 U 1 1 61B2DA12
 P 2225 6025
@@ -312,60 +224,6 @@ Wire Wire Line
 Connection ~ 2725 5425
 Wire Wire Line
 	2725 5425 2825 5425
-$Comp
-L artix-dc-scm:R_200k_0402-artix-dc-scm R53
-U 1 1 61B2DA1A
-P 4250 5575
-F 0 "R53" V 4205 5645 60  0000 L CNN
-F 1 "R_200k_0402" H 4250 5425 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 4450 5775 60  0001 L CNN
-F 3 "" H 4250 5575 50  0001 C CNN
-F 4 "YAGEO_(PHYCOMP)" H 4450 5975 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-07200KL" H 4450 5875 60  0001 L CNN "MPN"
-F 6 "200k" V 4303 5645 50  0000 L CNN "Val"
-	1    4250 5575
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4250 5775 4250 5725
-Wire Wire Line
-	4250 5425 4250 5325
-Wire Wire Line
-	4200 5325 4250 5325
-Text Label 4300 5775 0    50   ~ 0
-1V0_EN
-$Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C39
-U 1 1 61B2DA1B
-P 5600 6975
-F 0 "C39" H 5485 6930 60  0000 R CNN
-F 1 "C_100n_0402" H 5600 6825 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 5800 7175 60  0001 L CNN
-F 3 "" H 5600 6975 50  0001 C CNN
-F 4 "Walsin" H 5800 7375 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 5800 7275 60  0001 L CNN "MPN"
-F 6 "100n" H 5485 7028 50  0000 R CNN "Val"
-	1    5600 6975
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5600 6775 5600 6825
-Connection ~ 5600 6775
-Wire Wire Line
-	5600 6775 5350 6775
-$Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR034
-U 1 1 61B2DA1C
-P 5600 7250
-F 0 "#PWR034" H 5600 7000 50  0001 C CNN
-F 1 "GND" H 5605 7077 50  0000 C CNN
-F 2 "" H 5600 7250 50  0001 C CNN
-F 3 "" H 5600 7250 50  0001 C CNN
-	1    5600 7250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 7125 5600 7250
 Text Notes 2200 4900 0    118  ~ 24
 I3C voltage level translation
 $Comp
@@ -495,22 +353,6 @@ Wire Wire Line
 	1900 2850 2125 2850
 Wire Wire Line
 	2125 2850 2125 2725
-Text GLabel 5700 5925 2    50   Input ~ 0
-I3C[0]_SCL
-Text GLabel 5700 6025 2    50   Input ~ 0
-I3C[0]_SDA
-Text GLabel 5700 6125 2    50   Input ~ 0
-I3C[1]_SCL
-Text GLabel 5700 6225 2    50   Input ~ 0
-I3C[1]_SDA
-Text GLabel 5700 6325 2    50   Input ~ 0
-I3C[2]_SCL
-Text GLabel 5700 6425 2    50   Input ~ 0
-I3C[2]_SDA
-Text GLabel 5700 6525 2    50   Input ~ 0
-I3C[3]_SCL
-Text GLabel 5700 6625 2    50   Input ~ 0
-I3C[3]_SDA
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C189
 U 1 1 5FF88081
@@ -2372,4 +2214,195 @@ Text GLabel 3275 10400 1    50   Input ~ 0
 VCC3V3
 Text Notes 4650 1350 0    50   ~ 0
 TODO: The PCIe x1 connection must be confirmed by synthesis
+$Comp
+L artix-dc-scm:NVT2008DQ,115-artix-dc-scm U6
+U 1 1 628E0C73
+P 5000 6025
+F 0 "U6" H 5000 6540 50  0000 C CNN
+F 1 "NVT2008DQ,115" H 5000 6449 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:QFN50P250X450X100-21N" H 5700 6775 50  0001 C CNN
+F 3 "" H 5650 6775 50  0001 C CNN
+F 4 "NVT2008BQ,115" H 5300 6875 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 5400 6975 50  0001 C CNN "Manufacturer"
+	1    5000 6025
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 7125 4450 7250
+$Comp
+L artix-dc-scm:GND-artix-dc-scm #PWR034
+U 1 1 61B2DA1C
+P 4450 7250
+F 0 "#PWR034" H 4450 7000 50  0001 C CNN
+F 1 "GND" H 4455 7077 50  0000 C CNN
+F 2 "" H 4450 7250 50  0001 C CNN
+F 3 "" H 4450 7250 50  0001 C CNN
+	1    4450 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 6775 4650 6775
+Connection ~ 4450 6775
+Wire Wire Line
+	4450 6775 4450 6825
+$Comp
+L artix-dc-scm:C_100n_0402-artix-dc-scm C39
+U 1 1 61B2DA1B
+P 4450 6975
+F 0 "C39" H 4335 6930 60  0000 R CNN
+F 1 "C_100n_0402" H 4450 6825 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 4650 7175 60  0001 L CNN
+F 3 "" H 4450 6975 50  0001 C CNN
+F 4 "Walsin" H 4650 7375 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4650 7275 60  0001 L CNN "MPN"
+F 6 "100n" H 4335 7028 50  0000 R CNN "Val"
+	1    4450 6975
+	1    0    0    1   
+$EndComp
+Text Label 4025 6775 0    50   ~ 0
+1V0_EN
+Wire Wire Line
+	4025 6775 4450 6775
+Wire Wire Line
+	5700 5775 5400 5775
+Wire Wire Line
+	5400 5925 5700 5925
+Wire Wire Line
+	5400 6025 5700 6025
+Wire Wire Line
+	5400 6125 5700 6125
+Wire Wire Line
+	5400 6225 5700 6225
+Wire Wire Line
+	5400 6325 5700 6325
+Wire Wire Line
+	5400 6425 5700 6425
+Wire Wire Line
+	5400 6525 5700 6525
+Wire Wire Line
+	5400 6625 5700 6625
+Text GLabel 5700 5775 2    50   Input ~ 0
+VCC1V0
+Wire Wire Line
+	4250 5775 4250 5725
+$Comp
+L artix-dc-scm:R_200k_0402-artix-dc-scm R53
+U 1 1 61B2DA1A
+P 4250 5575
+F 0 "R53" V 4205 5645 60  0000 L CNN
+F 1 "R_200k_0402" H 4250 5425 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4450 5775 60  0001 L CNN
+F 3 "" H 4250 5575 50  0001 C CNN
+F 4 "YAGEO_(PHYCOMP)" H 4450 5975 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200KL" H 4450 5875 60  0001 L CNN "MPN"
+F 6 "200k" V 4303 5645 50  0000 L CNN "Val"
+	1    4250 5575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 5775 4250 5775
+Wire Wire Line
+	4600 5925 4300 5925
+Wire Wire Line
+	4600 6025 4300 6025
+Wire Wire Line
+	4600 6125 4300 6125
+Wire Wire Line
+	4600 6225 4300 6225
+Wire Wire Line
+	4600 6325 4300 6325
+Wire Wire Line
+	4600 6425 4300 6425
+Wire Wire Line
+	4600 6525 4300 6525
+Wire Wire Line
+	4600 6625 4300 6625
+Wire Wire Line
+	5575 6775 5575 7250
+Wire Wire Line
+	5400 6775 5575 6775
+$Comp
+L artix-dc-scm:GND-artix-dc-scm #PWR032
+U 1 1 628E4783
+P 5575 7250
+F 0 "#PWR032" H 5575 7000 50  0001 C CNN
+F 1 "GND" H 5580 7077 50  0000 C CNN
+F 2 "" H 5575 7250 50  0001 C CNN
+F 3 "" H 5575 7250 50  0001 C CNN
+	1    5575 7250
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4300 6625 0    50   Input ~ 0
+I3C[0]_SCL_3V3
+Text GLabel 4300 6025 0    50   Input ~ 0
+I3C[3]_SCL_3V3
+Text GLabel 4300 5925 0    50   Input ~ 0
+I3C[3]_SDA_3V3
+Text GLabel 4300 6225 0    50   Input ~ 0
+I3C[2]_SCL_3V3
+Text GLabel 4300 6125 0    50   Input ~ 0
+I3C[2]_SDA_3V3
+Text GLabel 4300 6425 0    50   Input ~ 0
+I3C[1]_SCL_3V3
+Text GLabel 4300 6325 0    50   Input ~ 0
+I3C[1]_SDA_3V3
+Text GLabel 4300 6525 0    50   Input ~ 0
+I3C[0]_SDA_3V3
+Text GLabel 4200 5325 0    50   Input ~ 0
+1V0_PG
+Text Label 4550 5775 2    50   ~ 0
+1V0_EN
+Text GLabel 5700 6625 2    50   Input ~ 0
+I3C[0]_SCL
+Text GLabel 5700 6525 2    50   Input ~ 0
+I3C[0]_SDA
+Text GLabel 5700 6425 2    50   Input ~ 0
+I3C[1]_SCL
+Text GLabel 5700 6325 2    50   Input ~ 0
+I3C[1]_SDA
+Text GLabel 5700 6225 2    50   Input ~ 0
+I3C[2]_SCL
+Text GLabel 5700 6125 2    50   Input ~ 0
+I3C[2]_SDA
+Text GLabel 5700 6025 2    50   Input ~ 0
+I3C[3]_SCL
+Text GLabel 5700 5925 2    50   Input ~ 0
+I3C[3]_SDA
+Wire Wire Line
+	5825 7125 5825 7250
+$Comp
+L artix-dc-scm:GND-artix-dc-scm #PWR0128
+U 1 1 60C1CFA2
+P 5825 7250
+F 0 "#PWR0128" H 5825 7000 50  0001 C CNN
+F 1 "GND" H 5830 7077 50  0000 C CNN
+F 2 "" H 5825 7250 50  0001 C CNN
+F 3 "" H 5825 7250 50  0001 C CNN
+	1    5825 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_100n_0402-artix-dc-scm C17
+U 1 1 60C1CFAB
+P 5825 6975
+F 0 "C17" H 5950 6900 60  0000 R CNN
+F 1 "C_100n_0402" H 5825 6825 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6025 7175 60  0001 L CNN
+F 3 "" H 5825 6975 50  0001 C CNN
+F 4 "Walsin" H 6025 7375 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6025 7275 60  0001 L CNN "MPN"
+F 6 "100n" H 6025 7075 50  0000 R CNN "Val"
+	1    5825 6975
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4250 5425 4250 5325
+Wire Wire Line
+	4200 5325 4250 5325
+Wire Wire Line
+	5900 6775 5825 6775
+Wire Wire Line
+	5825 6825 5825 6775
+Text GLabel 5900 6775 2    50   Input ~ 0
+VCC1V0
 $EndSCHEMATC
