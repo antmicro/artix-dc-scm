@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 12300 5800 0    50   Input ~ 0
-LED_SPD
 Text Notes 13900 3100 2    118  ~ 24
 RJ45 Connector
 Text GLabel 7950 9050 0    50   UnSpc ~ 0
@@ -911,7 +909,7 @@ Connection ~ 8400 3375
 Wire Wire Line
 	8400 3375 8300 3375
 Wire Wire Line
-	8500 3575 8500 3375
+	8500 3600 8500 3375
 Connection ~ 8500 3375
 Wire Wire Line
 	8500 3375 8400 3375
@@ -1525,11 +1523,9 @@ F 6 "220R" H 12600 5800 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	12300 5450 12450 5450
-Text GLabel 12300 5450 0    50   Input ~ 0
-LED_LINK
+	12000 5450 12450 5450
 Wire Wire Line
-	12300 5800 12450 5800
+	12000 5800 12450 5800
 Wire Wire Line
 	13300 5550 13250 5550
 Wire Wire Line
@@ -1666,4 +1662,8 @@ Wire Wire Line
 Connection ~ 12850 4350
 Wire Wire Line
 	12850 4350 12850 4750
+Text Label 12000 5800 0    50   ~ 0
+ETH_LED1
+Text Label 12000 5450 0    50   ~ 0
+ETH_LED2
 $EndSCHEMATC
