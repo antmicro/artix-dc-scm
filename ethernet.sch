@@ -374,13 +374,13 @@ ETH4_N
 Text Label 10175 6000 2    50   ~ 0
 ETH1_P
 Wire Wire Line
-	6100 5900 6900 5900
-Text Label 6100 5900 0    50   ~ 0
-ETH_LED1
+	6100 6000 6900 6000
 Text Label 6100 6000 0    50   ~ 0
+ETH_LED1
+Text Label 6100 5900 0    50   ~ 0
 ETH_LED2
 Wire Wire Line
-	6900 6000 6100 6000
+	6900 5900 6100 5900
 $Comp
 L artix-dc-scm:C_22p_0402 C?
 U 1 1 5FF94A22
@@ -1523,9 +1523,9 @@ F 6 "220R" H 12600 5800 50  0000 C CNN "Val"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	12000 5450 12450 5450
-Wire Wire Line
 	12000 5800 12450 5800
+Wire Wire Line
+	12000 5450 12450 5450
 Wire Wire Line
 	13300 5550 13250 5550
 Wire Wire Line
@@ -1662,8 +1662,8 @@ Wire Wire Line
 Connection ~ 12850 4350
 Wire Wire Line
 	12850 4350 12850 4750
-Text Label 12000 5800 0    50   ~ 0
-ETH_LED1
 Text Label 12000 5450 0    50   ~ 0
+ETH_LED1
+Text Label 12000 5800 0    50   ~ 0
 ETH_LED2
 $EndSCHEMATC
