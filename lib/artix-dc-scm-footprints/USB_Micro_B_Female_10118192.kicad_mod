@@ -38,4 +38,9 @@
   (pad SH smd rect (at -1.2 0) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
   (pad SH smd rect (at 3.8 0) (size 1.8 1.9) (layers F.Cu F.Paste F.Mask))
   (pad SH smd rect (at -3.8 0) (size 1.8 1.9) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/lib/3d-models/10118192C.stp
+    (offset (xyz -98 3.1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
