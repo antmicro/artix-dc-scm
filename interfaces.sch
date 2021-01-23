@@ -2765,21 +2765,6 @@ Wire Wire Line
 Connection ~ 5525 4875
 Wire Wire Line
 	5525 4875 5325 4875
-$Comp
-L artix-dc-scm:10118192-0001LF J?
-U 1 1 606A4BD2
-P 3025 5000
-AR Path="/614223A1/60643A57/606A4BD2" Ref="J?"  Part="1" 
-AR Path="/614223A1/606A4BD2" Ref="J8"  Part="1" 
-F 0 "J8" H 3089 5745 60  0000 C CNN
-F 1 "10118192-0001LF" H 3089 5639 60  0000 C CNN
-F 2 "artix-dc-scm-footprints:USB_Micro_B_Female_10118192" H 3225 5200 60  0001 L CNN
-F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 3225 5300 60  0001 L CNN
-F 4 "10118192-0001LF" H 3225 5500 60  0001 L CNN "MPN"
-F 5 "Amphenol ICC (FCI)" H 3225 6100 60  0001 L CNN "Manufacturer"
-	1    3025 5000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3325 5200 3725 5200
 Wire Wire Line
@@ -3290,39 +3275,84 @@ Wire Wire Line
 $Comp
 L artix-dc-scm:C_100n_0402 C?
 U 1 1 6022FF73
-P 4450 5075
+P 4650 5425
 AR Path="/614223A1/60643A57/6022FF73" Ref="C?"  Part="1" 
 AR Path="/614223A1/6022FF73" Ref="C174"  Part="1" 
-F 0 "C174" H 4475 5150 60  0000 L CNN
-F 1 "C_100n_0402" H 4450 4925 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 4650 5275 60  0001 L CNN
-F 3 "" H 4450 5075 50  0001 C CNN
-F 4 "Walsin" H 4650 5475 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 4650 5375 60  0001 L CNN "MPN"
-F 6 "100n" H 4450 4975 50  0000 L CNN "Val"
-	1    4450 5075
+F 0 "C174" H 4675 5500 60  0000 L CNN
+F 1 "C_100n_0402" H 4650 5275 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 4850 5625 60  0001 L CNN
+F 3 "" H 4650 5425 50  0001 C CNN
+F 4 "Walsin" H 4850 5825 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4850 5725 60  0001 L CNN "MPN"
+F 6 "100n" H 4650 5325 50  0000 L CNN "Val"
+	1    4650 5425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 5225 4450 5275
+	4650 5575 4650 5625
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR0149
 U 1 1 6022FF7A
-P 4450 5275
-F 0 "#PWR0149" H 4450 5025 50  0001 C CNN
-F 1 "GND" H 4455 5102 50  0000 C CNN
-F 2 "" H 4450 5275 50  0001 C CNN
-F 3 "" H 4450 5275 50  0001 C CNN
-	1    4450 5275
+P 4650 5625
+F 0 "#PWR0149" H 4650 5375 50  0001 C CNN
+F 1 "GND" H 4655 5452 50  0000 C CNN
+F 2 "" H 4650 5625 50  0001 C CNN
+F 3 "" H 4650 5625 50  0001 C CNN
+	1    4650 5625
 	1    0    0    -1  
 $EndComp
-Text GLabel 4575 4800 2    50   Input ~ 0
+Text GLabel 3700 4800 2    50   Input ~ 0
 VBUS
 Wire Wire Line
-	3325 4800 4450 4800
+	4650 5275 4650 5150
+$Comp
+L antmicroUSBDVIHDMIConnectors:10118192-0001LF J?
+U 1 1 60109106
+P 3025 5000
+F 0 "J?" H 3089 5745 60  0000 C CNN
+F 1 "10118192-0001LF" H 3089 5639 60  0000 C CNN
+F 2 "antmicro-footprints:USB_Micro_B_Female_10118192" H 3225 5200 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 3225 5300 60  0001 L CNN
+F 4 "10118192-0001LF" H 3225 5500 60  0001 L CNN "MPN"
+F 5 "Amphenol ICC (FCI)" H 3225 6100 60  0001 L CNN "Manufacturer"
+	1    3025 5000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4450 4925 4450 4800
-Connection ~ 4450 4800
+	3325 4800 3700 4800
+Text GLabel 4650 5150 1    50   Input ~ 0
+VBUS
+$Comp
+L artix-dc-scm:C_4u7_0402 C?
+U 1 1 601C3138
+P 4950 5425
+AR Path="/614223A1/60643A57/601C3138" Ref="C?"  Part="1" 
+AR Path="/614223A1/601C3138" Ref="C?"  Part="1" 
+F 0 "C?" H 4975 5500 60  0000 L CNN
+F 1 "C_4u7_0402" H 4950 5275 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 5150 5625 60  0001 L CNN
+F 3 "" H 4950 5425 50  0001 C CNN
+F 4 "MURATA" H 5150 5825 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 5150 5725 60  0001 L CNN "MPN"
+F 6 "4u7" H 4975 5325 50  0000 L CNN "Val"
+	1    4950 5425
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4450 4800 4575 4800
+	4950 5575 4950 5625
+$Comp
+L artix-dc-scm:GND-artix-dc-scm #PWR?
+U 1 1 601C313F
+P 4950 5625
+F 0 "#PWR?" H 4950 5375 50  0001 C CNN
+F 1 "GND" H 4955 5452 50  0000 C CNN
+F 2 "" H 4950 5625 50  0001 C CNN
+F 3 "" H 4950 5625 50  0001 C CNN
+	1    4950 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5275 4950 5150
+Text GLabel 4950 5150 1    50   Input ~ 0
+VBUS
 $EndSCHEMATC
