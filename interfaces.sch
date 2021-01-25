@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 10
 Title "Artix - Datacenter Secure Control Module (DC-SCM)"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -3306,10 +3306,10 @@ VBUS
 Wire Wire Line
 	4650 5275 4650 5150
 $Comp
-L antmicroUSBDVIHDMIConnectors:10118192-0001LF J?
+L antmicroUSBDVIHDMIConnectors:10118192-0001LF J3
 U 1 1 60109106
 P 3025 5000
-F 0 "J?" H 3089 5745 60  0000 C CNN
+F 0 "J3" H 3089 5745 60  0000 C CNN
 F 1 "10118192-0001LF" H 3089 5639 60  0000 C CNN
 F 2 "antmicro-footprints:USB_Micro_B_Female_10118192" H 3225 5200 60  0001 L CNN
 F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 3225 5300 60  0001 L CNN
@@ -3327,8 +3327,8 @@ L artix-dc-scm:C_4u7_0402 C?
 U 1 1 601C3138
 P 4950 5425
 AR Path="/614223A1/60643A57/601C3138" Ref="C?"  Part="1" 
-AR Path="/614223A1/601C3138" Ref="C?"  Part="1" 
-F 0 "C?" H 4975 5500 60  0000 L CNN
+AR Path="/614223A1/601C3138" Ref="C176"  Part="1" 
+F 0 "C176" H 4975 5500 60  0000 L CNN
 F 1 "C_4u7_0402" H 4950 5275 60  0001 C CNN
 F 2 "artix-dc-scm-footprints:0402-cap" H 5150 5625 60  0001 L CNN
 F 3 "" H 4950 5425 50  0001 C CNN
@@ -3341,10 +3341,10 @@ $EndComp
 Wire Wire Line
 	4950 5575 4950 5625
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR0150
 U 1 1 601C313F
 P 4950 5625
-F 0 "#PWR?" H 4950 5375 50  0001 C CNN
+F 0 "#PWR0150" H 4950 5375 50  0001 C CNN
 F 1 "GND" H 4955 5452 50  0000 C CNN
 F 2 "" H 4950 5625 50  0001 C CNN
 F 3 "" H 4950 5625 50  0001 C CNN

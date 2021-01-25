@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 10
 Title "Artix - Datacenter Secure Control Module (DC-SCM)"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -2476,4 +2476,28 @@ Text GLabel 4875 4150 2    50   Input ~ 0
 USR_LED1
 Wire Wire Line
 	4875 4150 4550 4150
+Text GLabel 9825 6050 2    50   Input ~ 0
+ROT_RDY\ROT_GPIO0
+Text GLabel 9825 5250 2    50   Input ~ 0
+ROT_TX
+Text GLabel 9825 5450 2    50   Input ~ 0
+ROT_RX
+Text GLabel 9825 5350 2    50   Input ~ 0
+ROT_SCLK
+Text GLabel 9825 5850 2    50   Input ~ 0
+ROT_MOSI
+Text GLabel 9825 5950 2    50   Input ~ 0
+ROT_MISO
+Text GLabel 9825 6450 2    50   Input ~ 0
+ROT_SS
+Text GLabel 9825 6950 2    50   Input ~ 0
+ROT_GPIO2
+Text GLabel 9825 6850 2    50   Input ~ 0
+ROT_GPIO1
+Wire Wire Line
+	9825 5950 9500 5950
+Wire Wire Line
+	9825 6050 9500 6050
+Wire Wire Line
+	9825 6450 9500 6450
 $EndSCHEMATC

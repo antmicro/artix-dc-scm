@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 8 10
 Title "Artix - Datacenter Secure Control Module (DC-SCM)"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1122,42 +1122,12 @@ Wire Wire Line
 Wire Wire Line
 	8725 5025 8225 5025
 Wire Wire Line
-	9175 5825 9675 5825
-Wire Wire Line
-	9175 5725 9675 5725
-Wire Wire Line
-	9175 5625 9675 5625
-Wire Wire Line
-	9175 5525 9675 5525
-Wire Wire Line
-	9175 5325 9675 5325
-Wire Wire Line
-	9175 5225 9675 5225
-Wire Wire Line
-	9175 5125 9675 5125
-Wire Wire Line
-	9175 5025 9675 5025
-Wire Wire Line
 	8725 4925 8225 4925
 Wire Wire Line
-	9175 5925 9675 5925
-Wire Wire Line
-	9175 5425 9675 5425
-Wire Wire Line
-	9175 4925 9675 4925
-Wire Wire Line
 	8725 5525 8225 5525
-Wire Wire Line
-	9675 6325 9175 6325
-Wire Wire Line
-	9675 6225 9175 6225
-Wire Wire Line
-	9675 6125 9175 6125
-Wire Wire Line
-	9675 6025 9175 6025
-Text Notes 7975 4225 0    118  ~ 24
+Text Notes 8150 3825 0    118  ~ 24
 RoT module connector
-Text Notes 8775 6950 0    50   ~ 0
+Text Notes 9025 7000 0    50   ~ 0
 preliminary\n
 Text GLabel 8225 4625 0    50   Input ~ 0
 ROT_RDY\ROT_GPIO0
@@ -1226,12 +1196,6 @@ $EndComp
 Text Notes 12925 5725 0    50   ~ 0
 Pinout for AES-PMOD-TPM20-SLB9670-G
 Wire Wire Line
-	9675 4825 9175 4825
-Wire Wire Line
-	9675 4725 9175 4725
-Wire Wire Line
-	9675 4625 9175 4625
-Wire Wire Line
 	8725 4825 8225 4825
 Wire Wire Line
 	8725 4725 8225 4725
@@ -1241,25 +1205,21 @@ Text GLabel 8225 4825 0    50   Input ~ 0
 PROGRAM
 Text GLabel 8225 4725 0    50   Input ~ 0
 INIT
-Text GLabel 9775 6525 2    50   Input ~ 0
+Text GLabel 9775 6625 2    50   Input ~ 0
 VCC3V3
-Wire Wire Line
-	8225 6525 8725 6525
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 626717FC
-P 8225 6525
+P 8725 7075
 AR Path="/5FC6B687/626717FC" Ref="#PWR?"  Part="1" 
 AR Path="/624C566F/626717FC" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 8225 6275 50  0001 C CNN
-F 1 "GND" H 8230 6352 50  0000 C CNN
-F 2 "" H 8225 6525 50  0001 C CNN
-F 3 "" H 8225 6525 50  0001 C CNN
-	1    8225 6525
-	0    1    -1   0   
+F 0 "#PWR0110" H 8725 6825 50  0001 C CNN
+F 1 "GND" H 8730 6902 50  0000 C CNN
+F 2 "" H 8725 7075 50  0001 C CNN
+F 3 "" H 8725 7075 50  0001 C CNN
+	1    8725 7075
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	9175 6525 9775 6525
 Text GLabel 8225 5325 0    50   Input ~ 0
 ROT_QSPI_SCK
 Text GLabel 8225 5225 0    50   Input ~ 0
@@ -1272,8 +1232,6 @@ Text GLabel 8225 4925 0    50   Input ~ 0
 ROT_QSPI_DQ0
 Wire Wire Line
 	8725 5325 8225 5325
-Wire Wire Line
-	9175 6425 9675 6425
 Text GLabel 9675 6425 2    50   Input ~ 0
 QSPI0_CS1_N
 $Comp
@@ -1291,28 +1249,109 @@ F 3 "" H 12150 5700 50  0001 C CNN
 $EndComp
 Text GLabel 9675 4625 2    50   Input ~ 0
 ROT_QSPI_CS_B
+Wire Wire Line
+	9675 6025 9175 6025
+Wire Wire Line
+	9675 6125 9175 6125
+Wire Wire Line
+	9675 6225 9175 6225
+Wire Wire Line
+	9675 6325 9175 6325
+Wire Wire Line
+	9175 6425 9675 6425
+Wire Wire Line
+	9175 6625 9775 6625
+Wire Wire Line
+	9675 4625 9175 4625
+Wire Wire Line
+	9675 4725 9175 4725
+Wire Wire Line
+	9675 4825 9175 4825
+Wire Wire Line
+	9175 4925 9675 4925
+Wire Wire Line
+	9175 5025 9675 5025
+Wire Wire Line
+	9175 5125 9675 5125
+Wire Wire Line
+	9175 5225 9675 5225
+Wire Wire Line
+	9175 5325 9675 5325
+Wire Wire Line
+	9175 5425 9675 5425
+Wire Wire Line
+	9175 5525 9675 5525
+Wire Wire Line
+	9175 5625 9675 5625
+Wire Wire Line
+	9175 5725 9675 5725
+Wire Wire Line
+	9175 5825 9675 5825
+Wire Wire Line
+	9175 5925 9675 5925
 $Comp
-L artix-dc-scm:529910408 J3
-U 1 1 61745B1A
-P 8925 6775
-F 0 "J3" H 8950 4360 50  0000 C CNN
-F 1 "529910408" H 8950 4451 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:529910408" H 8675 4425 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9175 4475 50  0001 C CNN
-	1    8925 6775
+L antmicroB2bConnectors:52991-0508 J8
+U 1 1 6010D4E5
+P 8925 6975
+F 0 "J8" H 8950 4060 50  0000 C CNN
+F 1 "52991-0508" H 8950 4151 50  0000 C CNN
+F 2 "antmicro-footprints:529910508" H 10475 5275 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/529910508_sd.pdf" H 9175 5175 50  0001 C CNN
+	1    8925 6975
 	1    0    0    1   
 $EndComp
+Text GLabel 8225 6525 0    50   Input ~ 0
+ROT_GPIO2
+Wire Wire Line
+	8725 6525 8225 6525
+Text GLabel 8225 4525 0    50   Input ~ 0
+ROT_TX
+Wire Wire Line
+	8725 4525 8225 4525
+Text GLabel 8225 4425 0    50   Input ~ 0
+ROT_RX
+Wire Wire Line
+	8725 4425 8225 4425
+Text GLabel 8225 4325 0    50   Input ~ 0
+ROT_SCLK
+Wire Wire Line
+	8725 4325 8225 4325
+Text GLabel 9675 4325 2    50   Input ~ 0
+ROT_MOSI
+Wire Wire Line
+	9175 4325 9675 4325
+Text GLabel 9675 4425 2    50   Input ~ 0
+ROT_MISO
+Wire Wire Line
+	9175 4425 9675 4425
+Text GLabel 9675 4525 2    50   Input ~ 0
+ROT_SS
+Wire Wire Line
+	9175 4525 9675 4525
+Wire Wire Line
+	8725 6625 8725 6725
+Wire Wire Line
+	8725 6725 8725 7075
+Connection ~ 8725 6725
+Wire Wire Line
+	9175 6725 9175 6625
+Connection ~ 9175 6625
+Wire Wire Line
+	9175 6525 9675 6525
+Text GLabel 9675 6525 2    50   Input ~ 0
+ROT_GPIO1
 $Comp
-L artix-dc-scm:PCB_Spacer_M2 MP1
-U 1 1 61611FCB
-P 12125 7400
-F 0 "MP1" H 12333 7537 50  0000 L CNN
-F 1 "PCB_Spacer_M2" H 12333 7446 50  0000 L CNN
-F 2 "artix-dc-scm-footprints:9774030243R" H 12925 8100 50  0001 C CNN
-F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 13075 8200 50  0001 C CNN
-F 4 "9774030243R" H 12333 7355 50  0000 L CNN "MPN"
-F 5 "Wurth Elektronik " H 12333 7264 50  0000 L CNN "Manufacturer"
-	1    12125 7400
+L antmicroMechanicalParts:9774040151 SP2
+U 1 1 602968FE
+P 9875 7050
+F 0 "SP2" H 10005 7103 60  0000 L CNN
+F 1 "9774040151" H 10005 6997 60  0000 L CNN
+F 2 "antmicro-footprints:9774040151" H 9875 7050 60  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/9774040151.pdf" H 9875 7050 60  0001 C CNN
+F 4 "Wurth Elektronik" H 9875 7050 50  0001 C CNN "Manufacturer"
+F 5 "9774030151" H 9875 7050 50  0001 C CNN "MPN"
+	1    9875 7050
 	1    0    0    -1  
 $EndComp
+NoConn ~ 9675 7050
 $EndSCHEMATC
