@@ -1807,36 +1807,8 @@ F 6 "0R" V 6228 3645 50  0000 L CNN "Val"
 	1    6175 3575
 	0    1    1    0   
 $EndComp
-$Comp
-L artix-dc-scm:RCW-0C TP3
-U 1 1 5FE83A9D
-P 1900 1575
-F 0 "TP3" V 1900 1400 50  0000 C CNN
-F 1 "RCW-0C" V 1766 1622 50  0001 C CNN
-F 2 "artix-dc-scm-footprints:PROBE_PAD_1206" H 2100 1775 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2100 1875 60  0001 L CNN
-F 4 "RCW-0C" H 2100 2075 60  0001 L CNN "MPN"
-F 5 "TE Connectivity AMP Connectors" H 2100 2675 60  0001 L CNN "Manufacturer"
-	1    1900 1575
-	0    1    1    0   
-$EndComp
-$Comp
-L artix-dc-scm:RCW-0C TP4
-U 1 1 5FEA4BA8
-P 1900 1725
-F 0 "TP4" V 1925 1550 50  0000 C CNN
-F 1 "RCW-0C" V 1766 1772 50  0001 C CNN
-F 2 "artix-dc-scm-footprints:PROBE_PAD_1206" H 2100 1925 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2100 2025 60  0001 L CNN
-F 4 "RCW-0C" H 2100 2225 60  0001 L CNN "MPN"
-F 5 "TE Connectivity AMP Connectors" H 2100 2825 60  0001 L CNN "Manufacturer"
-	1    1900 1725
-	0    1    1    0   
-$EndComp
 Text GLabel 2250 1400 1    50   Input ~ 0
 VCC12V
-Wire Wire Line
-	2000 1575 2250 1575
 Wire Wire Line
 	2250 1575 2250 1400
 $Comp
@@ -1851,9 +1823,7 @@ F 3 "" H 2250 1825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 1725 2250 1725
-Wire Wire Line
-	2250 1725 2250 1825
+	2250 1675 2250 1825
 Text GLabel 1625 2250 0    50   Input ~ 0
 P12V_AUX
 Text Notes 1300 925  0    118  ~ 24
@@ -2734,4 +2704,21 @@ Text GLabel 9600 6675 0    50   Input ~ 0
 1V0_PG
 Text Notes 8825 5925 0    50   ~ 0
 3v3 required by I3C translator
+$Comp
+L artix-dc-scm:DF13A-2P-1.25H J5
+U 1 1 601AA6B2
+P 1675 1525
+F 0 "J5" H 1617 1360 50  0000 C CNN
+F 1 "DF13A-2P-1.25H" H 1617 1451 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:DF13A-2P-1.25H" H 1575 1075 50  0001 C CNN
+F 3 "" H 1675 1475 50  0001 C CNN
+F 4 "DF13A-2P-1.25H" H 1725 1275 50  0001 C CNN "MPN"
+F 5 "Hirose" H 1675 1175 50  0001 C CNN "Manufacturer"
+	1    1675 1525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1875 1575 2250 1575
+Wire Wire Line
+	1875 1675 2250 1675
 $EndSCHEMATC
