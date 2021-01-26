@@ -3306,12 +3306,12 @@ VBUS
 Wire Wire Line
 	4650 5275 4650 5150
 $Comp
-L antmicroUSBDVIHDMIConnectors:10118192-0001LF J3
+L artix-dc-scm:10118192-0001LF J3
 U 1 1 60109106
 P 3025 5000
 F 0 "J3" H 3089 5745 60  0000 C CNN
 F 1 "10118192-0001LF" H 3089 5639 60  0000 C CNN
-F 2 "antmicro-footprints:USB_Micro_B_Female_10118192" H 3225 5200 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:USB_Micro_B_Female_10118192" H 3225 5200 60  0001 L CNN
 F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 3225 5300 60  0001 L CNN
 F 4 "10118192-0001LF" H 3225 5500 60  0001 L CNN "MPN"
 F 5 "Amphenol ICC (FCI)" H 3225 6100 60  0001 L CNN "Manufacturer"

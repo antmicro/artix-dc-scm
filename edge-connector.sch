@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L artix-dc-scm:SFF-TA-1002-4C+ J5
-U 1 1 625AED2C
-P 7875 1425
-F 0 "J5" H 7875 1590 50  0000 C CNN
-F 1 "SFF-TA-1002-4C+" H 7875 1499 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:SFF-TA-1002-4C+" H 8275 1475 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/sme005.pdf?__cf_chl_jschl_tk__=4604d1306574a1ee474ea914090d3e0c57e266a6-1606907014-0-AbkYBTCTl__kMBcY3BDmgKpfUy32FqitwN2Lniuy8W-uyv2Ev04Q-Q5Mr7srIz_Wnur0_9chB4CRbxKSYcEh7IvAJYsUgJ0PWIS5YdRqqHg567uaZciEX2hQP4ss5l6M4XdNrxEjJppHvyRV3ku89t-VmUSzhgCb8oJlyHpTxST4dEmKZNXfM53TM0tmGirdVbCRt1Byrx5pkz_uMvNABIOj7B2-eDGK52J3DWRD76zEyjdxY7Iz11gPiOY5i_QGIR3uOwkR5LBPNXe8zGqAf8--AKa7RqDbIriQRt90_32C4zIuHqbGa05BXS135E65ov80PbVcb4eSiutCqcJUAacUwu3eVnXVeIumfihJxuP8Rv7_n6saeG_2IuQpEiskzovLGKZM3667Y-rm-AL1NRXTamtvBxqTk0vyMvZ60FgJ" H 7875 1525 50  0001 C CNN
-	1    7875 1425
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7175 1525 6625 1525
 Wire Wire Line
@@ -781,4 +770,15 @@ Text GLabel 9125 9425 2    50   Input ~ 0
 PCIE_HPM_TX[0]_N
 Text GLabel 9125 9325 2    50   Input ~ 0
 PCIE_HPM_TX[0]_P
+$Comp
+L artix-dc-scm:SFF-TA-1002-4C+ J?
+U 1 1 601205AF
+P 7875 1425
+F 0 "J?" H 7875 1590 50  0000 C CNN
+F 1 "SFF-TA-1002-4C+" H 7875 1499 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:SFF-TA-1002-4C+" H 8025 1475 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/sme005.pdf?__cf_chl_jschl_tk__=4604d1306574a1ee474ea914090d3e0c57e266a6-1606907014-0-AbkYBTCTl__kMBcY3BDmgKpfUy32FqitwN2Lniuy8W-uyv2Ev04Q-Q5Mr7srIz_Wnur0_9chB4CRbxKSYcEh7IvAJYsUgJ0PWIS5YdRqqHg567uaZciEX2hQP4ss5l6M4XdNrxEjJppHvyRV3ku89t-VmUSzhgCb8oJlyHpTxST4dEmKZNXfM53TM0tmGirdVbCRt1Byrx5pkz_uMvNABIOj7B2-eDGK52J3DWRD76zEyjdxY7Iz11gPiOY5i_QGIR3uOwkR5LBPNXe8zGqAf8--AKa7RqDbIriQRt90_32C4zIuHqbGa05BXS135E65ov80PbVcb4eSiutCqcJUAacUwu3eVnXVeIumfihJxuP8Rv7_n6saeG_2IuQpEiskzovLGKZM3667Y-rm-AL1NRXTamtvBxqTk0vyMvZ60FgJ" H 8075 1375 50  0001 C CNN
+	1    7875 1425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

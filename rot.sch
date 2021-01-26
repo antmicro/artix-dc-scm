@@ -1290,12 +1290,12 @@ Wire Wire Line
 Wire Wire Line
 	9175 5925 9675 5925
 $Comp
-L antmicroB2bConnectors:52991-0508 J8
+L artix-dc-scm:52991-0508 J8
 U 1 1 6010D4E5
 P 8925 6975
 F 0 "J8" H 8950 4060 50  0000 C CNN
 F 1 "52991-0508" H 8950 4151 50  0000 C CNN
-F 2 "antmicro-footprints:529910508" H 10475 5275 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:529910508" H 10475 5275 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/529910508_sd.pdf" H 9175 5175 50  0001 C CNN
 	1    8925 6975
 	1    0    0    1   
@@ -1341,12 +1341,12 @@ Wire Wire Line
 Text GLabel 9675 6525 2    50   Input ~ 0
 ROT_GPIO1
 $Comp
-L antmicroMechanicalParts:9774040151 SP2
+L artix-dc-scm:9774040151 SP2
 U 1 1 602968FE
 P 9875 7050
 F 0 "SP2" H 10005 7103 60  0000 L CNN
 F 1 "9774040151" H 10005 6997 60  0000 L CNN
-F 2 "antmicro-footprints:9774040151" H 9875 7050 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:9774040151" H 9875 7050 60  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/9774040151.pdf" H 9875 7050 60  0001 C CNN
 F 4 "Wurth Elektronik" H 9875 7050 50  0001 C CNN "Manufacturer"
 F 5 "9774030151" H 9875 7050 50  0001 C CNN "MPN"
