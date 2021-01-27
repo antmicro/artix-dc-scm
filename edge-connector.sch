@@ -349,7 +349,7 @@ Wire Wire Line
 	6925 10425 6925 10625
 Connection ~ 6925 10425
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR026
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR026
 U 1 1 626F241B
 P 6925 10625
 F 0 "#PWR026" H 6925 10375 50  0001 C CNN
@@ -686,7 +686,7 @@ USB1_D_N
 Wire Wire Line
 	8825 10425 8825 10625
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR027
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR027
 U 1 1 62BB82B7
 P 8825 10625
 F 0 "#PWR027" H 8825 10375 50  0001 C CNN
@@ -697,12 +697,12 @@ F 3 "" H 8825 10625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:R_0R_0402 R136
+L _autosave-artix-dc-scm:R_0R_0402 R136
 U 1 1 616ABCDE
 P 9050 6725
 F 0 "R136" H 9050 6938 60  0000 C CNN
 F 1 "R_0R_0402" H 9050 6575 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 9250 6925 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 9250 6925 60  0001 L CNN
 F 3 "" H 9050 6725 50  0001 C CNN
 F 4 "PANASONIC" H 9250 7125 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9250 7025 60  0001 L CNN "MPN"
@@ -721,12 +721,12 @@ RSVD2
 Text GLabel 10425 6725 2    50   Input ~ 0
 SGPIO0_CLK
 $Comp
-L artix-dc-scm:R_0R_0402 R137
+L _autosave-artix-dc-scm:R_0R_0402 R137
 U 1 1 617019A6
 P 10275 6725
 F 0 "R137" H 10275 6938 60  0000 C CNN
 F 1 "R_0R_0402" H 10275 6575 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 10475 6925 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 10475 6925 60  0001 L CNN
 F 3 "" H 10275 6725 50  0001 C CNN
 F 4 "PANASONIC" H 10475 7125 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 10475 7025 60  0001 L CNN "MPN"
@@ -771,12 +771,12 @@ PCIE_HPM_TX[0]_N
 Text GLabel 9125 9325 2    50   Input ~ 0
 PCIE_HPM_TX[0]_P
 $Comp
-L artix-dc-scm:SFF-TA-1002-4C+ J?
+L _autosave-artix-dc-scm:SFF-TA-1002-4C+ J?
 U 1 1 601205AF
 P 7875 1425
 F 0 "J?" H 7875 1590 50  0000 C CNN
 F 1 "SFF-TA-1002-4C+" H 7875 1499 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:SFF-TA-1002-4C+" H 8025 1475 50  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:SFF-TA-1002-4C+" H 8025 1475 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/sme005.pdf?__cf_chl_jschl_tk__=4604d1306574a1ee474ea914090d3e0c57e266a6-1606907014-0-AbkYBTCTl__kMBcY3BDmgKpfUy32FqitwN2Lniuy8W-uyv2Ev04Q-Q5Mr7srIz_Wnur0_9chB4CRbxKSYcEh7IvAJYsUgJ0PWIS5YdRqqHg567uaZciEX2hQP4ss5l6M4XdNrxEjJppHvyRV3ku89t-VmUSzhgCb8oJlyHpTxST4dEmKZNXfM53TM0tmGirdVbCRt1Byrx5pkz_uMvNABIOj7B2-eDGK52J3DWRD76zEyjdxY7Iz11gPiOY5i_QGIR3uOwkR5LBPNXe8zGqAf8--AKa7RqDbIriQRt90_32C4zIuHqbGa05BXS135E65ov80PbVcb4eSiutCqcJUAacUwu3eVnXVeIumfihJxuP8Rv7_n6saeG_2IuQpEiskzovLGKZM3667Y-rm-AL1NRXTamtvBxqTk0vyMvZ60FgJ" H 8075 1375 50  0001 C CNN
 	1    7875 1425
 	1    0    0    -1  

@@ -1214,23 +1214,23 @@ AF AF 37 7D 5E 11 11 11 11 11 09 00 FF 05 6D 85 1B C7 13 E5 8F F1 00 00 00 00 49
 EndData
 $EndBitmap
 $Comp
-L artix-dc-scm:oshw_logo N2
+L _autosave-artix-dc-scm:oshw_logo N2
 U 1 1 6018E5CD
 P 5875 6875
 F 0 "N2" H 6069 6878 50  0000 L CNN
 F 1 "oshw_logo" H 6069 6787 50  0000 L CNN
-F 2 "artix-dc-scm-footprints:oshw-logo" H 5895 6635 50  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:oshw-logo" H 5895 6635 50  0001 C CNN
 F 3 "" H 5875 6875 50  0001 C CNN
 	1    5875 6875
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:antmicro_logo N1
+L _autosave-artix-dc-scm:antmicro_logo N1
 U 1 1 6018E8C2
 P 5850 7175
 F 0 "N1" H 6064 7268 50  0000 L CNN
 F 1 "antmicro_logo" H 6064 7177 50  0000 L CNN
-F 2 "artix-dc-scm-footprints:antmicro-logo_scaled_20mm" H 5750 7425 50  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:antmicro-logo_scaled_20mm" H 5750 7425 50  0001 C CNN
 F 3 "" H 5850 7525 50  0001 C CNN
 	1    5850 7175
 	1    0    0    -1  

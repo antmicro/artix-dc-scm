@@ -24,12 +24,12 @@ JTAG_TMS
 Text Notes 7675 6850 0    118  ~ 24
 JTAG
 $Comp
-L artix-dc-scm:R_357k_0402-artix-dc-scm R46
+L _autosave-artix-dc-scm:R_357k_0402-artix-dc-scm R46
 U 1 1 61B2DA12
 P 1775 7425
 F 0 "R46" H 1675 7350 60  0000 L CNN
 F 1 "R_357k_0402" H 1775 7275 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 1975 7625 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 1975 7625 60  0001 L CNN
 F 3 "" H 1775 7425 50  0001 C CNN
 F 4 "Vishay" H 1975 7825 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 1975 7725 60  0001 L CNN "MPN"
@@ -86,12 +86,12 @@ Wire Wire Line
 Wire Wire Line
 	2275 8300 1600 8300
 $Comp
-L artix-dc-scm:R_357k_0402-artix-dc-scm R45
+L _autosave-artix-dc-scm:R_357k_0402-artix-dc-scm R45
 U 1 1 61B2DA13
 P 1675 7050
 F 0 "R45" H 1575 6975 60  0000 L CNN
 F 1 "R_357k_0402" H 1675 6900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 1875 7250 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 1875 7250 60  0001 L CNN
 F 3 "" H 1675 7050 50  0001 C CNN
 F 4 "Vishay" H 1875 7450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 1875 7350 60  0001 L CNN "MPN"
@@ -104,12 +104,12 @@ Wire Wire Line
 Wire Wire Line
 	1775 7275 1775 6825
 $Comp
-L artix-dc-scm:R_357k_0402-artix-dc-scm R47
+L _autosave-artix-dc-scm:R_357k_0402-artix-dc-scm R47
 U 1 1 61B2DA14
 P 1875 7050
 F 0 "R47" H 1775 6975 60  0000 L CNN
 F 1 "R_357k_0402" H 1875 6900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2075 7250 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2075 7250 60  0001 L CNN
 F 3 "" H 1875 7050 50  0001 C CNN
 F 4 "Vishay" H 2075 7450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 2075 7350 60  0001 L CNN "MPN"
@@ -120,12 +120,12 @@ $EndComp
 Wire Wire Line
 	1875 6900 1875 6825
 $Comp
-L artix-dc-scm:R_357k_0402-artix-dc-scm R48
+L _autosave-artix-dc-scm:R_357k_0402-artix-dc-scm R48
 U 1 1 62A15CCD
 P 1975 7425
 F 0 "R48" H 1875 7350 60  0000 L CNN
 F 1 "R_357k_0402" H 1975 7275 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2175 7625 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2175 7625 60  0001 L CNN
 F 3 "" H 1975 7425 50  0001 C CNN
 F 4 "Vishay" H 2175 7825 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 2175 7725 60  0001 L CNN "MPN"
@@ -136,12 +136,12 @@ $EndComp
 Wire Wire Line
 	1975 7275 1975 6825
 $Comp
-L artix-dc-scm:R_357k_0402-artix-dc-scm R49
+L _autosave-artix-dc-scm:R_357k_0402-artix-dc-scm R49
 U 1 1 61B2DA16
 P 2075 7050
 F 0 "R49" H 1975 6975 60  0000 L CNN
 F 1 "R_357k_0402" H 2075 6900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2275 7250 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2275 7250 60  0001 L CNN
 F 3 "" H 2075 7050 50  0001 C CNN
 F 4 "Vishay" H 2275 7450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 2275 7350 60  0001 L CNN "MPN"
@@ -152,12 +152,12 @@ $EndComp
 Wire Wire Line
 	2075 6900 2075 6825
 $Comp
-L artix-dc-scm:R_357k_0402-artix-dc-scm R50
+L _autosave-artix-dc-scm:R_357k_0402-artix-dc-scm R50
 U 1 1 61B2DA17
 P 2175 7425
 F 0 "R50" H 2075 7350 60  0000 L CNN
 F 1 "R_357k_0402" H 2175 7275 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2375 7625 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2375 7625 60  0001 L CNN
 F 3 "" H 2175 7425 50  0001 C CNN
 F 4 "Vishay" H 2375 7825 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 2375 7725 60  0001 L CNN "MPN"
@@ -168,12 +168,12 @@ $EndComp
 Wire Wire Line
 	2175 7275 2175 6825
 $Comp
-L artix-dc-scm:R_357k_0402-artix-dc-scm R51
+L _autosave-artix-dc-scm:R_357k_0402-artix-dc-scm R51
 U 1 1 61B2DA18
 P 2275 7050
 F 0 "R51" H 2175 6975 60  0000 L CNN
 F 1 "R_357k_0402" H 2275 6900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2475 7250 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2475 7250 60  0001 L CNN
 F 3 "" H 2275 7050 50  0001 C CNN
 F 4 "Vishay" H 2475 7450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 2475 7350 60  0001 L CNN "MPN"
@@ -184,12 +184,12 @@ $EndComp
 Wire Wire Line
 	2275 6900 2275 6825
 $Comp
-L artix-dc-scm:R_357k_0402-artix-dc-scm R52
+L _autosave-artix-dc-scm:R_357k_0402-artix-dc-scm R52
 U 1 1 61B2DA19
 P 2375 7425
 F 0 "R52" H 2275 7350 60  0000 L CNN
 F 1 "R_357k_0402" H 2375 7275 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 2575 7625 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2575 7625 60  0001 L CNN
 F 3 "" H 2375 7425 50  0001 C CNN
 F 4 "Vishay" H 2575 7825 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402357KFKED" H 2575 7725 60  0001 L CNN "MPN"
@@ -227,12 +227,12 @@ Wire Wire Line
 Text Notes 1800 6225 0    118  ~ 24
 I3C voltage level translation
 $Comp
-L artix-dc-scm:0878311420 J6
+L _autosave-artix-dc-scm:0878311420 J6
 U 1 1 64AA2CA7
 P 7425 7675
 F 0 "J6" H 7425 8200 50  0000 C CNN
 F 1 "0878311420" H 7425 8109 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:PinHeader_2x7_P2mm_Drill1mm" H 7625 7875 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:PinHeader_2x7_P2mm_Drill1mm" H 7625 7875 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" H 7625 7975 60  0001 L CNN
 F 4 "0878311420" H 7625 8175 60  0001 L CNN "MPN"
 F 5 "Molex" H 7625 8775 60  0001 L CNN "Manufacturer"
@@ -274,7 +274,7 @@ Connection ~ 7075 7975
 Wire Wire Line
 	7075 7975 7075 8200
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR028
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR028
 U 1 1 64AB4A8D
 P 7075 8200
 F 0 "#PWR028" H 7075 7950 50  0001 C CNN
@@ -285,12 +285,12 @@ F 3 "" H 7075 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:TPD6E05U06 D2
+L _autosave-artix-dc-scm:TPD6E05U06 D2
 U 1 1 64AC4AD0
 P 7950 8325
 F 0 "D2" V 8170 7647 50  0000 R CNN
 F 1 "TPD6E05U06" V 8079 7647 50  0000 R CNN
-F 2 "artix-dc-scm-footprints:TPD6E05U06" H 9150 8575 50  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:TPD6E05U06" H 9150 8575 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" H 9450 8675 50  0001 C CNN
 F 4 "TPD6E05U06RVZR" V 7988 7647 50  0000 R CNN "MPN"
 F 5 "Texas Instruments" V 7897 7647 50  0000 R CNN "Manufacturer"
@@ -335,7 +335,7 @@ Connection ~ 8500 8000
 Wire Wire Line
 	8500 8000 8650 8000
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR029
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR029
 U 1 1 64AECC53
 P 8650 8000
 F 0 "#PWR029" H 8650 7750 50  0001 C CNN
@@ -354,12 +354,12 @@ Wire Wire Line
 Wire Wire Line
 	7850 7375 7850 7325
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C189
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C189
 U 1 1 5FF88081
 P 3525 10250
 F 0 "C189" H 3575 10350 60  0000 L CNN
 F 1 "C_100n_0402" H 3525 10100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 3725 10450 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 3725 10450 60  0001 L CNN
 F 3 "" H 3525 10250 50  0001 C CNN
 F 4 "Walsin" H 3725 10650 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3725 10550 60  0001 L CNN "MPN"
@@ -368,12 +368,12 @@ F 6 "100n" H 3575 10150 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0402 C188
+L _autosave-artix-dc-scm:C_4u7_0402 C188
 U 1 1 5FF89165
 P 3225 10250
 F 0 "C188" H 3275 10350 60  0000 L CNN
 F 1 "C_4u7_0402" H 3225 10100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 3425 10450 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 3425 10450 60  0001 L CNN
 F 3 "" H 3225 10250 50  0001 C CNN
 F 4 "MURATA" H 3425 10650 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 3425 10550 60  0001 L CNN "MPN"
@@ -400,7 +400,7 @@ Wire Wire Line
 	3525 10500 3525 10650
 Connection ~ 3525 10500
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR087
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR087
 U 1 1 5FFAB2F6
 P 3525 10650
 F 0 "#PWR087" H 3525 10400 50  0001 C CNN
@@ -441,12 +441,12 @@ MMC_RSTN
 Text Notes 2100 825  0    118  ~ 24
 PCIe x1
 $Comp
-L artix-dc-scm:XC7A100T-FGG484 U14
+L _autosave-artix-dc-scm:XC7A100T-FGG484 U14
 U 4 1 603098D4
 P 3925 2475
 F 0 "U14" H 2675 3800 50  0000 L CNN
 F 1 "XC7A100T-FGG484" H 2675 3725 50  0000 L CNN
-F 2 "artix-dc-scm-footprints:Xilinx_FGG484" H 3625 2475 50  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:Xilinx_FGG484" H 3625 2475 50  0001 C CNN
 F 3 "" H 3625 2475 50  0000 C CNN
 	4    3925 2475
 	1    0    0    -1  
@@ -456,7 +456,7 @@ HPM SPI
 Text Notes 7625 9450 0    50   ~ 0
 reserved for future use (as of DC-SCI OPC specification)
 $Comp
-L artix-dc-scm:61300611121-artix-dc-scm J?
+L _autosave-artix-dc-scm:61300611121-artix-dc-scm J?
 U 1 1 66DBB6BD
 P 8725 10125
 AR Path="/624C566F/66DBB6BD" Ref="J?"  Part="1" 
@@ -464,7 +464,7 @@ AR Path="/614223A1/66DBB6BD" Ref="J7"  Part="1"
 AR Path="/66DBB6BD" Ref="J7"  Part="1" 
 F 0 "J7" V 8924 10047 50  0000 R CNN
 F 1 "61300611121" V 9015 10047 50  0000 R CNN
-F 2 "artix-dc-scm-footprints:61300611121" H 8925 10325 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:61300611121" H 8925 10325 60  0001 L CNN
 F 3 "" H 8925 10425 60  0001 L CNN
 F 4 "61300611121" H 8675 10525 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 8925 11225 60  0001 L CNN "Manufacturer"
@@ -480,7 +480,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 10625 8450 10800
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 66DBB6C7
 P 8450 10800
 AR Path="/5FC6B687/66DBB6C7" Ref="#PWR?"  Part="1" 
@@ -523,258 +523,232 @@ Wire Wire Line
 	1750 2275 2425 2275
 Wire Wire Line
 	1750 2375 2425 2375
-$Comp
-L artix-dc-scm:USB3300-EZK-TR U17
-U 1 1 5FF36760
-P 13600 4000
-F 0 "U17" H 12725 5150 50  0000 C CNN
-F 1 "USB3300-EZK-TR" H 13000 5050 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:QFN50P500X500X100-33N" H 13100 4000 50  0001 L BNN
-F 3 "" H 13600 4000 50  0001 L BNN
-F 4 "Microchip" H 13750 2700 50  0001 L BNN "Manufacturer"
-F 5 "USB3300-EZK-TR" H 13600 4000 50  0001 C CNN "MPN"
-	1    13600 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	14500 3500 15000 3500
+	14000 3500 14500 3500
 Wire Wire Line
-	14500 3600 15000 3600
-Text GLabel 15000 3600 2    50   Input ~ 0
+	14000 3600 14500 3600
+Text GLabel 14500 3600 2    50   Input ~ 0
 ULPI1_DATA6
 Wire Wire Line
-	14500 3700 15000 3700
-Text GLabel 15000 3700 2    50   Input ~ 0
+	14000 3700 14500 3700
+Text GLabel 14500 3700 2    50   Input ~ 0
 ULPI1_DATA5
 Wire Wire Line
-	14500 3800 15000 3800
-Text GLabel 15000 3800 2    50   Input ~ 0
+	14000 3800 14500 3800
+Text GLabel 14500 3800 2    50   Input ~ 0
 ULPI1_DATA4
 Wire Wire Line
-	14500 3900 15000 3900
-Text GLabel 15000 3900 2    50   Input ~ 0
+	14000 3900 14500 3900
+Text GLabel 14500 3900 2    50   Input ~ 0
 ULPI1_DATA3
 Wire Wire Line
-	14500 4000 15000 4000
-Text GLabel 15000 4000 2    50   Input ~ 0
+	14000 4000 14500 4000
+Text GLabel 14500 4000 2    50   Input ~ 0
 ULPI1_DATA2
 Wire Wire Line
-	14500 4100 15000 4100
-Text GLabel 15000 4100 2    50   Input ~ 0
+	14000 4100 14500 4100
+Text GLabel 14500 4100 2    50   Input ~ 0
 ULPI1_DATA1
 Wire Wire Line
-	14500 4200 15000 4200
-Text GLabel 15000 4200 2    50   Input ~ 0
+	14000 4200 14500 4200
+Text GLabel 14500 4200 2    50   Input ~ 0
 ULPI1_DATA0
-Text GLabel 15000 3500 2    50   Input ~ 0
+Text GLabel 14500 3500 2    50   Input ~ 0
 ULPI1_DATA7
 Wire Wire Line
-	12700 3350 12450 3350
+	12200 3350 11950 3350
 Wire Wire Line
-	12700 3450 12450 3450
-Text GLabel 12450 3450 0    50   Input ~ 0
+	12200 3450 11950 3450
+Text GLabel 11950 3450 0    50   Input ~ 0
 USB1_D_P
-Text GLabel 12450 3350 0    50   Input ~ 0
+Text GLabel 11950 3350 0    50   Input ~ 0
 USB1_D_N
 Wire Wire Line
-	13750 2800 13650 2800
-Wire Wire Line
-	13450 2800 13450 2600
-Connection ~ 13450 2800
-Connection ~ 13550 2800
-Wire Wire Line
-	13550 2800 13450 2800
-Connection ~ 13650 2800
-Wire Wire Line
-	13650 2800 13550 2800
-Wire Wire Line
-	14500 2950 14500 3150
-Text GLabel 13450 2600 1    50   Input ~ 0
+	12950 2800 12950 2600
+Text GLabel 12950 2600 1    50   Input ~ 0
 VCC3V3
-Text GLabel 14500 2525 1    50   Input ~ 0
-VCC1V8
 Wire Wire Line
-	14500 4300 15000 4300
+	14000 4300 14500 4300
 Wire Wire Line
-	14500 4400 15000 4400
+	14000 4400 14500 4400
 Wire Wire Line
-	14500 4500 15000 4500
+	14000 4500 14500 4500
 Wire Wire Line
-	14500 4600 15000 4600
+	14000 4600 14500 4600
 Wire Wire Line
-	14500 4700 15000 4700
-Text GLabel 15000 4300 2    50   Input ~ 0
+	14000 4700 14500 4700
+Text GLabel 14500 4300 2    50   Input ~ 0
 ULPI1_NXT
-Text GLabel 15000 4400 2    50   Input ~ 0
+Text GLabel 14500 4400 2    50   Input ~ 0
 ULPI1_DIR
-Text GLabel 15000 4500 2    50   Input ~ 0
+Text GLabel 14500 4500 2    50   Input ~ 0
 ULPI1_STP
-Text GLabel 15000 4600 2    50   Input ~ 0
+Text GLabel 14500 4600 2    50   Input ~ 0
 ULPI1_CLKOUT
-Text GLabel 15000 4700 2    50   Input ~ 0
+Text GLabel 14500 4700 2    50   Input ~ 0
 ULPI1_RESET
 Wire Wire Line
-	13500 5100 13600 5100
-Connection ~ 13600 5100
+	13000 5100 13100 5100
+Connection ~ 13100 5100
 Wire Wire Line
-	13600 5100 13700 5100
+	13100 5100 13200 5100
 Wire Wire Line
-	13600 5100 13600 5300
+	13100 5100 13100 5300
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6005A2BB
-P 13600 5300
+P 13100 5300
 AR Path="/5FC6B687/6005A2BB" Ref="#PWR?"  Part="1" 
 AR Path="/624C566F/6005A2BB" Ref="#PWR?"  Part="1" 
 AR Path="/614223A1/6005A2BB" Ref="#PWR093"  Part="1" 
-F 0 "#PWR093" H 13600 5050 50  0001 C CNN
-F 1 "GND" H 13605 5127 50  0000 C CNN
-F 2 "" H 13600 5300 50  0001 C CNN
-F 3 "" H 13600 5300 50  0001 C CNN
-	1    13600 5300
+F 0 "#PWR093" H 13100 5050 50  0001 C CNN
+F 1 "GND" H 13105 5127 50  0000 C CNN
+F 2 "" H 13100 5300 50  0001 C CNN
+F 3 "" H 13100 5300 50  0001 C CNN
+	1    13100 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12700 4650 12550 4650
+	12200 4650 12175 4650
 Wire Wire Line
-	12250 4650 12050 4650
+	11750 4650 11750 4850
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6007627A
-P 12050 4650
+P 11750 4850
 AR Path="/5FC6B687/6007627A" Ref="#PWR?"  Part="1" 
 AR Path="/624C566F/6007627A" Ref="#PWR?"  Part="1" 
 AR Path="/614223A1/6007627A" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 12050 4400 50  0001 C CNN
-F 1 "GND" H 12055 4477 50  0000 C CNN
-F 2 "" H 12050 4650 50  0001 C CNN
-F 3 "" H 12050 4650 50  0001 C CNN
-	1    12050 4650
-	0    1    1    0   
+F 0 "#PWR09" H 11750 4600 50  0001 C CNN
+F 1 "GND" H 11755 4677 50  0000 C CNN
+F 2 "" H 11750 4850 50  0001 C CNN
+F 3 "" H 11750 4850 50  0001 C CNN
+	1    11750 4850
+	1    0    0    -1  
 $EndComp
-Text GLabel 12150 4450 0    50   Input ~ 0
+Text GLabel 11775 4450 0    50   Input ~ 0
 VCC3V3
-NoConn ~ 12700 4150
-NoConn ~ 12700 3550
+NoConn ~ 12200 4150
+NoConn ~ 12200 3550
 Wire Wire Line
-	12700 3250 12600 3250
+	12200 3250 12100 3250
 $Comp
-L artix-dc-scm:R_1k_0402 R6
+L _autosave-artix-dc-scm:R_1k_0402 R6
 U 1 1 600D81E6
-P 12450 3250
-F 0 "R6" H 12450 3463 60  0000 C CNN
-F 1 "R_1k_0402" H 12450 3100 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 12650 3450 60  0001 L CNN
-F 3 "" H 12450 3250 50  0001 C CNN
-F 4 "BOURNS" H 12650 3650 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 12650 3550 60  0001 L CNN "MPN"
-F 6 "1k" H 12450 3365 50  0000 C CNN "Val"
-	1    12450 3250
+P 11950 3250
+F 0 "R6" H 11950 3463 60  0000 C CNN
+F 1 "R_1k_0402" H 11950 3100 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 12150 3450 60  0001 L CNN
+F 3 "" H 11950 3250 50  0001 C CNN
+F 4 "BOURNS" H 12150 3650 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 12150 3550 60  0001 L CNN "MPN"
+F 6 "1k" H 11950 3365 50  0000 C CNN "Val"
+	1    11950 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12300 3250 12050 3250
+	11800 3250 11550 3250
 $Comp
-L artix-dc-scm:C_12p_0402 C4
+L _autosave-artix-dc-scm:C_12p_0402 C4
 U 1 1 60101477
-P 10600 4500
-F 0 "C4" H 10715 4545 60  0000 L CNN
-F 1 "C_12p_0402" H 10600 4350 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 10800 4700 60  0001 L CNN
-F 3 "" H 10600 4500 50  0001 C CNN
-F 4 "TDK" H 10800 4900 60  0001 L CNN "Manufacturer"
-F 5 "CGA2B2C0G1H120J050BA" H 10800 4800 60  0001 L CNN "MPN"
-F 6 "12p" H 10715 4447 50  0000 L CNN "Val"
-	1    10600 4500
+P 10325 4500
+F 0 "C4" H 10440 4545 60  0000 L CNN
+F 1 "C_12p_0402" H 10325 4350 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 10525 4700 60  0001 L CNN
+F 3 "" H 10325 4500 50  0001 C CNN
+F 4 "TDK" H 10525 4900 60  0001 L CNN "Manufacturer"
+F 5 "CGA2B2C0G1H120J050BA" H 10525 4800 60  0001 L CNN "MPN"
+F 6 "12p" H 10440 4447 50  0000 L CNN "Val"
+	1    10325 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_12p_0402 C6
+L _autosave-artix-dc-scm:C_12p_0402 C6
 U 1 1 60101A62
-P 11500 4500
-F 0 "C6" H 11615 4545 60  0000 L CNN
-F 1 "C_12p_0402" H 11500 4350 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 11700 4700 60  0001 L CNN
-F 3 "" H 11500 4500 50  0001 C CNN
-F 4 "TDK" H 11700 4900 60  0001 L CNN "Manufacturer"
-F 5 "CGA2B2C0G1H120J050BA" H 11700 4800 60  0001 L CNN "MPN"
-F 6 "12p" H 11615 4447 50  0000 L CNN "Val"
-	1    11500 4500
+P 11200 4500
+F 0 "C6" H 11225 4600 60  0000 L CNN
+F 1 "C_12p_0402" H 11200 4350 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 11400 4700 60  0001 L CNN
+F 3 "" H 11200 4500 50  0001 C CNN
+F 4 "TDK" H 11400 4900 60  0001 L CNN "Manufacturer"
+F 5 "CGA2B2C0G1H120J050BA" H 11400 4800 60  0001 L CNN "MPN"
+F 6 "12p" H 11225 4400 50  0000 L CNN "Val"
+	1    11200 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:TSX-3225 Y1
+L _autosave-artix-dc-scm:TSX-3225 Y1
 U 1 1 60115279
-P 11050 4350
-F 0 "Y1" H 11050 4575 59  0000 C CNN
-F 1 "TSX-3225" H 11050 4633 31  0001 C CNN
-F 2 "artix-dc-scm-footprints:KX-7" H 13150 4350 50  0001 C CNN
-F 3 "" H 13250 4450 50  0001 C CNN
-F 4 "TSX-3225 24.0000MF15X-AC3" H 11050 4500 31  0000 C CNN "MPN"
-F 5 "Epson" H 11050 4509 31  0001 C CNN "Manufacturer"
-	1    11050 4350
+P 10825 4350
+F 0 "Y1" H 10825 4575 59  0000 C CNN
+F 1 "TSX-3225" H 10825 4633 31  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:KX-7" H 12925 4350 50  0001 C CNN
+F 3 "" H 13025 4450 50  0001 C CNN
+F 4 "TSX-3225 24.0000MF15X-AC3" H 10825 4500 31  0000 C CNN "MPN"
+F 5 "Epson" H 10825 4509 31  0001 C CNN "Manufacturer"
+	1    10825 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10900 4350 10600 4350
+	10675 4350 10325 4350
 Wire Wire Line
-	11200 4350 11500 4350
+	10975 4350 11200 4350
 Wire Wire Line
-	11050 4550 11050 4800
+	10825 4550 10825 4800
 Wire Wire Line
-	11050 4800 10600 4800
+	10825 4800 10325 4800
 Wire Wire Line
-	10600 4800 10600 4650
+	10325 4800 10325 4650
 Wire Wire Line
-	11500 4650 11500 4800
+	11200 4650 11200 4800
 Wire Wire Line
-	11500 4800 11050 4800
-Connection ~ 11050 4800
+	11200 4800 10825 4800
+Connection ~ 10825 4800
 Wire Wire Line
-	11050 4800 11050 5000
+	10825 4800 10825 4950
 Wire Wire Line
-	10900 3950 10600 3950
+	10625 3950 10325 3950
 Wire Wire Line
-	10600 3950 10600 4350
-Connection ~ 10600 4350
+	10325 3950 10325 4350
+Connection ~ 10325 4350
 Wire Wire Line
-	11200 3950 11500 3950
+	10925 3950 11200 3950
 Wire Wire Line
-	11500 3950 11500 4350
-Connection ~ 11500 4350
+	11200 3950 11200 4350
+Connection ~ 11200 4350
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6017570B
-P 11050 5000
+P 10825 4950
 AR Path="/5FC6B687/6017570B" Ref="#PWR?"  Part="1" 
 AR Path="/624C566F/6017570B" Ref="#PWR?"  Part="1" 
 AR Path="/614223A1/6017570B" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 11050 4750 50  0001 C CNN
-F 1 "GND" H 11055 4827 50  0000 C CNN
-F 2 "" H 11050 5000 50  0001 C CNN
-F 3 "" H 11050 5000 50  0001 C CNN
-	1    11050 5000
+F 0 "#PWR07" H 10825 4700 50  0001 C CNN
+F 1 "GND" H 10830 4777 50  0000 C CNN
+F 2 "" H 10825 4950 50  0001 C CNN
+F 3 "" H 10825 4950 50  0001 C CNN
+	1    10825 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12700 3950 11500 3950
-Connection ~ 11500 3950
+	12200 3950 11200 3950
+Connection ~ 11200 3950
 Wire Wire Line
-	12700 3750 10600 3750
+	12200 3750 10325 3750
 Wire Wire Line
-	10600 3750 10600 3950
-Connection ~ 10600 3950
-Text GLabel 12050 2600 1    50   Input ~ 0
+	10325 3750 10325 3950
+Connection ~ 10325 3950
+Text GLabel 11550 2600 1    50   Input ~ 0
 VCC5V0
 Wire Wire Line
-	12050 2600 12050 3250
+	11550 2600 11550 3250
 $Comp
-L artix-dc-scm:USB3300-EZK-TR U18
+L _autosave-artix-dc-scm:USB3300-EZK-TR U18
 U 1 1 601F5838
 P 12950 8375
 F 0 "U18" H 12100 9550 50  0000 C CNN
 F 1 "USB3300-EZK-TR" H 12375 9450 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:QFN50P500X500X100-33N" H 12450 8375 50  0001 L BNN
+F 2 "_autosave-artix-dc-scm-footprints:QFN50P500X500X100-33N" H 12450 8375 50  0001 L BNN
 F 3 "" H 12950 8375 50  0001 L BNN
 F 4 "Microchip" H 13100 7075 50  0001 L BNN "Manufacturer"
 F 5 "USB3300-EZK-TR" H 12950 8375 50  0001 C CNN "MPN"
@@ -782,34 +756,34 @@ F 5 "USB3300-EZK-TR" H 12950 8375 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13850 7875 14625 7875
+	13850 7875 14175 7875
 Wire Wire Line
-	13850 7975 14625 7975
+	13850 7975 14175 7975
 Wire Wire Line
-	13850 8075 14625 8075
-Text GLabel 14625 8075 2    50   Input ~ 0
+	13850 8075 14175 8075
+Text GLabel 14175 8075 2    50   Input ~ 0
 ULPI2_DATA5
 Wire Wire Line
-	13850 8175 14625 8175
-Text GLabel 14625 8175 2    50   Input ~ 0
+	13850 8175 14175 8175
+Text GLabel 14175 8175 2    50   Input ~ 0
 ULPI2_DATA4
 Wire Wire Line
-	13850 8275 14625 8275
-Text GLabel 14625 8275 2    50   Input ~ 0
+	13850 8275 14175 8275
+Text GLabel 14175 8275 2    50   Input ~ 0
 ULPI2_DATA3
 Wire Wire Line
-	13850 8375 14625 8375
-Text GLabel 14625 8375 2    50   Input ~ 0
+	13850 8375 14175 8375
+Text GLabel 14175 8375 2    50   Input ~ 0
 ULPI2_DATA2
 Wire Wire Line
-	13850 8475 14625 8475
-Text GLabel 14625 8475 2    50   Input ~ 0
+	13850 8475 14175 8475
+Text GLabel 14175 8475 2    50   Input ~ 0
 ULPI2_DATA1
 Wire Wire Line
-	13850 8575 14625 8575
-Text GLabel 14625 8575 2    50   Input ~ 0
+	13850 8575 14175 8575
+Text GLabel 14175 8575 2    50   Input ~ 0
 ULPI2_DATA0
-Text GLabel 14625 7875 2    50   Input ~ 0
+Text GLabel 14175 7875 2    50   Input ~ 0
 ULPI2_DATA7
 Wire Wire Line
 	12050 7725 11800 7725
@@ -832,27 +806,25 @@ Wire Wire Line
 	13000 7175 12900 7175
 Text GLabel 12800 6975 1    50   Input ~ 0
 VCC3V3
-Text GLabel 13925 6975 1    50   Input ~ 0
-VCC1V8
 Wire Wire Line
-	13850 8675 14625 8675
+	13850 8675 14175 8675
 Wire Wire Line
-	13850 8775 14625 8775
+	13850 8775 14175 8775
 Wire Wire Line
-	13850 8875 14625 8875
+	13850 8875 14175 8875
 Wire Wire Line
-	13850 8975 14625 8975
+	13850 8975 14175 8975
 Wire Wire Line
-	13850 9075 14625 9075
-Text GLabel 14625 8675 2    50   Input ~ 0
+	13850 9075 14175 9075
+Text GLabel 14175 8675 2    50   Input ~ 0
 ULPI2_NXT
-Text GLabel 14625 8775 2    50   Input ~ 0
+Text GLabel 14175 8775 2    50   Input ~ 0
 ULPI2_DIR
-Text GLabel 14625 8875 2    50   Input ~ 0
+Text GLabel 14175 8875 2    50   Input ~ 0
 ULPI2_STP
-Text GLabel 14625 8975 2    50   Input ~ 0
+Text GLabel 14175 8975 2    50   Input ~ 0
 ULPI2_CLKOUT
-Text GLabel 14625 9075 2    50   Input ~ 0
+Text GLabel 14175 9075 2    50   Input ~ 0
 ULPI2_RESET
 Wire Wire Line
 	12850 9475 12950 9475
@@ -862,7 +834,7 @@ Wire Wire Line
 Wire Wire Line
 	12950 9475 12950 9675
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 601F586E
 P 12950 9675
 AR Path="/5FC6B687/601F586E" Ref="#PWR?"  Part="1" 
@@ -880,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	11600 9025 11400 9025
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 601F5876
 P 11400 9025
 AR Path="/5FC6B687/601F5876" Ref="#PWR?"  Part="1" 
@@ -900,12 +872,12 @@ NoConn ~ 12050 7925
 Wire Wire Line
 	12050 7625 11950 7625
 $Comp
-L artix-dc-scm:R_1k_0402 R8
+L _autosave-artix-dc-scm:R_1k_0402 R8
 U 1 1 601F5883
 P 11800 7625
 F 0 "R8" H 11800 7838 60  0000 C CNN
 F 1 "R_1k_0402" H 11800 7475 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 12000 7825 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 12000 7825 60  0001 L CNN
 F 3 "" H 11800 7625 50  0001 C CNN
 F 4 "BOURNS" H 12000 8025 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 12000 7925 60  0001 L CNN "MPN"
@@ -916,12 +888,12 @@ $EndComp
 Wire Wire Line
 	11650 7625 11400 7625
 $Comp
-L artix-dc-scm:C_12p_0402 C5
+L _autosave-artix-dc-scm:C_12p_0402 C5
 U 1 1 601F589F
 P 9950 8875
 F 0 "C5" H 10065 8920 60  0000 L CNN
 F 1 "C_12p_0402" H 9950 8725 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 10150 9075 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 10150 9075 60  0001 L CNN
 F 3 "" H 9950 8875 50  0001 C CNN
 F 4 "TDK" H 10150 9275 60  0001 L CNN "Manufacturer"
 F 5 "CGA2B2C0G1H120J050BA" H 10150 9175 60  0001 L CNN "MPN"
@@ -930,12 +902,12 @@ F 6 "12p" H 10065 8822 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_12p_0402 C7
+L _autosave-artix-dc-scm:C_12p_0402 C7
 U 1 1 601F58A8
 P 10850 8875
 F 0 "C7" H 10965 8920 60  0000 L CNN
 F 1 "C_12p_0402" H 10850 8725 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 11050 9075 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 11050 9075 60  0001 L CNN
 F 3 "" H 10850 8875 50  0001 C CNN
 F 4 "TDK" H 11050 9275 60  0001 L CNN "Manufacturer"
 F 5 "CGA2B2C0G1H120J050BA" H 11050 9175 60  0001 L CNN "MPN"
@@ -944,12 +916,12 @@ F 6 "12p" H 10965 8822 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:TSX-3225 Y3
+L _autosave-artix-dc-scm:TSX-3225 Y3
 U 1 1 601F58B0
 P 10400 8725
 F 0 "Y3" H 10400 8950 59  0000 C CNN
 F 1 "TSX-3225" H 10400 9008 31  0001 C CNN
-F 2 "artix-dc-scm-footprints:KX-7" H 12500 8725 50  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:KX-7" H 12500 8725 50  0001 C CNN
 F 3 "" H 12600 8825 50  0001 C CNN
 F 4 "TSX-3225 24.0000MF15X-AC3" H 10400 8875 31  0000 C CNN "MPN"
 F 5 "Epson" H 10400 8884 31  0001 C CNN "Manufacturer"
@@ -984,7 +956,7 @@ Wire Wire Line
 	10850 8325 10850 8725
 Connection ~ 10850 8725
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 601F58C5
 P 10400 9375
 AR Path="/5FC6B687/601F58C5" Ref="#PWR?"  Part="1" 
@@ -1009,15 +981,15 @@ Text GLabel 11400 6975 1    50   Input ~ 0
 VCC5V0
 Wire Wire Line
 	11400 6975 11400 7625
-Text GLabel 14625 7975 2    50   Input ~ 0
+Text GLabel 14175 7975 2    50   Input ~ 0
 ULPI2_DATA6
 $Comp
-L artix-dc-scm:C_100n_0402 C10
+L _autosave-artix-dc-scm:C_100n_0402 C10
 U 1 1 6028E08E
 P 14150 1400
 F 0 "C10" H 14200 1500 60  0000 L CNN
 F 1 "C_100n_0402" H 14150 1250 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 14350 1600 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 14350 1600 60  0001 L CNN
 F 3 "" H 14150 1400 50  0001 C CNN
 F 4 "Walsin" H 14350 1800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 14350 1700 60  0001 L CNN "MPN"
@@ -1026,12 +998,12 @@ F 6 "100n" H 14175 1300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C11
+L _autosave-artix-dc-scm:C_100n_0402 C11
 U 1 1 6028E525
 P 14450 1400
 F 0 "C11" H 14500 1500 60  0000 L CNN
 F 1 "C_100n_0402" H 14450 1250 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 14650 1600 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 14650 1600 60  0001 L CNN
 F 3 "" H 14450 1400 50  0001 C CNN
 F 4 "Walsin" H 14650 1800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 14650 1700 60  0001 L CNN "MPN"
@@ -1040,12 +1012,12 @@ F 6 "100n" H 14500 1300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C13
+L _autosave-artix-dc-scm:C_100n_0402 C13
 U 1 1 6028E816
 P 14750 1400
 F 0 "C13" H 14800 1500 60  0000 L CNN
 F 1 "C_100n_0402" H 14750 1250 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 14950 1600 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 14950 1600 60  0001 L CNN
 F 3 "" H 14750 1400 50  0001 C CNN
 F 4 "Walsin" H 14950 1800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 14950 1700 60  0001 L CNN "MPN"
@@ -1054,12 +1026,12 @@ F 6 "100n" H 14800 1300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C19
+L _autosave-artix-dc-scm:C_100n_0402 C19
 U 1 1 6028F5A9
 P 15050 1400
 F 0 "C19" H 15100 1500 60  0000 L CNN
 F 1 "C_100n_0402" H 15050 1250 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 15250 1600 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15250 1600 60  0001 L CNN
 F 3 "" H 15050 1400 50  0001 C CNN
 F 4 "Walsin" H 15250 1800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 15250 1700 60  0001 L CNN "MPN"
@@ -1068,12 +1040,12 @@ F 6 "100n" H 15100 1300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0402 C23
+L _autosave-artix-dc-scm:C_4u7_0402 C23
 U 1 1 6028FC40
 P 15400 1400
 F 0 "C23" H 15450 1500 60  0000 L CNN
 F 1 "C_4u7_0402" H 15400 1250 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 15600 1600 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15600 1600 60  0001 L CNN
 F 3 "" H 15400 1400 50  0001 C CNN
 F 4 "MURATA" H 15600 1800 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 15600 1700 60  0001 L CNN "MPN"
@@ -1132,7 +1104,7 @@ Wire Wire Line
 	14150 1700 14150 1850
 Connection ~ 14150 1700
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6037D3B3
 P 14150 1850
 AR Path="/5FC6B687/6037D3B3" Ref="#PWR?"  Part="1" 
@@ -1146,34 +1118,32 @@ F 3 "" H 14150 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14850 3150 14500 3150
-Connection ~ 14500 3150
+	14350 3150 14000 3150
 Wire Wire Line
-	14500 3250 14850 3250
-Connection ~ 14850 3250
+	14000 3250 14350 3250
 Wire Wire Line
-	14850 3250 14850 3150
+	14350 3250 14350 3150
 $Comp
-L artix-dc-scm:C_100n_0402 C25
+L _autosave-artix-dc-scm:C_100n_0402 C25
 U 1 1 603AFC11
-P 14575 5100
-F 0 "C25" H 14250 5150 60  0000 L CNN
-F 1 "C_100n_0402" H 14575 4950 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 14775 5300 60  0001 L CNN
-F 3 "" H 14575 5100 50  0001 C CNN
-F 4 "Walsin" H 14775 5500 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 14775 5400 60  0001 L CNN "MPN"
-F 6 "100n" H 14250 5050 50  0000 L CNN "Val"
-	1    14575 5100
+P 15550 4175
+F 0 "C25" H 15575 4275 60  0000 L CNN
+F 1 "C_100n_0402" H 15550 4025 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15750 4375 60  0001 L CNN
+F 3 "" H 15550 4175 50  0001 C CNN
+F 4 "Walsin" H 15750 4575 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 15750 4475 60  0001 L CNN "MPN"
+F 6 "100n" H 15575 4075 50  0000 L CNN "Val"
+	1    15550 4175
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C12
+L _autosave-artix-dc-scm:C_100n_0402 C12
 U 1 1 6048E3AE
 P 14375 6575
 F 0 "C12" H 14425 6675 60  0000 L CNN
 F 1 "C_100n_0402" H 14375 6425 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 14575 6775 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 14575 6775 60  0001 L CNN
 F 3 "" H 14375 6575 50  0001 C CNN
 F 4 "Walsin" H 14575 6975 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 14575 6875 60  0001 L CNN "MPN"
@@ -1182,12 +1152,12 @@ F 6 "100n" H 14425 6475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C18
+L _autosave-artix-dc-scm:C_100n_0402 C18
 U 1 1 6048E3B7
 P 14675 6575
 F 0 "C18" H 14725 6675 60  0000 L CNN
 F 1 "C_100n_0402" H 14675 6425 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 14875 6775 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 14875 6775 60  0001 L CNN
 F 3 "" H 14675 6575 50  0001 C CNN
 F 4 "Walsin" H 14875 6975 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 14875 6875 60  0001 L CNN "MPN"
@@ -1196,12 +1166,12 @@ F 6 "100n" H 14725 6475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C21
+L _autosave-artix-dc-scm:C_100n_0402 C21
 U 1 1 6048E3C0
 P 14975 6575
 F 0 "C21" H 15025 6675 60  0000 L CNN
 F 1 "C_100n_0402" H 14975 6425 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 15175 6775 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15175 6775 60  0001 L CNN
 F 3 "" H 14975 6575 50  0001 C CNN
 F 4 "Walsin" H 15175 6975 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 15175 6875 60  0001 L CNN "MPN"
@@ -1210,12 +1180,12 @@ F 6 "100n" H 15025 6475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C24
+L _autosave-artix-dc-scm:C_100n_0402 C24
 U 1 1 6048E3C9
 P 15275 6575
 F 0 "C24" H 15325 6675 60  0000 L CNN
 F 1 "C_100n_0402" H 15275 6425 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 15475 6775 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15475 6775 60  0001 L CNN
 F 3 "" H 15275 6575 50  0001 C CNN
 F 4 "Walsin" H 15475 6975 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 15475 6875 60  0001 L CNN "MPN"
@@ -1224,12 +1194,12 @@ F 6 "100n" H 15325 6475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0402 C222
+L _autosave-artix-dc-scm:C_4u7_0402 C222
 U 1 1 6048E3D2
 P 15625 6575
 F 0 "C222" H 15675 6675 60  0000 L CNN
 F 1 "C_4u7_0402" H 15625 6425 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 15825 6775 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15825 6775 60  0001 L CNN
 F 3 "" H 15625 6575 50  0001 C CNN
 F 4 "MURATA" H 15825 6975 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 15825 6875 60  0001 L CNN "MPN"
@@ -1288,7 +1258,7 @@ Wire Wire Line
 	14375 6875 14375 7025
 Connection ~ 14375 6875
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 6048E3F5
 P 14375 7025
 AR Path="/5FC6B687/6048E3F5" Ref="#PWR?"  Part="1" 
@@ -1302,37 +1272,35 @@ F 3 "" H 14375 7025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C22
+L _autosave-artix-dc-scm:C_100n_0402 C22
 U 1 1 604AC8E9
-P 13900 9375
-F 0 "C22" H 14015 9420 60  0000 L CNN
-F 1 "C_100n_0402" H 13900 9225 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 14100 9575 60  0001 L CNN
-F 3 "" H 13900 9375 50  0001 C CNN
-F 4 "Walsin" H 14100 9775 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 14100 9675 60  0001 L CNN "MPN"
-F 6 "100n" H 14015 9322 50  0000 L CNN "Val"
-	1    13900 9375
+P 15125 8500
+F 0 "C22" H 15150 8600 60  0000 L CNN
+F 1 "C_100n_0402" H 15125 8350 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15325 8700 60  0001 L CNN
+F 3 "" H 15125 8500 50  0001 C CNN
+F 4 "Walsin" H 15325 8900 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 15325 8800 60  0001 L CNN "MPN"
+F 6 "100n" H 15150 8400 50  0000 L CNN "Val"
+	1    15125 8500
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C26
+L _autosave-artix-dc-scm:C_100n_0402 C26
 U 1 1 604AC8F2
-P 14350 9375
-F 0 "C26" H 14465 9420 60  0000 L CNN
-F 1 "C_100n_0402" H 14350 9225 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 14550 9575 60  0001 L CNN
-F 3 "" H 14350 9375 50  0001 C CNN
-F 4 "Walsin" H 14550 9775 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 14550 9675 60  0001 L CNN "MPN"
-F 6 "100n" H 14465 9322 50  0000 L CNN "Val"
-	1    14350 9375
+P 15400 7750
+F 0 "C26" H 15425 7850 60  0000 L CNN
+F 1 "C_100n_0402" H 15400 7600 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15600 7950 60  0001 L CNN
+F 3 "" H 15400 7750 50  0001 C CNN
+F 4 "Walsin" H 15600 8150 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 15600 8050 60  0001 L CNN "MPN"
+F 6 "100n" H 15425 7650 50  0000 L CNN "Val"
+	1    15400 7750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13850 7625 14150 7625
-Wire Wire Line
-	13850 7525 13925 7525
 Wire Wire Line
 	14150 7525 14150 7625
 Text Notes 12425 1750 0    118  ~ 24
@@ -1340,14 +1308,14 @@ USB HOST
 Text Notes 11600 6475 0    118  ~ 24
 USB CLIENT
 NoConn ~ 12050 8625
-NoConn ~ 12700 4250
+NoConn ~ 12200 4250
 $Comp
-L artix-dc-scm:R_1M5_0402 R4
+L _autosave-artix-dc-scm:R_1M5_0402 R4
 U 1 1 603E998C
 P 10400 8325
 F 0 "R4" H 10400 8425 60  0000 C CNN
 F 1 "R_1M5_0402" H 10400 8175 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 10600 8525 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 10600 8525 60  0001 L CNN
 F 3 "" H 10400 8325 50  0001 C CNN
 F 4 "MULTICOMP" H 10600 8725 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04W1504FTL" H 10600 8625 60  0001 L CNN "MPN"
@@ -1356,26 +1324,26 @@ F 6 "1M5" H 10400 8325 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:R_1M5_0402 R3
+L _autosave-artix-dc-scm:R_1M5_0402 R3
 U 1 1 60957386
-P 11050 3950
-F 0 "R3" H 11050 4050 60  0000 C CNN
-F 1 "R_1M5_0402" H 11050 3800 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 11250 4150 60  0001 L CNN
-F 3 "" H 11050 3950 50  0001 C CNN
-F 4 "MULTICOMP" H 11250 4350 60  0001 L CNN "Manufacturer"
-F 5 "MCWR04W1504FTL" H 11250 4250 60  0001 L CNN "MPN"
-F 6 "1M5" H 11050 3950 50  0000 C CNN "Val"
-	1    11050 3950
+P 10775 3950
+F 0 "R3" H 10775 4050 60  0000 C CNN
+F 1 "R_1M5_0402" H 10775 3800 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 10975 4150 60  0001 L CNN
+F 3 "" H 10775 3950 50  0001 C CNN
+F 4 "MULTICOMP" H 10975 4350 60  0001 L CNN "Manufacturer"
+F 5 "MCWR04W1504FTL" H 10975 4250 60  0001 L CNN "MPN"
+F 6 "1M5" H 10775 3950 50  0000 C CNN "Val"
+	1    10775 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:MTFC16GAPALNA-AIT U1
+L _autosave-artix-dc-scm:MTFC16GAPALNA-AIT U1
 U 1 1 60646A73
 P 4325 10300
 F 0 "U1" H 4325 11157 50  0000 C CNN
 F 1 "MTFC16GAPALNA-AIT" H 4325 11066 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:BGA100CP100_17X10_1800X1400X140B46N" H 4875 10500 50  0001 L BNN
+F 2 "_autosave-artix-dc-scm-footprints:BGA100CP100_17X10_1800X1400X140B46N" H 4875 10500 50  0001 L BNN
 F 3 "" H 4325 10300 50  0001 L BNN
 F 4 "Micron" H 4325 10300 50  0001 L BNN "MANUFACTURER"
 F 5 "100-ball TBGA 14x18" H 4325 10975 50  0000 C CNN "Package"
@@ -1395,12 +1363,12 @@ Wire Wire Line
 Wire Wire Line
 	6425 9300 6575 9300
 $Comp
-L artix-dc-scm:R_10k_0402 R126
+L _autosave-artix-dc-scm:R_10k_0402 R126
 U 1 1 601305F1
 P 6575 9550
 F 0 "R126" H 6450 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 6575 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6775 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 6775 9750 60  0001 L CNN
 F 3 "" H 6575 9550 50  0001 C CNN
 F 4 "VISHAY" H 6775 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6775 9850 60  0001 L CNN "MPN"
@@ -1460,12 +1428,12 @@ Wire Wire Line
 Wire Wire Line
 	5075 9400 5075 9300
 $Comp
-L artix-dc-scm:R_10k_0402 R125
+L _autosave-artix-dc-scm:R_10k_0402 R125
 U 1 1 5FFD738A
 P 6425 9550
 F 0 "R125" H 6300 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 6425 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6625 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 6625 9750 60  0001 L CNN
 F 3 "" H 6425 9550 50  0001 C CNN
 F 4 "VISHAY" H 6625 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6625 9850 60  0001 L CNN "MPN"
@@ -1474,12 +1442,12 @@ F 6 "10k" H 6350 9550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_10k_0402 R124
+L _autosave-artix-dc-scm:R_10k_0402 R124
 U 1 1 5FFB038C
 P 6275 9550
 F 0 "R124" H 6150 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 6275 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6475 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 6475 9750 60  0001 L CNN
 F 3 "" H 6275 9550 50  0001 C CNN
 F 4 "VISHAY" H 6475 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6475 9850 60  0001 L CNN "MPN"
@@ -1488,12 +1456,12 @@ F 6 "10k" H 6200 9550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_10k_0402 R123
+L _autosave-artix-dc-scm:R_10k_0402 R123
 U 1 1 5FFB00ED
 P 6125 9550
 F 0 "R123" H 6000 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 6125 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6325 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 6325 9750 60  0001 L CNN
 F 3 "" H 6125 9550 50  0001 C CNN
 F 4 "VISHAY" H 6325 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6325 9850 60  0001 L CNN "MPN"
@@ -1502,12 +1470,12 @@ F 6 "10k" H 6050 9550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_10k_0402 R122
+L _autosave-artix-dc-scm:R_10k_0402 R122
 U 1 1 5FFAFEBA
 P 5975 9550
 F 0 "R122" H 5850 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 5975 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6175 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 6175 9750 60  0001 L CNN
 F 3 "" H 5975 9550 50  0001 C CNN
 F 4 "VISHAY" H 6175 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6175 9850 60  0001 L CNN "MPN"
@@ -1516,12 +1484,12 @@ F 6 "10k" H 5900 9550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_10k_0402 R121
+L _autosave-artix-dc-scm:R_10k_0402 R121
 U 1 1 5FFAFC0B
 P 5825 9550
 F 0 "R121" H 5700 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 5825 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6025 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 6025 9750 60  0001 L CNN
 F 3 "" H 5825 9550 50  0001 C CNN
 F 4 "VISHAY" H 6025 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6025 9850 60  0001 L CNN "MPN"
@@ -1530,12 +1498,12 @@ F 6 "10k" H 5750 9550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_10k_0402 R120
+L _autosave-artix-dc-scm:R_10k_0402 R120
 U 1 1 5FFAF9C0
 P 5675 9550
 F 0 "R120" H 5550 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 5675 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5875 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 5875 9750 60  0001 L CNN
 F 3 "" H 5675 9550 50  0001 C CNN
 F 4 "VISHAY" H 5875 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5875 9850 60  0001 L CNN "MPN"
@@ -1544,12 +1512,12 @@ F 6 "10k" H 5600 9550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_10k_0402 R119
+L _autosave-artix-dc-scm:R_10k_0402 R119
 U 1 1 5FFAF731
 P 5525 9550
 F 0 "R119" H 5400 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 5525 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5725 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 5725 9750 60  0001 L CNN
 F 3 "" H 5525 9550 50  0001 C CNN
 F 4 "VISHAY" H 5725 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5725 9850 60  0001 L CNN "MPN"
@@ -1558,12 +1526,12 @@ F 6 "10k" H 5450 9550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_10k_0402 R118
+L _autosave-artix-dc-scm:R_10k_0402 R118
 U 1 1 5FFAF526
 P 5375 9550
 F 0 "R118" H 5250 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 5375 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5575 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 5575 9750 60  0001 L CNN
 F 3 "" H 5375 9550 50  0001 C CNN
 F 4 "VISHAY" H 5575 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5575 9850 60  0001 L CNN "MPN"
@@ -1572,12 +1540,12 @@ F 6 "10k" H 5300 9550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_10k_0402 R117
+L _autosave-artix-dc-scm:R_10k_0402 R117
 U 1 1 5FFAF30F
 P 5225 9550
 F 0 "R117" H 5100 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 5225 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5425 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 5425 9750 60  0001 L CNN
 F 3 "" H 5225 9550 50  0001 C CNN
 F 4 "VISHAY" H 5425 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5425 9850 60  0001 L CNN "MPN"
@@ -1586,12 +1554,12 @@ F 6 "10k" H 5150 9550 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_10k_0402 R116
+L _autosave-artix-dc-scm:R_10k_0402 R116
 U 1 1 5FFAE461
 P 5075 9550
 F 0 "R116" H 4950 9475 60  0000 L CNN
 F 1 "R_10k_0402" H 5075 9400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5275 9750 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 5275 9750 60  0001 L CNN
 F 3 "" H 5075 9550 50  0001 C CNN
 F 4 "VISHAY" H 5275 9950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 5275 9850 60  0001 L CNN "MPN"
@@ -1676,7 +1644,7 @@ Wire Wire Line
 	6575 10800 6675 10800
 NoConn ~ 3725 10300
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR088
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR088
 U 1 1 60A17853
 P 3725 10925
 F 0 "#PWR088" H 3725 10675 50  0001 C CNN
@@ -1687,7 +1655,7 @@ F 3 "" H 3725 10925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR049
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR049
 U 1 1 600B9D07
 P 2200 9900
 F 0 "#PWR049" H 2200 9650 50  0001 C CNN
@@ -1744,12 +1712,12 @@ Wire Wire Line
 Text GLabel 2200 8950 1    50   Input ~ 0
 VCC3V3
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C186
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C186
 U 1 1 5FF6BE78
 P 1900 9450
 F 0 "C186" H 1950 9550 60  0000 L CNN
 F 1 "C_100n_0402" H 1900 9300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 2100 9650 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 2100 9650 60  0001 L CNN
 F 3 "" H 1900 9450 50  0001 C CNN
 F 4 "Walsin" H 2100 9850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2100 9750 60  0001 L CNN "MPN"
@@ -1758,12 +1726,12 @@ F 6 "100n" H 1950 9350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C187
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C187
 U 1 1 5FF6BAC1
 P 2200 9450
 F 0 "C187" H 2250 9550 60  0000 L CNN
 F 1 "C_100n_0402" H 2200 9300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 2400 9650 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 2400 9650 60  0001 L CNN
 F 3 "" H 2200 9450 50  0001 C CNN
 F 4 "Walsin" H 2400 9850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2400 9750 60  0001 L CNN "MPN"
@@ -1772,12 +1740,12 @@ F 6 "100n" H 2275 9350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_2u2_0402 C185
+L _autosave-artix-dc-scm:C_2u2_0402 C185
 U 1 1 5FF6B088
 P 1600 9450
 F 0 "C185" H 1650 9550 60  0000 L CNN
 F 1 "C_2u2_0402" H 1600 9300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 1800 9650 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 1800 9650 60  0001 L CNN
 F 3 "" H 1600 9450 50  0001 C CNN
 F 4 "TDK" H 1800 9850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 1800 9750 60  0001 L CNN "MPN"
@@ -1786,12 +1754,12 @@ F 6 "2u2" H 1675 9350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_2u2_0402 C184
+L _autosave-artix-dc-scm:C_2u2_0402 C184
 U 1 1 5FF6ACC3
 P 1300 9450
 F 0 "C184" H 1350 9550 60  0000 L CNN
 F 1 "C_2u2_0402" H 1300 9300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 1500 9650 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 1500 9650 60  0001 L CNN
 F 3 "" H 1300 9450 50  0001 C CNN
 F 4 "TDK" H 1500 9850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 1500 9750 60  0001 L CNN "MPN"
@@ -1800,12 +1768,12 @@ F 6 "2u2" H 1375 9350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_2u2_0402 C183
+L _autosave-artix-dc-scm:C_2u2_0402 C183
 U 1 1 5FF6A39A
 P 1000 9450
 F 0 "C183" H 1025 9550 60  0000 L CNN
 F 1 "C_2u2_0402" H 1000 9300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 1200 9650 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 1200 9650 60  0001 L CNN
 F 3 "" H 1000 9450 50  0001 C CNN
 F 4 "TDK" H 1200 9850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 1200 9750 60  0001 L CNN "MPN"
@@ -1821,170 +1789,90 @@ Connection ~ 3625 9800
 Wire Wire Line
 	3725 10700 3725 10800
 $Comp
-L artix-dc-scm:R_0R_0402 R9
-U 1 1 5FEF2E72
-P 14500 2800
-F 0 "R9" V 14455 2870 60  0000 L CNN
-F 1 "R_0R_0402" H 14500 2650 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 14700 3000 60  0001 L CNN
-F 3 "" H 14500 2800 50  0001 C CNN
-F 4 "PANASONIC" H 14700 3200 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 14700 3100 60  0001 L CNN "MPN"
-F 6 "0R" V 14553 2870 50  0000 L CNN "Val"
-	1    14500 2800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14500 2525 14500 2650
-$Comp
-L artix-dc-scm:C_100n_0402 C20
+L _autosave-artix-dc-scm:C_100n_0402 C20
 U 1 1 6014932C
-P 14850 5100
-F 0 "C20" H 14965 5145 60  0000 L CNN
-F 1 "C_100n_0402" H 14850 4950 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 15050 5300 60  0001 L CNN
-F 3 "" H 14850 5100 50  0001 C CNN
-F 4 "Walsin" H 15050 5500 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 15050 5400 60  0001 L CNN "MPN"
-F 6 "100n" H 14965 5047 50  0000 L CNN "Val"
-	1    14850 5100
+P 15575 3375
+F 0 "C20" H 15600 3475 60  0000 L CNN
+F 1 "C_100n_0402" H 15575 3225 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15775 3575 60  0001 L CNN
+F 3 "" H 15575 3375 50  0001 C CNN
+F 4 "Walsin" H 15775 3775 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 15775 3675 60  0001 L CNN "MPN"
+F 6 "100n" H 15600 3275 50  0000 L CNN "Val"
+	1    15575 3375
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
-U 1 1 6014965E
-P 14575 5250
-AR Path="/5FC6B687/6014965E" Ref="#PWR?"  Part="1" 
-AR Path="/624C566F/6014965E" Ref="#PWR?"  Part="1" 
-AR Path="/614223A1/6014965E" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 14575 5000 50  0001 C CNN
-F 1 "GND" H 14580 5077 50  0000 C CNN
-F 2 "" H 14575 5250 50  0001 C CNN
-F 3 "" H 14575 5250 50  0001 C CNN
-	1    14575 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
-U 1 1 60149A20
-P 14850 5250
-AR Path="/5FC6B687/60149A20" Ref="#PWR?"  Part="1" 
-AR Path="/624C566F/60149A20" Ref="#PWR?"  Part="1" 
-AR Path="/614223A1/60149A20" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 14850 5000 50  0001 C CNN
-F 1 "GND" H 14855 5077 50  0000 C CNN
-F 2 "" H 14850 5250 50  0001 C CNN
-F 3 "" H 14850 5250 50  0001 C CNN
-	1    14850 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14500 3350 14575 3350
-Wire Wire Line
-	14575 3350 14575 4950
-Wire Wire Line
-	14850 3250 14850 4950
-$Comp
-L artix-dc-scm:R_12k_0402 R5
+L _autosave-artix-dc-scm:R_12k_0402 R5
 U 1 1 60474E5C
-P 12400 4650
-F 0 "R5" H 12400 4550 60  0000 C CNN
-F 1 "R_12k_0402" H 12400 4500 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 12600 4850 60  0001 L CNN
-F 3 "" H 12400 4650 50  0001 C CNN
-F 4 "VISHAY" H 12600 5050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040212K0FKEDHP" H 12600 4950 60  0001 L CNN "MPN"
-F 6 "12k" H 12400 4650 50  0000 C CNN "Val"
-	1    12400 4650
+P 12025 4650
+F 0 "R5" H 12025 4550 60  0000 C CNN
+F 1 "R_12k_0402" H 12025 4500 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 12225 4850 60  0001 L CNN
+F 3 "" H 12025 4650 50  0001 C CNN
+F 4 "VISHAY" H 12225 5050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040212K0FKEDHP" H 12225 4950 60  0001 L CNN "MPN"
+F 6 "12k" H 12025 4650 50  0000 C CNN "Val"
+	1    12025 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:R_0R_0402 R10
+L _autosave-artix-dc-scm:R_0R_0402 R10
 U 1 1 6047ED49
-P 12400 4450
-F 0 "R10" H 12400 4237 60  0000 C CNN
-F 1 "R_0R_0402" H 12400 4300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 12600 4650 60  0001 L CNN
-F 3 "" H 12400 4450 50  0001 C CNN
-F 4 "PANASONIC" H 12600 4850 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 12600 4750 60  0001 L CNN "MPN"
-F 6 "0R" H 12400 4335 50  0000 C CNN "Val"
-	1    12400 4450
+P 12000 4450
+F 0 "R10" H 12000 4237 60  0000 C CNN
+F 1 "R_0R_0402" H 12000 4300 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 12200 4650 60  0001 L CNN
+F 3 "" H 12000 4450 50  0001 C CNN
+F 4 "PANASONIC" H 12200 4850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 12200 4750 60  0001 L CNN "MPN"
+F 6 "0R" H 12000 4335 50  0000 C CNN "Val"
+	1    12000 4450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	12550 4450 12700 4450
+	12150 4450 12200 4450
 Wire Wire Line
-	12250 4450 12150 4450
+	11850 4450 11775 4450
 $Comp
-L artix-dc-scm:R_0R_0402 R12
-U 1 1 6068238F
-P 13925 7300
-F 0 "R12" V 13880 7370 60  0000 L CNN
-F 1 "R_0R_0402" H 13925 7150 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 14125 7500 60  0001 L CNN
-F 3 "" H 13925 7300 50  0001 C CNN
-F 4 "PANASONIC" H 14125 7700 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 14125 7600 60  0001 L CNN "MPN"
-F 6 "0R" V 13978 7370 50  0000 L CNN "Val"
-	1    13925 7300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13925 6975 13925 7150
-Wire Wire Line
-	13925 7450 13925 7525
-Connection ~ 13925 7525
-Wire Wire Line
-	13925 7525 14150 7525
-$Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 606C75D1
-P 13900 9650
+P 15125 8675
 AR Path="/5FC6B687/606C75D1" Ref="#PWR?"  Part="1" 
 AR Path="/624C566F/606C75D1" Ref="#PWR?"  Part="1" 
 AR Path="/614223A1/606C75D1" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 13900 9400 50  0001 C CNN
-F 1 "GND" H 13905 9477 50  0000 C CNN
-F 2 "" H 13900 9650 50  0001 C CNN
-F 3 "" H 13900 9650 50  0001 C CNN
-	1    13900 9650
+F 0 "#PWR0115" H 15125 8425 50  0001 C CNN
+F 1 "GND" H 15130 8502 50  0000 C CNN
+F 2 "" H 15125 8675 50  0001 C CNN
+F 3 "" H 15125 8675 50  0001 C CNN
+	1    15125 8675
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR?
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 606C77E2
-P 14350 9650
+P 15400 7925
 AR Path="/5FC6B687/606C77E2" Ref="#PWR?"  Part="1" 
 AR Path="/624C566F/606C77E2" Ref="#PWR?"  Part="1" 
 AR Path="/614223A1/606C77E2" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0117" H 14350 9400 50  0001 C CNN
-F 1 "GND" H 14355 9477 50  0000 C CNN
-F 2 "" H 14350 9650 50  0001 C CNN
-F 3 "" H 14350 9650 50  0001 C CNN
-	1    14350 9650
+F 0 "#PWR0117" H 15400 7675 50  0001 C CNN
+F 1 "GND" H 15405 7752 50  0000 C CNN
+F 2 "" H 15400 7925 50  0001 C CNN
+F 3 "" H 15400 7925 50  0001 C CNN
+	1    15400 7925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13900 9525 13900 9650
+	15125 8650 15125 8675
 Wire Wire Line
-	13900 9225 13900 7725
-Wire Wire Line
-	13900 7725 13850 7725
-Wire Wire Line
-	14150 7525 14350 7525
-Wire Wire Line
-	14350 7525 14350 9225
-Connection ~ 14150 7525
-Wire Wire Line
-	14350 9525 14350 9650
+	15400 7900 15400 7925
 $Comp
-L artix-dc-scm:R_12k_0402 R7
+L _autosave-artix-dc-scm:R_12k_0402 R7
 U 1 1 607AFC2D
 P 11750 9025
 F 0 "R7" H 11750 8925 60  0000 C CNN
 F 1 "R_12k_0402" H 11750 8875 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 11950 9225 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 11950 9225 60  0001 L CNN
 F 3 "" H 11750 9025 50  0001 C CNN
 F 4 "VISHAY" H 11950 9425 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040212K0FKEDHP" H 11950 9325 60  0001 L CNN "MPN"
@@ -1993,12 +1881,12 @@ F 6 "12k" H 11750 9025 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:R_0R_0402 R11
+L _autosave-artix-dc-scm:R_0R_0402 R11
 U 1 1 607B45C7
 P 11750 8825
 F 0 "R11" H 11750 8725 60  0000 C CNN
 F 1 "R_0R_0402" H 11750 8675 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 11950 9025 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 11950 9025 60  0001 L CNN
 F 3 "" H 11750 8825 50  0001 C CNN
 F 4 "PANASONIC" H 11950 9225 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 11950 9125 60  0001 L CNN "MPN"
@@ -2011,12 +1899,12 @@ Wire Wire Line
 Wire Wire Line
 	11600 8825 11500 8825
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C223
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C223
 U 1 1 6070CD97
 P 825 10700
 F 0 "C223" H 875 10825 60  0000 L CNN
 F 1 "C_100n_0402" H 825 10550 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 1025 10900 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 1025 10900 60  0001 L CNN
 F 3 "" H 825 10700 50  0001 C CNN
 F 4 "Walsin" H 1025 11100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1025 11000 60  0001 L CNN "MPN"
@@ -2025,12 +1913,12 @@ F 6 "100n" H 875 10600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C224
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C224
 U 1 1 6070D63F
 P 1200 10700
 F 0 "C224" H 1250 10825 60  0000 L CNN
 F 1 "C_100n_0402" H 1200 10550 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 1400 10900 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 1400 10900 60  0001 L CNN
 F 3 "" H 1200 10700 50  0001 C CNN
 F 4 "Walsin" H 1400 11100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1400 11000 60  0001 L CNN "MPN"
@@ -2039,12 +1927,12 @@ F 6 "100n" H 1250 10600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C229
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C229
 U 1 1 6070D994
 P 1575 10700
 F 0 "C229" H 1625 10825 60  0000 L CNN
 F 1 "C_100n_0402" H 1575 10550 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 1775 10900 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 1775 10900 60  0001 L CNN
 F 3 "" H 1575 10700 50  0001 C CNN
 F 4 "Walsin" H 1775 11100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1775 11000 60  0001 L CNN "MPN"
@@ -2053,7 +1941,7 @@ F 6 "100n" H 1625 10600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0123
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0123
 U 1 1 6070E02F
 P 1575 10850
 F 0 "#PWR0123" H 1575 10600 50  0001 C CNN
@@ -2064,7 +1952,7 @@ F 3 "" H 1575 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0122
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0122
 U 1 1 6070E3A7
 P 1200 10850
 F 0 "#PWR0122" H 1200 10600 50  0001 C CNN
@@ -2075,7 +1963,7 @@ F 3 "" H 1200 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0119
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0119
 U 1 1 6070E60A
 P 825 10850
 F 0 "#PWR0119" H 825 10600 50  0001 C CNN
@@ -2092,12 +1980,12 @@ VCC3V3
 Text GLabel 1575 10550 1    50   Input ~ 0
 VCC3V3
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C230
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C230
 U 1 1 6072F75C
 P 1975 10700
 F 0 "C230" H 2025 10825 60  0000 L CNN
 F 1 "C_100n_0402" H 1975 10550 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 2175 10900 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 2175 10900 60  0001 L CNN
 F 3 "" H 1975 10700 50  0001 C CNN
 F 4 "Walsin" H 2175 11100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2175 11000 60  0001 L CNN "MPN"
@@ -2106,12 +1994,12 @@ F 6 "100n" H 2025 10600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C231
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C231
 U 1 1 6072F765
 P 2350 10700
 F 0 "C231" H 2400 10825 60  0000 L CNN
 F 1 "C_100n_0402" H 2350 10550 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 2550 10900 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 2550 10900 60  0001 L CNN
 F 3 "" H 2350 10700 50  0001 C CNN
 F 4 "Walsin" H 2550 11100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2550 11000 60  0001 L CNN "MPN"
@@ -2120,12 +2008,12 @@ F 6 "100n" H 2400 10600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C232
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C232
 U 1 1 6072F76E
 P 2725 10700
 F 0 "C232" H 2775 10825 60  0000 L CNN
 F 1 "C_100n_0402" H 2725 10550 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 2925 10900 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 2925 10900 60  0001 L CNN
 F 3 "" H 2725 10700 50  0001 C CNN
 F 4 "Walsin" H 2925 11100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2925 11000 60  0001 L CNN "MPN"
@@ -2134,7 +2022,7 @@ F 6 "100n" H 2775 10600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0126
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0126
 U 1 1 6072F774
 P 2725 10850
 F 0 "#PWR0126" H 2725 10600 50  0001 C CNN
@@ -2145,7 +2033,7 @@ F 3 "" H 2725 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0125
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0125
 U 1 1 6072F77A
 P 2350 10850
 F 0 "#PWR0125" H 2350 10600 50  0001 C CNN
@@ -2156,7 +2044,7 @@ F 3 "" H 2350 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0124
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0124
 U 1 1 6072F780
 P 1975 10850
 F 0 "#PWR0124" H 1975 10600 50  0001 C CNN
@@ -2173,12 +2061,12 @@ VCC3V3
 Text GLabel 2725 10550 1    50   Input ~ 0
 VCC3V3
 $Comp
-L artix-dc-scm:NVT2008DQ,115-artix-dc-scm U6
+L _autosave-artix-dc-scm:NVT2008DQ,115-artix-dc-scm U6
 U 1 1 628E0C73
 P 4400 7050
 F 0 "U6" H 4400 7565 50  0000 C CNN
 F 1 "NVT2008DQ,115" H 4400 7474 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:QFN50P250X450X100-21N" H 5100 7800 50  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:QFN50P250X450X100-21N" H 5100 7800 50  0001 C CNN
 F 3 "" H 5050 7800 50  0001 C CNN
 F 4 "NVT2008BQ,115" H 4700 7900 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 4800 8000 50  0001 C CNN "Manufacturer"
@@ -2188,7 +2076,7 @@ $EndComp
 Wire Wire Line
 	3850 8150 3850 8275
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR034
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR034
 U 1 1 61B2DA1C
 P 3850 8275
 F 0 "#PWR034" H 3850 8025 50  0001 C CNN
@@ -2204,12 +2092,12 @@ Connection ~ 3850 7800
 Wire Wire Line
 	3850 7800 3850 7850
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C39
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C39
 U 1 1 61B2DA1B
 P 3850 8000
 F 0 "C39" H 3735 7955 60  0000 R CNN
 F 1 "C_100n_0402" H 3850 7850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 4050 8200 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 4050 8200 60  0001 L CNN
 F 3 "" H 3850 8000 50  0001 C CNN
 F 4 "Walsin" H 4050 8400 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4050 8300 60  0001 L CNN "MPN"
@@ -2244,12 +2132,12 @@ VCC1V0
 Wire Wire Line
 	3650 6800 3650 6750
 $Comp
-L artix-dc-scm:R_200k_0402-artix-dc-scm R53
+L _autosave-artix-dc-scm:R_200k_0402-artix-dc-scm R53
 U 1 1 61B2DA1A
 P 3650 6600
 F 0 "R53" V 3605 6670 60  0000 L CNN
 F 1 "R_200k_0402" H 3650 6450 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 3850 6800 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 3850 6800 60  0001 L CNN
 F 3 "" H 3650 6600 50  0001 C CNN
 F 4 "YAGEO_(PHYCOMP)" H 3850 7000 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07200KL" H 3850 6900 60  0001 L CNN "MPN"
@@ -2280,7 +2168,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 7800 4975 7800
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR032
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR032
 U 1 1 628E4783
 P 4975 8275
 F 0 "#PWR032" H 4975 8025 50  0001 C CNN
@@ -2329,12 +2217,12 @@ I3C[3]_SDA
 Wire Wire Line
 	5225 8150 5225 8275
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C17
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C17
 U 1 1 60C1CFAB
 P 5225 8000
 F 0 "C17" H 5350 7925 60  0000 R CNN
 F 1 "C_100n_0402" H 5225 7850 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 5425 8200 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 5425 8200 60  0001 L CNN
 F 3 "" H 5225 8000 50  0001 C CNN
 F 4 "Walsin" H 5425 8400 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5425 8300 60  0001 L CNN "MPN"
@@ -2356,14 +2244,14 @@ Connection ~ 3725 10800
 Wire Wire Line
 	3725 10800 3725 10925
 $Comp
-L artix-dc-scm:FT2232H-56Q U?
+L _autosave-artix-dc-scm:FT2232H-56Q U?
 U 1 1 606A4A96
 P 7925 3825
 AR Path="/614223A1/60643A57/606A4A96" Ref="U?"  Part="1" 
 AR Path="/614223A1/606A4A96" Ref="U19"  Part="1" 
 F 0 "U19" H 7925 6312 60  0000 C CNN
 F 1 "FT2232H-56Q" H 7925 6206 60  0000 C CNN
-F 2 "artix-dc-scm-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm" V 8125 4025 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm" V 8125 4025 60  0001 L CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 8125 4225 60  0001 L CNN
 F 4 "FTDI" H 8125 4975 60  0001 L CNN "Manufacturer"
 F 5 "FT2232HQ-TRAY" H 8125 4375 60  0001 L CNN "MPN"
@@ -2425,14 +2313,14 @@ Connection ~ 6850 1675
 Wire Wire Line
 	5750 1125 5750 1075
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L _autosave-artix-dc-scm:C_100n_0402 C?
 U 1 1 606A4AC2
 P 5950 1275
 AR Path="/614223A1/60643A57/606A4AC2" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4AC2" Ref="C162"  Part="1" 
 F 0 "C162" H 5975 1350 60  0000 L CNN
 F 1 "C_100n_0402" H 5950 1125 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 6150 1475 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 6150 1475 60  0001 L CNN
 F 3 "" H 5950 1275 50  0001 C CNN
 F 4 "Walsin" H 6150 1675 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6150 1575 60  0001 L CNN "MPN"
@@ -2441,14 +2329,14 @@ F 6 "100n" H 5950 1175 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L _autosave-artix-dc-scm:C_100n_0402 C?
 U 1 1 606A4ACB
 P 6175 1275
 AR Path="/614223A1/60643A57/606A4ACB" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4ACB" Ref="C166"  Part="1" 
 F 0 "C166" H 6200 1350 60  0000 L CNN
 F 1 "C_100n_0402" H 6175 1125 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 6375 1475 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 6375 1475 60  0001 L CNN
 F 3 "" H 6175 1275 50  0001 C CNN
 F 4 "Walsin" H 6375 1675 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6375 1575 60  0001 L CNN "MPN"
@@ -2457,14 +2345,14 @@ F 6 "100n" H 6175 1175 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L _autosave-artix-dc-scm:C_100n_0402 C?
 U 1 1 606A4AD4
 P 6400 1275
 AR Path="/614223A1/60643A57/606A4AD4" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4AD4" Ref="C169"  Part="1" 
 F 0 "C169" H 6425 1350 60  0000 L CNN
 F 1 "C_100n_0402" H 6400 1125 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 6600 1475 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 6600 1475 60  0001 L CNN
 F 3 "" H 6400 1275 50  0001 C CNN
 F 4 "Walsin" H 6600 1675 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6600 1575 60  0001 L CNN "MPN"
@@ -2473,14 +2361,14 @@ F 6 "100n" H 6400 1175 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L _autosave-artix-dc-scm:C_100n_0402 C?
 U 1 1 606A4ADD
 P 6625 1275
 AR Path="/614223A1/60643A57/606A4ADD" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4ADD" Ref="C172"  Part="1" 
 F 0 "C172" H 6650 1350 60  0000 L CNN
 F 1 "C_100n_0402" H 6625 1125 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 6825 1475 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 6825 1475 60  0001 L CNN
 F 3 "" H 6625 1275 50  0001 C CNN
 F 4 "Walsin" H 6825 1675 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6825 1575 60  0001 L CNN "MPN"
@@ -2523,14 +2411,14 @@ Connection ~ 7000 2075
 Wire Wire Line
 	7000 2075 7000 1875
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L _autosave-artix-dc-scm:C_100n_0402 C?
 U 1 1 606A4B12
 P 6400 2075
 AR Path="/614223A1/60643A57/606A4B12" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4B12" Ref="C170"  Part="1" 
 F 0 "C170" H 6425 2150 60  0000 L CNN
 F 1 "C_100n_0402" H 6400 1925 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 6600 2275 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 6600 2275 60  0001 L CNN
 F 3 "" H 6400 2075 50  0001 C CNN
 F 4 "Walsin" H 6600 2475 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6600 2375 60  0001 L CNN "MPN"
@@ -2543,14 +2431,14 @@ Wire Wire Line
 Wire Wire Line
 	6675 2225 6675 2275
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L _autosave-artix-dc-scm:C_100n_0402 C?
 U 1 1 606A4B29
 P 5550 2125
 AR Path="/614223A1/60643A57/606A4B29" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4B29" Ref="C149"  Part="1" 
 F 0 "C149" H 5575 2200 60  0000 L CNN
 F 1 "C_100n_0402" H 5550 1975 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 5750 2325 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 5750 2325 60  0001 L CNN
 F 3 "" H 5550 2125 50  0001 C CNN
 F 4 "Walsin" H 5750 2525 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5750 2425 60  0001 L CNN "MPN"
@@ -2559,14 +2447,14 @@ F 6 "100n" H 5550 2025 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0402 C?
+L _autosave-artix-dc-scm:C_4u7_0402 C?
 U 1 1 606A4B32
 P 5775 2125
 AR Path="/614223A1/60643A57/606A4B32" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4B32" Ref="C154"  Part="1" 
 F 0 "C154" H 5800 2200 60  0000 L CNN
 F 1 "C_4u7_0402" H 5775 1975 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 5975 2325 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 5975 2325 60  0001 L CNN
 F 3 "" H 5775 2125 50  0001 C CNN
 F 4 "MURATA" H 5975 2525 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 5975 2425 60  0001 L CNN "MPN"
@@ -2581,14 +2469,14 @@ Wire Wire Line
 Wire Wire Line
 	5750 2625 5525 2625
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L _autosave-artix-dc-scm:C_100n_0402 C?
 U 1 1 606A4B4A
 P 5300 2775
 AR Path="/614223A1/60643A57/606A4B4A" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4B4A" Ref="C107"  Part="1" 
 F 0 "C107" H 5325 2850 60  0000 L CNN
 F 1 "C_100n_0402" H 5300 2625 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 5500 2975 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 5500 2975 60  0001 L CNN
 F 3 "" H 5300 2775 50  0001 C CNN
 F 4 "Walsin" H 5500 3175 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5500 3075 60  0001 L CNN "MPN"
@@ -2597,14 +2485,14 @@ F 6 "100n" H 5300 2675 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:C_4u7_0402 C?
+L _autosave-artix-dc-scm:C_4u7_0402 C?
 U 1 1 606A4B53
 P 5525 2775
 AR Path="/614223A1/60643A57/606A4B53" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4B53" Ref="C135"  Part="1" 
 F 0 "C135" H 5550 2850 60  0000 L CNN
 F 1 "C_4u7_0402" H 5525 2625 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 5725 2975 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 5725 2975 60  0001 L CNN
 F 3 "" H 5525 2775 50  0001 C CNN
 F 4 "MURATA" H 5725 3175 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 5725 3075 60  0001 L CNN "MPN"
@@ -2631,14 +2519,14 @@ Connection ~ 5525 2625
 Wire Wire Line
 	5525 2625 5300 2625
 $Comp
-L artix-dc-scm:BLM15AG601SN1D FB?
+L _autosave-artix-dc-scm:BLM15AG601SN1D FB?
 U 1 1 606A4B76
 P 5050 1975
 AR Path="/614223A1/60643A57/606A4B76" Ref="FB?"  Part="1" 
 AR Path="/614223A1/606A4B76" Ref="FB2"  Part="1" 
 F 0 "FB2" H 4950 2125 60  0000 C CNN
 F 1 "BLM15AG601SN1D" H 5050 1800 60  0000 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5250 2175 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 5250 2175 60  0001 L CNN
 F 3 "" H 5250 2275 60  0001 L CNN
 F 4 "BLM15AG601SN1D" H 5250 2475 60  0001 L CNN "MPN"
 F 5 "Murata" H 5250 3075 60  0001 L CNN "Manufacturer"
@@ -2646,14 +2534,14 @@ F 5 "Murata" H 5250 3075 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:BLM15AG601SN1D FB?
+L _autosave-artix-dc-scm:BLM15AG601SN1D FB?
 U 1 1 606A4B7E
 P 4875 2625
 AR Path="/614223A1/60643A57/606A4B7E" Ref="FB?"  Part="1" 
 AR Path="/614223A1/606A4B7E" Ref="FB1"  Part="1" 
 F 0 "FB1" H 4800 2800 60  0000 C CNN
 F 1 "BLM15AG601SN1D" H 4800 2450 60  0000 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5075 2825 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 5075 2825 60  0001 L CNN
 F 3 "" H 5075 2925 60  0001 L CNN
 F 4 "BLM15AG601SN1D" H 5075 3125 60  0001 L CNN "MPN"
 F 5 "Murata" H 5075 3725 60  0001 L CNN "Manufacturer"
@@ -2685,14 +2573,14 @@ Wire Wire Line
 Wire Wire Line
 	3700 5000 3325 5000
 $Comp
-L artix-dc-scm:R_12k_0402 R?
+L _autosave-artix-dc-scm:R_12k_0402 R?
 U 1 1 606A4B93
 P 6775 3775
 AR Path="/614223A1/60643A57/606A4B93" Ref="R?"  Part="1" 
 AR Path="/614223A1/606A4B93" Ref="R194"  Part="1" 
 F 0 "R194" H 6825 3675 60  0000 C CNN
 F 1 "R_12k_0402" H 6775 3625 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6975 3975 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 6975 3975 60  0001 L CNN
 F 3 "" H 6775 3775 50  0001 C CNN
 F 4 "VISHAY" H 6975 4175 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040212K0FKEDHP" H 6975 4075 60  0001 L CNN "MPN"
@@ -2710,14 +2598,14 @@ NoConn ~ 7125 4325
 NoConn ~ 7125 4425
 NoConn ~ 7125 4525
 $Comp
-L artix-dc-scm:ASFLMB-12.000MHZ-LC-T Y?
+L _autosave-artix-dc-scm:ASFLMB-12.000MHZ-LC-T Y?
 U 1 1 606A4BA7
 P 6350 4925
 AR Path="/614223A1/60643A57/606A4BA7" Ref="Y?"  Part="1" 
 AR Path="/614223A1/606A4BA7" Ref="Y4"  Part="1" 
 F 0 "Y4" H 6350 5240 50  0000 C CNN
 F 1 "ASFLMB-12.000MHZ-LC-T" H 6350 5149 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:ASFLMB" H 6600 4625 50  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:ASFLMB" H 6600 4625 50  0001 C CNN
 F 3 "" H 6450 5425 50  0001 C CNN
 F 4 "ASFLMB-12.000MHZ-LC-T" H 6400 5225 50  0001 C CNN "MPN"
 F 5 "TXC" H 6350 5325 50  0001 C CNN "Manufacturer"
@@ -2745,14 +2633,14 @@ Connection ~ 5850 4875
 Wire Wire Line
 	5850 4875 5525 4875
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L _autosave-artix-dc-scm:C_100n_0402 C?
 U 1 1 606A4BC1
 P 5525 5025
 AR Path="/614223A1/60643A57/606A4BC1" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4BC1" Ref="C139"  Part="1" 
 F 0 "C139" H 5550 5100 60  0000 L CNN
 F 1 "C_100n_0402" H 5525 4875 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 5725 5225 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 5725 5225 60  0001 L CNN
 F 3 "" H 5525 5025 50  0001 C CNN
 F 4 "Walsin" H 5725 5425 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5725 5325 60  0001 L CNN "MPN"
@@ -2774,14 +2662,14 @@ DBG_USB_D_N
 Text GLabel 3700 5000 2    50   Input ~ 0
 DBG_USB_D_P
 $Comp
-L artix-dc-scm:TP_SMD1MM TP?
+L _autosave-artix-dc-scm:TP_SMD1MM TP?
 U 1 1 606A4BE3
 P 3850 5100
 AR Path="/614223A1/60643A57/606A4BE3" Ref="TP?"  Part="1" 
 AR Path="/614223A1/606A4BE3" Ref="TP7"  Part="1" 
 F 0 "TP7" V 3850 5050 50  0000 R CNN
 F 1 "TP_SMD1MM" H 3850 5000 50  0001 C CNN
-F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 4050 5300 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:Testpoint_smd_1mm" H 4050 5300 60  0001 L CNN
 F 3 "" H 4050 5400 60  0001 L CNN
 	1    3850 5100
 	0    -1   -1   0   
@@ -2791,14 +2679,14 @@ Wire Wire Line
 Text Notes 2550 4100 0    118  ~ 24
 Debug USB
 $Comp
-L artix-dc-scm:R_10k_0402 R?
+L _autosave-artix-dc-scm:R_10k_0402 R?
 U 1 1 606A4BEE
 P 9225 5150
 AR Path="/614223A1/60643A57/606A4BEE" Ref="R?"  Part="1" 
 AR Path="/614223A1/606A4BEE" Ref="R196"  Part="1" 
 F 0 "R196" V 9125 5250 60  0000 C CNN
 F 1 "R_10k_0402" H 9225 5000 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 9425 5350 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 9425 5350 60  0001 L CNN
 F 3 "" H 9225 5150 50  0001 C CNN
 F 4 "VISHAY" H 9425 5550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9425 5450 60  0001 L CNN "MPN"
@@ -2807,14 +2695,14 @@ F 6 "10k" V 9300 5275 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_4k7_0402 R?
+L _autosave-artix-dc-scm:R_4k7_0402 R?
 U 1 1 606A4BF7
 P 9225 4675
 AR Path="/614223A1/60643A57/606A4BF7" Ref="R?"  Part="1" 
 AR Path="/614223A1/606A4BF7" Ref="R195"  Part="1" 
 F 0 "R195" V 9150 4775 60  0000 C CNN
 F 1 "R_4k7_0402" H 9225 4525 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 9425 4875 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 9425 4875 60  0001 L CNN
 F 3 "" H 9225 4675 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 9425 5075 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 9425 4975 60  0001 L CNN "MPN"
@@ -2838,14 +2726,14 @@ Connection ~ 9225 4925
 Wire Wire Line
 	9225 5350 9225 5300
 $Comp
-L artix-dc-scm:C_3u3_0603 C?
+L _autosave-artix-dc-scm:C_3u3_0603 C?
 U 1 1 606A4C10
 P 6675 2075
 AR Path="/614223A1/60643A57/606A4C10" Ref="C?"  Part="1" 
 AR Path="/614223A1/606A4C10" Ref="C173"  Part="1" 
 F 0 "C173" H 6700 2150 60  0000 L CNN
 F 1 "C_3u3_0603" H 6675 1925 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 6875 2275 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0603-cap" H 6875 2275 60  0001 L CNN
 F 3 "" H 6675 2075 50  0001 C CNN
 F 4 "KEMET" H 6875 2475 60  0001 L CNN "Manufacturer"
 F 5 "C0603C335M9PACTU" H 6875 2375 60  0001 L CNN "MPN"
@@ -2858,14 +2746,14 @@ Wire Wire Line
 Wire Wire Line
 	6700 5025 6825 5025
 $Comp
-L artix-dc-scm:R_10k_0402 R?
+L _autosave-artix-dc-scm:R_10k_0402 R?
 U 1 1 606A4C24
 P 5925 4275
 AR Path="/614223A1/60643A57/606A4C24" Ref="R?"  Part="1" 
 AR Path="/614223A1/606A4C24" Ref="R192"  Part="1" 
 F 0 "R192" V 5850 4175 60  0000 C CNN
 F 1 "R_10k_0402" H 5925 4125 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6125 4475 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 6125 4475 60  0001 L CNN
 F 3 "" H 5925 4275 50  0001 C CNN
 F 4 "VISHAY" H 6125 4675 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6125 4575 60  0001 L CNN "MPN"
@@ -2875,14 +2763,14 @@ F 7 "DNP" V 5925 4150 50  0000 C CNN "DNP"
 	0    -1   1    0   
 $EndComp
 $Comp
-L artix-dc-scm:R_4k7_0402 R?
+L _autosave-artix-dc-scm:R_4k7_0402 R?
 U 1 1 606A4C2E
 P 5925 3850
 AR Path="/614223A1/60643A57/606A4C2E" Ref="R?"  Part="1" 
 AR Path="/614223A1/606A4C2E" Ref="R191"  Part="1" 
 F 0 "R191" V 5850 3750 60  0000 C CNN
 F 1 "R_4k7_0402" H 5925 3700 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6125 4050 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 6125 4050 60  0001 L CNN
 F 3 "" H 5925 3850 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 6125 4250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 6125 4150 60  0001 L CNN "MPN"
@@ -2909,14 +2797,14 @@ Wire Wire Line
 Text GLabel 5800 3575 0    50   Input ~ 0
 VCC3V3
 $Comp
-L artix-dc-scm:R_1k_0402 R?
+L _autosave-artix-dc-scm:R_1k_0402 R?
 U 1 1 606A4C46
 P 6200 3850
 AR Path="/614223A1/60643A57/606A4C46" Ref="R?"  Part="1" 
 AR Path="/614223A1/606A4C46" Ref="R193"  Part="1" 
 F 0 "R193" V 6125 3900 60  0000 L CNN
 F 1 "R_1k_0402" H 6200 3700 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 6400 4050 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 6400 4050 60  0001 L CNN
 F 3 "" H 6200 3850 50  0001 C CNN
 F 4 "BOURNS" H 6400 4250 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 6400 4150 60  0001 L CNN "MPN"
@@ -2934,27 +2822,27 @@ Wire Wire Line
 Wire Wire Line
 	5800 3575 6200 3575
 $Comp
-L artix-dc-scm:TP_SMD1MM TP?
+L _autosave-artix-dc-scm:TP_SMD1MM TP?
 U 1 1 606A4C51
 P 8825 5225
 AR Path="/614223A1/60643A57/606A4C51" Ref="TP?"  Part="1" 
 AR Path="/614223A1/606A4C51" Ref="TP8"  Part="1" 
 F 0 "TP8" V 8825 5175 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8825 5125 50  0001 C CNN
-F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 9025 5425 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:Testpoint_smd_1mm" H 9025 5425 60  0001 L CNN
 F 3 "" H 9025 5525 60  0001 L CNN
 	1    8825 5225
 	0    -1   -1   0   
 $EndComp
 $Comp
-L artix-dc-scm:TP_SMD1MM TP?
+L _autosave-artix-dc-scm:TP_SMD1MM TP?
 U 1 1 606A4C57
 P 8825 5325
 AR Path="/614223A1/60643A57/606A4C57" Ref="TP?"  Part="1" 
 AR Path="/614223A1/606A4C57" Ref="TP9"  Part="1" 
 F 0 "TP9" V 8825 5275 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8825 5225 50  0001 C CNN
-F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 9025 5525 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:Testpoint_smd_1mm" H 9025 5525 60  0001 L CNN
 F 3 "" H 9025 5625 60  0001 L CNN
 	1    8825 5325
 	0    -1   -1   0   
@@ -2962,7 +2850,7 @@ $EndComp
 Wire Wire Line
 	2925 5600 2925 5675
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0128
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0128
 U 1 1 60C1CFA2
 P 5225 8275
 F 0 "#PWR0128" H 5225 8025 50  0001 C CNN
@@ -2973,7 +2861,7 @@ F 3 "" H 5225 8275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0129
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0129
 U 1 1 60F4B375
 P 2925 5675
 F 0 "#PWR0129" H 2925 5425 50  0001 C CNN
@@ -2984,7 +2872,7 @@ F 3 "" H 2925 5675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0130
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0130
 U 1 1 60F4C3AE
 P 3725 5275
 F 0 "#PWR0130" H 3725 5025 50  0001 C CNN
@@ -2995,7 +2883,7 @@ F 3 "" H 3725 5275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0131
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0131
 U 1 1 60F4F02A
 P 7925 5975
 F 0 "#PWR0131" H 7925 5725 50  0001 C CNN
@@ -3006,7 +2894,7 @@ F 3 "" H 7925 5975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0132
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0132
 U 1 1 60F4F7F8
 P 9225 5350
 F 0 "#PWR0132" H 9225 5100 50  0001 C CNN
@@ -3017,7 +2905,7 @@ F 3 "" H 9225 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0133
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0133
 U 1 1 60F50F93
 P 6800 5600
 F 0 "#PWR0133" H 6800 5350 50  0001 C CNN
@@ -3028,7 +2916,7 @@ F 3 "" H 6800 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0134
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0134
 U 1 1 60F5165D
 P 6825 5150
 F 0 "#PWR0134" H 6825 4900 50  0001 C CNN
@@ -3039,7 +2927,7 @@ F 3 "" H 6825 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0135
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0135
 U 1 1 60F53FBA
 P 5525 5225
 F 0 "#PWR0135" H 5525 4975 50  0001 C CNN
@@ -3050,7 +2938,7 @@ F 3 "" H 5525 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0136
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0136
 U 1 1 60F5694B
 P 5925 4450
 F 0 "#PWR0136" H 5925 4200 50  0001 C CNN
@@ -3061,7 +2949,7 @@ F 3 "" H 5925 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0137
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0137
 U 1 1 60F59139
 P 6450 3825
 F 0 "#PWR0137" H 6450 3575 50  0001 C CNN
@@ -3072,7 +2960,7 @@ F 3 "" H 6450 3825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0138
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0138
 U 1 1 60F5BC13
 P 5300 2975
 F 0 "#PWR0138" H 5300 2725 50  0001 C CNN
@@ -3083,7 +2971,7 @@ F 3 "" H 5300 2975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0139
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0139
 U 1 1 60F5C3C0
 P 5525 2975
 F 0 "#PWR0139" H 5525 2725 50  0001 C CNN
@@ -3094,7 +2982,7 @@ F 3 "" H 5525 2975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0140
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0140
 U 1 1 60F5F702
 P 5550 2325
 F 0 "#PWR0140" H 5550 2075 50  0001 C CNN
@@ -3105,7 +2993,7 @@ F 3 "" H 5550 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0141
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0141
 U 1 1 60F5FD56
 P 5775 2325
 F 0 "#PWR0141" H 5775 2075 50  0001 C CNN
@@ -3116,7 +3004,7 @@ F 3 "" H 5775 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0142
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0142
 U 1 1 60F60454
 P 6400 2275
 F 0 "#PWR0142" H 6400 2025 50  0001 C CNN
@@ -3127,7 +3015,7 @@ F 3 "" H 6400 2275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0143
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0143
 U 1 1 60F60B92
 P 6675 2275
 F 0 "#PWR0143" H 6675 2025 50  0001 C CNN
@@ -3138,7 +3026,7 @@ F 3 "" H 6675 2275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0144
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0144
 U 1 1 60F62825
 P 5950 1475
 F 0 "#PWR0144" H 5950 1225 50  0001 C CNN
@@ -3149,7 +3037,7 @@ F 3 "" H 5950 1475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0145
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0145
 U 1 1 60F62F4A
 P 6175 1475
 F 0 "#PWR0145" H 6175 1225 50  0001 C CNN
@@ -3160,7 +3048,7 @@ F 3 "" H 6175 1475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0146
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0146
 U 1 1 60F636A2
 P 6400 1475
 F 0 "#PWR0146" H 6400 1225 50  0001 C CNN
@@ -3171,7 +3059,7 @@ F 3 "" H 6400 1475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0147
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0147
 U 1 1 60F63D6D
 P 6625 1475
 F 0 "#PWR0147" H 6625 1225 50  0001 C CNN
@@ -3194,12 +3082,12 @@ Wire Wire Line
 Wire Wire Line
 	1550 1475 2425 1475
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C194
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C194
 U 1 1 6050F852
 P 1400 1475
 F 0 "C194" V 1142 1475 60  0000 C CNN
 F 1 "C_100n_0402" H 1400 1325 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 1600 1675 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 1600 1675 60  0001 L CNN
 F 3 "" H 1400 1475 50  0001 C CNN
 F 4 "Walsin" H 1600 1875 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1600 1775 60  0001 L CNN "MPN"
@@ -3212,12 +3100,12 @@ Wire Wire Line
 Wire Wire Line
 	1775 1375 2425 1375
 $Comp
-L artix-dc-scm:C_100n_0402-artix-dc-scm C195
+L _autosave-artix-dc-scm:C_100n_0402-artix-dc-scm C195
 U 1 1 604DDE71
 P 1625 1375
 F 0 "C195" V 1367 1375 60  0000 C CNN
 F 1 "C_100n_0402" H 1625 1225 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 1825 1575 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 1825 1575 60  0001 L CNN
 F 3 "" H 1625 1375 50  0001 C CNN
 F 4 "Walsin" H 1825 1775 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1825 1675 60  0001 L CNN "MPN"
@@ -3230,14 +3118,14 @@ PCIE_BMC_TX_C_P
 Text Label 1775 1475 0    50   ~ 0
 PCIE_BMC_TX_C_N
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L _autosave-artix-dc-scm:C_100n_0402 C?
 U 1 1 6159A228
 P 6175 2075
 AR Path="/614223A1/60643A57/6159A228" Ref="C?"  Part="1" 
 AR Path="/614223A1/6159A228" Ref="C168"  Part="1" 
 F 0 "C168" H 6200 2150 60  0000 L CNN
 F 1 "C_100n_0402" H 6175 1925 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 6375 2275 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 6375 2275 60  0001 L CNN
 F 3 "" H 6175 2075 50  0001 C CNN
 F 4 "Walsin" H 6375 2475 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6375 2375 60  0001 L CNN "MPN"
@@ -3248,7 +3136,7 @@ $EndComp
 Wire Wire Line
 	6175 2225 6175 2275
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0148
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0148
 U 1 1 6159A22F
 P 6175 2275
 F 0 "#PWR0148" H 6175 2025 50  0001 C CNN
@@ -3273,14 +3161,14 @@ Connection ~ 6675 1875
 Wire Wire Line
 	6675 1875 7000 1875
 $Comp
-L artix-dc-scm:C_100n_0402 C?
+L _autosave-artix-dc-scm:C_100n_0402 C?
 U 1 1 6022FF73
 P 4650 5425
 AR Path="/614223A1/60643A57/6022FF73" Ref="C?"  Part="1" 
 AR Path="/614223A1/6022FF73" Ref="C174"  Part="1" 
 F 0 "C174" H 4675 5500 60  0000 L CNN
 F 1 "C_100n_0402" H 4650 5275 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 4850 5625 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 4850 5625 60  0001 L CNN
 F 3 "" H 4650 5425 50  0001 C CNN
 F 4 "Walsin" H 4850 5825 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4850 5725 60  0001 L CNN "MPN"
@@ -3291,7 +3179,7 @@ $EndComp
 Wire Wire Line
 	4650 5575 4650 5625
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0149
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0149
 U 1 1 6022FF7A
 P 4650 5625
 F 0 "#PWR0149" H 4650 5375 50  0001 C CNN
@@ -3306,12 +3194,12 @@ VBUS
 Wire Wire Line
 	4650 5275 4650 5150
 $Comp
-L artix-dc-scm:10118192-0001LF J3
+L _autosave-artix-dc-scm:10118192-0001LF J3
 U 1 1 60109106
 P 3025 5000
 F 0 "J3" H 3089 5745 60  0000 C CNN
 F 1 "10118192-0001LF" H 3089 5639 60  0000 C CNN
-F 2 "artix-dc-scm-footprints:USB_Micro_B_Female_10118192" H 3225 5200 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:USB_Micro_B_Female_10118192" H 3225 5200 60  0001 L CNN
 F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 3225 5300 60  0001 L CNN
 F 4 "10118192-0001LF" H 3225 5500 60  0001 L CNN "MPN"
 F 5 "Amphenol ICC (FCI)" H 3225 6100 60  0001 L CNN "Manufacturer"
@@ -3323,14 +3211,14 @@ Wire Wire Line
 Text GLabel 4650 5150 1    50   Input ~ 0
 VBUS
 $Comp
-L artix-dc-scm:C_4u7_0402 C?
+L _autosave-artix-dc-scm:C_4u7_0402 C?
 U 1 1 601C3138
 P 4950 5425
 AR Path="/614223A1/60643A57/601C3138" Ref="C?"  Part="1" 
 AR Path="/614223A1/601C3138" Ref="C176"  Part="1" 
 F 0 "C176" H 4975 5500 60  0000 L CNN
 F 1 "C_4u7_0402" H 4950 5275 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 5150 5625 60  0001 L CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 5150 5625 60  0001 L CNN
 F 3 "" H 4950 5425 50  0001 C CNN
 F 4 "MURATA" H 5150 5825 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 5150 5725 60  0001 L CNN "MPN"
@@ -3341,7 +3229,7 @@ $EndComp
 Wire Wire Line
 	4950 5575 4950 5625
 $Comp
-L artix-dc-scm:GND-artix-dc-scm #PWR0150
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR0150
 U 1 1 601C313F
 P 4950 5625
 F 0 "#PWR0150" H 4950 5375 50  0001 C CNN
@@ -3355,4 +3243,298 @@ Wire Wire Line
 	4950 5275 4950 5150
 Text GLabel 4950 5150 1    50   Input ~ 0
 VBUS
+Wire Wire Line
+	13850 7525 14150 7525
+Connection ~ 12950 2800
+Wire Wire Line
+	13250 2800 13150 2800
+Connection ~ 13150 2800
+Wire Wire Line
+	13150 2800 13050 2800
+Wire Wire Line
+	13050 2800 12950 2800
+Connection ~ 13050 2800
+$Comp
+L _autosave-artix-dc-scm:USB3300-EZK-TR U17
+U 1 1 5FF36760
+P 13100 4000
+F 0 "U17" H 12225 5150 50  0000 C CNN
+F 1 "USB3300-EZK-TR" H 12500 5050 50  0000 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:QFN50P500X500X100-33N" H 12600 4000 50  0001 L BNN
+F 3 "" H 13100 4000 50  0001 L BNN
+F 4 "Microchip" H 13250 2700 50  0001 L BNN "Manufacturer"
+F 5 "USB3300-EZK-TR" H 13100 4000 50  0001 C CNN "MPN"
+	1    13100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L _autosave-artix-dc-scm:C_4u7_0402 C245
+U 1 1 60191768
+P 15400 8500
+F 0 "C245" H 15425 8600 60  0000 L CNN
+F 1 "C_4u7_0402" H 15400 8350 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15600 8700 60  0001 L CNN
+F 3 "" H 15400 8500 50  0001 C CNN
+F 4 "MURATA" H 15600 8900 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 15600 8800 60  0001 L CNN "MPN"
+F 6 "4u7" H 15425 8400 50  0000 L CNN "Val"
+	1    15400 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L _autosave-artix-dc-scm:C_4u7_0402 C177
+U 1 1 601939FC
+P 15675 7750
+F 0 "C177" H 15700 7850 60  0000 L CNN
+F 1 "C_4u7_0402" H 15675 7600 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15875 7950 60  0001 L CNN
+F 3 "" H 15675 7750 50  0001 C CNN
+F 4 "MURATA" H 15875 8150 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 15875 8050 60  0001 L CNN "MPN"
+F 6 "4u7" H 15700 7650 50  0000 L CNN "Val"
+	1    15675 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+U 1 1 603378D7
+P 15675 7925
+AR Path="/5FC6B687/603378D7" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/603378D7" Ref="#PWR?"  Part="1" 
+AR Path="/614223A1/603378D7" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 15675 7675 50  0001 C CNN
+F 1 "GND" H 15680 7752 50  0000 C CNN
+F 2 "" H 15675 7925 50  0001 C CNN
+F 3 "" H 15675 7925 50  0001 C CNN
+	1    15675 7925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15675 7900 15675 7925
+$Comp
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+U 1 1 60424528
+P 15400 8675
+AR Path="/5FC6B687/60424528" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/60424528" Ref="#PWR?"  Part="1" 
+AR Path="/614223A1/60424528" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 15400 8425 50  0001 C CNN
+F 1 "GND" H 15405 8502 50  0000 C CNN
+F 2 "" H 15400 8675 50  0001 C CNN
+F 3 "" H 15400 8675 50  0001 C CNN
+	1    15400 8675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15400 8650 15400 8675
+Wire Wire Line
+	15125 8350 15125 8275
+Wire Wire Line
+	15400 8275 15125 8275
+Wire Wire Line
+	15400 8350 15400 8275
+Wire Wire Line
+	15400 7525 15400 7600
+Wire Wire Line
+	15675 7525 15400 7525
+Wire Wire Line
+	15675 7600 15675 7525
+$Comp
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+U 1 1 60CE66FD
+P 15575 3550
+AR Path="/5FC6B687/60CE66FD" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/60CE66FD" Ref="#PWR?"  Part="1" 
+AR Path="/614223A1/60CE66FD" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 15575 3300 50  0001 C CNN
+F 1 "GND" H 15580 3377 50  0000 C CNN
+F 2 "" H 15575 3550 50  0001 C CNN
+F 3 "" H 15575 3550 50  0001 C CNN
+	1    15575 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+U 1 1 60CE6703
+P 15550 4350
+AR Path="/5FC6B687/60CE6703" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/60CE6703" Ref="#PWR?"  Part="1" 
+AR Path="/614223A1/60CE6703" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 15550 4100 50  0001 C CNN
+F 1 "GND" H 15555 4177 50  0000 C CNN
+F 2 "" H 15550 4350 50  0001 C CNN
+F 3 "" H 15550 4350 50  0001 C CNN
+	1    15550 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15575 3525 15575 3550
+Wire Wire Line
+	15550 4325 15550 4350
+$Comp
+L _autosave-artix-dc-scm:C_4u7_0402 C247
+U 1 1 60CE670E
+P 15800 3375
+F 0 "C247" H 15825 3475 60  0000 L CNN
+F 1 "C_4u7_0402" H 15800 3225 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 16000 3575 60  0001 L CNN
+F 3 "" H 15800 3375 50  0001 C CNN
+F 4 "MURATA" H 16000 3775 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 16000 3675 60  0001 L CNN "MPN"
+F 6 "4u7" H 15825 3275 50  0000 L CNN "Val"
+	1    15800 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L _autosave-artix-dc-scm:C_4u7_0402 C246
+U 1 1 60CE6717
+P 15800 4175
+F 0 "C246" H 15825 4275 60  0000 L CNN
+F 1 "C_4u7_0402" H 15800 4025 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 16000 4375 60  0001 L CNN
+F 3 "" H 15800 4175 50  0001 C CNN
+F 4 "MURATA" H 16000 4575 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 16000 4475 60  0001 L CNN "MPN"
+F 6 "4u7" H 15825 4075 50  0000 L CNN "Val"
+	1    15800 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+U 1 1 60CE671D
+P 15800 4350
+AR Path="/5FC6B687/60CE671D" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/60CE671D" Ref="#PWR?"  Part="1" 
+AR Path="/614223A1/60CE671D" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 15800 4100 50  0001 C CNN
+F 1 "GND" H 15805 4177 50  0000 C CNN
+F 2 "" H 15800 4350 50  0001 C CNN
+F 3 "" H 15800 4350 50  0001 C CNN
+	1    15800 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15800 4325 15800 4350
+$Comp
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+U 1 1 60CE6724
+P 15800 3550
+AR Path="/5FC6B687/60CE6724" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/60CE6724" Ref="#PWR?"  Part="1" 
+AR Path="/614223A1/60CE6724" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 15800 3300 50  0001 C CNN
+F 1 "GND" H 15805 3377 50  0000 C CNN
+F 2 "" H 15800 3550 50  0001 C CNN
+F 3 "" H 15800 3550 50  0001 C CNN
+	1    15800 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15800 3525 15800 3550
+Wire Wire Line
+	15575 3225 15575 3150
+Wire Wire Line
+	15800 3150 15575 3150
+Wire Wire Line
+	15800 3225 15800 3150
+Wire Wire Line
+	15550 3950 15550 4025
+Wire Wire Line
+	15800 3950 15550 3950
+Wire Wire Line
+	15800 4025 15800 3950
+Connection ~ 15400 7525
+Wire Wire Line
+	15125 8275 14800 8275
+Wire Wire Line
+	14800 8275 14800 7725
+Wire Wire Line
+	13850 7725 14800 7725
+Connection ~ 15125 8275
+Wire Wire Line
+	11875 4650 11750 4650
+Connection ~ 14350 3150
+Wire Wire Line
+	14000 3350 15200 3350
+Connection ~ 15550 3950
+Connection ~ 15575 3150
+Wire Wire Line
+	14350 3150 15350 3150
+$Comp
+L _autosave-artix-dc-scm:C_100n_0402 C249
+U 1 1 6151E0D5
+P 15350 3375
+F 0 "C249" H 15375 3475 60  0000 L CNN
+F 1 "C_100n_0402" H 15350 3225 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15550 3575 60  0001 L CNN
+F 3 "" H 15350 3375 50  0001 C CNN
+F 4 "Walsin" H 15550 3775 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 15550 3675 60  0001 L CNN "MPN"
+F 6 "100n" H 15375 3275 50  0000 L CNN "Val"
+	1    15350 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+U 1 1 6151E0DB
+P 15350 3550
+AR Path="/5FC6B687/6151E0DB" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/6151E0DB" Ref="#PWR?"  Part="1" 
+AR Path="/614223A1/6151E0DB" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0155" H 15350 3300 50  0001 C CNN
+F 1 "GND" H 15355 3377 50  0000 C CNN
+F 2 "" H 15350 3550 50  0001 C CNN
+F 3 "" H 15350 3550 50  0001 C CNN
+	1    15350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 3525 15350 3550
+Wire Wire Line
+	15350 3225 15350 3150
+Wire Wire Line
+	15200 3350 15200 3950
+$Comp
+L _autosave-artix-dc-scm:C_100n_0402 C248
+U 1 1 61610EDB
+P 15125 7750
+F 0 "C248" H 15150 7850 60  0000 L CNN
+F 1 "C_100n_0402" H 15125 7600 60  0001 C CNN
+F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 15325 7950 60  0001 L CNN
+F 3 "" H 15125 7750 50  0001 C CNN
+F 4 "Walsin" H 15325 8150 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 15325 8050 60  0001 L CNN "MPN"
+F 6 "100n" H 15150 7650 50  0000 L CNN "Val"
+	1    15125 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+U 1 1 61610EE1
+P 15125 7925
+AR Path="/5FC6B687/61610EE1" Ref="#PWR?"  Part="1" 
+AR Path="/624C566F/61610EE1" Ref="#PWR?"  Part="1" 
+AR Path="/614223A1/61610EE1" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 15125 7675 50  0001 C CNN
+F 1 "GND" H 15130 7752 50  0000 C CNN
+F 2 "" H 15125 7925 50  0001 C CNN
+F 3 "" H 15125 7925 50  0001 C CNN
+	1    15125 7925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15125 7900 15125 7925
+Connection ~ 15350 3150
+Wire Wire Line
+	15350 3150 15575 3150
+Wire Wire Line
+	15125 7600 15125 7525
+Wire Wire Line
+	15200 3950 15550 3950
+Connection ~ 15125 7525
+Wire Wire Line
+	15125 7525 15400 7525
+Wire Wire Line
+	14150 7525 15125 7525
+Connection ~ 14150 7525
 $EndSCHEMATC

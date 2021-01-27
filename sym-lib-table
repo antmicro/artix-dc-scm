@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name artix-dc-scm)(type Legacy)(uri ${KIPRJMOD}/lib/artix-dc-scm.lib)(options "")(descr ""))
+  (lib (name _autosave-artix-dc-scm)(type Legacy)(uri ${KIPRJMOD}/lib/_autosave-artix-dc-scm.lib)(options "")(descr ""))
 )
