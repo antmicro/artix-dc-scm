@@ -1131,19 +1131,6 @@ Text Notes 9025 7000 0    50   ~ 0
 preliminary\n
 Text GLabel 8225 4625 0    50   Input ~ 0
 ROT_RDY\ROT_GPIO0
-$Comp
-L artix-dc-scm:M20-7830642 J4
-U 1 1 5FD63CCC
-P 12475 5250
-F 0 "J4" H 12475 5697 60  0000 C CNN
-F 1 "M20-7830642" H 12475 5591 60  0000 C CNN
-F 2 "artix-dc-scm-footprints:PinHeader_6x2_P2.54mm_Vertical" H 12675 5450 60  0001 L CNN
-F 3 "" H 12675 5550 60  0001 L CNN
-F 4 "M20-7830642" H 12675 5750 60  0001 L CNN "MPN"
-F 5 "Molex" H 12675 5850 60  0001 L CNN "Manufacturer"
-	1    12475 5250
-	1    0    0    -1  
-$EndComp
 Text GLabel 11650 5000 1    50   Input ~ 0
 VCC3V3
 Text GLabel 12275 5050 0    50   Input ~ 0
@@ -1354,4 +1341,17 @@ F 5 "9774030151" H 9875 7050 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9675 7050
+$Comp
+L artix-dc-scm:M20-7830642 J4
+U 1 1 602023B9
+P 12475 5250
+F 0 "J4" H 12475 5697 60  0000 C CNN
+F 1 "M20-7830642" H 12475 5591 60  0000 C CNN
+F 2 "artix-dc-scm-footprints:PinHeader_6x2_P2.54mm_Vertical_pmod" H 12675 5450 60  0001 L CNN
+F 3 "" H 12675 5550 60  0001 L CNN
+F 4 "M20-7830642" H 12675 5750 60  0001 L CNN "MPN"
+F 5 "Molex" H 12675 5850 60  0001 L CNN "Manufacturer"
+	1    12475 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
