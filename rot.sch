@@ -32,7 +32,7 @@ QSPIA1_D3
 Text GLabel 2150 1850 1    50   Input ~ 0
 VCC3V3
 $Comp
-L _autosave-artix-dc-scm:R_4k7_0402 R?
+L artix-dc-scm:R_4k7_0402 R?
 U 1 1 5FD7A697
 P 2150 2300
 AR Path="/5FCFE2A8/5FD7A697" Ref="R?"  Part="1" 
@@ -40,7 +40,7 @@ AR Path="/5FC6B687/5FD7A697" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD7A697" Ref="R24"  Part="1" 
 F 0 "R24" H 1875 2250 60  0000 L CNN
 F 1 "R_4k7_0402" H 2150 2150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2350 2500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2350 2500 60  0001 L CNN
 F 3 "" H 2150 2300 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2350 2700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 2350 2600 60  0001 L CNN "MPN"
@@ -49,7 +49,7 @@ F 6 "4k7" H 2075 2300 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_1k_0402 R?
+L artix-dc-scm:R_1k_0402 R?
 U 1 1 5FD7A6A0
 P 2275 2300
 AR Path="/5FCFE2A8/5FD7A6A0" Ref="R?"  Part="1" 
@@ -57,7 +57,7 @@ AR Path="/5FC6B687/5FD7A6A0" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD7A6A0" Ref="R28"  Part="1" 
 F 0 "R28" H 2000 2250 60  0000 L CNN
 F 1 "R_1k_0402" H 2275 2150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2475 2500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2475 2500 60  0001 L CNN
 F 3 "" H 2275 2300 50  0001 C CNN
 F 4 "BOURNS" H 2475 2700 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 2475 2600 60  0001 L CNN "MPN"
@@ -66,7 +66,7 @@ F 6 "1k" H 2225 2300 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FD7A6A9
 P 2400 2300
 AR Path="/5FCFE2A8/5FD7A6A9" Ref="R?"  Part="1" 
@@ -74,7 +74,7 @@ AR Path="/5FC6B687/5FD7A6A9" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD7A6A9" Ref="R32"  Part="1" 
 F 0 "R32" H 2675 2350 60  0000 R CNN
 F 1 "R_10k_0402" H 2400 2150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2600 2500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2600 2500 60  0001 L CNN
 F 3 "" H 2400 2300 50  0001 C CNN
 F 4 "VISHAY" H 2600 2700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2600 2600 60  0001 L CNN "MPN"
@@ -83,7 +83,7 @@ F 6 "10k" H 2475 2300 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FD7A6B2
 P 2650 2300
 AR Path="/5FCFE2A8/5FD7A6B2" Ref="R?"  Part="1" 
@@ -91,7 +91,7 @@ AR Path="/5FC6B687/5FD7A6B2" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD7A6B2" Ref="R40"  Part="1" 
 F 0 "R40" H 2925 2350 60  0000 R CNN
 F 1 "R_10k_0402" H 2650 2150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2850 2500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2850 2500 60  0001 L CNN
 F 3 "" H 2650 2300 50  0001 C CNN
 F 4 "VISHAY" H 2850 2700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2850 2600 60  0001 L CNN "MPN"
@@ -100,7 +100,7 @@ F 6 "10k" H 2725 2300 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FD7A6BB
 P 3850 2300
 AR Path="/5FCFE2A8/5FD7A6BB" Ref="R?"  Part="1" 
@@ -108,7 +108,7 @@ AR Path="/5FC6B687/5FD7A6BB" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD7A6BB" Ref="R44"  Part="1" 
 F 0 "R44" V 3895 2230 60  0000 R CNN
 F 1 "R_10k_0402" H 3850 2150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 4050 2500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4050 2500 60  0001 L CNN
 F 3 "" H 3850 2300 50  0001 C CNN
 F 4 "VISHAY" H 4050 2700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4050 2600 60  0001 L CNN "MPN"
@@ -143,14 +143,14 @@ Wire Wire Line
 	2150 2000 2150 1850
 Connection ~ 2150 2000
 $Comp
-L _autosave-artix-dc-scm:C_470n_0402 C?
+L artix-dc-scm:C_470n_0402 C?
 U 1 1 5FD7A6D3
 P 3050 2000
 AR Path="/5FC6B687/5FD7A6D3" Ref="C?"  Part="1" 
 AR Path="/624C566F/5FD7A6D3" Ref="C38"  Part="1" 
 F 0 "C38" H 3165 2045 60  0000 L CNN
 F 1 "C_470n_0402" H 3050 1850 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 3250 2200 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3250 2200 60  0001 L CNN
 F 3 "" H 3050 2000 50  0001 C CNN
 F 4 "TDK" H 3250 2400 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 3250 2300 60  0001 L CNN "MPN"
@@ -161,7 +161,7 @@ $EndComp
 Text GLabel 3050 1850 1    50   Input ~ 0
 VCC3V3
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD7A6DA
 P 3050 2200
 AR Path="/5FCFE2A8/5FD7A6DA" Ref="#PWR?"  Part="1" 
@@ -179,7 +179,7 @@ Wire Wire Line
 Wire Wire Line
 	2525 2150 2525 2000
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FD7A6E6
 P 2525 2300
 AR Path="/5FCFE2A8/5FD7A6E6" Ref="R?"  Part="1" 
@@ -187,7 +187,7 @@ AR Path="/5FC6B687/5FD7A6E6" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD7A6E6" Ref="R36"  Part="1" 
 F 0 "R36" H 2800 2350 60  0000 R CNN
 F 1 "R_10k_0402" H 2525 2150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2725 2500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2725 2500 60  0001 L CNN
 F 3 "" H 2525 2300 50  0001 C CNN
 F 4 "VISHAY" H 2725 2700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2725 2600 60  0001 L CNN "MPN"
@@ -198,14 +198,14 @@ $EndComp
 Wire Wire Line
 	2650 2450 2650 2950
 $Comp
-L _autosave-artix-dc-scm:W25Q32JVSSIQ_TR U?
+L artix-dc-scm:W25Q32JVSSIQ_TR U?
 U 1 1 5FD7A6EF
 P 3450 2750
 AR Path="/5FC6B687/5FD7A6EF" Ref="U?"  Part="1" 
 AR Path="/624C566F/5FD7A6EF" Ref="U5"  Part="1" 
 F 0 "U5" H 3700 2475 50  0000 L CNN
 F 1 "W25Q32JVSSIQ_TR" H 3700 2575 50  0000 L CNN
-F 2 "_autosave-artix-dc-scm-footprints:W25Q32JVSSIQ" H 3650 2950 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:W25Q32JVSSIQ" H 3650 2950 60  0001 L CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3650 3050 60  0001 L CNN
 F 4 "W25Q32JVSSIQ TR" H 3650 3250 60  0001 L CNN "MPN"
 F 5 "Winbond Electronics" H 3650 3850 60  0001 L CNN "Manufacturer"
@@ -259,7 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 3150 3450 3250
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD7A70F
 P 3450 3250
 AR Path="/5FC6B687/5FD7A70F" Ref="#PWR?"  Part="1" 
@@ -286,7 +286,7 @@ QSPIA2_D3
 Text GLabel 2125 3900 1    50   Input ~ 0
 VCC3V3
 $Comp
-L _autosave-artix-dc-scm:R_4k7_0402 R?
+L artix-dc-scm:R_4k7_0402 R?
 U 1 1 5FD834C9
 P 2125 4350
 AR Path="/5FCFE2A8/5FD834C9" Ref="R?"  Part="1" 
@@ -294,7 +294,7 @@ AR Path="/5FC6B687/5FD834C9" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD834C9" Ref="R23"  Part="1" 
 F 0 "R23" H 1850 4300 60  0000 L CNN
 F 1 "R_4k7_0402" H 2125 4200 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2325 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2325 4550 60  0001 L CNN
 F 3 "" H 2125 4350 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2325 4750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 2325 4650 60  0001 L CNN "MPN"
@@ -303,7 +303,7 @@ F 6 "4k7" H 2050 4350 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_1k_0402 R?
+L artix-dc-scm:R_1k_0402 R?
 U 1 1 5FD834D2
 P 2250 4350
 AR Path="/5FCFE2A8/5FD834D2" Ref="R?"  Part="1" 
@@ -311,7 +311,7 @@ AR Path="/5FC6B687/5FD834D2" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD834D2" Ref="R27"  Part="1" 
 F 0 "R27" H 1975 4300 60  0000 L CNN
 F 1 "R_1k_0402" H 2250 4200 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2450 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2450 4550 60  0001 L CNN
 F 3 "" H 2250 4350 50  0001 C CNN
 F 4 "BOURNS" H 2450 4750 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 2450 4650 60  0001 L CNN "MPN"
@@ -320,7 +320,7 @@ F 6 "1k" H 2200 4350 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FD834DB
 P 2375 4350
 AR Path="/5FCFE2A8/5FD834DB" Ref="R?"  Part="1" 
@@ -328,7 +328,7 @@ AR Path="/5FC6B687/5FD834DB" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD834DB" Ref="R31"  Part="1" 
 F 0 "R31" H 2650 4400 60  0000 R CNN
 F 1 "R_10k_0402" H 2375 4200 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2575 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2575 4550 60  0001 L CNN
 F 3 "" H 2375 4350 50  0001 C CNN
 F 4 "VISHAY" H 2575 4750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2575 4650 60  0001 L CNN "MPN"
@@ -337,7 +337,7 @@ F 6 "10k" H 2450 4350 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FD834E4
 P 2625 4350
 AR Path="/5FCFE2A8/5FD834E4" Ref="R?"  Part="1" 
@@ -345,7 +345,7 @@ AR Path="/5FC6B687/5FD834E4" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD834E4" Ref="R39"  Part="1" 
 F 0 "R39" H 2900 4400 60  0000 R CNN
 F 1 "R_10k_0402" H 2625 4200 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2825 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2825 4550 60  0001 L CNN
 F 3 "" H 2625 4350 50  0001 C CNN
 F 4 "VISHAY" H 2825 4750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2825 4650 60  0001 L CNN "MPN"
@@ -354,7 +354,7 @@ F 6 "10k" H 2700 4350 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FD834ED
 P 3825 4350
 AR Path="/5FCFE2A8/5FD834ED" Ref="R?"  Part="1" 
@@ -362,7 +362,7 @@ AR Path="/5FC6B687/5FD834ED" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD834ED" Ref="R43"  Part="1" 
 F 0 "R43" V 3870 4280 60  0000 R CNN
 F 1 "R_10k_0402" H 3825 4200 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 4025 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 4025 4550 60  0001 L CNN
 F 3 "" H 3825 4350 50  0001 C CNN
 F 4 "VISHAY" H 4025 4750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4025 4650 60  0001 L CNN "MPN"
@@ -397,14 +397,14 @@ Wire Wire Line
 	2125 4050 2125 3900
 Connection ~ 2125 4050
 $Comp
-L _autosave-artix-dc-scm:C_470n_0402 C?
+L artix-dc-scm:C_470n_0402 C?
 U 1 1 5FD83505
 P 3025 4050
 AR Path="/5FC6B687/5FD83505" Ref="C?"  Part="1" 
 AR Path="/624C566F/5FD83505" Ref="C37"  Part="1" 
 F 0 "C37" H 3140 4095 60  0000 L CNN
 F 1 "C_470n_0402" H 3025 3900 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 3225 4250 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3225 4250 60  0001 L CNN
 F 3 "" H 3025 4050 50  0001 C CNN
 F 4 "TDK" H 3225 4450 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 3225 4350 60  0001 L CNN "MPN"
@@ -415,7 +415,7 @@ $EndComp
 Text GLabel 3025 3900 1    50   Input ~ 0
 VCC3V3
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD8350C
 P 3025 4250
 AR Path="/5FCFE2A8/5FD8350C" Ref="#PWR?"  Part="1" 
@@ -433,7 +433,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 4200 2500 4050
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FD83518
 P 2500 4350
 AR Path="/5FCFE2A8/5FD83518" Ref="R?"  Part="1" 
@@ -441,7 +441,7 @@ AR Path="/5FC6B687/5FD83518" Ref="R?"  Part="1"
 AR Path="/624C566F/5FD83518" Ref="R35"  Part="1" 
 F 0 "R35" H 2775 4400 60  0000 R CNN
 F 1 "R_10k_0402" H 2500 4200 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2700 4550 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2700 4550 60  0001 L CNN
 F 3 "" H 2500 4350 50  0001 C CNN
 F 4 "VISHAY" H 2700 4750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2700 4650 60  0001 L CNN "MPN"
@@ -452,14 +452,14 @@ $EndComp
 Wire Wire Line
 	2625 4500 2625 5000
 $Comp
-L _autosave-artix-dc-scm:W25Q32JVSSIQ_TR U?
+L artix-dc-scm:W25Q32JVSSIQ_TR U?
 U 1 1 5FD83521
 P 3425 4800
 AR Path="/5FC6B687/5FD83521" Ref="U?"  Part="1" 
 AR Path="/624C566F/5FD83521" Ref="U4"  Part="1" 
 F 0 "U4" H 3675 4525 50  0000 L CNN
 F 1 "W25Q32JVSSIQ_TR" H 3675 4625 50  0000 L CNN
-F 2 "_autosave-artix-dc-scm-footprints:W25Q32JVSSIQ" H 3625 5000 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:W25Q32JVSSIQ" H 3625 5000 60  0001 L CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3625 5100 60  0001 L CNN
 F 4 "W25Q32JVSSIQ TR" H 3625 5300 60  0001 L CNN "MPN"
 F 5 "Winbond Electronics" H 3625 5900 60  0001 L CNN "Manufacturer"
@@ -513,7 +513,7 @@ Wire Wire Line
 Wire Wire Line
 	3425 5200 3425 5300
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD83541
 P 3425 5300
 AR Path="/5FC6B687/5FD83541" Ref="#PWR?"  Part="1" 
@@ -540,7 +540,7 @@ QSPIB1_D3
 Text GLabel 2075 6800 1    50   Input ~ 0
 VCC3V3
 $Comp
-L _autosave-artix-dc-scm:R_4k7_0402 R?
+L artix-dc-scm:R_4k7_0402 R?
 U 1 1 5FE2942F
 P 2075 7250
 AR Path="/5FCFE2A8/5FE2942F" Ref="R?"  Part="1" 
@@ -548,7 +548,7 @@ AR Path="/5FC6B687/5FE2942F" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE2942F" Ref="R22"  Part="1" 
 F 0 "R22" H 1800 7200 60  0000 L CNN
 F 1 "R_4k7_0402" H 2075 7100 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2275 7450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2275 7450 60  0001 L CNN
 F 3 "" H 2075 7250 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2275 7650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 2275 7550 60  0001 L CNN "MPN"
@@ -557,7 +557,7 @@ F 6 "4k7" H 2000 7250 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_1k_0402 R?
+L artix-dc-scm:R_1k_0402 R?
 U 1 1 5FE29438
 P 2200 7250
 AR Path="/5FCFE2A8/5FE29438" Ref="R?"  Part="1" 
@@ -565,7 +565,7 @@ AR Path="/5FC6B687/5FE29438" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE29438" Ref="R26"  Part="1" 
 F 0 "R26" H 1925 7200 60  0000 L CNN
 F 1 "R_1k_0402" H 2200 7100 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2400 7450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2400 7450 60  0001 L CNN
 F 3 "" H 2200 7250 50  0001 C CNN
 F 4 "BOURNS" H 2400 7650 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 2400 7550 60  0001 L CNN "MPN"
@@ -574,7 +574,7 @@ F 6 "1k" H 2150 7250 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FE29441
 P 2325 7250
 AR Path="/5FCFE2A8/5FE29441" Ref="R?"  Part="1" 
@@ -582,7 +582,7 @@ AR Path="/5FC6B687/5FE29441" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE29441" Ref="R30"  Part="1" 
 F 0 "R30" H 2600 7300 60  0000 R CNN
 F 1 "R_10k_0402" H 2325 7100 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2525 7450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2525 7450 60  0001 L CNN
 F 3 "" H 2325 7250 50  0001 C CNN
 F 4 "VISHAY" H 2525 7650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2525 7550 60  0001 L CNN "MPN"
@@ -591,7 +591,7 @@ F 6 "10k" H 2400 7250 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FE2944A
 P 2575 7250
 AR Path="/5FCFE2A8/5FE2944A" Ref="R?"  Part="1" 
@@ -599,7 +599,7 @@ AR Path="/5FC6B687/5FE2944A" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE2944A" Ref="R38"  Part="1" 
 F 0 "R38" H 2850 7300 60  0000 R CNN
 F 1 "R_10k_0402" H 2575 7100 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2775 7450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2775 7450 60  0001 L CNN
 F 3 "" H 2575 7250 50  0001 C CNN
 F 4 "VISHAY" H 2775 7650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2775 7550 60  0001 L CNN "MPN"
@@ -608,7 +608,7 @@ F 6 "10k" H 2650 7250 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FE29453
 P 3775 7250
 AR Path="/5FCFE2A8/5FE29453" Ref="R?"  Part="1" 
@@ -616,7 +616,7 @@ AR Path="/5FC6B687/5FE29453" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE29453" Ref="R42"  Part="1" 
 F 0 "R42" V 3820 7180 60  0000 R CNN
 F 1 "R_10k_0402" H 3775 7100 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 3975 7450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 3975 7450 60  0001 L CNN
 F 3 "" H 3775 7250 50  0001 C CNN
 F 4 "VISHAY" H 3975 7650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3975 7550 60  0001 L CNN "MPN"
@@ -651,14 +651,14 @@ Wire Wire Line
 	2075 6950 2075 6800
 Connection ~ 2075 6950
 $Comp
-L _autosave-artix-dc-scm:C_470n_0402 C?
+L artix-dc-scm:C_470n_0402 C?
 U 1 1 5FE2946B
 P 2975 6950
 AR Path="/5FC6B687/5FE2946B" Ref="C?"  Part="1" 
 AR Path="/624C566F/5FE2946B" Ref="C36"  Part="1" 
 F 0 "C36" H 3090 6995 60  0000 L CNN
 F 1 "C_470n_0402" H 2975 6800 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 3175 7150 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3175 7150 60  0001 L CNN
 F 3 "" H 2975 6950 50  0001 C CNN
 F 4 "TDK" H 3175 7350 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 3175 7250 60  0001 L CNN "MPN"
@@ -669,7 +669,7 @@ $EndComp
 Text GLabel 2975 6800 1    50   Input ~ 0
 VCC3V3
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FE29472
 P 2975 7150
 AR Path="/5FCFE2A8/5FE29472" Ref="#PWR?"  Part="1" 
@@ -687,7 +687,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 7100 2450 6950
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FE2947D
 P 2450 7250
 AR Path="/5FCFE2A8/5FE2947D" Ref="R?"  Part="1" 
@@ -695,7 +695,7 @@ AR Path="/5FC6B687/5FE2947D" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE2947D" Ref="R34"  Part="1" 
 F 0 "R34" H 2725 7300 60  0000 R CNN
 F 1 "R_10k_0402" H 2450 7100 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2650 7450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2650 7450 60  0001 L CNN
 F 3 "" H 2450 7250 50  0001 C CNN
 F 4 "VISHAY" H 2650 7650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2650 7550 60  0001 L CNN "MPN"
@@ -706,14 +706,14 @@ $EndComp
 Wire Wire Line
 	2575 7400 2575 7900
 $Comp
-L _autosave-artix-dc-scm:W25Q32JVSSIQ_TR U?
+L artix-dc-scm:W25Q32JVSSIQ_TR U?
 U 1 1 5FE29486
 P 3375 7700
 AR Path="/5FC6B687/5FE29486" Ref="U?"  Part="1" 
 AR Path="/624C566F/5FE29486" Ref="U3"  Part="1" 
 F 0 "U3" H 3625 7425 50  0000 L CNN
 F 1 "W25Q32JVSSIQ_TR" H 3625 7525 50  0000 L CNN
-F 2 "_autosave-artix-dc-scm-footprints:W25Q32JVSSIQ" H 3575 7900 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:W25Q32JVSSIQ" H 3575 7900 60  0001 L CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3575 8000 60  0001 L CNN
 F 4 "W25Q32JVSSIQ TR" H 3575 8200 60  0001 L CNN "MPN"
 F 5 "Winbond Electronics" H 3575 8800 60  0001 L CNN "Manufacturer"
@@ -767,7 +767,7 @@ Wire Wire Line
 Wire Wire Line
 	3375 8100 3375 8200
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FE294A6
 P 3375 8200
 AR Path="/5FC6B687/5FE294A6" Ref="#PWR?"  Part="1" 
@@ -794,7 +794,7 @@ QSPIB2_D3
 Text GLabel 2050 8850 1    50   Input ~ 0
 VCC3V3
 $Comp
-L _autosave-artix-dc-scm:R_4k7_0402 R?
+L artix-dc-scm:R_4k7_0402 R?
 U 1 1 5FE294B8
 P 2050 9300
 AR Path="/5FCFE2A8/5FE294B8" Ref="R?"  Part="1" 
@@ -802,7 +802,7 @@ AR Path="/5FC6B687/5FE294B8" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE294B8" Ref="R21"  Part="1" 
 F 0 "R21" H 1775 9250 60  0000 L CNN
 F 1 "R_4k7_0402" H 2050 9150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2250 9500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2250 9500 60  0001 L CNN
 F 3 "" H 2050 9300 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2250 9700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 2250 9600 60  0001 L CNN "MPN"
@@ -811,7 +811,7 @@ F 6 "4k7" H 1975 9300 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_1k_0402 R?
+L artix-dc-scm:R_1k_0402 R?
 U 1 1 5FE294C1
 P 2175 9300
 AR Path="/5FCFE2A8/5FE294C1" Ref="R?"  Part="1" 
@@ -819,7 +819,7 @@ AR Path="/5FC6B687/5FE294C1" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE294C1" Ref="R25"  Part="1" 
 F 0 "R25" H 1900 9250 60  0000 L CNN
 F 1 "R_1k_0402" H 2175 9150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2375 9500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2375 9500 60  0001 L CNN
 F 3 "" H 2175 9300 50  0001 C CNN
 F 4 "BOURNS" H 2375 9700 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 2375 9600 60  0001 L CNN "MPN"
@@ -828,7 +828,7 @@ F 6 "1k" H 2125 9300 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FE294CA
 P 2300 9300
 AR Path="/5FCFE2A8/5FE294CA" Ref="R?"  Part="1" 
@@ -836,7 +836,7 @@ AR Path="/5FC6B687/5FE294CA" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE294CA" Ref="R29"  Part="1" 
 F 0 "R29" H 2575 9350 60  0000 R CNN
 F 1 "R_10k_0402" H 2300 9150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2500 9500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2500 9500 60  0001 L CNN
 F 3 "" H 2300 9300 50  0001 C CNN
 F 4 "VISHAY" H 2500 9700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2500 9600 60  0001 L CNN "MPN"
@@ -845,7 +845,7 @@ F 6 "10k" H 2375 9300 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FE294D3
 P 2550 9300
 AR Path="/5FCFE2A8/5FE294D3" Ref="R?"  Part="1" 
@@ -853,7 +853,7 @@ AR Path="/5FC6B687/5FE294D3" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE294D3" Ref="R37"  Part="1" 
 F 0 "R37" H 2825 9350 60  0000 R CNN
 F 1 "R_10k_0402" H 2550 9150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2750 9500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2750 9500 60  0001 L CNN
 F 3 "" H 2550 9300 50  0001 C CNN
 F 4 "VISHAY" H 2750 9700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2750 9600 60  0001 L CNN "MPN"
@@ -862,7 +862,7 @@ F 6 "10k" H 2625 9300 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FE294DC
 P 3750 9300
 AR Path="/5FCFE2A8/5FE294DC" Ref="R?"  Part="1" 
@@ -870,7 +870,7 @@ AR Path="/5FC6B687/5FE294DC" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE294DC" Ref="R41"  Part="1" 
 F 0 "R41" V 3795 9230 60  0000 R CNN
 F 1 "R_10k_0402" H 3750 9150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 3950 9500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 3950 9500 60  0001 L CNN
 F 3 "" H 3750 9300 50  0001 C CNN
 F 4 "VISHAY" H 3950 9700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3950 9600 60  0001 L CNN "MPN"
@@ -905,14 +905,14 @@ Wire Wire Line
 	2050 9000 2050 8850
 Connection ~ 2050 9000
 $Comp
-L _autosave-artix-dc-scm:C_470n_0402 C?
+L artix-dc-scm:C_470n_0402 C?
 U 1 1 5FE294F4
 P 2950 9000
 AR Path="/5FC6B687/5FE294F4" Ref="C?"  Part="1" 
 AR Path="/624C566F/5FE294F4" Ref="C35"  Part="1" 
 F 0 "C35" H 3065 9045 60  0000 L CNN
 F 1 "C_470n_0402" H 2950 8850 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-cap" H 3150 9200 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3150 9200 60  0001 L CNN
 F 3 "" H 2950 9000 50  0001 C CNN
 F 4 "TDK" H 3150 9400 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1E474M050BB" H 3150 9300 60  0001 L CNN "MPN"
@@ -923,7 +923,7 @@ $EndComp
 Text GLabel 2950 8850 1    50   Input ~ 0
 VCC3V3
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FE294FB
 P 2950 9200
 AR Path="/5FCFE2A8/5FE294FB" Ref="#PWR?"  Part="1" 
@@ -941,7 +941,7 @@ Wire Wire Line
 Wire Wire Line
 	2425 9150 2425 9000
 $Comp
-L _autosave-artix-dc-scm:R_10k_0402 R?
+L artix-dc-scm:R_10k_0402 R?
 U 1 1 5FE29506
 P 2425 9300
 AR Path="/5FCFE2A8/5FE29506" Ref="R?"  Part="1" 
@@ -949,7 +949,7 @@ AR Path="/5FC6B687/5FE29506" Ref="R?"  Part="1"
 AR Path="/624C566F/5FE29506" Ref="R33"  Part="1" 
 F 0 "R33" H 2700 9350 60  0000 R CNN
 F 1 "R_10k_0402" H 2425 9150 60  0001 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:0402-res" H 2625 9500 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 2625 9500 60  0001 L CNN
 F 3 "" H 2425 9300 50  0001 C CNN
 F 4 "VISHAY" H 2625 9700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2625 9600 60  0001 L CNN "MPN"
@@ -960,14 +960,14 @@ $EndComp
 Wire Wire Line
 	2550 9450 2550 9950
 $Comp
-L _autosave-artix-dc-scm:W25Q32JVSSIQ_TR U?
+L artix-dc-scm:W25Q32JVSSIQ_TR U?
 U 1 1 5FE2950F
 P 3350 9750
 AR Path="/5FC6B687/5FE2950F" Ref="U?"  Part="1" 
 AR Path="/624C566F/5FE2950F" Ref="U2"  Part="1" 
 F 0 "U2" H 3600 9475 50  0000 L CNN
 F 1 "W25Q32JVSSIQ_TR" H 3600 9575 50  0000 L CNN
-F 2 "_autosave-artix-dc-scm-footprints:W25Q32JVSSIQ" H 3550 9950 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:W25Q32JVSSIQ" H 3550 9950 60  0001 L CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3550 10050 60  0001 L CNN
 F 4 "W25Q32JVSSIQ TR" H 3550 10250 60  0001 L CNN "MPN"
 F 5 "Winbond Electronics" H 3550 10850 60  0001 L CNN "Manufacturer"
@@ -1021,7 +1021,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 10150 3350 10250
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FE2952F
 P 3350 10250
 AR Path="/5FC6B687/5FE2952F" Ref="#PWR?"  Part="1" 
@@ -1132,12 +1132,12 @@ preliminary\n
 Text GLabel 8225 4625 0    50   Input ~ 0
 ROT_RDY\ROT_GPIO0
 $Comp
-L _autosave-artix-dc-scm:M20-7830642 J4
+L artix-dc-scm:M20-7830642 J4
 U 1 1 5FD63CCC
 P 12475 5250
 F 0 "J4" H 12475 5697 60  0000 C CNN
 F 1 "M20-7830642" H 12475 5591 60  0000 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:PinHeader_6x2_P2.54mm_Vertical" H 12675 5450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:PinHeader_6x2_P2.54mm_Vertical" H 12675 5450 60  0001 L CNN
 F 3 "" H 12675 5550 60  0001 L CNN
 F 4 "M20-7830642" H 12675 5750 60  0001 L CNN "MPN"
 F 5 "Molex" H 12675 5850 60  0001 L CNN "Manufacturer"
@@ -1181,7 +1181,7 @@ Wire Wire Line
 Wire Wire Line
 	12800 5450 12800 5700
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD8331F
 P 12800 5700
 AR Path="/5FC6B687/5FD8331F" Ref="#PWR?"  Part="1" 
@@ -1208,7 +1208,7 @@ INIT
 Text GLabel 9775 6625 2    50   Input ~ 0
 VCC3V3
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 626717FC
 P 8725 7075
 AR Path="/5FC6B687/626717FC" Ref="#PWR?"  Part="1" 
@@ -1235,7 +1235,7 @@ Wire Wire Line
 Text GLabel 9675 6425 2    50   Input ~ 0
 QSPI0_CS1_N
 $Comp
-L _autosave-artix-dc-scm:GND-artix-dc-scm #PWR?
+L artix-dc-scm:GND-artix-dc-scm #PWR?
 U 1 1 5FD82134
 P 12150 5700
 AR Path="/5FC6B687/5FD82134" Ref="#PWR?"  Part="1" 
@@ -1290,12 +1290,12 @@ Wire Wire Line
 Wire Wire Line
 	9175 5925 9675 5925
 $Comp
-L _autosave-artix-dc-scm:52991-0508 J8
+L artix-dc-scm:52991-0508 J8
 U 1 1 6010D4E5
 P 8925 6975
 F 0 "J8" H 8950 4060 50  0000 C CNN
 F 1 "52991-0508" H 8950 4151 50  0000 C CNN
-F 2 "_autosave-artix-dc-scm-footprints:529910508" H 10475 5275 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:529910508" H 10475 5275 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/529910508_sd.pdf" H 9175 5175 50  0001 C CNN
 	1    8925 6975
 	1    0    0    1   
@@ -1341,12 +1341,12 @@ Wire Wire Line
 Text GLabel 9675 6525 2    50   Input ~ 0
 ROT_GPIO1
 $Comp
-L _autosave-artix-dc-scm:9774040151 SP2
+L artix-dc-scm:9774040151 SP2
 U 1 1 602968FE
 P 9875 7050
 F 0 "SP2" H 10005 7103 60  0000 L CNN
 F 1 "9774040151" H 10005 6997 60  0000 L CNN
-F 2 "_autosave-artix-dc-scm-footprints:9774040151" H 9875 7050 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:9774040151" H 9875 7050 60  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/9774040151.pdf" H 9875 7050 60  0001 C CNN
 F 4 "Wurth Elektronik" H 9875 7050 50  0001 C CNN "Manufacturer"
 F 5 "9774030151" H 9875 7050 50  0001 C CNN "MPN"
