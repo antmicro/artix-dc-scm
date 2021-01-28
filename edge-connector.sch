@@ -586,24 +586,6 @@ Text GLabel 9125 2725 2    50   Input ~ 0
 SPI0_MOSI
 Text GLabel 9125 2825 2    50   Input ~ 0
 SPI0_MISO
-Text GLabel 9125 3125 2    50   Input ~ 0
-ESPI_CLK
-Text GLabel 9125 3225 2    50   Input ~ 0
-ESPI_CS0_N
-Text GLabel 9125 3325 2    50   Input ~ 0
-ESPI_ALERT_N
-Text GLabel 9125 3425 2    50   Input ~ 0
-ESPI_RESET_N
-Text GLabel 9125 3525 2    50   Input ~ 0
-ESPI_IO0
-Text GLabel 9125 3625 2    50   Input ~ 0
-ESPI_IO1
-Text GLabel 9125 3725 2    50   Input ~ 0
-ESPI_IO2
-Text GLabel 9125 3825 2    50   Input ~ 0
-ESPI_IO3
-Text GLabel 9125 3925 2    50   Input ~ 0
-ESPI_CS1_N
 Text GLabel 9125 4125 2    50   Input ~ 0
 QSPI0_CLK
 Text GLabel 9125 4225 2    50   Input ~ 0
@@ -781,4 +763,22 @@ F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/sme005.pdf?_
 	1    7875 1425
 	1    0    0    -1  
 $EndComp
+Text GLabel 9125 3525 2    50   Input ~ 0
+ESPI_IO0_1V8
+Text GLabel 9125 3625 2    50   Input ~ 0
+ESPI_IO1_1V8
+Text GLabel 9125 3725 2    50   Input ~ 0
+ESPI_IO2_1V8
+Text GLabel 9125 3825 2    50   Input ~ 0
+ESPI_IO3_1V8
+Text GLabel 9125 3425 2    50   Input ~ 0
+ESPI_RESET_N_1V8
+Text GLabel 9125 3325 2    50   Input ~ 0
+ESPI_ALERT_N_1V8
+Text GLabel 9125 3225 2    50   Input ~ 0
+ESPI_CS0_N_1V8
+Text GLabel 9125 3125 2    50   Input ~ 0
+ESPI_CLK_1V8
+Text GLabel 9125 3925 2    50   Input ~ 0
+ESPI_CS1_N_1V8
 $EndSCHEMATC

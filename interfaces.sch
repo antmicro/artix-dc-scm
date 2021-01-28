@@ -13,15 +13,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 8675 7675 2    50   Input ~ 0
+Text GLabel 2375 4825 2    50   Input ~ 0
 JTAG_TDO
-Text GLabel 8675 7575 2    50   Input ~ 0
+Text GLabel 2375 4725 2    50   Input ~ 0
 JTAG_TCK
-Text GLabel 8675 7775 2    50   Input ~ 0
+Text GLabel 2375 4925 2    50   Input ~ 0
 JTAG_TDI
-Text GLabel 8675 7475 2    50   Input ~ 0
+Text GLabel 2375 4625 2    50   Input ~ 0
 JTAG_TMS
-Text Notes 7675 6850 0    118  ~ 24
+Text Notes 1375 4000 0    118  ~ 24
 JTAG
 $Comp
 L artix-dc-scm:R_357k_0402-artix-dc-scm R46
@@ -229,130 +229,130 @@ I3C voltage level translation
 $Comp
 L artix-dc-scm:0878311420 J6
 U 1 1 64AA2CA7
-P 7425 7675
-F 0 "J6" H 7425 8200 50  0000 C CNN
-F 1 "0878311420" H 7425 8109 50  0000 C CNN
-F 2 "artix-dc-scm-footprints:PinHeader_2x7_P2mm_Drill1mm" H 7625 7875 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" H 7625 7975 60  0001 L CNN
-F 4 "0878311420" H 7625 8175 60  0001 L CNN "MPN"
-F 5 "Molex" H 7625 8775 60  0001 L CNN "Manufacturer"
-	1    7425 7675
+P 1125 4825
+F 0 "J6" H 1125 5350 50  0000 C CNN
+F 1 "0878311420" H 1125 5259 50  0000 C CNN
+F 2 "artix-dc-scm-footprints:PinHeader_2x7_P2mm_Drill1mm" H 1325 5025 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" H 1325 5125 60  0001 L CNN
+F 4 "0878311420" H 1325 5325 60  0001 L CNN "MPN"
+F 5 "Molex" H 1325 5925 60  0001 L CNN "Manufacturer"
+	1    1125 4825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7225 7375 7075 7375
+	925  4525 775  4525
 Wire Wire Line
-	7075 7375 7075 7475
+	775  4525 775  4625
 Wire Wire Line
-	7225 7475 7075 7475
-Connection ~ 7075 7475
+	925  4625 775  4625
+Connection ~ 775  4625
 Wire Wire Line
-	7075 7475 7075 7575
+	775  4625 775  4725
 Wire Wire Line
-	7225 7575 7075 7575
-Connection ~ 7075 7575
+	925  4725 775  4725
+Connection ~ 775  4725
 Wire Wire Line
-	7075 7575 7075 7675
+	775  4725 775  4825
 Wire Wire Line
-	7225 7675 7075 7675
-Connection ~ 7075 7675
+	925  4825 775  4825
+Connection ~ 775  4825
 Wire Wire Line
-	7075 7675 7075 7775
+	775  4825 775  4925
 Wire Wire Line
-	7225 7775 7075 7775
-Connection ~ 7075 7775
+	925  4925 775  4925
+Connection ~ 775  4925
 Wire Wire Line
-	7075 7775 7075 7875
+	775  4925 775  5025
 Wire Wire Line
-	7075 7875 7225 7875
-Connection ~ 7075 7875
+	775  5025 925  5025
+Connection ~ 775  5025
 Wire Wire Line
-	7075 7875 7075 7975
+	775  5025 775  5125
 Wire Wire Line
-	7225 7975 7075 7975
-Connection ~ 7075 7975
+	925  5125 775  5125
+Connection ~ 775  5125
 Wire Wire Line
-	7075 7975 7075 8200
+	775  5125 775  5350
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR028
 U 1 1 64AB4A8D
-P 7075 8200
-F 0 "#PWR028" H 7075 7950 50  0001 C CNN
-F 1 "GND" H 7080 8027 50  0000 C CNN
-F 2 "" H 7075 8200 50  0001 C CNN
-F 3 "" H 7075 8200 50  0001 C CNN
-	1    7075 8200
+P 775 5350
+F 0 "#PWR028" H 775 5100 50  0001 C CNN
+F 1 "GND" H 780 5177 50  0000 C CNN
+F 2 "" H 775 5350 50  0001 C CNN
+F 3 "" H 775 5350 50  0001 C CNN
+	1    775  5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:TPD6E05U06 D2
 U 1 1 64AC4AD0
-P 7950 8325
-F 0 "D2" V 8170 7647 50  0000 R CNN
-F 1 "TPD6E05U06" V 8079 7647 50  0000 R CNN
-F 2 "artix-dc-scm-footprints:TPD6E05U06" H 9150 8575 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" H 9450 8675 50  0001 C CNN
-F 4 "TPD6E05U06RVZR" V 7988 7647 50  0000 R CNN "MPN"
-F 5 "Texas Instruments" V 7897 7647 50  0000 R CNN "Manufacturer"
-	1    7950 8325
+P 1650 5475
+F 0 "D2" V 1870 4797 50  0000 R CNN
+F 1 "TPD6E05U06" V 1779 4797 50  0000 R CNN
+F 2 "artix-dc-scm-footprints:TPD6E05U06" H 2850 5725 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" H 3150 5825 50  0001 C CNN
+F 4 "TPD6E05U06RVZR" V 1688 4797 50  0000 R CNN "MPN"
+F 5 "Texas Instruments" V 1597 4797 50  0000 R CNN "Manufacturer"
+	1    1650 5475
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8675 7475 7800 7475
+	2375 4625 1500 4625
 Wire Wire Line
-	8675 7575 7900 7575
+	2375 4725 1600 4725
 Wire Wire Line
-	8675 7775 8300 7775
+	2375 4925 2000 4925
 Wire Wire Line
-	7800 8075 7800 7475
-Connection ~ 7800 7475
+	1500 5225 1500 4625
+Connection ~ 1500 4625
 Wire Wire Line
-	7800 7475 7625 7475
+	1500 4625 1325 4625
 Wire Wire Line
-	7900 8075 7900 7575
-Connection ~ 7900 7575
+	1600 5225 1600 4725
+Connection ~ 1600 4725
 Wire Wire Line
-	7900 7575 7625 7575
+	1600 4725 1325 4725
 Wire Wire Line
-	8200 8075 8200 7675
+	1900 5225 1900 4825
 Wire Wire Line
-	7625 7675 8200 7675
-Connection ~ 8200 7675
+	1325 4825 1900 4825
+Connection ~ 1900 4825
 Wire Wire Line
-	8200 7675 8675 7675
+	1900 4825 2375 4825
 Wire Wire Line
-	8300 8075 8300 7775
-Connection ~ 8300 7775
+	2000 5225 2000 4925
+Connection ~ 2000 4925
 Wire Wire Line
-	8300 7775 7625 7775
+	2000 4925 1325 4925
 Wire Wire Line
-	8400 8075 8400 8000
+	2100 5225 2100 5150
 Wire Wire Line
-	8400 8000 8500 8000
+	2100 5150 2200 5150
 Wire Wire Line
-	8500 8075 8500 8000
-Connection ~ 8500 8000
+	2200 5225 2200 5150
+Connection ~ 2200 5150
 Wire Wire Line
-	8500 8000 8650 8000
+	2200 5150 2350 5150
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR029
 U 1 1 64AECC53
-P 8650 8000
-F 0 "#PWR029" H 8650 7750 50  0001 C CNN
-F 1 "GND" H 8655 7827 50  0000 C CNN
-F 2 "" H 8650 8000 50  0001 C CNN
-F 3 "" H 8650 8000 50  0001 C CNN
-	1    8650 8000
+P 2350 5150
+F 0 "#PWR029" H 2350 4900 50  0001 C CNN
+F 1 "GND" H 2355 4977 50  0000 C CNN
+F 2 "" H 2350 5150 50  0001 C CNN
+F 3 "" H 2350 5150 50  0001 C CNN
+	1    2350 5150
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 7625 7875
-NoConn ~ 7625 7975
-Text GLabel 7850 7325 1    50   Input ~ 0
+NoConn ~ 1325 5025
+NoConn ~ 1325 5125
+Text GLabel 1550 4475 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	7625 7375 7850 7375
+	1325 4525 1550 4525
 Wire Wire Line
-	7850 7375 7850 7325
+	1550 4525 1550 4475
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C189
 U 1 1 5FF88081
@@ -2280,9 +2280,9 @@ Wire Wire Line
 Wire Wire Line
 	6100 3475 7125 3475
 Wire Wire Line
-	3700 4900 3325 4900
+	11050 1700 10675 1700
 Wire Wire Line
-	3700 5000 3325 5000
+	11050 1800 10675 1800
 $Comp
 L artix-dc-scm:R_12k_0402 R?
 U 1 1 606A4B93
@@ -2365,29 +2365,29 @@ Connection ~ 5525 4875
 Wire Wire Line
 	5525 4875 5325 4875
 Wire Wire Line
-	3325 5200 3725 5200
+	10675 2000 11075 2000
 Wire Wire Line
-	3725 5200 3725 5275
-Text GLabel 3700 4900 2    50   Input ~ 0
+	11075 2000 11075 2075
+Text GLabel 11050 1700 2    50   Input ~ 0
 DBG_USB_D_N
-Text GLabel 3700 5000 2    50   Input ~ 0
+Text GLabel 11050 1800 2    50   Input ~ 0
 DBG_USB_D_P
 $Comp
 L artix-dc-scm:TP_SMD1MM TP?
 U 1 1 606A4BE3
-P 3850 5100
+P 11200 1900
 AR Path="/614223A1/60643A57/606A4BE3" Ref="TP?"  Part="1" 
 AR Path="/614223A1/606A4BE3" Ref="TP7"  Part="1" 
-F 0 "TP7" V 3850 5050 50  0000 R CNN
-F 1 "TP_SMD1MM" H 3850 5000 50  0001 C CNN
-F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 4050 5300 60  0001 L CNN
-F 3 "" H 4050 5400 60  0001 L CNN
-	1    3850 5100
+F 0 "TP7" V 11200 1850 50  0000 R CNN
+F 1 "TP_SMD1MM" H 11200 1800 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 11400 2100 60  0001 L CNN
+F 3 "" H 11400 2200 60  0001 L CNN
+	1    11200 1900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3325 5100 3750 5100
-Text Notes 2550 4100 0    118  ~ 24
+	10675 1900 11100 1900
+Text Notes 9900 900  0    118  ~ 24
 Debug USB
 $Comp
 L artix-dc-scm:R_10k_0402 R?
@@ -2559,7 +2559,7 @@ F 3 "" H 9025 5625 60  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2925 5600 2925 5675
+	10275 2400 10275 2475
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR0128
 U 1 1 60C1CFA2
@@ -2574,23 +2574,23 @@ $EndComp
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR0129
 U 1 1 60F4B375
-P 2925 5675
-F 0 "#PWR0129" H 2925 5425 50  0001 C CNN
-F 1 "GND" H 2930 5502 50  0000 C CNN
-F 2 "" H 2925 5675 50  0001 C CNN
-F 3 "" H 2925 5675 50  0001 C CNN
-	1    2925 5675
+P 10275 2475
+F 0 "#PWR0129" H 10275 2225 50  0001 C CNN
+F 1 "GND" H 10280 2302 50  0000 C CNN
+F 2 "" H 10275 2475 50  0001 C CNN
+F 3 "" H 10275 2475 50  0001 C CNN
+	1    10275 2475
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR0130
 U 1 1 60F4C3AE
-P 3725 5275
-F 0 "#PWR0130" H 3725 5025 50  0001 C CNN
-F 1 "GND" H 3730 5102 50  0000 C CNN
-F 2 "" H 3725 5275 50  0001 C CNN
-F 3 "" H 3725 5275 50  0001 C CNN
-	1    3725 5275
+P 11075 2075
+F 0 "#PWR0130" H 11075 1825 50  0001 C CNN
+F 1 "GND" H 11080 1902 50  0000 C CNN
+F 2 "" H 11075 2075 50  0001 C CNN
+F 3 "" H 11075 2075 50  0001 C CNN
+	1    11075 2075
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2900,25 +2900,25 @@ F 3 "" H 4650 5625 50  0001 C CNN
 	1    4650 5625
 	1    0    0    -1  
 $EndComp
-Text GLabel 3700 4800 2    50   Input ~ 0
+Text GLabel 11050 1600 2    50   Input ~ 0
 VBUS
 Wire Wire Line
 	4650 5275 4650 5150
 $Comp
 L artix-dc-scm:10118192-0001LF J3
 U 1 1 60109106
-P 3025 5000
-F 0 "J3" H 3089 5745 60  0000 C CNN
-F 1 "10118192-0001LF" H 3089 5639 60  0000 C CNN
-F 2 "artix-dc-scm-footprints:USB_Micro_B_Female_10118192" H 3225 5200 60  0001 L CNN
-F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 3225 5300 60  0001 L CNN
-F 4 "10118192-0001LF" H 3225 5500 60  0001 L CNN "MPN"
-F 5 "Amphenol ICC (FCI)" H 3225 6100 60  0001 L CNN "Manufacturer"
-	1    3025 5000
+P 10375 1800
+F 0 "J3" H 10439 2545 60  0000 C CNN
+F 1 "10118192-0001LF" H 10439 2439 60  0000 C CNN
+F 2 "artix-dc-scm-footprints:USB_Micro_B_Female_10118192" H 10575 2000 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 10575 2100 60  0001 L CNN
+F 4 "10118192-0001LF" H 10575 2300 60  0001 L CNN "MPN"
+F 5 "Amphenol ICC (FCI)" H 10575 2900 60  0001 L CNN "Manufacturer"
+	1    10375 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3325 4800 3700 4800
+	10675 1600 11050 1600
 Text GLabel 4650 5150 1    50   Input ~ 0
 VBUS
 $Comp
@@ -3539,4 +3539,192 @@ F 3 "" H 3825 10600 60  0001 L CNN
 $EndComp
 Wire Wire Line
 	3325 10000 3725 10000
+$Comp
+L antmicroLogicTranslatorsLevelShifters:LSF0108RKSR U21
+U 1 1 6035BC0B
+P 8225 7150
+F 0 "U21" H 8000 7967 50  0000 C CNN
+F 1 "LSF0108RKSR" H 8000 7876 50  0000 C CNN
+F 2 "antmicro-footprints:QFN50P450X250X100-21N" H 8525 6250 50  0001 L BNN
+F 3 "" H 8225 7150 50  0001 L BNN
+F 4 "Texas Instruments" H 8525 6200 50  0001 L BNN "MANUFACTURER"
+	1    8225 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicTranslatorsLevelShifters:LSF0101DRYR U22
+U 1 1 6035D1F6
+P 8300 8525
+F 0 "U22" H 7825 8050 50  0000 C CNN
+F 1 "LSF0101DRYR" H 8025 8150 50  0000 C CNN
+F 2 "antmicro-footprints:PSON50P145X100X60-6N" H 7800 8025 50  0001 L BNN
+F 3 "" H 8300 8525 50  0001 L BNN
+	1    8300 8525
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:GND #PWR0161
+U 1 1 603B0405
+P 8475 7925
+F 0 "#PWR0161" H 8475 7675 50  0001 C CNN
+F 1 "GND" H 8480 7752 50  0000 C CNN
+F 2 "" H 8475 7925 50  0001 C CNN
+F 3 "" H 8475 7925 50  0001 C CNN
+	1    8475 7925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 7925 8475 7800
+Connection ~ 8475 7800
+Wire Wire Line
+	8475 7800 8475 7700
+$Comp
+L artix-dc-scm:GND #PWR0160
+U 1 1 603EB630
+P 8450 8875
+F 0 "#PWR0160" H 8450 8625 50  0001 C CNN
+F 1 "GND" H 8455 8702 50  0000 C CNN
+F 2 "" H 8450 8875 50  0001 C CNN
+F 3 "" H 8450 8875 50  0001 C CNN
+	1    8450 8875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 8725 8450 8875
+Text GLabel 8475 6700 2    50   Input ~ 0
+VCC3V3
+Text GLabel 8475 6600 2    50   Input ~ 0
+VCC1V8
+Text GLabel 7600 8225 0    50   Input ~ 0
+VCC1V8
+Text GLabel 7600 8325 0    50   Input ~ 0
+VCC3V3
+$Comp
+L artix-dc-scm:R_200k_0402-artix-dc-scm R12
+U 1 1 604569DE
+P 7375 6600
+F 0 "R12" H 7375 6813 60  0000 C CNN
+F 1 "R_200k_0402-artix-dc-scm" H 7375 6450 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 7575 6800 60  0001 L CNN
+F 3 "" H 7375 6600 50  0001 C CNN
+F 4 "YAGEO_(PHYCOMP)" H 7575 7000 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200KL" H 7575 6900 60  0001 L CNN "MPN"
+F 6 "200k" H 7375 6715 50  0000 C CNN "Val"
+	1    7375 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7225 6425 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	7225 6425 7225 6600
+$Comp
+L artix-dc-scm:R_200k_0402-artix-dc-scm R62
+U 1 1 6049346D
+P 7450 8125
+F 0 "R62" H 7450 8338 60  0000 C CNN
+F 1 "R_200k_0402-artix-dc-scm" H 7450 7975 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 7650 8325 60  0001 L CNN
+F 3 "" H 7450 8125 50  0001 C CNN
+F 4 "YAGEO_(PHYCOMP)" H 7650 8525 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200KL" H 7650 8425 60  0001 L CNN "MPN"
+F 6 "200k" H 7450 8240 50  0000 C CNN "Val"
+	1    7450 8125
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 7950 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	7300 7950 7300 8125
+Text GLabel 8475 7250 2    50   Input ~ 0
+ESPI_IO0
+Text GLabel 8475 7350 2    50   Input ~ 0
+ESPI_IO1
+Text GLabel 8475 7450 2    50   Input ~ 0
+ESPI_IO2
+Text GLabel 8475 7550 2    50   Input ~ 0
+ESPI_IO3
+Text GLabel 7600 8725 0    50   Input ~ 0
+ESPI_CS1_N
+Text GLabel 8475 7150 2    50   Input ~ 0
+ESPI_RESET_N
+Text GLabel 8475 7050 2    50   Input ~ 0
+ESPI_ALERT_N
+Text GLabel 8475 6950 2    50   Input ~ 0
+ESPI_CS0_N
+Text GLabel 8475 6850 2    50   Input ~ 0
+ESPI_CLK
+Text GLabel 7525 7250 0    50   Input ~ 0
+ESPI_IO0_1V8
+Text GLabel 7525 7350 0    50   Input ~ 0
+ESPI_IO1_1V8
+Text GLabel 7525 7450 0    50   Input ~ 0
+ESPI_IO2_1V8
+Text GLabel 7525 7550 0    50   Input ~ 0
+ESPI_IO3_1V8
+Text GLabel 7525 7150 0    50   Input ~ 0
+ESPI_RESET_N_1V8
+Text GLabel 7525 7050 0    50   Input ~ 0
+ESPI_ALERT_N_1V8
+Text GLabel 7525 6950 0    50   Input ~ 0
+ESPI_CS0_N_1V8
+Text GLabel 7525 6850 0    50   Input ~ 0
+ESPI_CLK_1V8
+Text GLabel 7600 8525 0    50   Input ~ 0
+ESPI_CS1_N_1V8
+$Comp
+L artix-dc-scm:C_100n_0402 C252
+U 1 1 606CEB3E
+P 6875 8100
+F 0 "C252" H 6990 8145 60  0000 L CNN
+F 1 "C_100n_0402" H 6875 7950 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 7075 8300 60  0001 L CNN
+F 3 "" H 6875 8100 50  0001 C CNN
+F 4 "Walsin" H 7075 8500 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7075 8400 60  0001 L CNN "MPN"
+F 6 "100n" H 6990 8047 50  0000 L CNN "Val"
+	1    6875 8100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6875 7950 1    50   Input ~ 0
+VCC3V3
+$Comp
+L artix-dc-scm:GND #PWR0159
+U 1 1 606CF203
+P 6875 8250
+F 0 "#PWR0159" H 6875 8000 50  0001 C CNN
+F 1 "GND" H 6880 8077 50  0000 C CNN
+F 2 "" H 6875 8250 50  0001 C CNN
+F 3 "" H 6875 8250 50  0001 C CNN
+	1    6875 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_100n_0402 C251
+U 1 1 6070D259
+P 6675 6575
+F 0 "C251" H 6790 6620 60  0000 L CNN
+F 1 "C_100n_0402" H 6675 6425 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6875 6775 60  0001 L CNN
+F 3 "" H 6675 6575 50  0001 C CNN
+F 4 "Walsin" H 6875 6975 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6875 6875 60  0001 L CNN "MPN"
+F 6 "100n" H 6790 6522 50  0000 L CNN "Val"
+	1    6675 6575
+	1    0    0    -1  
+$EndComp
+Text GLabel 6675 6425 1    50   Input ~ 0
+VCC3V3
+$Comp
+L artix-dc-scm:GND #PWR0158
+U 1 1 6070D260
+P 6675 6725
+F 0 "#PWR0158" H 6675 6475 50  0001 C CNN
+F 1 "GND" H 6680 6552 50  0000 C CNN
+F 2 "" H 6675 6725 50  0001 C CNN
+F 3 "" H 6675 6725 50  0001 C CNN
+	1    6675 6725
+	1    0    0    -1  
+$EndComp
+Text Notes 8450 6275 0    118  ~ 24
+ESPI level translation
 $EndSCHEMATC
