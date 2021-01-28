@@ -253,7 +253,7 @@ Wire Wire Line
 Connection ~ 3875 4600
 Wire Wire Line
 	3875 4600 4000 4600
-Text GLabel 9575 7225 0    50   Input ~ 0
+Text GLabel 3300 8300 1    50   Input ~ 0
 VCC5V0
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C71
@@ -1292,48 +1292,6 @@ Wire Wire Line
 Wire Wire Line
 	3925 9200 3925 8900
 Connection ~ 3925 8900
-$Comp
-L artix-dc-scm:R_1k_0402 R63
-U 1 1 5FFECF1E
-P 4975 8575
-F 0 "R63" H 5100 8550 60  0000 L CNN
-F 1 "R_1k_0402" H 4975 8425 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5175 8775 60  0001 L CNN
-F 3 "" H 4975 8575 50  0001 C CNN
-F 4 "BOURNS" H 5175 8975 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 5175 8875 60  0001 L CNN "MPN"
-F 6 "1k" H 4950 8575 50  0000 L CNN "Val"
-	1    4975 8575
-	0    1    1    0   
-$EndComp
-$Comp
-L artix-dc-scm:R_1k_0402 R64
-U 1 1 5FFED382
-P 5075 8575
-F 0 "R64" H 5200 8550 60  0000 L CNN
-F 1 "R_1k_0402" H 5075 8425 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5275 8775 60  0001 L CNN
-F 3 "" H 5075 8575 50  0001 C CNN
-F 4 "BOURNS" H 5275 8975 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 5275 8875 60  0001 L CNN "MPN"
-F 6 "1k" H 5050 8575 50  0000 L CNN "Val"
-	1    5075 8575
-	0    1    1    0   
-$EndComp
-$Comp
-L artix-dc-scm:R_1k_0402 R65
-U 1 1 5FFED63B
-P 5175 8575
-F 0 "R65" H 5300 8550 60  0000 L CNN
-F 1 "R_1k_0402" H 5175 8425 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5375 8775 60  0001 L CNN
-F 3 "" H 5175 8575 50  0001 C CNN
-F 4 "BOURNS" H 5375 8975 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 5375 8875 60  0001 L CNN "MPN"
-F 6 "1k" H 5150 8575 50  0000 L CNN "Val"
-	1    5175 8575
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4975 8725 4975 8900
 Connection ~ 4975 8900
@@ -2681,22 +2639,8 @@ F 5 "5040500291" H 1425 1475 50  0001 L BNN "MPN"
 	1    1425 1475
 	-1   0    0    -1  
 $EndComp
-$Comp
-L artix-dc-scm:C_1u5_0603 C250
-U 1 1 602E99A2
-P 3300 9400
-F 0 "C250" H 3415 9445 60  0000 L CNN
-F 1 "C_1u5_0603" H 3300 9250 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0603-cap" H 3500 9600 60  0001 L CNN
-F 3 "" H 3300 9400 50  0001 C CNN
-F 4 "TDK" H 3500 9800 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1E155K080AB" H 3500 9700 60  0001 L CNN "MPN"
-F 6 "1u5" H 3415 9347 50  0000 L CNN "Val"
-	1    3300 9400
-	1    0    0    -1  
-$EndComp
 Text Notes 3150 10350 1    50   ~ 0
-Delay capacitor calculated \nfrom datasheet (1) equation\n(now set as 0.26s delay)
+Delay capacitor calculated \nas 0->1.22V change via 100k to 5V\n(now set as 0.2 - 0.3s delay)
 Wire Wire Line
 	3000 9000 3300 9000
 $Comp
@@ -2734,33 +2678,82 @@ Wire Wire Line
 	5200 3800 5775 3800
 Text Label 3000 9000 0    50   ~ 0
 5V0_PG
-Text Label 9275 7875 0    50   ~ 0
+Text Label 9300 7775 0    50   ~ 0
 5V0_PG
 $Comp
-L artix-dc-scm:R_1k_0402 R68
-U 1 1 604D1A37
-P 9650 7450
-F 0 "R68" V 9605 7520 60  0000 L CNN
-F 1 "R_1k_0402" H 9650 7300 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 9850 7650 60  0001 L CNN
-F 3 "" H 9650 7450 50  0001 C CNN
-F 4 "BOURNS" H 9850 7850 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 9850 7750 60  0001 L CNN "MPN"
-F 6 "1k" V 9703 7520 50  0000 L CNN "Val"
-	1    9650 7450
+L artix-dc-scm:C_10u_0402 C250
+U 1 1 60157B3C
+P 3300 9400
+F 0 "C250" H 3400 9450 60  0000 L CNN
+F 1 "C_10u_0402" H 3300 9250 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3500 9600 60  0001 L CNN
+F 3 "" H 3300 9400 50  0001 C CNN
+F 4 "MURATA" H 3500 9800 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 3500 9700 60  0001 L CNN "MPN"
+F 6 "10u" H 3400 9350 50  0000 L CNN "Val"
+	1    3300 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:R_100k_0402 R68
+U 1 1 6018651A
+P 3300 8600
+F 0 "R68" V 3175 8650 60  0000 L CNN
+F 1 "R_100k_0402" H 3300 8450 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 3500 8800 60  0001 L CNN
+F 3 "" H 3300 8600 50  0001 C CNN
+F 4 "VISHAY" H 3500 9000 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 3500 8900 60  0001 L CNN "MPN"
+F 6 "100k" V 3400 8650 50  0000 L CNN "Val"
+	1    3300 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:R_100k_0402 R63
+U 1 1 601AB42F
+P 4975 8575
+F 0 "R63" H 5125 8525 60  0000 L CNN
+F 1 "R_100k_0402" H 4975 8425 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5175 8775 60  0001 L CNN
+F 3 "" H 4975 8575 50  0001 C CNN
+F 4 "VISHAY" H 5175 8975 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 5175 8875 60  0001 L CNN "MPN"
+F 6 "100k" H 4875 8575 50  0000 L CNN "Val"
+	1    4975 8575
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9650 7225 9575 7225
+	9275 7775 9950 7775
+$Comp
+L artix-dc-scm:R_100k_0402 R64
+U 1 1 6022B33D
+P 5075 8575
+F 0 "R64" H 5225 8525 60  0000 L CNN
+F 1 "R_100k_0402" H 5075 8425 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5275 8775 60  0001 L CNN
+F 3 "" H 5075 8575 50  0001 C CNN
+F 4 "VISHAY" H 5275 8975 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 5275 8875 60  0001 L CNN "MPN"
+F 6 "100k" H 4975 8575 50  0000 L CNN "Val"
+	1    5075 8575
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:R_100k_0402 R65
+U 1 1 6022B770
+P 5175 8575
+F 0 "R65" H 5325 8525 60  0000 L CNN
+F 1 "R_100k_0402" H 5175 8425 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5375 8775 60  0001 L CNN
+F 3 "" H 5175 8575 50  0001 C CNN
+F 4 "VISHAY" H 5375 8975 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 5375 8875 60  0001 L CNN "MPN"
+F 6 "100k" H 5075 8575 50  0000 L CNN "Val"
+	1    5175 8575
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	9650 7775 9950 7775
+	3300 8300 3300 8450
 Wire Wire Line
-	9650 7225 9650 7300
-Wire Wire Line
-	9650 7600 9650 7775
-Wire Wire Line
-	9650 7775 9650 7875
-Connection ~ 9650 7775
-Wire Wire Line
-	9650 7875 9275 7875
+	3300 8750 3300 9000
 $EndSCHEMATC
