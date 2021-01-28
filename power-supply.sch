@@ -253,35 +253,8 @@ Wire Wire Line
 Connection ~ 3875 4600
 Wire Wire Line
 	3875 4600 4000 4600
-Wire Wire Line
-	5200 3800 5375 3800
-Wire Wire Line
-	5775 3800 5775 3725
-$Comp
-L artix-dc-scm:R_100k_0402 R68
-U 1 1 60CF797E
-P 5775 3575
-F 0 "R68" V 5730 3645 60  0000 L CNN
-F 1 "R_100k_0402" H 5775 3425 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 5975 3775 60  0001 L CNN
-F 3 "" H 5775 3575 50  0001 C CNN
-F 4 "VISHAY" H 5975 3975 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 5975 3875 60  0001 L CNN "MPN"
-F 6 "100k" V 5828 3645 50  0000 L CNN "Val"
-	1    5775 3575
-	0    1    1    0   
-$EndComp
-Text GLabel 5775 3350 1    50   Input ~ 0
+Text GLabel 9575 7225 0    50   Input ~ 0
 VCC5V0
-Wire Wire Line
-	5775 3425 5775 3350
-Connection ~ 5375 3800
-Wire Wire Line
-	5375 3800 5775 3800
-Text GLabel 5375 3700 1    50   Input ~ 0
-PWR_GOOD
-Wire Wire Line
-	5375 3700 5375 3800
 $Comp
 L artix-dc-scm:C_100n_0402-artix-dc-scm C71
 U 1 1 60E0359F
@@ -1029,10 +1002,6 @@ Wire Wire Line
 	4100 8900 3925 8900
 Wire Wire Line
 	3925 8300 3925 8900
-Text Label 3350 9000 0    50   ~ 0
-PWR_EN
-Wire Wire Line
-	3350 9000 3725 9000
 $Comp
 L artix-dc-scm:C_10n_0402 C64
 U 1 1 6204B4B4
@@ -1395,8 +1364,6 @@ Wire Wire Line
 	5075 8275 5075 8350
 Text Notes 10250 10100 0    79   ~ 0
 Battery connector
-Text Notes 3625 8725 1    50   ~ 0
-DNP
 Wire Wire Line
 	9725 2300 9650 2300
 Wire Wire Line
@@ -1756,8 +1723,6 @@ F 3 "" H 10250 7975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10250 7975 10250 7875
-Text Label 9600 7775 0    50   ~ 0
-PWR_EN
 Wire Wire Line
 	9650 6575 9650 6675
 Connection ~ 9650 6575
@@ -1779,29 +1744,6 @@ Text GLabel 1625 2250 0    50   Input ~ 0
 P12V_AUX
 Text Notes 1300 925  0    118  ~ 24
 External 12V supply
-$Comp
-L artix-dc-scm:R_1k_0402 R62
-U 1 1 6003348A
-P 3725 8625
-F 0 "R62" H 3650 8725 60  0000 L CNN
-F 1 "R_1k_0402" H 3725 8475 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 3925 8825 60  0001 L CNN
-F 3 "" H 3725 8625 50  0001 C CNN
-F 4 "BOURNS" H 3925 9025 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1001GLF" H 3925 8925 60  0001 L CNN "MPN"
-F 6 "1k" H 3675 8625 50  0000 L CNN "Val"
-	1    3725 8625
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3725 8775 3725 9000
-Connection ~ 3725 9000
-Wire Wire Line
-	3725 9000 4100 9000
-Wire Wire Line
-	3725 8475 3725 8300
-Wire Wire Line
-	9950 7775 9600 7775
 $Comp
 L artix-dc-scm:R_66k5_0402 R77
 U 1 1 61771C2F
@@ -2002,8 +1944,6 @@ F 6 "2u2" H 2625 4125 50  0000 L CNN "Val"
 	1    2600 4225
 	1    0    0    -1  
 $EndComp
-Text GLabel 3725 8300 1    50   Input ~ 0
-VCC5V0
 Text GLabel 3925 8300 1    50   Input ~ 0
 VCC5V0
 Text GLabel 5075 8275 1    50   Input ~ 0
@@ -2060,13 +2000,13 @@ F 6 "0R" V 12432 7045 50  0000 L CNN "Val"
 	1    12425 6975
 	-1   0    0    1   
 $EndComp
-Text Label 12275 6975 2    50   ~ 0
+Text Label 11875 6975 0    50   ~ 0
 VCCINT_EN
-Text Label 12300 3425 2    50   ~ 0
+Text Label 11900 3425 0    50   ~ 0
 VCCAUX_EN
-Text Label 12250 1500 2    50   ~ 0
+Text Label 11900 1500 0    50   ~ 0
 VCCIO_EN
-Text Label 12300 5250 2    50   ~ 0
+Text Label 11950 5250 0    50   ~ 0
 VCCIO_EN
 Wire Wire Line
 	12550 1500 13225 1500
@@ -2641,7 +2581,7 @@ F 5 "ON Semiconductor" H 10525 2750 60  0001 L CNN "Manufacturer"
 	1    10325 1650
 	1    0    0    -1  
 $EndComp
-Text Label 12225 8700 2    50   ~ 0
+Text Label 11875 8700 0    50   ~ 0
 VCCIO_EN
 Text GLabel 9625 4750 0    50   Input ~ 0
 VCC5V0
@@ -2741,4 +2681,86 @@ F 5 "5040500291" H 1425 1475 50  0001 L BNN "MPN"
 	1    1425 1475
 	-1   0    0    -1  
 $EndComp
+$Comp
+L artix-dc-scm:C_1u5_0603 C250
+U 1 1 602E99A2
+P 3300 9400
+F 0 "C250" H 3415 9445 60  0000 L CNN
+F 1 "C_1u5_0603" H 3300 9250 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0603-cap" H 3500 9600 60  0001 L CNN
+F 3 "" H 3300 9400 50  0001 C CNN
+F 4 "TDK" H 3500 9800 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1E155K080AB" H 3500 9700 60  0001 L CNN "MPN"
+F 6 "1u5" H 3415 9347 50  0000 L CNN "Val"
+	1    3300 9400
+	1    0    0    -1  
+$EndComp
+Text Notes 3150 10350 1    50   ~ 0
+Delay capacitor calculated \nfrom datasheet (1) equation\n(now set as 0.26s delay)
+Wire Wire Line
+	3000 9000 3300 9000
+$Comp
+L artix-dc-scm:GND-artix-dc-scm #PWR0157
+U 1 1 6030F35C
+P 3300 9650
+F 0 "#PWR0157" H 3300 9400 50  0001 C CNN
+F 1 "GND" H 3305 9477 50  0000 C CNN
+F 2 "" H 3300 9650 50  0001 C CNN
+F 3 "" H 3300 9650 50  0001 C CNN
+	1    3300 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 9550 3300 9650
+Wire Wire Line
+	3300 9250 3300 9000
+Connection ~ 3300 9000
+$Comp
+L artix-dc-scm:TP_SMD1MM TP4
+U 1 1 6039CF8C
+P 5875 3800
+F 0 "TP4" V 5875 3675 50  0000 C CNN
+F 1 "TP_SMD1MM" H 5875 3700 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 6075 4000 60  0001 L CNN
+F 3 "" H 6075 4100 60  0001 L CNN
+	1    5875 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 9000 4100 9000
+Text Label 5450 3800 0    50   ~ 0
+5V0_PG
+Wire Wire Line
+	5200 3800 5775 3800
+Text Label 3000 9000 0    50   ~ 0
+5V0_PG
+Text Label 9275 7875 0    50   ~ 0
+5V0_PG
+$Comp
+L artix-dc-scm:R_1k_0402 R68
+U 1 1 604D1A37
+P 9650 7450
+F 0 "R68" V 9605 7520 60  0000 L CNN
+F 1 "R_1k_0402" H 9650 7300 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 9850 7650 60  0001 L CNN
+F 3 "" H 9650 7450 50  0001 C CNN
+F 4 "BOURNS" H 9850 7850 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 9850 7750 60  0001 L CNN "MPN"
+F 6 "1k" V 9703 7520 50  0000 L CNN "Val"
+	1    9650 7450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 7225 9575 7225
+Wire Wire Line
+	9650 7775 9950 7775
+Wire Wire Line
+	9650 7225 9650 7300
+Wire Wire Line
+	9650 7600 9650 7775
+Wire Wire Line
+	9650 7775 9650 7875
+Connection ~ 9650 7775
+Wire Wire Line
+	9650 7875 9275 7875
 $EndSCHEMATC
