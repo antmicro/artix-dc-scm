@@ -156,10 +156,6 @@ Wire Wire Line
 Wire Wire Line
 	8575 5625 8825 5625
 Wire Wire Line
-	9125 5725 8575 5725
-Wire Wire Line
-	9125 5825 8575 5825
-Wire Wire Line
 	7175 3125 6625 3125
 Wire Wire Line
 	7175 3225 6625 3225
@@ -781,4 +777,38 @@ Text GLabel 9125 3125 2    50   Input ~ 0
 ESPI_CLK_1V8
 Text GLabel 9125 3925 2    50   Input ~ 0
 ESPI_CS1_N_1V8
+$Comp
+L artix-dc-scm:TP_SMD1MM TP10
+U 1 1 60D49F2E
+P 9975 5750
+F 0 "TP10" V 9975 5650 50  0000 C CNN
+F 1 "TP_SMD1MM" H 9975 5650 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 10175 5950 60  0001 L CNN
+F 3 "" H 10175 6050 60  0001 L CNN
+	1    9975 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L artix-dc-scm:TP_SMD1MM TP11
+U 1 1 60D4A897
+P 9975 5850
+F 0 "TP11" V 9975 5750 50  0000 C CNN
+F 1 "TP_SMD1MM" H 9975 5750 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:Testpoint_smd_1mm" H 10175 6050 60  0001 L CNN
+F 3 "" H 10175 6150 60  0001 L CNN
+	1    9975 5850
+	0    1    1    0   
+$EndComp
+Text GLabel 10175 5750 2    50   Input ~ 0
+PECI_BMC
+Text GLabel 10175 5850 2    50   Input ~ 0
+PVCCIO_PECI
+Wire Wire Line
+	8575 5725 9125 5725
+Wire Wire Line
+	8575 5825 9125 5825
+Wire Wire Line
+	10075 5750 10175 5750
+Wire Wire Line
+	10175 5850 10075 5850
 $EndSCHEMATC
