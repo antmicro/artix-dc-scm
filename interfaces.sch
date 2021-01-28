@@ -3727,4 +3727,58 @@ F 3 "" H 6675 6725 50  0001 C CNN
 $EndComp
 Text Notes 8450 6275 0    118  ~ 24
 ESPI level translation
+$Comp
+L artix-dc-scm:C_100n_0402 C?
+U 1 1 603090F7
+P 6425 8100
+F 0 "C?" H 6540 8145 60  0000 L CNN
+F 1 "C_100n_0402" H 6425 7950 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6625 8300 60  0001 L CNN
+F 3 "" H 6425 8100 50  0001 C CNN
+F 4 "Walsin" H 6625 8500 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6625 8400 60  0001 L CNN "MPN"
+F 6 "100n" H 6540 8047 50  0000 L CNN "Val"
+	1    6425 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 603090FE
+P 6425 8250
+F 0 "#PWR?" H 6425 8000 50  0001 C CNN
+F 1 "GND" H 6430 8077 50  0000 C CNN
+F 2 "" H 6425 8250 50  0001 C CNN
+F 3 "" H 6425 8250 50  0001 C CNN
+	1    6425 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:C_100n_0402 C?
+U 1 1 603467A3
+P 6250 6575
+F 0 "C?" H 6365 6620 60  0000 L CNN
+F 1 "C_100n_0402" H 6250 6425 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6450 6775 60  0001 L CNN
+F 3 "" H 6250 6575 50  0001 C CNN
+F 4 "Walsin" H 6450 6975 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6450 6875 60  0001 L CNN "MPN"
+F 6 "100n" H 6365 6522 50  0000 L CNN "Val"
+	1    6250 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:GND #PWR?
+U 1 1 603467AA
+P 6250 6725
+F 0 "#PWR?" H 6250 6475 50  0001 C CNN
+F 1 "GND" H 6255 6552 50  0000 C CNN
+F 2 "" H 6250 6725 50  0001 C CNN
+F 3 "" H 6250 6725 50  0001 C CNN
+	1    6250 6725
+	1    0    0    -1  
+$EndComp
+Text GLabel 6425 7950 1    50   Input ~ 0
+VCC1V8
+Text GLabel 6250 6425 1    50   Input ~ 0
+VCC1V8
 $EndSCHEMATC
