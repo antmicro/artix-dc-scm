@@ -284,19 +284,6 @@ F 3 "" H 775 5350 50  0001 C CNN
 	1    775  5350
 	1    0    0    -1  
 $EndComp
-$Comp
-L artix-dc-scm:TPD6E05U06 D2
-U 1 1 64AC4AD0
-P 1650 5475
-F 0 "D2" V 1870 4797 50  0000 R CNN
-F 1 "TPD6E05U06" V 1779 4797 50  0000 R CNN
-F 2 "artix-dc-scm-footprints:TPD6E05U06" H 2850 5725 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" H 3150 5825 50  0001 C CNN
-F 4 "TPD6E05U06RVZR" V 1688 4797 50  0000 R CNN "MPN"
-F 5 "Texas Instruments" V 1597 4797 50  0000 R CNN "Manufacturer"
-	1    1650 5475
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2375 4625 1500 4625
 Wire Wire Line
@@ -327,13 +314,6 @@ Wire Wire Line
 	2000 4925 1325 4925
 Wire Wire Line
 	2100 5225 2100 5150
-Wire Wire Line
-	2100 5150 2200 5150
-Wire Wire Line
-	2200 5225 2200 5150
-Connection ~ 2200 5150
-Wire Wire Line
-	2200 5150 2350 5150
 $Comp
 L artix-dc-scm:GND-artix-dc-scm #PWR029
 U 1 1 64AECC53
@@ -3701,4 +3681,19 @@ F 6 "100n" H 9800 3900 50  0000 L CNN "Val"
 	1    9775 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L antmicroTVSDiodes:SP3011-06UTG D?
+U 1 1 60403953
+P 1650 5475
+F 0 "D?" V 1870 4897 50  0000 R CNN
+F 1 "SP3011-06UTG" V 1779 4897 50  0000 R CNN
+F 2 "antmicro-footprints:SON50P350X135X55-14N" H 2850 5725 50  0001 C CNN
+F 3 "" H 3150 5825 50  0001 C CNN
+F 4 "SP3011-06UTG" V 1688 4897 50  0000 R CNN "MPN"
+F 5 "Littlefuse" V 1597 4897 50  0000 R CNN "Manufacturer"
+	1    1650 5475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 5150 2350 5150
 $EndSCHEMATC
