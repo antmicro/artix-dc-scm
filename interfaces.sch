@@ -1681,41 +1681,41 @@ F 3 "" H 4975 8275 50  0001 C CNN
 	1    4975 8275
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3700 7650 0    50   Input ~ 0
-I3C[0]_SCL_3V3
-Text GLabel 3700 7050 0    50   Input ~ 0
-I3C[3]_SCL_3V3
 Text GLabel 3700 6950 0    50   Input ~ 0
-I3C[3]_SDA_3V3
-Text GLabel 3700 7250 0    50   Input ~ 0
-I3C[2]_SCL_3V3
-Text GLabel 3700 7150 0    50   Input ~ 0
-I3C[2]_SDA_3V3
-Text GLabel 3700 7450 0    50   Input ~ 0
-I3C[1]_SCL_3V3
-Text GLabel 3700 7350 0    50   Input ~ 0
-I3C[1]_SDA_3V3
+I3C[0]_SCL_3V3
 Text GLabel 3700 7550 0    50   Input ~ 0
+I3C[3]_SCL_3V3
+Text GLabel 3700 7650 0    50   Input ~ 0
+I3C[3]_SDA_3V3
+Text GLabel 3700 7350 0    50   Input ~ 0
+I3C[2]_SCL_3V3
+Text GLabel 3700 7450 0    50   Input ~ 0
+I3C[2]_SDA_3V3
+Text GLabel 3700 7150 0    50   Input ~ 0
+I3C[1]_SCL_3V3
+Text GLabel 3700 7250 0    50   Input ~ 0
+I3C[1]_SDA_3V3
+Text GLabel 3700 7050 0    50   Input ~ 0
 I3C[0]_SDA_3V3
 Text GLabel 3600 6350 0    50   Input ~ 0
 1V0_PG
 Text Label 3950 6800 2    50   ~ 0
 1V0_EN
-Text GLabel 5100 7650 2    50   Input ~ 0
-I3C[0]_SCL
-Text GLabel 5100 7550 2    50   Input ~ 0
-I3C[0]_SDA
-Text GLabel 5100 7450 2    50   Input ~ 0
-I3C[1]_SCL
-Text GLabel 5100 7350 2    50   Input ~ 0
-I3C[1]_SDA
-Text GLabel 5100 7250 2    50   Input ~ 0
-I3C[2]_SCL
-Text GLabel 5100 7150 2    50   Input ~ 0
-I3C[2]_SDA
-Text GLabel 5100 7050 2    50   Input ~ 0
-I3C[3]_SCL
 Text GLabel 5100 6950 2    50   Input ~ 0
+I3C[0]_SCL
+Text GLabel 5100 7050 2    50   Input ~ 0
+I3C[0]_SDA
+Text GLabel 5100 7150 2    50   Input ~ 0
+I3C[1]_SCL
+Text GLabel 5100 7250 2    50   Input ~ 0
+I3C[1]_SDA
+Text GLabel 5100 7350 2    50   Input ~ 0
+I3C[2]_SCL
+Text GLabel 5100 7450 2    50   Input ~ 0
+I3C[2]_SDA
+Text GLabel 5100 7550 2    50   Input ~ 0
+I3C[3]_SCL
+Text GLabel 5100 7650 2    50   Input ~ 0
 I3C[3]_SDA
 Wire Wire Line
 	5225 8150 5225 8275
