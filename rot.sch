@@ -1142,23 +1142,23 @@ SPI0_MISO
 Text GLabel 12275 5350 0    50   Input ~ 0
 SPI0_CLK
 Text GLabel 12675 5050 2    50   Input ~ 0
-PIRQ#
+TPM_PIRQ#
 Text GLabel 12675 5150 2    50   Input ~ 0
-RST
+TPM_RST
 Text GLabel 12675 5250 2    50   Input ~ 0
-GPIO
+TPM_GPIO
 Text GLabel 12675 5350 2    50   Input ~ 0
-PP
-Text GLabel 13125 5000 1    50   Input ~ 0
+TPM_PP
+Text GLabel 13200 5000 1    50   Input ~ 0
 VCC3V3
 Wire Wire Line
 	12275 5550 11650 5550
 Wire Wire Line
 	11650 5550 11650 5000
 Wire Wire Line
-	12675 5550 13125 5550
+	12675 5550 13200 5550
 Wire Wire Line
-	13125 5550 13125 5000
+	13200 5550 13200 5000
 Wire Wire Line
 	12275 5450 12150 5450
 Wire Wire Line

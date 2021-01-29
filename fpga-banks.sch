@@ -2552,4 +2552,16 @@ Wire Wire Line
 	4550 5150 4875 5150
 Wire Wire Line
 	4550 6750 4850 6750
+Text GLabel 6525 2750 0    50   Input ~ 0
+TPM_PIRQ#
+Text GLabel 4675 2650 2    50   Input ~ 0
+TPM_RST
+Text GLabel 6525 2850 0    50   Input ~ 0
+TPM_PP
+Text GLabel 4875 3750 2    50   Input ~ 0
+TPM_GPIO
+Wire Wire Line
+	6525 2750 6700 2750
+Wire Wire Line
+	4550 2650 4675 2650
 $EndSCHEMATC
