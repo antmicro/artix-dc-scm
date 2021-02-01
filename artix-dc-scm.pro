@@ -1,4 +1,4 @@
-update=Mon Jan 11 00:24:58 2021
+update=Mon 01 Feb 2021 16:27:51 CET
 version=1
 last_client=kicad
 [general]
@@ -250,17 +250,28 @@ dPairWidth=0.1
 dPairGap=0.2
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=Ethernet
+Clearance=0.1
+TrackWidth=0.11
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.5
+uViaDrill=0.1
+dPairWidth=0.11
+dPairGap=0.11
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=PCIe
-Clearance=0.11
+Clearance=0.1
 TrackWidth=0.11
 ViaDiameter=0.5
 ViaDrill=0.2
 uViaDiameter=0.5
 uViaDrill=0.2
-dPairWidth=0.11
-dPairGap=0.11
+dPairWidth=0.15
+dPairGap=0.1
 dPairViaGap=0.25
-[pcbnew/Netclasses/2]
+[pcbnew/Netclasses/3]
 Name=PCIe_inner
 Clearance=0.15
 TrackWidth=0.11
@@ -271,7 +282,7 @@ uViaDrill=0.1
 dPairWidth=0.11
 dPairGap=0.21
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
+[pcbnew/Netclasses/4]
 Name=USB
 Clearance=0.15
 TrackWidth=0.16
