@@ -2801,12 +2801,12 @@ F 6 "100n" H 9800 3900 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTVSDiodes:SP3011-06UTG D2
+L artix-dc-scm:SP3011-06UTG D2
 U 1 1 60403953
 P 1650 5475
 F 0 "D2" V 1870 4897 50  0000 R CNN
 F 1 "SP3011-06UTG" V 1779 4897 50  0000 R CNN
-F 2 "antmicro-footprints:SON50P350X135X55-14N" H 2850 5725 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:SON50P350X135X55-14N" H 2850 5725 50  0001 C CNN
 F 3 "" H 3150 5825 50  0001 C CNN
 F 4 "SP3011-06UTG" V 1688 4897 50  0000 R CNN "MPN"
 F 5 "Littlefuse" V 1597 4897 50  0000 R CNN "Manufacturer"
@@ -2816,12 +2816,12 @@ $EndComp
 Wire Wire Line
 	2100 5150 2350 5150
 $Comp
-L antmicroInterfaceControllers:FT4232HQ U19
+L artix-dc-scm:FT4232HQ U19
 U 1 1 606BA3E2
 P 7450 3475
 F 0 "U19" H 7450 5962 60  0000 C CNN
 F 1 "FT4232HQ" H 7450 5856 60  0000 C CNN
-F 2 "antmicro-footprints:FT4232HQ" V 7650 3675 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:FT4232HQ" V 7650 3675 60  0001 L CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 7650 3875 60  0001 L CNN
 F 4 "FTDI" H 7650 4625 60  0001 L CNN "Manufacturer"
 F 5 "FT4232HQ-TRAY" H 7650 4025 60  0001 L CNN "MPN"
@@ -2878,12 +2878,12 @@ Wire Wire Line
 Text GLabel 5175 1300 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroFerriteBeadsandChips:BLM15AG601SN1D FB2
+L artix-dc-scm:BLM15AG601SN1D FB2
 U 1 1 608E7382
 P 5425 2225
 F 0 "FB2" H 5575 2375 60  0000 C CNN
 F 1 "BLM15AG601SN1D" H 5250 2475 60  0000 C CNN
-F 2 "antmicro-footprints:0402-res" H 5625 2425 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5625 2425 60  0001 L CNN
 F 3 "" H 5625 2525 60  0001 L CNN
 F 4 "BLM15AG601SN1D" H 5625 2725 60  0001 L CNN "MPN"
 F 5 "Murata" H 5625 3325 60  0001 L CNN "Manufacturer"
@@ -2891,12 +2891,12 @@ F 5 "Murata" H 5625 3325 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroFerriteBeadsandChips:BLM15AG601SN1D FB1
+L artix-dc-scm:BLM15AG601SN1D FB1
 U 1 1 608E820C
 P 5175 2225
 F 0 "FB1" H 5325 2000 60  0000 C CNN
 F 1 "BLM15AG601SN1D" H 5000 2075 60  0000 C CNN
-F 2 "antmicro-footprints:0402-res" H 5375 2425 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 5375 2425 60  0001 L CNN
 F 3 "" H 5375 2525 60  0001 L CNN
 F 4 "BLM15AG601SN1D" H 5375 2725 60  0001 L CNN "MPN"
 F 5 "Murata" H 5375 3325 60  0001 L CNN "Manufacturer"
@@ -2904,12 +2904,12 @@ F 5 "Murata" H 5375 3325 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C149
+L artix-dc-scm:C_100n_0402 C149
 U 1 1 60A58C4A
 P 5000 4250
 F 0 "C149" H 5000 4175 60  0000 L CNN
 F 1 "C_100n_0402" H 5000 4100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5200 4450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 5200 4450 60  0001 L CNN
 F 3 "" H 5000 4250 50  0001 C CNN
 F 4 "Walsin" H 5200 4650 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5200 4550 60  0001 L CNN "MPN"
@@ -2918,12 +2918,12 @@ F 6 "100n" H 5000 4100 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C139
+L artix-dc-scm:C_100n_0402 C139
 U 1 1 60A592D7
 P 4925 5000
 F 0 "C139" H 4975 4925 60  0000 L CNN
 F 1 "C_100n_0402" H 4925 4850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5125 5200 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 5125 5200 60  0001 L CNN
 F 3 "" H 4925 5000 50  0001 C CNN
 F 4 "Walsin" H 5125 5400 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5125 5300 60  0001 L CNN "MPN"
@@ -2932,12 +2932,12 @@ F 6 "100n" H 4975 4850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C154
+L artix-dc-scm:C_4u7_0402 C154
 U 1 1 60A5A825
 P 5225 4250
 F 0 "C154" H 5275 4175 60  0000 L CNN
 F 1 "C_4u7_0402" H 5225 4100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5425 4450 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 5425 4450 60  0001 L CNN
 F 3 "" H 5225 4250 50  0001 C CNN
 F 4 "MURATA" H 5425 4650 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 5425 4550 60  0001 L CNN "MPN"
@@ -2963,12 +2963,12 @@ Wire Wire Line
 Wire Wire Line
 	5175 2725 6650 2725
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C162
+L artix-dc-scm:C_4u7_0402 C162
 U 1 1 60D61DB1
 P 5225 5000
 F 0 "C162" H 5275 4925 60  0000 L CNN
 F 1 "C_4u7_0402" H 5225 4850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5425 5200 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 5425 5200 60  0001 L CNN
 F 3 "" H 5225 5000 50  0001 C CNN
 F 4 "MURATA" H 5425 5400 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 5425 5300 60  0001 L CNN "MPN"
@@ -3065,12 +3065,12 @@ Wire Wire Line
 	5225 4700 5225 4850
 Connection ~ 4925 4700
 $Comp
-L antmicroTVSDiodes:TPD2E009 D15
+L artix-dc-scm:TPD2E009 D15
 U 1 1 60F9746D
 P 10900 2200
 F 0 "D15" V 10940 2330 60  0000 L CNN
 F 1 "TPD2E009" V 11046 2330 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-3" H 10950 2400 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:SOT-3" H 10950 2400 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 10900 2200 60  0001 C CNN
 F 4 "TPD2E009DRTR" H 10600 2500 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 10600 2600 50  0001 C CNN "Manufacturer"
@@ -3099,12 +3099,12 @@ Wire Wire Line
 Wire Wire Line
 	6650 3225 6225 3225
 $Comp
-L antmicroResistors0402:R_12k1_0402 R3
+L artix-dc-scm:R_12k1_0402 R3
 U 1 1 611329CE
 P 6100 3425
 F 0 "R3" H 6300 3550 60  0000 C CNN
 F 1 "R_12k1_0402" H 6100 3275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 3625 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 6300 3625 60  0001 L CNN
 F 3 "" H 6100 3425 50  0001 C CNN
 F 4 "MULTICOMP" H 6300 3825 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X1212FTL" H 6300 3725 60  0001 L CNN "MPN"
@@ -3133,12 +3133,12 @@ Wire Wire Line
 Text GLabel 5825 3725 0    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroResistors0402:R_10k_0402 R4
+L artix-dc-scm:R_10k_0402 R4
 U 1 1 61259875
 P 6100 3725
 F 0 "R4" H 6300 3850 60  0000 C CNN
 F 1 "R_10k_0402" H 6100 3575 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 3925 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 6300 3925 60  0001 L CNN
 F 3 "" H 6100 3725 50  0001 C CNN
 F 4 "VISHAY" H 6300 4125 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6300 4025 60  0001 L CNN "MPN"
@@ -3151,12 +3151,12 @@ Wire Wire Line
 Wire Wire Line
 	6250 3725 6650 3725
 $Comp
-L antmicroCrystals:ABM8G-12.000MHZ-18-D2Y-T Y1
+L artix-dc-scm:ABM8G-12.000MHZ-18-D2Y-T Y1
 U 1 1 612DEEAC
 P 6050 4800
 F 0 "Y1" H 5875 5225 31  0000 L CNN
 F 1 "ABM8G-12.000MHZ-18-D2Y-T" H 6244 4831 31  0001 L CNN
-F 2 "antmicro-footprints:KX-7" H 8150 4800 50  0001 C CNN
+F 2 "artix-dc-scm-footprints:KX-7" H 8150 4800 50  0001 C CNN
 F 3 "" H 8250 4900 50  0001 C CNN
 F 4 "ABM8G-12.000MHZ-18-D2Y-T " H 5875 5125 31  0000 L CNN "MPN"
 F 5 "Abracon" H 5875 5175 31  0000 L CNN "Manufacturer"
@@ -3168,12 +3168,12 @@ Wire Wire Line
 Wire Wire Line
 	6275 4725 6275 4800
 $Comp
-L antmicroCapacitors0402:C_18p_0402 C168
+L artix-dc-scm:C_18p_0402 C168
 U 1 1 6141201D
 P 6275 5000
 F 0 "C168" H 6390 5045 60  0000 L CNN
 F 1 "C_18p_0402" H 6275 4850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6475 5200 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 6475 5200 60  0001 L CNN
 F 3 "" H 6275 5000 50  0001 C CNN
 F 4 "MULTICOMP" H 6475 5400 60  0001 L CNN "Manufacturer"
 F 5 "MC0402N180J500CT" H 6475 5300 60  0001 L CNN "MPN"
@@ -3182,12 +3182,12 @@ F 6 "18p" H 6390 4947 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_18p_0402 C166
+L artix-dc-scm:C_18p_0402 C166
 U 1 1 61412CB4
 P 5700 5000
 F 0 "C166" H 5475 5025 60  0000 L CNN
 F 1 "C_18p_0402" H 5700 4850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5900 5200 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 5900 5200 60  0001 L CNN
 F 3 "" H 5700 5000 50  0001 C CNN
 F 4 "MULTICOMP" H 5900 5400 60  0001 L CNN "Manufacturer"
 F 5 "MC0402N180J500CT" H 5900 5300 60  0001 L CNN "MPN"
@@ -3348,12 +3348,12 @@ Connection ~ 7350 5450
 Wire Wire Line
 	7350 5450 7450 5450
 $Comp
-L antmicroResistors0402:R_22R_0402 R160
+L artix-dc-scm:R_22R_0402 R160
 U 1 1 616FD8E3
 P 8475 1325
 F 0 "R160" H 8675 1375 60  0000 C CNN
 F 1 "R_22R_0402" H 8475 1175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8675 1525 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 8675 1525 60  0001 L CNN
 F 3 "" H 8475 1325 50  0001 C CNN
 F 4 "VISHAY" H 8675 1725 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 8675 1625 60  0001 L CNN "MPN"
@@ -3362,12 +3362,12 @@ F 6 "22R" H 8475 1325 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R191
+L artix-dc-scm:R_22R_0402 R191
 U 1 1 616FDA5E
 P 8475 1425
 F 0 "R191" H 8675 1475 60  0000 C CNN
 F 1 "R_22R_0402" H 8475 1275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8675 1625 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 8675 1625 60  0001 L CNN
 F 3 "" H 8475 1425 50  0001 C CNN
 F 4 "VISHAY" H 8675 1825 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 8675 1725 60  0001 L CNN "MPN"
@@ -3376,12 +3376,12 @@ F 6 "22R" H 8475 1425 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R192
+L artix-dc-scm:R_22R_0402 R192
 U 1 1 616FDD0F
 P 8475 1525
 F 0 "R192" H 8675 1575 60  0000 C CNN
 F 1 "R_22R_0402" H 8475 1375 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8675 1725 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 8675 1725 60  0001 L CNN
 F 3 "" H 8475 1525 50  0001 C CNN
 F 4 "VISHAY" H 8675 1925 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 8675 1825 60  0001 L CNN "MPN"
@@ -3390,12 +3390,12 @@ F 6 "22R" H 8475 1525 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R193
+L artix-dc-scm:R_22R_0402 R193
 U 1 1 616FE050
 P 8475 1625
 F 0 "R193" H 8675 1675 60  0000 C CNN
 F 1 "R_22R_0402" H 8475 1475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8675 1825 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 8675 1825 60  0001 L CNN
 F 3 "" H 8475 1625 50  0001 C CNN
 F 4 "VISHAY" H 8675 2025 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 8675 1925 60  0001 L CNN "MPN"
@@ -3446,12 +3446,12 @@ NoConn ~ 8250 1725
 NoConn ~ 8250 1925
 NoConn ~ 8250 2025
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C169
+L artix-dc-scm:C_100n_0402 C169
 U 1 1 61A82266
 P 8525 4900
 F 0 "C169" H 8575 4825 60  0000 L CNN
 F 1 "C_100n_0402" H 8525 4750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8725 5100 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 8725 5100 60  0001 L CNN
 F 3 "" H 8525 4900 50  0001 C CNN
 F 4 "Walsin" H 8725 5300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 8725 5200 60  0001 L CNN "MPN"
@@ -3460,12 +3460,12 @@ F 6 "100n" H 8575 4750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C170
+L artix-dc-scm:C_100n_0402 C170
 U 1 1 61A82847
 P 8800 4900
 F 0 "C170" H 8850 4825 60  0000 L CNN
 F 1 "C_100n_0402" H 8800 4750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9000 5100 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 9000 5100 60  0001 L CNN
 F 3 "" H 8800 4900 50  0001 C CNN
 F 4 "Walsin" H 9000 5300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9000 5200 60  0001 L CNN "MPN"
@@ -3474,12 +3474,12 @@ F 6 "100n" H 8850 4750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C172
+L artix-dc-scm:C_100n_0402 C172
 U 1 1 61A82B82
 P 9050 4900
 F 0 "C172" H 9100 4825 60  0000 L CNN
 F 1 "C_100n_0402" H 9050 4750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9250 5100 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 9250 5100 60  0001 L CNN
 F 3 "" H 9050 4900 50  0001 C CNN
 F 4 "Walsin" H 9250 5300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9250 5200 60  0001 L CNN "MPN"
@@ -3488,12 +3488,12 @@ F 6 "100n" H 9100 4750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C173
+L artix-dc-scm:C_100n_0402 C173
 U 1 1 61A82DF7
 P 9300 4900
 F 0 "C173" H 9350 4825 60  0000 L CNN
 F 1 "C_100n_0402" H 9300 4750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9500 5100 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 9500 5100 60  0001 L CNN
 F 3 "" H 9300 4900 50  0001 C CNN
 F 4 "Walsin" H 9500 5300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9500 5200 60  0001 L CNN "MPN"
@@ -3502,12 +3502,12 @@ F 6 "100n" H 9350 4750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C174
+L artix-dc-scm:C_100n_0402 C174
 U 1 1 61A8330A
 P 9575 4900
 F 0 "C174" H 9625 4825 60  0000 L CNN
 F 1 "C_100n_0402" H 9575 4750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9775 5100 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 9775 5100 60  0001 L CNN
 F 3 "" H 9575 4900 50  0001 C CNN
 F 4 "Walsin" H 9775 5300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9775 5200 60  0001 L CNN "MPN"
@@ -3624,12 +3624,12 @@ Wire Wire Line
 Text GLabel 3625 4650 1    50   Input ~ 0
 1V8_FT
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C6
+L artix-dc-scm:C_100n_0402 C6
 U 1 1 61CC8949
 P 3625 4975
 F 0 "C6" H 3675 4900 60  0000 L CNN
 F 1 "C_100n_0402" H 3625 4825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3825 5175 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 3825 5175 60  0001 L CNN
 F 3 "" H 3625 4975 50  0001 C CNN
 F 4 "Walsin" H 3825 5375 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3825 5275 60  0001 L CNN "MPN"
@@ -3638,12 +3638,12 @@ F 6 "100n" H 3675 4825 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C7
+L artix-dc-scm:C_100n_0402 C7
 U 1 1 61CC8F84
 P 3900 4975
 F 0 "C7" H 3950 4900 60  0000 L CNN
 F 1 "C_100n_0402" H 3900 4825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4100 5175 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 4100 5175 60  0001 L CNN
 F 3 "" H 3900 4975 50  0001 C CNN
 F 4 "Walsin" H 4100 5375 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4100 5275 60  0001 L CNN "MPN"
@@ -3652,12 +3652,12 @@ F 6 "100n" H 3950 4825 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C107
+L artix-dc-scm:C_100n_0402 C107
 U 1 1 61CC931B
 P 4175 4975
 F 0 "C107" H 4225 4900 60  0000 L CNN
 F 1 "C_100n_0402" H 4175 4825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4375 5175 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 4375 5175 60  0001 L CNN
 F 3 "" H 4175 4975 50  0001 C CNN
 F 4 "Walsin" H 4375 5375 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4375 5275 60  0001 L CNN "MPN"
@@ -3666,12 +3666,12 @@ F 6 "100n" H 4225 4825 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C135
+L artix-dc-scm:C_100n_0402 C135
 U 1 1 61CC9660
 P 4450 4975
 F 0 "C135" H 4500 4900 60  0000 L CNN
 F 1 "C_100n_0402" H 4450 4825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4650 5175 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-cap" H 4650 5175 60  0001 L CNN
 F 3 "" H 4450 4975 50  0001 C CNN
 F 4 "Walsin" H 4650 5375 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4650 5275 60  0001 L CNN "MPN"
@@ -3751,12 +3751,12 @@ Wire Wire Line
 Wire Wire Line
 	7150 5450 7150 5375
 $Comp
-L antmicroResistors0402:R_22R_0402 R195
+L artix-dc-scm:R_22R_0402 R195
 U 1 1 61F53310
 P 8700 3025
 F 0 "R195" H 8950 3075 60  0000 C CNN
 F 1 "R_22R_0402" H 8700 2875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8900 3225 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 8900 3225 60  0001 L CNN
 F 3 "" H 8700 3025 50  0001 C CNN
 F 4 "VISHAY" H 8900 3425 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 8900 3325 60  0001 L CNN "MPN"
@@ -3765,12 +3765,12 @@ F 6 "22R" H 8700 3025 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R196
+L artix-dc-scm:R_22R_0402 R196
 U 1 1 61F53599
 P 8700 3125
 F 0 "R196" H 8950 3175 60  0000 C CNN
 F 1 "R_22R_0402" H 8700 2975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8900 3325 60  0001 L CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 8900 3325 60  0001 L CNN
 F 3 "" H 8700 3125 50  0001 C CNN
 F 4 "VISHAY" H 8900 3525 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 8900 3425 60  0001 L CNN "MPN"
