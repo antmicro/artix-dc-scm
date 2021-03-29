@@ -3746,4 +3746,8 @@ Wire Wire Line
 Connection ~ 4175 4825
 Wire Wire Line
 	4175 4825 3900 4825
+Wire Wire Line
+	7250 5450 7150 5450
+Wire Wire Line
+	7150 5450 7150 5375
 $EndSCHEMATC
