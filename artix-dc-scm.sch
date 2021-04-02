@@ -1216,23 +1216,45 @@ $EndBitmap
 $Comp
 L artix-dc-scm:oshw_logo N2
 U 1 1 6018E5CD
-P 5875 6875
-F 0 "N2" H 6069 6878 50  0000 L CNN
-F 1 "oshw_logo" H 6069 6787 50  0000 L CNN
-F 2 "artix-dc-scm-footprints:oshw-logo" H 5895 6635 50  0001 C CNN
-F 3 "" H 5875 6875 50  0001 C CNN
-	1    5875 6875
+P 5450 6425
+F 0 "N2" H 5644 6428 50  0000 L CNN
+F 1 "oshw_logo" H 5644 6337 50  0000 L CNN
+F 2 "artix-dc-scm-footprints:oshw-logo" H 5470 6185 50  0001 C CNN
+F 3 "" H 5450 6425 50  0001 C CNN
+	1    5450 6425
 	1    0    0    -1  
 $EndComp
 $Comp
 L artix-dc-scm:antmicro_logo N1
 U 1 1 6018E8C2
-P 5850 7175
-F 0 "N1" H 6064 7268 50  0000 L CNN
-F 1 "antmicro_logo" H 6064 7177 50  0000 L CNN
-F 2 "artix-dc-scm-footprints:antmicro-logo_scaled_20mm" H 5750 7425 50  0001 C CNN
-F 3 "" H 5850 7525 50  0001 C CNN
-	1    5850 7175
+P 5425 6725
+F 0 "N1" H 5639 6818 50  0000 L CNN
+F 1 "antmicro_logo" H 5639 6727 50  0000 L CNN
+F 2 "artix-dc-scm-footprints:antmicro-logo_scaled_20mm" H 5325 6975 50  0001 C CNN
+F 3 "" H 5425 7075 50  0001 C CNN
+	1    5425 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:PCB_Mount_Hole_2.9_5.5 MP1
+U 1 1 6082760E
+P 5450 7025
+F 0 "MP1" H 5658 7071 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.9_5.5" H 5658 6980 50  0000 L CNN
+F 2 "artix-dc-scm-footprints:M_2.9_5.5" H 6250 7725 50  0001 C CNN
+F 3 "" H 6400 7825 50  0001 C CNN
+	1    5450 7025
+	1    0    0    -1  
+$EndComp
+$Comp
+L artix-dc-scm:PCB_Mount_Hole_2.9_5.5 MP2
+U 1 1 60828DDA
+P 5450 7500
+F 0 "MP2" H 5658 7546 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.9_5.5" H 5658 7455 50  0000 L CNN
+F 2 "artix-dc-scm-footprints:M_2.9_5.5" H 6250 8200 50  0001 C CNN
+F 3 "" H 6400 8300 50  0001 C CNN
+	1    5450 7500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
