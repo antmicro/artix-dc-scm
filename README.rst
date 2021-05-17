@@ -4,7 +4,7 @@ Artix DC-SCM
 
 Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 
-.. figure:: img/artix-dc-scm.png
+.. figure:: img/artix-dc-scm.jpg
 
 Overview
 --------
