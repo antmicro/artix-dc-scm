@@ -42,7 +42,7 @@ Key Features
 Block diagram
 -------------
 
-.. figure:: img/diagram.png
+.. figure:: img/artix-dc-scm-diagram.png
 
 
 License
