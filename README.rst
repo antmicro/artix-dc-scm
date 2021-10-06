@@ -9,13 +9,13 @@ Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 Overview
 --------
 
-This repository contains design files of the Artix-7 Data Center Secure Control Module (DC-SCM).
-The main purpose of this platform is to provide open-source DC-SCM with Baseboard Management Controller (BMC) unit based on Xilinx Artix-7 FPGA family.
+This repository contains design files for an open-source Baseboard Management Controller (BMC) module based on the Xilinx Artix-7 FPGA family, designed in accordance with the Data Center Secure Control Module (DC-SCM) specification of Open Compute Project (OCP).
 The design files were prepared in KiCad.
-This design is now a Work in Progress.
+This design is complete and now undergoing bringup.
 
 Repository structure
 --------------------
+
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
@@ -34,7 +34,7 @@ Key Features
 * Host and client USB (over USB3300-EZK-TR PHY)
 * M.2 NVMe interface
 * 13x I2C buses, 4x I3C buses
-* dual UART 
+* 2x UART 
 * SPI connector
 * RoT module connector
 * TPM SPI connector
@@ -43,7 +43,6 @@ Block diagram
 -------------
 
 .. figure:: img/artix-dc-scm-diagram.png
-
 
 License
 =======
