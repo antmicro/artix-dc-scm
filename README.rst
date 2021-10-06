@@ -10,6 +10,7 @@ Overview
 --------
 
 This repository contains design files for an open-source Baseboard Management Controller (BMC) module based on the Xilinx Artix-7 FPGA family, designed in accordance with the Data Center Secure Control Module (DC-SCM) specification of Open Compute Project (OCP).
+
 The design files were prepared in KiCad.
 This design is complete and now undergoing bringup.
 
