@@ -4,6 +4,10 @@ Artix DC-SCM
 
 Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 
+.. image:: https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square
+   :target: https://opensource.antmicro.com/projects/artix-dc-scm 
+
+
 .. figure:: img/artix-dc-scm.jpg
 
 Overview
