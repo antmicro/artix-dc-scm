@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 10
 Title "Artix - Datacenter Secure Control Module (DC-SCM)"
 Date "2021-03-29"
-Rev "1.0.6"
+Rev "1.1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
