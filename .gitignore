@@ -15,7 +15,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-
+*backups*
 *.swp
 
 # Netlist files (exported from Eeschema)
