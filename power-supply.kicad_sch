@@ -6,8 +6,8 @@
 
   (title_block
     (title "Artix - Datacenter Secure Control Module (DC-SCM)")
-    (date "2023-06-06")
-    (rev "1.1.0")
+    (date "2023-08-09")
+    (rev "1.1.1")
   )
 
   (lib_symbols
@@ -6685,7 +6685,6 @@
     )
   )
 
-
   (junction (at 353.06 123.19) (diameter 0) (color 0 0 0 0)
     (uuid 044e8bfb-779b-4e88-bf3d-5567152dcd2c)
   )
@@ -9326,8 +9325,8 @@
     )
     (pin "1" (uuid 59512499-4ce9-4d79-bba0-3d4c099faef6))
     (pin "2" (uuid 262f52f1-a0c5-40b4-b5ce-6d868b9d5679))
-    (pin "SH" (uuid 5f5ca749-5b20-4af8-9c31-c675999826b1))
-    (pin "SH" (uuid 5f5ca749-5b20-4af8-9c31-c675999826b1))
+    (pin "SH" (uuid 5f5ca749-5b20-4af8-9c31-c675999826b2))
+    (pin "SH" (uuid 5f5ca749-5b20-4af8-9c31-c675999826b2))
   )
 
   (symbol (lib_name "R_0R_0402_4") (lib_id "antmicroResistors0402:R_0R_0402") (at 318.135 173.99 180) (unit 1)
@@ -9655,8 +9654,8 @@
     )
     (pin "1" (uuid 795845cd-48cd-4c6e-b14b-6c8bdc1079c6))
     (pin "2" (uuid 1fd78525-6a5f-4b15-8e15-90352cdf32bd))
-    (pin "SH" (uuid 768f1020-d31d-4e82-bc9d-feaa86dc9545))
-    (pin "SH" (uuid 768f1020-d31d-4e82-bc9d-feaa86dc9545))
+    (pin "SH" (uuid 768f1020-d31d-4e82-bc9d-feaa86dc9546))
+    (pin "SH" (uuid 768f1020-d31d-4e82-bc9d-feaa86dc9546))
   )
 
   (symbol (lib_id "antmicropower:GND") (at 62.23 208.28 0) (unit 1)

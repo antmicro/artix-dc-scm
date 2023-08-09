@@ -6,8 +6,8 @@
 
   (title_block
     (title "Artix - Datacenter Secure Control Module (DC-SCM)")
-    (date "2023-06-06")
-    (rev "1.1.0")
+    (date "2023-08-09")
+    (rev "1.1.1")
   )
 
   (lib_symbols
@@ -2010,7 +2010,6 @@
       )
     )
   )
-
 
   (junction (at 73.025 50.8) (diameter 0) (color 0 0 0 0)
     (uuid 0283130c-ae47-4097-bf6b-9b3d30a09a59)
