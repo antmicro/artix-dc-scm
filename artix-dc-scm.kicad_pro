@@ -130,7 +130,14 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1073150|1016000|af1e6f08-e7c5-4450-aac7-39340a1e3147|63b53655-7284-4bcc-b14e-8d1f99eaa46d",
+      "pin_to_pin|1073150|1016000|af1e6f08-e7c5-4450-aac7-39340a1e3147|7bc56f0b-f16c-4de3-8e9d-17c49a815bd6",
+      "pin_to_pin|1073150|1016000|af1e6f08-e7c5-4450-aac7-39340a1e3147|7c8ea256-8546-46f7-8df4-1a9e2f86c688",
+      "pin_to_pin|1073150|1016000|af1e6f08-e7c5-4450-aac7-39340a1e3147|aada5272-29df-4144-bb26-6afaafeb83d8",
+      "pin_to_pin|1073150|1016000|af1e6f08-e7c5-4450-aac7-39340a1e3147|f497f567-e2fa-4fe4-85a4-436adfebc563",
+      "pin_to_pin|1073150|1016000|af1e6f08-e7c5-4450-aac7-39340a1e3147|ff0b2dc2-38e6-460b-a53f-94f35e1b1e3d"
+    ],
     "meta": {
       "version": 0
     },
@@ -470,8 +477,6 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "nets": [
-          "DBG_USB_D_N",
-          "DBG_USB_D_P",
           "USB1_D_N",
           "USB1_D_P",
           "USB2_D_N",

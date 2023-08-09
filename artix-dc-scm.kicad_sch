@@ -11,43 +11,7 @@
   )
 
   (lib_symbols
-    (symbol "PCB_Mount_Hole_2.9_5.5_1" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "MP" (id 0) (at 2.54 0 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Value" "PCB_Mount_Hole_2.9_5.5_1" (id 1) (at 2.54 -2.54 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Footprint" "antmicro-footprints:mounting-hole-2.9mm-5.5mm" (id 2) (at 2.54 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 2.54 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (id 4) (at 2.54 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (id 5) (at 2.54 -12.7 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (symbol "PCB_Mount_Hole_2.9_5.5_1_0_1"
-        (circle (center 0 0) (radius 0.635)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "PCB_Mount_Hole_2.9_5.5_1_1_1"
-        (pin passive line (at -2.54 0 0) (length 1.27)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "antmicroMechanicalParts:PCB_Mount_Hole_2.9_5.5" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "antmicroMechanicalParts:PCB_Mount_Hole_2.9_5.5" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom no) (on_board yes)
       (property "Reference" "MP" (id 0) (at 2.54 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
@@ -65,6 +29,9 @@
       )
       (property "License" "Apache-2.0" (id 5) (at 2.54 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "DNP" "DNP" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "PCB_Mount_Hole_2.9_5.5_0_1"
         (circle (center 0 0) (radius 0.635)
@@ -766,7 +733,7 @@
     (pin "1" (uuid 87aa27ef-51a4-4c44-a7a7-971d071e1b67))
   )
 
-  (symbol (lib_name "PCB_Mount_Hole_2.9_5.5_1") (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_2.9_5.5") (at 279.4 163.195 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_2.9_5.5") (at 279.4 163.195 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000060828dda)
     (property "Reference" "MP2" (id 0) (at 277.495 161.9249 0)
@@ -928,6 +895,63 @@
   )
 
   (symbol_instances
+    (path "/00000000-0000-0000-0000-000060570c04/110a0c06-6df1-46ee-9273-6f6a69f1656a"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fd86beb/8807af6e-372a-47e4-979b-69f881c01b12"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060570c04/ba9dc0ee-fa1b-40ba-8e52-38047c06ce31"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060570c04/0ebf335e-9d59-4e8b-bfe4-2f11bdcd185a"
+      (reference "#FLG0105") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000614223a1/e8524a7a-d844-4217-825c-c893b4f0dee0"
+      (reference "#FLG0108") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000614223a1/bdeb440b-bec5-4c77-b9dd-1b7a0adb3bb7"
+      (reference "#FLG0109") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000614223a1/83c57889-c5e2-4fc1-98e1-136ff1b7aad0"
+      (reference "#FLG0110") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000614223a1/8cbf74d2-394e-400a-9462-4abe52c437af"
+      (reference "#FLG0111") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000614223a1/945984b6-f5dd-4015-a349-ece6fcfa4eaa"
+      (reference "#FLG0112") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000614223a1/36b8871e-4245-4db4-bebc-26ac1c26d65f"
+      (reference "#FLG0113") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000614223a1/8d636a95-bff8-4b4c-9b5e-81a73ed2c7c2"
+      (reference "#FLG0114") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000614223a1/0110b62c-aae0-451b-b3b3-03b6fd1c7ef7"
+      (reference "#FLG0115") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000614223a1/d7fe6778-0a59-4402-8cb5-89888e7f2b23"
+      (reference "#FLG0116") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fd86beb/0b3d2415-b3c5-42c6-a5a9-485f7f67194b"
+      (reference "#FLG0118") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fd86beb/c44c251a-b9f8-453f-93f5-fd081b73a2f8"
+      (reference "#FLG0119") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fd86beb/bbb58c58-d3ba-4d0e-86ec-0b362bcb5b5f"
+      (reference "#FLG0120") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fd86beb/2fa66d9f-0721-4587-afaa-caa74d43dedb"
+      (reference "#FLG0121") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fd86beb/04478968-18da-493d-83dd-4a2418ef03a6"
+      (reference "#FLG0122") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fd86beb/df75dd6f-03bf-489a-b897-3807d412d044"
+      (reference "#FLG0123") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005fd86ce4/2553da69-a43a-4147-b04b-d1bcce9922cc"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
@@ -2642,7 +2666,7 @@
       (reference "J13") (unit 1) (value "62000311121") (footprint "antmicro-footprints:PinHeader_1x3_P2.54_Drill1.1mm")
     )
     (path "/00000000-0000-0000-0000-00005fd86beb/00000000-0000-0000-0000-0000614d2866"
-      (reference "L1") (unit 1) (value "7447798720") (footprint "antmicro-footprints:L_4141_WE_PDF")
+      (reference "L1") (unit 1) (value "7447798720") (footprint "antmicro-footprints:L_WE-PDF")
     )
     (path "/00000000-0000-0000-0000-00005fd86beb/00000000-0000-0000-0000-0000605967ec"
       (reference "L2") (unit 1) (value "IHLP1212AEERR47M11") (footprint "antmicro-footprints:L_Vishay_IHLP-1212")
@@ -3419,7 +3443,7 @@
       (reference "U19") (unit 1) (value "FT4232H_QFN") (footprint "antmicro-footprints:QFN-64_1EP_9x9mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000060570c04/00000000-0000-0000-0000-00005ff94bcb"
-      (reference "U20") (unit 1) (value "KSZ9031RNXCA") (footprint "antmicro-footprints:QFN-48-1EP_7x7x0.9mm_P0.5mm_EP5x5mm")
+      (reference "U20") (unit 1) (value "KSZ9031RNXCA") (footprint "antmicro-footprints:QFN-48-1EP_7x7x0.9mm_P0.5mm_EP3.5x3.5mm")
     )
     (path "/00000000-0000-0000-0000-0000614223a1/00000000-0000-0000-0000-00006035bc0b"
       (reference "U21") (unit 1) (value "LSF0108RKSR") (footprint "antmicro-footprints:VQFN-20_1EP_4.5x2.5mm_P0.5mm")

@@ -1108,29 +1108,35 @@
       )
     )
     (symbol "antmicroPciConnectors:Bus_M.2_1-2199230-6" (in_bom yes) (on_board yes)
-      (property "Reference" "A" (id 0) (at 45.72 0 0)
+      (property "Reference" "J" (id 0) (at 45.72 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Value" "Bus_M.2_1-2199230-6" (id 1) (at 45.72 -2.54 0)
+      (property "Value" "Bus_M.2_1-2199230-6" (id 1) (at 45.72 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Footprint" "antmicro-footprints:Bus_M.2_Socket_Key_M_TE_1-2199230-6" (id 2) (at 45.72 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199230&DocType=Customer+Drawing&DocLang=English" (id 3) (at 45.72 -12.7 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Manufacturer" "TE Connectivity" (id 4) (at 45.72 -15.24 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "MPN" "1-2199230-6" (id 5) (at 45.72 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "antmicro-footprints:Bus_M.2_Socket_Key_M_TE_1-2199230-6" (id 2) (at 45.72 -5.08 0)
+      (property "Author" "Antmicro" (id 6) (at 45.72 -17.78 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199230&DocType=Customer+Drawing&DocLang=English" (id 3) (at 45.72 -7.62 0)
+      (property "License" "Apache-2.0" (id 7) (at 45.72 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Manufacturer" "TE Connectivity" (id 4) (at 45.72 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      (property "ki_keywords" "M.2 NGFF key M" (id 8) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MPN" "1-2199230-6" (id 5) (at 45.72 -12.7 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (id 6) (at 45.72 -15.24 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (id 7) (at 45.72 -17.78 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      (property "ki_description" "M.2 NGFF connector, key M" (id 9) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Bus_M.2_1-2199230-6_1_1"
         (rectangle (start 3.81 2.54) (end 26.67 -80.01)
@@ -1149,7 +1155,7 @@
           (name "PET3_N" (effects (font (size 1.27 1.27))))
           (number "11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 30.48 0 180) (length 3.81) hide
+        (pin passive line (at 30.48 0 180) (length 3.81)
           (name "3V3" (effects (font (size 1.27 1.27))))
           (number "12" (effects (font (size 1.27 1.27))))
         )
@@ -1181,11 +1187,11 @@
           (name "PER2_P" (effects (font (size 1.27 1.27))))
           (number "19" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 30.48 0 180) (length 3.81)
+        (pin passive line (at 30.48 0 180) (length 3.81) hide
           (name "3V3" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -59.69 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -44.45 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "20" (effects (font (size 1.27 1.27))))
         )
@@ -1193,7 +1199,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "21" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -60.96 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -45.72 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "22" (effects (font (size 1.27 1.27))))
         )
@@ -1201,7 +1207,7 @@
           (name "PET2_N" (effects (font (size 1.27 1.27))))
           (number "23" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -62.23 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -46.99 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "24" (effects (font (size 1.27 1.27))))
         )
@@ -1209,7 +1215,7 @@
           (name "PET2_P" (effects (font (size 1.27 1.27))))
           (number "25" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -63.5 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -59.69 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "26" (effects (font (size 1.27 1.27))))
         )
@@ -1217,7 +1223,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "27" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -64.77 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -60.96 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "28" (effects (font (size 1.27 1.27))))
         )
@@ -1229,7 +1235,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -66.04 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -62.23 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "30" (effects (font (size 1.27 1.27))))
         )
@@ -1237,7 +1243,7 @@
           (name "PER1_P" (effects (font (size 1.27 1.27))))
           (number "31" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -67.31 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -63.5 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "32" (effects (font (size 1.27 1.27))))
         )
@@ -1245,7 +1251,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "33" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -69.85 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -66.04 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "34" (effects (font (size 1.27 1.27))))
         )
@@ -1253,7 +1259,7 @@
           (name "PET1_N" (effects (font (size 1.27 1.27))))
           (number "35" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -71.12 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -67.31 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "36" (effects (font (size 1.27 1.27))))
         )
@@ -1261,7 +1267,7 @@
           (name "PET1_P" (effects (font (size 1.27 1.27))))
           (number "37" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -72.39 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -69.85 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "38" (effects (font (size 1.27 1.27))))
         )
@@ -1297,7 +1303,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "45" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -73.66 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -68.58 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "46" (effects (font (size 1.27 1.27))))
         )
@@ -1305,7 +1311,7 @@
           (name "PET0_N" (effects (font (size 1.27 1.27))))
           (number "47" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -58.42 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -41.91 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "48" (effects (font (size 1.27 1.27))))
         )
@@ -1341,7 +1347,7 @@
           (name "REFCLK_P" (effects (font (size 1.27 1.27))))
           (number "55" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -57.15 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -43.18 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "56" (effects (font (size 1.27 1.27))))
         )
@@ -1349,15 +1355,15 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "57" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -55.88 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -71.12 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "58" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -52.07 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -39.37 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -50.8 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -40.64 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "67" (effects (font (size 1.27 1.27))))
         )
@@ -1365,7 +1371,7 @@
           (name "SUSCLK" (effects (font (size 1.27 1.27))))
           (number "68" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -49.53 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -38.1 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "69" (effects (font (size 1.27 1.27))))
         )
@@ -1397,7 +1403,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "75" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 26.67 -68.58 180) (length 3.81) hide
+        (pin no_connect line (at 26.67 -64.77 180) (length 3.81) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
@@ -1406,8 +1412,12 @@
           (number "9" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 30.48 -74.93 180) (length 3.81)
-          (name "SHIELD" (effects (font (size 1.27 1.27))))
-          (number "SH" (effects (font (size 1.27 1.27))))
+          (name "MP" (effects (font (size 1.27 1.27))))
+          (number "MP1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 30.48 -74.93 180) (length 3.81) hide
+          (name "MP" (effects (font (size 1.27 1.27))))
+          (number "MP2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1552,20 +1562,26 @@
         )
       )
     )
-    (symbol "antmicropower:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
+    (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Value" "GND" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "GND" (id 1) (at 8.89 -5.08 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Footprint" "" (id 2) (at 8.89 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Datasheet" "" (id 3) (at 8.89 -12.7 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (symbol "GND_0_1"
+      (property "Author" "Antmicro" (id 4) (at 8.89 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (id 5) (at 8.89 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (symbol "GND_1_1"
         (polyline
           (pts
             (xy 0 0)
@@ -1578,9 +1594,7 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
+        (pin power_in line (at 0 0 270) (length 0)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -2351,7 +2365,8 @@
     (pin "75" (uuid 82925415-ceb3-402c-99f3-d882ee615250))
     (pin "8" (uuid 43c94689-d714-44e1-a2f2-27721aba19f9))
     (pin "9" (uuid 1e34080f-1457-47fe-a10f-439406523cb4))
-    (pin "SH" (uuid e463244c-7a39-4af1-b5f5-0a9787c4bf35))
+    (pin "MP1" (uuid 205b89da-43b6-4288-ad67-55d28f32f898))
+    (pin "MP2" (uuid 9d41d2c2-95a1-48ac-947e-60447342d778))
   )
 
   (symbol (lib_name "R_10k_0402_1") (lib_id "antmicroResistors0402:R_10k_0402") (at 118.745 51.435 270) (unit 1)
@@ -2977,6 +2992,12 @@
     (property "Datasheet" "" (id 3) (at 173.355 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Author" "Antmicro" (id 4) (at 182.245 148.59 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (id 5) (at 182.245 151.13 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
     (pin "1" (uuid 146ce7f9-5c22-4ab9-bd3f-a212d3e33310))
   )
 
@@ -2992,6 +3013,12 @@
     )
     (property "Datasheet" "" (id 3) (at 173.99 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Author" "Antmicro" (id 4) (at 182.88 76.835 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (id 5) (at 182.88 79.375 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid 7fb248e7-aa7d-4385-ac17-6d2695bc343d))
   )
